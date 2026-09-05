@@ -1,5 +1,19 @@
 # Fable 5.1: one concrete computation for Astra
 
+## Resume from existing evidence — 2026-09-05 update
+
+This remains the same single-session audit. Read the [pinned acceptance review, section 7](https://github.com/QingyunSun/Riemann-hypothesis-and-random-matrix/blob/055a4a0a1d85949139fa922c91bb8e5d0053dc17/research/reports/fable_task001_sync_review.md) before computing. It reviewed the original packet with SHA256 `745c6411355b163f429cbeaa96b7c1b681f8b36e6ec92152f74cba30739743f5`; the original task specification follows this update.
+
+Existing Fable artifacts are mirrored under `fable/overnight-2026-09-05/astra_tasks/task001/` in the shared repository. Match their fixed candidate and parameters before reuse.
+
+- Reuse covered same-ell, same-f `g=0` controls and fixed-vector results at `L=1000,10000,100000`.
+- Complete the independent exact rational norm and certificate audit; floating agreement alone is insufficient.
+- Add the explicit nonzero-rescaling check and `L=97` direct/sparse two-vector comparison.
+- Complete the `theta=0.98` check within the original cutoff batch and resource cap.
+- Supply the six-item arithmetic-obligations table and final report, referencing reused evidence.
+
+Do only uncovered work. A rerun needs a specific mismatch or missing verification. Do not expand the cutoff grid, open another session, or start subagents. Receipt of the earlier `FABLE_001` does not establish receipt of this packet.
+
 ## Mission and limits
 
 Use my **existing Fable 5.1 / Claude Code session** at its current selected mode. GPT-6 Astra leads the main research; your role is one independent computational audit.

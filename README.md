@@ -20,10 +20,11 @@ Every result must state its assumptions, proof status, primary references, repro
 * [Force-energy formulas](research/reports/force_energy.md) and [independent exact review](research/reports/force_energy_independent_review.md).
 * [Collision/marked counterexamples and source correction](research/reports/new_attachment_bridge_audit.md).
 * [Prime-gap certificate audit](research/reports/prime186.md) and [complementary-factorization frontier](research/reports/prime186_structural_frontier.md).
+* [New certified positive restoration credit and k=39 optimization](research/reports/prime186_round4.md): the fixed k=40 margin improves to 24.86626 ppm using inherited baseline bounds; the gap remains 186. Optimized k=39 cap-only data remain below one.
 * [Pinned Fable mirror and provenance](fable/README.md).
 * [One Fable computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery to the user's existing session. The earlier task was acknowledged and has F2 outputs; the newer packet has separate, unconfirmed receipt status.
 
-The public handoff combines 48 source documents. The historical papers retain known errors, explicitly corrected by the current audit. Neither their filenames nor their earlier status labels supersede the claim ledger.
+The public handoff combines 48 source documents at checkpoint `055a4a0`; subsequent research is linked above and recorded in the current state and ledger. The historical papers retain known errors, explicitly corrected by the current audit. Neither their filenames nor their earlier status labels supersede the claim ledger.
 
 ## Reproduce and verify
 

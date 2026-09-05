@@ -1,0 +1,19 @@
+{
+  "python": "3.12.9 (main, Mar 17 2025, 21:36:21) [Clang 20.1.0 ]",
+  "executable": "/Users/qingyunsun/.cache/astra-research/flint-3.6.0-patched/venv/bin/python",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "python_flint": "0.9.0",
+  "flint": "3.6.0",
+  "flint_module": "/Users/qingyunsun/.cache/astra-research/flint-3.6.0-patched/venv/lib/python3.12/site-packages/flint/__init__.py",
+  "official_source_sha256": "7f71bdefcfe3bb5ca76a143929b3cb3f4156c21dc483253cda3077420f1e5de4",
+  "checks": [
+    "original signed FFT regression passed unchanged",
+    "original floating point environment check passed unchanged",
+    "independent classical integer convolution comparisons passed"
+  ],
+  "full_products_checked": 467,
+  "truncated_products_checked": 2188,
+  "passed": true,
+  "seconds": 0.7966149160056375,
+  "scope": "Finite regression tests; not a proof of all library arithmetic or any prime-gap theorem."
+}

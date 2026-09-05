@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 15715,
-      "sha256": "716823c45370488aa36f6ceb1d9c7f69e727fbeea0ac964db7a267ae887cc311"
+      "bytes": 18474,
+      "sha256": "a1f2127f04f470ff892cb4acd45c93adb0a088cd54cebcc5e3ba3cb236253f13"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 6379,
-      "sha256": "f4bc91ed5e83e4c7351f61ab2ddf4bf9e8350810d3888866ae76bd3b9b208f20"
+      "bytes": 8048,
+      "sha256": "50bc375cd9b9b687bc437afdf020773d360b9edf493d7a4d4f2649093cdd1faa"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -252,6 +252,46 @@
       "sha256": "8cb228b90c7c0bfa3550e184da80aa17633cc5ce3a8ffa2678d6f76340378910"
     },
     {
+      "path": "research/logs/round4-integration/integration-k39-fixed.json",
+      "bytes": 970,
+      "sha256": "67f4ea7309ddce5df36b8dd98239111984a0dbf29d410e46832a4878350e5865"
+    },
+    {
+      "path": "research/logs/round4-integration/integration-k39-fixed.log",
+      "bytes": 970,
+      "sha256": "67f4ea7309ddce5df36b8dd98239111984a0dbf29d410e46832a4878350e5865"
+    },
+    {
+      "path": "research/logs/round4-integration/integration-kernels.log",
+      "bytes": 983,
+      "sha256": "a0300ce44b5b8856915074c7809bd5643ba1f2218660733de463408221743342"
+    },
+    {
+      "path": "research/logs/round4-integration/integration-margin.log",
+      "bytes": 1093,
+      "sha256": "ea36828b36fb09163db0b967afc3365840895245ab2a93f06e0da080f63ee2c8"
+    },
+    {
+      "path": "research/logs/round4-integration/integration-rectangle.log",
+      "bytes": 1388,
+      "sha256": "e40fdd6fea0301b5eab534f8a6f446bddba4d1af72b34a08ba5dbf484c2f56ae"
+    },
+    {
+      "path": "research/logs/round4-integration/integration-restoration.log",
+      "bytes": 9726,
+      "sha256": "25b71f9d5789a2ed6fd2fc5c82dd8d6d2b028885549c3f866a3a749b2ec481c3"
+    },
+    {
+      "path": "research/logs/round4-integration/integration-structure.log",
+      "bytes": 2430,
+      "sha256": "5f7bcc9934ad28da2f5a4f1cd6eff2a52e10f5f43e89300cd5dd687769789ebf"
+    },
+    {
+      "path": "research/logs/round4-integration/verification.json",
+      "bytes": 518,
+      "sha256": "56cc9d52bf8b0a6488df5f4ebf9aa372f94ac4e3651e050ab56e9b9fde4dbfec"
+    },
+    {
       "path": "research/logs/verify-codex-original.log",
       "bytes": 3788,
       "sha256": "9bf887ad0622acd8642c5a0580b38a14648dc36909f6c103f6c2d1949eca51a8"
@@ -382,6 +422,316 @@
       "sha256": "4ea859af67bbcfb986787093f7967da082e41ae06ad71032f2a69af36bf3b435"
     },
     {
+      "path": "research/prime-gaps/round4/INTAKE_MANIFEST.json",
+      "bytes": 23561,
+      "sha256": "8dc8bbd9dc5e3bb3da9dca3ea163ea38e900dfe006fa35cd4188e53bac84c97e"
+    },
+    {
+      "path": "research/prime-gaps/round4/independent-rectangle-recheck/alpha_credit.py",
+      "bytes": 9282,
+      "sha256": "a051c39c47cde4bd27bdf035c558af49cfe17b54bafea0e77a4463e217ba9108"
+    },
+    {
+      "path": "research/prime-gaps/round4/independent-rectangle-recheck/alpha_rectangle_certificate.json",
+      "bytes": 27030,
+      "sha256": "8e518917e0853d725edbfba9f7a9b1cc46960a70c4676cd0d827ef9a3b7f8f4f"
+    },
+    {
+      "path": "research/prime-gaps/round4/independent-rectangle-recheck/alpha_rectangle_certificate.log",
+      "bytes": 8427,
+      "sha256": "c8f17e3400e25c4e5c1a8c323115ec4f6492c28c0f86c236f6c44113ed8344a3"
+    },
+    {
+      "path": "research/prime-gaps/round4/independent-rectangle-recheck/certify_alpha_rectangle.py",
+      "bytes": 6725,
+      "sha256": "28260e465561a22f84599f22f095d592d34bd0cc0737ae2b56950c3052ddfab8"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/REPORT.md",
+      "bytes": 13612,
+      "sha256": "4c95f1f51767c736a5a48f4d58338ae6c617b9899ff18484fc915789a12a6be4"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/cap_trial.py",
+      "bytes": 14132,
+      "sha256": "ae402b8953fc6fafb9168acd8d48684f073839c879b395cf8429b4c9231cd1fd"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/check_structure.py",
+      "bytes": 2618,
+      "sha256": "cd312d6a2052f1ebd49986fdcac241c3cfa4ab7aa9a761a31e45876fd541b6c3"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/k39_n16384_tilt20_longdouble.json",
+      "bytes": 965,
+      "sha256": "019a69d5b34f34d883865be86829fa9c4eccff3b0ca249a82e890dbde04ef02f"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/k39_n98304_tilt20_longdouble.json",
+      "bytes": 971,
+      "sha256": "075d44f1a18a71691c23ab36cd00814353b320a3a19025d8e4b581432a12f973"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/k39_n98304_tilt25_longdouble.json",
+      "bytes": 970,
+      "sha256": "00defdf0d16b46fe8fd286880d2d19564cb3c8f02401caa59e972f529de83a09"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/k40_n16384_tilt20_longdouble.json",
+      "bytes": 967,
+      "sha256": "bcc3aa64454af611f0932e2495d35cda32151d2b9775331839771c5bea44ed50"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/k40_n4096_tilt20_longdouble.json",
+      "bytes": 957,
+      "sha256": "d12ae3022f5ec58b4c93a293f2a85eff2298d08b2984ed15db8a42bbfff7eebe"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/k40_n98304_tilt20_longdouble.json",
+      "bytes": 970,
+      "sha256": "03f48e48a8ba2f941389f567b630af35470f21f78102af943a82bef0284d4e6b"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/optimize_cap.py",
+      "bytes": 7659,
+      "sha256": "8fea79983b292a3e14430cfcfaf497e34bb13cd982f864459ccb209bd6a430fd"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/ritz_k39_n16384.json",
+      "bytes": 14057,
+      "sha256": "e96b3ea379a45b3169979a772920b0501aceb9b2479be40fc3b16c74551cc8df"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/ritz_k39_n16384.npz",
+      "bytes": 40497,
+      "sha256": "459d76222e16efa2a88be0df657e11ed8b34082bde0ccf461452f4f183666e86"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/ritz_k39_n98304.json",
+      "bytes": 14082,
+      "sha256": "c2bcb872fb3826460d86e05a726b1bceae39d2738aff4b94e1315cb9945afac6"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/ritz_k39_n98304.npz",
+      "bytes": 40507,
+      "sha256": "7319f11601dcac75f92ca965aea3f04a1d515ac1e8d8cd971dfddfd399a82607"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/ritz_k40_n98304.json",
+      "bytes": 14089,
+      "sha256": "4c654976018215a6b77a0b6965d9c81c91d7225c67b7617b8ed5200ec7eb8dcd"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/ritz_k40_n98304.npz",
+      "bytes": 40470,
+      "sha256": "dec4cd49ccd78eda4d081f62eea5a7b7c2b85c680ebf3c21e4ce209886a28aba"
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/structural_check_results.json",
+      "bytes": 2430,
+      "sha256": "5f7bcc9934ad28da2f5a4f1cd6eff2a52e10f5f43e89300cd5dd687769789ebf"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_credit.py",
+      "bytes": 9282,
+      "sha256": "a051c39c47cde4bd27bdf035c558af49cfe17b54bafea0e77a4463e217ba9108"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_credit_margin_replay.json",
+      "bytes": 1093,
+      "sha256": "ea36828b36fb09163db0b967afc3365840895245ab2a93f06e0da080f63ee2c8"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_credit_p16.json",
+      "bytes": 4261,
+      "sha256": "6011e05140169f07874c0534ea0db3e26be30e9d57be9d3e3f192120e4be9aa8"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_credit_p20.json",
+      "bytes": 10658,
+      "sha256": "15bbff5445106ffeb1f211cdc512371474c185fb05d2c9a18fe1c380a79d23b1"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_certificate.json",
+      "bytes": 27030,
+      "sha256": "009b6e23a124f8ff815c2f93da101ad7ebfbbf63dc1c2748936bdfb29c257e16"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_certificate.log",
+      "bytes": 8429,
+      "sha256": "c0a83da2ec2da19d225a576a291e893c211254f73d61820a02966bcf2ca37c86"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_kernel_checks.json",
+      "bytes": 983,
+      "sha256": "a0300ce44b5b8856915074c7809bd5643ba1f2218660733de463408221743342"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_p19.json",
+      "bytes": 6427,
+      "sha256": "55b4b934c25a178e4dfb0fc2fcef9fc6bfeffa1e36216cb01d6b35e71915cead"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_tilt35.json",
+      "bytes": 6432,
+      "sha256": "b843ec07d5f12ff8b475383fb93ac7dd76528865337902173a3180af28110620"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_tilt35.log",
+      "bytes": 3882,
+      "sha256": "e0d528a238fd5d37620bfd68bb66e594c0871e9a75b155b4855175cce50f93d1"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/artifact_manifest.json",
+      "bytes": 2698,
+      "sha256": "6eca62b4b606debebcfbb593ea921b204e139905c932bfa9c0ca3515e1705d9d"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/certify_alpha_rectangle.py",
+      "bytes": 6725,
+      "sha256": "28260e465561a22f84599f22f095d592d34bd0cc0737ae2b56950c3052ddfab8"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/exact_cell_anchor.json",
+      "bytes": 912,
+      "sha256": "f891863db09c5ba66f65cdadec9ab66e6e0c7d13dab30ba8bb8bb08dd52ee572"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/exact_cell_anchor.py",
+      "bytes": 3076,
+      "sha256": "a645bd173f5fcc8e043ffd2ca64d17fbae41ed474d52913dd8dad7bf4ff6599f"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/prime_alpha_credit.md",
+      "bytes": 15421,
+      "sha256": "59791f04d6917f447382083612eea4c311f3ec74cb427c37cbac49619ba046ec"
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/replay_credit_margin.py",
+      "bytes": 1549,
+      "sha256": "7ea24cbcde545630ae8a196a780ac870a9f4ef0e4c7f5be4946437781db11747"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/README.md",
+      "bytes": 5856,
+      "sha256": "4612dce4b1824923b559ee988f531c6a65c01f2cf46214a4e72261c1dffb04b8"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/binding-targeted-tests.log",
+      "bytes": 247,
+      "sha256": "03aca4e76bdb250172bdd229b8b512ae3ebd8ca3b426b36e40e018537c988c09"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/build.log",
+      "bytes": 210459,
+      "sha256": "c7cc8302673c2fd719eb43c7929c561385ae2de746aa19563bd944ea606273fa"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/build_python_binding.sh",
+      "bytes": 1065,
+      "sha256": "113ee5ff8af1dd444079baf0624ec48b55db28b24e655d1d2d6f318fe0321b82"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/build_runtime.sh",
+      "bytes": 1505,
+      "sha256": "8e1e498b63f8678ddfe1c1a4a08dbc1c92552cacbab4c496cb532fa07fb0e877"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/corrected-runtime-check.json",
+      "bytes": 917,
+      "sha256": "6ff7ff3aa707955cd623b8759e19ec8dd7735da4c17fa7b99ae7cf9a11668627"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/linked-library.txt",
+      "bytes": 370,
+      "sha256": "a94175d9fd4ec0689929eb7dcfa1af5c346e8fd1b7a9e16a8972502f32a11eec"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/native-arb-tests.log",
+      "bytes": 27412,
+      "sha256": "bff468e03af07f8556b3c482627e54273972ea3ebcd1d7201ff89f5c2edf4001"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/negative-wheel-control.json",
+      "bytes": 954,
+      "sha256": "b374afda5adc234ff8b4435d1adcf6c44bbc962c911c0f6df412c3e0fe3959da"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/python-build-gmp-path.log",
+      "bytes": 289,
+      "sha256": "2b6974f985fbb8268c1c2190b01ab51e708746cf71ad90810d2efec8fcacff4a"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/python-build-macos.log",
+      "bytes": 14663,
+      "sha256": "1f7525a6bd2848d55cf95259314f6660dd75fed5d10e2d74ccffdebdca19183e"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/python-build-retry.log",
+      "bytes": 14903,
+      "sha256": "9de29b25eb598762ea6934014e35f8a18dd4acd18c2d4977a9f781ca15a683e9"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/python-build.log",
+      "bytes": 284,
+      "sha256": "3568f1c0e4afd108ab4253347eedaddbe457987cbb5bb528b58a197286e8f122"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/python-flint-tests-verbose.log",
+      "bytes": 2632,
+      "sha256": "b6b3b722c788b66b42e75cf0685de087b363616134537118c13d3a17663dcdb3"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/python-flint-tests.log",
+      "bytes": 80,
+      "sha256": "40de95aa134e2c7724022984a6097336da27a52a4ec8d7e2491a224ade5aae96"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/runtime-provenance.json",
+      "bytes": 1442,
+      "sha256": "8af0ce6426755e59eb3bf2943540a2d2f7b17347e662877eee2949af4691c6ad"
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/signed_convolution_check.py",
+      "bytes": 4179,
+      "sha256": "4bb4eb669827c5298d5ee3cd5acb014c63f28cc7317bf27b72e27eec8be72f0a"
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/ALPHA_RECTANGLE_INDEPENDENT_REVIEW.md",
+      "bytes": 13726,
+      "sha256": "22796ab5c24508df097e913595f76519d5fe7002df75de7584653142e2e7c196"
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/RESTORATION_PROOF_AUDIT.md",
+      "bytes": 18274,
+      "sha256": "fbbaa5293ea486e643cecc78d7651487448b54f3dbe0840cce8ac61d4089645f"
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/rectangle_independent_checks.json",
+      "bytes": 1388,
+      "sha256": "e40fdd6fea0301b5eab534f8a6f446bddba4d1af72b34a08ba5dbf484c2f56ae"
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/rectangle_independent_checks.py",
+      "bytes": 4949,
+      "sha256": "7f4884e9d9355bdcce7afaa978432845fe80174c642eba01196fced1995a2fd1"
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/restoration_checks.json",
+      "bytes": 9726,
+      "sha256": "25b71f9d5789a2ed6fd2fc5c82dd8d6d2b028885549c3f866a3a749b2ec481c3"
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/restoration_checks.log",
+      "bytes": 9726,
+      "sha256": "25b71f9d5789a2ed6fd2fc5c82dd8d6d2b028885549c3f866a3a749b2ec481c3"
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/restoration_checks.py",
+      "bytes": 6352,
+      "sha256": "f975b2618dd100e7fdbdc64befb359548a0f81358b7a41799404e12caeb51e79"
+    },
+    {
       "path": "research/prime-gaps/tuple_k40_d184.smt2",
       "bytes": 103527,
       "sha256": "2b06cc48f9d31359e97590f3e5a24e86bab8336b99f51a294f75f5a34dfe5463"
@@ -480,6 +830,11 @@
       "path": "research/reports/prime186.md",
       "bytes": 16516,
       "sha256": "0b4c921d5facba4d079b1c9a54a6958aed18c63be074aa6032cc1310fa7b6e1a"
+    },
+    {
+      "path": "research/reports/prime186_round4.md",
+      "bytes": 11258,
+      "sha256": "ef0b060fc8bb1ac91844e08ac540973634ceb6f9ca2d64da3f8ef32f66855565"
     },
     {
       "path": "research/reports/prime186_structural_frontier.md",
@@ -1078,8 +1433,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 2132,
-      "sha256": "4dfeb5059b4f9bf080866aebf76478c2eb7a396f920dbb0317ce492babc55be1"
+      "bytes": 2438,
+      "sha256": "2712ea6127defb6320a7be703f1fed650d40a9b314c146d57c5d3d6e9232883e"
     },
     {
       "path": "docs/handoff/ASTRA_LATEST_SUPPLEMENT.md",
@@ -1113,8 +1468,8 @@
     },
     {
       "path": "tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md",
-      "bytes": 10739,
-      "sha256": "219365eea3d037e3889375a6cdecedba884535d2e33651962b6ef65604b3dbee"
+      "bytes": 12129,
+      "sha256": "0dd20005d803e9e87bb5ea45dfdd7d35faf8ff7fbb81a0ea688b8981847f4986"
     },
     {
       "path": "output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf",

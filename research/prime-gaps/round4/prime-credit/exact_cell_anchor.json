@@ -1,0 +1,27 @@
+{
+  "status": "exact rational positive lower bound proved",
+  "alpha_over_published_I_upper_lower": "1/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "scientific_lower": "1e-197",
+  "purpose": "Strict positivity and normalization anchor only; far too small to improve a useful sieve margin.",
+  "hZ_upper": "11/500",
+  "hZ_rational_Riemann_upper": "344518335917163949934426555967673/16127932416000000000000000000000000",
+  "official_grid_step": "2742997/258046918656",
+  "seed_interval_cells": [
+    "900",
+    "9001/10"
+  ],
+  "p_interval_cells": [
+    "27500",
+    "275001/10"
+  ],
+  "q_interval_cells": [
+    "34000",
+    "340001/10"
+  ],
+  "radial_index_sum": 97500,
+  "owner_counts": [
+    1560,
+    40
+  ],
+  "elapsed_seconds": 0.04735904099652544
+}

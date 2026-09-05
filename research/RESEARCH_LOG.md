@@ -123,3 +123,19 @@ The user's Weijie Su link returns HTTP403 in this session. Its supplied structur
 A live PR11 check found source head `a408e7050fffc74459b3c83fafa5ac03c8b7dea6`. Its coordination note acknowledges the earlier FABLE_001 task from Astra commit 97df092, and F2 continuum/finite-sum files are present. The intended final task001_report.md is absent at this source head. The newer bounded packet has a separate receipt status; no complete execution of it is inferred.
 
 The 81 existing public files are mirrored byte-for-byte under `fable/overnight-2026-09-05/`, with SHA-256 provenance. Most proposed heat/function-field/LR report filenames are not yet present. Their scripts and plans are evidence of work, not completed proofs. Independent Astra intake reviews record their exact scope and any issues. This synchronization starts no Claude session, agent or follow-up task. Historical instructions in the mirror remain source data.
+
+## 2026-09-05: a new certified positive deletion credit
+
+The next experiment addressed an actual omitted positive term in Proposition4.6. A disjoint, ordered two-fragment event violates a retained source row and lies inside the official cap domain. Restricting residual coordinate totals below the fragment cutoff removes Dickman uncertainty. Constant lower reciprocal-mark densities turn the new cell kernels into exact rational box volumes; both same-coordinate and different-coordinate owners are retained.
+
+A corrected source-built FLINT runtime passed the unchanged mandatory regression. The 53-term outward square contraction proves a normalized credit exceeding1.5058119471ppm. Independent integer-cell/Eulerian kernel reconstruction and the measure/geometry proof audit pass. A separate process reproduces all53 interval terms and final rational endpoints exactly. Combining with the original published bounds increases the same k40 margin from23.36045 to24.86626ppm. No sub186 bound follows.
+
+The runtime record preserves the previously failing wheel, upstream fix, source hashes, successful native/binding checks and a separately diagnosed full binding-suite Jacobi assertion. No checks were disabled and the official certificate was unchanged. Evidence: `reports/prime186_round4.md` and `prime-gaps/round4/`.
+
+## 2026-09-05: finite k39 optimization identifies the next deficit
+
+An independent cap engine, calibrated against the official k40 denominator interval, evaluates the original vector at k39 with quotient0.994361581476018. All77 coefficients were then optimized on the same official grid and physical caps. Independent scalar reevaluation of the returned vector gives0.994396399364491, leaving5603.60ppm below one. The matrix is ill-conditioned, so this remains a numerical candidate search and does not prove a family-wide upper bound.
+
+The measured scale rules out treating the demonstrated few-ppm k40 credit as a solution for the inherited k39 vector. It does not cap all possible credit or support changes. The next bounded investigation changes radius/plateau geometry and recomputes affected source constants, rather than rescanning the same fixed vector. Exact signed projection identities also reveal that a generic completed-square estimate is worse than the current Young loss without certified cancellation; the separate inner-overlap correction is quantitatively tiny for the published trial.
+
+The Fable hand-delivery packet received the coordinator's reuse-evidence prefix. The existing public mathematical task body and prior receipt note remain unchanged. No new Fable session, dispatch or receipt is inferred. The 333-page handoff remains an immutable earlier checkpoint; this new research is a separately linked update.

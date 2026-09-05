@@ -1,0 +1,38 @@
+{
+  "status": "integer geometry and kernel invariants passed",
+  "source_sha256": "7f71bdefcfe3bb5ca76a143929b3cb3f4156c21dc483253cda3077420f1e5de4",
+  "grid_step": "2742997/258046918656",
+  "B": 18800,
+  "P": [
+    26400,
+    29100
+  ],
+  "Q": [
+    32400,
+    36700
+  ],
+  "first_accepted_radial_index": 95639,
+  "last_accepted_radial_index": 98263,
+  "failure_margin": "3599497850331/3527971776056320",
+  "kernel_denominators": [
+    1,
+    58200,
+    73400,
+    6407820000
+  ],
+  "kernel_numerator_sums": [
+    18800,
+    101520000,
+    161680000,
+    1309608000000
+  ],
+  "kernel_nonnegative": true,
+  "exact_mass_conservation": true,
+  "owner_factor_test": true,
+  "kernel_sha256": [
+    "b88eab81e1a1d58257fc3b56b5ca861adb16cab6450147bbff7630b30293f745",
+    "9910cb497092105abda3cff84bf40c2ea897dae17de53feaa0d9f836686f2259",
+    "c1f902b7a5683838526c9a36e279515db3ae1880b5fd6cf526573b691fc6f0f8",
+    "13cd4e3136e6b04b0a9ec005c7adacb3733f665a6781c002cfe60d9ab6a6360a"
+  ]
+}

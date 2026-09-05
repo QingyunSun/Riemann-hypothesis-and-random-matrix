@@ -18,10 +18,14 @@ Under RH, prove a genuine zeta-zero normalized gap result below 1/2, preferably 
 - Exact counterexamples repair the initial-minimum-gap collision identity and reject an unrestricted marked-inverse-to-susceptibility-blowup implication.
 - The .606894 Lagarias–Rodgers source relation is explicitly corrected: suggested adaptation, not a proof in that passage.
 
+- Round 4 certifies a new positive outer-deletion credit exceeding 1.5058119471 ppm on the published k=40 trial. Combining it with inherited published cap/loss bounds increases the complete lower margin from 23.36045 to 24.86626 ppm; 186 is unchanged. An independent proof audit and a separate-process exact endpoint replay agree.
+- A full 77-coefficient k=39 cap-only optimization on the official grid gives a directly reevaluated quotient 0.99439639936, still about 5603.60 ppm below one. This is a floating diagnostic with an ill-conditioned Gram matrix, not a rigorous family upper bound. Changing the support geometry is now more useful than repeating that coefficient search.
+- The isolated FLINT runtime passes the original certificate's signed-convolution check and native integer/polynomial/Arb suites. A separate full Python binding suite Jacobi assertion is documented; assertions are retained, and the credit calculation uses no Jacobi calls.
+
 ## Active responsibilities
 
-- Astra: new arithmetic mixed-term estimates, exact limitations of the diagonal operator, main proof dependency decisions and integration.
-- Internal research agents: bounded, distinct arithmetic and proof-audit obligations.
+- Astra: main proof dependency decisions and integration, with the current bounded computation focused on a valid k=39 support change.
+- Internal research agents: radius/plateau geometry screening, independent source-admissibility audit, and an exact variable-radius exceptional-square constant derived from the existing counting argument. New geometric points must pay their actual constants and restoration costs.
 - Fable: [one computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery by the user. The earlier FABLE_001 task was acknowledged in the existing Fable session and has committed F2 outputs at old-repo commit a408e705; the final task report is not yet present. Receipt of the newer bounded packet remains unconfirmed. The earlier Claude MCP request failed OAuth401; it did not provide a review. No further Claude calls or sessions are authorized beyond the user's existing session.
 
 The single Fable task is independent continuum-certificate and fixed-vector finite-sum verification, including L=97 direct-versus-sparse and cutoffs through L=10^5. It ends after its report, with no automatic next task.

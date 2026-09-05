@@ -1,0 +1,36 @@
+{
+  "status": "exploratory cap-only; no outward enclosure or support restoration",
+  "k": 39,
+  "inner_dimension": 38,
+  "intervals": 98304,
+  "convolution_length": 98265,
+  "dtype": "float64",
+  "tilt": 25.0,
+  "denominator_tilted_normalization": 2915500534.7650976,
+  "denominator_original_normalization": 8.60722527429539e-14,
+  "J_regions_over_I": {
+    "base": 3.780455375344218,
+    "plus": 0.007728822713121238,
+    "tail": 0.06588020236568345
+  },
+  "rho_J_over_I": 0.9943615814760137,
+  "cap_gap_to_one": 0.005638418523986277,
+  "denominator_absolute_contraction_ratio": 182.56617676822174,
+  "face_absolute_contraction_ratios": [
+    93.39378010388985,
+    529.9792826561192,
+    1032.557315619234
+  ],
+  "fft_convolutions": 3273,
+  "seconds": 10.481808083015494,
+  "aligned_cap_indices": [
+    35265,
+    35419,
+    44781,
+    44976,
+    46580,
+    49152,
+    68225
+  ],
+  "source_sha256": "7f71bdefcfe3bb5ca76a143929b3cb3f4156c21dc483253cda3077420f1e5de4"
+}

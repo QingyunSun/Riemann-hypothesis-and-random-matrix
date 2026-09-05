@@ -40,3 +40,13 @@ All paths are relative to the repository root. The public reports contain the de
 | RITZ-001 | Two-dimensional finite residual correction improves the fixed trial | Reproduced finite calculation | `research/operator-bounds/ritz_residual_diagnostic.json`; half-gap margin remains negative; no automatic continuum transfer |
 | PRIME-003 | Complementary root predicates yield a finite allocation frontier | Exact algebra and rational feasibility certificates | `research/reports/prime186_structural_frontier.md`; fixed active row/template; not a global sieve obstruction or a new gap |
 | FABLE-001 | Earlier FABLE_001 pickup and numerical output exist | Pinned public-source evidence | `fable/PICKUP_RECEIPT.json`; final arithmetic report absent; no receipt inferred for newer packet |
+
+## Round 4: actual restoration credit and finite-family diagnosis
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| PRIME-004 | One true failure rectangle gives positive normalized credit exceeding 1.5058119471 ppm | Outward integral, independent mathematical review and identical separate-process rerun | `research/reports/prime186_round4.md`; k=40 fixed step trial, 53 coherent signed terms; no gap reduction |
+| PRIME-005 | Complete fixed-k=40 margin improves from 23.36045 to 24.86626 ppm | Exact scalar combination of new lower credit with inherited published endpoints | Same report and `research/prime-gaps/round4/prime-credit/alpha_credit_margin_replay.json`; original 149 upper forms not recomputed here |
+| RESTORE-001 | Exact projected-marginal and signed-residual restoration identities hold | Written proof and independent finite signed diagnostics | `research/prime-gaps/round4/restoration-proof/RESTORATION_PROOF_AUDIT.md`; new weighted residual integrals still needed; alternative lower bounds cannot be added together |
+| NUM-004 | Full77 k=39 cap-only Ritz candidate directly evaluates near 0.99439639936 | Floating optimization with matrix/independent scalar comparison | `research/prime-gaps/round4/k39-trial/REPORT.md`; Gram condition number about 2.28e10; no strict family upper bound or restored criterion |
+| AUD-003 | Corrected isolated FLINT passes the original signed regression and relevant native suites | Source-built upstream fix and recorded tests | `research/prime-gaps/round4/repro-flint/README.md`; full binding suite has a separate Jacobi contract assertion; no universal library-verification claim |
