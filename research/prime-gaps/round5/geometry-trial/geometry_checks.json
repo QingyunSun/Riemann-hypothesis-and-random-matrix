@@ -1,0 +1,1792 @@
+[
+  {
+    "config": {
+      "tag": "baseline",
+      "physical_S": ".2742997",
+      "plateau": "original",
+      "pair_constant": ".34"
+    },
+    "exact_geometry": {
+      "physical_S": "2742997/10000000",
+      "physical_T0": "2499106033/10000000000",
+      "physical_T1": "251/1000",
+      "plateau_mode": "original",
+      "L0": "656012965805917/1198359978280000",
+      "L1": "13177452424989/23967199565600",
+      "q0": "23/40",
+      "q1": "23/40",
+      "pair_constant": "17/50",
+      "outer_cap": "272945874827213/551245590008800",
+      "frontier_slacks": [
+        "47404849021761/27562279500440000",
+        "2835469573167/551245590008800"
+      ],
+      "plateau_upper_slacks": [
+        "656012965805917/27562279500440000",
+        "13177452424989/551245590008800"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14833
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14834,
+              "radial_integer_max": 15900
+            },
+            {
+              "cap_index": 7763,
+              "nonempty": true,
+              "radial_integer_min": 15901,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14123
+            },
+            {
+              "cap_index": 7463,
+              "nonempty": true,
+              "radial_integer_min": 14124,
+              "radial_integer_max": 14500
+            },
+            {
+              "cap_index": 5877,
+              "nonempty": true,
+              "radial_integer_min": 14501,
+              "radial_integer_max": 14889
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14162
+            },
+            {
+              "cap_index": 7496,
+              "nonempty": true,
+              "radial_integer_min": 14163,
+              "radial_integer_max": 14510
+            },
+            {
+              "cap_index": 5903,
+              "nonempty": true,
+              "radial_integer_min": 14511,
+              "radial_integer_max": 14954
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89197
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89198,
+              "radial_integer_max": 95599
+            },
+            {
+              "cap_index": 46580,
+              "nonempty": true,
+              "radial_integer_min": 95600,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 84931
+            },
+            {
+              "cap_index": 44781,
+              "nonempty": true,
+              "radial_integer_min": 84932,
+              "radial_integer_max": 87195
+            },
+            {
+              "cap_index": 35265,
+              "nonempty": true,
+              "radial_integer_min": 87196,
+              "radial_integer_max": 89525
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 85162
+            },
+            {
+              "cap_index": 44976,
+              "nonempty": true,
+              "radial_integer_min": 85163,
+              "radial_integer_max": 87250
+            },
+            {
+              "cap_index": 35419,
+              "nonempty": true,
+              "radial_integer_min": 87251,
+              "radial_integer_max": 89915
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r272_min",
+      "physical_S": ".272",
+      "plateau": "common_min",
+      "pair_constant": ".301405"
+    },
+    "exact_geometry": {
+      "physical_S": "34/125",
+      "physical_T0": "2522103033/10000000000",
+      "physical_T1": "2532997/10000000",
+      "plateau_mode": "common_min",
+      "L0": "1479942578439433/2756227950044000",
+      "L1": "1479942578439433/2756227950044000",
+      "q0": "1479942578439433/2648198621235668",
+      "q1": "1479942578439433/2659637243009800",
+      "pair_constant": "60281/200000",
+      "outer_cap": "524210603/1049996000",
+      "frontier_slacks": [
+        "0",
+        "10893967/10499956000"
+      ],
+      "plateau_upper_slacks": [
+        "544882971509839/13781139750220000",
+        "115839767366447/2756227950044000"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11466,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14821
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14822,
+              "radial_integer_max": 15897
+            },
+            {
+              "cap_index": 7893,
+              "nonempty": true,
+              "radial_integer_min": 15898,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11466,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14381
+            },
+            {
+              "cap_index": 7595,
+              "nonempty": true,
+              "radial_integer_min": 14382,
+              "radial_integer_max": 14762
+            },
+            {
+              "cap_index": 5920,
+              "nonempty": true,
+              "radial_integer_min": 14763,
+              "radial_integer_max": 15153
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11466,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14420
+            },
+            {
+              "cap_index": 7628,
+              "nonempty": true,
+              "radial_integer_min": 14421,
+              "radial_integer_max": 14771
+            },
+            {
+              "cap_index": 5936,
+              "nonempty": true,
+              "radial_integer_min": 14772,
+              "radial_integer_max": 15219
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11466,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 68801,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89121
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89122,
+              "radial_integer_max": 95577
+            },
+            {
+              "cap_index": 47363,
+              "nonempty": true,
+              "radial_integer_min": 95578,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 68801,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 86480
+            },
+            {
+              "cap_index": 45575,
+              "nonempty": true,
+              "radial_integer_min": 86481,
+              "radial_integer_max": 88764
+            },
+            {
+              "cap_index": 35522,
+              "nonempty": true,
+              "radial_integer_min": 88765,
+              "radial_integer_max": 91113
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 68801,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 86713
+            },
+            {
+              "cap_index": 45772,
+              "nonempty": true,
+              "radial_integer_min": 86714,
+              "radial_integer_max": 88819
+            },
+            {
+              "cap_index": 35621,
+              "nonempty": true,
+              "radial_integer_min": 88820,
+              "radial_integer_max": 91507
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 68801,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r272_original",
+      "physical_S": ".272",
+      "plateau": "original",
+      "pair_constant": ".301405"
+    },
+    "exact_geometry": {
+      "physical_S": "34/125",
+      "physical_T0": "2522103033/10000000000",
+      "physical_T1": "2532997/10000000",
+      "plateau_mode": "original",
+      "L0": "662049655308917/1198359978280000",
+      "L1": "13298186215049/23967199565600",
+      "q0": "23/40",
+      "q1": "23/40",
+      "pair_constant": "60281/200000",
+      "outer_cap": "265339646053433/551245590008800",
+      "frontier_slacks": [
+        "427716287710761/27562279500440000",
+        "10441698346947/551245590008800"
+      ],
+      "plateau_upper_slacks": [
+        "662049655308917/27562279500440000",
+        "13298186215049/551245590008800"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11466,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14821
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14822,
+              "radial_integer_max": 15897
+            },
+            {
+              "cap_index": 7610,
+              "nonempty": true,
+              "radial_integer_min": 15898,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11466,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14381
+            },
+            {
+              "cap_index": 7595,
+              "nonempty": true,
+              "radial_integer_min": 14382,
+              "radial_integer_max": 14762
+            },
+            {
+              "cap_index": 5981,
+              "nonempty": true,
+              "radial_integer_min": 14763,
+              "radial_integer_max": 15153
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11466,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14420
+            },
+            {
+              "cap_index": 7628,
+              "nonempty": true,
+              "radial_integer_min": 14421,
+              "radial_integer_max": 14771
+            },
+            {
+              "cap_index": 6007,
+              "nonempty": true,
+              "radial_integer_min": 14772,
+              "radial_integer_max": 15219
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11466,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 68801,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89121
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89122,
+              "radial_integer_max": 95577
+            },
+            {
+              "cap_index": 45665,
+              "nonempty": true,
+              "radial_integer_min": 95578,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 68801,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 86480
+            },
+            {
+              "cap_index": 45575,
+              "nonempty": true,
+              "radial_integer_min": 86481,
+              "radial_integer_max": 88764
+            },
+            {
+              "cap_index": 35891,
+              "nonempty": true,
+              "radial_integer_min": 88765,
+              "radial_integer_max": 91113
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 68801,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 86713
+            },
+            {
+              "cap_index": 45772,
+              "nonempty": true,
+              "radial_integer_min": 86714,
+              "radial_integer_max": 88819
+            },
+            {
+              "cap_index": 36046,
+              "nonempty": true,
+              "radial_integer_min": 88820,
+              "radial_integer_max": 91507
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 68801,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r274_max",
+      "physical_S": ".2742997",
+      "plateau": "common_max",
+      "pair_constant": ".327323"
+    },
+    "exact_geometry": {
+      "physical_S": "2742997/10000000",
+      "physical_T0": "2499106033/10000000000",
+      "physical_T1": "251/1000",
+      "plateau_mode": "common_max",
+      "L0": "1968038897417751/3445284937555000",
+      "L1": "1968038897417751/3445284937555000",
+      "q0": "3/5",
+      "q1": "656012965805917/1098121035415750",
+      "pair_constant": "327323/1000000",
+      "outer_cap": "1632131606344499/3445284937555000",
+      "frontier_slacks": [
+        "351708907413839/13781139750220000",
+        "22875449039469/861321234388750"
+      ],
+      "plateau_upper_slacks": [
+        "0",
+        "32681901/13124945000"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14833
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14834,
+              "radial_integer_max": 15900
+            },
+            {
+              "cap_index": 7427,
+              "nonempty": true,
+              "radial_integer_min": 15901,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14123
+            },
+            {
+              "cap_index": 7463,
+              "nonempty": true,
+              "radial_integer_min": 14124,
+              "radial_integer_max": 14500
+            },
+            {
+              "cap_index": 5970,
+              "nonempty": true,
+              "radial_integer_min": 14501,
+              "radial_integer_max": 14889
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14162
+            },
+            {
+              "cap_index": 7496,
+              "nonempty": true,
+              "radial_integer_min": 14163,
+              "radial_integer_max": 14510
+            },
+            {
+              "cap_index": 5987,
+              "nonempty": true,
+              "radial_integer_min": 14511,
+              "radial_integer_max": 14954
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89197
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89198,
+              "radial_integer_max": 95599
+            },
+            {
+              "cap_index": 44565,
+              "nonempty": true,
+              "radial_integer_min": 95600,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 84931
+            },
+            {
+              "cap_index": 44781,
+              "nonempty": true,
+              "radial_integer_min": 84932,
+              "radial_integer_max": 87195
+            },
+            {
+              "cap_index": 35825,
+              "nonempty": true,
+              "radial_integer_min": 87196,
+              "radial_integer_max": 89525
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 85162
+            },
+            {
+              "cap_index": 44976,
+              "nonempty": true,
+              "radial_integer_min": 85163,
+              "radial_integer_max": 87250
+            },
+            {
+              "cap_index": 35922,
+              "nonempty": true,
+              "radial_integer_min": 87251,
+              "radial_integer_max": 89915
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r274_original",
+      "physical_S": ".2742997",
+      "plateau": "original",
+      "pair_constant": ".327323"
+    },
+    "exact_geometry": {
+      "physical_S": "2742997/10000000",
+      "physical_T0": "2499106033/10000000000",
+      "physical_T1": "251/1000",
+      "plateau_mode": "original",
+      "L0": "656012965805917/1198359978280000",
+      "L1": "13177452424989/23967199565600",
+      "q0": "23/40",
+      "q1": "23/40",
+      "pair_constant": "327323/1000000",
+      "outer_cap": "272945874827213/551245590008800",
+      "frontier_slacks": [
+        "47404849021761/27562279500440000",
+        "2835469573167/551245590008800"
+      ],
+      "plateau_upper_slacks": [
+        "656012965805917/27562279500440000",
+        "13177452424989/551245590008800"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14833
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14834,
+              "radial_integer_max": 15900
+            },
+            {
+              "cap_index": 7763,
+              "nonempty": true,
+              "radial_integer_min": 15901,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14123
+            },
+            {
+              "cap_index": 7463,
+              "nonempty": true,
+              "radial_integer_min": 14124,
+              "radial_integer_max": 14500
+            },
+            {
+              "cap_index": 5877,
+              "nonempty": true,
+              "radial_integer_min": 14501,
+              "radial_integer_max": 14889
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14162
+            },
+            {
+              "cap_index": 7496,
+              "nonempty": true,
+              "radial_integer_min": 14163,
+              "radial_integer_max": 14510
+            },
+            {
+              "cap_index": 5903,
+              "nonempty": true,
+              "radial_integer_min": 14511,
+              "radial_integer_max": 14954
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11370,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89197
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89198,
+              "radial_integer_max": 95599
+            },
+            {
+              "cap_index": 46580,
+              "nonempty": true,
+              "radial_integer_min": 95600,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 84931
+            },
+            {
+              "cap_index": 44781,
+              "nonempty": true,
+              "radial_integer_min": 84932,
+              "radial_integer_max": 87195
+            },
+            {
+              "cap_index": 35265,
+              "nonempty": true,
+              "radial_integer_min": 87196,
+              "radial_integer_max": 89525
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 85162
+            },
+            {
+              "cap_index": 44976,
+              "nonempty": true,
+              "radial_integer_min": 85163,
+              "radial_integer_max": 87250
+            },
+            {
+              "cap_index": 35419,
+              "nonempty": true,
+              "radial_integer_min": 87251,
+              "radial_integer_max": 89915
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 68225,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r275_max",
+      "physical_S": ".275",
+      "plateau": "common_max",
+      "pair_constant": ".34"
+    },
+    "exact_geometry": {
+      "physical_S": "11/40",
+      "physical_T0": "2492103033/10000000000",
+      "physical_T1": "2502997/10000000",
+      "plateau_mode": "common_max",
+      "L0": "1962524055926751/3445284937555000",
+      "L1": "1962524055926751/3445284937555000",
+      "q0": "3/5",
+      "q1": "1962524055926751/3285171703762250",
+      "pair_constant": "17/50",
+      "outer_cap": "1646837850320499/3445284937555000",
+      "frontier_slacks": [
+        "292883931509839/13781139750220000",
+        "19198888045469/861321234388750"
+      ],
+      "plateau_upper_slacks": [
+        "0",
+        "32681901/13124945000"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11341,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14837
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14838,
+              "radial_integer_max": 15901
+            },
+            {
+              "cap_index": 7475,
+              "nonempty": true,
+              "radial_integer_min": 15902,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11341,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14045
+            },
+            {
+              "cap_index": 7423,
+              "nonempty": true,
+              "radial_integer_min": 14046,
+              "radial_integer_max": 14422
+            },
+            {
+              "cap_index": 5938,
+              "nonempty": true,
+              "radial_integer_min": 14423,
+              "radial_integer_max": 14809
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11341,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14084
+            },
+            {
+              "cap_index": 7456,
+              "nonempty": true,
+              "radial_integer_min": 14085,
+              "radial_integer_max": 14431
+            },
+            {
+              "cap_index": 5955,
+              "nonempty": true,
+              "radial_integer_min": 14432,
+              "radial_integer_max": 14874
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11341,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 68051,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89221
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89222,
+              "radial_integer_max": 95606
+            },
+            {
+              "cap_index": 44853,
+              "nonempty": true,
+              "radial_integer_min": 95607,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 68051,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 84464
+            },
+            {
+              "cap_index": 44542,
+              "nonempty": true,
+              "radial_integer_min": 84465,
+              "radial_integer_max": 86723
+            },
+            {
+              "cap_index": 35633,
+              "nonempty": true,
+              "radial_integer_min": 86724,
+              "radial_integer_max": 89046
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 68051,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 84694
+            },
+            {
+              "cap_index": 44737,
+              "nonempty": true,
+              "radial_integer_min": 84695,
+              "radial_integer_max": 86777
+            },
+            {
+              "cap_index": 35731,
+              "nonempty": true,
+              "radial_integer_min": 86778,
+              "radial_integer_max": 89436
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 68051,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r276_max",
+      "physical_S": ".276",
+      "plateau": "common_max",
+      "pair_constant": ".349580"
+    },
+    "exact_geometry": {
+      "physical_S": "69/250",
+      "physical_T0": "2482103033/10000000000",
+      "physical_T1": "2492997/10000000",
+      "plateau_mode": "common_max",
+      "L0": "1954649085926751/3445284937555000",
+      "L1": "1954649085926751/3445284937555000",
+      "q0": "3/5",
+      "q1": "1954649085926751/3272046753762250",
+      "pair_constant": "17479/50000",
+      "outer_cap": "1667837770320499/3445284937555000",
+      "frontier_slacks": [
+        "208884251509839/13781139750220000",
+        "13948908045469/861321234388750"
+      ],
+      "plateau_upper_slacks": [
+        "0",
+        "32681901/13124945000"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11300,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14843
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14844,
+              "radial_integer_max": 15903
+            },
+            {
+              "cap_index": 7543,
+              "nonempty": true,
+              "radial_integer_min": 15904,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11300,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 13935
+            },
+            {
+              "cap_index": 7367,
+              "nonempty": true,
+              "radial_integer_min": 13936,
+              "radial_integer_max": 14310
+            },
+            {
+              "cap_index": 5893,
+              "nonempty": true,
+              "radial_integer_min": 14311,
+              "radial_integer_max": 14696
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11300,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 13973
+            },
+            {
+              "cap_index": 7399,
+              "nonempty": true,
+              "radial_integer_min": 13974,
+              "radial_integer_max": 14319
+            },
+            {
+              "cap_index": 5909,
+              "nonempty": true,
+              "radial_integer_min": 14320,
+              "radial_integer_max": 14761
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11300,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 67804,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89253
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89254,
+              "radial_integer_max": 95616
+            },
+            {
+              "cap_index": 45260,
+              "nonempty": true,
+              "radial_integer_min": 95617,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 67804,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 83802
+            },
+            {
+              "cap_index": 44203,
+              "nonempty": true,
+              "radial_integer_min": 83803,
+              "radial_integer_max": 86052
+            },
+            {
+              "cap_index": 35362,
+              "nonempty": true,
+              "radial_integer_min": 86053,
+              "radial_integer_max": 88368
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 67804,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 84031
+            },
+            {
+              "cap_index": 44397,
+              "nonempty": true,
+              "radial_integer_min": 84032,
+              "radial_integer_max": 86107
+            },
+            {
+              "cap_index": 35459,
+              "nonempty": true,
+              "radial_integer_min": 86108,
+              "radial_integer_max": 88756
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 67804,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r276_min",
+      "physical_S": ".276",
+      "plateau": "common_min",
+      "pair_constant": ".349580"
+    },
+    "exact_geometry": {
+      "physical_S": "69/250",
+      "physical_T0": "2482103033/10000000000",
+      "physical_T1": "2492997/10000000",
+      "plateau_mode": "common_min",
+      "L0": "1521942418439433/2756227950044000",
+      "L1": "1521942418439433/2756227950044000",
+      "q0": "507314139479811/868732927078556",
+      "q1": "1521942418439433/2617637403009800",
+      "pair_constant": "17479/50000",
+      "outer_cap": "524210603/1049996000",
+      "frontier_slacks": [
+        "0",
+        "10893967/10499956000"
+      ],
+      "plateau_upper_slacks": [
+        "208884251509839/13781139750220000",
+        "48640023366447/2756227950044000"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11300,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14843
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14844,
+              "radial_integer_max": 15903
+            },
+            {
+              "cap_index": 7779,
+              "nonempty": true,
+              "radial_integer_min": 15904,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11300,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 13935
+            },
+            {
+              "cap_index": 7367,
+              "nonempty": true,
+              "radial_integer_min": 13936,
+              "radial_integer_max": 14310
+            },
+            {
+              "cap_index": 5834,
+              "nonempty": true,
+              "radial_integer_min": 14311,
+              "radial_integer_max": 14696
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11300,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 13973
+            },
+            {
+              "cap_index": 7399,
+              "nonempty": true,
+              "radial_integer_min": 13974,
+              "radial_integer_max": 14319
+            },
+            {
+              "cap_index": 5850,
+              "nonempty": true,
+              "radial_integer_min": 14320,
+              "radial_integer_max": 14761
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11300,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 67804,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89253
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89254,
+              "radial_integer_max": 95616
+            },
+            {
+              "cap_index": 46677,
+              "nonempty": true,
+              "radial_integer_min": 95617,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 67804,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 83802
+            },
+            {
+              "cap_index": 44203,
+              "nonempty": true,
+              "radial_integer_min": 83803,
+              "radial_integer_max": 86052
+            },
+            {
+              "cap_index": 35008,
+              "nonempty": true,
+              "radial_integer_min": 86053,
+              "radial_integer_max": 88368
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 67804,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 84031
+            },
+            {
+              "cap_index": 44397,
+              "nonempty": true,
+              "radial_integer_min": 84032,
+              "radial_integer_max": 86107
+            },
+            {
+              "cap_index": 35105,
+              "nonempty": true,
+              "radial_integer_min": 86108,
+              "radial_integer_max": 88756
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 67804,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r278_max",
+      "physical_S": ".278",
+      "plateau": "common_max",
+      "pair_constant": ".380026"
+    },
+    "exact_geometry": {
+      "physical_S": "139/500",
+      "physical_T0": "2462103033/10000000000",
+      "physical_T1": "2472997/10000000",
+      "plateau_mode": "common_max",
+      "L0": "1938899145926751/3445284937555000",
+      "L1": "1938899145926751/3445284937555000",
+      "q0": "3/5",
+      "q1": "1938899145926751/3245796853762250",
+      "pair_constant": "190013/500000",
+      "outer_cap": "1709837610320499/3445284937555000",
+      "frontier_slacks": [
+        "40884891509839/13781139750220000",
+        "3448948045469/861321234388750"
+      ],
+      "plateau_upper_slacks": [
+        "0",
+        "32681901/13124945000"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11219,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14853
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14854,
+              "radial_integer_max": 15906
+            },
+            {
+              "cap_index": 7677,
+              "nonempty": true,
+              "radial_integer_min": 15907,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11219,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 13716
+            },
+            {
+              "cap_index": 7255,
+              "nonempty": true,
+              "radial_integer_min": 13717,
+              "radial_integer_max": 14089
+            },
+            {
+              "cap_index": 5804,
+              "nonempty": true,
+              "radial_integer_min": 14090,
+              "radial_integer_max": 14472
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11219,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 13754
+            },
+            {
+              "cap_index": 7287,
+              "nonempty": true,
+              "radial_integer_min": 13755,
+              "radial_integer_max": 14098
+            },
+            {
+              "cap_index": 5820,
+              "nonempty": true,
+              "radial_integer_min": 14099,
+              "radial_integer_max": 14536
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11219,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 67316,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89318
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89319,
+              "radial_integer_max": 95635
+            },
+            {
+              "cap_index": 46066,
+              "nonempty": true,
+              "radial_integer_min": 95636,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 67316,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 82491
+            },
+            {
+              "cap_index": 43531,
+              "nonempty": true,
+              "radial_integer_min": 82492,
+              "radial_integer_max": 84726
+            },
+            {
+              "cap_index": 34825,
+              "nonempty": true,
+              "radial_integer_min": 84727,
+              "radial_integer_max": 87024
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 67316,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 82719
+            },
+            {
+              "cap_index": 43724,
+              "nonempty": true,
+              "radial_integer_min": 82720,
+              "radial_integer_max": 84780
+            },
+            {
+              "cap_index": 34921,
+              "nonempty": true,
+              "radial_integer_min": 84781,
+              "radial_integer_max": 87410
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 67316,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  },
+  {
+    "config": {
+      "tag": "r278_min",
+      "physical_S": ".278",
+      "plateau": "common_min",
+      "pair_constant": ".380026"
+    },
+    "exact_geometry": {
+      "physical_S": "139/500",
+      "physical_T0": "2462103033/10000000000",
+      "physical_T1": "2472997/10000000",
+      "plateau_mode": "common_min",
+      "L0": "1542942338439433/2756227950044000",
+      "L1": "1542942338439433/2756227950044000",
+      "q0": "1542942338439433/2585198861235668",
+      "q1": "1542942338439433/2596637483009800",
+      "pair_constant": "190013/500000",
+      "outer_cap": "524210603/1049996000",
+      "frontier_slacks": [
+        "0",
+        "10893967/10499956000"
+      ],
+      "plateau_upper_slacks": [
+        "40884891509839/13781139750220000",
+        "15040151366447/2756227950044000"
+      ],
+      "constraints": "exact rational plateau and nesting checks pass; full source audit separate"
+    },
+    "grids": [
+      {
+        "N": 16384,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 11219,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 14853
+            },
+            {
+              "cap_index": 8192,
+              "nonempty": true,
+              "radial_integer_min": 14854,
+              "radial_integer_max": 15906
+            },
+            {
+              "cap_index": 7723,
+              "nonempty": true,
+              "radial_integer_min": 15907,
+              "radial_integer_max": 16344
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 11219,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 13716
+            },
+            {
+              "cap_index": 7255,
+              "nonempty": true,
+              "radial_integer_min": 13717,
+              "radial_integer_max": 14089
+            },
+            {
+              "cap_index": 5792,
+              "nonempty": true,
+              "radial_integer_min": 14090,
+              "radial_integer_max": 14472
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 11219,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 13754
+            },
+            {
+              "cap_index": 7287,
+              "nonempty": true,
+              "radial_integer_min": 13755,
+              "radial_integer_max": 14098
+            },
+            {
+              "cap_index": 5808,
+              "nonempty": true,
+              "radial_integer_min": 14099,
+              "radial_integer_max": 14536
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 11219,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 16344
+            }
+          ]
+        },
+        "nested": true
+      },
+      {
+        "N": 98304,
+        "shells": {
+          "outer": [
+            {
+              "cap_index": 67316,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 89318
+            },
+            {
+              "cap_index": 49152,
+              "nonempty": true,
+              "radial_integer_min": 89319,
+              "radial_integer_max": 95635
+            },
+            {
+              "cap_index": 46341,
+              "nonempty": true,
+              "radial_integer_min": 95636,
+              "radial_integer_max": 98264
+            }
+          ],
+          "base": [
+            {
+              "cap_index": 67316,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 82491
+            },
+            {
+              "cap_index": 43531,
+              "nonempty": true,
+              "radial_integer_min": 82492,
+              "radial_integer_max": 84726
+            },
+            {
+              "cap_index": 34756,
+              "nonempty": true,
+              "radial_integer_min": 84727,
+              "radial_integer_max": 87024
+            }
+          ],
+          "enlarged": [
+            {
+              "cap_index": 67316,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 82719
+            },
+            {
+              "cap_index": 43724,
+              "nonempty": true,
+              "radial_integer_min": 82720,
+              "radial_integer_max": 84780
+            },
+            {
+              "cap_index": 34852,
+              "nonempty": true,
+              "radial_integer_min": 84781,
+              "radial_integer_max": 87410
+            }
+          ],
+          "full": [
+            {
+              "cap_index": 67316,
+              "nonempty": true,
+              "radial_integer_min": 0,
+              "radial_integer_max": 98264
+            }
+          ]
+        },
+        "nested": true
+      }
+    ]
+  }
+]

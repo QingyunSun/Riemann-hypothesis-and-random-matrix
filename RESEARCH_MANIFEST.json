@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 18474,
-      "sha256": "a1f2127f04f470ff892cb4acd45c93adb0a088cd54cebcc5e3ba3cb236253f13"
+      "bytes": 20912,
+      "sha256": "0de0c307bdf20ab0a60026b4f0afbff559e3fefb8d1653b49bf108c6998fa212"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 8048,
-      "sha256": "50bc375cd9b9b687bc437afdf020773d360b9edf493d7a4d4f2649093cdd1faa"
+      "bytes": 9563,
+      "sha256": "3956f0a9d256c59ce6c9456331516698c98709db8df2c751c3ba3a368b9a2421"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -290,6 +290,31 @@
       "path": "research/logs/round4-integration/verification.json",
       "bytes": 518,
       "sha256": "56cc9d52bf8b0a6488df5f4ebf9aa372f94ac4e3651e050ab56e9b9fde4dbfec"
+    },
+    {
+      "path": "research/logs/round5-integration/exceptional-radius.log",
+      "bytes": 8495,
+      "sha256": "422819aa9bef05e88a5c43cccdb0b9e70666d258a013ba758a6bf3c279567342"
+    },
+    {
+      "path": "research/logs/round5-integration/geometry-audit.log",
+      "bytes": 3228,
+      "sha256": "1f9375bdd248da327710fc99481aac0d66210bf2b3050a6d477dab763325a579"
+    },
+    {
+      "path": "research/logs/round5-integration/geometry-trial.log",
+      "bytes": 62,
+      "sha256": "cc4706aab96630551c5119290d0ed4f6db5e05fdaaa6b1dcd50e2ff970dcd93d"
+    },
+    {
+      "path": "research/logs/round5-integration/recheck.json",
+      "bytes": 3608,
+      "sha256": "5f11c70eeec44e3a680702a35220f4b4ac555fdaae67a50418bc80c3c817527d"
+    },
+    {
+      "path": "research/logs/round5-integration/recheck.py",
+      "bytes": 4582,
+      "sha256": "cee43b2625ac223c076937e0fab59a03550e4b2b06b69a80f6acfdd50bad18fe"
     },
     {
       "path": "research/logs/verify-codex-original.log",
@@ -732,6 +757,281 @@
       "sha256": "f975b2618dd100e7fdbdc64befb359548a0f81358b7a41799404e12caeb51e79"
     },
     {
+      "path": "research/prime-gaps/round5/INTAKE_MANIFEST.json",
+      "bytes": 20725,
+      "sha256": "cd0f98ead7d63d6c24cd1186b0214a656486678c272f3eb1edcc9bdfc767a98b"
+    },
+    {
+      "path": "research/prime-gaps/round5/README.md",
+      "bytes": 2311,
+      "sha256": "a07418fb4c6dbabb65642a3b42bfb04a38c2e09f51614e56e6e5f04681fe4b29"
+    },
+    {
+      "path": "research/prime-gaps/round5/exceptional-radius/EXCEPTIONAL_RADIUS_EXTENSION.md",
+      "bytes": 16440,
+      "sha256": "70326c9bd4430855349a64fc2863e0dcccd80f40e9b0b5b28750925e0c7de54b"
+    },
+    {
+      "path": "research/prime-gaps/round5/exceptional-radius/certify_exceptional_radius.json",
+      "bytes": 8587,
+      "sha256": "be69aa8f0c06cedbea91d32dc452cf543d19fb8ee54eae0603412dfeaeb734da"
+    },
+    {
+      "path": "research/prime-gaps/round5/exceptional-radius/certify_exceptional_radius.log",
+      "bytes": 8587,
+      "sha256": "be69aa8f0c06cedbea91d32dc452cf543d19fb8ee54eae0603412dfeaeb734da"
+    },
+    {
+      "path": "research/prime-gaps/round5/exceptional-radius/certify_exceptional_radius.py",
+      "bytes": 6319,
+      "sha256": "e19445eed88dee180f816e925ea58ab2a93286584070b34cbeafe45c5f4e7c24"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-audit/GEOMETRY_SOURCE_AUDIT.md",
+      "bytes": 14204,
+      "sha256": "c2870e1d539e1be90e82131671ec15b85d74a0a886bad299270a20cb87ecc7c9"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-audit/geometry_feasibility.json",
+      "bytes": 177231,
+      "sha256": "e8b45b3e2e92635a43744a6497efee7c40cd634668eeeddf2267b1fb809b5511"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-audit/geometry_feasibility.log",
+      "bytes": 3229,
+      "sha256": "08f47af36e06f3373cab7a4a15b708aac3474bf21777629e93f00e229fc2508a"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-audit/geometry_feasibility.py",
+      "bytes": 14687,
+      "sha256": "f3ffa7f4b777255e186925e01d992cdde7b90b082452e64f55b2731f039e9ce7"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/REPORT.md",
+      "bytes": 12990,
+      "sha256": "a0d2aa154e278797bd1065d7a5c78fc8d0c650e14c6b43b4d0200f84465f9462"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/baseline.config.json",
+      "bytes": 103,
+      "sha256": "882d1d987de260a5a30fc505b1b59e834fccbef033cda5dcff97f78512006aa3"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/baseline_k39_n16384.json",
+      "bytes": 17373,
+      "sha256": "0618081f5f090a9225e0fbf3a03e93f728d449cddcae117c227e909191412ec2"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/baseline_k39_n16384.npz",
+      "bytes": 40497,
+      "sha256": "459d76222e16efa2a88be0df657e11ed8b34082bde0ccf461452f4f183666e86"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/baseline_n16384.log",
+      "bytes": 1683,
+      "sha256": "9ae7b9691d0b722eec78f0d8e6461c89dacd2b863f110cef832a42d763abf959"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/cap_trial.py",
+      "bytes": 15444,
+      "sha256": "62721474dc05b63bbec403f4aedef0dc81601626a61f46ffab472071917da1d9"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/geometry_checks.json",
+      "bytes": 49354,
+      "sha256": "0e52c685af6c4d0cbb237dcabbde3f6169d3e34db9afd245627f3754602e57d7"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/manifest.json",
+      "bytes": 4350,
+      "sha256": "cf74ee8110b899c0d35203b24e666c727463b62415f74bc27ef78c9dd8730d2e"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/optimize_cap.py",
+      "bytes": 7898,
+      "sha256": "feafcc6b29aee9b562c55a6717f560a128b2b06b1251c5b48fc3d47e6eafed58"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r272_min.config.json",
+      "bytes": 105,
+      "sha256": "1a7b0ddeaf740ae6b7ecbc46df9cf558c030c37b66d521f1d2153f553690c375"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r272_min_k39_n16384.json",
+      "bytes": 17471,
+      "sha256": "1780f0f2c60c3406dda2bb8943ab7e8a73b6c05d031d1007e1876176824c1c62"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r272_min_k39_n16384.npz",
+      "bytes": 40536,
+      "sha256": "e0b36e489d2abb8e4a6e07a5c7655960cccb35a9d446b39e6fc417dd2fe64023"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r272_original.config.json",
+      "bytes": 108,
+      "sha256": "dac25f81a36d59d810cd30fc7b249edd1ab9d7137cdc940f42f994931a915df4"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r272_original_k39_n16384.json",
+      "bytes": 17396,
+      "sha256": "baa47b8d54dc986b3510d70fdb28fb0ce1c3aa307e41327a76244d67b480d146"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r272_original_k39_n16384.npz",
+      "bytes": 40536,
+      "sha256": "473ae5116cef024517fffff5f8b4db015d05be4e28f7ce94d3726ed4357ff6f8"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r274_max.config.json",
+      "bytes": 109,
+      "sha256": "f1db979331d75eb46afc8527d9c0bfb2b6a9b14fe6817855ead7fab2a54f3900"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r274_max_k39_n16384.json",
+      "bytes": 17402,
+      "sha256": "701668c83619923ee4bce569ad34757d498e6cd478f1d4e133d454cf08fdab2d"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r274_max_k39_n16384.npz",
+      "bytes": 40517,
+      "sha256": "9a6217c21d67716a56dbf56ff44a8d35e761bf04244710c958f6ee5c429bea54"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r274_max_k39_n98304.json",
+      "bytes": 17401,
+      "sha256": "582af771b96d69bae121b501b00b876b42a661cbb88ee604b0c02960ec2f3add"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r274_max_k39_n98304.npz",
+      "bytes": 40491,
+      "sha256": "297006abebce6d4c5a2ae73eeddd5c5870b455c8c45d775959143f93d21a3c44"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r274_original.config.json",
+      "bytes": 112,
+      "sha256": "f314ab53fbd8ce81e6f7c89f7fc797a7c3c483b74130afbe0c63d927815595b8"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r274_original_k39_n16384.json",
+      "bytes": 17394,
+      "sha256": "53807c465b7a7a7797a83f7d2f7e90b16f4f04ce39c20652323c280ef581b35f"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r274_original_k39_n16384.npz",
+      "bytes": 40512,
+      "sha256": "5e8eeb914cf52a7390804715bdf7f951f350e69e41cd660b1ae46825285c8da4"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r275_max.config.json",
+      "bytes": 101,
+      "sha256": "41ca906bdd9a5a04320b6db7ba91ac5fdc4018d0362fb74da8fab81567aff605"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r275_max_k39_n16384.json",
+      "bytes": 17336,
+      "sha256": "eb9dc17a2dabc7bf520dca04acf1c97f9851577bbb7077b7a091cd441dfb7f40"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r275_max_k39_n16384.npz",
+      "bytes": 40502,
+      "sha256": "8e6b13dc229a6533cb07e30ad2c86b7ec4cfb5d0235d64b20df5d8acbb3ec94d"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r275_max_k39_n98304.json",
+      "bytes": 17338,
+      "sha256": "15612c42694123680330b1ba9d500c0e3899b8c32647f348c84bae857afaa651"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r275_max_k39_n98304.npz",
+      "bytes": 40473,
+      "sha256": "05f1b1b53dc614003d77182baaf239ef35109a03195139a05c90a579176572f9"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r276_max.config.json",
+      "bytes": 105,
+      "sha256": "7ea13c17975114cd113b68bf1c07f252fa9409fd0ddfbeb3ee7ab094b1417629"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r276_max_k39_n16384.json",
+      "bytes": 17358,
+      "sha256": "cc558210985c57110cd7848569d2fb5fd597ffefd150dcc619d5ca10015e86de"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r276_max_k39_n16384.npz",
+      "bytes": 40489,
+      "sha256": "50f8476260d27e85fa9799cd954185d7690409945fd342d872afb1ee3e0778f3"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r276_min.config.json",
+      "bytes": 105,
+      "sha256": "de0d2c7ac1466301645df51aef4577dde6620a20db41fa1769d99f8d9ee6cebe"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r276_min_k39_n16384.json",
+      "bytes": 17431,
+      "sha256": "713026f473c9ef2709f39de3ee470326fd11df9296ad6fa0872de0294876d99d"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r276_min_k39_n16384.npz",
+      "bytes": 40524,
+      "sha256": "11dcfda4045e7946c1a693084c611569e8eec2fe5fa8f8f74144e6d0ec3b36d0"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r278_max.config.json",
+      "bytes": 105,
+      "sha256": "a6d5b599a05386e678c617f7a52f6c1d4764a833855a225eb6b56625188d1dc3"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r278_max_k39_n16384.json",
+      "bytes": 17384,
+      "sha256": "42b933e3b5be1d560d8a12f510105b0e10c265707981fa3b9323673decf8b615"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r278_max_k39_n16384.npz",
+      "bytes": 40468,
+      "sha256": "008ed7bfa165fc517d4a38d63ff16c4c8d42cbbdc6f26b661b676bc2aa93ca84"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r278_min.config.json",
+      "bytes": 105,
+      "sha256": "c4ff592f59b64cbba1c663e5289329cb447bcab898dfd8f745ca9c06a5b3ae46"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r278_min_k39_n16384.json",
+      "bytes": 17477,
+      "sha256": "e82fbb2557398a1fb9c347daff90a5e45c476b7e06e8a1ad3da370766d399daa"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/r278_min_k39_n16384.npz",
+      "bytes": 40472,
+      "sha256": "20d8a01726a697df7646f49d04ab55c04bbdad1176234740ce603e05f995a417"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/refinement.log",
+      "bytes": 3373,
+      "sha256": "1cae8675a50ffbc7b04d439ada344eb16d2621c0c0fe7590473d37decf87adf5"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/run_bounded_screen.py",
+      "bytes": 1008,
+      "sha256": "90cd6e1dc4d11a8a7ab9d87f78468cd93e540842045298b4d6757271a7ec3958"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/screen.log",
+      "bytes": 15605,
+      "sha256": "2ce19bcb3475bb0a21881df9b3033998f12ac0f5d39608d21457c3969c236268"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/summary.json",
+      "bytes": 5137,
+      "sha256": "468d4022ce2f0c83be7c18b5c46af9a6a36f30ce5729c103a03bf6dca2e8d86b"
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/validate_geometry.py",
+      "bytes": 1739,
+      "sha256": "d93f0103fc05079466e8546593b3de60a61e3963b418e42d21cc514bdb0403cd"
+    },
+    {
       "path": "research/prime-gaps/tuple_k40_d184.smt2",
       "bytes": 103527,
       "sha256": "2b06cc48f9d31359e97590f3e5a24e86bab8336b99f51a294f75f5a34dfe5463"
@@ -835,6 +1135,11 @@
       "path": "research/reports/prime186_round4.md",
       "bytes": 11258,
       "sha256": "ef0b060fc8bb1ac91844e08ac540973634ceb6f9ca2d64da3f8ef32f66855565"
+    },
+    {
+      "path": "research/reports/prime186_round5.md",
+      "bytes": 12738,
+      "sha256": "7ad8c798736bd40b7125784af7ec69a208075665c8efcfd69d4c33adf68b447e"
     },
     {
       "path": "research/reports/prime186_structural_frontier.md",
@@ -1433,8 +1738,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 2438,
-      "sha256": "2712ea6127defb6320a7be703f1fed650d40a9b314c146d57c5d3d6e9232883e"
+      "bytes": 2718,
+      "sha256": "4a3f409a5f8f4201aa159349e0d65f99c0dae457e288d43b7fd8b136fa5105a7"
     },
     {
       "path": "docs/handoff/ASTRA_LATEST_SUPPLEMENT.md",

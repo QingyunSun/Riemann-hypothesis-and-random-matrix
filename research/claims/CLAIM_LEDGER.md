@@ -50,3 +50,12 @@ All paths are relative to the repository root. The public reports contain the de
 | RESTORE-001 | Exact projected-marginal and signed-residual restoration identities hold | Written proof and independent finite signed diagnostics | `research/prime-gaps/round4/restoration-proof/RESTORATION_PROOF_AUDIT.md`; new weighted residual integrals still needed; alternative lower bounds cannot be added together |
 | NUM-004 | Full77 k=39 cap-only Ritz candidate directly evaluates near 0.99439639936 | Floating optimization with matrix/independent scalar comparison | `research/prime-gaps/round4/k39-trial/REPORT.md`; Gram condition number about 2.28e10; no strict family upper bound or restored criterion |
 | AUD-003 | Corrected isolated FLINT passes the original signed regression and relevant native suites | Source-built upstream fix and recorded tests | `research/prime-gaps/round4/repro-flint/README.md`; full binding suite has a separate Jacobi contract assertion; no universal library-verification claim |
+
+## Round 5: radius-dependent constants and bounded geometry search
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| PRIME-006 | The original exceptional-square estimate extends to the explicit radius interval with a recomputed constant | Ordinary written derivation and exact rational certificates | `research/prime-gaps/round5/exceptional-radius/EXCEPTIONAL_RADIUS_EXTENSION.md`; canonical fixed-profile class, all roots bounded, original global prime cap, no new distribution theorem |
+| PRIME-007 | Twelve of fifteen natural cap templates satisfy the audited source conditions; a one-layer trim repairs the row-39 mesh issue uniformly over [0.272,0.278] | Exact arithmetic and sufficient-template proof | `research/prime-gaps/round5/geometry-audit/GEOMETRY_SOURCE_AUDIT.md`; new failure covers and physical integrals remain uncomputed |
+| NUM-005 | Ten coarse radius/plateau trials and two fine refinements give no geometry improvement over the original k=39 point | Saved floating cap-only searches and matrix/vector checks | `research/reports/prime186_round5.md`; untrimmed supports, ill-conditioned matrices, no rigorous family upper bound or global no-go theorem |
+| AUD-004 | Three bounded Round 5 replay scripts reproduce their exact outputs, and all twelve saved matrices match their thirty-six candidate witnesses | Independent integration replay | `research/logs/round5-integration/recheck.json`; metadata exclusions stated; no fresh full integral or eigenvalue sweep |

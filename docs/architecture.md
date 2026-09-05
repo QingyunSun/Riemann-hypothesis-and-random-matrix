@@ -7,6 +7,7 @@ This repository preserves a checkable mathematical programme with small, indepen
 * `research/claims/CLAIM_LEDGER.md`: authoritative claim scope and proof status.
 * `research/reports/`: complete mathematical arguments and independent reviews.
 * `research/prime-gaps/round4/`: outward lower-credit integrals, independent kernel/projection audits, k=39 cap matrices and coefficients, and the isolated corrected arithmetic-runtime record. Its external primary source paths are configurable; the full third-party numerical paper text is not duplicated.
+* `research/prime-gaps/round5/`: variable-radius exact exceptional constants, source/cap admissibility and mesh-repair proofs, and the bounded negative geometry search with complete finite matrices. The independent integration replay is under `research/logs/round5-integration/`.
 * `research/residual-gram/`, `operator-bounds/`, `heat-flow/`, `centered-gaussian/`, `prime-gaps/`, `dynamic-generator/`, `force-energy/`, `bridge-audit/`: focused Python experiments with JSON outputs and original execution logs.
 * `fable/overnight-2026-09-05/`: byte-for-byte public Fable snapshot, with its own provenance manifest and separate Astra intake reviews.
 * `historical/riemann-rmt/`: pinned earlier public sources, preserved even when corrected by later audit.

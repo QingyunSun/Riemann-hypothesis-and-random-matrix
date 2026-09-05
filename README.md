@@ -21,6 +21,7 @@ Every result must state its assumptions, proof status, primary references, repro
 * [Collision/marked counterexamples and source correction](research/reports/new_attachment_bridge_audit.md).
 * [Prime-gap certificate audit](research/reports/prime186.md) and [complementary-factorization frontier](research/reports/prime186_structural_frontier.md).
 * [New certified positive restoration credit and k=39 optimization](research/reports/prime186_round4.md): the fixed k=40 margin improves to 24.86626 ppm using inherited baseline bounds; the gap remains 186. Optimized k=39 cap-only data remain below one.
+* [Variable-radius exceptional bound and geometry search](research/reports/prime186_round5.md): exact source conditions and a uniform one-layer mesh repair accompany ten coarse trials and two refinements. No radius/plateau improvement was found; full restoration remains unevaluated.
 * [Pinned Fable mirror and provenance](fable/README.md).
 * [One Fable computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery to the user's existing session. The earlier task was acknowledged and has F2 outputs; the newer packet has separate, unconfirmed receipt status.
 
