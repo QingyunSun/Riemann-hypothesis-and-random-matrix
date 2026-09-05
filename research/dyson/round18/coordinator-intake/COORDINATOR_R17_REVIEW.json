@@ -1,0 +1,39 @@
+{
+  "status": "accepted within stated bounded ordinary-proof scope",
+  "proofs": [
+    {
+      "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round17/quadratic-packet/QUADRATIC_COMPACT_PACKET.md",
+      "sha256": "a7b5290a3d96d2590da42f3fe13a53c1e02499b53d066366824b9f15883a7da3",
+      "bytes": 16688,
+      "full_read": true
+    },
+    {
+      "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round17/bragg-sieve/BRAGG_SHORT_INTERVAL_CAP_TEST.md",
+      "sha256": "5939a90ce808ec8fbd11a9659bfd2dc61e60adb65f2b2b4b12f9cfb8641a9607",
+      "bytes": 12359,
+      "full_read": true
+    }
+  ],
+  "source_check": "Yamada arXiv:2312.16090v1 Theorem 2 equation 13 at modulus one: positive start and interval length greater than one; primary source opened",
+  "independent_root_checks": [
+    "Fourier differentiation and spline support/regularity",
+    "H-squared pole order and first Dirichlet convolution support",
+    "empty holomorphic square versus positive modulus energy",
+    "reflected contour sign and distinct-zero multiplicity convention",
+    "nonzero sigma derivative residues and W differentiation limitation",
+    "Fejer majorant Plancherel scale and all centered moments",
+    "sieve cap log(x)/log(x/T) factor; lower and upper tails"
+  ],
+  "not_claimed": [
+    "no replay of existing symbolic scripts this review",
+    "no numerical zeta integral",
+    "no new strict AH deficit",
+    "no formalization or global novelty audit"
+  ],
+  "deliverable": {
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/outputs/TRANSFERABLE_MATH_TOOLS_FOR_ASTRA.md",
+    "sha256": "11f74de893f6bac4740e2f9b9f0e74b333358c1e242302156bf0508a2a374c6e",
+    "bytes": 49886,
+    "display_math_pairs": 44
+  }
+}

@@ -226,3 +226,16 @@ Evidence: `reports/dyson_round16.md`, `dyson/round16/`, and `logs/round16-integr
 - **Open:** an averaged centered covariance estimate or quantified transfer to one sufficient Bragg test. No RH, AH-refutation, GUE or gap theorem follows.
 
 Evidence: `reports/dyson_round17.md`, `dyson/round17/`, and `logs/round17-integration/`.
+
+
+## Round 18: functional reflection and arithmetic normalization
+
+- **Ordinary proof under RH, independently reviewed:** the finite reflected identity evaluates its gamma contribution by a rational prime sum and a combined convergent digamma integral. The artificial real-pole residues cancel; distinct nontrivial zeros and their multiplicities remain.
+- **Ordinary fixed-parameter trace:** at carrier one, W>3/log2, the gamma term is minus2pi times a positive trivial-zero series. That series is O(W^-4) uniformly in sigma for W>=6. The exact energy still contains the unbounded nontrivial quadratic residue sum. No shrinking-sigma interchange is asserted.
+- **Actual failure of one extension:** the proposed carrier-weighted positive trivial-residue series fails the term test if X exp(3/W)>2, including X=T²,W=T,T>=2. This does not invalidate the finite-contour identity or constitute a general impossibility theorem.
+- **Unconditional support/representation lemmas:** a nonzero triply well-factorable coefficient requires level at least n*Pminus(n)^2; actual canonical terminal coefficients obstruct levels Q polylog(X). Strong dense divisibility constructs point masses at level QY², including squarefree divisors, with completed scalar norm at most (logQ)^j(1+logQ)^2.
+- **Exact unconditional normalization:** the primitive Ramanujan expansion and Mobius inverse restore lambda_j(r) from completed M_d, including the divisor multiplier. The completed small norm is not directly the norm of the progression functional. No universal lower bound on all compressed enlarged-level representations is asserted.
+- **Bounded verification:** 320 formal-log inversions, 2183 primitive-principal identities, 4366 complete prime-kernel identities and exact exponent/norm checks pass in a copied replay. All mathematical fields match; documentation-only provenance differences are explicit.
+- **Open:** the RH full aggregate still has bound X^1.023 log^5X; the strict frequency-two deficit, AH refutation, GUE, and all famous-conjecture targets remain unproved.
+
+Evidence: `reports/dyson_round18.md`, `dyson/round18/`, and `logs/round18-integration/`.

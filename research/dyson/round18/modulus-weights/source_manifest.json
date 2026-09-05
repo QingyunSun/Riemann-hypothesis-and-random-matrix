@@ -1,0 +1,62 @@
+{
+  "primary_sources": [
+    {
+      "title": "Improved short gaps between primes",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+      "locations": "Definition2.1 and Proposition2.3 pp4-5; Eq2.5 p7; Corollary2.19 p11",
+      "used_scope": "Strong recursive dense divisibility and absolute dense-modulus distribution per coherent residue. Not a well-factorable-weight theorem."
+    },
+    {
+      "author": "James Maynard",
+      "title": "Primes in arithmetic progressions to large moduli II: Well-factorable estimates",
+      "url": "https://arxiv.org/pdf/2006.07088v1",
+      "locations": "Definition2 and Theorem1.1 p2; fixed-residue convention p6",
+      "used_scope": "Exact triply well-factorable definition and a specifically named fixed-residue weighted theorem. No newest-exponent claim."
+    }
+  ],
+  "files": [
+    {
+      "role": "186 primary PDF",
+      "staging_relative_path": "sources/openai-short-gaps.pdf",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "bytes": 369949
+    },
+    {
+      "role": "186 primary text",
+      "staging_relative_path": "sources/openai-short-gaps.txt",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+      "bytes": 112915
+    },
+    {
+      "role": "Maynard primary PDF",
+      "staging_relative_path": "research-round18/modulus-weights/sources/maynard-2006.07088v1.pdf",
+      "sha256": "04516b141dfac689f317d533189eabf9b50cec200706159aaa3d8dbe1e25bfb4",
+      "bytes": 321319
+    },
+    {
+      "role": "Maynard primary text",
+      "staging_relative_path": "research-round18/modulus-weights/sources/maynard-2006.07088v1.txt",
+      "sha256": "4bcb824f57cf391ab86827e1d64d57b6c04cb8689c33502e7a6b6c6d7bf7514b",
+      "bytes": 96541
+    },
+    {
+      "role": "R11 conductor construction",
+      "staging_relative_path": "research-round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+      "bytes": 11083
+    },
+    {
+      "role": "R12 exact normalized pairing",
+      "staging_relative_path": "research-round12/dispersion-transfer/DISPERSION_HYPOTHESIS_OBSTRUCTION.md",
+      "sha256": "26536af7b5e6ebfb8fb4f7c7be993543c57152e29c6fd2b039c5eb147ccefd95",
+      "bytes": 18370
+    },
+    {
+      "role": "R15 actual signed remainder",
+      "staging_relative_path": "research-round15/signed-arithmetic/VAUGHAN_SIGNED_REMAINDER.md",
+      "sha256": "227179985368ea9a8c961b21dee9474d1440c1c5a3b7d04958a1e28b3e11d22a",
+      "bytes": 19344
+    }
+  ],
+  "storage": "Primary PDFs/text stay local; not published by this task."
+}

@@ -1,0 +1,8 @@
+{
+  "previousAuthorSha": "cadd5e82070e069f804e9b15d9d3488735963018dc4afb1aa7d7e769767b31fc",
+  "finalAuthorSha": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+  "finalBytes": 18635,
+  "status": "delta accepted",
+  "verified": "Only one paragraph and its displayed formula added in section 7. Independently derived H(2sigma+2k)~(log2)2^(-2sigma-2k) and w(-i(sigma+2k))~W²e^(3(sigma+2k)/W)/(sigma+2k)². Including carrier gives the exact displayed leading constant and geometric ratio X²e^(6/W)/4.",
+  "conclusion": "For fixed sigma,W,X and Xe^(3/W)>2, positive summands fail to tend to zero. In particular applies to each T>=2 with X=T²,W=T. Actual divergence of this proposed residue series; no universal obstruction."
+}

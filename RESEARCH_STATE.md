@@ -8,6 +8,8 @@ The user's latest direction prioritizes Dyson–Montgomery, random matrices and 
 
 ## Current evidence
 
+- Round 18 evaluates the reflected gamma contribution at carrier one and proves divergence of the proposed positive trivial-residue series at the target carrier X=T²,W=T. Nontrivial residues retain the unknown quadratic correlation. Separate unconditional dense-factor support and coefficient-norm lemmas show an enlarged X^.525 representation, while exact primitive inversion restores the original progression coefficients. Under RH the inherited X^1.023 log^5X bound is unchanged. Complete independent proofs/reviews and the fresh algebra replay are retained.
+
 - Round 17 shows precisely why a positive short-interval sieve cap, even with every center and prime power retained, is too weak at the Bragg scale. A separate compact quadratic packet proves an exact positive energy/real-square relation, with a complete reflected-zero residue formula and opposite nonzero sigma-derivative terms. The identities are independently reviewed; a strict pair-correlation estimate remains missing.
 
 - Round 16 isolates a fixed frequency-two saturation target: RH gives C(2)<=1+epsilon²*m1 asymptotically, AH forces equality, and a positive strict deficit would exclude AH. The exact positive-pair formula and extended centered prime kernel retain all normalizations, prime powers and limits. A separate compact pole packet gives an exactly finite linear prime sum with substantial signed Fourier mass. Both ordinary proofs have independent reviews; no strict actual-zeta bound follows.
@@ -95,3 +97,5 @@ Round 15 preserves 23 originals (152,394 bytes) locally and 21 verbatim public f
 Round 16 preserves the complete original proofs, independent reviews and bounded checks in the adjacent local archive, with selected research files verbatim public and reference bodies identified by hashes. Three full JSON outputs replay byte for byte. Its integrated report supplies the next checkpoint without rebuilding the Round 14 complete PDFs.
 
 Round 17 adds complete proofs and independent reviews of the scalar-cap failure and quadratic-packet identities. Exact constants and symbolic Laurent checks are retained with source hashes and bounded replays. No large numerical experiment or PDF rebuild is part of this checkpoint.
+
+Round 18 preserves 30 original files (626,360 bytes) locally and 28 verbatim public files. Complete historical and final review scopes are pinned separately. The exact copied replay matches every mathematical field; its only provenance differences from the author record are explicitly documented. The existing complete PDFs are unchanged. Three bounded Round 19 investigations test a sharp weighted Selberg variance, deterministic dynamic observability, and source-valid averaged-shift dispersion.

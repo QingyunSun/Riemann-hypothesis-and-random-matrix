@@ -1,0 +1,36 @@
+{
+  "status": "accepted within stated ordinary-proof scope",
+  "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/modulus-weights/MODULUS_WEIGHT_LEVEL_AND_NORMALIZATION.md",
+  "snapshot": "work/source-tools-review/r18/MODULUS_WEIGHT_LEVEL_AND_NORMALIZATION.md",
+  "sha256": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+  "bytes": 16141,
+  "fullFinalTextRead": true,
+  "correctionVerified": "Inherited X^(1023/1000)log^5X aggregate explicitly labeled under RH. The support and exact algebraic lemmas are separate and unconditional.",
+  "primarySources": [
+    {
+      "url": "https://arxiv.org/pdf/2006.07088v1",
+      "locations": "Definition2 and Theorem1.1 printedp2; fixed residue and constant dependence printedp6"
+    },
+    {
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+      "locations": "Definition2.1,Proposition2.3,eq2.5,Corollary2.19"
+    }
+  ],
+  "checks": [
+    "R>=1 is explicit. Allocating two real levels s<Pminus(n) forces remaining factor n, giving R>=nPminus(n)^2.",
+    "Real-prime terminal family has q>Q/2 and nonzero actual original/completed coefficients. Same-level support obstruction does not depend on combination norm or count.",
+    "Completed norm approximation obstruction retains nonnegative V, reduced numerator count, original H range and existing real-prime family; not a joint-prime cancellation lower bound.",
+    "Strong dense divisibility allocates order2 then order1 complementary factors, with two Y losses, giving point-mass well-factorability at QY².",
+    "Divisors inherit this allocation through pairwise coprime factor pieces for squarefree q; no false same-Y dense-divisibility heredity.",
+    "Full completed conductor l1 norm is at most (logQ)^j(1+logQ)^2; original point-mass cost is not asserted optimal among all decompositions.",
+    "Primitive principal term includes 1_(h,r)=1. Prime-only unit assumption is explicit and not imported to full von Mangoldt/bilinear marks.",
+    "Ramanujan expansion and exact Mobius inversion restore lambda_j(r), including divisor multiplier r, and eliminate all q!=r.",
+    "Maynard theorem fixes residue and allows dependent constants. 186 absolute dense-modulus theorem remains valid per coherent shift; neither estimate as stated controls growing shift aggregate."
+  ],
+  "notClaimed": [
+    "No replay of adjacent exact checker by coordinator in this review.",
+    "No new bound on actual joint shift aggregate.",
+    "No exclusion of cheap compressed original-weight representations at enlarged levels.",
+    "No formalization, global novelty audit or newest-exponent claim."
+  ]
+}
