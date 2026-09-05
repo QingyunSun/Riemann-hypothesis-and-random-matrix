@@ -292,3 +292,12 @@ The research question is whether the frequency-two atom forced by AH can be boun
 A separate attempt replaces the Gaussian pole-canceling packet by a sinc fourth power. It yields an exactly finite actual-Lambda sum, with zero continuous mean and no support-endpoint terms. The signed Fourier cost stays large. Complete independent proof and algebra reviews prevent mistaking the linear identity for a positive quadratic estimate. The finite arithmetic example retains higher prime powers and is labelled as a finite sum, not a zeta experiment.
 
 All three bounded output JSON files replay identically. Full source originals and primary reference bodies are retained locally; published research files remain verbatim and omissions are explicit. The complete 705/753-page PDFs keep their through-Round 14 checkpoint. The next independent analytic tests ask whether known sieve constants reach the strict atom target and whether a correctly centered quadratic packet can contribute to it. No new famous-conjecture result is inferred.
+
+
+## 2026-09-05 — Round 17: retain centering and test the actual scale
+
+The scalar short-interval cap test was carried through for the same actual prime signal, with a legal Fejer time majorant and exact moving-interval Plancherel constants. Its leading cap is four at alpha two. The full center contributes minus two plus one, and every prime power and both remote tails remain. Even after those terms, the available majorant grows like T/log T. Thus refining a fixed prime-count cap does not repair this particular fluctuation-scale loss. This failed trial narrows the next task to averaged covariance or oscillatory information.
+
+The quadratic packet supplies a correct positive relation, not the invalid replacement of H² by |H|². Its exact finite H² sum vanishes at carrier one, so its positive energy equals twice its real-part square. The full gamma-centered pair representation and reflected-zero residue sum are retained. Root requested an explicit distinct-zero convention to prevent multiplicities being counted twice; the frozen source includes that clarification. Two nonzero sigma-derivative terms cancel exactly. A W derivative would require better decay or an independent argument.
+
+Both proofs have independent ordinary reviews; bounded rational and symbolic checks are archived with hashes. No data sweep or PDF rebuild was used. The new positive pair kernel still requires a substantive transfer and estimate before it can imply any strict AH deficit.

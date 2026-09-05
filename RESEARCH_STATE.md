@@ -8,6 +8,8 @@ The user's latest direction prioritizes Dyson–Montgomery, random matrices and 
 
 ## Current evidence
 
+- Round 17 shows precisely why a positive short-interval sieve cap, even with every center and prime power retained, is too weak at the Bragg scale. A separate compact quadratic packet proves an exact positive energy/real-square relation, with a complete reflected-zero residue formula and opposite nonzero sigma-derivative terms. The identities are independently reviewed; a strict pair-correlation estimate remains missing.
+
 - Round 16 isolates a fixed frequency-two saturation target: RH gives C(2)<=1+epsilon²*m1 asymptotically, AH forces equality, and a positive strict deficit would exclude AH. The exact positive-pair formula and extended centered prime kernel retain all normalizations, prime powers and limits. A separate compact pole packet gives an exactly finite linear prime sum with substantial signed Fourier mass. Both ordinary proofs have independent reviews; no strict actual-zeta bound follows.
 
 - Round 15 gives an exact full-kernel Vaughan reduction with negligible Type I error and a proved untwisted SW property for beta_B. It retains the signed remainder, unbalanced factor corners and polynomial shift-summation loss. A separately proved nonnegative Gaussian packet cancels the actual zeta simple pole, with an exact leading negative Fourier cost, explicit RH bound and centered-tail endpoints. Both complete JSON replays agree without excluded fields; the full discrepancy bound is unchanged.
@@ -91,3 +93,5 @@ Round 14 preserves 17 originals (548,013 bytes) locally and 15 public research/r
 Round 15 preserves 23 originals (152,394 bytes) locally and 21 verbatim public files; the two omissions are exact duplicate replay inputs. Both final mathematical reports have separate author, independent and root reviews. Complete arithmetic and packet output JSON files reproduce byte for byte. The 705-page public and 753-page local handoffs keep their explicit Round 14 checkpoint; read the separate Round 15 integrated report for this later update.
 
 Round 16 preserves the complete original proofs, independent reviews and bounded checks in the adjacent local archive, with selected research files verbatim public and reference bodies identified by hashes. Three full JSON outputs replay byte for byte. Its integrated report supplies the next checkpoint without rebuilding the Round 14 complete PDFs.
+
+Round 17 adds complete proofs and independent reviews of the scalar-cap failure and quadratic-packet identities. Exact constants and symbolic Laurent checks are retained with source hashes and bounded replays. No large numerical experiment or PDF rebuild is part of this checkpoint.

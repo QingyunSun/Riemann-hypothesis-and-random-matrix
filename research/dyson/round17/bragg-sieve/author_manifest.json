@@ -1,0 +1,31 @@
+{
+  "status": "Author package frozen; complete independent review pending. Aquinas checked only the Fejer normalization separately.",
+  "scope": "A specific positive-time-majorant and short-interval cap argument for the actual centered von Mangoldt signal. No strict Bragg deficit; not an impossibility theorem for actual primes or stronger sieve methods.",
+  "files": [
+    {
+      "path": "BRAGG_SHORT_INTERVAL_CAP_TEST.md",
+      "sha256": "5939a90ce808ec8fbd11a9659bfd2dc61e60adb65f2b2b4b12f9cfb8641a9607",
+      "bytes": 12359
+    },
+    {
+      "path": "check_bragg_cap_constants.py",
+      "sha256": "1583e9699a11cfa94bf0820514e8c3009f1c0ee4df0125f92a1e05bc2628518d",
+      "bytes": 2169
+    },
+    {
+      "path": "bragg_cap_constants.json",
+      "sha256": "2462eb950e9d7f63701e27b1969859896d2502cda393fd42cea8bcd095be65c2",
+      "bytes": 1150
+    },
+    {
+      "path": "bragg_cap_constants.log",
+      "sha256": "2462eb950e9d7f63701e27b1969859896d2502cda393fd42cea8bcd095be65c2",
+      "bytes": 1150
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "fc2129ac6040fe1bc61d8e521ff9cd7ff58cdb4f488efbfde56471649994e618",
+      "bytes": 2184
+    }
+  ]
+}

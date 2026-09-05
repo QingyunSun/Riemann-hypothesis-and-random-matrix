@@ -215,3 +215,14 @@ Evidence: `reports/dyson_round15.md`, the full proof/review folders under `dyson
 - **Open:** the frequency-two strict deficit, a usable centered covariance upper bound, the quadratic packet/weight transfer, AH refutation and all famous-conjecture targets.
 
 Evidence: `reports/dyson_round16.md`, `dyson/round16/`, and `logs/round16-integration/`.
+
+
+## Round 17: actual sieve-cap failure and quadratic packet identities
+
+- **Ordinary proof under RH, independently reviewed:** the exact moving-log-interval/Fejer identity and full centered cap estimate J<=[(4/3)(alpha+1)/(alpha-1)+o(1)]x²/T² hold on alpha in [7/4,9/4]. The resulting Bragg majorant is too large by a power. This is a failure of the specified inequality step, not a true-statistic lower bound or a general sieve impossibility.
+- **Ordinary proof under RH, independently reviewed:** the double-zero sinc-sixth-power packet yields an exactly finite H² formula with coefficient Lambda*Lambda and cancels both continuous pole moments. At X=1,W>=3 the finite sum is empty, so the positive modulus energy equals twice the real-part square exactly. All gamma-center and all-ordinate pair terms remain.
+- **Ordinary contour/derivative identities:** the reflected shift retains its distinct-zero residue sum with multiplicity once; the holomorphic square and modulus square are not interchangeable. The two sigma-derivative integrals are opposite nonzero values, making the derivative-of-weight contribution indispensable. Absolute W differentiation for sinc^6 is not asserted.
+- **Finite checks:** exact rational cap constants and generic symbolic Laurent residues are checked; these are not asymptotic zeta estimates.
+- **Open:** an averaged centered covariance estimate or quantified transfer to one sufficient Bragg test. No RH, AH-refutation, GUE or gap theorem follows.
+
+Evidence: `reports/dyson_round17.md`, `dyson/round17/`, and `logs/round17-integration/`.
