@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-05",
+  "source_root": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round12",
+  "local_archive": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Local-Archive/round12-originals",
+  "public_root": "research/dyson/round12",
+  "copy_policy": "Verbatim research and independent reviews. Third-party PDF, extracted text and page image retained locally only.",
+  "files": [
+    {
+      "path": "INDEPENDENT_ROOT_REVIEW.md",
+      "bytes": 7673,
+      "sha256": "bff32012d2eb29877b51cd569d976016418d16abe6120a000a3c811f737a8557",
+      "public": true
+    },
+    {
+      "path": "dispersion-transfer/DISPERSION_HYPOTHESIS_OBSTRUCTION.md",
+      "bytes": 18370,
+      "sha256": "26536af7b5e6ebfb8fb4f7c7be993543c57152e29c6fd2b039c5eb147ccefd95",
+      "public": true
+    },
+    {
+      "path": "dispersion-transfer/check_dispersion_hypotheses.log",
+      "bytes": 497,
+      "sha256": "69723d4477a89398747d8f43a3a48da3734733368d571aced087d576c2ac823b",
+      "public": true
+    },
+    {
+      "path": "dispersion-transfer/check_dispersion_hypotheses.py",
+      "bytes": 8066,
+      "sha256": "f7f4e57171337cd7137f48662e8b4947f4e62a4f1e27f29e40b4d259d1816b06",
+      "public": true
+    },
+    {
+      "path": "dispersion-transfer/dispersion_hypotheses_certificate.json",
+      "bytes": 5044,
+      "sha256": "034ffc2e36bb3fc4bbf4482bbcac0f9bf20e50b44f0b9b93960c870d6269087b",
+      "public": true
+    },
+    {
+      "path": "mixed-arithmetic/SELBERG_MIXED_REMAINDER_AUDIT.md",
+      "bytes": 10511,
+      "sha256": "6223e9a54c44c31d344c2f932fe81ca6ad4672e5f6ef625adfeae07b4ed5a308",
+      "public": true
+    },
+    {
+      "path": "mixed-arithmetic/manifest.json",
+      "bytes": 783,
+      "sha256": "4ffc68589bd597768907835a0e1f9e01662f105fa50122f3a464d7e75e2af26a",
+      "public": true
+    },
+    {
+      "path": "mixed-arithmetic/sources/lemma5-page20.png",
+      "bytes": 218455,
+      "sha256": "fe5ece3dc68428c050602965385a02d66c67eb03daf3e83c347b514a95990083",
+      "public": false
+    },
+    {
+      "path": "mixed-arithmetic/sources/receipt.json",
+      "bytes": 785,
+      "sha256": "ba965a15a92c49d7380075462efb4ed0f392b47dcbfcefa9d316097c5b0bbca5",
+      "public": true
+    },
+    {
+      "path": "mixed-arithmetic/sources/saffari-vaughan-1977-II.pdf",
+      "bytes": 1548052,
+      "sha256": "26ea860646aea8e0007bed07cc074dcf2abb3f646d173688f3939dbf32439bde",
+      "public": false
+    },
+    {
+      "path": "mixed-arithmetic/sources/saffari-vaughan-1977-II.txt",
+      "bytes": 62632,
+      "sha256": "ede6670b4bcb951a746c7fdbfb272043cfefe6e7e4d5377fa7bd2c6dbd761e17",
+      "public": false
+    },
+    {
+      "path": "sampling-geometry/ACTUAL_SUPPORT_SAMPLING_OBSTRUCTION.md",
+      "bytes": 11979,
+      "sha256": "cb52d72f6068c3030968209d8aa028439ea4dc309aa5584d216a1d7d30a1a59d",
+      "public": true
+    },
+    {
+      "path": "sampling-geometry/COUNTING_REVIEW.md",
+      "bytes": 2258,
+      "sha256": "820dfdc6707cdc1c29f7eef61dc884d3f6c96980ffcffab661cd790e3843bbc2",
+      "public": true
+    },
+    {
+      "path": "sampling-geometry/README.md",
+      "bytes": 1230,
+      "sha256": "e0a9724046c3e806454239e230ad8168cd520be3d214bda1a5ad70e24ce007fd",
+      "public": true
+    },
+    {
+      "path": "sampling-geometry/check_sampling_geometry.json",
+      "bytes": 1060,
+      "sha256": "e10884d179928f241925b56bcc7cc8132f84bf375a30e2860345bf34bbe10df8",
+      "public": true
+    },
+    {
+      "path": "sampling-geometry/check_sampling_geometry.py",
+      "bytes": 5003,
+      "sha256": "0614ec586480b2125f516998be2e2f6ff706f43cbc33ca678ec6ff61605727c6",
+      "public": true
+    },
+    {
+      "path": "sampling-geometry/manifest.json",
+      "bytes": 1456,
+      "sha256": "23fb726847f555576b6d05640e404961c10828c501901c7725c188ae73df1031",
+      "public": true
+    },
+    {
+      "path": "sampling-geometry/source_receipt.json",
+      "bytes": 1142,
+      "sha256": "244b97702e4d32866814fd266ec15fd766a009510310dbae28d49f43133daa9e",
+      "public": true
+    }
+  ]
+}

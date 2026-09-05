@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 42506,
-      "sha256": "155c67d7bf80deb39c62a732a94a0b4bbd3f76495827440d0386153950a501ca"
+      "bytes": 44885,
+      "sha256": "45dded228ac4c3271b36ea4cd9981aefb8b4252d18bb3fdc405107c2c05c4704"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 22558,
-      "sha256": "68ed8d6572e351aa5586e0ed9451f61bf2a8310c7ba82dc8d3879d9bbd467c1a"
+      "bytes": 24420,
+      "sha256": "71a86f7928b4a4385d0f21752e5db05d1f5b35ed417e8ddf411db2cdee200f3b"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -205,6 +205,86 @@
       "path": "research/dyson/round11/prime-frequency/source_receipt.json",
       "bytes": 2443,
       "sha256": "8e932c58f5908b090b17d357edfd824183dcd6e8633b1ca200f8dcb3735b8c5b"
+    },
+    {
+      "path": "research/dyson/round12/INDEPENDENT_ROOT_REVIEW.md",
+      "bytes": 7673,
+      "sha256": "bff32012d2eb29877b51cd569d976016418d16abe6120a000a3c811f737a8557"
+    },
+    {
+      "path": "research/dyson/round12/INTAKE_MANIFEST.json",
+      "bytes": 4087,
+      "sha256": "1ea5edc4f1efb3630deb63bd69832091acb8d61ed040fd1d26c10230d250d9d7"
+    },
+    {
+      "path": "research/dyson/round12/dispersion-transfer/DISPERSION_HYPOTHESIS_OBSTRUCTION.md",
+      "bytes": 18370,
+      "sha256": "26536af7b5e6ebfb8fb4f7c7be993543c57152e29c6fd2b039c5eb147ccefd95"
+    },
+    {
+      "path": "research/dyson/round12/dispersion-transfer/check_dispersion_hypotheses.log",
+      "bytes": 497,
+      "sha256": "69723d4477a89398747d8f43a3a48da3734733368d571aced087d576c2ac823b"
+    },
+    {
+      "path": "research/dyson/round12/dispersion-transfer/check_dispersion_hypotheses.py",
+      "bytes": 8066,
+      "sha256": "f7f4e57171337cd7137f48662e8b4947f4e62a4f1e27f29e40b4d259d1816b06"
+    },
+    {
+      "path": "research/dyson/round12/dispersion-transfer/dispersion_hypotheses_certificate.json",
+      "bytes": 5044,
+      "sha256": "034ffc2e36bb3fc4bbf4482bbcac0f9bf20e50b44f0b9b93960c870d6269087b"
+    },
+    {
+      "path": "research/dyson/round12/mixed-arithmetic/SELBERG_MIXED_REMAINDER_AUDIT.md",
+      "bytes": 10511,
+      "sha256": "6223e9a54c44c31d344c2f932fe81ca6ad4672e5f6ef625adfeae07b4ed5a308"
+    },
+    {
+      "path": "research/dyson/round12/mixed-arithmetic/manifest.json",
+      "bytes": 783,
+      "sha256": "4ffc68589bd597768907835a0e1f9e01662f105fa50122f3a464d7e75e2af26a"
+    },
+    {
+      "path": "research/dyson/round12/mixed-arithmetic/sources/receipt.json",
+      "bytes": 785,
+      "sha256": "ba965a15a92c49d7380075462efb4ed0f392b47dcbfcefa9d316097c5b0bbca5"
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/ACTUAL_SUPPORT_SAMPLING_OBSTRUCTION.md",
+      "bytes": 11979,
+      "sha256": "cb52d72f6068c3030968209d8aa028439ea4dc309aa5584d216a1d7d30a1a59d"
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/COUNTING_REVIEW.md",
+      "bytes": 2258,
+      "sha256": "820dfdc6707cdc1c29f7eef61dc884d3f6c96980ffcffab661cd790e3843bbc2"
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/README.md",
+      "bytes": 1230,
+      "sha256": "e0a9724046c3e806454239e230ad8168cd520be3d214bda1a5ad70e24ce007fd"
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/check_sampling_geometry.json",
+      "bytes": 1060,
+      "sha256": "e10884d179928f241925b56bcc7cc8132f84bf375a30e2860345bf34bbe10df8"
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/check_sampling_geometry.py",
+      "bytes": 5003,
+      "sha256": "0614ec586480b2125f516998be2e2f6ff706f43cbc33ca678ec6ff61605727c6"
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/manifest.json",
+      "bytes": 1456,
+      "sha256": "23fb726847f555576b6d05640e404961c10828c501901c7725c188ae73df1031"
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/source_receipt.json",
+      "bytes": 1142,
+      "sha256": "244b97702e4d32866814fd266ec15fd766a009510310dbae28d49f43133daa9e"
     },
     {
       "path": "research/dyson/round7/INTAKE_MANIFEST.json",
@@ -805,6 +885,26 @@
       "path": "research/logs/round11-integration/recheck.py",
       "bytes": 3332,
       "sha256": "e23b87662ada20aa8e8aad8e0e660b89d85f4741c0a077e493e96246e86c3774"
+    },
+    {
+      "path": "research/logs/round12-integration/check_dispersion_hypotheses.replay.log",
+      "bytes": 497,
+      "sha256": "69723d4477a89398747d8f43a3a48da3734733368d571aced087d576c2ac823b"
+    },
+    {
+      "path": "research/logs/round12-integration/check_sampling_geometry.replay.log",
+      "bytes": 1060,
+      "sha256": "e10884d179928f241925b56bcc7cc8132f84bf375a30e2860345bf34bbe10df8"
+    },
+    {
+      "path": "research/logs/round12-integration/recheck.json",
+      "bytes": 1039,
+      "sha256": "7ed6cbb892c465b5a4da030e1d259f9306939c2567ce34f7c2d42ecaf319d567"
+    },
+    {
+      "path": "research/logs/round12-integration/recheck.py",
+      "bytes": 3408,
+      "sha256": "142e1fab2061e0eb0433a9079ce05900268fa56105302b7a1a41fa68b9fadc25"
     },
     {
       "path": "research/logs/round3-recheck-2026-09-05/README.md",
@@ -2097,6 +2197,11 @@
       "sha256": "293125227f1a9eef69441f1d15934ecd970466cce7bb14eb2aa1ee273886e9ad"
     },
     {
+      "path": "research/reports/dyson_round12.md",
+      "bytes": 8922,
+      "sha256": "5e697b2ba41e12869bb471a1294d110b1dbf8d2592e9652f467c776d6272a89a"
+    },
+    {
       "path": "research/reports/dyson_round7.md",
       "bytes": 8767,
       "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33"
@@ -2763,8 +2868,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 5510,
-      "sha256": "0d647aac26f3246750af8d88be2d6f1f9bd2845e8bf33c49482ab3b68a261e0d"
+      "bytes": 5842,
+      "sha256": "d99509c513a91663e4fbd01b911afe031932b8ab2d4f102f4913ab89eecb7e97"
     },
     {
       "path": "docs/handoff/ASTRA_LATEST_SUPPLEMENT.md",
@@ -2813,8 +2918,8 @@
     },
     {
       "path": "tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md",
-      "bytes": 12129,
-      "sha256": "0dd20005d803e9e87bb5ea45dfdd7d35faf8ff7fbb81a0ea688b8981847f4986"
+      "bytes": 13248,
+      "sha256": "63848277e0c3ab6a4529bfc8d10ce08c70d130f219ed7d338272ee8fb410ca21"
     },
     {
       "path": "output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf",

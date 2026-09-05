@@ -135,3 +135,15 @@ All paths are relative to the repository root. The public reports contain the de
 - **Open:** an arithmetic bound at X log X, full sharp covariance, joint prime/coefficient cancellation and the strict lower bound on B_T. No new actual-zeta pair-correlation, gap, AH-refutation, GUE or sub-186 theorem.
 
 Evidence: `reports/dyson_round11.md`, the complete author/reviewer records in `dyson/round11/`, and `logs/round11-integration/`.
+
+
+## Round 12: specific arithmetic shortcuts fail
+
+- **Ordinary proof, independently reviewed:** actual canonical support forces positive local sampling constant >=c Q^2/log^348 X, even for artificial integer-frequency packets obeying the known arc envelopes. The analogous specified absolute-weight operator has its stated lower bound. This is not a lower bound for actual prime concentration or the full signed functional.
+- **Ordinary prime-arithmetic counterexample, independently reviewed:** at legal source scales and conductors, an additive twist of a prime-interval SW coefficient has modulus-3 discrepancy (i sqrt(3)/4+o(1))N/log N. Therefore direct phase absorption does not inherit SW. The source theorem is not contradicted; averaged phase treatment remains open.
+- **Ordinary support count, independently reviewed:** the primitive-filtered shift interval has full local unit images, so the product-local residue lift costs phi(d)~d on the constructed family. Also H is below the source's permitted short-factor scale. These are failed applications, not a general dispersion impossibility.
+- **Insufficient RH estimate, independently reviewed:** centered Selberg--Gallagher gives only the recorded weak one-sided mixed bound; stronger known global estimates are retained separately and still do not supply the required signed shrinking-shell coefficient in the proposed use. No optimality of RH norm bounds is claimed.
+- **Exact replay:** 60 signed-kernel identities, rational constants/source inequalities and six modular-selection cases pass. No large numerical prime realization.
+- **Unchanged:** strongest actual component bound X^1.023 log^5 X under RH; all target zeta/RMT lower inequalities and famous conjectures remain open.
+
+Evidence: `reports/dyson_round12.md`, `dyson/round12/INDEPENDENT_ROOT_REVIEW.md`, and `logs/round12-integration/`.

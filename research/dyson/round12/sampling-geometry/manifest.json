@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-05",
+  "status": "Author package frozen; inherited \u00a7\u00a71\u20133 count/constants independently accepted by prime186; coordinator full review pending",
+  "scope": "Positive and absolute-weight sampling obstruction only, not a genuine-prime or full signed-pairing obstruction",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e0a9724046c3e806454239e230ad8168cd520be3d214bda1a5ad70e24ce007fd",
+      "bytes": 1230
+    },
+    {
+      "path": "ACTUAL_SUPPORT_SAMPLING_OBSTRUCTION.md",
+      "sha256": "cb52d72f6068c3030968209d8aa028439ea4dc309aa5584d216a1d7d30a1a59d",
+      "bytes": 11979
+    },
+    {
+      "path": "check_sampling_geometry.py",
+      "sha256": "0614ec586480b2125f516998be2e2f6ff706f43cbc33ca678ec6ff61605727c6",
+      "bytes": 5003
+    },
+    {
+      "path": "check_sampling_geometry.json",
+      "sha256": "e10884d179928f241925b56bcc7cc8132f84bf375a30e2860345bf34bbe10df8",
+      "bytes": 1060
+    },
+    {
+      "path": "source_receipt.json",
+      "sha256": "244b97702e4d32866814fd266ec15fd766a009510310dbae28d49f43133daa9e",
+      "bytes": 1142
+    }
+  ],
+  "checks": {
+    "exact_script": "PASS",
+    "rational_constants": "PASS",
+    "formal_signed_kernel_identities": 60,
+    "relative_links": "PASS",
+    "control_characters": "PASS"
+  },
+  "separate_reviews": "A separate reviewer artifact may be added by the reviewer/coordinator; it is not represented as part of this author manifest."
+}

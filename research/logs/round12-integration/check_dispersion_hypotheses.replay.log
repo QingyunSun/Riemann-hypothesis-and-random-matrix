@@ -1,0 +1,7 @@
+PASS: exact source scales and strict parameter inequalities.
+PASS: phase discrepancy coefficient is +i*sqrt(3)/4 in both sign branches.
+PASS: six fixed modular-selection examples; these are algebra checks only.
+PASS: positive CRT and short-factor exponent margins.
+PASS: primary PDF/text and frozen conductor hashes; report text checks.
+Report SHA256: 26536af7b5e6ebfb8fb4f7c7be993543c57152e29c6fd2b039c5eb147ccefd95
+Script SHA256: f7f4e57171337cd7137f48662e8b4947f4e62a4f1e27f29e40b4d259d1816b06

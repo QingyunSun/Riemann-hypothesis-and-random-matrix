@@ -2,6 +2,10 @@
 
 ## Resume from existing evidence — 2026-09-05 update
 
+**Latest intake supersedes stale research status below.** First read the [independent review of the later `89393d5` snapshot](https://github.com/QingyunSun/Riemann-hypothesis-and-random-matrix/blob/087a0e4a6c93bed4326625b8c61048586a99778e/fable/reviews/pr11-89393d5/INTAKE_REVIEW.md). The full later source is preserved in `fable/snapshots/89393d5/files/`. Its stored `L=10^7` result and drift outputs now exist; they need not be regenerated. The review did not rerun the large computations or certify their errors.
+
+The fixed-family arithmetic transfer has subsequently received an independent ordinary-proof review. Do not reopen that gap merely because the older F1 draft lacked an explicit convergence rate. The candidate still has negative margin. If continuing this audit, use the uncovered checks listed below, after checking both snapshots for coverage; do not start a new research round. Preserve the valid correction `Pi_4 ~ 6a/(s-1)^4`, the refuter's separately identified derivative-sign error, and the corrected fixed-v table. A faithful replay of a failing assertion is not a passing mathematical check.
+
 This remains the same single-session audit. Read the [pinned acceptance review, section 7](https://github.com/QingyunSun/Riemann-hypothesis-and-random-matrix/blob/055a4a0a1d85949139fa922c91bb8e5d0053dc17/research/reports/fable_task001_sync_review.md) before computing. It reviewed the original packet with SHA256 `745c6411355b163f429cbeaa96b7c1b681f8b36e6ec92152f74cba30739743f5`; the original task specification follows this update.
 
 Existing Fable artifacts are mirrored under `fable/overnight-2026-09-05/astra_tasks/task001/` in the shared repository. Match their fixed candidate and parameters before reuse.

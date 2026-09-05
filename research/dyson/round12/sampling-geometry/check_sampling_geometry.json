@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "Exact rational bookkeeping and one formal cyclotomic completion check; no asymptotic prime experiment",
+  "Q_squared_over_X_exponent": "23/500",
+  "constants_relative_to_c0": {
+    "actual_frequency_count": "1/128",
+    "cluster_count": "1/1024",
+    "positive_sampling": "1/81920",
+    "weighted_sampling_with_m_v_squared": "1/655360"
+  },
+  "toy_moduli": [
+    6,
+    10,
+    15,
+    30
+  ],
+  "toy_shifts": {
+    "4": "1",
+    "5": "2",
+    "7": "1"
+  },
+  "common_cyclotomic_order": 30,
+  "cyclotomic_polynomial_ascending": [
+    "1",
+    "1",
+    "0",
+    "-1",
+    "-1",
+    "-1",
+    "0",
+    "1",
+    "1"
+  ],
+  "signed_kernel_identities_checked": 60,
+  "toy_kernel_values_first_twelve": [
+    "-7/8",
+    "-15/8",
+    "-15/8",
+    "1/8",
+    "17/8",
+    "-15/8",
+    "1/8",
+    "-15/8",
+    "-15/8",
+    "-7/8",
+    "1/8",
+    "-15/8"
+  ],
+  "toy_signed_dual_norm_square_n31_to36": "507/32",
+  "prime_obstruction_proved": false,
+  "script_sha256": "0614ec586480b2125f516998be2e2f6ff706f43cbc33ca678ec6ff61605727c6"
+}
