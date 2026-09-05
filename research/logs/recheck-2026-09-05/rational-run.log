@@ -1,0 +1,21 @@
+margin -0.014662375473368995 -0.014662375473368974
+{
+  "status": "Exact rational continuum-integral certificate; arithmetic transfer NOT certified",
+  "ell": "16/15",
+  "f": "(145+3v-116v^2+71v^3-6v^4)/100",
+  "g": "(-563+1682v-2479v^2+1751v^3-488v^4)/100",
+  "feature": "H=f(v)+g(v) S2",
+  "norm": "14048570231396640851971777495951292585559/14081225337811261631891125059730620313600",
+  "margin_enclosure_float": [
+    -0.014662375473368995,
+    -0.014662375473368974
+  ],
+  "taylor_error_abs_float": [
+    1.0221466830974903e-17,
+    4.286472866902248e-20
+  ],
+  "asserted_rational_interval": [
+    "-1467/100000",
+    "-1465/100000"
+  ]
+}

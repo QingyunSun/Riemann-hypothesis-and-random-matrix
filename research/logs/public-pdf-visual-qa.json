@@ -1,0 +1,12 @@
+{
+  "checkpoint": "rounds1-2 before incoming dynamic followups",
+  "pages": 223,
+  "all_pages_rendered": true,
+  "all_page_contact_sheets_inspected": true,
+  "high_resolution_pages_inspected": [
+    27,
+    56
+  ],
+  "findings": "No clipping, overlap, missing page, or broken glyph detected in the rendered checkpoint. Zero KaTeX parse errors and zero element overflow.",
+  "pdf_sha256": "2fc12826f2192d27f78cf6c6fa83496685a520d063974e549e3152db4f63010d"
+}

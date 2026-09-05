@@ -1,0 +1,37 @@
+[
+  {
+    "N": 250,
+    "numerical_critical_lambda": 5.207389874050932,
+    "normalized_margin_bound": 0.013809452862982352,
+    "min_denominator": 9.891878488033079e-05,
+    "max_Y": 0.26139025028982577
+  },
+  {
+    "N": 500,
+    "numerical_critical_lambda": 5.207394349109109,
+    "normalized_margin_bound": 0.013809679572078015,
+    "min_denominator": 0.00010839145940355621,
+    "max_Y": 0.2619727810797292
+  },
+  {
+    "N": 1000,
+    "numerical_critical_lambda": 5.207395467853985,
+    "normalized_margin_bound": 0.01380973624835552,
+    "min_denominator": 0.00010875471641136336,
+    "max_Y": 0.26190696225252164
+  },
+  {
+    "N": 2000,
+    "numerical_critical_lambda": 5.207395747539067,
+    "normalized_margin_bound": 0.013809750417367317,
+    "min_denominator": 0.00010893692463120885,
+    "max_Y": 0.2619244320723832
+  },
+  {
+    "N": 4000,
+    "numerical_critical_lambda": 5.207395817460565,
+    "normalized_margin_bound": 0.013809753959631799,
+    "min_denominator": 0.00010908093060058022,
+    "max_Y": 0.26192487617522
+  }
+]

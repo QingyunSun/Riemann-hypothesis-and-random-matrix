@@ -1,0 +1,102 @@
+{
+  "L": 1000000,
+  "true_eigenvalue": 4.27389691591938,
+  "fits": [
+    {
+      "ell": 1.0,
+      "features": "mass_only",
+      "rank": 5,
+      "l2_error": 0.1327451628466067,
+      "rayleigh": 4.218659975153249,
+      "deficit_from_finite_max": 0.055236940766130616
+    },
+    {
+      "ell": 1.0,
+      "features": "symmetric_powers",
+      "rank": 20,
+      "l2_error": 0.023940691605376138,
+      "rayleigh": 4.272468996193815,
+      "deficit_from_finite_max": 0.0014279197255646636
+    },
+    {
+      "ell": 1.0,
+      "features": "plus_largest",
+      "rank": 30,
+      "l2_error": 0.02203326519269065,
+      "rayleigh": 4.27257948078873,
+      "deficit_from_finite_max": 0.0013174351306499688
+    },
+    {
+      "ell": 1.0,
+      "features": "plus_omega",
+      "rank": 40,
+      "l2_error": 0.016181331533989138,
+      "rayleigh": 4.2730984378005585,
+      "deficit_from_finite_max": 0.0007984781188214995
+    },
+    {
+      "ell": 1.08,
+      "features": "mass_only",
+      "rank": 5,
+      "l2_error": 0.09399053766661278,
+      "rayleigh": 4.2413026893751065,
+      "deficit_from_finite_max": 0.032594226544273575
+    },
+    {
+      "ell": 1.08,
+      "features": "symmetric_powers",
+      "rank": 20,
+      "l2_error": 0.01813753367405701,
+      "rayleigh": 4.273163211325686,
+      "deficit_from_finite_max": 0.000733704593693929
+    },
+    {
+      "ell": 1.08,
+      "features": "plus_largest",
+      "rank": 30,
+      "l2_error": 0.015245051933944905,
+      "rayleigh": 4.273263649521815,
+      "deficit_from_finite_max": 0.0006332663975650021
+    },
+    {
+      "ell": 1.08,
+      "features": "plus_omega",
+      "rank": 40,
+      "l2_error": 0.011346692066080731,
+      "rayleigh": 4.273453204513651,
+      "deficit_from_finite_max": 0.0004437114057287417
+    },
+    {
+      "ell": 1.1763,
+      "features": "mass_only",
+      "rank": 5,
+      "l2_error": 0.08594262344053033,
+      "rayleigh": 4.253107074632289,
+      "deficit_from_finite_max": 0.02078984128709127
+    },
+    {
+      "ell": 1.1763,
+      "features": "symmetric_powers",
+      "rank": 20,
+      "l2_error": 0.044583723349540395,
+      "rayleigh": 4.270387083894198,
+      "deficit_from_finite_max": 0.003509832025182291
+    },
+    {
+      "ell": 1.1763,
+      "features": "plus_largest",
+      "rank": 30,
+      "l2_error": 0.03744452635309863,
+      "rayleigh": 4.271014522981239,
+      "deficit_from_finite_max": 0.0028823929381411872
+    },
+    {
+      "ell": 1.1763,
+      "features": "plus_omega",
+      "rank": 40,
+      "l2_error": 0.01632488405723009,
+      "rayleigh": 4.273170386584153,
+      "deficit_from_finite_max": 0.0007265293352274327
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "kind": "Current report",
+    "path": "research/reports/symmetric_prime_arithmetic_transfer.md",
+    "sha256": "d1329ec22b249fb0f1a8e6cf645e5d831ecb1ee7f8759f8c2b2caaaacc21d904",
+    "characters": 12997
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/symmetric_prime_transfer_independent_review.md",
+    "sha256": "f3a961b4fe4340b6e65f31c2aa40adb5fcd7d54ab09406ab2dc7c1ab38118ddf",
+    "characters": 11002
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/residual_gram_round1.md",
+    "sha256": "21b55679859ee1b67ea3b5c244b0d4367e5124be05e28d62aa13bcd02e877163",
+    "characters": 22258
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/residual_gram_round2.md",
+    "sha256": "1e625af13fe203ed3e9d70f78bf191fba20dcec10cf10ac2ebaed8b0de36f18c",
+    "characters": 14920
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/centered_gaussian_mixed_moments.md",
+    "sha256": "5aec8de6c69d3b8d67799a65d0598d49ff1a87a5878ebc548dd3c90d806e1716",
+    "characters": 14594
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/yau_flow.md",
+    "sha256": "0d407ae5cb198960bc3c00ff76f6baeb61e5536e63799eaf89a28af92f460542",
+    "characters": 30369
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/yau_flow_galilean_refinement.md",
+    "sha256": "ffa09e0a4a6a78854fe5bfdb666e812d85bb34169dcb1d8443020eb665db6d3e",
+    "characters": 7305
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/galilean-proof-audit.md",
+    "sha256": "f3896ff6b7a07d1296762ff09ad8bf9315766459f16394d6636e64d9036c8f13",
+    "characters": 16931
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/prime186-yau-independent-review.md",
+    "sha256": "557a3dda43b4b5b524c84e6b1d83eb97195313f1a9cccd1d85f17c081239633d",
+    "characters": 4825
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/prime186.md",
+    "sha256": "0b4c921d5facba4d079b1c9a54a6958aed18c63be074aa6032cc1310fa7b6e1a",
+    "characters": 16516
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/resummed_prime_profiles.md",
+    "sha256": "1bb8d49fc05c7e7008134d00328a77cc59a9d0344f011ebbd7ca4acd5282b64e",
+    "characters": 6517
+  },
+  {
+    "kind": "Claim ledger",
+    "path": "research/claims/CLAIM_LEDGER.md",
+    "sha256": "43ecc9efa7f0a570c6e6eb01f3b683acfbaab3da418443340422a601ab18ba51",
+    "characters": 4429
+  },
+  {
+    "kind": "Research log",
+    "path": "research/RESEARCH_LOG.md",
+    "sha256": "647cc527d4ecf75644a09019c0cc402621f320dccde36c38807ce5c7506fb485",
+    "characters": 11841
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/final_verified_paper.md",
+    "sha256": "a60ce0006688d248717658583e2fd347916139e220617a7e225251303c7dd1a6",
+    "characters": 35149
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/round3_synthesis.md",
+    "sha256": "ba768c0c81077b5ab5c355890130564c59a5579d6010e693171837eb82ac4836",
+    "characters": 13129
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/impostors_paper.md",
+    "sha256": "760f8b362ab12bbf9d182c77f4b555983275a704de07927bc3a14d127fe0b8b4",
+    "characters": 68254
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/depth_scaling_theorem.md",
+    "sha256": "742b21590598a8b4aa4d73bad590be85946f670433e6b682552a6b0d18c8930a",
+    "characters": 10321
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/newman_depth_note.md",
+    "sha256": "959ce6ac7697de8bf679fd44f78065ffe0d5112ad3fa77c1e5dc9aecb3addd5f",
+    "characters": 5851
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/signed_sieve_nogo.md",
+    "sha256": "8802c586ba28180b3a3eed9ef61bd232355de5b30585f0c0fd21c426a16d038d",
+    "characters": 11791
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/H2_H3_record_announcement.md",
+    "sha256": "0c2bebc885a4250015b5a81270f41afeda4dbc4dd8afb7454cd3229fb3774223",
+    "characters": 7346
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/prime_gap_survey.md",
+    "sha256": "706f0de654e61de32016d45637bf887994393b6911647095378782325a6a7a66",
+    "characters": 32133
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/stopping_times_paper.md",
+    "sha256": "8f7715642343c32bb8d39d30cae1d6b56bb0a0ec98ab2b5f7b26c1f6960b418a",
+    "characters": 54379
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/joint_context_v2.md",
+    "sha256": "ed977e3f56ffedd8e777663a44df40a4fc03734a8819967953f96f8bebb2576b",
+    "characters": 6911
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/prime_gap_context.md",
+    "sha256": "f46b6cffca37508e2d90a966befbdc80dcc07d39aaf68654adb04cf1a7edc77f",
+    "characters": 5678
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/signed_context.md",
+    "sha256": "f9d18ed12b12644f97574bf2efc9613815334722879a693dce0995adf7530fae",
+    "characters": 7290
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/codex_handoff.md",
+    "sha256": "2f6f5c614cbd639bbcd23231698a1833243aff058277ac388df040db563e571a",
+    "characters": 8826
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/rmt_zeta_survey.md",
+    "sha256": "a60e1a3fb0e3b6db037446a59867c14de0bc2b3b8df38ff4a77738a10278ca2b",
+    "characters": 27705
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/rmt_zeta_popular.md",
+    "sha256": "d22dbc5e35dfa46a2883a15d78d91434bdb2ee7343a4a9fc2106723d9ee5c0fb",
+    "characters": 5956
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/README.md",
+    "sha256": "25ce7119647fc7b9311ed71dd2047cf2a5ca47e458690f1e27a0217d3742c269",
+    "characters": 825
+  },
+  {
+    "kind": "Historical source",
+    "path": "historical/riemann-rmt/handoff/HANDOFF_GPT6_ASTRA.md",
+    "sha256": "34950171df1d33390c98ad052be08ad0f7bac881ac409d9afc257e5e048e1cbc",
+    "characters": 65771
+  }
+]
