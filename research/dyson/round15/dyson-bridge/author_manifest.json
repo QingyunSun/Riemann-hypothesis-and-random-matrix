@@ -1,0 +1,32 @@
+{
+  "status": "Author package frozen; independent review is a separately pinned artifact.",
+  "result_scope": "Under RH, an exact linear logarithmic-derivative identity for a nonnegative pole-annihilating time packet, exact signed continuum masses, and uniform centered-tail bounds. No lower bound for the original two-scale W_T and no novelty claim.",
+  "verification_scope": "Ordinary proof plus 70-digit diagnostic quadratures and exact rational arithmetic checks. No interval certificate or critical-strip Dirichlet-series evaluation.",
+  "files": [
+    {
+      "path": "POLE_ANNIHILATING_PACKET.md",
+      "sha256": "3213cf34d3a5521260b48ebbeebbf12522afd04c92075c30e6e0434478bb908a",
+      "bytes": 17759
+    },
+    {
+      "path": "check_pole_packet.py",
+      "sha256": "25a20d5946dd6e973cd18cc52a1031f47cc4b2fe82cca236c32de0332ad40a04",
+      "bytes": 8155
+    },
+    {
+      "path": "pole_packet_checks.json",
+      "sha256": "1cf9ae8467e35c1413a7c809ccc2daeb7757c4701a457356ffae25cd6672daf9",
+      "bytes": 7191
+    },
+    {
+      "path": "pole_packet_checks.log",
+      "sha256": "7c29ad1cb18a63c9399724f221e20f3e9c0954205588134c92a6c9a7be7fa259",
+      "bytes": 274
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "84cd4a5f31145cf596708b93933c1dee600bfa87569896d3d9acc8dcaf362243",
+      "bytes": 3700
+    }
+  ]
+}

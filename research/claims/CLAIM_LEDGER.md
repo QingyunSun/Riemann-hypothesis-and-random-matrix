@@ -190,3 +190,15 @@ Evidence: `reports/dyson_round14.md`, `dyson/round14/`, and `logs/round14-integr
 - **No mathematical status change:** compilation, typesetting and source preservation do not prove RH, Montgomery–Dyson/GUE, AH-Pairs refutation, a new zeta-gap result or a sub-186 prime gap. All prior conditional statements, counterexamples and failed trials retain their audited scopes.
 
 Evidence: `logs/round6-14-handoff/FINAL_ARTIFACT_QA.json`, `docs/handoff/ROUNDS_6_14_ARCHIVE_INDEX.json`, and the independent coverage/review records.
+
+
+## Round 15: explicit signed remainder and pole-annihilating Gaussian
+
+- **Unconditional ordinary proof, independently reviewed:** exact full-kernel Vaughan reduction D[Lambda]=D[mu_{>A}*beta_B]+O_J(HX(ABQ/X)^J log²X); the corresponding old divisor remainder is accounted for exactly. Symmetric cutoffs yield error X^(1711/1750)log²X.
+- **Ordinary arithmetic proof, independently reviewed:** beta_B has the full untwisted Siegel–Walfisz property with fixed divisor exponent one. Phase twists, factor swaps, uncovered length corners and shift-aggregate estimates do not follow.
+- **Exact finite evidence:**49,152 formal-log identities, rational source inequalities and two legal-support opposite-sign coefficient witnesses pass. No finite test proves SW or the asymptotic error.
+- **Ordinary proof under RH, independently reviewed:** a nonnegative Gaussian-polynomial time weight cancels the actual simple zeta pole in a linear pairing. Its prime Fourier kernel remains signed; equal leading continuum masses, an explicit10800 pointwise bound,2430 centered IBP-tail constant and retained finite-window endpoints are established.
+- **Exact Hilbert identities:** the full Gram is PSD despite signed entries; Plancherel uses the squared time weight. No original sharp-window/two-width transfer is inferred.
+- **Open:** the full signed bilinear estimate, a strict actual-zeta covariance gain, higher-pole and weight-derivative extensions, and all famous-conjecture targets. The full RH discrepancy bound remains X^1.023 log^5X.
+
+Evidence: `reports/dyson_round15.md`, the full proof/review folders under `dyson/round15/`, and `logs/round15-integration/`.

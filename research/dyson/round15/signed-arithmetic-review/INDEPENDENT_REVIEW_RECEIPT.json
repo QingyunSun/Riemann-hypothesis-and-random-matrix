@@ -1,0 +1,13 @@
+{
+  "status": "ACCEPTED within the explicitly reviewed scope",
+  "author_report_sha256": "227179985368ea9a8c961b21dee9474d1440c1c5a3b7d04958a1e28b3e11d22a",
+  "author_receipt_sha256": "578a31eacea11138b68ea43302afff54cc0461db58f18fc87afdb62bfdf7c95f",
+  "final_script_sha256": "39ed2285c79c6a469f2c664be7222084e500ed2bcb174b1dd6a4baa44a9ee49c",
+  "review_sha256": "96a203248c4235c497d177793de501703af7c81d48a1361e1a863183ec294532",
+  "independent_replay_sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156",
+  "author_json_sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156",
+  "independent_replay_byte_identical": true,
+  "author_files_and_sizes_verified": true,
+  "all_six_source_hashes_verified": true,
+  "scope": "Exact Vaughan reduction, full-kernel Poisson error, untwisted beta_B SW with auxiliary modulus, correct source ranges; no full bilinear or actual-zeta bound"
+}

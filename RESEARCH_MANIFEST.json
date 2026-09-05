@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 49530,
-      "sha256": "bc3e67afe1f9dcc6b4a73524e870b62ac19571f75ea943a6daec45bc9de3ccf9"
+      "bytes": 51198,
+      "sha256": "2ba7f68ef8e175e4a39eea8bb8c324d6c17133f759323a65bd056ba517ac3c5d"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 29776,
-      "sha256": "a22ff339ebe31f7b7dcd715b126838981d3ee5d6377cf3cc3638974abca0dd93"
+      "bytes": 31431,
+      "sha256": "81490c1f284f4c6d568da9fc58583c83159ddb634af39e6a397af526bbca5c43"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -445,6 +445,116 @@
       "path": "research/dyson/round14/smooth-long-factor/smooth_long_factor_certificate.json",
       "bytes": 3203,
       "sha256": "3e9a946cf3faeccc697590d097d9c49796c2091678199ee231bbafb24d8fbe83"
+    },
+    {
+      "path": "research/dyson/round15/INTAKE_MANIFEST.json",
+      "bytes": 5842,
+      "sha256": "03430d78f4ec8690ed875b5457959fe3dd8c65d1c22e68d495e7fd2fb4e19df4"
+    },
+    {
+      "path": "research/dyson/round15/dyson-bridge/POLE_ANNIHILATING_PACKET.md",
+      "bytes": 17759,
+      "sha256": "3213cf34d3a5521260b48ebbeebbf12522afd04c92075c30e6e0434478bb908a"
+    },
+    {
+      "path": "research/dyson/round15/dyson-bridge/author_manifest.json",
+      "bytes": 1346,
+      "sha256": "dac30de4579eb2e5bf3f38794347f14c33e8d691029209fde7ac7a51a55edb60"
+    },
+    {
+      "path": "research/dyson/round15/dyson-bridge/check_pole_packet.py",
+      "bytes": 8155,
+      "sha256": "25a20d5946dd6e973cd18cc52a1031f47cc4b2fe82cca236c32de0332ad40a04"
+    },
+    {
+      "path": "research/dyson/round15/dyson-bridge/pole_packet_checks.json",
+      "bytes": 7191,
+      "sha256": "1cf9ae8467e35c1413a7c809ccc2daeb7757c4701a457356ffae25cd6672daf9"
+    },
+    {
+      "path": "research/dyson/round15/dyson-bridge/pole_packet_checks.log",
+      "bytes": 274,
+      "sha256": "7c29ad1cb18a63c9399724f221e20f3e9c0954205588134c92a6c9a7be7fa259"
+    },
+    {
+      "path": "research/dyson/round15/dyson-bridge/source_manifest.json",
+      "bytes": 3700,
+      "sha256": "84cd4a5f31145cf596708b93933c1dee600bfa87569896d3d9acc8dcaf362243"
+    },
+    {
+      "path": "research/dyson/round15/pole-packet-review/INDEPENDENT_POLE_PACKET_REVIEW.md",
+      "bytes": 12701,
+      "sha256": "637e0d94f86d4d114a85d88b5ff5a15512d26e8396313914ea5a719db2bdfdc4"
+    },
+    {
+      "path": "research/dyson/round15/pole-packet-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 3383,
+      "sha256": "f7c3544e2d3ab062cc523748cd30093578c8f4f29a86e7503b11de494336f2f1"
+    },
+    {
+      "path": "research/dyson/round15/pole-packet-review/replay/independent_replay.log",
+      "bytes": 274,
+      "sha256": "7c29ad1cb18a63c9399724f221e20f3e9c0954205588134c92a6c9a7be7fa259"
+    },
+    {
+      "path": "research/dyson/round15/pole-packet-review/replay/pole_packet_checks.json",
+      "bytes": 7191,
+      "sha256": "1cf9ae8467e35c1413a7c809ccc2daeb7757c4701a457356ffae25cd6672daf9"
+    },
+    {
+      "path": "research/dyson/round15/root-review/ROOT_POLE_PACKET_REVIEW.md",
+      "bytes": 3845,
+      "sha256": "a086040a04a363b0d62a89c3fa2cf0328c111e0652d15bea8835d4602cc96c1e"
+    },
+    {
+      "path": "research/dyson/round15/root-review/ROOT_VAUGHAN_REVIEW.md",
+      "bytes": 4663,
+      "sha256": "0420d8d743a057cbc25145ab8a1781cb77c53867e528b46e2f2b1eea0d336717"
+    },
+    {
+      "path": "research/dyson/round15/root-review/root_vaughan_replay.json",
+      "bytes": 3908,
+      "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156"
+    },
+    {
+      "path": "research/dyson/round15/signed-arithmetic/AUTHOR_RECEIPT.json",
+      "bytes": 2314,
+      "sha256": "578a31eacea11138b68ea43302afff54cc0461db58f18fc87afdb62bfdf7c95f"
+    },
+    {
+      "path": "research/dyson/round15/signed-arithmetic/VAUGHAN_SIGNED_REMAINDER.md",
+      "bytes": 19344,
+      "sha256": "227179985368ea9a8c961b21dee9474d1440c1c5a3b7d04958a1e28b3e11d22a"
+    },
+    {
+      "path": "research/dyson/round15/signed-arithmetic/check_vaughan_remainder.py",
+      "bytes": 9422,
+      "sha256": "39ed2285c79c6a469f2c664be7222084e500ed2bcb174b1dd6a4baa44a9ee49c"
+    },
+    {
+      "path": "research/dyson/round15/signed-arithmetic/vaughan_checks.json",
+      "bytes": 3908,
+      "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156"
+    },
+    {
+      "path": "research/dyson/round15/signed-arithmetic/vaughan_checks.log",
+      "bytes": 187,
+      "sha256": "ba1fda4fd5611c45309395d9503f48be36993716303cec2b2198d663ed26764a"
+    },
+    {
+      "path": "research/dyson/round15/signed-arithmetic-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 925,
+      "sha256": "eb0bccceb8086d0e43a2d5dc2d336c0ce4da66ad1af09edb777064f616c274b5"
+    },
+    {
+      "path": "research/dyson/round15/signed-arithmetic-review/INDEPENDENT_VAUGHAN_REVIEW.md",
+      "bytes": 12082,
+      "sha256": "96a203248c4235c497d177793de501703af7c81d48a1361e1a863183ec294532"
+    },
+    {
+      "path": "research/dyson/round15/signed-arithmetic-review/independent_replay.json",
+      "bytes": 3908,
+      "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156"
     },
     {
       "path": "research/dyson/round7/INTAKE_MANIFEST.json",
@@ -1105,6 +1215,26 @@
       "path": "research/logs/round14-integration/recheck.py",
       "bytes": 4278,
       "sha256": "52d22fe5430cc32d80178883ac10cd150a114b83e143e01a6628ea2365ba2aa6"
+    },
+    {
+      "path": "research/logs/round15-integration/INTEGRATION_RECEIPT.json",
+      "bytes": 659,
+      "sha256": "4f77508f7cb418fb543e5d051bff4dee24ee29cc197c2f24b53d25660c72fc04"
+    },
+    {
+      "path": "research/logs/round15-integration/pole_packet_checks.json",
+      "bytes": 7191,
+      "sha256": "1cf9ae8467e35c1413a7c809ccc2daeb7757c4701a457356ffae25cd6672daf9"
+    },
+    {
+      "path": "research/logs/round15-integration/pole_packet_replay.log",
+      "bytes": 274,
+      "sha256": "7c29ad1cb18a63c9399724f221e20f3e9c0954205588134c92a6c9a7be7fa259"
+    },
+    {
+      "path": "research/logs/round15-integration/vaughan_checks.json",
+      "bytes": 3908,
+      "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156"
     },
     {
       "path": "research/logs/round3-recheck-2026-09-05/README.md",
@@ -2502,6 +2632,11 @@
       "sha256": "2ec5f48334de9a85e0a481c3bc7fabc33f9398afc957a019db8f62ee2bfb9140"
     },
     {
+      "path": "research/reports/dyson_round15.md",
+      "bytes": 7131,
+      "sha256": "c4a9605ce33487123fd09003a07be635b614eac96cd44e79c5f7122305d30ba1"
+    },
+    {
       "path": "research/reports/dyson_round7.md",
       "bytes": 8767,
       "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33"
@@ -3168,8 +3303,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 7303,
-      "sha256": "fd209c4096806a87400e5e13ec8bc4ceb5490615a3b54e5e19454f37e77b1130"
+      "bytes": 7683,
+      "sha256": "d3c7d76da5bd22d974ec7b9cdeef8d7239daf274802f205d5e7624ed40569f60"
     },
     {
       "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",
