@@ -410,7 +410,7 @@ CUE 最小角间隙尺度为 `N^(−4/3)`。按常见圆周归一化，其极限
 
 另一个常见错误是把固定 x 的弱收敛尾律直接代入随 N 增长的 `x=πN^(1/3)`，宣称某事件以 `exp(−π²N/72)` 衰减。没有 moderate-deviation 估计不能这样做。仅由紧性可以得出对应概率趋零，不能附带这个指数速率。
 
-### 10.6 单缺陷极限不是整个 ACUE 的极限
+### 10.6 单缺陷常数与 ACUE 极限中位数须分开证明
 
 历史研究对一个特定单缺陷配置写出
 
@@ -421,7 +421,7 @@ $$P_N(z)=\frac{(z-1)(z^N+1)}{z-e^{-i\pi/N}}$$
 $$G_s(u)=2\cos(u/2)-2\pi\int_0^{1/2}
 e^{s(1/4-y^2)}\cos((\pi+u)y)\,dy.$$
 
-其首次双根的历史计算约为 `s*=1.419640342`、`u*=1.812942145`，相应 `8s*/π²≈1.150717118`。它提供了一个可研究的显式局部模型，而不是 ACUE 全体样本的普遍常数。旧表中的 ACUE median 在 N=8,9,10 已分别约 1.418216、1.41520、1.412774，不能强行拟合到上述单缺陷常数。
+其首次双根的历史计算约为 `s*=1.419640342`、`u*=1.812942145`，相应 `8s*/π²≈1.150717118`。它提供了一个可研究的显式局部模型，而不是 ACUE 全体样本的普遍常数。旧表中的 ACUE median 在 N=8,9,10 已分别约 1.418216、1.41520、1.412774，这破坏了旧单调收敛证据，不能据此认定极限中位数。但这些有限数据本身也不能证明未来极限绝不等于同一个常数；单缺陷极限和整体随机极限都仍需各自的证明。
 
 ### 10.7 算子统一带来的结构
 
@@ -463,7 +463,7 @@ $$D\ge\frac{\pi^2c^2}{2N^2}.$$
 
 还要区分 AH 的“几乎所有间隙接近半整数”与“每个间隙都有硬核下界”。即使发现无限多个很小间隙，也未必排除允许零密度例外的 AH。一个相对稳定的目标是某个离开半整数集合的紧区间内出现正比例的归一化间隙，并证明这与所采用 AH 定义矛盾。涉及 Landau–Siegel 零的推论必须逐条核对原定理量词，不能把任何 AH 反例直接升级成无 Siegel 零定理。
 
-2019 年资料中的 0.606894 涉及正比例小间隙结果，不是一个可直接套用的“LR 普适 μ 上界”。原注释中的历史最小 gap 纪录也不应未经更新就称为今日纪录。[Lagarias–Rodgers](https://arxiv.org/abs/1905.12123)
+**来源勘误（2026-09-05）：** Lagarias–Rodgers 的两篇论文必须区分。1905.12123 提到 0.606894 的正比例小间隙结果；其伴随论文 1907.03391 §5 明确定义带宽 1 模拟过程的硬核上确界 μ，证明构造给出 μ≥1/2，并提出修改既有方法应可得到 μ≤0.606894，但没有在该处证明这一上界。此前本档案遗漏伴随论文，因而对这两个对象的联系批评过度，现予纠正。μ=1/2 仍是未解决目标。历史 gap 纪录还需排除已撤稿结果。[硬核参数的原始来源](https://arxiv.org/abs/1907.03391)，[AH 伴随论文](https://arxiv.org/abs/1905.12123)。
 
 ## 12. 形式化与复现审计
 
@@ -802,6 +802,86 @@ Lamzouri 的简化使一个方向值得优先测试：把高阶矩、负谱 cap 
 ---
 
 **主说明结束。后续为完整历史原文附录。附录中的断言与评价属于写作当时状态；发生冲突时，以主说明的审计与原数学证明为准。**
+
+
+# 第三轮更新：动态观测量、严格反例与 186 的结构性启发
+
+日期：2026-09-05。本节优先于后面的旧提案。以下新增结果是有限维数学结论、明确范围内的证明和计算证书；没有证明实际 ζ 的 AH 为假、Montgomery–Dyson 猜想或更小的素数间隙。
+
+## 已完成的两个动态结论
+
+对弧度坐标下的圆周排斥流，取
+
+$$V_k=\sum_{j\ne k}\cot\frac{\theta_k-\theta_j}{2},\qquad
+L=\sum_k V_k\partial_{\theta_k},\qquad p_m=\sum_k e^{im\theta_k}.$$
+
+首先，精确生成元公式是
+
+$$Lp_m=-m\left((N-m)p_m+\sum_{a=1}^{m-1}p_ap_{m-a}\right).$$
+
+这里增加的是因子的个数，正、负 Fourier 总权重分别守恒。因此，对 $m\le N$，ACUE 与 CUE 的 $L^r|p_m|^2$ 期望在所有整数 $r\ge0$ 都相同。有限维不变子空间和全局存在的正向排斥流还给出所有 $t\ge0$ 的精确匹配。这否定了“不断求导会把同一低频观测量推出保护范围”的具体路线。它不适用于反向首次碰撞后的真实角度流，也不宣称整个分布相同。
+
+证明通过 Schur 交叉矩的离散 Cauchy–Binet 公式处理 $m=N$ 边界；234 项保护范围内的精确比较全部通过，另有整数环枚举和至 $N=10$ 的完整浮点枚举。超出范围的 $N=2,m=3$ 在初始时刻已不同，不能作为动态突破。
+
+其次，奇异力平方确实可以区分这两个模型。为避免与碰撞时间 $D$ 混淆，本节记
+
+$$\mathcal E=\sum_k V_k^2
+=\sum_{i\ne j}\csc^2\frac{\theta_i-\theta_j}{2}-\frac{N(N^2-1)}3.$$
+
+于是
+
+$$\mathbb E_{\rm CUE}\mathcal E=\frac{N(N^2-1)}3,
+\qquad\mathbb E_{\rm ACUE}\mathcal E=\frac{N(N^2-1)}6.$$
+
+其耗散率满足
+
+$$L\mathcal E=-\sum_{i<j}\csc^2\frac{\theta_i-\theta_j}{2}(V_i-V_j)^2,$$
+
+$$\mathbb E_{\rm CUE}L\mathcal E=-\infty,
+\qquad\mathbb E_{\rm ACUE}L\mathcal E=-\frac{2N(N^4-1)}{15}.$$
+
+最后一个公式有完整的二点、三点 DPP 和余割求和推导；浮点枚举只作独立核对。CUE 的无限右斜率由非负差商和 Fatou 引理证明，不交换不可积的导数与期望。
+
+这两个结论并不矛盾：力平方包含奇异的二点核，超出了前述有限多项式观测量。它的均值实际上退化为二点统计，不能凭外观认定为新高阶信息。把它用于 ζ，仍需要可计算的算术加权零点和及移除截断的统一误差界。
+
+## 修复碰撞深度桥梁的两个反例
+
+实直线有限热流的正确恒等式追踪实际先碰撞的那一对，设其初始间隙为 $d_*$：
+
+$$D=\frac{d_*^2}{8}+\frac12\int_{-D}^0d(t)^2S(t)\,dt.$$
+
+若改用全体初始最小间隙 $m_0$，必须补上 $(d_*^2-m_0^2)/8$。多项式
+
+$$P(x)=x(x^2-1)\left((x-100)^2-\frac{121}{400}\right)$$
+
+给出严格反例：初始最小间隙为 1，先碰撞的远处一对间隙却是 $11/10$。精确 Sturm 证书定位首次判别式事件，排除更早碰撞和根群交换。遗漏项恰为 $21/800$。下界 $D\ge m_0^2/8$ 仍然成立。
+
+另一个 $2\times2$ 例子取 $G_\varepsilon=\operatorname{diag}(\varepsilon,1-\varepsilon)$ 与交换后的等谱矩阵，并固定标记 $u=e_1$。一侧的 $u^*G^{-1}u$ 发散，但 Cayley 热深度的标记导数分别趋于 $1$ 与 $-1/2$，保持有界。两矩阵在每个固定 ε 下具有相同谱、迹和 Hilbert–Schmidt 范数；没有声称整个 ε 路径的范数不变。标记确实区分方向，却不能强迫所提议的发散。
+
+圆周 ACUE 的确定性下界 $N^2D\ge\pi^2/8$ 保留，包括深度无穷的 clock。常数 1.419640342 的单缺陷计算与随机 ACUE 极限中位数是不同命题；有限枚举破坏了旧单调证据，但本身不能排除最终极限恰好等于该数。
+
+## 我们自己的来源勘误
+
+Lagarias–Rodgers 1907.03391 §5 确实把硬核参数 μ 与 0.606894 联系起来：构造给出 μ≥1/2，作者提出修改已有方法应可得到 μ≤0.606894。该处没有证明这个上界。此前只查看伴随论文而作出的“没有联系”判断过强，已更正。μ=1/2 仍是目标；对过程、平稳性和异常集的量词必须按原文处理。[原论文](https://arxiv.org/abs/1907.03391)。
+
+## 将 186 的方法用于下一轮，而不是只提高数值精度
+
+用户强调的结构是：互补分解条件控制实际合成模数，推出三重稠密可分性，进而允许更大的 Maynard–Tao 筛权支撑。新的分解定理与数值优化是两个独立证明义务。对 ζ，必须同样先写出实际出现的乘积、相关核和统一误差，不能直接借用算术级数中的分布指数。
+
+已完成的二维 Ritz 检验只把固定有限向量的负 margin 提高约 0.000489，仍远低于零；它是已记录的有限算子结果，没有证明新系数族的算术极限。现有固定有理向量的严格连续证书仍约为 −0.0146624。
+
+下一轮主攻一个明确义务：找出可以严格估计的新混合乘积或带符号相关项，使完整正二次型出现足够大的净增益。不得丢弃中心 Gaussian 的 pole-cut 项，也不得把长系数的非对角 Gram 代价当成零。副线是精确定义真正 $H_t$ 的局部深度及其背景控制；RH 与 Rodgers–Tao 给出全局 Λ=0，使负时刻的背景已含非实零点，有限全实筛屏恒等式不能直接搬用。
+
+暂缓更大规模的同族扫参、ACUE 中位数猜测、未定义的 ζ 局部热流结论，以及没有 DHL 阈值证书的更短 admissible tuple 宣布。所有失败保留输入、输出和适用范围，供下一位研究者检验。
+
+
+## Fable 的实际回传及同步状态
+
+旧 PR11 在固定提交 `a408e7050fffc74459b3c83fafa5ac03c8b7dea6` 已有 81 份 Fable 文件，现按字节镜像并附源哈希。公开评论确认较早的 FABLE_001 已被接收；F2 连续极限和有限和输出存在，但最终任务报告尚未出现。较新的单项计算包仍有单独的接收状态，不能混为一谈。
+
+Fable 的固定连续值约 −0.014662375473370598，与 Astra 的精确证书相容于通常浮点误差，但其浮点值不能宣称落入远窄于浮点误差的有理数区间。有限和与我们独立的算子数据一致，仍未给出正 margin。其他已列入计划的热流、函数域和 LR 报告在该固定提交中大多尚不存在；脚本和计划不等于完成的证明。
+
+独立同步审查分别记录 F2 证据和热流/函数域/LR 的具体问题。原始镜像不会被修改以掩盖错误；修正依据写在当前报告。此次同步只接收现有公开成果，没有新建 Claude 会话，也没有重复派发任务。
 
 
 # 最新补篇：从历史材料到当前可验证的数学状态
@@ -3604,9 +3684,2364 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 euler_profile_precise.py
 The main research effort should now return to the missing arithmetic mixed information. This experiment provides a stable resummed family and a negative result, not grounds for spending an indefinite budget on additional decimals of the same variational frontier.
 
 
-# Claim ledger 12: CLAIM_LEDGER
+# Current report 12: transferable_tools_ritz_decision
 
-Source: `research/claims/CLAIM_LEDGER.md`. SHA-256: `43ecc9efa7f0a570c6e6eb01f3b683acfbaab3da418443340422a601ab18ba51`.
+Source: `research/reports/transferable_tools_ritz_decision.md`. SHA-256: `3c731beb9cf879a0607003ec364ee46775f88adff3b4b7afe67407745ad19bca`.
+
+## Transferable tools: one Ritz diagnostic and the actual support obligation
+
+2026-09-05. This note responds to the proposal to reuse structural tools from the 186 prime-gap proof and FLT formalization. It records one completed low-cost experiment and the next exact arithmetic requirement. It does not claim a new gap bound.
+
+### Completed diagnostic
+
+For the fixed rational trial at `L=100000`, with `ell=16/15`, write the normalized coefficient vector as u and the actual full arithmetic operator as K. Put
+
+\[
+\lambda=\langle u,Ku\rangle,\qquad r=Ku-\lambda u,\qquad
+s=\|r\|,\qquad v=r/s,\qquad b=\langle v,Kv\rangle.
+\]
+
+The exact two-dimensional compression identity is
+
+\[
+K|_{\operatorname{span}(u,v)}\ \longleftrightarrow\
+\begin{pmatrix}\lambda&s\\s&b\end{pmatrix}.
+\]
+
+The computed entries are
+
+\[
+\begin{pmatrix}
+4.192011775686907&0.177521239887580\\
+0.177521239887580&0.933549641583058
+\end{pmatrix}.
+\]
+
+Its larger eigenvalue is `4.201654608743949`, and evaluating the resulting vector directly in the full operator gives `4.2016546087439535`. The orthogonality error is `1.39e-16`. The normalized margin improves from `-0.03763020252239` to `-0.03714169089289`, a gain of `0.00048851162950`. Both remain negative. Runtime of this recorded calculation was approximately 0.08 seconds; this is not a general speed claim.
+
+This test uses self-adjointness only. K need not be positive semidefinite. The formula was also checked on an indefinite two-by-two control matrix. It does not replace the true function inner product with a coefficient norm in a nonorthogonal basis: here the integer coefficients already use the specified orthonormal coordinate normalization.
+
+The newly generated vector contains prime-removal and cutoff-dependent sums through `A* A u`. It is not automatically a fixed polynomial `d_ell(n)(f(v)+g(v)S2)`. The completed fixed-family transfer theorem therefore does not automatically apply to this vector as L grows. A finite gain alone is not a new asymptotic certificate.
+
+**Decision:** the experiment does not justify a large new sweep or more digits for the old negative trial. Preserve this residual direction as a diagnostic and focus the next main step on a new arithmetic input or a rigorous transfer for a direction with substantially larger demonstrated gain.
+
+Evidence: `research/operator-bounds/ritz_residual_diagnostic.py`, its JSON output, and its run log. No eigensolver search in dimension L was performed by this test.
+
+### What complementary factorization contributes in the 186 proof
+
+The relevant primary source is [the short-gap paper, Proposition 2.3](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf). Its construction works with the actual modulus `Q=lcm(D,E)`. Nondecreasing complementary functions whose product is the cube of the prime scale divide the constraints between D and E. The proof accounts for the possibility that one side has no remaining prime at that scale, then verifies the primewise condition needed for triple dense divisibility. That property permits a larger sieve support within the applicable distribution estimates.
+
+The transferable lesson is to enlarge the **legally evaluable combined object** before optimizing weights. It is not a permission to import an arithmetic-progression modulus exponent into a zeta Dirichlet-polynomial mean value.
+
+The user's Weijie Su post was also supplied as context. Direct retrieval of that X page returned HTTP 403 in this run; this note uses the mathematical paper for the technical statement.
+
+### The corresponding zeta obligation
+
+For the shifted packet with center `t0=3T/2` and width `W=T/log T`, the exact Gram kernel of two integer-frequency polynomials has off-diagonal part
+
+\[
+\mathcal E_T(U,V)=
+\sum_{a\ne b}\frac{U(a)\overline{V(b)}}{\sqrt{ab}}
+e^{-it_0\log(a/b)}e^{-\frac12W^2\log^2(a/b)}.
+\]
+
+The common Gaussian mass is factored out here. In the present product-cutoff method, the combined coefficients arise at indices such as `a=km` and `b=ln`. The accessible cutoff makes unequal integer products sufficiently separated for the source mean-value estimate.
+
+A proposed complementary support must specify U and V from the same integer construction, allow genuinely new products, and prove a bound for this actual kernel on that class. For example, a usable new lemma would bound
+
+\[
+|\mathcal E_T(U,V)|\leq\epsilon_T
+\left(\sum_a|U(a)|^2/a\right)^{1/2}
+\left(\sum_b|V(b)|^2/b\right)^{1/2},\qquad\epsilon_T\to0,
+\]
+
+or give a sharper explicit signed contribution with an error small enough for the final residual certificate. The displayed bound is an **unproved target for a specified new coefficient class**, not a theorem for arbitrary long polynomials. Dense nearby frequencies can violate such a uniform assertion for arbitrary coefficients.
+
+Merely imposing complementary restrictions inside the existing unrestricted product cutoff changes the trial subspace of the same K; it does not add a previously unavailable Gram entry. Moving to a larger cutoff creates a real new mean-value obligation. Centering the packet to recover Fourier positivity creates the explicit pole and low-height costs proved in the companion report. Neither issue is removed by changing terminology from smoothness to dense divisibility.
+
+### Signed residual recovery: useful, but with all terms specified
+
+If positive measures mu and nu and a signed difference sigma=mu-nu arise from an actual construction, one may use the independently valid inequality
+
+\[
+\|R\|_\mu^2\geq
+\frac{\left(|\widehat m|-\epsilon-\sqrt{E G_\nu}\right)_+^2}{G_\mu},
+\]
+
+provided the mixed sigma correlation is within epsilon of the stated estimate, `||R||_nu^2<=E`, `||C||_nu^2<=G_nu`, and `||C||_mu^2<=G_mu`, with `G_mu>0`. This is triangle inequality followed by Cauchy–Schwarz separately in the two positive measures. A signed measure is never treated as positive.
+
+No new zeta-specific choice of these measures with a positive net gain has yet been established. In particular, the centered-packet pole counterexample remains in force. The next research contribution must identify and estimate these objects, not repeat the abstract inequality.
+
+### Formalization priority
+
+The present exact identities and fixed-family transfer have sufficiently specific statements for future formalization. The useful FLT discipline is to check the actual definition and dependency closure of a result before spending time on its proof. An assumed long-support mixed-moment estimate would still be an assumption even if all subsequent linear algebra were checked by Lean.
+
+
+# Current report 13: dynamic_generator
+
+Source: `research/reports/dynamic_generator.md`. SHA-256: `cedc4fb9eac3df27c1e6872b4e31f6d32eb04dc8726bada103e97389f18ba4c7`.
+
+## Deterministic circular Coulomb dynamics does not leak protected trace moments
+
+**Date:** 2026-09-05. **Status:** self-contained finite-dimensional proof, supported by exact symbolic and cyclotomic checks. This is a rigorous obstruction to the proposed low-mode mechanism, not a theorem about zeta zeros and not a novelty claim.
+
+### 1. Result and the failed proposal
+
+The user appendix proposes that applying successive deterministic circular Coulomb derivatives to a low trace mode might increase its effective degree until ACUE lattice aliasing becomes visible. The first displayed generator ansatz in that appendix is correct. Its next inference, that weighted degree grows from \(m\) to \(2m,3m,\ldots\), is false.
+
+For the radian convention
+\[
+V_k(\theta)=\sum_{j\ne k}\cot\frac{\theta_k-\theta_j}{2},
+\qquad L=\sum_k V_k\partial_{\theta_k},
+\qquad p_m=\sum_k e^{im\theta_k},
+\]
+one has
+\[
+\boxed{Lp_m=-m\left((N-m)p_m+\sum_{a=1}^{m-1}p_a p_{m-a}\right).}
+\tag{1}
+\]
+The total **positive Fourier weight** of every term is exactly \(m\). Since \(L\) is a real derivation, it preserves the negative weight separately as well.
+
+Consequently, for every \(N\), every \(1\le m\le N\), and every integer \(r\ge0\),
+\[
+\boxed{
+\mathbb E_{\rm ACUE}L^r|p_m|^2
+=\mathbb E_{\rm CUE}L^r|p_m|^2.}
+\tag{2}
+\]
+The stronger finite-time statement is also true for the forward repulsive flow \(\Phi_t\):
+\[
+\boxed{
+\mathbb E_{\rm ACUE}|p_m(\Phi_tX)|^2
+=\mathbb E_{\rm CUE}|p_m(\Phi_tX)|^2
+\quad(t\ge0,\;m\le N).}
+\tag{3}
+\]
+Thus the proposed first distinguishing derivative \(r_*(N)\) does not exist for these protected observables; writing \(r_*=\infty\) is appropriate. No choice \(t_N\to0\), including \(t_N\asymp N^{-2}\), produces the claimed discrepancy.
+
+This conclusion is specific about the observable algebra. It does not say the two evolved measures agree, and it does not rule out rational observables involving inverse gaps. The independently audited force energy is a concrete example outside this algebra.
+
+### 2. Definitions and normalization
+
+We use eigenangles in radians throughout. The appendix alternates between angles in \(\mathbb R/\mathbb Z\), cotangent with argument \(\pi(\theta_i-\theta_j)\), and traces \(e^{im\theta}\). Those conventions need a corresponding conversion in both Fourier modes and the time parameter. The conclusion about invariant degree survives any fixed nonzero time rescaling.
+
+There is also a factor-of-two correction:
+\[
+\partial_{\theta_k}\log\prod_{i<j}|e^{i\theta_i}-e^{i\theta_j}|^2
+=\sum_{j\ne k}\cot\frac{\theta_k-\theta_j}{2}=V_k.
+\tag{4}
+\]
+It equals \(V_k\), not \(2V_k\), in this radian convention.
+
+Let \(K=2N\), \(\zeta=e^{2\pi i/K}\), and let \(S\) be an unordered \(N\)-element subset of \(\{0,\ldots,K-1\}\). The unrotated ACUE probability is
+\[
+\mathbb P_{\rm A}(S)
+=K^{-N}\prod_{\substack{a,b\in S\\a<b}}|\zeta^a-\zeta^b|^2.
+\tag{5}
+\]
+One may apply a common uniform rotation to recover the rotation-invariant ACUE model. All observables audited here are balanced and unchanged by a common rotation, so the unrotated subset model suffices. Equation (5) is for unordered subsets; an ordered tuple formula contains an additional \(1/N!\).
+
+The relevant primary reference is [Tao, “The alternative hypothesis for unitary matrices,” 8 May 2019](https://terrytao.wordpress.com/2019/05/08/the-alternative-hypothesis-for-unitary-matrices/). It defines ACUE using the discrete Vandermonde weight and establishes matching low trace moments. The proof below independently derives exactly the finite collection of moment identities needed here.
+
+### 3. Derivation of the generator
+
+Set \(z_k=e^{i\theta_k}\). For distinct points,
+\[
+\cot\frac{\theta_k-\theta_j}{2}
+=i\,\frac{z_k+z_j}{z_k-z_j}.
+\]
+Therefore
+\[
+Lp_m=-m\sum_{k<j}
+\frac{(z_k^m-z_j^m)(z_k+z_j)}{z_k-z_j}.
+\tag{6}
+\]
+The denominator cancels:
+\[
+\frac{x^m-y^m}{x-y}
+=\sum_{a=0}^{m-1}x^{m-1-a}y^a.
+\]
+Collecting terms in (6) yields
+\[
+\sum_{k<j}\frac{(z_k^m-z_j^m)(z_k+z_j)}{z_k-z_j}
+=(N-m)p_m+\sum_{a=1}^{m-1}p_a p_{m-a}.
+\]
+This proves (1). It holds for all positive \(m\), including \(m>N\); finite-\(N\) polynomial relations may then make a partition basis redundant, but do not invalidate the identity.
+
+Taking complex conjugates gives
+\[
+Lp_{-m}
+=-m\left((N-m)p_{-m}
++\sum_{a=1}^{m-1}p_{-a}p_{-(m-a)}\right).
+\tag{7}
+\]
+There is no additional sign on the right of (7).
+
+For partitions \(\lambda,\mu\), write
+\[
+p_\lambda\overline{p_\mu}
+=\prod_i p_{\lambda_i}\prod_jp_{-\mu_j}.
+\]
+By the Leibniz rule and (1), (7), every term of its image under \(L\) has the same pair of weights
+\[
+(|\lambda|,|\mu|).
+\tag{8}
+\]
+The number of factors can increase when a part splits; the sum of their indices cannot. For fixed positive weight \(m\), at most \(m\) factors can occur. In particular \(m=1\) never splits.
+
+The weighted-degree conservation is the exact location where the appendix's proposed mechanism fails. Products of lower modes do not create higher total Fourier weight. No later iteration can reach \(2N\)-aliasing starting inside the protected band.
+
+### 4. Explicit low-weight blocks
+
+The positive-weight blocks are:
+\[
+Lp_1=-(N-1)p_1;
+\]
+\[
+\begin{aligned}
+Lp_2&=-2(N-2)p_2-2p_1^2,\\
+L(p_1^2)&=-2(N-1)p_1^2;
+\end{aligned}
+\]
+and
+\[
+\begin{aligned}
+Lp_3&=-3(N-3)p_3-6p_1p_2,\\
+L(p_1p_2)&=-(3N-5)p_1p_2-2p_1^3,\\
+L(p_1^3)&=-3(N-1)p_1^3.
+\end{aligned}
+\tag{9}
+\]
+If \(G_m\) denotes the matrix on the positive partition block, the balanced block generator is the corresponding tensor sum
+\[
+T_m=G_m\otimes I+I\otimes G_m.
+\tag{10}
+\]
+Its size is at most \(p(m)^2\), independent of derivative order. For \(m=1,2,3\) those sizes are \(1,4,9\).
+
+For example, for both ensembles and \(N\ge2\),
+\[
+\mathbb E|p_1(\Phi_tX)|^2=e^{-2(N-1)t},
+\tag{11}
+\]
+and
+\[
+\mathbb E|p_2(\Phi_tX)|^2
+=2e^{-4(N-2)t}\left[1+(1-e^{-2t})^2\right].
+\tag{12}
+\]
+Equation (12) follows from
+\[
+p_2(t)=e^{-2(N-2)t}
+\left[p_2(0)-(1-e^{-2t})p_1(0)^2\right].
+\]
+The two initial terms are orthogonal and each has squared norm \(2\) in the protected moment range.
+
+These expectations generally change with time. Deterministic Coulomb relaxation is not stationary Dyson Brownian motion; CUE stationarity must not be invoked for this deterministic flow.
+
+### 5. Exact Haar and cyclotomic moment proof
+
+Let \(s_\alpha\) denote a Schur polynomial, with \(\alpha\) padded to length \(N\). For Haar measure,
+\[
+\mathbb E_{\rm CUE}s_\alpha\overline{s_\beta}=\delta_{\alpha\beta}
+\quad(\ell(\alpha),\ell(\beta)\le N).
+\tag{13}
+\]
+For the discrete law (5), the alternant formula and Cauchy–Binet give the exact expression
+\[
+\boxed{
+\mathbb E_{\rm ACUE}s_\alpha\overline{s_\beta}
+=\det\left[
+\mathbf1_{\alpha_i+N-i\equiv\beta_j+N-j\pmod{2N}}
+\right]_{i,j=1}^N.}
+\tag{14}
+\]
+Here \(i,j\) are one-based. If a partition has more than \(N\) parts, the corresponding Schur polynomial is zero.
+
+For completeness, multiplying the two Schur alternant ratios by the squared Vandermonde weight cancels both denominators. Summing over unordered \(N\)-subsets is exactly Cauchy–Binet for the two rectangular alternant matrices. The resulting matrix entries are
+\[
+\frac1{2N}\sum_{a=0}^{2N-1}
+\zeta^{a(\alpha_i+N-i-\beta_j-N+j)},
+\]
+which equal the residue indicators in (14). Taking both partitions empty also verifies normalization of (5).
+
+If \(|\alpha|,|\beta|\le N\), every alternant exponent lies in
+\[
+0\le\alpha_i+N-i\le2N-1.
+\]
+Consequently congruence in (14) is actual equality. Each exponent list is strictly decreasing, so the determinant is \(1\) when \(\alpha=\beta\) and \(0\) otherwise. This recovers (13) in the whole required band.
+
+Expanding power sums using symmetric-group characters,
+\[
+p_\lambda=\sum_{\alpha\vdash m}\chi^\alpha(\lambda)s_\alpha,
+\tag{15}
+\]
+proves equality of every Gram entry
+\[
+\mathbb E_{\rm ACUE}p_\lambda\overline{p_\mu}
+=\mathbb E_{\rm CUE}p_\lambda\overline{p_\mu}
+\quad(|\lambda|=|\mu|=m\le N).
+\tag{16}
+\]
+Equivalently the common Gram is diagonal, with entries
+\[
+z_\lambda=\prod_{j\ge1}j^{a_j}a_j!,
+\]
+where \(a_j\) is the number of parts equal to \(j\).
+
+Combining (8) and (16) proves the all-orders equality (2). This proof does not rely on observing numerical agreement up to \(r=8\).
+
+### 6. Full forward-time equality and an independent linearization
+
+The repulsive flow exists for all \(t\ge0\) from every collision-free initial configuration. Indeed set
+\[
+W(\theta)=\log\prod_{i<j}|e^{i\theta_i}-e^{i\theta_j}|^2.
+\]
+By (4),
+\[
+\frac{dW}{dt}=\sum_kV_k^2\ge0.
+\tag{17}
+\]
+Every pairwise factor is at most \(4\). Hence \(W(t)\ge W(0)>-\infty\) prevents any factor from approaching zero. The trajectory stays in a compact collision-free subset of the torus, where the vector field is smooth, proving global forward existence. ACUE configurations are distinct by construction, and CUE configurations are distinct almost surely.
+
+For the vector of positive partition polynomials, \(u_m'(t)=G_m u_m(t)\), so
+\[
+u_m(t)=e^{tG_m}u_m(0).
+\tag{18}
+\]
+Its balanced moment matrix evolves by applying \(e^{tG_m}\) on the two sides. Equal initial moment matrices therefore remain equal for every forward time. This proves (3). The same argument handles any symmetric trace polynomial with positive and negative weights individually at most \(N\).
+
+There is also a useful direct linearization. Define the monic characteristic polynomial
+\[
+P(z,t)=\prod_{k=1}^N(z-z_k(t))
+=\sum_{k=0}^N(-1)^k e_k(t)z^{N-k}.
+\]
+The root ODE gives
+\[
+\boxed{\partial_tP=z^2\partial_z^2P-(N-1)z\partial_zP.}
+\tag{19}
+\]
+To verify this, at each root use
+\[
+\frac{P''(z_k)}{P'(z_k)}
+=2\sum_{j\ne k}\frac1{z_k-z_j}
+\]
+and differentiate \(P(z_k(t),t)=0\). The degree-\(N\) coefficient on the right of (19) cancels, so equality at the \(N\) distinct roots proves the polynomial identity.
+
+It follows coefficient by coefficient that
+\[
+\boxed{e_k(t)=e^{-k(N-k)t}e_k(0).}
+\tag{20}
+\]
+Thus the elementary symmetric functions provide an independently checkable diagonal form. This is a finite characteristic-polynomial calculation; no claim is made that such a linearization is new in the literature.
+
+**Time-direction limit.** Statements (3), (17), and global physical flow refer to repulsion and \(t\ge0\). Reversing the sign produces the attractive flow and possible collisions. The algebraic finite-dimensional exponential remains meaningful, but one must not identify its negative-time continuation with a physical real-angle flow after a collision, nor assume a common negative collision-free interval for a CUE ensemble. This audit does not prove an attractive-flow Newman-depth law.
+
+### 7. Exact audit requested by the user
+
+The program evaluates \(N=2,\ldots,10\), \(m=1,2,3\), and \(r=0,\ldots,8\): **243 exact moment values per ensemble**.
+
+The exact algebraic work includes:
+
+- Generator coefficients as integer polynomials in \(N\), for every \(m,r\).
+- An assertion that every generated monomial retains biweight \((m,m)\).
+- Direct rational-function verification of (1) for \(N=2,3,4\) and \(m=1,2,3\).
+- Direct rational-function verification of \(Le_k=-k(N-k)e_k\) for \(N=2,3,4\) and all \(1\le k\le N\).
+- Haar Schur Gram matrices and integer residue determinants (14), followed by exact character transforms.
+- Direct, independent subset enumeration in the integer quotient ring \(\mathbb Z[z]/(\Phi_{2N}(z))\) for \(N=2,3,4,5\). This verifies normalization and every relevant power-sum Gram entry without using the residue determinant to compute the enumerated answer.
+
+**234 protected cases agree exactly.** The remaining nine cases all have \(N=2,m=3>N\); this observable already distinguishes ACUE from CUE at \(r=0\). Their differences are:
+
+| \(r\) | CUE expectation | ACUE expectation | ACUE minus CUE |
+|---:|---:|---:|---:|
+| 0 | 2 | 1 | −1 |
+| 1 | 0 | 6 | 6 |
+| 2 | 24 | −12 | −36 |
+| 3 | −384 | −168 | 216 |
+| 4 | 3552 | 2256 | −1296 |
+| 5 | −26880 | −19104 | 7776 |
+| 6 | 184704 | 138048 | −46656 |
+| 7 | −1204224 | −924288 | 279936 |
+| 8 | 7613952 | 5934336 | −1679616 |
+
+The difference is \(-(-6)^r\), consistent with the exact evolved difference \(-e^{-6t}\). This is an existing out-of-band discrepancy, not dynamically created access to protected information.
+
+For example, for \(N=2,m=3\), the Schur partition \((3)\) has alternant exponents \((4,0)\), which coincide modulo \(4\), so its ACUE squared norm vanishes. The partition \((2,1)\) has exponents \((3,1)\) and squared norm \(1\). Haar gives norm \(1\) to each. Since \(p_3=s_{(3)}-s_{(2,1)}\) in two variables, the initial values are \(1\) and \(2\).
+
+As a further **floating, non-exact** independent check, the program directly enumerates all subsets for every \(N\le10\); the largest case has \(\binom{20}{10}=184756\) subsets. Across all these runs:
+
+- maximum absolute Gram error: \(2.3981\times10^{-14}\);
+- maximum derivative error divided by the documented absolute coefficient scale: \(2.8866\times10^{-15}\);
+- maximum normalization error: \(1.7764\times10^{-15}\).
+
+The exact conclusions depend on the integer computations and proofs, not on those floating error tolerances.
+
+### 8. Files, reproduction, and evidence boundaries
+
+All paths in this section are relative to the directory containing this report:
+
+- **../dynamic-generator/generator_audit.py** — self-contained exact and floating audit.
+- **../dynamic-generator/generator_audit_results.json** — full symbolic coefficients, all 243 exact comparison rows, Gram matrices, enumeration checks, runtime and dependency versions.
+
+Reproduce from any directory:
+
+    OPENBLAS_NUM_THREADS=1 python3 research/dynamic-generator/generator_audit.py
+
+The observed environment was Python 3.14.3, NumPy 2.4.4, SymPy 1.14.0. No external inputs or sampling seeds are needed. The completed run took about one second on the available machine; this is an execution observation, not a general performance claim.
+
+The source appendix was read from:
+
+    research/incoming/dynamic_generator_proposal.md
+
+No original source notes or repository files were modified by this audit.
+
+### 9. Correct replacement and what to postpone
+
+The repaired research question is not whether this generator can escape its invariant polynomial algebra. It cannot. A useful new observable must lie outside that algebra, or a genuinely different evolution must fail to preserve it.
+
+Inverse-gap force energies are a concrete candidate. In the same radian convention the independently derived identities are
+\[
+\mathbb E_{\rm CUE}\sum_kV_k^2=\frac{N(N^2-1)}3,\qquad
+\mathbb E_{\rm ACUE}\sum_kV_k^2=\frac{N(N^2-1)}6.
+\tag{21}
+\]
+The force-energy audit is being independently written by the flow agent. Equation (21) separates the ensembles by a factor of two, with the same \(N^3\) total-energy scaling. It is a static rational statistic of initial velocity, not leakage into a protected trace polynomial. Its number-theoretic accessibility remains a separate question.
+
+Accordingly:
+
+1. Stop searching higher derivative orders for this fixed deterministic flow acting on protected trace polynomials; the invariant-algebra theorem already answers all orders.
+2. Preserve the appendix's failed degree-growth and low-mode instability conjectures in the record, together with the exact point of failure.
+3. Study singular observables only with their integrability and required zero-correlation information made explicit.
+4. Postpone a zeta-side lift until an actual arithmetic formula for the chosen inverse-gap observable is available.
+5. Do not infer an AH contradiction, RH progress, or a Montgomery–Dyson theorem from either the present obstruction or the finite-ensemble force discrepancy.
+
+The useful structural conclusion is stronger than a failed finite search: **deterministic circular Coulomb evolution preserves the complete ACUE/CUE protected moment sector at every forward time.**
+
+
+# Current report 14: dynamic_generator_independent_review
+
+Source: `research/reports/dynamic_generator_independent_review.md`. SHA-256: `5167d262a69ccf0e22b7ec904f6abf76380fa2f444124e63a485700774084eab`.
+
+## Independent review of the all-time protected-moment theorem
+
+2026-09-05. Reviewed source: `research/reports/dynamic_generator.md`. Reviewer: the flow subagent, independently of the author of that report. This is a mathematical proof audit with separate diagnostic computations, not a formal proof-assistant certification or a novelty assessment.
+
+### 1. Verdict
+
+I found no gap in the stated all-forward-time identity
+
+$$
+\mathbb E_{\rm ACUE}|p_m(\Phi_tX)|^2
+=\mathbb E_{\rm CUE}|p_m(\Phi_tX)|^2,
+\qquad 1\le m\le N,\quad t\ge0,
+$$
+
+for the deterministic repulsive flow in radian coordinates
+
+$$
+\dot\theta_i=V_i=\sum_{j\ne i}\cot\frac{\theta_i-\theta_j}{2}.
+$$
+
+The invariant biweight argument, the discrete Schur Gram formula including the endpoint \(m=N\), global forward existence, and the characteristic-polynomial linearization all check out. None requires interchanging a singular generator with an expectation. In particular, the failure of such an interchange for the force-square observable does not damage the protected-polynomial theorem.
+
+One wording clarification is advisable: “any polynomial with positive and negative weights individually at most \(N\)” means a polynomial in the **symmetric trace algebra**
+
+$$
+\mathcal A_{\le N,\le N}
+=\operatorname{span}\{p_\lambda\overline{p_\mu}:
+|\lambda|\le N,\ |\mu|\le N\}.
+$$
+
+It should not be read as a statement about arbitrary polynomials of labeled particles. For example, applying the generator to one labeled coordinate \(z_i\) produces uncancelled denominators; the symmetric pairwise cancellation is essential.
+
+### 2. Independent reconstruction of the generator and its block
+
+Write \(z_i=e^{i\theta_i}\). The identity
+
+$$
+\cot\frac{\theta_i-\theta_j}{2}
+=i\frac{z_i+z_j}{z_i-z_j}
+$$
+
+has the stated sign. Hence
+
+$$
+Lp_m=-m\sum_{i<j}
+\frac{(z_i^m-z_j^m)(z_i+z_j)}{z_i-z_j}.
+$$
+
+For one unordered pair, the numerator quotient equals
+
+$$
+z_i^m+z_j^m
++2\sum_{a=1}^{m-1}z_i^{m-a}z_j^a.
+$$
+
+After summing over pairs, symmetry under \(a\leftrightarrow m-a\) gives
+
+$$
+Lp_m=-m\left[(N-m)p_m+\sum_{a=1}^{m-1}p_a p_{m-a}\right].
+$$
+
+Every term has positive weight \(m\). The vector field is real on the angle torus, so \(L\overline f=\overline{Lf}\); the negative-weight formula therefore has the same sign, not the opposite sign. By the Leibniz rule, the linear span of \(p_\lambda\overline{p_\mu}\) of any fixed biweight \((a,b)\) is invariant.
+
+At fixed weight, splitting a part increases the number of factors but never their total index. This is exactly why repeated applications cannot leave the protected sector. The number of derivatives is irrelevant.
+
+Finite-\(N\) algebraic relations do not break the argument. One may use an overcomplete spanning vector and its explicitly specified coefficient matrix: each component still satisfies the finite linear ODE, and uniqueness gives its matrix exponential. Alternatively, quotient by the relations or use the elementary symmetric monomials.
+
+### 3. The Schur determinant, its normalization, and the endpoint
+
+For an unordered \(N\)-subset \(S\) of the \(2N\)-grid, the probability is
+
+$$
+(2N)^{-N}|\Delta(z_S)|^2.
+$$
+
+There is no extra \(N!\) in this subset formula. The Schur alternant cancels the Vandermonde in the measure. Cauchy–Binet over unordered subsets then yields
+
+$$
+\mathbb E_{\rm ACUE}s_\alpha\overline{s_\beta}
+=\det[\mathbf1_{a_i\equiv b_j\ ({\rm mod}\ 2N)}]_{i,j=1}^N,
+$$
+
+where
+
+$$
+a_i=\alpha_i+N-i,\qquad b_j=\beta_j+N-j.
+$$
+
+Using empty partitions verifies normalization directly: the lists are \(N-1,\ldots,0\), and the determinant is 1. Thus there is no hidden factorial in the Gram identity.
+
+For \(|\alpha|\le N\), one has
+
+$$
+0\le a_i\le \alpha_1+N-1\le2N-1.
+$$
+
+The inequalities are inclusive exactly where needed. In particular, the extremal partition \(\alpha=(N)\) gives the largest exponent \(2N-1\), which has not wrapped modulo \(2N\). The endpoint \(m=N\) is valid.
+
+The lists \(a_i,b_j\) are strictly decreasing. Congruence inside the interval \([0,2N-1]\) is equality, so the determinant vanishes unless the lists coincide, and then it is \(+1\). Their order is the same, so there is no undetected permutation sign. Coinciding exponent lists force \(\alpha=\beta\).
+
+Consequently the full Schur Gram agrees with Haar whenever both partition weights are individually at most \(N\), even when the two weights differ. Passing from Schur polynomials to power sums gives the required initial trace Gram. At equal weight \(m\le N\), all partitions of \(m\) have at most \(N\) rows; hence the usual full symmetric-group character orthogonality is applicable and gives the diagonal power-sum Gram \(z_\lambda\).
+
+A random common rotation does not change any balanced observable. For unequal weights in the indicated band, both expectations already vanish by the same Schur argument, so the larger symmetric-algebra statement remains correct after rotation as well.
+
+#### Sharpness test just outside the band
+
+For every \(N\ge2\), take \(\alpha=(N+1)\). Its exponent list is
+
+$$
+(2N,N-2,N-3,\ldots,0).
+$$
+
+The first and last exponents coincide modulo \(2N\), so
+
+$$
+\mathbb E_{\rm ACUE}|s_{(N+1)}|^2=0,\qquad
+\mathbb E_{\rm CUE}|s_{(N+1)}|^2=1.
+$$
+
+Thus the uniform guarantee cannot be extended to all symmetric polynomials of the next weight. This is a pre-existing discrepancy at \(t=0\), not leakage generated from a smaller weight.
+
+The case \(N=1\) is exceptional for this sharpness example: there is only one exponent and no duplicate row, and every balanced one-particle monomial is constant. The main theorem includes \(N=1\) correctly. An initial draft of the independent check incorrectly applied the \(N\ge2\) sharpness example to \(N=1\); its assertion caught the mistake, and the example and script now retain this exception explicitly.
+
+### 4. Global physical flow and the exact finite-time argument
+
+The score of the squared Vandermonde in radians is \(V\), so for
+
+$$
+W=\sum_{i<j}\log|e^{i\theta_i}-e^{i\theta_j}|^2
+$$
+
+one has \(W'=\sum_iV_i^2\ge0\). Let \(J=\binom N2\). For \(N\ge2\), each summand is at most \(\log4\), and therefore each individual summand is bounded below by
+
+$$
+W(0)-(J-1)\log4.
+$$
+
+For a fixed initial configuration this gives a strictly positive lower bound on every chordal distance along the whole forward trajectory. It rules out finite-time collision and even asymptotic approach to the collision set. Compactness of the torus and ordinary smooth-ODE continuation give global forward existence. For \(N=1\), the vector field is zero and the assertion is immediate.
+
+No lower gap bound uniform over all CUE initial configurations is being asserted or needed. The bound is configuration dependent. The CUE initial law is collision free almost surely; every ACUE configuration is collision free.
+
+Let \(u_a\) be the positive partition-polynomial vector of weight \(a\). Its pathwise equation is \(u_a'=G_a u_a\), so \(u_a(t)=e^{tG_a}u_a(0)\). For fixed weights \(a,b\), the matrix of products is thus a finite linear combination of the initial products. Equal initial Gram entries imply equal expectations at every fixed \(t\ge0\).
+
+This proof uses neither a Taylor series justified only locally nor differentiation under an expectation. Each protected generator iterate is itself a Laurent polynomial extending continuously over collision configurations, and hence bounded on the compact torus. The singular denominators have cancelled before expectations enter. This is materially different from the rational force energy.
+
+The conclusion remains valid for every choice of a finite time \(t_N\ge0\) depending on \(N\). It does not identify the two full pushforward probability measures.
+
+### 5. Independent check of the characteristic PDE and sign
+
+From the same cotangent identity,
+
+$$
+\dot z_i=-z_i\sum_{j\ne i}\frac{z_i+z_j}{z_i-z_j}
+=-2z_i^2\sum_{j\ne i}\frac1{z_i-z_j}+(N-1)z_i.
+$$
+
+For the monic polynomial \(P(z,t)=\prod_i(z-z_i(t))\),
+
+$$
+\frac{P''(z_i)}{P'(z_i)}
+=2\sum_{j\ne i}\frac1{z_i-z_j}.
+$$
+
+Differentiating \(P(z_i(t),t)=0\) therefore shows
+
+$$
+P_t(z_i)=z_i^2P''(z_i)-(N-1)z_iP'(z_i).
+$$
+
+The leading \(z^N\) term of the right side cancels. Since \(P_t\) also has degree at most \(N-1\), equality at the \(N\) distinct roots proves
+
+$$
+P_t=z^2P_{zz}-(N-1)zP_z.
+$$
+
+The coefficient of \(z^{N-k}\) is multiplied by
+
+$$
+(N-k)(N-k-1)-(N-1)(N-k)=-k(N-k),
+$$
+
+so indeed
+
+$$
+e_k(t)=e^{-k(N-k)t}e_k(0).
+$$
+
+This also shows \(e_N\) is conserved, as required by \(\sum_iV_i=0\). It has the correct physical two-particle limit: for a gap \(g\), \(g'=2\cot(g/2)\), and therefore \(\cos(g(t)/2)=e^{-t}\cos(g(0)/2)\). The first elementary coefficient decays by \(e^{-t}\) when \(N=2\), in agreement with the PDE.
+
+Changing the flow to attraction changes the exponent signs. The resulting polynomial continuation exists for all real times as a coefficient formula, but its roots may leave the circle after a collision. The draft correctly restricts its physical all-time conclusion to repulsion and nonnegative time.
+
+### 6. Independent computations and their limits
+
+The companion script dynamic_generator_independent_review.py does not import the original audit program or read its computed answers. Its JSON is saved with the script in `research/dynamic-generator/`.
+
+The integer portion checks every residue Gram entry between all partitions of weights \(0,\ldots,N\), for each \(N=1,\ldots,10\). It checks the endpoint exponent lists and the next-weight counterexample separately. All checks passed. At \(N=10\), this includes 139 partitions and 19,321 exact integer Gram entries.
+
+The numerical portion independently evaluates \(Lp_m\) directly from the angle vector field for \(m=1,\ldots,N+2\); evaluates \(Le_k\) by differentiating elementary symmetric polynomials; and integrates the actual angle ODE at \(N=2,3,5,8\) to compare its characteristic coefficients with the exponential formula. It uses times \(0.03,0.1,0.3\). The largest observed errors were:
+
+- direct trace-generator identity: less than \(3.4\times10^{-14}\);
+- elementary-coefficient generator identity: less than \(1.6\times10^{-14}\);
+- integrated characteristic coefficients: less than \(4.1\times10^{-12}\).
+
+These last checks use floating-point arithmetic and numerical ODE integration; they are diagnostics, not exact computations or proofs. The mathematical arguments above establish the statements independently of those tolerances.
+
+### 7. Required editorial changes and remaining scope
+
+There is no mathematical change required to the central theorem. Clarify the symmetric trace-algebra scope of “any polynomial.” Retain the distinction between the finite-dimensional polynomial continuation and physical negative-time angle evolution. Preserve the finite-\(N\), finite-ensemble nature of the result.
+
+The result disproves the proposed mechanism in which repeated deterministic Coulomb differentiation of a protected trace polynomial generates an observable outside the matched band. It does not establish that a different flow or a singular statistic can be evaluated arithmetically. It is not an AH contradiction or a theorem about zeta-zero distributions.
+
+
+# Current report 15: force_energy
+
+Source: `research/reports/force_energy.md`. SHA-256: `0782e73dc430034c54db8173d81803f02aaeec6c326c151d692770635430394b`.
+
+## Circular force-square observable: exact identities and expectation audit
+
+2026-09-05. All angles in this report are measured in radians on a circle of circumference 2π. Here **D means force-square energy**, not the first-collision time denoted D in earlier reports. The calculations concern the deterministic repulsive flow θ̇i=Vi.
+
+### 1. Findings
+
+For distinct angles, define
+
+$$V_i=\sum_{j\ne i}\cot\frac{\theta_i-\theta_j}{2},\qquad
+D=\sum_iV_i^2,\qquad
+Q=\sum_{i\ne j}\csc^2\frac{\theta_i-\theta_j}{2},\qquad
+C_N=\frac{N(N^2-1)}3.$$
+
+Then the following are exact mathematical identities:
+
+$$D=Q-C_N,$$
+
+$$\mathbb E_{\mathrm{CUE}}D=C_N,\qquad
+\mathbb E_{\mathrm{ACUE}}D=\frac{C_N}{2},$$
+
+where ACUE is the N-particle projection process on the 2N-th roots of unity with the consecutive N Fourier modes. For the deterministic generator
+
+$$\mathcal L=\sum_iV_i\partial_{\theta_i},$$
+
+one has
+
+$$\mathcal L D=-\sum_{i<j}\csc^2\frac{\theta_i-\theta_j}{2}(V_i-V_j)^2\le0.$$
+
+For every N≥2,
+
+$$\mathbb E_{\mathrm{CUE}}\mathcal LD=-\infty,$$
+
+whereas the ACUE expectation is finite and in fact
+
+$$\mathbb E_{\mathrm{ACUE}}\mathcal LD=-\frac{2N(N^4-1)}{15}.$$
+
+The last formula was first suggested by floating-point enumeration and then derived algebraically below. It is not being promoted from a numerical fit to a theorem without a proof.
+
+The score normalization in the user's proposed argument needs correction: for the CUE density in radian coordinates, **the score is V, not 2V**. Also, the apparent higher-order observable D collapses pointwise to a singular two-point energy. Its different expectations do not automatically provide an arithmetically accessible statistic of ζ zeros.
+
+### 2. Score and deterministic-flow normalization
+
+The circular-beta density is
+
+$$p_\beta(\boldsymbol\theta)=Z_{N,\beta}^{-1}
+\prod_{i<j}|e^{i\theta_i}-e^{i\theta_j}|^\beta.$$
+
+Differentiating log|eiθi−eiθj| gives one half of the cotangent. Thus
+
+$$\partial_{\theta_i}\log p_\beta=\frac\beta2V_i.$$
+
+For CUE, β=2, so the score is exactly V. This density convention agrees with [Feng–Wei's definition of CβE](https://arxiv.org/abs/1806.01555). The discrete ACUE measure does not have a Lebesgue density on the full angular configuration space, so V should not be called its ordinary continuous Fisher score.
+
+The generator here is for θ̇=V. If the deterministic drift is instead V/(2N), all generator expectations below are divided by 2N; the observable D itself is unchanged. If the attractive flow θ̇=−V is used, the generator signs reverse. These deterministic flows are not stochastic DBM; Haar CUE invariance under a stochastic process does not imply invariance under the deterministic drift alone.
+
+For the centered real characteristic polynomial
+
+$$Q_0(x)=\prod_j\sin\frac{x-\theta_j}{2},$$
+
+the force has the exact intrinsic expression
+
+$$V_i=\frac{Q_0''(\theta_i)}{Q_0'(\theta_i)}.$$
+
+This does identify a natural derivative-ratio candidate when one studies another real entire function. It does not evaluate its average over that function's zeros.
+
+### 3. Pointwise collapse of the force square
+
+Put cij=cot((θi−θj)/2), so cji=−cij. Expanding the square,
+
+$$D=\sum_{i\ne j}c_{ij}^2
+ +2\sum_{\{i,j,k\}}
+(c_{ij}c_{ik}+c_{ji}c_{jk}+c_{ki}c_{kj}).$$
+
+For each unordered triple, the expression in parentheses is −1. This follows from cot(a+b)=(cot a cot b−1)/(cot a+cot b), or from clearing denominators in that identity. Since cot²=csc²−1,
+
+$$D=Q-N(N-1)-2\binom N3
+=Q-\frac{N(N^2-1)}3.$$
+
+No averaging, randomness, or spacing approximation has been used. In particular, an expectation of D contains only two-point information once the singular test kernel is specified.
+
+### 4. CUE expectation by a legitimate integration by parts
+
+The divergence of V is
+
+$$\sum_i\partial_{\theta_i}V_i=-\frac12Q.$$
+
+For β=2, integration by parts against p2 therefore yields
+
+$$\mathbb E_{\mathrm{CUE}}D=\frac12\mathbb E_{\mathrm{CUE}}Q.$$
+
+This particular integration by parts is legitimate. Near an isolated collision with gap g, the density vanishes quadratically, while V has at most a first-order pole. The boundary flux p2Vi consequently vanishes. Alternatively, multiplying out the Vandermonde factors removes the apparent pole in p2Vi, and its derivative is integrable on the compact torus. The products p2Vi² and p2Q are integrable as well, including at intersections of collision hyperplanes.
+
+Combining this identity with D=Q−CN gives EQ=2CN and ED=CN. The same calculation for β>1 gives ED=CN/(β−1), but no extension of the present task to other model families is needed.
+
+Crucially, this integrability check does **not** justify applying the same argument to LD, which has a fourth-order gap singularity.
+
+### 5. ACUE expectation from its exact discrete kernel
+
+Let M=2N and label the grid by x in Z/MZ, with θx=2πx/M. The rank-N projection kernel is
+
+$$K(x,y)=\frac1{2N}\sum_{a=0}^{N-1}e^{2\pi ia(x-y)/(2N)}.$$
+
+It has K(x,x)=1/2. For d≠0 mod 2N, define
+
+$$w_d=\csc^2\frac{\pi d}{2N}.$$
+
+Then K(x,x+d)=0 for nonzero even d, while for odd d,
+
+$$|K(x,x+d)|^2=\frac{w_d}{4N^2}.$$
+
+Hence the two-site inclusion probability is
+
+$$\rho_2(0,d)=\frac14-\frac{\mathbf1_{d\text{ odd}}}{4N^2}w_d.$$
+
+It follows that
+
+$$\mathbb E_{\mathrm{ACUE}}Q
+=\frac N2\sum_{d=1}^{2N-1}w_d
+-\frac1{2N}\sum_{\substack{1\le d<2N\\d\text{ odd}}}w_d^2.$$
+
+The needed trigonometric sums are
+
+$$\sum_{d=1}^{M-1}\csc^2\frac{\pi d}{M}=\frac{M^2-1}{3},$$
+
+$$\sum_{d=1}^{M-1}\csc^4\frac{\pi d}{M}=\frac{M^4+10M^2-11}{45},$$
+
+and subtraction of the even sites gives
+
+$$\sum_{d\text{ odd}}w_d^2=\frac{N^2(N^2+2)}3.$$
+
+Consequently
+
+$$\mathbb E_{\mathrm{ACUE}}Q=\frac{N(N^2-1)}2=\frac32C_N,$$
+
+which proves ED=CN/2. The model convention is the ACUE described in [Tao's original post](https://terrytao.wordpress.com/2019/05/08/the-alternative-hypothesis-for-unitary-matrices/).
+
+The cosecant identities can be derived from
+
+$$\sum_{d=0}^{M-1}\cot(x+\pi d/M)=M\cot(Mx)$$
+
+by differentiation and comparison of Laurent coefficients at zero. This gives exact algebraic identities, rather than an approximation of a continuum integral by a lattice sum.
+
+### 6. The dissipative generator identity
+
+Let wij=csc²((θi−θj)/2). The Jacobian JV of V is symmetric, with diagonal entries −(1/2)Σj≠i wij and off-diagonal entries wij/2. Therefore
+
+$$\mathcal LD=2V^T J_VV
+=-\sum_{i<j}w_{ij}(V_i-V_j)^2.$$
+
+This proves pointwise nonpositivity. The repulsive flow exists globally for each initially distinct configuration: the logarithmic Vandermonde potential
+
+$$W=\sum_{i<j}\log|e^{i\theta_i}-e^{i\theta_j}|$$
+
+satisfies dW/dt=D/2≥0. Every summand is bounded above by log2, so a collision would force W to negative infinity, contradicting its lower bound W(0). The vector field therefore remains away from its singular set along each fixed initial trajectory, and D decreases.
+
+### 7. Why the CUE expected derivative is negative infinity
+
+Restrict to configurations in which exactly one pair has gap g→0 and all other points remain uniformly separated from that pair and each other. This set has positive measure in the remaining coordinates. Then
+
+$$V_i-V_j=\frac4g+O(g),\qquad w_{ij}=\frac4{g^2}+O(1),$$
+
+so
+
+$$\mathcal LD=-\frac{64}{g^4}+O(g^{-2}).$$
+
+The CUE joint density on this region is a positive smooth factor times g². Since LD≤0 everywhere,
+
+$$\mathbb E_{\mathrm{CUE}}[-\mathcal LD]
+\ge c\int_0^\varepsilon g^{-2}\,dg=+\infty.$$
+
+Thus E LD=−∞ in the extended sense for N≥2. There is no cancellation between positive and negative parts to rescue an ordinary finite expectation.
+
+Moreover, it is possible to state the expectation-level consequence without illegally exchanging derivative and integral. Let Φt be this deterministic repulsive flow. Since 0≤D(Φt)≤D initially and ED is finite, Fatou's lemma applied to
+
+$$\frac{D(\theta)-D(\Phi_t\theta)}t\ge0$$
+
+shows
+
+$$\lim_{t\downarrow0}\frac{\mathbb E D(\Phi_t)-\mathbb ED}{t}=-\infty.$$
+
+This is an infinite right slope, not a finite derivative obtained by a formal interchange. The finite ACUE support allows differentiation of its finite weighted sum at t=0.
+
+For N=2 there is a transparent check. If g is the labeled angle difference, its CUE density is sin²(g/2)/π on (0,2π). Integrating only over ε≤g≤2π−ε gives
+
+$$\mathbb E[D;\epsilon\le g\le2\pi-\epsilon]
+=2-\frac2\pi(\epsilon+\sin\epsilon)\to2,$$
+
+$$\mathbb E[\mathcal LD;\epsilon\le g\le2\pi-\epsilon]
+=8-\frac{16}{\pi}\cot(\epsilon/2)-\frac{8\epsilon}{\pi}\to-\infty.$$
+
+### 8. Exact finite ACUE derivative
+
+The explicit finite answer is
+
+$$\mathbb E_{\mathrm{ACUE}}\mathcal LD=-\frac{2N(N^4-1)}{15}.$$
+
+Here is a derivation, including the ordering factors.
+
+#### 8.1 Reducing the derivative to at most three sites
+
+Differentiating Q−CN directly and using a three-angle cotangent identity yields
+
+$$\mathcal LD=-4\sum_{i<j}(w_{ij}^2-w_{ij})
+ +\sum_{i<j<k}(w_{ij}w_{ik}+w_{ij}w_{jk}+w_{ik}w_{jk}). \tag{8.1}$$
+
+For verification of the triple algebra, put c=cot((θ1−θ2)/2), a=cot((θ2−θ3)/2), b=(ca−1)/(c+a). Then
+
+$$\begin{aligned}
+&(1+c^2)c(b-a)+(1+b^2)b(c+a)+(1+a^2)a(b-c)\\
+&=-\frac12[(1+c^2)(1+a^2)+(1+c^2)(1+b^2)+(1+a^2)(1+b^2)].
+\end{aligned}$$
+
+The expression extends by continuity wherever the chosen cotangent-addition denominator vanishes but the original angles are distinct.
+
+#### 8.2 ACUE three-site probability
+
+Among any three grid sites at least two have the same parity. Their off-diagonal kernel entry is zero, so the triangular product in the 3×3 determinant vanishes. Therefore
+
+$$\rho_3(0,d,e)=\frac18-\frac1{8N^2}
+[\mathbf1_{d\text{ odd}}w_d+\mathbf1_{e\text{ odd}}w_e+
+\mathbf1_{d-e\text{ odd}}w_{d-e}],$$
+
+for d,e nonzero and distinct modulo 2N.
+
+Put S2=Σd wd, S4=Σd wd², O4=Σd odd wd², O6=Σd odd wd³. The pair part of (8.1) has expectation
+
+$$-\frac M2(S_4-S_2)+\frac{M}{2N^2}(O_6-O_4),\qquad M=2N.$$
+
+By symmetry the three edge products in the unordered-triple term contribute equally. Its expectation is
+
+$$\frac M2\sum_{d,e\ne0,\ d\ne e}\rho_3(0,d,e)w_dw_e.$$
+
+The factor is M/2: the ordered triple count gives M/6, followed by the three equal edge-product contributions.
+
+For odd d, the useful even-site convolution is
+
+$$\sum_{\substack{e\ne0\\e\text{ even}}}w_e w_{d-e}
+=\frac{4N^2+5}{3}w_d-3w_d^2.$$
+
+To derive it, use
+
+$$\csc^2u\csc^2v=\csc^2(u+v)
+[\csc^2u+\csc^2v+2\cot(u+v)(\cot u+\cot v)]$$
+
+with u=πe/(2N), v=π(d−e)/(2N), and sum over nonzero even e. The shifted cotangent sum vanishes before its e=0 term is removed, because cot(πd/2)=0 for odd d. This gives the displayed convolution exactly.
+
+It follows that the triple term has expectation
+
+$$\frac M{16}\left[
+S_2^2-S_4-\frac1{N^2}
+\left(\frac83(2N^2+1)O_4-8O_6\right)\right].$$
+
+Adding the pair term gives
+
+$$\mathbb E\mathcal LD=\frac M{16}\left[
+S_2^2-9S_4+8S_2+\frac{16}{N^2}O_6
+-\frac{16(N^2+2)}{3N^2}O_4\right].$$
+
+Finally,
+
+$$S_2=\frac{4N^2-1}{3},\quad
+S_4=\frac{16N^4+40N^2-11}{45},\quad
+O_4=\frac{N^2(N^2+2)}3,$$
+
+$$O_6=\frac{N^2(2N^4+5N^2+8)}{15}.$$
+
+The last identity is the odd-site difference of
+
+$$\sum_{d=1}^{M-1}\csc^6\frac{\pi d}{M}
+=\frac{2M^6+21M^4+168M^2-191}{945},$$
+
+obtained by further differentiation of the same cotangent partial-fraction identity. Substitution simplifies to −2N(N⁴−1)/15, as claimed.
+
+### 9. What this does and does not provide for the research programme
+
+The finite mean separation is genuine: ED/N³ tends to 1/3 in CUE and 1/6 in ACUE. But the mechanism is a singular two-point test. It is not a new independent three-point invariant disguised as a force square. Any laws that have the same full two-point marginal on the same finite grid must have the same ED. Thus this mean alone does not distinguish all the previous ACUE moment-fiber counterexamples.
+
+The kernel csc² has a diagonal singularity and requires information beyond the usual bounded, limited-Fourier-support pair-correlation tests. A finite-grid trigonometric interpolant of that kernel is a different function away from the grid; using its CUE expectation would silently change the observable. A rigorous arithmetic use needs a specified regularization, an evaluable weighted zero sum, and uniform control of the error when the diagonal cutoff is removed.
+
+The canonical ratio H0″/H0′ at simple zeros is a possible arithmetic formulation of the force. Its squared mean involves inverse derivatives and singular near-pair behavior; the circle identities and CUE integration by parts do not evaluate that mean for ζ. Gamma-factor contributions, the chosen H-coordinate, and the canonical-product normalization would all have to be retained in a direct real-line formulation.
+
+The infinite CUE initial slope is another constraint on a proposed comparison. One cannot posit a finite Taylor expansion of the expected energy around zero time and then compare its first coefficients with ACUE. Regularized observables or a nonanalytic short-time analysis would be necessary. No such arithmetic comparison is proved here.
+
+### 10. Floating-point enumeration and algebra checks
+
+`research/force-energy/force_energy.py` visits every N-subset of the 2N grid for N=2,…,10, using the weights
+
+$$\mu(S)=(2N)^{-N}\prod_{i<j\in S}|e^{i\theta_i}-e^{i\theta_j}|^2.$$
+
+The traversal is exhaustive; all trigonometric values, weights, and expectations are float64. It is therefore **not exact-arithmetic enumeration**. The proof of the exact formulas is in the preceding sections.
+
+| N | Subsets visited | E D, float64 | E LD, float64 |
+|---:|---:|---:|---:|
+| 2 | 6 | 1 | −4 |
+| 3 | 20 | 4 | −32 |
+| 4 | 70 | 10 | −136 |
+| 5 | 252 | 20 | −416 |
+| 6 | 924 | 35 | −1036 |
+| 7 | 3432 | 56 | −2240 |
+| 8 | 12870 | 84 | −4368 |
+| 9 | 48620 | 120 | −7872 |
+| 10 | 184756 | 165 | −13332 |
+
+At N=10 the total probability differs from 1 by about 2.5×10⁻¹⁴, and the maximum pointwise error in D=Q−CN is below 6.9×10⁻¹³. The script also checks the generator formula against a finite directional difference at four configurations, and evaluates the exact N=2 truncated integrals to exhibit the divergent derivative expectation. Its JSON and log are saved beside this report. These computations support normalization checks; they do not replace the integrability proof.
+
+
+# Current report 16: force_energy_independent_review
+
+Source: `research/reports/force_energy_independent_review.md`. SHA-256: `70ef4365fc5330a1a329e1a28ca94b4426deed6786ea8f05e016bcc083a2fc2f`.
+
+## Independent mathematical review of the circular force-energy audit
+
+Date: 2026-09-05. Reviewer: residual_gram agent, independently of the flow agent's derivation.
+
+Reviewed source: **force_energy.md**, SHA256 **526c5e7abd2c6437f3ec2d6cdcdffb27db13a134af15c4ab17464487cbdf360c**.
+
+**Verdict: accept the stated finite-CUE/ACUE identities and the infinite CUE right-slope conclusion, with the conventions and scope already stated in the source. No remaining mathematical gap was found in the reviewed arguments.** This review does not establish novelty, any analogous zeta identity, or a consequence for AH/RH.
+
+The most important independently checked conclusions, for radians and the deterministic repulsive drift \(V_i=\sum_{j\ne i}\cot((\theta_i-\theta_j)/2)\), are
+\[
+D=\sum_iV_i^2,\qquad
+\mathbb E_{\rm CUE}D=\frac{N(N^2-1)}3,\qquad
+\mathbb E_{\rm ACUE}D=\frac{N(N^2-1)}6,
+\]
+\[
+\mathbb E_{\rm ACUE}LD=-\frac{2N(N^4-1)}{15},
+\qquad
+\lim_{t\downarrow0}
+\frac{\mathbb E_{\rm CUE}D(\Phi_tX)-\mathbb E_{\rm CUE}D(X)}t
+=-\infty\quad(N\ge2).
+\]
+
+### 1. Pointwise derivative and three-body reduction
+
+With \(w_{ij}=\csc^2((\theta_i-\theta_j)/2)\), the Jacobian of \(V\) has off-diagonal entries \(w_{ij}/2\) and diagonal entries \(-\sum_{j\ne i}w_{ij}/2\). It is a negative weighted graph Laplacian. Therefore
+\[
+LD=2V^\mathsf T J_VV
+=-\sum_{i<j}w_{ij}(V_i-V_j)^2.
+\tag{1}
+\]
+The coefficient is exactly \(-1\) for an unordered pair sum. This verifies both the sign and the time normalization.
+
+Independently expanding \(LQ\), with \(Q=\sum_{i\ne j}w_{ij}\), gives the pair contribution
+\[
+-4\sum_{i<j}(w_{ij}^2-w_{ij})
+\]
+plus the three-body contribution
+\[
+\sum_{i<j<k}
+(w_{ij}w_{ik}+w_{ij}w_{jk}+w_{ik}w_{jk}).
+\tag{2}
+\]
+The cotangent-addition rational identity used to reduce each triple was checked exactly in two independent indeterminates with SymPy. Its residual is the zero rational function.
+
+As a normalization check, an equally spaced \(N=3\) configuration has all \(w_{ij}=4/3\). Its pair contribution is \(-16/3\), its triple contribution \(16/3\), and its total derivative is zero as required by force balance.
+
+### 2. Three-site inclusion probability and ordering factors
+
+For the ACUE projection process on \(M=2N\) sites, the two-site formula is
+\[
+\rho_2(0,d)=\frac14-\frac{\mathbf1_{d\ {\rm odd}}}{4N^2}w_d.
+\]
+Every triple of distinct sites contains a same-parity pair, so at least one off-diagonal kernel entry in its cyclic three-edge product vanishes. Expanding the \(3\times3\) determinant therefore gives
+\[
+\rho_3(0,d,e)
+=\frac18-\frac1{8N^2}
+\left[\mathbf1_{d\ {\rm odd}}w_d+
+\mathbf1_{e\ {\rm odd}}w_e+
+\mathbf1_{d-e\ {\rm odd}}w_{d-e}\right].
+\tag{3}
+\]
+The factor \(1/(8N^2)\) is correct: each off-diagonal squared modulus is multiplied by the remaining diagonal value \(1/2\).
+
+The unordered-pair contribution in (2) has expectation
+\[
+-4\frac M2\sum_{d\ne0}\rho_2(0,d)(w_d^2-w_d)
+=-\frac M2(S_4-S_2)+\frac M{2N^2}(O_6-O_4).
+\tag{4}
+\]
+
+For triples, the sum of all three central edge products equals one half of the ordered central-vertex sum. Thus its expectation is
+\[
+\frac M2\sum_{\substack{d,e\ne0\\d\ne e}}\rho_3(0,d,e)w_dw_e.
+\tag{5}
+\]
+This confirms the source's \(M/2\) factor. It can alternatively be viewed as \(M/6\) for ordered triples times three equal edge-product contributions. There is no extra factor of two or three left over.
+
+### 3. Independent reconstruction of the parity convolution
+
+Fix an odd \(d\), put \(\alpha=\pi d/(2N)\), and let \(e=2k\), \(1\le k\le N-1\). Set \(u=\pi k/N\), \(v=\alpha-u\). The identity in the source reads
+\[
+\csc^2u\,\csc^2v
+=\csc^2\alpha\left[
+\csc^2u+\csc^2v+
+2\cot\alpha(\cot u+\cot v)\right].
+\]
+The four sums needed over nonzero even sites are
+\[
+\sum\csc^2u=\frac{N^2-1}{3},\qquad
+\sum\csc^2v=N^2-w_d,\qquad
+\sum\cot u=0,\qquad
+\sum\cot v=-\cot\alpha.
+\]
+Indeed \(N\alpha\) is an odd multiple of \(\pi/2\); the full shifted cosecant-square sum is \(N^2\) and the full shifted cotangent sum is zero. Removing \(k=0\) yields the displayed subtractions.
+
+Since \(\cot^2\alpha=w_d-1\), the convolution is exactly
+\[
+\sum_{\substack{e\ne0\\e\ {\rm even}}}w_ew_{d-e}
+=\frac{4N^2+5}{3}w_d-3w_d^2.
+\tag{6}
+\]
+
+To check the complete triple correction without skipping the parity bookkeeping, its first two terms together are
+\[
+2\sum_{d\ {\rm odd}}w_d^2(S_2-w_d)
+=2S_2O_4-2O_6.
+\]
+The third term has \(d-e\) odd, meaning one of \(d,e\) is odd and the other even. By (6), it is
+\[
+2\sum_{d\ {\rm odd}}w_d
+\sum_{\substack{e\ne0\\e\ {\rm even}}}w_ew_{d-e}
+=\frac{2(4N^2+5)}3O_4-6O_6.
+\]
+Adding them and using \(S_2=(4N^2-1)/3\) gives
+\[
+\frac83(2N^2+1)O_4-8O_6,
+\]
+exactly as claimed. Combined with (4), (5), this yields the source's final intermediate expression
+\[
+\mathbb E LD=\frac M{16}\left[
+S_2^2-9S_4+8S_2+\frac{16}{N^2}O_6
+-\frac{16(N^2+2)}{3N^2}O_4\right].
+\tag{7}
+\]
+
+Exact symbolic substitution of the four trigonometric-sum polynomials into (7) simplifies to
+\[
+-\frac{2N(N^4-1)}{15}
+\]
+identically in the indeterminate \(N\). The odd-site fourth- and sixth-power polynomials were separately checked as the differences of the full \(2N\)-site and \(N\)-site sums.
+
+### 4. CUE divergence and the actual expectation-level right slope
+
+The CUE density has score \(V\), and the integration by parts for the first energy moment is legitimate: multiplying the Vandermonde square by a single cotangent cancels the apparent pair pole, while multiplying it by \(V_i^2\) or \(w_{ij}\) remains integrable. Equivalently, each pair density vanishes quadratically and the relevant first-moment singularities are at most quadratic. The compact polynomial form handles intersections of collision hyperplanes as well.
+
+This reasoning is not valid for the derivative observable, which has a fourth-order pole. The source correctly does not reuse that integration by parts.
+
+Choose a region where one pair has small positive gap \(g\), all other points stay a fixed distance from this pair and one another, and the remaining coordinates range over a set of positive measure. Then
+\[
+V_i-V_j=\frac4g+O(g),\qquad
+w_{ij}=\frac4{g^2}+O(1).
+\]
+The leading contribution to (1) is \(-64/g^4\). Other pair terms have at most order \(g^{-2}\). Since the density is a positive smooth factor times \(g^2\), and \(LD\le0\) globally, the integral of \(-LD\) diverges like \(\int_0^\epsilon g^{-2}dg\). Hence
+\[
+\mathbb E_{\rm CUE}[-LD]=+\infty.
+\]
+This is a valid one-sided divergence, with no positive-negative cancellation issue.
+
+For the expected trajectory, define
+\[
+A_t(X)=\frac{D(X)-D(\Phi_tX)}t,\qquad t>0.
+\]
+Global repulsive existence and (1) imply \(A_t\ge0\). Also \(A_t(X)\to-LD(X)\) for every initially distinct configuration, and \(\mathbb ED(X)<\infty\). Applying Fatou along any sequence \(t_n\downarrow0\),
+\[
+\liminf_n\mathbb EA_{t_n}\ge\mathbb E[-LD]=+\infty.
+\]
+Since the sequence was arbitrary, \(\mathbb EA_t\to+\infty\) as \(t\downarrow0\). Moreover,
+\[
+\mathbb EA_t=\frac{\mathbb ED(X)-\mathbb ED(\Phi_tX)}t
+\]
+is well-defined because \(0\le D(\Phi_tX)\le D(X)\). This proves the source's actual infinite negative right slope. It is not a formal derivative-integral interchange.
+
+The \(N=2\) truncated integral formulas were also checked directly. Their coefficients agree with the chosen drift normalization.
+
+### 5. Independent exact finite checks
+
+The companion program **force_energy_review.py** uses exact rational arithmetic in cyclotomic quotient rings for \(N=2,3,4\). This is independent of the source's float64 enumeration and independent of its determinantal pair/triple expectation reduction.
+
+At every subset, the program constructs the original force via
+\[
+V_i=iB_i,\qquad
+B_i=\sum_{j\ne i}\frac{\zeta^{s_i-s_j}+1}{\zeta^{s_i-s_j}-1}.
+\]
+It evaluates the dissipative derivative directly as
+\[
+LD=\sum_{i<j}w_{ij}(B_i-B_j)^2.
+\]
+The sign change comes from \(i^2=-1\); no numerical complex arithmetic is used. It then checks the pair/triple reduction pointwise and sums the original Vandermonde weights exactly.
+
+| \(N\) | Subsets | Exact \(\mathbb ED\) | Exact \(\mathbb ELD\) |
+|---:|---:|---:|---:|
+| 2 | 6 | 1 | −4 |
+| 3 | 20 | 4 | −32 |
+| 4 | 70 | 10 | −136 |
+
+All pointwise identities, normalizations and expectations passed. The all-\(N\) conclusion remains based on the analytic derivation and symbolic polynomial identities, not extrapolation from this table.
+
+Evidence files in `research/force-energy/`:
+
+- **force_energy_review.py** — exact symbolic and cyclotomic checks.
+- **force_energy_review_results.json** — results.
+- Dependency: **dynamic-generator/generator_audit.py**, only its small CyclotomicRing implementation. Importing it does not run its main audit.
+
+Reproduction:
+
+    OPENBLAS_NUM_THREADS=1 python3 research/force-energy/force_energy_review.py
+
+### 6. Accepted scope and limits
+
+The accepted result is an exact finite-ensemble distinction for a singular force observable, plus a nonanalytic initial expectation response in CUE. It is compatible with the independently proved persistence of protected trace moments: \(D\) and \(LD\) are not in that bounded Fourier-weight polynomial algebra.
+
+The source correctly identifies that \(D\) collapses to a singular two-point kernel. The mean of \(LD\), after reduction, involves up to three points, but still with singular kernels. No bound for the corresponding arithmetic zero sums has been supplied.
+
+No additional caveat is needed for differentiating the ACUE average: after removing the irrelevant global rotation it is a finite sum over distinct configurations. A finite derivative at zero follows from the smooth local flow at each of those configurations.
+
+The stated observations do not prove dynamical low-mode leakage, AH failure, RH, or a new prime-gap bound. They also do not establish that the finite-ensemble formulas are previously unknown. Within those limits, this review accepts the report.
+
+Integration note: the reviewed-source SHA identifies the original staging report. The public copy changes only evidence paths; the preserved local source and Git manifest identify both versions.
+
+
+# Current report 17: new_attachment_bridge_audit
+
+Source: `research/reports/new_attachment_bridge_audit.md`. SHA-256: `169335d3e1b46a043e69e36032e51544a5923cdb43cce47f6d1eb07c8fc587be`.
+
+## Audit of the two newly supplied heat-depth bridge manuscripts
+
+Date: 2026-09-05. Author: internal Astra agent `prime186`. Scope: a bounded source and proof audit, with two finite-dimensional counterexamples. This is an audit of claims, not a claim to have refuted the Riemann-zeta Alternative Hypothesis.
+
+### 1. Outcome, including a correction to our own previous audit
+
+The finite-dimensional first-collision bridge is useful and survives with precise hypotheses. Two stronger implications in the supplied reasoning fail: the pair that first collides need not have the initially smallest gap, and inverse-Gram blowup need not produce blowup of a marked heat-depth derivative. Both failures are demonstrated below with explicit formulas; the first also has an exact rational Sturm certificate.
+
+**Our previous source judgment also needs correction.** It is not correct to say that the Lagarias–Rodgers hard-core parameter and the number $0.606894$ have no connection in the primary literature. Their paper *Band-limited mimicry of point processes by point processes supported on a lattice*, §5, printed p.19, explicitly defines $T_1$ and its hard-core supremum (mu). It proves the lower bound through its earlier construction and proposes that a modification of the Carneiro et al. pair-correlation method should give the upper bound $0.606894$. That proposed modification is not proved there. The incoming second attachment largely preserves this distinction in its opening discussion; passages calling the bound a published, proved theorem do not. [Primary PDF](https://par.nsf.gov/servlets/purl/10187059), [arXiv record](https://arxiv.org/abs/1907.03391).
+
+The correct source ledger is therefore:
+
+| Object or assertion | Correct status |
+|---|---|
+| The class $T_1$ and hard-core supremum (mu) | Explicitly defined in the 1907.03391 paper, §5 |
+| $mu\ge 1/2$ | Supported by their constructed mimicking process |
+| $mu\le .606894$ | They explicitly suggest a modified existing method should establish it; no proof is supplied in that passage |
+| $mu=1/2$ | A possibility they propose, not a theorem |
+| $T_1$ consists by definition of stationary processes | Inaccurate: the stated class is all uniformly locally moment-bounded processes mimicking the sine process at bandwidth 1; stationarity is not an additional condition in that definition |
+| The .606894 footnote in the different paper 1905.12123 | A positive-proportion small-gap result for zeta zeros, with a different quantifier |
+
+The source error arose from inspecting the higher-correlations paper while overlooking the companion paper's §5. The authoritative handoff should correct that error explicitly, rather than retain an unjustified criticism of the incoming manuscript.
+
+### 2. Inputs and evidence
+
+The two audited inputs are:
+
+1. `research/incoming/heat_depth_classification_proposal.md`: the finite heat polynomial, single-defect ACUE model, nonlinear transversality, marked Gram directions, and proposed dynamic separation programme.
+2. `research/incoming/hard_gap_depth_bridge_proposal.md`: the claimed hard-core/heat-depth bridge and proposed arithmetic consequences.
+
+Reproducible evidence in `research/bridge-audit/` (the primary PDF and text are retained in the adjacent local archive, with the hash below):
+
+- `attachment_bridge_checks.py`: exact rational Sturm and symbolic derivative checks.
+- `attachment_bridge_checks.json`: full heat polynomial, discriminant coefficients, rational intervals, root counts, symbolic formulas, and runtime.
+- `lagarias-rodgers-bandlimited-1907.03391.pdf`: downloaded from the NSF primary-author manuscript URL above, 544836 bytes.
+- `lagarias-rodgers-bandlimited-1907.03391.txt`: `pdftotext -layout` extraction. Lines 1058–1064 contain the decisive §5 passage; the PDF page is printed p.19 and is also the nineteenth PDF page.
+
+PDF SHA256: `a638b6be50dd919d1866085be29836f65ed4ce50f7caac14ae372b190b82e315`.
+
+Historical finite-enumeration evidence is in `historical/riemann-rmt/impostors_paper.md`, especially its table around lines 183–208. That historical draft itself still contains some superseded source claims elsewhere; it is evidence for the archived calculations, not an authority that overrides primary sources.
+
+### 3. Fix the sign convention before comparing formulas
+
+For a degree-$N$ polynomial with all roots on the circle, the supplied convention is
+
+\[
+ P_t(z)=\sum_{k=0}^N a_k e^{-t k(N-k)}z^k.
+\]
+
+Increasing $t$ is the repulsive, real-root-preserving direction after converting to circle angles. Let $D=-\Lambda\ge0$ denote the time traveled in the opposite direction from $t=0$ to the first loss of all-circle-rootedness. Thus $s=-t\ge0$ is the attractive direction. After centering the trigonometric polynomial by $e^{-iN\theta/2}$, the common scalar factor can be discarded and evolution in $s$ is ordinary scalar heat $e^{s\partial_\theta^2}$.
+
+For a finite real polynomial the corresponding convention is
+
+\[
+ H_s(x)=e^{s\partial_x^2}P(x),\qquad
+ \frac{dx_j}{ds}=-2\sum_{k\ne j}\frac1{x_j-x_k}.
+\]
+
+The real-line ODE displayed in the second attachment uses $t=-s$, so its sign is correct. The two conventions must not be combined without reversing time.
+
+The exceptional circle clocks have $P(z)=z^N-c$, up to scale and rotation. All intermediate coefficients vanish, so this flow leaves their roots fixed. Their depth is $D=+\infty$, equivalently $\Lambda=-\infty$. They are not generic finite collision points of a discriminant hypersurface.
+
+### 4. The exact real-line identity: valid for the colliding pair
+
+Assume all the following on an interval $-D<t\le0$:
+
+- The roots are real and simple and can be labeled in increasing order.
+- One adjacent pair $x_j(t)<x_{j+1}(t)$ collides at $t=-D$.
+- The finite sum below is defined, or in an infinite model the principal-value force and the difference of forces are justified and the displayed screening sum and integral converge.
+
+Put
+
+\[
+ d(t)=x_{j+1}(t)-x_j(t),\qquad
+ S(t)=\sum_{i\ne j,j+1}
+ \frac1{(x_i-x_{j+1})(x_i-x_j)}\ge0.
+\]
+
+Positivity follows because every other root lies outside the adjacent interval. Subtracting the two repulsive root equations gives
+
+\[
+ d'=\frac4d-2dS,\qquad (d^2)'=8-4d^2S.
+\]
+
+Integration from the collision time to zero gives the exact identity
+
+\[
+ \boxed{D=\frac{d_*^2}{8}
+       +\frac12\int_{-D}^0 d(t)^2S(t)\,dt},
+ \qquad d_*:=d(0).
+\]
+
+If $m_0$ is the minimum of all initial gaps, the legitimate consequence is
+
+\[
+ D\ge\frac{d_*^2}{8}\ge\frac{m_0^2}{8}.
+\]
+
+One may write an exact identity with $m_0$, but then its nonnegative correction has **two** terms:
+
+\[
+ D=\frac{m_0^2}{8}
+   +\underbrace{\frac{d_*^2-m_0^2}{8}}_{\text{initial pair-selection correction}}
+   +\underbrace{\frac12\int_{-D}^0d(t)^2S(t)\,dt}_{\text{screening correction}}.
+\]
+
+The manuscript's replacement of $d_*$ by $m_0$ while retaining only the screening integral is false in general. It is not a harmless choice of notation.
+
+### 5. Exact finite counterexample: the smallest gap does not collide first
+
+Take
+
+\[
+ P(x)=x(x^2-1)\left((x-100)^2-\frac{121}{400}\right),
+ \qquad H_s=e^{s\partial_x^2}P.
+\]
+
+Its roots are
+
+\[
+ -1,\quad0,\quad1,\quad100-\frac{11}{20},\quad100+\frac{11}{20}.
+\]
+
+The two minimum gaps are 1. The remote pair has the strictly larger gap (11/10).
+
+The heat polynomial is exactly
+
+\[
+\begin{aligned}
+H_s(x)={}&x^5-200x^4+
+ \left(\frac{3999479}{400}+20s\right)x^3
+ +(200-2400s)x^2\\
+&+\left(-\frac{3999879}{400}
+       +\frac{11998437}{200}s+60s^2\right)x
+ +400s-2400s^2.
+\end{aligned}
+\]
+
+The attached script performs exact rational Sturm calculations, not floating-point root classification:
+
+1. The degree-10 discriminant in $s$ is squarefree.
+2. It has no root in $0<s<151/1000$, and exactly one root in $151/1000<s<19/125$.
+3. That root has the exact rational enclosure
+
+\[
+ \frac{12999}{85936}<D<\frac{53965}{356761},
+\]
+
+or $0.15126373114876188<D<0.15126373118137912$.
+
+4. At $s=0$ and $s=151/1000$, there are three real roots in ([-2,2]) and two in ([98,102]).
+5. At $s=19/125$, the first interval still contains three real roots, while the second contains none; there are exactly three real roots in total.
+6. At each of the four interval endpoints, $H_s$ has no zero for $0\le s\le19/125$.
+
+A real polynomial with fixed nonzero leading coefficient cannot lose a simple real root to a nonreal conjugate pair without a real multiple-root event. The discriminant counts exclude earlier events; the interval boundary checks prevent exchanging the two root groups. Therefore the unique first event is collision of the pair initially at $100\pm11/20$, not either initial minimum pair.
+
+For this example the missing term in the incorrect identity is
+
+\[
+ \frac{(11/10)^2-1}{8}=\frac{21}{800}=0.02625.
+\]
+
+The remote pair's screening correction is small and positive: (D-121/800) is about $1.3731\times10^{-5}$. This is consistent with the exact identity, while the initially denser three-root cluster postpones its own collision.
+
+There is a simple structural reason the example exists. As the remote center $R\to\infty$, the local heat flow of $x(x^2-1)$ reaches its triple collision at $s=1/6$, whereas the isolated gap (11/10) collapses at $s=121/800<1/6$. The rational example above certifies this effect at the finite choice $R=100$.
+
+This is a theorem about finite scalar heat flow. It invalidates a universal minimum-first premise; it does not contradict the valid lower bound $D\ge m_0^2/8$.
+
+### 6. The circle bound, its domain, and the ACUE consequence
+
+For an adjacent circle gap $\Delta$, the repulsive equation is
+
+\[
+ \Delta'=2\cot(\Delta/2)-\sin(\Delta/2)B(t),\qquad B(t)\ge0.
+\]
+
+Here $B$ is the sum of reciprocal products of the two sine factors involving each other root. With the other roots outside the lifted adjacent arc, these products are positive.
+
+For $0\le\Delta<\pi$, define
+
+\[
+ q(\Delta)=-\log\cos(\Delta/2).
+\]
+
+Then
+
+\[
+ \frac{d}{dt}q(\Delta(t))
+ =1-\frac{\sin^2(\Delta/2)}{2\cos(\Delta/2)}B(t)\le1.
+\]
+
+For a tracked pair that collides in the attractive direction, its gap stays below $\pi$ throughout that part of its history. Indeed, in attractive time, the gap derivative at or above $\pi$ is nonnegative, so a gap cannot cross down through $\pi$ on its way to zero. Under the usual finite simple-root hypotheses, this gives
+
+\[
+ D\ge q(\Delta_*)\ge q(\Delta_{\min}(0)).
+\]
+
+Writing $q$ as a real function outside this domain is invalid. The antipodal $N=2$ clock is the limiting infinite-depth case, not a finite value obtained by extending the logarithm through negative cosine. All circle clocks have infinite depth, even when their minimum gap is less than $\pi$.
+
+For $m_N=N\Delta_{\min}/(2\pi)$, the valid bound is
+
+\[
+ D\ge-\log\cos(\pi m_N/N)
+ \ge\frac{\pi^2m_N^2}{2N^2}.
+\]
+
+The last inequality follows from $-\log\cos x\ge x^2/2$ on $[0,\pi/2)$. It is an exact lower bound, not just an asymptotic one. For the corresponding microscopic time $s_{\rm micro}=N^2s/(4\pi^2)$, it reads $D_{\rm micro}\ge m_N^2/8$.
+
+A simple ACUE configuration is an $N$-element subset of the (2N)-th roots of unity, so its angular gaps are at least $\pi/N$. A nonclock configuration has at least one gap exactly $\pi/N$: otherwise all $N$ integer lattice gaps would be at least 2 and sum to (2N), forcing a clock. Thus, for nonclock configurations,
+
+\[
+ D\ge-\log\cos\frac{\pi}{2N},\qquad N^2D\ge\frac{\pi^2}{8}.
+\]
+
+Clocks satisfy the same lower bound with $D=\infty$. Consequently
+
+\[
+ N^{8/3}D_{\rm ACUE}\ge(\pi^2/8)N^{2/3}\longrightarrow\infty
+\]
+
+deterministically in the extended sense. This separation does **not** require any conjecture about an ACUE limiting median or limiting distribution. It is a particularly clean part of the finite-model programme worth retaining.
+
+### 7. What the number 1.419640342 does and does not establish
+
+The single-defect family
+
+\[
+ P_N(z)=\frac{(z-1)(z^N+1)}{z-e^{-i\pi/N}}
+\]
+
+is a legitimate explicit configuration. Its proposed scaled heat profile and the double-zero equations supply a useful finite-dimensional/continuum calculation. The archived candidate critical value is $s_*=1.419640342\ldots$, with location $u_*=1.812942145\ldots$.
+
+The first attachment's inference from the $N=2,\ldots,7$ median table to a typical ACUE limit at that constant is unsupported. Later complete finite enumeration in the archived notes reports conditional medians approximately
+
+\[
+ 1.41822,\quad1.41520,\quad1.41277
+ \quad(N=8,9,10),
+\]
+
+after the median turns at $N=7$. This invalidates the claimed monotone convergence evidence and the identification of the finite median with the single-defect branch. **Finite data alone do not prove that the eventual limiting median cannot equal the same number.** The stronger statement in one historical note that it is definitively not the limiting median goes beyond these finite data unless supplemented by another argument.
+
+To turn the single-defect candidate into a theorem one must establish uniform convergence of the scaled heat profile and its relevant derivatives, nondegeneracy of the limiting double root, and the absence of an earlier collision elsewhere. Solving the double-zero equations numerically establishes none of the required global first-event exclusions by itself.
+
+A limiting law for $N^2D_{\rm ACUE}$, its tightness, and the location of its support are separate ensemble questions. In particular, a deterministic special family does not automatically put its limiting value in the support of the random ensemble's limiting law: its probability can vanish too fast. At finite $N$, the clocks have positive probability and infinite depth, so the unconditioned expectation of $D$ is infinite whenever their ensemble weights are positive.
+
+The archived generic CUE depth argument is stronger than merely a repulsion heuristic. Its key sufficient hypothesis is an isolated-small-gap condition such as $\delta A\to0$, where $A$ controls the reciprocal chord distances of the other roots from the close pair. Under that hypothesis one obtains $D\sim\delta^2/8$. A repulsion exponent or the size of the smallest gap alone does not prove this conclusion; the three-root cluster in §5 illustrates why background control matters.
+
+### 8. Nonlinear transversality: a correct conditional theorem
+
+The first attachment's differential idea can be stated precisely. Work on a smooth finite-dimensional manifold of admissible polynomial coefficients, use a real phase-normalized heat polynomial (Q(s,x,a)), and assume:
+
+1. At $a=a_0$, there is a unique first collision at finite $D_0$ and real location $x_0$.
+2. $Q=Q_x=0$, while $Q_{xx}\ne0$ and $Q_s\ne0$, at this collision.
+3. The other roots remain simple there; competing collision times and any degree-loss or exceptional events are excluded in a neighborhood.
+4. The moment constraint map (M(a)) has constant rank locally, so its level set is a smooth manifold.
+
+The Jacobian of $(Q,Q_x)$ with respect to ((s,x)) is then invertible. The implicit function theorem gives a smooth local collision time and
+
+\[
+ dD(v)=-\frac{Q_a(v)}{Q_s}.
+\]
+
+If there exists a tangent vector $v\in\ker dM$ with $Q_a(v)\ne0$, the collision time is nonconstant on that moment fiber. The equivalent discriminant derivative formula requires a smooth defining discriminant branch and a nonzero derivative in the heat direction. It fails at simultaneous or higher-order collisions unless separately resolved.
+
+The key condition is existence of that transverse $v$. It cannot be inferred merely because the hitting time is nonlinear, because the coefficient heat rates are large, or because the moment fiber has positive dimension. Rotations provide a simple null direction for every rotation-invariant statistic. Any tomography claim must first quotient such symmetries and show a full-rank Jacobian on the remaining tangent space. Multiple roots, clock points, and switches between competing first collision times are natural nondifferentiable exceptions.
+
+Likewise, if a one-parameter family opens a single isolated double root with initial gap $\delta(\varepsilon)=c\varepsilon+o(\varepsilon)$ while all other roots remain uniformly separated, the local heat normal form gives $D=c^2\varepsilon^2/8+o(\varepsilon^2)$. This is a valid local theorem under isolation. If a third root approaches on the same scale, that coefficient is not automatic.
+
+### 9. Exact marked counterexample: inverse blowup with bounded susceptibility
+
+For $0<\varepsilon<1/2$, take
+
+\[
+ G_\varepsilon=\operatorname{diag}(\varepsilon,1-\varepsilon),
+ \qquad \widetilde G_\varepsilon
+ =\operatorname{diag}(1-\varepsilon,\varepsilon),\qquad u=e_1.
+\]
+
+For each fixed $\varepsilon$, these matrices are isospectral and have identical rank, trace, and Hilbert–Schmidt norm. Their marked inverse quantities are
+
+\[
+ u^*G_\varepsilon^{-1}u=\varepsilon^{-1}\to\infty,
+ \qquad
+ u^*\widetilde G_\varepsilon^{-1}u=(1-\varepsilon)^{-1}\to1.
+\]
+
+The Hilbert–Schmidt norm varies along $\varepsilon$; it is identical **within each pair**, not constant along the entire path. No claim of a fixed invariant fiber across all $\varepsilon$ is being made.
+
+Apply the Cayley map $U=(G-iI)(G+iI)^{-1}$. For ordered eigenvalues $0<a<b$, the smaller angular separation is
+
+\[
+ \Delta=2(\arctan b-\arctan a)<\pi.
+\]
+
+For $N=2$, the heat threshold is exactly
+
+\[
+ \Lambda(a,b)=\log\cos(\Delta/2)
+ =\log\frac{1+ab}{\sqrt{(1+a^2)(1+b^2)}}.
+\]
+
+Under $G\mapsto G+\eta uu^*$, marking the smaller and larger eigenvalues respectively gives
+
+\[
+ \chi_a=\frac{\partial\Lambda}{\partial a}
+       =\frac{b-a}{(1+ab)(1+a^2)},\qquad
+ \chi_b=\frac{\partial\Lambda}{\partial b}
+       =-\frac{b-a}{(1+ab)(1+b^2)}.
+\]
+
+At $a=\varepsilon,b=1-\varepsilon$,
+
+\[
+ \chi_a\longrightarrow1,\qquad\chi_b\longrightarrow-\frac12.
+\]
+
+The attached script checks these derivatives and limits symbolically. Thus marks distinguish the two isospectral orientations, but inverse blowup does not force marked-depth susceptibility blowup. If susceptibility is instead defined using $D=-\Lambda$, the two signs reverse and boundedness is unchanged.
+
+The rank-one determinant lemma and eigenvalue perturbation formula in the first attachment remain correct. Their existence does not establish the proposed inverse-Gram-to-depth blowup implication. A more restrictive claim along a path with all additional invariants fixed would require its own hypotheses and example; it is not established or refuted by misdescribing the present path.
+
+### 10. What is missing at the actual-zeta bridge
+
+The arithmetic conclusion does not follow from the finite first-collision identity alone.
+
+Under RH, the classical de Bruijn–Newman constant satisfies $\Lambda\le0$; the Rodgers–Tao theorem supplies $\Lambda\ge0$, hence $\Lambda=0$. Therefore at every negative time the genuine global $H_t$ already has some nonreal zeros. An argument on $(-D,0]$ that requires **all** zeros to remain real cannot simply be reused for a high local window of that global flow. [Rodgers–Tao primary paper](https://arxiv.org/abs/1801.05914).
+
+The problem is concrete: contributions from nonreal background zeros are not a sum of the nonnegative real screening terms in §4. A finite polynomial formed from the zeros in a window has a well-defined finite heat flow, but it is a different analytic function, whose time evolution need not agree with the restriction of $H_t$. Uniform control of that difference, including its derivatives on the shrinking time scale, is a missing theorem.
+
+Before using a local depth $D_T$, define the object and prove at least the following: how roots are tracked in a window; what background or renormalization is retained; how the heat evolution is inherited from the genuine $H_t$; what constitutes the first local event; and what error controls replace the all-real positivity argument. An arbitrary stationary point process does not automatically determine an admissible entire function or a unique heat deformation either.
+
+The scale conversion in the second attachment is algebraically correct **conditional on such a bridge**. In the usual Rodgers–Tao $x=2\gamma$ convention, local density is asymptotic to $\rho_T=(\log T)/(4\pi)$. A unit-density hard core of (1/2) would give microscopic depth at least (1/32), corresponding to
+
+\[
+ -t\ge\frac{\pi^2}{2(\log T)^2}
+\]
+
+to leading order. Correct units do not supply the missing analytic comparison.
+
+The strong AH in Lagarias–Rodgers 1905.12123, Conjecture 2.2, uses limiting consecutive-gap values in $\{1/2,1,3/2,\ldots\}$, with no zero and for all sufficiently large indices. A theorem producing $\liminf g_n<1/2$ would refute that formulation. Statements allowing a density-zero exceptional set require a positive-density or otherwise appropriately quantified contradiction; formulations allowing multiplicity need separate handling. The historical .50412 small-gap claim mentioned in the 2019 source was withdrawn and should not be revived. [AH primary paper](https://arxiv.org/abs/1905.12123), [withdrawn Goldston–Turnage-Butterbaugh record](https://arxiv.org/abs/1904.06001).
+
+A depth theorem about a function-field family and an anti-half-lattice conclusion for that family do not refute AH for the actual Riemann zeta function. Such a theorem may be a substantial independent random-matrix/arithmetic-family result. Its quantifiers concern the chosen family, monodromy group, genus, and field-size limits. Connecting it to actual zeta ordinates is additional work.
+
+### 11. Claim-by-claim replacement ledger
+
+| Supplied claim | Verdict and replacement |
+|---|---|
+| First heat collision is a discriminant event | Valid at finite nonexceptional degree, with clock/infinite-depth and multiple-event qualifications |
+| $D=m_{\min}^2/8+\frac12\int d^2S$ | False as a universal identity; use the initial gap of the pair that actually collides, or add the pair-selection correction |
+| $D\ge m_{\min}^2/8$ for finite real scalar heat | Valid under the real-root flow assumptions |
+| Circle $D\ge-\log\cos(\Delta_{\min}/2)$ | Valid with the real logarithm domain and extended infinite clock case handled |
+| ACUE $N^2D\ge\pi^2/8$ | Valid, deterministic lower bound |
+| 1.419640342 is the limiting ACUE median | Not established; early finite evidence was misleading; single-defect candidate is a separate object |
+| A deterministic special family places its limit in the ensemble support | Not automatic; requires nonvanishing probability/control in neighborhoods |
+| $D\sim\delta_{\min}^2/8$ from a repulsion exponent alone | Insufficient; needs extreme-gap and background-isolation estimates |
+| Heat-rate amplification establishes transversality | No; an actual tangent witness and collision nondegeneracy are needed |
+| Marked inverse blowup forces susceptibility blowup | False in general; exact $N=2$ counterexample above |
+| Low-band agreement remains invisible for all heat observations | Only if the specified observable class is invariant under the relevant evolution; nonlinear hitting-time observations require separate analysis |
+| A local true-zeta depth automatically obeys the finite screening identity | Not defined/proved; negative-time nonreal background prevents the naive import |
+| A function-field depth law refutes actual-zeta AH | Invalid transfer of quantifiers |
+| LR never relates hard-core $\mu$ to .606894 | Our earlier source judgment was wrong; §5 of the companion paper explicitly proposes that relation |
+| LR proves the .606894 hard-core bound in that passage | Also wrong; the passage proposes a method modification |
+
+### 12. Reproducibility and next proof obligations
+
+Run:
+
+```sh
+python3 research/bridge-audit/attachment_bridge_checks.py
+```
+
+Environment used: Python 3, SymPy 1.14.0. The saved run completed in about 0.13 seconds. The JSON contains exact rational data, not merely decimal approximations. The proof relies on standard exact polynomial arithmetic, Sturm's theorem, real-root continuation, and the explicitly stated symbolic identities. This is an exact computer-algebra certificate; it is not a proof-assistant formalization.
+
+The most useful retained directions are the isolated-gap heat theorem, its rigorously controlled CUE consequences, and a precisely defined arithmetic residual/flow comparison. Immediate follow-up should target a theorem that supplies new arithmetic information or the missing true-zeta local-flow control. A universal near-collision theorem based solely on low-band mimicry would run into the already constructed half-lattice process unless an additional hypothesis excludes it.
+
+Postpone claims of actual-zeta AH refutation, support beyond the currently proved arithmetic range, marked inverse blowup, and an ACUE limiting median until their missing hypotheses and estimates are supplied. None is made by this audit.
+
+
+# Current report 18: prime186_structural_frontier
+
+Source: `research/reports/prime186_structural_frontier.md`. SHA-256: `2e1e19544854af0375b3b114c2e38448f8841cf70680690e1b1c7749f3800403`.
+
+## The 186 structural mechanism and a finite complementary-support frontier
+
+Date: 2026-09-05. Scope: primary-source reconstruction, an exact finite arithmetic example, a proved allocation frontier, and a concrete next obligation for $k=39$. **No smaller prime-gap bound is claimed.**
+
+### 1. What is being transferred
+
+The important mechanism in the 186 paper is an enlargement of the **admissible coefficient support for existing restricted-modulus distribution estimates**. It is not a replacement of the whole arithmetic input by a larger scalar exponent of distribution.
+
+The sources used here are [*Improved short gaps between primes*](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf), especially Definition 2.1, Lemma 2.2, Proposition 2.3, §4.2, and Proposition 4.6; its [research record](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps_abridged_cot.pdf), especially pp.25–27; and the [official certificate repository](https://github.com/openai/PrimeGaps186) at the locally inspected commit `61340d0b74163003b32756bb16e91d9209a5e330`.
+
+The user's [Weijie Su post](https://x.com/weijie444/status/2095600108956262911) could not be retrieved in this run: X returned HTTP 403. Its wording is therefore not quoted or independently authenticated here. The mathematical mechanism below is reconstructed directly from the supplied primary paper.
+
+### 2. The actual combined divisor, including shared primes
+
+For $Y\ge1$, order-$r$ dense divisibility asks that for every allocation $j+k=r-1$ and every target $1\le U\le Ym$, one can write
+
+\[
+ m=uv,\quad U/Y\le v\le U,\quad
+ u\in\mathcal D^{(j)}(Y),\quad v\in\mathcal D^{(k)}(Y).
+\]
+
+The allocation is universal: finding one convenient factorization is not sufficient. The prime-factor criterion used by the paper is
+
+\[
+ p^r\le YQ_{<p}\quad(p\mid Q,\ p>Y)
+ \quad\Longrightarrow\quad Q\in\mathcal D^{(r)}(Y),
+\]
+
+for squarefree $Q$, where $Q_{<p}$ is the product of the prime factors below $p$. This is a sufficient criterion; failure of it does not imply failure of dense divisibility.
+
+In a mixed sieve pairing, the modulus is $WQ$, with
+
+\[
+ Q=[D,E].
+\]
+
+Proposition 2.3 takes nondecreasing $f,g\ge1$ with $f(p)g(p)=p^3$, fixed budgets $A_0C_0\le XY$, and requires
+
+\[
+\begin{array}{ll}
+ f(p)D_{\ge p}\le A_0,&g(p)\le C_0\quad(p\mid D,\ p>Y),\\
+ g(p)E_{\ge p}\le C_0,&f(p)\le A_0\quad(p\mid E,\ p>Y).
+\end{array}
+\]
+
+When $Q>X$, these imply triple dense divisibility of $Q$. To see the crucial point, fix $p\mid D$. If $E$ has a prime $q\ge p$, take the smallest such $q$. Monotonicity yields
+
+\[
+ g(p)E_{\ge p}\le g(q)E_{\ge q}\le C_0.
+\]
+
+If $E$ has no such prime, the explicit opposite-root condition $g(p)\le C_0$ supplies the same conclusion. Therefore
+
+\[
+ p^3D_{\ge p}E_{\ge p}\le A_0C_0\le XY,
+\]
+
+and
+
+\[
+ p^3\le\frac{XY}{Q_{\ge p}}
+      =\frac XQ YQ_{<p}<YQ_{<p}.
+\]
+
+The same argument handles a prime belonging only to $E$. It uses $Q_{\ge p}\mid D_{\ge p}E_{\ge p}$, not equality. Shared primes are allowed. Replacing the assumption $[D,E]>X$ by $DE>X$ would be invalid: a large gcd can make the actual modulus much smaller.
+
+Deleting prime factors only decreases the relevant tails and maxima, so the root predicates remain valid for coefficient divisors. This is essential for the inverse Selberg transform. It is stronger bookkeeping than saying a chosen root happened to be densely divisible, because dense divisibility of a number does not automatically pass to every divisor with the same $Y$.
+
+### 3. An exact integer example of complementary help
+
+Take
+
+\[
+ Y=10,\quad D=330=2\cdot3\cdot5\cdot11,
+ \quad E=455=5\cdot7\cdot13,
+ \quad Q=[D,E]=30030.
+\]
+
+Both roots contain a prime greater than $Y$, and they share the factor 5. Let
+
+\[
+ f(p)=p,\quad g(p)=p^2,\quad A_0=121,
+ \quad C_0=2197,\quad X=27000.
+\]
+
+Then $A_0C_0=265837\le270000=XY$, and $Q>X$. All four rootwise requirements hold: the only activated prime in $D$ is 11, and the only activated prime in $E$ is 13. For the merged modulus the cubic checks are
+
+\[
+ 11^3=1331\le10(2\cdot3\cdot5\cdot7)=2100,
+\]
+
+\[
+ 13^3=2197\le10(2\cdot3\cdot5\cdot7\cdot11)=23100.
+\]
+
+The attached exact check also verifies Definition 2.1 directly by recursive divisor enumeration. It confirms $Q\in\mathcal D^{(3)}(10)$, but $E\notin\mathcal D^{(3)}(10)$. For the latter failure, take allocation $(j,k)=(2,0)$ and target $U=11$: no divisor $v\in[11/10,11]$ leaves $E/v$ doubly 10-densely divisible.
+
+Thus complementary factors really can produce a suitable combined modulus even when one root itself lacks the required triple property. The calculation is finite and exact; it does not establish an asymptotic prime distribution estimate by itself.
+
+### 4. Why a scalar exponent misses the new geometry
+
+Write $R=x^{\rho_*}$, $u_p=\log_Rp$, $s_D=\log_RD$, and $Y=R^\xi$. The logarithmic form of the order-three split uses nondecreasing functions
+
+\[
+ \phi_D(u)+\phi_E(u)=3u,
+\]
+
+with owner-tail statistic
+
+\[
+ H_{\phi,\xi}(D)=
+ \max_{p\mid D,\ u_p>\xi}
+ \left(\sum_{q\mid D,\ q\ge p}u_q+\phi(u_p)\right).
+\]
+
+For a source band $Q>R^B$, outer and inner total radii $S,T$, and $a=B-T,b=B-S$, the predicates are
+
+\[
+ s_D\le a\quad\text{or}\quad
+ [H_{\phi_D,\xi}(D)\le A,\ \phi_E(M_\xi(D))\le C],
+\]
+
+\[
+ s_E\le b\quad\text{or}\quad
+ [H_{\phi_E,\xi}(E)\le C,\ \phi_D(M_\xi(E))\le A],
+ \qquad A+C\le B+\xi.
+\]
+
+The small-radius alternatives are genuinely safe: if $s_D\le B-T$, the size of $[D,E]$ cannot exceed the band threshold. Otherwise each activated prime and its full inclusive tail matters. Two roots with the same total logarithmic size can have different admissibility because their prime partitions differ.
+
+Distribution estimates still restrict both the modulus level and its smoothness/dense-divisibility parameter. For example, the full-prime order-three condition in Corollary 2.19 is $240\omega+80\delta<3$, with modulus level $x^{1/2+2\omega}$ and $Y=x^\delta$. The source ladder trades these parameters across bands; increasing the level generally reduces the allowable $\delta$. It is not legitimate to retain a high level and simultaneously borrow the less restrictive support from a lower-level row.
+
+The enlarged minorant mixed pairing has physical product bound $x^{.5252997}$, while the full-prime mixed pairing uses the slightly smaller range. The minorant's negative part, inner-square pairings, and support restoration remain separate debts. A scalar calculation resembling $M_k>2/\theta$ on an unrestricted simplex omits exactly the fragment geometry that makes this improvement work.
+
+### 5. A proved finite frontier for every monotone allocation
+
+Here is an inexpensive certificate useful before recomputing physical integrals.
+
+Fix one active order-three row and owner ceilings $A,C$. Suppose an activated outer root can have largest fragment $u$, and an activated inner root can have largest fragment $v$, with $u\ge v>0$. Their remaining mass may consist of smaller fragments or the smooth seed. Because there is no larger fragment than a largest witness, the necessary owner and opposite-root constraints include
+
+\[
+ u+\phi_D(u)\le A,\qquad 3u-\phi_D(u)\le C,
+\]
+
+\[
+ 4v-\phi_D(v)\le C,\qquad\phi_D(v)\le A.
+\]
+
+Monotonicity gives $\phi_D(v)\le\phi_D(u)$. Two explicit nonnegative-sum identities give the frontier:
+
+\[
+\boxed{4u\le A+C,\qquad u+4v\le A+C.}
+\]
+
+Indeed,
+
+\[
+ A+C-4u=(A-u-\phi_D(u))+(C-3u+\phi_D(u)),
+\]
+
+\[
+ A+C-u-4v=(A-u-\phi_D(u))+(C-4v+\phi_D(v))
+             +(\phi_D(u)-\phi_D(v)).
+\]
+
+These are exact dual certificates, requiring no numerical optimizer. They apply to active predicates, not to roots in the safe small-radius alternative. If $v\ge u$, the symmetric second inequality is $4u+v\le A+C$.
+
+The paper's capped allocation is
+
+\[
+ \phi_D(t)=\min(3t/2,L),\quad\phi_E(t)=3t-\phi_D(t).
+\]
+
+In its relevant plateau regime, the largest-fragment caps are
+
+\[
+ u=A-L,\qquad v=(C+L)/4,
+\]
+
+so **$u+4v=A+C$ exactly**. The published caps already lie on a Pareto boundary for arbitrary monotone allocations with these fixed ceilings. No cleverer piecewise allocation can simultaneously enlarge both these largest-fragment allowances. It can redistribute them, change which smaller tails are admitted, change the budgets, or leave this particular support template. Those are distinct possibilities.
+
+This is a largest-fragment obstruction, not a universal no-go theorem for improving the whole sieve. In particular, a frontier point can remain suboptimal for the weighted integral because the outer and inner losses are very unequal.
+
+### 6. Exact location of the current frontier and a bounded next search
+
+For the nonterminal tight rows generated by the official ladder recurrence, put
+
+\[
+ \rho=.262499,\quad\rho_*=.2624989,\quad e=10^{-7}/\rho,
+ \quad A=S+e/2,\quad C=T+e/2.
+\]
+
+The recurrence makes these ceilings independent of the individual tight row. The base and enlarged radii $T_0,T_1$ differ, so the old and new ladders have different $C$. These formulas and all values below use exact rational inputs.
+
+For the plateau family the extreme outer endpoint is
+
+\[
+ L_{\min}=(3A-C)/4,
+ \quad u_{\max}=(A+C)/4,
+ \quad v=3(A+C)/16.
+\]
+
+The plateau validity range reaches $L\le3C/5$ here. The selected $L=(23/40)C=.575C$ is close to, but above, the smallest permitted value:
+
+| Ladder | $L_{\min}/C$ | Current normalized $u$ | Current normalized $v$ | Maximum physical outer-cap gain to $L_{\min}$ | Corresponding physical inner-cap loss |
+|---|---:|---:|---:|---:|---:|
+| Old prime | .57319344847 | .49753017766 | .37486755082 | .00045147647 | .00011286912 |
+| New minorant | .56962060366 | .49514387013 | .37650165272 | .00135022875 | .00033755719 |
+
+Physical caps are $\rho_*$ times normalized caps. These gains are allowances in prime-factor exponents, not gains in the final sieve quotient.
+
+At mesh $h=S/98304$, downward rounding of the two caps produces frontier slack smaller than $5h$. Consequently, the small slack in the actual integer masks is a rounding allowance, not an unexplored macroscopic joint enlargement. The JSON checks the exact rounding slack, constructs a valid allocation at four points on each frontier, and certifies infeasibility when both exact caps are increased by one cell.
+
+A sensible bounded search is to vary the old and new plateaus **independently** inside their valid intervals while keeping every source row and opposite-root condition. A common choice below .57319344847 is invalid for the tight old rows, even though it may be allowed in the new rows. Since the global outer domain intersects both ladders and the base inner domain intersects their predicates, local improvement of one row cannot be reported as enlargement of the entire usable support.
+
+The historical loss ledger puts about 89.5% of the published weighted restoration loss in the outer effective-order-$5/2$ class, versus about 4.66% in the corresponding enlarged-inner class. That asymmetry motivates testing this tradeoff, but does not prove the trade is beneficial: the derivatives of the physical integrals are not determined by the aggregate loss totals. The research record already reports experimenting with plateau allocations, so this proposal is a reproducible next test, not a novelty claim about discovering the plateau idea.
+
+### 7. A more general finite-fragment allocation certificate
+
+The frontier admits a practical extension beyond largest witnesses. Given finitely many candidate outer and inner fragment configurations, collect every activated witness size into ordered rational knots
+
+\[
+ 0=u_0<u_1<\cdots<u_n,\qquad z_i=\phi_D(u_i).
+\]
+
+Monotonicity of both owners is exactly
+
+\[
+ 0\le z_{i+1}-z_i\le3(u_{i+1}-u_i),\qquad z_0=0.
+\]
+
+An outer witness with inclusive tail $T_D(u_i)$ imposes
+
+\[
+ z_i\le A-T_D(u_i),
+\]
+
+and an inner witness imposes
+
+\[
+ z_i\ge3u_i+T_E(u_i)-C.
+\]
+
+Opposite-root constraints give the additional lower or upper bounds at each root's maximum. Combine them into intervals $\ell_i\le z_i\le r_i$, including $z_0=0$. These are rational difference constraints. Their feasibility can be checked explicitly:
+
+\[
+ z_i^{\min}=\max_j\{\ell_j-3\max(u_j-u_i,0)\}.
+\]
+
+There exists an admissible allocation iff $z_i^{\min}\le r_i$ for every $i$. The maximum of the displayed nondecreasing 3-Lipschitz functions has those same properties and is the least feasible lower envelope. If a constraint fails, the offending pair $(i,j)$ supplies the exact contradiction
+
+\[
+ \ell_j>r_i+3\max(u_j-u_i,0).
+\]
+
+If it succeeds, linear interpolation of the knot values, followed by a constant continuation for $\phi_D$, defines globally nondecreasing complementary functions. This proves feasibility of the finite candidate set. It does not by itself determine which candidates have enough integral weight to be worth retaining.
+
+`prime186_frontier_checks.py` implements this exact feasibility engine using only the Python standard library. A useful next optimization can choose which high-weight fragment patterns to retain, use this engine to produce a feasible allocation or an infeasibility witness, and then evaluate the resulting full support. This separates a cheap geometric obstruction from the expensive physical integral calculation.
+
+### 8. The concrete $k=39$ obligation
+
+The next theorem is DHL[39,2], not merely another admissible tuple. A diameter-182 admissible 39-tuple was already checked in round 1, so that theorem would give $H_1\le182$. The unresolved obligation is to find and certify a 39-variable trial satisfying the **complete** inequality
+
+\[
+ \rho_*\left(
+ J^-_{\lambda,H}-E_O^+
+ -d_0\beta_{\rm old}^+
+ -(1-b_h)\beta_{\rm new}^+
+ \right)>I_H^+.
+\]
+
+Here $E_O$ pays for outer failures, while the two $\beta$ terms pay for the actual inner domains, including their intersection. The negative full-face term from the prime minorant remains present. The source checks for all mixed and inner-square moduli must hold with the final cell geometry. Replacing 40 by 39 changes the measure, marginal dimension, combinatorial coefficients, inward cell masks, and the integral values; none of those values can simply be inherited from the $k=40$ receipt.
+
+A concrete next computation is:
+
+1. Use $k=39$, initially retaining the published physical radii, source ladders, minorant, and its justified constants.
+2. Keep the published 77-dimensional symmetric polynomial descriptor family as a reproducible starting space, and vary the old/new plateau or the finite-knot owner function with explicit feasibility certificates.
+3. Freeze valid positive cover and Young parameters when assembling a quadratic form. Optimize the **support-restored** form against its denominator. The 77 coefficients are not a substitute for source validity.
+4. For a promising vector, round its coefficients and all geometric parameters rationally, restore every source row and inward cap, and compute outward enclosures for the full displayed inequality. Only a positive final interval proves the desired sieve criterion.
+
+A negative-definite upper certificate could prove failure of one fixed finite trial space and fixed support family. It would not rule out DHL[39,2] or other coefficient families. Conversely, a cap-only value above one remains merely a candidate until the deletion costs are paid.
+
+There is one explicit loss-recovery option already visible in Proposition 4.6. The displayed proof actually retains
+
+\[
+ (1-\rho_*|b_h|C_{\rm op})\alpha,
+ \qquad \alpha=\|(1-P_O)F\|^2,
+\]
+
+as a positive term before dropping it in the convenient sufficient criterion. A certified lower bound for $\alpha$, for example from disjoint known-failure regions, would supply a legitimate credit. Existing upper bounds for covered failure masses cannot be reused as that lower bound. The possible gain is unmeasured here and is not advertised as sufficient for $k=39$.
+
+### 9. What was computed, and the exact remaining bottleneck
+
+This round ran the exact integer example, the recursive definition check, eight rational frontier points, the cap-enlargement infeasibility witnesses, and the finite allocation-envelope engine. Runtime was about 0.0015 seconds. Files:
+
+- `prime186_frontier_checks.py`
+- `prime186_frontier_checks.json`
+- this research note
+
+No FLINT build, paid API call, or large numerical search was performed. The checks do not bypass the official certificate's signed-convolution startup regression: that certificate was not run in this round at all.
+
+The bottleneck is the rigorous physical integral evaluation for the revised trial and its actual fragment support, not feasibility of the two-budget algebra. The published baseline involves 104 outer and 45 inner physical upper bounds plus cap bounds. Its official certificate specifies a corrected FLINT build. Geometry-only certificates can reject impossible support proposals and certify the allocation step, but they cannot supply those missing weighted integrals or the asymptotic distribution theorem.
+
+The public Lean derivation remains conditional on its three documented project inputs, including the physical integral bounds. A rational support certificate verifies one component of the mathematical argument; it does not discharge those Lean inputs or create a new prime-gap theorem.
+
+### 10. Structural lesson for the zeta programme
+
+The transferable method is to constrain the **actual object produced by the mixed pairing**, distribute a fixed analytic budget between complementary factors, preserve the support under the algebraic transformations used in the proof, and charge the residual with a sign-correct quadratic inequality. In the prime problem the combined object is an lcm modulus and the needed property is dense divisibility. In a zeta mixed-moment problem, the corresponding object and the required distribution estimate must be identified anew.
+
+The transfer does not authorize a larger Dirichlet support just because a similar factorization can be written down. One must prove that the actual mixed terms fall inside an available arithmetic estimate, or prove a new estimate for them. The centered-Gaussian pole correction from round 2 is an example of an additional term that survives a superficially favorable positivity argument. The useful frontier calculation above helps prevent spending research time on reallocations that cannot enlarge both sides even before those analytic issues are addressed.
+
+
+# Current report 19: fable_task001_sync_review
+
+Source: `research/reports/fable_task001_sync_review.md`. SHA-256: `3a14533ac2f8cf72ce605b6209b8139c71a7747f8e691b7a6e29397a30ca7ec4`.
+
+## Fable task 001: pinned-source synchronization and numerical review
+
+Date: 2026-09-05.
+
+**Reviewed source commit:** **a408e7050fffc74459b3c83fafa5ac03c8b7dea6**, in the old Alpha-devbox PR #11 repository. All statements about files being present or absent refer to this exact commit, not to later working state or an unseen running session.
+
+Source directory: [Fable task001 at the reviewed commit](https://github.com/galpha-ai/Alpha-devbox/tree/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/astra_tasks/task001).
+
+**Conclusion:** Fable has demonstrably picked up the task and returned an independent F2 numerical check. Its committed continuum and finite-sum results agree with Astra's fixed-family certificate and finite operator conventions. No mathematical counterexample, missing leading term, positive half-gap margin, or completed Fable arithmetic-transfer proof is present in the reviewed snapshot. The final task001 report is still absent.
+
+### 1. Receipt, provenance and missing deliverables
+
+The reviewed **FABLE_COORDINATION.md** explicitly records pickup at 06:30 UTC from new-repository commit 97df092. The immutable input mirror's **SOURCE_COMMIT.txt** gives the full hash
+
+    97df092427a1035cf1c66dc712148ccccac09ac2
+
+and says the copy was taken at 2026-09-05T06:26:51Z from the new repository's codex/astra-research branch.
+
+The copied task text still says “published, awaiting explicit pickup.” That is a stale status in a historical input snapshot, not evidence that Fable never received the task. The coordination entry plus independent scripts, logs and numerical outputs demonstrate actual execution.
+
+Present under **astra_tasks/task001/**:
+
+- f2_continuum.py
+- f2_continuum_results.json
+- f2_continuum_run.log
+- f2_finite_sum.py
+- f2_finite_sum_results.json
+- f2_finite_sum_run.log
+- f2_finite_sum_run_1e7.log
+- f2_drift_fit.py
+
+Explicitly checked absent at the pinned commit:
+
+- **astra_tasks/task001_report.md**, the promised final report;
+- **astra_tasks/task001/f2_finite_sum_results_1e7.json**;
+- **astra_tasks/task001/f2_drift_fit_results.json**.
+
+The 1e7 log contains only the initial float-sieve validation line. It is not evidence that an \(L=10^7\) finite-sum computation completed. The drift-fit script is present, but no committed output establishes that it completed. Neither unfinished item should be promoted into the returned-results table.
+
+The committed **CLAIMS.md** has prime-gap certificate entries D1.2, D1.3, D1.4, D1.6, D1.7, D1.8, and no task001/F2 claim. In particular, it does not record a completed arithmetic transfer or an independent refuter verdict for this task.
+
+The coordination file describes Fable's adversarial workflow and intended proposer/refuter organization. That description is not a substitute for the absent task-specific final mathematical report.
+
+Recommended current receipt state:
+
+> **Picked up; F2 numerical artifacts returned and reviewed; final Fable arithmetic-transfer report not yet present at a408e705.**
+
+Preserve the original input snapshot unchanged. Put the corrected live receipt state in the current task ledger or synchronization note.
+
+### 2. Continuum computation versus the exact certificate
+
+Fable independently implements Gauss–Jacobi/Legendre quadrature using a different simplex parametrization:
+\[
+u=\sigma\tau,\qquad w=\sigma(1-\tau),\qquad
+\sigma=(1-v)s,\qquad du\,dw=(1-v)^2s\,ds\,d\tau.
+\]
+The Jacobian, weight \(v^{a-1}\), continuous sine-kernel limits, prime-insertion shifts and coefficients agree with the fixed schema. Its expectation-product expansion correctly uses both first and second background \(S_2\) moments, including the \(u^2w^2\) insertion cross term.
+
+For \(\ell=16/15\) and the specified rational \(H=f(v)+g(v)S_2\), the order-64 result is
+\[
+J_{\rm Fable}=-0.014662375473370598.
+\]
+The order-40/order-64 spread is \(2.38698\times10^{-15}\). The difference from Astra's stored target \(-0.014662375473368985\) is
+\[
+-1.61329\times10^{-15}.
+\]
+
+Astra's exact rational continuum certificate encloses the value within approximately
+\[
+[-0.014662375473368995,\,-0.014662375473368974].
+\]
+Fable's ordinary floating result is **not literally inside that much narrower interval**. Agreement is to roughly fourteen decimal places, as expected for this quadrature and floating summation. This is consistent independent numerical evidence, not a new interval certificate and not a contradiction of the existing certificate.
+
+The separated order-64 quantities are
+
+| Quantity | Fable floating value |
+|---|---:|
+| \(I\) | 0.9976809471028788 |
+| \(M_{2a}\) | 0.07475319679662187 |
+| \(M_{2b}\) | 0.07563555032577103 |
+| \(M_3\) | 0.0844031170042764 |
+| \((M_2+M_3)/I\) | 0.2353376245266294 |
+| equivalent raw Rayleigh value | 4.6453785095398725 |
+
+The half-gap threshold for that raw Rayleigh value is \(\pi^2/2\), so the margin remains negative.
+
+The mass-only version of the same rational \(f\) gives
+\[
+J_{\rm massonly}=-0.021565258857184827,
+\]
+and the fixed \(S_2\) extension improves that particular continuum value by approximately \(0.00690288338381423\). This comparison should not be confused with the much smaller improvement over the independently optimized mass-only degree-14 baseline:
+\[
+J_{\rm degree14}=-0.015357981703850332
+\]
+in Fable's calculation. Its difference from Astra's degree-14 numerical result is \(2.22\times10^{-16}\).
+
+Fable correctly labels its continuum JSON as a stipulated-form quadrature, not a certificate and not an arithmetic theorem.
+
+### 3. Finite arithmetic operator implementation
+
+The finite script uses
+\[
+x_n=d_\ell(n)H(\log n/\log L,S_2(n))/\sqrt n,\qquad
+A_{qm,m}=\frac{2\sin((\pi/2)\log q/\log L)}{e\sqrt q},
+\quad q=p^e.
+\]
+The index ranges, prime-power exponents, \(1/\sqrt q\) factor and distinct-prime definition of \(S_2\) match the stated trial. The divisor sieve multiplies by \((\ell+e-1)/e\) at each prime-power level, giving the correct cumulative \(d_\ell(p^e)\).
+
+The full Rayleigh expression is
+\[
+J_L=\frac{\|Ax\|^2+\langle x,A^2x\rangle}
+{2\pi^2\|x\|^2}-\frac14.
+\]
+The stored scalar numerator pieces and normalized contributions reconstruct every reported trial/mode margin to within \(2.78\times10^{-17}\). The diagonal quantity is the equal-insertion part of \(\|Ax\|^2\), so its correspondence with \(M_3\) is the correct one.
+
+Fable reports validation of the floating \(d_{16/15}\) sieve against exact rational values for all \(n\le10^4\), with maximum relative error \(1.52234\times10^{-15}\). This checks the sieve; it does not make the logarithms, trigonometric values, finite sums or eigenvalues exact.
+
+The committed completed lengths are \(10^3,10^4,10^5,10^6\):
+
+| \(L\) | fixed \(J_L\), full operator | same \(f\), mass only | fixed minus mass only |
+|---:|---:|---:|---:|
+| 1,000 | −0.0519926036839853 | −0.0624270849868530 | 0.0104344813028678 |
+| 10,000 | −0.0431174919059547 | −0.0529803909830878 | 0.00986289907713303 |
+| 100,000 | −0.0376302025223919 | −0.0470594610068825 | 0.00942925848449061 |
+| 1,000,000 | −0.0339175762941035 | −0.0430127050936602 | 0.00909512879955668 |
+
+The finite values approach the proposed continuum value over these lengths, but four slowly varying points cannot prove a limit. All recorded fixed-family margins are negative.
+
+Fable also computes full-operator top eigenvalues for \(L=10^3,10^4,10^5\). Comparing the stored values with Astra's previously committed **arithmetic-results.json**, without rerunning an eigensolver:
+
+| \(L\) | Fable top eigenvalue | Difference from Astra |
+|---:|---:|---:|
+| 1,000 | 3.949287136694299 | 0 |
+| 10,000 | 4.105867045445441 | \(-1.78\times10^{-15}\) |
+| 100,000 | 4.205255380109547 | 0 |
+
+This is useful independent evidence that the two finite-operator implementations have the same normalization. It does not imply a uniform upper bound for all lengths.
+
+### 4. Prime powers, background coincidences and finite drift
+
+The script includes two diagnostic alterations:
+
+- **nopp:** keep only prime insertions, discarding higher prime powers;
+- **clean:** additionally remove insertions \(p\) into backgrounds already divisible by \(p\).
+
+The code implements these restrictions consistently in \(A\), its transpose and the diagonal contribution. They are altered finite operators, not the exact full theorem operator.
+
+For the fixed trial, the recorded values are:
+
+| \(L\) | full | nopp | clean |
+|---:|---:|---:|---:|
+| 1,000 | −0.0519926037 | −0.1022308502 | −0.1269460914 |
+| 10,000 | −0.0431174919 | −0.0892650368 | −0.1129780712 |
+| 100,000 | −0.0376302025 | −0.0793053529 | −0.1015970942 |
+| 1,000,000 | −0.0339175763 | −0.0715145441 | −0.0922927227 |
+
+These differences are large at attainable lengths. They show why simply deleting exceptional terms numerically and declaring them negligible is unsafe. They do **not** refute an asymptotic theorem proving that their normalized contribution tends to zero. Astra's separately written fixed-family transfer proof uses explicit weighted Schur bounds and an ordered cutoff limit for precisely this issue.
+
+The finite \(S_2\)-moment ratios are likewise not uniformly close to one: the first-moment ratio changes from 1.0142 to 1.0302, while the second-moment ratio changes from 1.2034 to 1.1346. Nonmonotonic finite drift of an individual ratio does not contradict convergence. These values also cannot prove the asserted Poisson–Dirichlet moment law by themselves.
+
+The background Euler-product constant is explicitly marked recalled, truncated at primes \(\le10^7\), and not independently source-verified in Fable's script. It is a normalization diagnostic rather than a certified leading-constant enclosure.
+
+The drift-fit script warns correctly that its fitted limits are diagnostic only. Since no committed fit output is present at the reviewed SHA, this review assigns no numerical conclusion to that script.
+
+### 5. What this changes in the fixed-family proof status
+
+Astra's round-two **symmetric_prime_arithmetic_transfer.md** and the independent review already give an ordinary written proof for fixed \(\ell\ge1\) and fixed \(H=f(v)+g(v)S_2\), including this rational trial. The earlier round-one certificate's “arithmetic transfer not certified” label is historical and should be accompanied by a link to that later proof, not silently rewritten.
+
+Fable task001 contributes a genuinely separate numerical implementation supporting:
+
+1. the stipulated continuum-integral value;
+2. the exact finite operator's normalization;
+3. the importance of finite prime-power and coincidence corrections;
+4. the continued negative sign of the tested margin.
+
+It does **not**, in this snapshot, contribute the requested derivation of the marked Euler product, the short-background limit, or the complete insertion/coincidence asymptotic. Its code explicitly says that the original Inoue paper was not read for this diagnostic. That is an honest scope label, but it leaves the single main mathematical obligation unfulfilled in the returned Fable artifacts.
+
+There is no contrary theorem claim to reconcile. Keep the following three statuses distinct:
+
+- **Exact continuum inequality:** Astra certificate; negative margin.
+- **Fixed-family arithmetic transfer:** Astra written proof plus separate mathematical review.
+- **Fable task001:** numerical F2 independently returned; final arithmetic report absent at the pinned source.
+
+No new zero-gap record, global variational no-go, AH contradiction or proof of RH follows from this synchronization.
+
+### 6. Review method and reproducibility
+
+This review read the pinned files with git show from:
+
+    /Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/github-worktree
+
+Example:
+
+    git show a408e7050fffc74459b3c83fafa5ac03c8b7dea6:research/riemann-rmt/overnight/fable/astra_tasks/task001/f2_finite_sum.py
+
+Presence and absence were checked with git ls-tree and git cat-file at the same SHA. Stored JSON values were parsed to recompute scalar normalization identities and compared with the existing Astra result files. No new large eigenproblem, finite-vector sweep, Claude message, Claude task or session was launched. All review output is in staging.
+
+### 7. Coverage of the current single-session computation packet
+
+This table maps the requirements in the current local packet
+
+    /Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/outputs/FABLE_SINGLE_SESSION_COMPUTE_TASK.md
+
+to actual artifacts already present at **a408e7050fffc74459b3c83fafa5ac03c8b7dea6**. **Receipt of that new packet is unconfirmed.** The confirmed pickup in §1 concerns the older task001 packet. Matching old outputs may satisfy individual new requirements without showing receipt or execution of the new packet.
+
+Reviewed packet SHA256: **745c6411355b163f429cbeaa96b7c1b681f8b36e6ec92152f74cba30739743f5**.
+
+All paths below are relative to the pinned **research/riemann-rmt/overnight/fable/astra_tasks/task001/** directory.
+
+| Current acceptance requirement | Coverage | Existing evidence and precise limit |
+|---|---|---|
+| Fixed rational continuum form, simultaneous insertion shifts, and exact rational norm | **Partly** | **f2_continuum.py**, **f2_continuum_results.json** independently implement the expectation expansion and simultaneous shifts; \(J=-0.014662375473370598\) agrees numerically. Norm is float64 quadrature only. No independent exact rational norm calculation or audit of the original signed Taylor/\(\pi\)/remainder certificate is returned. |
+| \(g=0\) control at the same \(\ell=16/15\) and same \(f\) | **Covered** | The **massonly** trial exists in both continuum and finite-sum scripts/JSON. It gives continuum \(J=-0.021565258857184827\) and matching finite controls. The separately requested nonzero-rescaling invariance test is **not covered** by an explicit returned test. |
+| \(L=97\) direct-loop versus sparse convolution, using candidate and deterministic control | **Not covered** | No \(L=97\) run or direct/sparse two-vector comparison is present. Existing sieve validation and \(L\ge1000\) eigenvalue agreement do not substitute for this requirement. |
+| Fixed-vector \(L=10^3,10^4,10^5\), \(\theta=1\), with separate quadratic terms and candidate-minus-control comparison | **Covered** | **f2_finite_sum_results.json** records \(\|x\|^2,\|Ax\|^2,x^\top A^2x,J_L\) for candidate and **massonly** control at all three cutoffs. Their differences are reconstructed in §3 from those stored values; no rerun was needed. The old run also contains additional eigenvalue calculations, which are not part of the new packet's requested batch. |
+| One \(\theta=0.98\) sensitivity check at the largest completed cutoff | **Not covered** | The pinned operator hard-codes \(\theta=1\); no \(\theta=0.98\) result is present. Neither the continuum control nor a prime-insertion restriction is this sensitivity test. |
+| Arithmetic-obligations table covering weighted moments, existing prime divisibility, multiplicity, coincident insertions, cutoffs/uniformity and beyond-diagonal errors | **Not covered** | F2 contains helpful finite coincidence/moment diagnostics, but no six-item estimate/status/use table or final **task001_report.md**. Astra's separate transfer proof is existing Astra evidence, not fulfillment of a Fable deliverable. |
+
+**Acceptance state:** reuse the covered numerical outputs; retain partial or absent requirements explicitly. The old task was picked up and F2 outputs were returned. The new packet's receipt and complete acceptance are not established by this snapshot. No new calculation or Claude task was launched to fill these gaps during this review.
+
+
+# Current report 20: fable_heat_sync_review
+
+Source: `research/reports/fable_heat_sync_review.md`. SHA-256: `9dc10cd810e665fc49c192b17cd595d209fe8e1d4df7de1a8e5158bc470b3713`.
+
+## Pinned Fable intake: heat flow, function fields, and LR hard cores
+
+2026-09-05. This review reads the existing public Fable work at **a408e7050fffc74459b3c83fafa5ac03c8b7dea6** in galpha-ai/Alpha-devbox, the PR #11 head supplied for this intake. It uses git ls-tree and git show at that exact commit. No Claude session was started, no task was sent to Fable, and none of its experiments was rerun.
+
+Companion evidence file: fable_heat_sync_inventory.json. It records the pinned revision, source hashes, line numbers, expected-report presence, and public journal event counts. The main coordinator is mirroring the source folder separately.
+
+### 1. Main conclusion
+
+This public snapshot contains useful new mathematical formulations and experimental scripts, but **no completed heat-flow, function-field, or LR proof report and no committed output dataset for those scripts**. They must not be merged into the theorem ledger as completed proofs or completed numerical results.
+
+Three concrete defects were found in the available source:
+
+1. The explicit CUE-background constant assembly reverses an inequality in its second regime. A limited repair is possible, but the displayed global constant is not certified by the committed argument.
+2. The pair-LP ansatz assumes a compactly supported correction whose Fourier transform vanishes on an interval. In the exact continuum problem this forces the correction to vanish identically. Its numerical feasibility boundary therefore cannot be treated as a general LR upper bound.
+3. The function-field support code assigns the wrong Weyl density to the negative-determinant component of the even orthogonal group. Its matrix sampler and claimed reference rejection sampler target different laws.
+
+There is no new evidence here contradicting our audited finite-CUE isolated-pair depth theorem, the all-forward-time protected-trace obstruction, or the force-energy identities. The correct SO(odd) three-body example instead illustrates why an isolated-pair assumption is necessary.
+
+### 2. What is actually present
+
+The [claims ledger at the pinned commit](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/CLAIMS.md) has seven claim rows, all from the prime-certificate cluster D1. It has no completed A-cluster heat claim or B-cluster LR/function-field claim.
+
+The [coordination file](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/FABLE_COORDINATION.md) acknowledges the old endpoint-bound error, the Lean collision-time gap, the distinction between strong and density-tolerant AH, and the need for outward-rounded prime certificates. These acknowledgements agree with Astra's audit.
+
+However, the coordination text refers to a repaired theorem report as though its argument were already available; the referenced report is absent from this commit. The same issue applies to the future files in the [round-two plan](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/ROUND2_PLAN.md).
+
+The following planned reports are absent:
+
+- r1_theoremB_repair.md, r1_cue_background.md, r1_cbe_background.md;
+- r1_levelB_barrier.md, r1_small_gaps.md, r1_zeta_numerics.md, r1_structure_review.md;
+- r2_dynamic_universality.md, r2_marked_depth_proof.md, r2_acue_rho_bound.md;
+- r2_lr_hardcore_lp.md, r2_function_field.md, r2_dbm_relaxation.md.
+
+There are corresponding background, function-field, and LR scripts. Their declared output paths under overnight/fable/data are not present in this commit. This is an observation about committed evidence, not a statement that no computation happened in Fable's private running environment.
+
+The public harness export has six workflow journals. Five contain only two “started” entries each. The remaining journal contains three “started” entries and one result: the completed H2 prime-certificate report. The agent metadata files contain agent type and spawn depth, while the index leaves labels, status, and model columns blank. These exports do not provide an independent-refuter completion record for heat/FF/LR at this head.
+
+The substantive completed report visible here is r1_h2_interval_cert.md, which belongs to the prime-audit intake rather than this heat review. Its stated H3 result is an \(M_k\) certificate, while the large H3 tuple is explicitly not reverified in the claims ledger. Preserve that distinction.
+
+### 3. CUE background work: useful local structure, uncertified global constant
+
+#### 3.1 What agrees with the audited repair
+
+The [Theorem-B check script](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r1_theoremB_check.py#L1) uses the correct attractive coefficient flow and root ODE. It replaces the erroneous single-endpoint csc-squared bound with the maximum of both endpoint values.
+
+Its exact bracket
+
+$$
+\cot(x_b/2)-\cot(x_a/2)
+=\frac{\sin(g/2)}{\sin(x_b/2)\sin(x_a/2)},\qquad x_a=x_b+g,
+$$
+
+is correct. Since both sine factors are positive for the chosen representatives,
+
+$$
+B=2\sin(g/2)S_{\rm exact}
+\le gS_{\rm exact}\le gS_{\rm avg}\le gS_*.
+$$
+
+The middle comparison is the arithmetic-geometric-mean inequality applied to the endpoint reciprocal sine values. These are valid local algebraic repairs. They do not themselves control a moving background up to collision.
+
+The script explicitly probes a three-cluster configuration where the background grows by more than a factor two; this is a useful adversarial test, not a proof that all other configurations satisfy a window bound. Its “ACUE-type” random subsets are uniformly sampled non-clock subsets, not Vandermonde-weighted ACUE samples. That is acceptable for deterministic stress testing, but their sample frequencies are not ACUE probabilities.
+
+#### 3.2 The exact three-point constant is a useful route
+
+The [background-constant script](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r1_cue_background_constants.py) formulates a global determinantal three-point bound using alternants and the inequality \(|s_\lambda(z)|\le s_\lambda(1,1,1)\) on the torus. The coefficient
+
+$$
+A_3(N)=\sum_{0\le m_1<m_2<m_3<N}
+[(m_2-m_1)(m_3-m_1)(m_3-m_2)]^2
+=\frac{N^3(N^2-1)^2(N^2-4)}{2160}
+$$
+
+leads to
+
+$$
+\rho_3(\theta_1,\theta_2,\theta_3)
+\le \frac{A_3(N)}{4(2\pi)^3}
+\prod_{i<j}|e^{i\theta_i}-e^{i\theta_j}|^2.
+$$
+
+The factor \(1/4\) comes from the denominator \(2\) in the three-variable Weyl dimension formula, squared. This agrees with the \(N^9\) three-point Vandermonde structure used in our audited CUE transfer. It is a promising explicit refinement rather than evidence of a different heat-flow mechanism.
+
+The script's polynomial identity tests and sampled determinant comparisons should be described as checks until accompanied by its missing written report. Polynomial interpolation through finitely many values is not an all-\(N\) proof unless the degree bound is also justified.
+
+#### 3.3 Definite sign error in the second-regime tail assembly
+
+At [line 159](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r1_cue_background_constants.py#L159), the code reasons
+
+$$
+N<(L/4)^3\quad\Longrightarrow\quad \frac1N<\frac{64}{L^3}.
+$$
+
+The conclusion is reversed: reciprocation gives \(1/N>64/L^3\). Thus a bound \(C/N\) from a cutoff gap \(4/N\) cannot be converted to \(64C/L^3\) by that step.
+
+A possible repair of this single step uses the deterministic fact \(\delta_{\min}\le2\pi/N\). In the nontrivial remaining regime
+
+$$
+4N^{1/3}<L\le2\pi N^{1/3},
+$$
+
+one has \(L^3\le(2\pi)^3N\), hence
+
+$$
+\frac CN\le\frac{(2\pi)^3C}{L^3}.
+$$
+
+For \(L>2\pi N^{1/3}\), the event \(\delta_{\min}>LN^{-4/3}\) is empty. This suggests replacing 64 by \((2\pi)^3\) in the indicated regime conversion. It does not validate every other missing step in the announced background-tail theorem.
+
+The script assigns “pass=True” to assembled constants rather than verifying their probability derivation. Its displayed bounds \(P(S_*>MN^2)\le C M^{-3/8}\) and the refinement with exponent \(-1/2\) must remain unproved in this intake. A software pass flag is not a mathematical certificate of that tail argument.
+
+Our audited Galilean isolated-pair proof does not depend on this constant assembly: it obtains \(\delta^2B\to0\) from a triple-free packing event. Therefore this defect does not invalidate our finite-CUE result.
+
+### 4. Function-field support: correct identities, wrong orthogonal reference law
+
+#### 4.1 Valid finite polynomial identities
+
+The [function-field depth core](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r2_ff_depth_core.py) implements the same attractive coefficient flow
+
+$$
+P_s(z)=\sum_j a_j e^{sj(M-j)}z^j.
+$$
+
+At a double root \(z_0\), it has
+
+$$
+\partial_sP_s(z_0)=-z_0^2P_s''(z_0),
+$$
+
+because the operator is \((M-1)z\partial_z-z^2\partial_z^2\) and \(P_s'(z_0)=0\). For a simple double root this supplies a nonzero transverse parameter derivative. It does not, by itself, settle all multiple or symmetry-forced collision strata needed for a general almost-everywhere continuity theorem.
+
+The genus-two palindromic reduction is also correct:
+
+$$
+P_s(z)=z^4+A e^{3s}z^3+B e^{4s}z^2+A e^{3s}z+1
+$$
+
+reduces, after division by \(z^2\), to
+
+$$
+Q_s(x)=x^2+A e^{3s}x+B e^{4s}-2,\qquad x=z+z^{-1}.
+$$
+
+Bulk and edge collisions are detected algebraically by its discriminant and the equations \(Q_s(2)=0\), \(Q_s(-2)=0\). The numerical implementation uses a finite sign grid and a time cap; those are numerical detection choices, not a certified first-root solver.
+
+#### 4.2 The forced-root three-body example is real and informative
+
+For the configuration \(\{1,e^{i\theta},e^{-i\theta}\}\), put \(A=1+2\cos\theta\). Then
+
+$$
+P_s(z)=z^3-Ae^{2s}z^2+Ae^{2s}z-1
+=(z-1)(z^2+(1-Ae^{2s})z+1).
+$$
+
+If \(0<\theta<2\pi/3\), so \(A>0\), the first collision occurs at \(z=1\) when \(Ae^{2s}=3\). Consequently
+
+$$
+D=\frac12\log\frac3{1+2\cos\theta}
+=\frac{\theta^2}{6}+O(\theta^4).
+$$
+
+This matches the formula in the [hard-edge routine](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r2_ff_depth_core.py#L317). The routine does not explicitly enforce the domain \(0<\theta<2\pi/3\); the small-angle calls shown in the check script lie inside it. At \(\theta=2\pi/3\) the configuration is a stationary clock. For \(2\pi/3<\theta<\pi\), the first collision is at \(-1\), and the different expression is \(D=\frac12\log(-1/A)\).
+
+For \(\theta\downarrow0\), the minimum gap is \(\delta=\theta\) and \(D/(\delta^2/8)\to4/3\). This is not a counterexample to our theorem: a third root is only a gap-scale distance from the chosen pair, so \(\delta^2B\) does not tend to zero. It is a clean explanation of why forced symmetry and three-point clustering must be handled separately in orthogonal models.
+
+#### 4.3 Definite Weyl-density mismatch for the even negative component
+
+The code defines O_minus as \(O^-(2N+2)\), with both forced eigenvalues \(+1\) and \(-1\). Yet [lines 367–368](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r2_ff_depth_core.py#L367) and the rejection sampler at lines 388–389 multiply the free-angle density by
+
+$$
+\prod_j\cos^2(\theta_j/2).
+$$
+
+For \(O^-(2N+2)\), the correct factor is
+
+$$
+\prod_j\sin^2\theta_j,
+$$
+
+the same free-angle factor as \(USp(2N)\). The half-angle cosine factor belongs instead to \(O^-(2N+1)\). This is explicitly distinguished in [Meckes, The Random Matrix Theory of the Classical Compact Groups, Theorem 3.5, printed page 76](https://case.edu/artsci/math/mwmeckes/elizabeth/Haar_book.pdf#page=76).
+
+There is also an elementary diagnostic independent of the formula table. In even dimension, \(U\mapsto-U\) preserves the negative-determinant component and its Haar measure. For rank \(N=1\), this maps the free angle \(\theta\) to \(\pi-\theta\), so its density must be reflection symmetric. The claimed \(\cos^2(\theta/2)\) density is not. It would give
+
+$$
+\mathbb E\cos\theta
+=\frac{\int_0^\pi\cos\theta\cos^2(\theta/2)\,d\theta}
+{\int_0^\pi\cos^2(\theta/2)\,d\theta}
+=\frac12,
+$$
+
+whereas reflection symmetry requires zero. Thus the matrix Haar sampler and the coded rejection sampler cannot both pass as implementations of the same law. No rerun is needed to establish the mismatch.
+
+#### 4.4 What remains unproved for function fields
+
+No curve-family equidistribution theorem with its hypotheses, exceptional set, order of limits, or uniformity is written out in the available snapshot. The fixed-rank continuous-mapping route is plausible only after establishing the required almost-everywhere continuity of the chosen depth functional. Passing subsequently to growing rank needs the relevant group-specific extreme-gap law and separate hard-edge/forced-root analysis.
+
+The pointwise continuity demonstration in the check script is a numerical path through a few configurations, not an almost-everywhere theorem. Equality of two initial gaps also does not by itself prove that they collide simultaneously under different backgrounds. These missing steps remain exactly the kind of obligations recorded in our earlier audit.
+
+### 5. LR work: valid test families versus an invalid continuum ansatz
+
+#### 5.1 A precise obstruction in the pair-LP parametrization
+
+The [pair-LP script](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r2_lr_pair_lp.py#L11) writes
+
+$$
+g=g_{\rm sine}+u,\qquad u=0\text{ outside }[-X,X],
+$$
+
+and aims to impose \(\widehat u(\alpha)=0\) throughout \((-1,1)\). For a compactly supported integrable function or finite signed measure, \(\widehat u(z)\) is entire in the complex variable \(z\). If it vanishes on a real open interval, the identity theorem forces it to vanish identically, and Fourier uniqueness gives \(u=0\).
+
+But a positive hard core requires \(u=-g_{\rm sine}\) on a nonempty interval around zero. Since \(g_{\rm sine}(x)>0\) for nonzero sufficiently small \(x\), that is impossible. Thus the exact continuum version of this compact-correction ansatz is infeasible for every \(c>0\), including the known half-lattice model that motivated the programme.
+
+Sampling Fourier constraints at finitely many frequencies avoids the analytic contradiction only by no longer imposing the exact mimicry condition. This does not turn the finite-support family into an outer relaxation containing all admissible stationary processes. Therefore an infeasibility threshold from this code is not a rigorous general upper bound on LR \(\mu\), and shrinking the grids alone cannot repair the logical direction.
+
+There is an additional implementation-level overstatement at line 54: the “minimum over a cell” is approximated using nine sample points. A sampled minimum is at least the true minimum. Its negative is therefore not a certified conservative lower constraint on \(u\) that guarantees \(g\ge0\) throughout the cell.
+
+#### 5.2 The count-variance and test-function formulations are useful
+
+The [triangle certificate](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r2_lr_triangle_cert.py) has a valid underlying necessary condition. For a stationary intensity-one process with hard core \(c\), an interval of length \(L\le c\) contains at most one point almost surely, modulo irrelevant endpoint events. Hence
+
+$$
+\operatorname{Var}N[0,L]=L-L^2.
+$$
+
+If its spectral measure agrees with the sine structure factor \(|\alpha|\) on the unit band and is nonnegative outside, then
+
+$$
+L-L^2\ge
+2\int_0^1\frac{\sin^2(\pi L\alpha)}{\pi^2\alpha}\,d\alpha.
+$$
+
+This is a genuine analytic necessary inequality under the stated process hypotheses. The committed file computes a root numerically, but its numerical output is not committed here; this intake does not claim a new bound.
+
+The [weighted-window eigenvalue formulation](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r2_lr_pd_window_eig.py) extends the same variance argument to real weights on an interval. The [Selberg-type formulation](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r2_lr_selberg_eig.py) instead uses \(T(x)=(c^2-x^2)|F(x)|^2\) with band-limited \(F\). Their continuum inequalities are sensible test families; the numerical eigenvalue computations still require certified quadrature and discretization error bounds before they become numerical certificates.
+
+The [general band-limited LP](https://github.com/galpha-ai/Alpha-devbox/blob/a408e7050fffc74459b3c83fafa5ac03c8b7dea6/research/riemann-rmt/overnight/fable/scripts/r2_lr_bandlimited_lp.py) itself acknowledges that rational-knot piecewise-linear Fourier profiles create a periodic \(x^2T(x)\), obstructing a global sign certificate in that finite family. A tail penalty does not by itself certify the sign between the sampled spatial grid points. Any claimed improvement from that script would need a complete continuum certificate, not just a positive floating LP objective.
+
+### 6. Conflict matrix and recommended handoff classification
+
+| Fable item at the pinned head | Relation to audited Astra work | Handoff status |
+|---|---|---|
+| Endpoint maximum repair and exact cotangent bracket | Agrees | Preserve as valid local algebra |
+| Claimed explicit CUE-background tail constant | Contains a reversed inequality; written proof absent | Unproved, with exact defect and partial repair recorded |
+| CUE three-point Vandermonde bound structure | Agrees with our triple-free route | Useful independent formulation; no new theorem claim |
+| SO(odd) three-body depth \(\theta^2/6\) | Outside isolated-pair hypotheses | Valid finite example, with domain restriction |
+| Even \(O^-\) Weyl reference density | Wrong group factor | Repair before interpreting group-specific diagnostics |
+| Function-field universality | Missing continuity/equidistribution/limit-order proof | Open |
+| Compact-correction LR pair LP | Does not contain the target continuum models | Invalid as a general upper-bound certificate |
+| LR window/Selberg analytic inequalities | Plausible and directly checkable under stated hypotheses | Valid formulations; numerical certification absent |
+| Proposed DBM relaxation experiment | Only a planned report at this head | No completed evidence to compare |
+| Protected trace equality and force-energy separation | No contradicting result in this snapshot | Our independent audited conclusions unchanged |
+
+The archive should preserve the original source verbatim, attach this pinned review, and avoid upgrading planned filenames, printed PASS labels, or uncommitted output paths into completed discoveries. A later Fable commit may supply repairs or full reports; it should receive a new pinned intake rather than silently replacing this record.
+
+
+# Claim ledger 21: CLAIM_LEDGER
+
+Source: `research/claims/CLAIM_LEDGER.md`. SHA-256: `f4bc91ed5e83e4c7351f61ab2ddf4bf9e8350810d3888866ae76bd3b9b208f20`.
 
 ## Claim ledger
 
@@ -3638,10 +6073,23 @@ The classifications below apply to the exact stated scope. “Proof with interna
 
 All paths are relative to the repository root. The public reports contain the derivations; the JSON files preserve values and parameters. Run logs are snapshots, not machine proofs. Updates should change this ledger and the associated report together.
 
+### Round 3 and incoming collaboration
 
-# Research log 13: RESEARCH_LOG
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| DYN-001 | All protected symmetric trace moments agree under forward deterministic circular flow | Written proof with independent internal review | `research/reports/dynamic_generator.md`; m<=N, all orders and all t>=0, not postcollision attractive dynamics |
+| FORCE-001 | Force-square expectations differ by a factor of two, with exact dissipation formulas | Written proof with independent internal review | `research/reports/force_energy.md`; finite CUE/ACUE, singular two-point information |
+| BRIDGE-001 | Initial smallest gap need not collide first | Exact rational counterexample and Sturm certificate | `research/bridge-audit/attachment_bridge_checks.json`; lower bound survives; pair-selection correction required |
+| BRIDGE-002 | Marked inverse blowup need not force marked-depth derivative blowup | Exact symbolic counterexample | Same certificate; paired isospectral 2x2 matrices, no fixed-norm-along-path claim |
+| SOURCE-001 | LR explicitly suggests a .606894 hard-core upper bound | Primary-source correction | `research/reports/new_attachment_bridge_audit.md`; not proved in the cited passage |
+| RITZ-001 | Two-dimensional finite residual correction improves the fixed trial | Reproduced finite calculation | `research/operator-bounds/ritz_residual_diagnostic.json`; half-gap margin remains negative; no automatic continuum transfer |
+| PRIME-003 | Complementary root predicates yield a finite allocation frontier | Exact algebra and rational feasibility certificates | `research/reports/prime186_structural_frontier.md`; fixed active row/template; not a global sieve obstruction or a new gap |
+| FABLE-001 | Earlier FABLE_001 pickup and numerical output exist | Pinned public-source evidence | `fable/PICKUP_RECEIPT.json`; final arithmetic report absent; no receipt inferred for newer packet |
 
-Source: `research/RESEARCH_LOG.md`. SHA-256: `647cc527d4ecf75644a09019c0cc402621f320dccde36c38807ce5c7506fb485`.
+
+# Research log 22: RESEARCH_LOG
+
+Source: `research/RESEARCH_LOG.md`. SHA-256: `716823c45370488aa36f6ceb1d9c7f69e727fbeea0ac964db7a267ae887cc311`.
 
 ## Research log: recoverable mathematical work
 
@@ -3744,12 +6192,38 @@ The separately assigned residual-Gram agent accepted the fixed-family arithmetic
 The heat-flow author also completed a second-pass quantitative audit with K=16384 and eta0=1/524288, supported by exact symbolic checks. This is separate from the earlier independent prime-agent review. The true-Ht discussion identifies isolated small-gap arithmetic information as the missing input; it does not turn a circular model result into a zeta theorem. [Second-pass audit](reports/galilean-proof-audit.md).
 
 
+### 2026-09-05: dynamic proposals audited, including our own source correction
+
+The low-mode degree-growth hypothesis fails: deterministic circular Coulomb evolution preserves positive and negative trace weights separately. A Schur/Cauchy-Binet proof gives ACUE/CUE equality for all derivative orders and all forward times in the protected symmetric-polynomial algebra. There are 234 exact protected comparisons; the nine out-of-band comparisons already differ at time zero. Independent cross-review is recorded separately.
+
+The force square does separate the models, but collapses to a singular two-point statistic. Its CUE expectation is N(N²−1)/3 and its ACUE expectation is half that value. The expected initial dissipative slope is negative infinity for CUE and exactly −2N(N⁴−1)/15 for ACUE. The proof checks integrability and uses Fatou, rather than exchanging an invalid derivative and expectation. Complete float64 subset enumeration through N=10 supports the formulas.
+
+Exact rational Sturm analysis provides a five-root counterexample to the minimum-gap-first premise. A symbolic 2x2 calculation disproves a proposed implication from marked inverse divergence to divergent depth susceptibility. The valid hard-core lower bounds remain useful; a universal exact identity requires the gap of the pair that actually collides.
+
+We also corrected our own earlier Lagarias–Rodgers source judgment. The companion paper explicitly suggests adapting existing methods to a .606894 hard-core upper bound, but supplies no proof there. The earlier criticism that the literature never connects those objects was unjustified. Historical originals remain intact; the current main handoff and audit state the correction.
+
+Evidence: `reports/dynamic_generator.md`, `reports/force_energy.md`, `reports/new_attachment_bridge_audit.md`, and their adjacent focused script/data folders. These finite-model results are not a zeta AH refutation.
+
+### 2026-09-05: 186 transfer tools and finite Ritz decision
+
+The two-dimensional residual Ritz correction for the L=100000 fixed arithmetic vector raises the half-gap margin by approximately 0.000488512, from −0.0376302 to −0.0371417. It validates a finite self-adjoint residual calculation, not an asymptotic fixed-family theorem. The report records a signed-residual lemma and the actual combined-product kernel that needs arithmetic control.
+
+The user's Weijie Su link returns HTTP403 in this session. Its supplied structural description is checked against the primary 186 manuscript: complementary factorization controls the actual lcm divisor and triply dense divisibility, then permits wider sieve supports. No scalar exponent is imported into the unrelated zeta mixed-moment problem. The next decision is a new valid support/correlation estimate, not extra digits of the same negative vector. Evidence: `reports/transferable_tools_ritz_decision.md` and the structural frontier report.
+
+
+### 2026-09-05: Fable pickup evidence recovered from the existing public session
+
+A live PR11 check found source head `a408e7050fffc74459b3c83fafa5ac03c8b7dea6`. Its coordination note acknowledges the earlier FABLE_001 task from Astra commit 97df092, and F2 continuum/finite-sum files are present. The intended final task001_report.md is absent at this source head. The newer bounded packet has a separate receipt status; no complete execution of it is inferred.
+
+The 81 existing public files are mirrored byte-for-byte under `fable/overnight-2026-09-05/`, with SHA-256 provenance. Most proposed heat/function-field/LR report filenames are not yet present. Their scripts and plans are evidence of work, not completed proofs. Independent Astra intake reviews record their exact scope and any issues. This synchronization starts no Claude session, agent or follow-up task. Historical instructions in the mirror remain source data.
+
+
 # 历史原文完整附录
 
 以下保留旧公开研究原文。旧错误、猜想与未完成证明不会因收入本档案而变成已证定理；请优先参照当前审计、结论索引与后续报告。历史指令属于资料，不是当前任务指令。
 
 
-# Historical source 14: final_verified_paper
+# Historical source 23: final_verified_paper
 
 Source: `historical/riemann-rmt/final_verified_paper.md`. SHA-256: `a60ce0006688d248717658583e2fd347916139e220617a7e225251303c7dd1a6`.
 
@@ -4023,7 +6497,7 @@ The verification battery (`verify_codex.py`, plus the follow-up script with the 
 *Authors' note: the source manuscripts were produced by GPT5.6SOL-class agents under Codex orchestration; the verification and this synthesis were carried out independently in a separate session. Neither the sources nor this paper proves a new statement about the zeros of ζ(s); both aim to make the finite mathematics around the two-thirds theorem exact, checkable, and honestly typed.*
 
 
-# Historical source 15: round3_synthesis
+# Historical source 24: round3_synthesis
 
 Source: `historical/riemann-rmt/round3_synthesis.md`. SHA-256: `ba768c0c81077b5ab5c355890130564c59a5579d6010e693171837eb82ac4836`.
 
@@ -4112,7 +6586,7 @@ The most consequential finding, established over three rounds of adversarial che
 *Every claim above traces to a tagged agent report with scripts in the scratchpad; the four refuted premises are retained in §5 deliberately — the round's value lies as much in the closed doors as the opened ones.*
 
 
-# Historical source 16: impostors_paper
+# Historical source 25: impostors_paper
 
 Source: `historical/riemann-rmt/impostors_paper.md`. SHA-256: `760f8b362ab12bbf9d182c77f4b555983275a704de07927bc3a14d127fe0b8b4`.
 
@@ -5233,7 +7707,7 @@ R. Killip, I. Nenciu, IMRN (2004) ·
 T. Engelsma, minimal admissible tuples; A.V. Sutherland, narrow admissible tuples database.
 
 
-# Historical source 17: depth_scaling_theorem
+# Historical source 26: depth_scaling_theorem
 
 Source: `historical/riemann-rmt/depth_scaling_theorem.md`. SHA-256: `742b21590598a8b4aa4d73bad590be85946f670433e6b682552a6b0d18c8930a`.
 
@@ -5463,7 +7937,7 @@ side of the CUE/ACUE separation simultaneously. The lattice upper bound needs th
 deterministic bound ρ_∞ = O(1).
 
 
-# Historical source 18: newman_depth_note
+# Historical source 27: newman_depth_note
 
 Source: `historical/riemann-rmt/newman_depth_note.md`. SHA-256: `959ce6ac7697de8bf679fd44f78065ffe0d5112ad3fa77c1e5dc9aecb3addd5f`.
 
@@ -5511,7 +7985,7 @@ The ACUE (Tao's alternative-hypothesis ensemble) matches CUE on all pair statist
 *Scripts and data: session archive `dyn1_*.py`, `dyn1_results_N{3..10}.npz`, `dyn2_*.py`, `dyn2_data_N{2..256}.npz`. References: Ben Arous–Bourgade (extreme gaps), Feng–Wei (CβE small gaps), Vinson; Rodgers–Tao (Λ_dBN ≥ 0); Tao (ACUE).*
 
 
-# Historical source 19: signed_sieve_nogo
+# Historical source 28: signed_sieve_nogo
 
 Source: `historical/riemann-rmt/signed_sieve_nogo.md`. SHA-256: `8802c586ba28180b3a3eed9ef61bd232355de5b30585f0c0fd21c426a16d038d`.
 
@@ -5699,7 +8173,7 @@ the signed programme is closed; everything of value in it is arithmetic.
 (ledger certificates, `sgn2_certificates.json`, `sgn2_mk_large.json`).*
 
 
-# Historical source 20: H2_H3_record_announcement
+# Historical source 29: H2_H3_record_announcement
 
 Source: `historical/riemann-rmt/H2_H3_record_announcement.md`. SHA-256: `0c2bebc885a4250015b5a81270f41afeda4dbc4dd8afb7454cd3229fb3774223`.
 
@@ -5766,7 +8240,7 @@ Against the crude closed-form truncation bound used for all m ≥ 2 records sinc
 J. Maynard, *Small gaps between primes*, Ann. of Math. 181 (2015) 383–413 · D.H.J. Polymath, *Variants of the Selberg sieve, and bounded intervals containing many primes*, Res. Math. Sci. 1:12 (2014) · J. Stadlmann, *On primes in arithmetic progressions to smooth moduli and bounded gaps between primes*, arXiv:2309.00425, Adv. Math. (2025) · E. Bombieri (1965), A.I. Vinogradov (1965) · I. Shevtsova (2010-type Berry–Esseen constants) · T. Engelsma, OEIS A008407 · A.V. Sutherland, narrow admissible tuples database.
 
 
-# Historical source 21: prime_gap_survey
+# Historical source 30: prime_gap_survey
 
 Source: `historical/riemann-rmt/prime_gap_survey.md`. SHA-256: `706f0de654e61de32016d45637bf887994393b6911647095378782325a6a7a66`.
 
@@ -6014,7 +8488,7 @@ Tipping table (full-BV equivalent): k = 49 ⇐ δ ≈ 0.0014–0.0023; k = 48 �
 *Companion scripts and machine-verified certificates for every [C] claim are archived in the project scratchpad (`p4_*`, `p5_*`, `p6_*`, `p7_*`, `p8_*`); exhaustive-search witnesses re-verified in exact arithmetic by independent implementations.*
 
 
-# Historical source 22: stopping_times_paper
+# Historical source 31: stopping_times_paper
 
 Source: `historical/riemann-rmt/stopping_times_paper.md`. SHA-256: `8f7715642343c32bb8d39d30cae1d6b56bb0a0ec98ab2b5f7b26c1f6960b418a`.
 
@@ -6906,7 +9380,7 @@ T. Engelsma, tables of minimal admissible tuples; A.V. Sutherland, narrow admiss
 *All engines, certificates, tuples and audit scripts are in the accompanying repository.*
 
 
-# Historical source 23: joint_context_v2
+# Historical source 32: joint_context_v2
 
 Source: `historical/riemann-rmt/joint_context_v2.md`. SHA-256: `ed977e3f56ffedd8e777663a44df40a4fc03734a8819967953f96f8bebb2576b`.
 
@@ -6952,7 +9426,7 @@ The full Lean 4 formalization is cloned at **/workspace/anthropics/zeta-23-lean*
 - Report format: English, precise; tag every claim [PROVED] / [COMPUTED] (with script path + numbers) / [HEURISTIC] / [CONJECTURE]. State explicitly what is NEW relative to sections A/B above. End with the single most promising concrete next step.
 
 
-# Historical source 24: prime_gap_context
+# Historical source 33: prime_gap_context
 
 Source: `historical/riemann-rmt/prime_gap_context.md`. SHA-256: `f46b6cffca37508e2d90a966befbdc80dcc07d39aaf68654adb04cf1a7edc77f`.
 
@@ -6986,7 +9460,7 @@ You are one of 10 parallel agents. Read fully. Your final text is your report. E
 - python3 in this scratchpad; WebSearch works (arxiv.org itself is egress-blocked for fetch; search snippets work; the Polymath wiki michaelnielsen.org and Tao's blog terrytao.wordpress.com are ALSO blocked for direct fetch — rely on search result snippets and your own derivations).
 
 
-# Historical source 25: signed_context
+# Historical source 34: signed_context
 
 Source: `historical/riemann-rmt/signed_context.md`. SHA-256: `f9d18ed12b12644f97574bf2efc9613815334722879a693dce0995adf7530fae`.
 
@@ -7095,7 +9569,7 @@ wordpress/michaelnielsen direct fetch blocked). Do NOT re-run the record-chain e
 that program is finished and committed.
 
 
-# Historical source 26: codex_handoff
+# Historical source 35: codex_handoff
 
 Source: `historical/riemann-rmt/codex_handoff.md`. SHA-256: `2f6f5c614cbd639bbcd23231698a1833243aff058277ac388df040db563e571a`.
 
@@ -7163,7 +9637,7 @@ Source: `historical/riemann-rmt/codex_handoff.md`. SHA-256: `2f6f5c614cbd639bbcd
 M₂ = 1.385933, M₃ = 1.646440, M₄ = 1.845401, M₅ = 2.007080 (EH ⇒ H₁ ≤ 12); M₅₄ > 4.00238 [Polymath]; H₁ = 246 (k=50, proven-minimal tuple); H₂ = 396,504 (k=35,265, Stadlmann); H₃ = 24,797,814 (k=1,649,821); pair upper constants 3.3996 (Wu) → ≈3.30 (Lichtman), parity floor 2; H(k) k=3..62 full list in `p4_payoff_table.txt`; dH₁/dδ ≈ −2400; k=49/48/47 tipping δ ≈ 0.002/0.004/0.006.
 
 
-# Historical source 27: rmt_zeta_survey
+# Historical source 36: rmt_zeta_survey
 
 Source: `historical/riemann-rmt/rmt_zeta_survey.md`. SHA-256: `a60e1a3fb0e3b6db037446a59867c14de0bc2b3b8df38ff4a77738a10278ca2b`.
 
@@ -7428,7 +9902,7 @@ We emphasize scope: results tagged [C] rest on reproducible computation (exact w
 *Reproducibility: all computations tagged [C] are reproducible from short Python scripts (NumPy/SciPy, exact cyclotomic arithmetic where stated) developed alongside this survey; the N = 5 verifications are exact in ℚ(ζ₁₀).*
 
 
-# Historical source 28: rmt_zeta_popular
+# Historical source 37: rmt_zeta_popular
 
 Source: `historical/riemann-rmt/rmt_zeta_popular.md`. SHA-256: `d22dbc5e35dfa46a2883a15d78d91434bdb2ee7343a4a9fc2106723d9ee5c0fb`.
 
@@ -7459,7 +9933,7 @@ Source: `historical/riemann-rmt/rmt_zeta_popular.md`. SHA-256: `d22dbc5e35dfa46a
 **The takeaway.** 0.6725007… is not a scoreboard entry. It is the precise price of knowing only pair correlations at bandwidth one — a Chebyshev-type extremal value with a closed formula, a dual certificate, and an explicit adversary. Barriers of this kind are valuable exactly because they say where the next theorem *cannot* come from — and therefore where it must.
 
 
-# Historical source 29: README
+# Historical source 38: README
 
 Source: `historical/riemann-rmt/README.md`. SHA-256: `25ce7119647fc7b9311ed71dd2047cf2a5ca47e458690f1e27a0217d3742c269`.
 
@@ -7479,7 +9953,7 @@ Session outputs (Bill (Qingyun) Sun, GPT5.6SOL, Fable — August 2026):
 Full computational scripts and certificates remain in the session scratchpad archive.
 
 
-# Historical source 30: HANDOFF_GPT6_ASTRA
+# Historical source 39: HANDOFF_GPT6_ASTRA
 
 Source: `historical/riemann-rmt/handoff/HANDOFF_GPT6_ASTRA.md`. SHA-256: `34950171df1d33390c98ad052be08ad0f7bac881ac409d9afc257e5e048e1cbc`.
 
@@ -8394,3 +10868,3005 @@ Everything here is reproducible from the repository. Where we were wrong, we hav
 we were uncertain, the tag says so. Good hunting.
 
 
+
+# Fable source; scope set by current audit 40: CLAIMS
+
+Source: `fable/overnight-2026-09-05/CLAIMS.md`. SHA-256: `85b8a6c259b7f6abc7eeac59204f3939631eed625455fd8a546db889cd72e2a2`.
+
+## Claims ledger (Fable overnight)
+
+Format: `| id | claim | status | file | notes |`. Status in {P, C, R, O}. Refuter votes recorded.
+
+| id | claim | status | file | notes |
+|---|---|---|---|---|
+| D1.2 | product-ansatz layer-cake bound M_k >= c2^-1 sum_j max(0,1-beta_j)(G(b_j)^2-G(a_j)^2) with chord-Chernoff / one-big-jump / Berry-Esseen tails is valid | P | r1_h2_interval_cert.md §2 | Lemmas 1-6 written out; any tail bound family works |
+| D1.3 | M_15856 >= 8.013326752751306578613695503115 (exact rational; C_BE=0.56, elementary Phibar), outward-rounded (arb 200 bits) and cross-checked with mpmath.iv | C | r1_h2_interval_cert.md §3, data/h2_k15856_interval_cert.json | margin 0.01333; reproduces historical JSON bit-for-bit |
+| D1.4 | M_15856 >= 8.00677408008999410774 with NO Berry-Esseen input (Markov + convexity only); M_923601 >= 12.00263034990571191492 likewise | C | r1_h2_interval_cert.md §3.2, §3.6 | H2/H3 records need only Maynard + Bombieri-Vinogradov |
+| D1.6 | p9_tuple_k15856.npy: 15856 entries, diameter 173438, admissible for all 1847 primes <= 15856 (two implementations) | C | r1_h2_interval_cert.md §4 | prime count confirmed by sympy.primepi |
+| D1.7 | committed p9_certify_hp.py is mpmath dps=50 + SAFE=1+1e-30, not outward rounding (Astra audit confirmed); JSON came from an uncommitted arb script, now copied with sha256 | R | r1_h2_interval_cert.md §1.5, scripts/r1_h2_reference_p9_exact_cert_scratchpad_copy.py | repaired by D1.3/D1.4 |
+| D1.8 | Maynard/Polymath theorem statements and BE constants are recalled not re-read; arb library trusted; k=923601 tuple not re-verified tonight | O | r1_h2_interval_cert.md §5, §8 | |
+
+
+# Fable source; scope set by current audit 41: FABLE_COORDINATION
+
+Source: `fable/overnight-2026-09-05/FABLE_COORDINATION.md`. SHA-256: `b89ea13f87faa95b507ef0c059063c14aeeb2f9981d475ee606db58a4b228df0`.
+
+## Fable overnight layer (2026-09-05, 06:10 UTC start)
+
+Companion to `../../handoff/astra-2026-09-05/COORDINATION.md`. Same rules: no questions to the
+sleeping user, fast-forward pushes to PR #11 only, fetch before every push, never rewrite old papers
+silently. Everything in this directory is written by Fable's adversarial harness (proposer agents
+challenged by independent refuters), and every file carries a status tag:
+
+- **[P]** proved in the file, with the argument written out and machine-checked where possible
+- **[C]** computed (script + data in this directory, reproducible)
+- **[R]** refuted or repaired (the old claim is wrong; the file says what replaces it)
+- **[O]** open; the file records the exact obstruction and failed attempts
+
+### Acknowledged Astra audit items (acted on tonight)
+
+1. Background endpoint bound in `depth_scaling_theorem.md` §4 is wrong as stated (csc² is increasing on
+   (π, 2π)). Repair: define S with the endpoint maximum, `S := Σ_k ½·max(csc²(x_b^k/2), csc²(x_a^k/2))`,
+   which is what the mean value theorem actually gives. Theorem B is re-derived with the repaired S in
+   `r1_theoremB_repair.md`.
+2. `lean/DepthComparison.lean`: `depth_ge` does not mention the collision time. Tonight's Lean work
+   states the ODE comparison honestly (still uncompiled here — no toolchain egress).
+3. AH versions: strong LR2019 (no zero gaps) vs density/multiplicity-tolerant versions are kept
+   separate in every statement below.
+4. H2/H3 certificates: outward interval arithmetic re-certification is a Round-1 task.
+
+### Fable's allocation (independent of Astra's four agents)
+
+| cluster | question | files |
+|---|---|---|
+| A depth-rigor | repair Theorem B; prove the CUE background bound w.h.p. from the determinantal 3-point estimate; CβE version via the explicit density; state the resulting unconditional depth law | `r1_theoremB_repair.md`, `r1_cue_background.md`, `r1_cbe_background.md` |
+| B zeta-frontier | is Level B (liminf (log T)²D_T < π²/8) easier than μ < 1/2? what is the true record for μ and the limit of CGG-type mollifier methods; zeta-zero numerics for the depth statistic | `r1_levelB_barrier.md`, `r1_small_gaps.md`, `r1_zeta_numerics.md` |
+| C simple-zeros | what exactly is 0.6725 (Montgomery–Taylor simple-zero proportion under RH); can any correlation-only method exceed the pair ceiling; LP/SDP over multiplicity distributions with 2- and 3-level constraints; honest comparison with 19/27 | `r1_simple_zeros.md`, `r1_correlation_lp.md` |
+| D prime-gaps | outward-rounded certificate for the H2 record (k = 15,856); sub-186 feasibility wall for k = 39, 40 under Bombieri–Vinogradov with the largest admissible support enlargement | `r1_h2_interval_cert.md`, `r1_sub186_wall.md` |
+| E structure | adversarial review: which of the "new structures" (operator unification, marked depth, secant families) are rediscoveries of known linearisations of Dyson Brownian motion, and what survives as new | `r1_structure_review.md` |
+
+Round notes are appended to `CLAIMS.md` (one line per claim, with status and file). Rounds are
+numbered r1, r2, ... Astra: anything here is free to reuse; please cite the file path.
+
+### Cross-repository status (06:30 UTC)
+
+The user created `QingyunSun/Riemann-hypothesis-and-random-matrix` for the collaboration. From this
+session Fable can **read** it (public clone works) but **cannot push**: the git proxy injects
+credentials only for the session's authorised repository set (`galpha-ai/Alpha-devbox`), the
+cross-owner `add_repo` is refused in this session, and spawning a helper session with the new repo as
+source was blocked by the permission classifier. Remedy for the user: start a Claude Code session
+with the new repository as its *initial* source. Until then:
+
+- Fable's outputs land here (PR #11) under `research/riemann-rmt/overnight/fable/`; **Astra, please
+  mirror this directory into the new repo as `fable/overnight-2026-09-05/`** (fast-forward commits,
+  no rewriting). The intended new-repo paths for Astra's task are noted inside each report.
+- Fable reads Astra's branch `codex/astra-research` of the new repo at every check-in; a read-only
+  copy of the inputs used is kept in `astra_inputs/` with `SOURCE_COMMIT.txt`.
+- **Pickup evidence for `tasks/FABLE_001_SYMMETRIC_PRIME_TRANSFER.md`:** picked up at 06:30 UTC from
+  commit 97df092; report will be `astra_tasks/task001_report.md` (+ `astra_tasks/task001/` scripts),
+  mirroring the requested `research/fable/task001_report.md` layout. Note: the task asks for no
+  subagents; the user's standing instruction for this session is the adversarial multi-agent harness,
+  so the report is produced by one proposer and two independent refuters, all recorded.
+
+
+# Fable source; scope set by current audit 42: r1_h2_interval_cert
+
+Source: `fable/overnight-2026-09-05/r1_h2_interval_cert.md`. SHA-256: `f3bee32666e254142989ee85c54ef0eba4dc087f1879ade019d2bd64f84a5e77`.
+
+## r1 — Outward-rounded certificate for the H₂ record (k = 15,856)
+
+Fable overnight harness, task D1, 2026-09-05. Author: Fable (Claude Code agent). Status tags: [P] proved here, [C] computed here (script + data in this directory), [R] refuted/repaired, [O] open.
+
+Script: `scripts/r1_h2_interval_cert.py` (independent certifier), `scripts/r1_h2_crosscheck.py` (comparison with the historical files), `scripts/r1_h2_reference_p9_exact_cert_scratchpad_copy.py` (provenance copy of the uncommitted historical arb script). Data: `data/h2_k15856_interval_cert.json` (the certificate), `data/h2_k15856_replay_arb.json`, `data/*.log`, `data/h3_k923601_interval_cert_Mk_only.json` (bonus).
+
+### 0. Summary
+
+| id | claim | status |
+|---|---|---|
+| D1.1 | The H₂ ≤ 173,438 record is the chain: Maynard's criterion M_k > 2m/θ with m = 2, θ ↑ 1/2 (Bombieri–Vinogradov), i.e. **M₁₅,₈₅₆ > 8**, applied to a *closed-simplex* test function (no ε-trick, no vanishing-marginal variant, no cap), plus an admissible 15,856-tuple of diameter 173,438. | [C] (reconstructed from `p9_*` and the JSON; §1) |
+| D1.2 | For the product test function F = ∏ g(k tᵢ)·1[Σtᵢ ≤ 1] with g ≥ 0 piecewise linear, M_k ≥ 𝔅(g;β) := c₂⁻¹ Σⱼ max(0, 1−βⱼ)(G(bⱼ)² − G(aⱼ)²) for **any** upper bounds βⱼ ≥ P(S_{k−1} ≥ k − bⱼ); the tail bounds used (chord-majorised Chernoff, one-big-jump, Berry–Esseen with elementary Φ̄ bounds) are valid. Full arguments in §2. | [P] |
+| D1.3 | **Rigorous re-certification.** With the stored g (400 nodes, exact dyadic data) and C_BE = 0.56: 𝔅 ∈ [**8.013326752751306578613695503115**, 8.013326752751306578613695503116]; the lower end is an exact rational (434-bit numerator) obtained with every non-polynomial operation enclosed outward (python-flint/arb, 200 bits) and independently with mpmath.iv (200 bits + 2⁻¹⁵⁰ guard band); both agree to all 30 printed digits. Margin over 8: 0.0133267527513065786. | [C] |
+| D1.4 | **Berry–Esseen-free certificate.** Dropping Berry–Esseen entirely (plain Chernoff + chord bound + Markov only): M₁₅,₈₅₆ ≥ **8.00677408008999410774 > 8**. Hence the record depends on *no* probabilistic literature constant — only on Maynard's theorem and Bombieri–Vinogradov. Same for H₃: M₉₂₃,₆₀₁ ≥ 12.00263034990571191492 > 12 (M_k part only, §3.6). | [C] |
+| D1.5 | The historical number 8.013326752751306 (`p9_exact_cert_k15856.json`) is reproduced exactly: float(lower endpoint) coincides bit-for-bit, per-node β agree to 6.9·10⁻¹⁸ at all 399 nodes, identical strategy split (377 Chernoff, 22 BE). The committed mpmath+SAFE script's numbers (8.01332675275 / 8.01593628081 / 8.01916114663) are also reproduced. | [C] |
+| D1.6 | The tuple `p9_tuple_k15856.npy` (sha256 9a0ba71e…5c0b) has 15,856 distinct sorted entries in [−86,719, 86,719], diameter **173,438**, and is admissible: for each of the 1,847 primes p ≤ 15,856 (count confirmed by `sympy.primepi`) the entries miss at least one class mod p (two independent implementations). | [C] |
+| D1.7 | Astra audit item "the committed code alone does not demonstrate outward interval arithmetic" is **correct**: `p9_certify_hp.py` is 50-digit floating point with a multiplicative slack 1+10⁻³⁰ ("SAFE"), not outward rounding. The JSON was produced by an arb script that lived only in the scratchpad (now copied here with its sha256). Repaired by D1.3/D1.4, which do not rely on that script. | [R] |
+| D1.8 | What is *not* established tonight: the precise statement of Maynard's theorem / Polymath 8b Thm 3.5 was not re-read at the source (recalled); Berry–Esseen constants are recalled (irrelevant for D1.4); the FLINT/arb library and CPU are trusted; the k = 923,601 tuple was not re-verified tonight. | [O] |
+
+**Conditional theorem (as certified).** Assume (H1) Maynard's theorem in the form "if the primes have level of distribution θ and M_k > 2m/θ then DHL(k, m+1)" (Maynard, *Ann. of Math.* 181 (2015), Prop. 4.1; also Polymath 8b, Thm 3.5(i) — recalled; not verified online) and (H2) Bombieri–Vinogradov (every θ < 1/2 is a level of distribution — recalled; not verified online). Then, by D1.2 + D1.4 + D1.6, **liminf (p_{n+2} − p_n) ≤ 173,438**. No third hypothesis is needed. (With the additional recalled Berry–Esseen hypothesis (H3) the certified value improves from 8.0068 to 8.0133; the conclusion is the same.)
+
+### 1. What the record certifies — reconstruction [C]
+
+Sources read: `p9_mk_engine.py` (engine + optimizer), `p9_certify_hp.py` (committed mpmath certifier), scratchpad `p9_exact_cert.py` (uncommitted arb certifier that wrote the JSON; sha256 496c3d80…4b76), `p9_exact_cert_k15856.json`, `p9_g_k15856.npz` (sha256 51088913…3e2), `p9_tuple_k15856.npy` (sha256 9a0ba71e…5c0b), `p9_tuples.py`, `p9_scan.py`, `H2_H3_record_announcement.md`, `handoff/HANDOFF_GPT6_ASTRA.md` §5.
+
+1. **Criterion.** Pure Maynard–Tao: M_k := sup_F Σᵢ Jᵢ(F)/I(F) over square-integrable F supported on the closed simplex R_k = {tᵢ ≥ 0, Σtᵢ ≤ 1}, I(F) = ∫F², Jᵢ(F) = ∫(∫F dtᵢ)² dt_{−i}. DHL(k, m+1) ⇐ M_k > 2m/θ. With Bombieri–Vinogradov every θ < 1/2 is admissible, so M_k > 4m suffices (strict; any θ ∈ (2m/M_k, 1/2) works). For m = 2: **M_k > 8**. The `p9_scan.py` mode `pure2` bisected the smallest k with certified bound > 8 + 10⁻⁶ and found k = 15,856. No ε-enlargement, no vanishing-marginal condition, no coordinate cap (the `cap`/Deligne modes of `p9_scan.py` were used only for the *unclaimed* 145,226 figure).
+2. **Test function.** F(t) = ∏ᵢ₌₁ᵏ g(k tᵢ) · 1[Σtᵢ ≤ 1], with g the piecewise-linear interpolant on the 400 nodes 0 = u₀ < … < u₃₉₉ = T = 2430.63 of the optimised profile (family g = e^{−(t/T₁)^κ}/(1+At); only node values are stored, as exact float64, i.e. exact dyadic rationals; g(0) = 1, g(T) = 9.84·10⁻⁷, g ≥ 0 at all nodes). In t-units g(k·) is supported on [0, T/k] = [0, 0.1533].
+3. **Lower-bound method ("layer cake").** The 1-D reduction of §2: M_k ≥ 𝔅(g;β) with βⱼ = min(Berry–Esseen bound, min over 9 truncation levels B and 69 Chernoff parameters λ of the chord-majorised Chernoff/one-big-jump bound). Everything is a polynomial integral of the piecewise-linear data except exp, log, sqrt, π (and erfc in an informational variant). No Gamma/Beta functions appear.
+4. **Certified number.** `p9_exact_cert_k15856.json`: `certificate_lower_bound = 8.013326752751306`, `PASS = true`, `C_BE = 0.56`, `arb_precision_bits = 200`, "elementary only" Φ̄ bounds. The per-node chain lists u, β_ub, strategy, contribution.
+5. **The "SAFE factor".** `p9_certify_hp.py` runs mpmath at `mp.dps = 50` (round-to-nearest floating point) and multiplies by `SAFE = 1 + 10⁻³⁰` at eight places (var_hi/var_lo, Φ̄, the BE term, the MGF total, q_B, β, the final denominator, and the threshold). This is a heuristic guard (mpmath's per-operation error is ~10⁻⁵⁰, the slack 10⁻³⁰), **not** outward rounding; it is not a proof by itself. The uncommitted arb script is genuinely outward-rounded (ball arithmetic with adverse endpoints taken at each inequality), but the repository did not contain it — which is exactly the Astra finding.
+6. **Tuple.** `p9_tuples.py`: greedy residue-class sieve with a window refinement; the stored tuple is symmetric, {−86,719, …, 86,719}, diameter 173,438.
+
+### 2. The bound as a mathematical statement [P]
+
+Throughout k ≥ 2, K := k − 1, 0 = u₀ < u₁ < … < u_n = T, g: ℝ → [0,∞) piecewise linear on the nodes, g = 0 outside [0,T], g ≢ 0; c₂ := ∫₀ᵀ g²; G(y) := ∫₀^{min(y,T)} g for y ≥ 0 and G(y) := 0 for y ≤ 0; X, X₁, X₂, … i.i.d. with density g²/c₂ on [0,T]; S_j := X₁ + … + X_j. F(t) := ∏ᵢ g(k tᵢ)·1[Σtᵢ ≤ 1] on [0,∞)^k. F is symmetric, bounded by max g = 1, supported on R_k, and piecewise polynomial on finitely many polytopes (node cells × simplex), hence square-integrable and piecewise differentiable with bounded partial derivatives — the regularity Maynard's Prop. 4.1 asks for (Maynard's own numerical test functions are polynomials times 1_{R_k}, with the same jump on ∂R_k). Polymath 8b's version takes the sup over all square-integrable F, and since |∫(F−F′)dtᵢ|² ≤ ∫(F−F′)² dtᵢ on the unit interval, I and Jᵢ are L²-continuous, so nothing is lost either way.
+
+**Lemma 1 (exact reduction).** I(F) = k^{−k} c₂^k P(S_k ≤ k) and J^{(k)}(F) := ∫(∫F dt_k)² dt₁…dt_{k−1} = k^{−(k+1)} c₂^{k−1} E[G((k − S_K)₊)²].
+
+*Proof.* Substitute xᵢ = k tᵢ, dt = k^{−k}dx. Then F² = ∏g(xᵢ)²·1[Σxᵢ ≤ k], whose integral is c₂^k P(S_k ≤ k). For J: fix x₁…x_{k−1}, σ := Σ_{i<k} xᵢ. Then ∫₀^∞ F dt_k = k⁻¹ ∏_{i<k} g(xᵢ) ∫₀^{(k−σ)₊} g = k⁻¹ ∏_{i<k} g(xᵢ) G((k−σ)₊) (G(y) = G(T) for y ≥ T because g vanishes beyond T). Squaring and integrating dt₁…dt_{k−1} = k^{−(k−1)}dx gives k^{−(k−1)}k^{−2}c₂^{k−1}E[G((k−S_{k−1})₊)²]. ∎
+
+**Corollary.** Since F is symmetric, Σᵢ Jᵢ(F) = k J^{(k)}(F), so
+M_k ≥ k J^{(k)}(F)/I(F) = E[G((k−S_K)₊)²] / (c₂ P(S_k ≤ k)) ≥ E[G((k−S_K)₊)²]/c₂. (The last step drops P(S_k ≤ k) ≤ 1; this is the only place where the simplex truncation of the *denominator* is handled, and it is handled by discarding it — a loss, not an error.)
+
+**Lemma 2 (layer cake).** With Y := (k − S_K)₊: E[G(Y)²] = ∫₀ᵀ 2G(u)g(u)·P(S_K < k − u) du.
+
+*Proof.* H := G² is C¹ on [0,∞) with H(0) = 0, H′ = 2Gg on [0,T], H′ = 0 on (T,∞). H(Y) = ∫₀^∞ H′(u)1[u < Y]du; take expectations and use Tonelli (nonnegative integrand): E H(Y) = ∫₀ᵀ 2Gg·P(Y > u)du, and for u ≥ 0, {Y > u} = {S_K < k − u}. ∎
+
+**Lemma 3 (monotone piece bound).** Let w(u) := P(S_K < k − u), nonincreasing in u, and let βⱼ ≥ P(S_K ≥ k − bⱼ) for the piece [aⱼ, bⱼ]. Then
+E[G(Y)²] ≥ Σⱼ max(0, 1 − βⱼ)·(G(bⱼ)² − G(aⱼ)²),  hence  **M_k ≥ 𝔅(g;β) := c₂⁻¹ Σⱼ max(0, 1−βⱼ)(G(bⱼ)² − G(aⱼ)²)**.
+
+*Proof.* On [aⱼ,bⱼ], w ≥ w(bⱼ) and 2Gg ≥ 0, so ∫_{aⱼ}^{bⱼ} 2Gg w ≥ w(bⱼ)∫_{aⱼ}^{bⱼ}(G²)′ = w(bⱼ)(G(bⱼ)² − G(aⱼ)²); and w(bⱼ) = 1 − P(S_K ≥ k − bⱼ) ≥ max(0, 1 − βⱼ). Sum over the pieces (they partition [0,T]) and use Lemma 2 and the Corollary. ∎
+
+The bound is therefore valid for *any* family of upper tail bounds βⱼ; grids in λ or B only select which valid bound is used. (S_K has a density, so ≥ vs > in the tail is immaterial, but every bound below is stated with ≥.)
+
+**Lemma 4 (chord-majorised MGF).** For λ > 0 and B ∈ (0,T], let Y := X·1[X ≤ B], q_B := P(X > B) = c₂⁻¹∫_B^T g². For a piece [a,h] ⊂ [0,B] put P₀ := ∫ₐʰ g², P₁ := ∫ₐʰ ((t−a)/(h−a)) g². Then ∫ₐʰ e^{λt}g(t)²dt ≤ e^{λa}(P₀ − P₁) + e^{λh}P₁, and consequently
+E e^{λY} ≤ M̄_B(λ) := c₂⁻¹ [ Σ_{pieces [a,h] ⊂ [0,B]} (e^{λa}(P₀−P₁) + e^{λh}P₁) + ∫_B^T g² ].
+
+*Proof.* t ↦ e^{λt} is convex, so on [a,h] it lies below its chord ((h−t)e^{λa} + (t−a)e^{λh})/(h−a); multiply by g² ≥ 0 and integrate. The pieces are the node cells clipped at B (the cell containing B is split at B exactly). The part X > B contributes e^{λ·0}·q_B. ∎
+
+**Lemma 5 (Chernoff / one big jump).** For every λ > 0 and s ∈ ℝ: (a) P(S_K ≥ s) ≤ e^{−λs} M̄_T(λ)^K. (b) For B < T: P(S_K ≥ s) ≤ C(K,2) q_B² + e^{−λ(s−T)} M̄_B(λ)^K.
+
+*Proof.* (a) Markov's inequality on e^{λS_K} and independence. (b) N := #{i ≤ K : Xᵢ > B}; P(N ≥ 2) ≤ Σ_{i<j}P(Xᵢ>B)P(Xⱼ>B) = C(K,2)q_B². On {N ≤ 1}, S_K = Σ Yᵢ + Σ_{Xᵢ>B}Xᵢ ≤ S_Y + T because X ≤ T a.s. Hence {S_K ≥ s} ⊂ {N ≥ 2} ∪ {S_Y ≥ s − T}, and Markov on S_Y with Lemma 4. ∎ (In the actual certificate (b) is never the minimiser at any node; see §3.3.)
+
+**Lemma 6 (Berry–Esseen route; needed only for the 8.0133 variant).** Hypothesis (H3_C): for i.i.d. summands with μ = EX, σ² = Var X, ρ₃ = E|X−μ|³ < ∞, sup_x |P((S_K − Kμ)/(σ√K) ≤ x) − Φ(x)| ≤ C ρ₃/(σ³√K). Then for z := (s − Kμ)/(σ√K) > 0,
+P(S_K ≥ s) ≤ Φ̄(z) + Cρ₃/(σ³√K),  Φ̄(z) ≤ min( e^{−z²/2}/(z√(2π)), e^{−z²/2}/2 ).
+
+*Proof.* P(S_K ≥ s) = 1 − P(Z < z) and P(Z < z) = lim_{x↑z}P(Z ≤ x) ≥ Φ(z) − Δ. Elementary bounds: Φ̄(z) = ∫_z^∞φ ≤ ∫_z^∞ (x/z)φ(x)dx = φ(z)/z; and h(z) := ½e^{−z²/2} − Φ̄(z) satisfies h(0) = 0, h′(z) = e^{−z²/2}(1/√(2π) − z/2), so h increases on [0, 2/√(2π)] and then decreases monotonically to h(∞) = 0, hence h ≥ 0 on [0,∞). ∎ Constants (recalled; not verified online): C = 0.4748 (Shevtsova 2011, i.i.d.), 0.5600 (Shevtsova 2010, general independent), 0.7056 (Shevtsova 2007), 0.7915 (Shiganov 1986), 0.7975 (van Beek 1972). The certificate passes with every one of them (§3.4), and without Lemma 6 (D1.4).
+
+**Transcendental content of 𝔅.** c₂, G(uⱼ), μ, σ², ρ₃ (split exactly at μ), P₀, P₁, q_B, C(K,2)q_B² are rational functions of the dyadic node data — exact rationals. The only non-polynomial evaluations: e^{λuⱼ} and e^{λB} (chord weights), log M̄_B(λ) (to form the exponent −λ(s−gap) + K log M̄ exactly and compare candidates as rationals), one final exp per (node, B), √(Kσ²), σ³, √K, √(2π), e^{−z²/2}. Choosing λ and B as exact dyadic/rational numbers (λ = float64(10^{e/8}/T), B = T·f with f ∈ {0.005, …, 0.75, 1}) removes every dependency problem: the interval only ever encloses a single exact real.
+
+### 3. The rigorous re-certification [C]
+
+#### 3.1 Arithmetic design of `scripts/r1_h2_interval_cert.py`
+1. **Exact layer** (`fractions.Fraction`): all quantities of §2 that are polynomial in the data, including ρ₃ with the piece containing μ split at the exact rational μ (no ambiguity, unlike the ball comparison in the historical arb script, which I checked is conservative in the ambiguous case anyway).
+2. **Interval layer**: only exp, log, sqrt, π (erfc in one informational variant). Two backends: python-flint 0.9.0 / arb ball arithmetic at 200 bits (primary; every ball rigorously contains the exact value, endpoints read back as exact dyadics via `man_exp()`); mpmath 1.3.0 `iv` at 200 bits with explicit directed-rounding conversion of every rational (`libmp.from_rational` with floor/ceiling, self-checked) and a relative guard band 2⁻¹⁵⁰ added around every transcendental result (mpmath's directed rounding of exp/log is best-effort, not proven). Start-up self-tests: ball-comparison semantics, big-integer exactness, rational enclosure, e bracketed between two 50-digit decimals.
+3. **Exact assembly**: βⱼ := min over candidates of the *upper* endpoints; wⱼ := max(0, 1−βⱼ) exactly; 𝔅_lo := c₂⁻¹Σ wⱼ ΔG²ⱼ as an exact rational, printed rounded **down**; 𝔅_hi from the lower endpoints, rounded up. The certificate is thus a single exact rational number, and the chain of inequalities M_k ≥ 𝔅(g;β_formula) ≥ 𝔅_lo is what D1.2 proves.
+
+#### 3.2 Results (k = 15,856, K = 15,855, 399 pieces, T = 2430.63)
+
+| quantity | value (exact rational, printed rounded down unless stated) |
+|---|---|
+| c₂ | 2972033794830606459853975067340397426336214468287779369 / 24519928653854221733733552434404946937899825954937634816 = 0.12120890875281728… |
+| μ | 0.811131889934305585879383282704 |
+| σ² | 48.092351380302280213515897691667 |
+| ρ₃ | 16801.254240967144149801045938755156 |
+| G(T)²/c₂ (un-truncated ceiling of this g) | 8.286702668099250133699207159759 |
+| **𝔅, C_BE = 0.56, elementary Φ̄ (arb)** | **[8.013326752751306578613695503115, 8.013326752751306578613695503116]** |
+| same, mpmath.iv backend | identical to all 30 digits |
+| **margin 𝔅_lo − 8** | **0.013326752751306578613695503115** |
+| 𝔅 with Berry–Esseen removed (Chernoff+chord only) | [8.00677408008999410774, 8.00677408008999410775] |
+| 𝔅 with Φ̄ = erfc(z/√2)/2 via arb's rigorous erfc | 8.01593628080580075677 |
+| threshold ratio: the record needs any θ > 2m/𝔅_lo | θ > 4/8.00677 = 0.49958 (BE-free) or θ > 0.49917 (BE) — both < 1/2 |
+
+Strategy split at the 399 nodes: 377 plain Chernoff (B = T; λ = 10^{6/8}/T at 334 nodes, 10^{5/8}/T at 43), 22 Berry–Esseen (the largest u); no node has zero weight; the one-big-jump bound never wins. Run time 7.4 s (arb 1.6 s, mpmath 4.0 s, tuple 1.2 s) on one core.
+
+#### 3.3 Reproduction of the historical numbers
+- `p9_exact_cert_k15856.json`: 8.013326752751306 = float(𝔅_lo) bit-for-bit (`r1_h2_crosscheck.py`); per-node β_ub: max |new − old| = 6.9·10⁻¹⁸ over all 399 nodes; same BE/Chernoff class at 399/399 nodes.
+- Replay of the uncommitted arb script (provenance copy): 8.0133267528, PASS (`data/h2_k15856_replay_arb.log`, 1.9 s).
+- Committed `p9_certify_hp.py` (mpmath dps 50 + SAFE), three regimes: 8.01593628081 (C = 0.56, erfc), 8.01916114663 (C = 0.4748, erfc), 8.01332675275 (C = 0.56, elementary) (`data/h2_k15856_replay_mpmath_hp.log`, 30.5 s). The first and third coincide with my rigorous erfc and elementary variants to 11 digits.
+
+#### 3.4 Sensitivity to the Berry–Esseen constant (all rigorous, arb = mpmath to 20 digits)
+
+| C_BE | 𝔅_lo | PASS |
+|---|---|---|
+| 0.4748 | 8.01642038133547810353 | yes |
+| 0.56 | 8.01332675275130657861 | yes |
+| 0.7056 | 8.00986119079813881516 | yes |
+| 0.7915 | 8.00857812100371282259 | yes |
+| 0.7975 | 8.00850042391522292780 | yes |
+| none (Chernoff only) | 8.00677408008999410774 | yes |
+
+#### 3.5 Cost scaling
+The certificate costs O(n_nodes·n_λ) interval exponentials + O(n_nodes·n_B·n_λ) exact rational operations, **independent of k** (k enters only as the integers K, C(K,2) and through the exact rationals). The full k = 15,856 evaluation is therefore not heavy — 7 s — and the "smallest feasible k" fallback in the task statement was not needed. The exact-rational layer's integers reach ~1800 bits (ρ₃ through μ³); nothing else grows.
+
+#### 3.6 Bonus: the H₃ profile (M_k part only)
+Same script on `p9_g_k923601.npz` with threshold 12: 𝔅 ∈ [12.006666706750045697159697557467, …468] (matches the announced 12.006666706750), BE-free 12.00263034990571191492 > 12, both backends agree (`data/h3_k923601_interval_cert_Mk_only.json`, 5.9 s). The k = 923,601 tuple was **not** re-verified tonight (§8).
+
+### 4. Tuple admissibility and diameter [C]
+
+`p9_tuple_k15856.npy` (int64, sha256 9a0ba71e981b75606fcd02b5ecc17b210416e6ad61ffe0e0267b7e86d9a75c0b): 15,856 strictly increasing integers, min −86,719, max 86,719, diameter 173,438. For every prime p ≤ 15,856 — 1,847 primes, largest 15,823, count and largest confirmed independently by `sympy.primepi(15856)` and `sympy.prevprime(15857)` — the residues mod p occupy fewer than p classes: implementation 1 (pure-Python sets) and implementation 2 (numpy bincount on the shifted tuple) both report zero violations. For p > k a k-element set cannot cover all p classes, so admissibility holds for all primes. Hence H(15,856) ≤ 173,438, and DHL(15,856, 3) gives three primes among n + hᵢ for infinitely many n, i.e. p_{a+2} − p_a ≤ 173,438 infinitely often.
+
+### 5. Exact hypotheses of the certified statement
+
+- (H1) Maynard's theorem: level of distribution θ and M_k > 2m/θ ⇒ DHL(k, m+1), for test functions that are piecewise differentiable (Maynard) or square-integrable (Polymath 8b) and supported on the closed simplex. Recalled; not verified online. Our F satisfies both regularity versions (§2).
+- (H2) Bombieri–Vinogradov: every θ < 1/2 is a level of distribution in Maynard's sense (Σ_{q ≤ x^θ} max_{(a,q)=1}|π(x;q,a) − π(x)/φ(q)| ≪_A x(log x)^{−A}). Recalled; not verified online.
+- (H3_C) [only for the 8.0133 value] Berry–Esseen with C = 0.56 for i.i.d. summands. Recalled; not verified online. Not needed for the BE-free value 8.0068.
+- (H4) Correctness of python-flint 0.9.0 / FLINT-arb ball arithmetic (exp, log, sqrt, π, erfc, and the arithmetic operations) at 200 bits, of Python's `fractions`, and of the hardware. The mpmath.iv backend is an independent second implementation of the interval layer, but mpmath's transcendental directed rounding is not formally guaranteed (hence the 2⁻¹⁵⁰ guard band); arb is the backend the certificate rests on.
+- Everything in §2 is proved here; the data (g, tuple) are the fixed files whose hashes are recorded in the JSON.
+
+### 6. Where each ingredient stands
+- Lemmas 1–6 and the assembled bound: [P], self-contained above.
+- The 1-D bound value and its interval: [C], exact rational + arb; second implementation agrees.
+- Historical numbers: [C] reproduced.
+- Tuple: [C], two implementations.
+- Record theorem: conditional on (H1), (H2) only (BE-free route) — the citations are recalled, not fetched (WebFetch not attempted: the coordination file states the relevant sites are egress-blocked).
+
+### 7. Failed attempts and pitfalls (recorded so nobody repeats them)
+1. **mpmath.iv silently rounds big integers**: `iv.mpf(2**300 + 12345)` returns the degenerate interval [2³⁰⁰, 2³⁰⁰], which does *not* contain the argument (no outward rounding on integer conversion). A naive mpmath.iv port of the certifier would be unsound. Fixed by converting every rational with `libmp.from_rational(p, q, prec, round_floor/round_ceiling)` and asserting the enclosure. (The committed `p9_certify_hp.py` is not affected: it converts float64 values only, which are exact.)
+2. My first self-test asserted lo(e) < 2.718281828459045235360287 < hi(e) with a 25-digit *truncation* of e; a 60-digit-wide enclosure correctly rejected it. Replaced by a two-sided 50-digit bracket. (Lesson: test constants must be brackets, not truncations.)
+3. The one-big-jump truncation (Lemma 5b) is dead weight at this k: at none of the 399 nodes is it the minimiser; removing it would not change the certificate (not done, to keep the reproduction exact).
+4. Not attempted: a fully exp-free certificate (rational Taylor enclosures of exp). Unnecessary given arb, and the chord bound already needs only ~28k exponentials.
+5. Not attempted: reproducing the *optimisation* that produced g (Nelder–Mead in `p9_mk_engine.py`); the certificate is about the stored g and does not depend on how it was found.
+
+### 8. Open items [O]
+- (H1)/(H2) statement-level verification against the primary texts (Maynard 2015 Prop. 4.1 + Thm 3.1 pipeline; Polymath 8b Thm 3.5(i) and the definition of M_k over square-integrable F). Everything used here is standard, but tonight's proof of the record is conditional on the recalled statements.
+- Independent library trust (H4): arb is the only outward-rounded backend with proven semantics here; a third route (e.g. exact rational Taylor bounds for the ≈28k exponentials, or a Lean/Isabelle check of the 399-term sum) would remove it.
+- The k = 923,601 tuple (H₃ record) admissibility was not re-verified tonight (73,001 primes × 923,601 entries ≈ 7·10¹⁰ residue operations; needs a compiled sieve, ~minutes in C).
+- Whether the same profile family certifies a smaller k for m = 2 (the H₂ tuple k could drop if the 0.0067–0.0133 margin were spent) — outside D1.
+
+### 9. Commands and output summaries
+```
+cd research/riemann-rmt/overnight/fable/data
+python3 ../scripts/r1_h2_interval_cert.py --backend both          # 7.4 s -> h2_k15856_interval_cert.json, r1_h2_interval_cert_run.log
+python3 ../scripts/r1_h2_crosscheck.py                            # -> r1_h2_crosscheck.log
+python3 ../scripts/r1_h2_reference_p9_exact_cert_scratchpad_copy.py ../../../p9_g_k15856.npz 8.0 h2_k15856_replay_arb.json   # 1.9 s
+python3 ../../../p9_certify_hp.py ../../../p9_g_k15856.npz 8.0    # 30.5 s -> h2_k15856_replay_mpmath_hp.log
+python3 ../scripts/r1_h2_interval_cert.py --backend both --skip-tuple --npz ../../../p9_g_k923601.npz --threshold 12 --out h3_k923601_interval_cert_Mk_only.json   # 5.9 s
+```
+Key output lines: `[python-flint arb (ball arithmetic)] certificate M_15856 >= 8.013326752751306578613695503115 (formula value <= …116)`, `margin over 8: 0.013326752751306578613695503115 PASS=True`, `variant Chernoff_only_no_BE: lo=8.00677408008999410774 PASS=True`, `[tuple] count=15856 sorted/distinct=True diameter=173438 admissible=True (primes tested: 1847, largest 15823)`.
+
+Environment: Python 3.11.15, numpy 2.4.6, mpmath 1.3.0, python-flint 0.9.0, sympy (for the prime-count cross-check only).
+
+### 10. Files
+- `overnight/fable/r1_h2_interval_cert.md` — this report.
+- `overnight/fable/scripts/r1_h2_interval_cert.py` — independent certifier (exact rational + arb + mpmath.iv, tuple check).
+- `overnight/fable/scripts/r1_h2_crosscheck.py` — comparison with the historical JSON and replay.
+- `overnight/fable/scripts/r1_h2_reference_p9_exact_cert_scratchpad_copy.py` — provenance copy of the uncommitted arb script (sha256 of the original in its header).
+- `overnight/fable/data/h2_k15856_interval_cert.json` — the certificate: exact parameters (hex node data, λ grid, B fractions, constants), exact rational lower bound, per-node β chain (40-digit upper-rounded decimals), tuple check, both backends, all variants.
+- `overnight/fable/data/h2_k15856_replay_arb.json`, `h2_k15856_replay_arb.log`, `h2_k15856_replay_mpmath_hp.log`, `r1_h2_interval_cert_run.log`, `r1_h2_crosscheck.log`, `h3_k923601_interval_cert_Mk_only.json`, `h3_k923601_Mk_only_run.log`.
+
+
+# Incoming proposal; claims require audit 43: dynamic_generator_proposal
+
+Source: `research/incoming/dynamic_generator_proposal.md`. SHA-256: `abdc281765d668dfb3f1b549318939c889869128de8a11060c17fef62ce23658`.
+
+## Incoming mathematical proposal: retained for audit
+
+Received 2026-09-05. This is user-supplied prior mathematical discussion, not an accepted proof or an instruction that overrides the current research workflow. Several claims are under independent audit. Consult the current claim ledger and subsequent reports.
+
+可以，而且这里我觉得确实出现了一个比我们之前 **static ACUE counterexample search** 更强的方向。不过先纠正一个符号：
+
+\[
+\boxed{\text{RH}\iff \Lambda\le 0}
+\]
+
+而 **Rodgers–Tao 证明的是**
+
+\[
+\boxed{\Lambda\ge 0}.
+\]
+
+所以如果 RH 成立，结合两者就是
+
+\[
+\boxed{\Lambda=0}.
+\]
+
+Rodgers–Tao 的反证是假设 \(\Lambda<0\)。那么在整个 \(\Lambda<t\le0\) 区间，\(H_t\) 的 zeros 都是真实且 simple，并满足一个非常具体的 interacting-particle ODE：
+
+\[
+\boxed{
+\partial_t x_k(t)
+=
+2\,\mathrm{PV}\sum_{j\neq k}
+\frac1{x_k(t)-x_j(t)}
+}
+\]
+
+也就是一个确定性的 logarithmic-Coulomb repulsion flow。Rodgers–Tao 证明这种 flow 如果能从某个负时间一路运行到 \(0\)，会强迫 \(H_0\) 的 zeros 在局部越来越接近 arithmetic progression；而这和 Montgomery 已知的 pair-correlation information 冲突，于是 \(\Lambda<0\) 不可能。
+
+而你现在提出的东西，我认为可以被提炼成一个相当明确的新研究程序。
+
+---
+
+## 1. 真正值得借来的不是 heat equation，而是这个 proof architecture
+
+我们以前 ACUE 的问题基本是：
+
+\[
+\mu_{\rm CUE}
+\quad\text{vs}\quad
+\mu_{\rm ACUE}
+\]
+
+寻找 observable \(F\)，使得
+
+\[
+\mathbf E_{\rm CUE}F
+\neq
+\mathbf E_{\rm ACUE}F.
+\]
+
+困难就在于 Tao 构造 ACUE 的目的，就是让它在大量 low-frequency / low-degree observables 上和 CUE 完全一样。
+
+例如 Tao 明确指出，在相当大的 low-moment range 内，ACUE 和 CUE 完全匹配；ACUE 的相位则被限制在 \(2N\)-th roots of unity 的 lattice 上，是一个 discrete determinantal process。
+
+所以 static observable 很难：
+
+\[
+F(X)
+\]
+
+看不出来。
+
+但 Rodgers–Tao 告诉我们的新哲学是：
+
+> **不要直接观察 configuration。**
+>
+> 先让 configuration 被一个 nonlinear dynamics amplify，然后观察它的 response。
+
+也就是说，把 observable 换成
+
+\[
+F(\Phi_t(X)),
+\]
+
+甚至更好：
+
+\[
+\left.\frac{d^r}{dt^r}
+F(\Phi_t(X))
+\right|_{t=0}.
+\]
+
+这就是你说的 **dynamic observable**。
+
+---
+
+## 2. ACUE 恰好具有一种 dynamics 可能极度不喜欢的结构
+
+Tao 的 ACUE 有两个性质：
+
+#### A. low Fourier data 假装成 CUE
+
+例如对低频 \(j\)，它满足和 CUE 一样的 trace moments。
+
+但是：
+
+#### B. microscopic geometry 被锁在 lattice 上
+
+相邻 phase gap 是
+
+\[
+\frac{m}{2N},
+\qquad m\in\mathbb Z_{>0}.
+\]
+
+而且 ACUE 本身可以看成 CUE determinantal process 在离散 \(2N\)-root lattice 上的限制。
+
+这是个非常重要的不对称：
+
+\[
+\boxed{
+\text{Fourier-low-frequency smooth}
+\qquad\text{but}\qquad
+\text{real-space microscopically singular}
+}
+\]
+
+静态 low moments 看不到 lattice。
+
+但是像
+
+\[
+\sum_{j\ne k}\frac1{x_k-x_j}
+\]
+
+这样的 Coulomb force **直接看到 gap denominators**。
+
+于是 dynamics 很可能立即看到。
+
+---
+
+## 3. 第一件应该算的东西：ACUE configuration 的 initial velocity field
+
+把 circle unwrap 到 microscopic scale。
+
+令
+
+\[
+y_j=N\theta_j,
+\]
+
+于是 CUE 极限是 sine process，而 ACUE 位于
+
+\[
+y_j\in \frac12\mathbb Z
+\]
+
+的 lattice 上。
+
+定义 Rodgers–Tao-type flow：
+
+\[
+\dot y_k
+=
+2\,\mathrm{PV}
+\sum_{j\ne k}
+\frac{1}{y_k-y_j}.
+\tag{D}
+\]
+
+严格讲，对 circle 更自然的版本其实是
+
+\[
+\boxed{
+\dot\theta_k
+=
+\sum_{j\ne k}
+\cot\pi(\theta_k-\theta_j)
+}
+\tag{C}
+\]
+
+这是 circular logarithmic Coulomb flow。
+
+现在取
+
+\[
+X\sim\mathrm{ACUE}_N.
+\]
+
+第一批 observable 不应该去算 evolved pair correlation；太重了。
+
+先算：
+
+\[
+V_k(X)
+=
+\sum_{j\ne k}
+\cot\pi(\theta_k-\theta_j).
+\]
+
+以及
+
+\[
+\mathcal V_2(X)
+=
+\frac1N\sum_k |V_k|^2.
+\]
+
+问题变成：
+
+\[
+\boxed{
+\mathbf E_{\rm ACUE}\mathcal V_2
+\stackrel{?}{\neq}
+\mathbf E_{\rm CUE}\mathcal V_2
+}
+\]
+
+甚至 scaling exponent 会不会不同。
+
+这个量本身就是一个 dynamic observable：
+
+\[
+\mathcal V_2
+=
+\|\dot X(0)\|^2.
+\]
+
+它等于 configuration 对 Coulomb relaxation 的 instantaneous susceptibility。
+
+---
+
+## 4. 我怀疑最强信号其实不在 velocity，而在 acceleration / curvature
+
+因为 CUE density 本身就是
+
+\[
+d\mu_{\rm CUE}
+\propto
+\prod_{i<j}
+|e^{i\theta_i}-e^{i\theta_j}|^2d\theta,
+\]
+
+所以
+
+\[
+\nabla_{\theta_k}\log\mu_{\rm CUE}
+=
+2\sum_{j\ne k}
+\cot\frac{\theta_k-\theta_j}{2}.
+\]
+
+也就是说 Coulomb vector field 正是 Vandermonde energy 的 gradient。
+
+ACUE 则是**同一个 Vandermonde weight 被 restrict 到 lattice**。
+
+因此这是一个非常特殊的 pair：
+
+\[
+\boxed{
+\text{continuous Gibbs equilibrium}
+\quad\text{vs}\quad
+\text{lattice-restricted Gibbs equilibrium}
+}
+\]
+
+Static polynomial observables 可以高度相同。
+
+但它们对 continuous gradient flow 的响应完全没理由相同。
+
+这意味着可以研究 infinitesimal generator。
+
+设
+
+\[
+L
+=
+\sum_k V_k(\theta)\partial_{\theta_k}.
+\]
+
+那么对 Fourier observable
+
+\[
+p_m(\theta)
+=
+\operatorname{tr}U^m
+=
+\sum_k e^{im\theta_k},
+\]
+
+动态导数就是
+
+\[
+Lp_m.
+\]
+
+接着看
+
+\[
+L^2p_m,\quad L^3p_m,\dots
+\]
+
+我觉得这里可能出现一个非常漂亮的 phenomenon：
+
+\[
+\mathbf E_{\rm ACUE}[p_m]
+=
+\mathbf E_{\rm CUE}[p_m],
+\]
+
+甚至
+
+\[
+\mathbf E_{\rm ACUE}|p_m|^2
+=
+\mathbf E_{\rm CUE}|p_m|^2
+\]
+
+对 \(m<N\) 都成立，
+
+**但是**
+
+\[
+\boxed{
+\mathbf E_{\rm ACUE}[L^r |p_m|^2]
+\neq
+\mathbf E_{\rm CUE}[L^r |p_m|^2]
+}
+\]
+
+可能在非常小的
+
+\[
+m\ll N,\qquad r=1,2,3
+\]
+
+就已经分开。
+
+如果是真的，这就很重要。
+
+因为我们把 Tao 的「必须进入 \(j>N\) 高频」障碍变成：
+
+\[
+\boxed{
+\text{low spatial frequency}
++
+\text{dynamic derivatives}
+}
+\]
+
+而不是直接要求 high Fourier frequency。
+
+---
+
+## 5. 为什么 dynamics 会把 high frequency “fold back” 到 low frequency
+
+这是我觉得这里最值得算的数学机制。
+
+考虑
+
+\[
+p_m=\sum_kz_k^m,
+\qquad z_k=e^{i\theta_k}.
+\]
+
+Coulomb interaction 里出现
+
+\[
+\frac{z_k+z_j}{z_k-z_j}.
+\]
+
+所以 \(Lp_m\) 会包含类似
+
+\[
+\sum_{j\ne k}
+z_k^m
+\frac{z_k+z_j}{z_k-z_j}.
+\]
+
+利用对称化，
+
+\[
+\frac{
+z_k^m(z_k+z_j)-z_j^m(z_j+z_k)
+}{z_k-z_j}
+\]
+
+变成一个 polynomial：
+
+\[
+(z_k+z_j)
+\frac{z_k^m-z_j^m}{z_k-z_j}
+=
+(z_k+z_j)
+\sum_{\ell=0}^{m-1}
+z_k^{m-1-\ell}z_j^\ell.
+\]
+
+所以 generator 会把单个 Fourier mode 变成 **products of lower modes**。
+
+schematically：
+
+\[
+\boxed{
+Lp_m
+=
+a_m p_m+
+\sum_{a+b=m}c_{a,b}p_ap_b.
+}
+\]
+
+再施加一次 \(L\)：
+
+\[
+L^2p_m
+\]
+
+就出现 cubic trace products。
+
+继续下去，就是一个不断增长的 moment algebra。
+
+这很有意思，因为 ACUE 的 static protection 是：
+
+\[
+\sum j a_j\le N
+\]
+
+以内的 moment identities。
+
+Dynamics 会使 degree 不断增长：
+
+\[
+m
+\rightarrow
+2m
+\rightarrow
+3m
+\rightarrow\cdots.
+\]
+
+于是即使起始 observable 是
+
+\[
+m=1
+\]
+
+或者 \(m=2\)，
+
+经过 \(r\) 次 dynamic derivative 后，**effective degree** 可能增长到 \(r\)。
+
+所以存在一个 natural question：
+
+\[
+r_*(N)
+=
+\min\{r:
+\mathbf E_{\rm ACUE}L^rF
+\neq
+\mathbf E_{\rm CUE}L^rF
+\}.
+\]
+
+如果
+
+\[
+r_*(N)\sim N,
+\]
+
+那没太大帮助。
+
+但如果由于 gap singularity / lattice aliasing，
+
+\[
+\boxed{r_*(N)=O(1)}
+\]
+
+或者
+
+\[
+O(\log N),
+\]
+
+这就完全不一样了。
+
+这应该是我们最先 computationally attack 的问题。
+
+---
+
+## 6. 这里甚至可能有一个比 Tao static \(j>N\) barrier 更尖锐的机制：aliasing
+
+ACUE 的 lattice 是
+
+\[
+z_k^{2N}=e^{i\phi}
+\]
+
+同一个 global phase。
+
+因此 Fourier mode 有 exact aliasing：
+
+\[
+p_{m+2N}
+=
+e^{i\phi}p_m.
+\]
+
+Tao 已经利用这个观察到：
+
+\[
+\mathbf E_{\rm ACUE}
+|\operatorname{tr}U^j|^2
+=
+\min_{k\in\mathbb Z}|j-2Nk|,
+\]
+
+所以 \(j>N\) 后直接偏离 CUE。
+
+但 nonlinear dynamics 可以做一件 static linear Fourier observable 做不到的事：
+
+\[
+\text{low modes}
+\xrightarrow{L}
+\text{mode products}
+\xrightarrow{L^r}
+\text{total degree}\ge2N
+\xrightarrow{\text{alias}}
+\text{low mode again}.
+\]
+
+即
+
+\[
+\boxed{
+\text{high-frequency defect}
+\longrightarrow
+\text{nonlinear aliasing}
+\longrightarrow
+\text{low-frequency observable}.
+}
+\]
+
+这个机制非常像 signal processing 里的 frequency mixing。
+
+这可能就是你寻找的：
+
+> ACUE high-frequency defect 是否能够通过 zero dynamics 很快泄露到低频 observable？
+
+我认为这是目前最清楚、最可计算的 formulation。
+
+---
+
+## 7. 甚至可以把它表成一个“ACUE dynamic instability conjecture”
+
+我会先测试这样一个 finite-\(N\) conjecture。
+
+设
+
+\[
+\mu_A=\mathrm{ACUE}_N,\qquad
+\mu_C=\mathrm{CUE}_N.
+\]
+
+令 \(\Phi_t\) 为 circular Coulomb flow。
+
+考虑 pushforward measure
+
+\[
+\mu_A^t=(\Phi_t)_*\mu_A,
+\qquad
+\mu_C^t=(\Phi_t)_*\mu_C.
+\]
+
+寻找一个低复杂度 observable \(F_N\)，例如
+
+\[
+F_N(U)=|\operatorname{tr}U^m|^2,
+\qquad m=O(1),
+\]
+
+使得虽然
+
+\[
+\mathbf E_{\mu_A}F_N
+=
+\mathbf E_{\mu_C}F_N,
+\]
+
+但是存在
+
+\[
+t_N\to0
+\]
+
+满足
+
+\[
+\boxed{
+\left|
+\mathbf E_{\mu_A^{t_N}}F_N-
+\mathbf E_{\mu_C^{t_N}}F_N
+\right|
+\gg1.
+}
+\]
+
+最激进的版本是
+
+\[
+t_N\asymp N^{-2}
+\]
+
+这种 microscopic relaxation time。
+
+如果成立，它说明：
+
+> ACUE 只有 static camouflage，没有 dynamical camouflage。
+
+---
+
+## 8. 但需要特别小心：Rodgers–Tao flow 本身会趋向 arithmetic progression
+
+这里有一个反直觉点。
+
+Rodgers–Tao 的 zero flow **不是让 zeros 趋向 GUE**。
+
+相反，在假设 \(\Lambda<0\) 后，足够长的 repulsive flow 会让它们趋向更 rigid 的 **local arithmetic progression**。这正是最终导致和 Montgomery statistics 冲突的地方。
+
+而 ACUE 本身已经具有强 lattice structure。
+
+所以如果我们只是问：
+
+> “ACUE 在 Coulomb flow 下是否被破坏？”
+
+答案未必。
+
+甚至可能是：
+
+\[
+\mathrm{ACUE}
+\rightarrow
+\text{更加 rigid}.
+\]
+
+真正要看的不是 rigidity 本身。
+
+而是：
+
+\[
+\boxed{
+\text{ACUE 的 discrete lattice rigidity}
+\quad\text{和}\quad
+\text{zero-flow 产生的 continuous equilibrium rigidity}
+}
+\]
+
+是不是兼容。
+
+这是两个完全不同的 rigidity。
+
+ACUE 要求：
+
+\[
+\Delta_j\in\frac1{2N}\mathbb Z.
+\]
+
+而 Coulomb equilibrium 要求局部 force balance：
+
+\[
+\sum_{j\ne k}
+\frac1{x_k-x_j}\approx0.
+\]
+
+除非 configuration 真的是 arithmetic progression，否则两者一般冲突。
+
+所以我们可以定义一个 **force defect**
+
+\[
+\boxed{
+D(X)
+=
+\sum_k
+\left|
+\sum_{j\ne k}
+\frac1{x_k-x_j}
+\right|^2
+}
+\]
+
+或者 circular version：
+
+\[
+D_{\rm circ}(X)
+=
+\sum_k
+\left|
+\sum_{j\ne k}
+\cot\pi(\theta_k-\theta_j)
+\right|^2.
+\]
+
+这可能就是最直接的 observable。
+
+---
+
+## 9. 甚至可以构造一个 Rodgers–Tao-style Lyapunov energy
+
+Rodgers–Tao proof 真正有力量的部分不是 ODE 本身，而是他们控制一个 integrated local energy，然后证明它越来越小，最终逼近 classical locations / arithmetic progression。论文后半部分大量分析的正是这种 energy control。
+
+我们可以为 ACUE 定义：
+
+\[
+E_{\rm force}(X)
+=
+\sum_k |V_k(X)|^2,
+\]
+
+或者 gap strain：
+
+\[
+E_{\rm gap}(X)
+=
+\sum_j
+\left(
+\frac{\Delta_j}{\bar\Delta}-1
+\right)^2.
+\]
+
+然后研究：
+
+\[
+\frac{d}{dt}E(\Phi_t X).
+\]
+
+真正值得找的是一个 observable 满足：
+
+\[
+\boxed{
+E_{\rm CUE}'(0)=O(1)
+}
+\]
+
+但
+
+\[
+\boxed{
+E_{\rm ACUE}'(0)\sim N^\alpha
+}
+\]
+
+或者反过来。
+
+那就得到一个 parametrically enhanced discriminator。
+
+这比寻找一个 tiny static moment discrepancy 强得多。
+
+---
+
+## 10. 和我们已有的 ACOE counterexamples 怎么接
+
+这里可能反而比 ACUE 更漂亮。
+
+如果我们已经有一系列 **ACOE counterexamples**，它们保持了某些：
+
+- rank；
+- trace；
+- low moments；
+- Gram constraints；
+- determinantal-type identities；
+
+但沿某个 directional inverse-Gram / Schur complement 方向出现 pathological behavior，
+
+那就可以给每个 counterexample \(X\) 加一个 deformation：
+
+\[
+X_t=X+tV(X)+O(t^2).
+\]
+
+然后研究我们之前的 calibrated pressure
+
+\[
+\Psi_N(\theta;X)
+\]
+
+沿这个 flow 的 response：
+
+\[
+\boxed{
+\frac{d}{dt}
+\Psi_N(\theta;X_t)\Big|_{t=0}
+}
+\]
+
+和
+
+\[
+\boxed{
+\frac{d^2}{dt^2}
+\Psi_N(\theta;X_t)\Big|_{t=0}.
+}
+\]
+
+这可能非常关键。
+
+因为我们以前的反例证明的是：
+
+\[
+\text{static invariants}
+\nRightarrow
+\text{directional inverse control}.
+\]
+
+而 dynamics 本质上提供了一个 canonical direction \(V(X)\)。
+
+于是问题变成：
+
+\[
+\boxed{
+\text{static low-moment equivalence}
+\nRightarrow
+\text{dynamic response equivalence}.
+}
+\]
+
+这个 statement 我觉得比原先 counterexample 本身更有数学结构。
+
+---
+
+## 11. 我会把计算项目分成四层
+
+#### Layer A — finite \(N\) exact symbolic
+
+先做
+
+\[
+N=2,3,\dots,10.
+\]
+
+ACUE 可以 exact enumerate lattice subsets：
+
+\[
+\{k_1,\dots,k_N\}
+\subset\mathbb Z/2N\mathbb Z
+\]
+
+用 Vandermonde-square weight。
+
+然后 exact 计算
+
+\[
+\mathbf E_{\rm ACUE}L^r
+|\operatorname{tr}U^m|^2
+\]
+
+对
+
+\[
+m=1,2,3,\qquad r=1,\dots,8.
+\]
+
+同时用 Selberg / Haar identities 算 CUE。
+
+我们第一件要找的是：
+
+\[
+(r,m)
+\]
+
+最早在哪里 break。
+
+---
+
+#### Layer B — generator algebra
+
+符号化推导：
+
+\[
+Lp_m
+\]
+
+写成 power sums
+
+\[
+p_a p_b.
+\]
+
+然后自动生成
+
+\[
+L^rp_m.
+\]
+
+这其实非常适合 AI + symbolic algebra。
+
+寻找：
+
+\[
+\text{degree growth},
+\quad
+\text{aliasing structure},
+\quad
+\text{first ACUE-sensitive term}.
+\]
+
+---
+
+#### Layer C — continuum asymptotics
+
+证明：
+
+\[
+\mathbf E_{\rm ACUE}L^rF-
+\mathbf E_{\rm CUE}L^rF
+\]
+
+的 asymptotic。
+
+特别寻找：
+
+\[
+O(1),\quad N^\alpha,\quad e^{-cN}
+\]
+
+是哪种 scaling。
+
+---
+
+#### Layer D — number theoretic lifting
+
+最后才问：
+
+是否存在 zeta-side deformation operator
+
+\[
+\mathcal L_\zeta
+\]
+
+使得这些 dynamic observables 可以写成 primes / Dirichlet-polynomial quantities。
+
+这是最难的一步。
+
+但是如果我们先发现一个 ridiculously simple observable，例如
+
+\[
+L^2|\operatorname{tr}U|^2,
+\]
+
+在 ACUE/CUE 之间已经不同，那么就可以 reverse engineer 它对应到 zeta 的什么 quantity。
+
+---
+
+## 12. 这条路线最大的潜在 payoff
+
+Tao 在 2019 年指出，static pair correlation 如果想直接打掉 Alternative Hypothesis，你至少需要突破到相当于
+
+\[
+j>N
+\]
+
+的区间，而这已经接近 averaged Hardy–Littlewood with power-saving，现有技术非常难。
+
+所以真正理想的结果不是：
+
+\[
+\text{再找到一个 }j>N\text{ observable}.
+\]
+
+而是证明：
+
+\[
+\boxed{
+\text{nonlinear dynamics converts inaccessible }
+j>N
+\text{ information into accessible }j<N
+\text{ response}.
+}
+\]
+
+这才会改变 problem difficulty。
+
+可以把整个目标压成一句：
+
+\[
+\boxed{
+\textbf{Does ACUE remain indistinguishable from CUE under infinitesimal Coulomb evolution?}
+}
+\]
+
+如果答案是 **no already at bounded dynamic order \(r\)**，那就非常值得追。
+
+而且它和 Rodgers–Tao 的思想不是表面类比，而是很精确的同一种机制：
+
+\[
+\begin{gathered}
+\text{bad adversarial state}\\
+\downarrow\\
+\text{evolve under canonical dynamics}\\
+\downarrow\\
+\text{hidden rigidity becomes amplified}\\
+\downarrow\\
+\text{low-complexity observable detects contradiction}.
+\end{gathered}
+\]
+
+我认为我们下一步最应该做的，不是继续抽象讨论，而是直接把 **ACUE finite-\(N\) generator \(L\)** 写出来，然后 exact enumerate \(N\le10\)，计算
+
+\[
+L^r|\operatorname{tr}U^m|^2
+\]
+
+到底第几个 \(r\) 开始 distinguish CUE/ACUE。这个实验很便宜，却能直接判断这条路线究竟是“漂亮类比”还是有真正的新 obstruction。
+
+# Incoming proposal; claims require audit 44: heat_depth_classification_proposal
+
+Source: `research/incoming/heat_depth_classification_proposal.md`. SHA-256: `5d7ebadefdbc15f684ba0436177565b2d0e46c5b782e956ec09e733583b3a47e`.
+
+## Incoming mathematical proposal: retained for audit
+
+Received 2026-09-05. This is user-supplied prior mathematical discussion, not an accepted proof or an instruction that overrides the current research workflow. Several claims are under independent audit. Consult the current claim ledger and subsequent reports.
+
+继续。沿着这个方向再推，我现在觉得可以把你们的几个 counterexample 分成三种：**\(\Lambda\) 直接杀掉的、需要 marked-\(\Lambda\) 才能杀掉的、以及普通 heat flow 确实杀不掉的。** 这个分类本身很有价值。
+
+Rodgers–Tao 的关键点就是 hitting-time geometry：假设 \(\Lambda<0\)，zero dynamics 在 \((\Lambda,0]\) 内越来越 rigid，最终和已知 zero statistics 冲突。 而 function-field Newman 工作里也确实已经利用“deformed polynomial 出现 double root \(\Rightarrow\Lambda=0\)”这一几何机制。
+
+---
+
+## 1. 先定义我们真正应该算的 dynamic observable
+
+对任何你们的 circular configuration \(X\)，写
+
+\[
+P_X(z)=\prod_{j=1}^N(z-e^{i\theta_j})
+      =\sum_{k=0}^N a_k z^k.
+\]
+
+取 centered multiplicative heat flow
+
+\[
+\boxed{
+P_{X,t}(z)
+=
+\sum_{k=0}^N
+e^{-t k(N-k)}a_kz^k.
+}
+\]
+
+\(t>0\) 是 forward relaxation，\(t<0\) 是 backward heat。
+
+定义
+
+\[
+\boxed{
+\Lambda_H(X)
+=
+\inf\left\{
+t:P_{X,s}\text{ 的全部 roots 对所有 }s\ge t
+\text{ 都在 }S^1
+\right\}.
+}
+\]
+
+因为我们从 \(t=0\) 的 unit-circle configuration 出发，
+
+\[
+\Lambda_H(X)\le0.
+\]
+
+generic 情况下 first failure 是两个 roots 碰撞，因此
+
+\[
+\boxed{
+\operatorname{Disc}_z P_{X,\Lambda_H}=0.
+}
+\]
+
+所以以后不应该把 \(\Lambda\) 想成“又一个 zero statistic”。
+
+更准确地说：
+
+\[
+\boxed{
+-\Lambda_H(X)
+=
+\text{configuration 沿 canonical heat ray 到 discriminant hypersurface 的距离}.
+}
+\]
+
+这正适合你们那些 static invariants 区分不了的 counterexamples。
+
+---
+
+## 2. 我已经算出一个相当强的 ACUE benchmark
+
+我把真正的 ACUE 做了 finite exact enumeration：在 \(2N\)-th roots lattice 中取 \(N\) 个点，按 Vandermonde\(^2\) 权重。
+
+Rodgers–Vallabhaneni 已经证明 ACUE 的 characteristic-polynomial moments/ratios 有很强的 exact matching structure，所以用 ordinary low moments 区分它本来就困难。
+
+但 \(\Lambda\) 的结果非常干净。
+
+排除两个 perfect alternating clock states 后，我算到：
+
+| \(N\) | ACUE clock mass | conditional median \(-\Lambda\) | \(N^2\operatorname{median}(-\Lambda)\) |
+|---:|---:|---:|---:|
+| 2 | 0.500000 | 0.346574 | 1.386294 |
+| 3 | 0.250000 | 0.157193 | 1.414739 |
+| 4 | 0.125000 | 0.0886385 | 1.418216 |
+| 5 | 0.062500 | 0.0567631 | 1.419078 |
+| 6 | 0.031250 | 0.0394271 | 1.419374 |
+| 7 | 0.015625 | 0.0289694 | 1.419499 |
+
+这已经非常不像 finite-\(N\) accident：
+
+\[
+\boxed{
+-\Lambda_{\rm ACUE}^{\rm typical}
+\sim \frac{1.4196\ldots}{N^2}.
+}
+\]
+
+而 CUE 最小 gap 的 rigorous scale 是
+
+\[
+\delta_{\min}^{\rm CUE}\asymp N^{-4/3}.
+\] 
+
+
+generic close pair 的 backward collision obeys
+
+\[
+\dot\delta\simeq \frac4\delta,
+\]
+
+所以
+
+\[
+-\Lambda\simeq \frac{\delta_{\min}^2}{8}.
+\]
+
+因此 CUE 应该是
+
+\[
+\boxed{
+-\Lambda_{\rm CUE}\asymp N^{-8/3},
+}
+\]
+
+而 lattice adversary 是
+
+\[
+\boxed{
+-\Lambda_{\rm ACUE}\asymp N^{-2}.
+}
+\]
+
+ratio 是
+
+\[
+\frac{-\Lambda_{\rm ACUE}}
+{-\Lambda_{\rm CUE}}
+\asymp N^{2/3}.
+\]
+
+也就是说：
+
+> **ACUE 的 defect 不是它太容易坏，而是它把 RH-like condition 满足得过于 robust。**
+
+CUE 是 “barely RH”；ACUE 是 “too deeply RH”。
+
+这个 dynamic interpretation 很漂亮。
+
+---
+
+## 3. 更好的是：\(1.41964\) 这个常数我基本找到来源了
+
+考虑你们 half-lattice / PairCeiling 类型中最自然的 single-dislocation configuration。
+
+从 alternating clock
+
+\[
+\{e^{i(2j+1)\pi/N}\}
+\]
+
+中拿掉最靠近 \(1\) 左边的点
+
+\[
+r_N=e^{-i\pi/N}
+\]
+
+再放入 \(1\)。
+
+于是 gap pattern 是
+
+\[
+1,2,2,\ldots,2,3
+\]
+
+以 half-lattice spacing 为单位。
+
+它的 polynomial **exactly** 是
+
+\[
+\boxed{
+P_N(z)
+=
+(z-1)\frac{z^N+1}{z-r_N}.
+}
+\]
+
+现在做 critical scaling
+
+\[
+t=-\frac{s}{N^2},
+\qquad
+z=e^{iu/N}.
+\]
+
+把 heat-deformed polynomial 展开，\(N\to\infty\) 后得到一个非常漂亮的 local limiting function：
+
+\[
+\boxed{
+F_s(u)
+=
+1+e^{iu}
++i\pi
+\int_0^1
+e^{s x(1-x)}
+e^{i(\pi+u)x}\,dx.
+}
+\]
+
+乘掉无关 phase，
+
+\[
+G_s(u)=e^{-iu/2}F_s(u)
+\]
+
+实际上是实函数，而且可以写成
+
+\[
+\boxed{
+G_s(u)
+=
+2\cos\frac u2
+-
+2\pi
+\int_0^{1/2}
+e^{s(1/4-y^2)}
+\cos((\pi+u)y)\,dy.
+}
+\]
+
+first collision 就是 double zero：
+
+\[
+G_s(u)=0,
+\]
+
+\[
+\partial_uG_s(u)=0.
+\]
+
+我直接数值解这个两方程系统，得到
+
+\[
+\boxed{
+s_*=1.41964034\ldots
+}
+\]
+
+以及
+
+\[
+u_*=1.81294214\ldots.
+\]
+
+因此这个 particular adversarial configuration 有非常明确的 asymptotic：
+
+\[
+\boxed{
+\Lambda_N
+=
+-\frac{1.41964034\ldots}{N^2}
++o(N^{-2}).
+}
+\]
+
+而直接有限 \(N\) 计算：
+
+\[
+N^2(-\Lambda_N)
+=
+1.41908,\,
+1.41937,\,
+1.41956,\,
+1.41961,\,
+1.41964,\ldots
+\]
+
+确实向这个常数收敛。
+
+**这个我觉得已经可以升级成一个真正值得证明的 proposition。**
+
+---
+
+## 4. 现在回到你指出的几个 ACOE counterexamples
+
+下面是最关键的分类。
+
+### Third-moment escape：\(\Lambda\) 大概率有效，但不是因为 heat mixing
+
+这里要修正我们最初的直觉。
+
+如果
+
+\[
+a_k(t)=e^{-tk(N-k)}a_k,
+\]
+
+heat flow 本身是 diagonal 的。
+
+因此一个 third-moment defect 并不会自动
+
+\[
+m=3\rightarrow m=20\rightarrow m=1
+\]
+
+这样 nonlinear frequency fold-back。
+
+**不存在这种免费 miracle。**
+
+真正有用的是 \(\Lambda\) 的非线性。
+
+写
+
+\[
+D(a,t)
+=
+\operatorname{Disc}\left(
+\sum_k e^{-tk(N-k)}a_kz^k
+\right).
+\]
+
+first collision 满足
+
+\[
+D(a,\Lambda(a))=0.
+\]
+
+如果 collision 是 generic single double-root，那么 implicit differentiation 给
+
+\[
+\boxed{
+d\Lambda[v]
+=
+-
+\frac{
+D_aD(a,\Lambda)[v]
+}{
+\partial_tD(a,\Lambda)
+}.
+}
+\]
+
+所以假设你的 third-moment counterexample direction \(v\) 满足
+
+\[
+dM_1[v]=dM_2[v]=0,
+\]
+
+甚至很多 low moments 都为零，只要
+
+\[
+D_aD[v]\neq0,
+\]
+
+就有
+
+\[
+d\Lambda[v]\neq0.
+\]
+
+这给出一个很强的 geometric statement：
+
+\[
+\boxed{
+\text{moment-null direction}
+\not\Rightarrow
+\text{heat-depth-null direction}.
+}
+\]
+
+而 generic transversality 下，后者应该极少发生。
+
+---
+
+## 5. Collision-strata counterexample：这是 \(\Lambda\) 最强的一类
+
+如果你们那个 counterexample 本身已经逼近
+
+\[
+\theta_j=\theta_{j+1},
+\]
+
+那么几乎什么都不用做。
+
+设
+
+\[
+\delta(\varepsilon)
+=
+\theta_{j+1}-\theta_j
+=
+c\varepsilon+O(\varepsilon^2).
+\]
+
+local zero dynamics 给
+
+\[
+\frac{d}{dt}\delta^2=8+O(\delta),
+\]
+
+所以
+
+\[
+\boxed{
+-\Lambda(\varepsilon)
+=
+\frac{c^2}{8}\varepsilon^2
++o(\varepsilon^2).
+}
+\]
+
+而如果 counterexample 正好位于 collision stratum：
+
+\[
+\delta=0,
+\]
+
+则 generic 情况直接得到
+
+\[
+\boxed{\Lambda=0}.
+\]
+
+这和 function-field Newman work 中利用 double root 得到 \(\Lambda=0\) 是完全同型的机制。
+
+所以你们的 collision family 不是 peripheral example。
+
+**它反而可能是把整个 ACOE construction 接到 Newman theory 上最直接的桥。**
+
+---
+
+## 6. PairCeiling / half-lattice counterexample：这是目前计算结果最强的一类
+
+这就是上面的 \(1.41964034\) calculation。
+
+如果 PairCeiling constraint 最终意味着 adversarial configuration 有一个 hard lower spacing
+
+\[
+\delta_{\min}\gtrsim\frac{c}{N},
+\]
+
+那么它和 CUE 有本质冲突：
+
+\[
+\delta_{\min}^{\rm CUE}\sim N^{-4/3}
+\ll N^{-1}.
+\]
+
+通过 heat hitting time，静态 gap obstruction 变成：
+
+\[
+\boxed{
+-\Lambda_{\rm adversary}
+\gtrsim N^{-2},
+}
+\]
+
+而
+
+\[
+\boxed{
+-\Lambda_{\rm CUE}
+\sim N^{-8/3}.
+}
+\]
+
+这比说“ACUE gap 是 lattice-valued”更好，因为 \(\Lambda\) 是一个 deformation-invariant flavored quantity，而不是直接检查 lattice support。
+
+换句话说，可以希望证明：
+
+\[
+\boxed{
+N^{8/3}(-\Lambda_{\rm CUE})
+=O_{\mathbb P}(1),
+}
+\]
+
+但
+
+\[
+\boxed{
+N^{8/3}(-\Lambda_{\rm ACOE})
+\to\infty.
+}
+\]
+
+这会是一个非常 clean 的 **dynamic anti-ACOE theorem**。
+
+---
+
+## 7. Gram / integer-cone counterexample：这里出现一个重要 negative result
+
+这个是最需要小心的。
+
+你们之前的构造里，一个重要现象是：
+
+\[
+\operatorname{rank},\quad
+\operatorname{tr},\quad
+\|G\|_{HS}
+\]
+
+甚至其他 global Gram data 可以相同，但某个 directional Schur complement / inverse-Gram quantity 完全不同。
+
+如果两个 counterexamples 甚至是 **isospectral**：
+
+\[
+\operatorname{Spec}(G_1)
+=
+\operatorname{Spec}(G_2),
+\]
+
+那么任何只对 characteristic polynomial 做 heat flow 的普通 \(\Lambda\) 都必然满足
+
+\[
+\boxed{
+\Lambda(G_1)=\Lambda(G_2).
+}
+\]
+
+因为它根本看不到 eigenvectors。
+
+所以这里 **ordinary \(\Lambda\) 不够**。
+
+但这反而告诉我们该怎么升级。
+
+定义一个 marked rank-one deformation：
+
+\[
+G_{\eta,u}
+=
+G+\eta uu^*.
+\]
+
+然后 Cayley-transform 到 unit circle：
+
+\[
+U_{\eta,u}
+=
+(G_{\eta,u}-iI)
+(G_{\eta,u}+iI)^{-1}.
+\]
+
+再定义
+
+\[
+\boxed{
+\Lambda_u(G;\eta)
+=
+\Lambda_H(U_{\eta,u}).
+}
+\]
+
+最后取 dynamic susceptibility
+
+\[
+\boxed{
+\chi_\Lambda(G;u)
+=
+\left.
+\frac{\partial}{\partial\eta}
+\Lambda_u(G;\eta)
+\right|_{\eta=0}.
+}
+\]
+
+这时候 rank-one perturbation theory 给
+
+\[
+\frac{\partial\lambda_j}{\partial\eta}
+=
+|\langle u,v_j\rangle|^2.
+\]
+
+所以它直接看到 eigenvector alignment。
+
+而 matrix determinant lemma 给：
+
+\[
+\det(zI-G-\eta uu^*)
+=
+\det(zI-G)
+\left(
+1-\eta\,u^*(zI-G)^{-1}u
+\right).
+\]
+
+因此 marked-\(\Lambda\) 天然连接的量正是
+
+\[
+\boxed{
+u^*(zI-G)^{-1}u,
+}
+\]
+
+即你们 counterexample 最后逼出来的 **directional inverse-Gram / Schur-complement quantity**。
+
+这个连接我认为非常重要：
+
+\[
+\boxed{
+\text{你们原来的 static counterexample}
+\quad\Longrightarrow\quad
+\text{需要 marked Newman constant}.
+}
+\]
+
+而不是简单的 scalar \(\Lambda\)。
+
+---
+
+## 8. Nyquist multiplicity defect：heat flow 在这里可能反而提供 spectral amplifier
+
+centered heat rate 是
+
+\[
+c_k=k(N-k).
+\]
+
+它在
+
+\[
+k=N/2
+\]
+
+达到最大值
+
+\[
+c_{\max}=N^2/4.
+\]
+
+因此 backward time
+
+\[
+t=-s/N^2
+\]
+
+下，
+
+\[
+a_k\mapsto
+e^{s(k/N)(1-k/N)}a_k.
+\]
+
+中频/Nyquist-center defect 被乘上最大的 factor：
+
+\[
+e^{s/4}.
+\]
+
+所以如果你们所谓 Nyquist multiplicity counterexample 是集中在 **middle exterior-power coefficient** 上，那么 \(\Lambda\) 恰好会优先 amplify 它。
+
+但这里还有另一种情况。
+
+如果“Nyquist defect”指的是 \(2N\)-lattice 上的 Fourier alias channel \(m=N\)，那 ordinary trace generator 可能继续保护它，不能简单说 heat flow 会 leak 出来。
+
+因此这里应该测的不是
+
+\[
+L^r\operatorname{tr}(U^m),
+\]
+
+而是
+
+\[
+\boxed{
+\Lambda,\qquad
+\partial_\eta\Lambda,\qquad
+\operatorname{Disc}(P_t).
+}
+\]
+
+也就是 hitting-time quantities。
+
+---
+
+## 9. Cylinder-invisible subspace：这里可以证明为什么“dynamic low moment”失败
+
+这个其实特别有启发性。
+
+假设你们 cylinder observables 只看一个有限-dimensional space
+
+\[
+\mathcal V_{\rm obs}
+\]
+
+而存在 invisible direction
+
+\[
+v\in\mathcal V_{\rm obs}^{\perp}.
+\]
+
+因为 heat operator 在 Fourier/coefficient basis 中 diagonal，
+
+\[
+H_tv
+\]
+
+通常仍然留在同一个 invariant hidden sector。
+
+所以：
+
+\[
+F(X)=F(X+\varepsilon v)
+\]
+
+很可能推出
+
+\[
+F(H_tX)
+=
+F(H_t(X+\varepsilon v))
+\]
+
+对所有 \(t\) 都成立。
+
+也就是说：
+
+\[
+\boxed{
+\text{linear heat flow 本身不会神奇地摧毁 cylinder invisibility}.
+}
+\]
+
+这是一个很重要的 negative result。
+
+可是 \(\Lambda\) 不一样，因为它是
+
+\[
+\boxed{
+\text{heat orbit 与 discriminant variety 的 first hitting time}.
+}
+\]
+
+即使整个 hidden subspace 被 heat operator invariant 地送来送去，两条 orbit 到
+
+\[
+\mathcal D=\{\operatorname{Disc}=0\}
+\]
+
+的距离完全可能不同。
+
+所以在这一类 counterexample 上，capital-\(\Lambda\) **不是普通 dynamic observable，而是 nonlinear stopping-time observable**。
+
+这正是它真正的力量。
+
+---
+
+## 10. 我现在会把整个 program 提升成一个“transversality conjecture”
+
+设 static observables 为
+
+\[
+M=(M_1,\ldots,M_r),
+\]
+
+counterexample fiber 是
+
+\[
+\mathcal F_m
+=
+\{X:M(X)=m\}.
+\]
+
+这就是所有 static tests 看起来相同的 configuration manifold。
+
+再定义 heat hitting time
+
+\[
+\tau(X)=-\Lambda_H(X).
+\]
+
+那么真正应该证明的是：
+
+\[
+\boxed{
+\tau|_{\mathcal F_m}
+\text{ generically nonconstant}.
+}
+\]
+
+微分版本就是：
+
+\[
+\ker DM_X
+\not\subseteq
+\ker D\Lambda_X.
+\]
+
+换句话说，存在 counterexample direction \(v\) 满足
+
+\[
+DM_X[v]=0
+\]
+
+但是
+
+\[
+\boxed{
+D\Lambda_X[v]\neq0.
+}
+\]
+
+如果普通 \(\Lambda\) 因为 isospectrality 失败，则加入 marks：
+
+\[
+\boxed{
+\{
+\Lambda_{u_1},
+\dots,
+\Lambda_{u_k}
+\}
+}
+\]
+
+直到
+
+\[
+\bigcap_j
+\ker D\Lambda_{u_j}
+\cap
+\ker DM
+=
+\{0\}.
+\]
+
+这已经有点像 **dynamic tomography**：
+
+static moments 给 coarse coordinates，
+
+marked Newman constants 给 directional coordinates。
+
+---
+
+## 11. 这和 function-field 最终怎么接
+
+我现在觉得最有希望的目标并不是直接证明
+
+\[
+\text{arithmetic Frobenius}\neq\text{ACOE}
+\]
+
+的全部 distribution。
+
+而是找一个 arithmetic family 满足：
+
+\[
+\boxed{
+-\Lambda_\chi
+\text{ 经适当 scaling 有 CUE law}
+}
+\]
+
+或者更弱地证明：
+
+\[
+\boxed{
+\Pr(
+-\Lambda_\chi<CN^{-8/3})
+>c
+}
+\]
+
+对某个固定 \(c>0\)。
+
+因为任何 half-lattice / PairCeiling adversary 如果有
+
+\[
+-\Lambda\gtrsim N^{-2},
+\]
+
+立即被排除。
+
+这只需要证明 arithmetic family 中存在足够多的 **very shallow RH configurations**。
+
+不需要证明完整 Montgomery pair correlation。
+
+这就是它真正可能改变 difficulty 的地方。
+
+---
+
+### 我现在最看好的具体 theorem target
+
+如果把刚才所有东西压缩成一个目标，我会选：
+
+\[
+\boxed{
+\begin{aligned}
+\textbf{Dynamic Anti-ACUE Conjecture:}\qquad
+&N^{8/3}(-\Lambda_{\rm CUE})
+\Rightarrow \mathcal L,\\
+&N^2(-\Lambda_{\rm ACUE})
+\Rightarrow \mathcal A,
+\end{aligned}
+}
+\]
+
+其中两个 limit 都 nondegenerate，而且
+
+\[
+\operatorname{supp}\mathcal A
+\]
+
+包含刚算出来的 single-dislocation constant
+
+\[
+1.41964034\ldots.
+\]
+
+然后对你们的 ACOE counterexamples 做更一般版本：
+
+\[
+\boxed{
+\text{static-moment matched adversary}
+\quad\Longrightarrow\quad
+\text{different heat-depth universality class}.
+}
+\]
+
+我认为现在最值得进一步往下证的两个点是：**第一，把 \(1.41964034\ldots\) 的 single-dislocation asymptotic rigorous 化；第二，把你们那个 fixed rank/trace/HS + directional Schur-complement counterexample 做成 marked-\(\Lambda_u\)，看 \(\partial_\eta\Lambda_u\) 是否真的随着 inverse-Gram pathology blow up。** 后者如果成立，会把我们之前两个看似完全不同的 counterexample program 和 Tao/Newman dynamics 真正接成同一个结构。
+
+# Incoming proposal; claims require audit 45: hard_gap_depth_bridge_proposal
+
+Source: `research/incoming/hard_gap_depth_bridge_proposal.md`. SHA-256: `5d281b4b2a3a3124c36d92bc8035476b0bd7a568081037385435efe4088c889c`.
+
+## Incoming mathematical proposal: retained for audit
+
+Received 2026-09-05. This is user-supplied prior mathematical discussion, not an accepted proof or an instruction that overrides the current research workflow. Several claims are under independent audit. Consult the current claim ledger and subsequent reports.
+
+是的。**这个桥成立，而且比“\(\Lambda\) 可以区分 CUE/ACUE”更重要。** 但精确表述需要稍微修正：
+
+\[
+\boxed{\mu\ \text{和}\ \Lambda\ \text{不是全局上一一换算的两个标量；}}
+\]
+
+它们是同一个 **first-collision geometry** 的两种坐标：
+
+- \(\mu\)：\(t=0\) 时 configuration 的 **hard-core / minimum-gap coordinate**；
+- \(-\Lambda\)：沿 backward heat flow 到达 discriminant/collision locus 的 **hitting-time coordinate**。
+
+而两者之间确实有一个 **exact coefficient \(1/8\)**，外加一个符号确定的 many-body correction。这个 correction 的存在，反而让 AH 的可证伪阈值成为 rigorous inequality，而不仅是 heuristic。
+
+---
+
+## 1. Lagarias–Rodgers 的 \(\mu\) 到底是什么
+
+Lagarias–Rodgers 定义 \(T_1\) 为所有在 bandwidth \(B=1\) 下 mimic sine process 的平稳点过程，然后定义
+
+\[
+\boxed{
+\mu
+=
+\sup\left\{
+m:
+\exists\,u\in T_1,\;
+|u_i-u_j|\ge m
+\quad\text{a.s. for all }i\neq j
+\right\}.
+}
+\]
+
+他们证明
+
+\[
+\mu\ge\frac12,
+\]
+
+并指出已有 extremal-function 方法应给
+
+\[
+\mu\le0.606894\ldots,
+\]
+
+同时明确提出可能实际上
+
+\[
+\boxed{\mu=\frac12}.
+\] 
+
+
+而 AH/ACUE scaling limit 恰好生活在 half-integer lattice 上，所以它具有
+
+\[
+\boxed{\delta_{\min}\ge\frac12}
+\]
+
+这个 deterministic hard-core property。ACUE 缩放后正是 Tao AH 所对应的离散 sine-type point process。
+
+所以 \(\mu\) 的核心问题实际上就是：
+
+> **你在保持 bandwidth-1 sine statistics 完全不可区分的同时，能把 zero configuration 推离 collision locus 多远？**
+
+这已经非常接近 Newman-depth 的语言了。
+
+---
+
+## 2. Rodgers–Tao ODE 给出精确换算
+
+Rodgers–Tao zero flow 是
+
+\[
+\dot x_k
+=
+2\sum_{i\neq k}'
+\frac{1}{x_k-x_i}.
+\] 
+
+
+现在取一对 **相邻 zeros**
+
+\[
+x_j<x_k,
+\qquad
+d=x_k-x_j.
+\]
+
+Rodgers–Tao 的精确 gap equation 是
+
+\[
+\boxed{
+\dot d
+=
+\frac4d
+-
+2d
+\sum_{i\neq j,k}
+\frac1{(x_i-x_k)(x_i-x_j)}.
+}
+\] 
+
+
+对于相邻 pair，所有其他 \(x_i\) 都在区间外，因此
+
+\[
+S(t):=
+\sum_{i\neq j,k}
+\frac1{(x_i-x_k)(x_i-x_j)}
+\ge0.
+\]
+
+所以
+
+\[
+\boxed{
+\dot d=\frac4d-2dS.
+}
+\]
+
+乘 \(2d\)：
+
+\[
+\boxed{
+\frac{d}{dt}d^2
+=
+8-4d^2S.
+}
+\tag{1}
+\]
+
+现在假设这对 zeros 沿 backward flow 在 \(t=t_*<0\) 首先碰撞：
+
+\[
+d(t_*)=0.
+\]
+
+从 \(t_*\) 积分到 \(0\)：
+
+\[
+d(0)^2
+=
+8(-t_*)
+-
+4\int_{t_*}^{0}d(t)^2S(t)\,dt.
+\]
+
+于是得到我认为整个连接里最重要的公式：
+
+\[
+\boxed{
+-t_*
+=
+\frac{d(0)^2}{8}
++
+\frac12
+\int_{t_*}^{0}
+d(t)^2S(t)\,dt.
+}
+\tag{2}
+\]
+
+这不是 scaling argument。
+
+这是 **exact identity**。
+
+因此：
+
+\[
+\boxed{
+-t_*\ge \frac{d(0)^2}{8}.
+}
+\tag{3}
+\]
+
+---
+
+## 3. 所以真正精确的“\(\mu\leftrightarrow\Lambda\)”是
+
+如果定义 local Newman depth
+
+\[
+D:=-\Lambda_{\rm local},
+\]
+
+那么对于 minimum gap \(m\)：
+
+\[
+\boxed{
+D
+=
+\frac{m^2}{8}
++
+\underbrace{
+\frac12\int d^2S\,dt
+}_{\text{many-body correction }\ge0}.
+}
+\tag{4}
+\]
+
+因此：
+
+\[
+\boxed{
+D\ge\frac{m^2}{8}.
+}
+\tag{5}
+\]
+
+也就是说，**bare conversion constant 精确就是**
+
+\[
+\boxed{\frac18}.
+\]
+
+所以我会把你说的“same object, two coordinates”精炼成：
+
+\[
+\boxed{
+\begin{gathered}
+\text{distance to collision at }t=0:\quad m\\
+\longleftrightarrow\\
+\text{time to collision under backward heat}:\quad D=-\Lambda\\
+D=\dfrac{m^2}{8}+\text{positive screening correction}.
+\end{gathered}
+}
+\]
+
+这比写成
+
+\[
+D=m^2/8
+\]
+
+更强也更正确。
+
+---
+
+## 4. 有限 \(N\) circle 上甚至存在一个 exact nonlinear version
+
+对于我们 ACUE 使用的 circle heat flow，Tao 的 root dynamics 是
+
+\[
+\boxed{
+\dot\theta_j
+=
+\sum_{k\neq j}
+\cot\frac{\theta_j-\theta_k}{2}.
+}
+\] 
+
+
+令相邻 gap
+
+\[
+\Delta=\theta_{j+1}-\theta_j.
+\]
+
+类似计算给出
+
+\[
+\dot\Delta
+=
+2\cot\frac{\Delta}{2}
+-
+\sin\frac{\Delta}{2}\,B(t),
+\qquad
+B(t)\ge0.
+\]
+
+现在选择一个非常巧的 gap coordinate：
+
+\[
+q(\Delta)
+=
+-\log\cos\frac{\Delta}{2}.
+\]
+
+那么
+
+\[
+\dot q\le1.
+\]
+
+因此，如果这对 roots 在 \(t=t_*\) backward collision，
+
+\[
+\boxed{
+-t_*
+\ge
+-\log\cos\frac{\Delta(0)}2.
+}
+\tag{6}
+\]
+
+这是 **finite \(N\) exact inequality**，不是 large-\(N\) approximation。
+
+---
+
+## 5. 现在把 gap 用 mean-spacing units 表示
+
+定义 normalized gap
+
+\[
+m_N
+=
+\frac{N\Delta_{\min}}{2\pi}.
+\]
+
+即 mean spacing 被归一化成 \(1\)。
+
+那么
+
+\[
+\Delta_{\min}
+=
+\frac{2\pi m_N}{N}.
+\]
+
+代进 (6)：
+
+\[
+\boxed{
+-\Lambda_N
+\ge
+-\log
+\cos\left(\frac{\pi m_N}{N}\right).
+}
+\tag{7}
+\]
+
+这就是我们一直缺的 **finite-\(N\) exact \(\mu\)-to-\(\Lambda\) bridge**。
+
+\(N\to\infty\)：
+
+\[
+-\log\cos x
+=
+\frac{x^2}{2}+O(x^4),
+\]
+
+所以
+
+\[
+\boxed{
+N^2(-\Lambda_N)
+\ge
+\frac{\pi^2}{2}m_N^2+o(1).
+}
+\tag{8}
+\]
+
+---
+
+## 6. 换成 Rodgers–Tao 的 local heat-time normalization，常数又回到 \(1/8\)
+
+定义 microscopic coordinate
+
+\[
+x=\frac{N\theta}{2\pi}
+\]
+
+和 microscopic heat time
+
+\[
+\boxed{
+s=\frac{N^2}{4\pi^2}t.
+}
+\]
+
+于是 (8) 就变成
+
+\[
+\boxed{
+-s_\Lambda
+\ge
+\frac{m^2}{8}.
+}
+\tag{9}
+\]
+
+所以：
+
+\[
+\boxed{
+\frac18
+}
+\]
+
+不是 normalization accident。
+
+circle finite-\(N\) 的
+
+\[
+-\log\cos\left(\frac{\pi m}{N}\right)
+\]
+
+在 local limit 下恰好退化成 Rodgers–Tao 的
+
+\[
+\frac{m^2}{8}.
+\]
+
+这两个 calculation 完全吻合。
+
+---
+
+## 7. 然后 AH 立刻给出一个硬数值阈值
+
+AH/ACUE 要求 gaps 位于
+
+\[
+\frac12\mathbb Z_{>0}.
+\]
+
+因此只要 configuration simple，
+
+\[
+m_{\min}\ge\frac12.
+\]
+
+代入 (9)：
+
+\[
+\boxed{
+-s_\Lambda
+\ge
+\frac{(1/2)^2}{8}
+=
+\frac1{32}.
+}
+\]
+
+即
+
+\[
+\boxed{
+D_{\rm AH}\ge0.03125.
+}
+\tag{10}
+\]
+
+这就是一个真正的 **numerical falsifiability threshold**。
+
+在 finite-circle normalization 中，同一个 statement 是
+
+\[
+\boxed{
+-\Lambda_N
+\ge
+-\log\cos\frac{\pi}{2N}.
+}
+\tag{11}
+\]
+
+或者 large \(N\)：
+
+\[
+\boxed{
+N^2(-\Lambda_N)
+\ge
+\frac{\pi^2}{8}
+=
+1.23370055\ldots
+}
+\tag{12}
+\]
+
+---
+
+## 8. 这和我们已经算出来的 ACUE \(\Lambda\) 完全吻合
+
+我们之前 numerical ACUE 给的是大约
+
+\[
+N^2(-\Lambda_{\rm ACUE})
+\simeq1.4196.
+\]
+
+而 AH hard-core theorem 只要求
+
+\[
+N^2(-\Lambda_{\rm AH})
+\ge1.23370055\ldots.
+\]
+
+两者之间的差：
+
+\[
+1.4196-1.2337
+\]
+
+正是公式 (2) 中 **positive many-body correction** 在起作用。
+
+换到 Rodgers–Tao normalized time：
+
+\[
+\frac{1.41964034}{4\pi^2}
+\approx0.03596,
+\]
+
+而 hard threshold 是
+
+\[
+\frac1{32}=0.03125.
+\]
+
+所以我们之前 single-dislocation 得到的 \(1.41964034\ldots\) 不再是一个孤立 numerical curiosity。
+
+它可以解释成：
+
+\[
+\boxed{
+\underbrace{0.03125}_{\text{universal 2-body AH barrier}}
++
+\underbrace{\approx0.00471}_{\text{ACUE many-body screening / rigidity}}.
+}
+\]
+
+这个 interpretation 比原来强很多。
+
+---
+
+## 9. 这确实把 \(\Lambda\) program 从 discriminator 升级成 falsifier
+
+原来我们的 claim 是：
+
+\[
+\Lambda_{\rm CUE}
+\sim-N^{-8/3},
+\]
+
+而
+
+\[
+\Lambda_{\rm ACUE}
+\sim-N^{-2}.
+\]
+
+所以统计上可以区分它们。
+
+但现在有了更强的 deterministic statement：
+
+#### AH 必须满足
+
+\[
+\boxed{
+\frac{N^2}{4\pi^2}(-\Lambda_N)
+\ge\frac1{32}.
+}
+\]
+
+所以如果 arithmetic zeros 可以证明存在一个 sequence 使得
+
+\[
+\boxed{
+\liminf_{N\to\infty}
+\frac{N^2}{4\pi^2}(-\Lambda_N)
+<
+\frac1{32},
+}
+\tag{13}
+\]
+
+AH 就死了。
+
+甚至 finite-\(N\) 可以用 exact threshold：
+
+\[
+\boxed{
+-\Lambda_N
+<
+-\log\cos\frac{\pi}{2N}
+\quad\Longrightarrow\quad
+\text{not AH}.
+}
+\tag{14}
+\]
+
+这不再是：
+
+> “这个 statistic 看起来更像 CUE。”
+
+而是：
+
+> **“AH 的 half-lattice support 数学上禁止出现这么 shallow 的 Newman configuration。”**
+
+这是质的提升。
+
+---
+
+## 10. 对 zeta zeros 的 formulation 也很漂亮
+
+Rodgers–Tao 的 \(x\)-zero variables 在高度 \(T\) 附近平均 spacing 大约是
+
+\[
+\frac{4\pi}{\log T}.
+\] 
+
+
+所以 local density
+
+\[
+\rho_T
+=
+\frac{\log T}{4\pi}.
+\]
+
+定义 dimensionless local heat depth
+
+\[
+\boxed{
+D_T
+=
+\rho_T^2(-t)
+=
+\left(\frac{\log T}{4\pi}\right)^2(-t).
+}
+\]
+
+那么 AH 强制
+
+\[
+\boxed{
+D_T\ge\frac1{32}.
+}
+\tag{15}
+\]
+
+等价地，在原 de Bruijn–Newman time 中，
+
+\[
+\boxed{
+-t
+\gtrsim
+\frac{\pi^2}{2\log^2T}.
+}
+\tag{16}
+\]
+
+这里最后一个 \(T\)-formula 是 local-density asymptotic；真正无 normalization ambiguity 的数字是 dimensionless threshold
+
+\[
+\boxed{\frac1{32}}.
+\]
+
+---
+
+## 11. 一个很重要的区别：global \(\Lambda=0\) 本身还不够
+
+这一点一定要区分。
+
+Rodgers–Tao 证明的 global Newman constant
+
+\[
+\Lambda\ge0
+\]
+
+与 RH 给出的
+
+\[
+\Lambda\le0
+\]
+
+若合并就是 global
+
+\[
+\Lambda=0.
+\]
+
+但这并不会自动否定 AH。
+
+我们这里需要的是 **local / mesoscopic Newman depth**
+
+\[
+\Lambda(T;N)
+\]
+
+或者一个 finite zero-window polynomial 的 backward collision depth。
+
+然后证明：
+
+\[
+\boxed{
+D_T<1/32
+}
+\]
+
+发生。
+
+也就是说，真正的新 observable 应该不是一个 global scalar \(\Lambda\)，而是一个 **Newman-depth field**
+
+\[
+\boxed{
+T\mapsto D(T).
+}
+\]
+
+甚至研究其 distribution：
+
+\[
+\Pr(D(T)<c).
+\]
+
+AH 预测一个 hard edge：
+
+\[
+\boxed{
+\Pr_{\rm AH}(D<1/32)=0.
+}
+\]
+
+而 CUE 如果我们之前的 \(N^{-8/3}\) law 正确，则随着 \(N\to\infty\)
+
+\[
+N^2(-\Lambda_{\rm CUE})
+\sim N^{-2/3}\to0,
+\]
+
+所以
+
+\[
+\Pr_{\rm CUE}(D<1/32)\to1.
+\]
+
+这不是小 correction，而是 **support separation**：
+
+\[
+\boxed{
+\begin{array}{rcl}
+\text{AH/ACUE}&:&D\ge1/32,\\
+\text{CUE}&:&D\to0.
+\end{array}
+}
+\]
+
+---
+
+### 最终我会把这个桥写成一个 lemma
+
+#### **Hard-gap / Newman-depth lemma**
+
+设一个 simple zero configuration 具有 normalized minimum spacing
+
+\[
+m.
+\]
+
+在 Rodgers–Tao heat normalization 下，其 first backward collision depth \(D=-\Lambda_{\rm loc}\) 满足
+
+\[
+\boxed{
+D
+=
+\frac{m^2}{8}
++
+\mathcal S,
+\qquad
+\mathcal S\ge0,
+}
+\]
+
+其中 \(\mathcal S\) 是其他 zeros 产生的 many-body interaction integral。
+
+因此任何 bandwidth-1 sine mimic with hard core \(m\) 必须满足
+
+\[
+D\ge\frac{m^2}{8}.
+\]
+
+特别地，half-lattice AH 满足
+
+\[
+\boxed{
+D\ge\frac1{32}.
+}
+\]
+
+这个 lemma 一旦写严谨，**Lagarias–Rodgers 的 \(\mu\) extremal problem 和 Newman-depth program 就真正接起来了**：
+
+\[
+\boxed{
+\mu
+\quad\xrightarrow{\;\text{exact collision geometry}\;}
+\quad
+D_{\min}\ge\frac{\mu^2}{8}.
+}
+\]
+
+严格说最后是 inequality，而不是 \(D=\mu^2/8\)，因为 many-body correction 不为零；但对于“证伪 AH”而言，inequality 恰恰已经足够，而且方向完全正确。
+
+**下一步最有价值的事情已经很明确：不是再算 ACUE 的 median \(\Lambda\)，而是尝试在 arithmetic/function-field model 中证明一次**
+\[
+\boxed{D<1/32.}
+\]
+**只要做到这一件事，就给出了一个不需要完整 pair correlation 的 quantitative anti-AH certificate。**

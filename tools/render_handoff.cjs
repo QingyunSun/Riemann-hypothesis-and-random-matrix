@@ -6,6 +6,9 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const root=path.resolve(__dirname,'..');
 const input=path.resolve(process.argv[2] || path.join(root,'docs/handoff/ASTRA_PUBLIC_RESEARCH_HANDOFF.md'));
 const output=path.resolve(process.argv[3] || path.join(root,'output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf'));
+const archiveLabel=path.basename(input).includes('FULL_LOCAL')
+ ? 'Local archive · includes supplied private context'
+ : 'Public research archive';
 fs.mkdirSync(path.join(root,'tmp'),{recursive:true});
 fs.mkdirSync(path.dirname(output),{recursive:true});
 const mathErrors=[];
@@ -84,7 +87,7 @@ ul,ol{padding-left:23px;margin:8px 0 12px;}li{padding-bottom:4px;}hr{border:0;bo
 .cover .eyebrow{font-size:11pt;letter-spacing:2px;color:#42758a;margin-bottom:28px;}.cover h1{border:none;font-size:34pt;line-height:1.5;margin:0;}.cover .sub{font-size:16pt;line-height:1.8;margin:22px 0;color:#45616d;}.cover .meta{font-size:10pt;color:#566974;margin-top:35px;}.cover .rule{width:80px;height:4px;background:#246176;margin:28px 0;}
 </style></head><body><div class="cover"><div class="eyebrow">RESEARCH HANDOFF · SOURCE ARCHIVE · OVERNIGHT RESEARCH</div>
 <h1>ACUE 与黎曼零点<br>从谱反例走向<br>可证明的数论结果</h1><div class="rule"></div><div class="sub">完整研究接手档案<br>GPT-6 Astra × Claude Code / Fable</div>
-<div class="meta">Bill (Qingyun) Sun · 2026 年 9 月 4–5 日<br>经审计主说明、公开历史 Markdown 与完整研究报告、算术相关性新路线<br>已证明、计算、猜想与失败分别标明 · Public research archive</div></div>
+<div class="meta">Bill (Qingyun) Sun · 2026 年 9 月 4–5 日<br>经审计主说明、公开历史 Markdown 与完整研究报告、算术相关性新路线<br>已证明、计算、猜想与失败分别标明 · ${archiveLabel}</div></div>
 <nav class="toc"><h1>内容索引</h1><ul>${tocHtml}</ul></nav>${html}</body></html>`;
 fs.writeFileSync(path.join(root,'tmp/handoff.html'),page);
 (async()=>{

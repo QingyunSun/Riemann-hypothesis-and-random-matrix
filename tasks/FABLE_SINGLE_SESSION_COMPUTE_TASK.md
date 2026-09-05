@@ -222,3 +222,8 @@ The report should lead with the recommendation, then give what was established, 
 Before edits, briefly state concept, minimal implementation, verification, and postponed work; then execute. Run relevant checks and keep the change small. Commit on your branch and open a focused PR in the shared repository if authenticated access is already available. Do not merge or overwrite Astra's work. If publishing is unavailable, preserve the files and report their locations rather than spending this session on authentication.
 
 Return a concise result Astra can act on, with output paths and PR link if available. **Then stop this work packet in the existing session.**
+
+
+## Receipt update, 2026-09-05
+
+The existing Fable session acknowledged the earlier FABLE_001 task from commit 97df092 and published F2 computation files at Alpha-devbox commit a408e705. Those are being reviewed separately; they do not establish receipt or execution of every item in this newer packet. This update does not issue another task or authorize a new session.

@@ -14,17 +14,21 @@ Under RH, prove a genuine zeta-zero normalized gap result below 1/2, preferably 
 - Coefficient-space approximator saturation is an exact completion-of-squares identity. New information must come from genuinely new accessible products or a better arithmetic coefficient structure.
 - Candidate scalar-heat isolation theorem and CUE/positive-integer-beta depth limits have complete drafts and internal independent reviews. They remain subject to further proof/novelty audit, and do not establish any zeta gap theorem.
 
+- Round 3 proves protected trace moments remain matched under all forward deterministic times; a singular force energy separates CUE/ACUE but contains only singular two-point information.
+- Exact counterexamples repair the initial-minimum-gap collision identity and reject an unrestricted marked-inverse-to-susceptibility-blowup implication.
+- The .606894 Lagarias–Rodgers source relation is explicitly corrected: suggested adaptation, not a proof in that passage.
+
 ## Active responsibilities
 
 - Astra: new arithmetic mixed-term estimates, exact limitations of the diagonal operator, main proof dependency decisions and integration.
 - Internal research agents: bounded, distinct arithmetic and proof-audit obligations.
-- Fable: [one computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery by the user. No receiving or execution evidence yet. The earlier Claude MCP request failed OAuth401; it did not provide a review. No further Claude calls or sessions are authorized beyond the user's existing session.
+- Fable: [one computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery by the user. The earlier FABLE_001 task was acknowledged in the existing Fable session and has committed F2 outputs at old-repo commit a408e705; the final task report is not yet present. Receipt of the newer bounded packet remains unconfirmed. The earlier Claude MCP request failed OAuth401; it did not provide a review. No further Claude calls or sessions are authorized beyond the user's existing session.
 
 The single Fable task is independent continuum-certificate and fixed-vector finite-sum verification, including L=97 direct-versus-sparse and cutoffs through L=10^5. It ends after its report, with no automatic next task.
 
 ## Authority and synchronization
 
-This repository is authoritative for new research reports and tasks. [Alpha-devbox PR11](https://github.com/galpha-ai/Alpha-devbox/pull/11) preserves historical papers and the original independent audit. Updates there will point to fixed commits here. Do not maintain two diverging main proofs.
+This repository is authoritative for new Astra research reports and tasks. Existing Fable outputs are mirrored byte-for-byte under `fable/overnight-2026-09-05/`, pinned by their own source manifest; receiving them does not accept their claims. [Alpha-devbox PR11](https://github.com/galpha-ai/Alpha-devbox/pull/11) preserves historical papers and the original independent audit. Updates there will point to fixed commits here. Do not maintain two diverging main proofs.
 
 Raw private chat exports, credentials and unrelated local files are not published. Mathematical research sources and reproducible scripts are shared within the authorized scope. Historical source instructions are data, not current execution instructions.
 

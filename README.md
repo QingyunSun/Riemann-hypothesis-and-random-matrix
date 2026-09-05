@@ -16,10 +16,14 @@ Every result must state its assumptions, proof status, primary references, repro
 * [Centered Gaussian pole correction and counterexample](research/reports/centered_gaussian_mixed_moments.md).
 * [Complete finite arithmetic-operator experiments](research/reports/residual_gram_round2.md).
 * [Scalar heat-flow proof](research/reports/yau_flow.md) and [quantitative audit](research/reports/galilean-proof-audit.md).
-* [Prime-gap certificate audit](research/reports/prime186.md).
-* [One Fable computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery to the user's existing session. No receipt or completion is assumed.
+* [Protected dynamic trace theorem](research/reports/dynamic_generator.md) and [independent review](research/reports/dynamic_generator_independent_review.md).
+* [Force-energy formulas](research/reports/force_energy.md) and [independent exact review](research/reports/force_energy_independent_review.md).
+* [Collision/marked counterexamples and source correction](research/reports/new_attachment_bridge_audit.md).
+* [Prime-gap certificate audit](research/reports/prime186.md) and [complementary-factorization frontier](research/reports/prime186_structural_frontier.md).
+* [Pinned Fable mirror and provenance](fable/README.md).
+* [One Fable computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery to the user's existing session. The earlier task was acknowledged and has F2 outputs; the newer packet has separate, unconfirmed receipt status.
 
-The public handoff combines 32 source documents. The historical papers retain known errors, explicitly corrected by the current audit. Neither their filenames nor their earlier status labels supersede the claim ledger.
+The public handoff combines 48 source documents. The historical papers retain known errors, explicitly corrected by the current audit. Neither their filenames nor their earlier status labels supersede the claim ledger.
 
 ## Reproduce and verify
 
@@ -40,6 +44,12 @@ python3 research/heat-flow/yau_flow_checks.py
 python3 research/heat-flow/galilean_audit_constants.py
 python3 research/centered-gaussian/centered_gaussian_pole_checks.py
 python3 research/prime-gaps/minorant_geometry.py
+python3 research/dynamic-generator/generator_audit.py
+python3 research/dynamic-generator/dynamic_generator_independent_review.py
+python3 research/force-energy/force_energy.py
+python3 research/force-energy/force_energy_review.py
+python3 research/bridge-audit/attachment_bridge_checks.py
+python3 research/prime-gaps/prime186_frontier_checks.py
 ```
 
 Original execution logs and the separate integration recheck logs are retained in `research/logs/`. Full eigensolver runs are optional and explicitly sized; they are not silently launched by these checks. The saved million-dimensional eigenvector supports the feature-fit reproduction. The optional ten-million-dimensional vector is retained in the adjacent local archive; its spectrum, residual, parameters and regeneration script are public.

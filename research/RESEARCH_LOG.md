@@ -97,3 +97,29 @@ Next decisions depend on evidence: accept or repair the arithmetic transfer; fin
 The separately assigned residual-Gram agent accepted the fixed-family arithmetic transfer as a complete ordinary written proof after checking all six requested points. The primary author added the three requested explicit estimates. The result is unconditional as an arithmetic operator limit; RH is required only for its insertion into Inoue's zeta inequality. The fixed negative margin, full-operator limit, and half-gap target are unchanged. [Independent review](reports/symmetric_prime_transfer_independent_review.md).
 
 The heat-flow author also completed a second-pass quantitative audit with K=16384 and eta0=1/524288, supported by exact symbolic checks. This is separate from the earlier independent prime-agent review. The true-Ht discussion identifies isolated small-gap arithmetic information as the missing input; it does not turn a circular model result into a zeta theorem. [Second-pass audit](reports/galilean-proof-audit.md).
+
+
+## 2026-09-05: dynamic proposals audited, including our own source correction
+
+The low-mode degree-growth hypothesis fails: deterministic circular Coulomb evolution preserves positive and negative trace weights separately. A Schur/Cauchy-Binet proof gives ACUE/CUE equality for all derivative orders and all forward times in the protected symmetric-polynomial algebra. There are 234 exact protected comparisons; the nine out-of-band comparisons already differ at time zero. Independent cross-review is recorded separately.
+
+The force square does separate the models, but collapses to a singular two-point statistic. Its CUE expectation is N(N²−1)/3 and its ACUE expectation is half that value. The expected initial dissipative slope is negative infinity for CUE and exactly −2N(N⁴−1)/15 for ACUE. The proof checks integrability and uses Fatou, rather than exchanging an invalid derivative and expectation. Complete float64 subset enumeration through N=10 supports the formulas.
+
+Exact rational Sturm analysis provides a five-root counterexample to the minimum-gap-first premise. A symbolic 2x2 calculation disproves a proposed implication from marked inverse divergence to divergent depth susceptibility. The valid hard-core lower bounds remain useful; a universal exact identity requires the gap of the pair that actually collides.
+
+We also corrected our own earlier Lagarias–Rodgers source judgment. The companion paper explicitly suggests adapting existing methods to a .606894 hard-core upper bound, but supplies no proof there. The earlier criticism that the literature never connects those objects was unjustified. Historical originals remain intact; the current main handoff and audit state the correction.
+
+Evidence: `reports/dynamic_generator.md`, `reports/force_energy.md`, `reports/new_attachment_bridge_audit.md`, and their adjacent focused script/data folders. These finite-model results are not a zeta AH refutation.
+
+## 2026-09-05: 186 transfer tools and finite Ritz decision
+
+The two-dimensional residual Ritz correction for the L=100000 fixed arithmetic vector raises the half-gap margin by approximately 0.000488512, from −0.0376302 to −0.0371417. It validates a finite self-adjoint residual calculation, not an asymptotic fixed-family theorem. The report records a signed-residual lemma and the actual combined-product kernel that needs arithmetic control.
+
+The user's Weijie Su link returns HTTP403 in this session. Its supplied structural description is checked against the primary 186 manuscript: complementary factorization controls the actual lcm divisor and triply dense divisibility, then permits wider sieve supports. No scalar exponent is imported into the unrelated zeta mixed-moment problem. The next decision is a new valid support/correlation estimate, not extra digits of the same negative vector. Evidence: `reports/transferable_tools_ritz_decision.md` and the structural frontier report.
+
+
+## 2026-09-05: Fable pickup evidence recovered from the existing public session
+
+A live PR11 check found source head `a408e7050fffc74459b3c83fafa5ac03c8b7dea6`. Its coordination note acknowledges the earlier FABLE_001 task from Astra commit 97df092, and F2 continuum/finite-sum files are present. The intended final task001_report.md is absent at this source head. The newer bounded packet has a separate receipt status; no complete execution of it is inferred.
+
+The 81 existing public files are mirrored byte-for-byte under `fable/overnight-2026-09-05/`, with SHA-256 provenance. Most proposed heat/function-field/LR report filenames are not yet present. Their scripts and plans are evidence of work, not completed proofs. Independent Astra intake reviews record their exact scope and any issues. This synchronization starts no Claude session, agent or follow-up task. Historical instructions in the mirror remain source data.

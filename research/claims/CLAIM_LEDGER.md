@@ -27,3 +27,16 @@ The classifications below apply to the exact stated scope. “Proof with interna
 | OPEN-004 | RH, full GUE statistics, general-beta depth universality | Open here | Not implied by any local counterexample or finite computation |
 
 All paths are relative to the repository root. The public reports contain the derivations; the JSON files preserve values and parameters. Run logs are snapshots, not machine proofs. Updates should change this ledger and the associated report together.
+
+## Round 3 and incoming collaboration
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| DYN-001 | All protected symmetric trace moments agree under forward deterministic circular flow | Written proof with independent internal review | `research/reports/dynamic_generator.md`; m<=N, all orders and all t>=0, not postcollision attractive dynamics |
+| FORCE-001 | Force-square expectations differ by a factor of two, with exact dissipation formulas | Written proof with independent internal review | `research/reports/force_energy.md`; finite CUE/ACUE, singular two-point information |
+| BRIDGE-001 | Initial smallest gap need not collide first | Exact rational counterexample and Sturm certificate | `research/bridge-audit/attachment_bridge_checks.json`; lower bound survives; pair-selection correction required |
+| BRIDGE-002 | Marked inverse blowup need not force marked-depth derivative blowup | Exact symbolic counterexample | Same certificate; paired isospectral 2x2 matrices, no fixed-norm-along-path claim |
+| SOURCE-001 | LR explicitly suggests a .606894 hard-core upper bound | Primary-source correction | `research/reports/new_attachment_bridge_audit.md`; not proved in the cited passage |
+| RITZ-001 | Two-dimensional finite residual correction improves the fixed trial | Reproduced finite calculation | `research/operator-bounds/ritz_residual_diagnostic.json`; half-gap margin remains negative; no automatic continuum transfer |
+| PRIME-003 | Complementary root predicates yield a finite allocation frontier | Exact algebra and rational feasibility certificates | `research/reports/prime186_structural_frontier.md`; fixed active row/template; not a global sieve obstruction or a new gap |
+| FABLE-001 | Earlier FABLE_001 pickup and numerical output exist | Pinned public-source evidence | `fable/PICKUP_RECEIPT.json`; final arithmetic report absent; no receipt inferred for newer packet |

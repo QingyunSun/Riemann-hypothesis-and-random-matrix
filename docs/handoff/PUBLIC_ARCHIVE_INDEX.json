@@ -66,16 +66,70 @@
     "characters": 6517
   },
   {
+    "kind": "Current report",
+    "path": "research/reports/transferable_tools_ritz_decision.md",
+    "sha256": "3c731beb9cf879a0607003ec364ee46775f88adff3b4b7afe67407745ad19bca",
+    "characters": 6584
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/dynamic_generator.md",
+    "sha256": "cedc4fb9eac3df27c1e6872b4e31f6d32eb04dc8726bada103e97389f18ba4c7",
+    "characters": 15772
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/dynamic_generator_independent_review.md",
+    "sha256": "5167d262a69ccf0e22b7ec904f6abf76380fa2f444124e63a485700774084eab",
+    "characters": 11131
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/force_energy.md",
+    "sha256": "0782e73dc430034c54db8173d81803f02aaeec6c326c151d692770635430394b",
+    "characters": 14091
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/force_energy_independent_review.md",
+    "sha256": "70ef4365fc5330a1a329e1a28ca94b4426deed6786ea8f05e016bcc083a2fc2f",
+    "characters": 10071
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/new_attachment_bridge_audit.md",
+    "sha256": "169335d3e1b46a043e69e36032e51544a5923cdb43cce47f6d1eb07c8fc587be",
+    "characters": 24743
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/prime186_structural_frontier.md",
+    "sha256": "2e1e19544854af0375b3b114c2e38448f8841cf70680690e1b1c7749f3800403",
+    "characters": 18347
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/fable_task001_sync_review.md",
+    "sha256": "3a14533ac2f8cf72ce605b6209b8139c71a7747f8e691b7a6e29397a30ca7ec4",
+    "characters": 15624
+  },
+  {
+    "kind": "Current report",
+    "path": "research/reports/fable_heat_sync_review.md",
+    "sha256": "9dc10cd810e665fc49c192b17cd595d209fe8e1d4df7de1a8e5158bc470b3713",
+    "characters": 19412
+  },
+  {
     "kind": "Claim ledger",
     "path": "research/claims/CLAIM_LEDGER.md",
-    "sha256": "43ecc9efa7f0a570c6e6eb01f3b683acfbaab3da418443340422a601ab18ba51",
-    "characters": 4429
+    "sha256": "f4bc91ed5e83e4c7351f61ab2ddf4bf9e8350810d3888866ae76bd3b9b208f20",
+    "characters": 6360
   },
   {
     "kind": "Research log",
     "path": "research/RESEARCH_LOG.md",
-    "sha256": "647cc527d4ecf75644a09019c0cc402621f320dccde36c38807ce5c7506fb485",
-    "characters": 11841
+    "sha256": "716823c45370488aa36f6ceb1d9c7f69e727fbeea0ac964db7a267ae887cc311",
+    "characters": 15696
   },
   {
     "kind": "Historical source",
@@ -178,5 +232,41 @@
     "path": "historical/riemann-rmt/handoff/HANDOFF_GPT6_ASTRA.md",
     "sha256": "34950171df1d33390c98ad052be08ad0f7bac881ac409d9afc257e5e048e1cbc",
     "characters": 65771
+  },
+  {
+    "kind": "Fable source; scope set by current audit",
+    "path": "fable/overnight-2026-09-05/CLAIMS.md",
+    "sha256": "85b8a6c259b7f6abc7eeac59204f3939631eed625455fd8a546db889cd72e2a2",
+    "characters": 1659
+  },
+  {
+    "kind": "Fable source; scope set by current audit",
+    "path": "fable/overnight-2026-09-05/FABLE_COORDINATION.md",
+    "sha256": "b89ea13f87faa95b507ef0c059063c14aeeb2f9981d475ee606db58a4b228df0",
+    "characters": 4712
+  },
+  {
+    "kind": "Fable source; scope set by current audit",
+    "path": "fable/overnight-2026-09-05/r1_h2_interval_cert.md",
+    "sha256": "f3bee32666e254142989ee85c54ef0eba4dc087f1879ade019d2bd64f84a5e77",
+    "characters": 24289
+  },
+  {
+    "kind": "Incoming proposal; claims require audit",
+    "path": "research/incoming/dynamic_generator_proposal.md",
+    "sha256": "abdc281765d668dfb3f1b549318939c889869128de8a11060c17fef62ce23658",
+    "characters": 12097
+  },
+  {
+    "kind": "Incoming proposal; claims require audit",
+    "path": "research/incoming/heat_depth_classification_proposal.md",
+    "sha256": "5d7ebadefdbc15f684ba0436177565b2d0e46c5b782e956ec09e733583b3a47e",
+    "characters": 11807
+  },
+  {
+    "kind": "Incoming proposal; claims require audit",
+    "path": "research/incoming/hard_gap_depth_bridge_proposal.md",
+    "sha256": "5d281b4b2a3a3124c36d92bc8035476b0bd7a568081037385435efe4088c889c",
+    "characters": 8956
   }
 ]

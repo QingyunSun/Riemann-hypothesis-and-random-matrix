@@ -6,7 +6,7 @@ import json
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "RESEARCH_MANIFEST.json"
-FOLDERS = ("research", "historical", "docs", "tasks", "output")
+FOLDERS = ("research", "historical", "docs", "tasks", "output", "fable")
 
 
 def collect() -> list[dict]:

@@ -6,7 +6,8 @@ This repository preserves a checkable mathematical programme with small, indepen
 * `research/RESEARCH_LOG.md`: chronological questions, results, failures and decisions supported by evidence.
 * `research/claims/CLAIM_LEDGER.md`: authoritative claim scope and proof status.
 * `research/reports/`: complete mathematical arguments and independent reviews.
-* `research/residual-gram/`, `operator-bounds/`, `heat-flow/`, `centered-gaussian/`, `prime-gaps/`: focused Python experiments with JSON outputs and original execution logs.
+* `research/residual-gram/`, `operator-bounds/`, `heat-flow/`, `centered-gaussian/`, `prime-gaps/`, `dynamic-generator/`, `force-energy/`, `bridge-audit/`: focused Python experiments with JSON outputs and original execution logs.
+* `fable/overnight-2026-09-05/`: byte-for-byte public Fable snapshot, with its own provenance manifest and separate Astra intake reviews.
 * `historical/riemann-rmt/`: pinned earlier public sources, preserved even when corrected by later audit.
 * `docs/handoff/`: the detailed audited handoff and its current supplement.
 * `output/pdf/`: the public rendered handoff.

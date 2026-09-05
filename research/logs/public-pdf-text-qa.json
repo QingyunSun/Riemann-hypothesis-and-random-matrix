@@ -1,21 +1,27 @@
 {
-  "pages": 223,
+  "pages": 333,
   "short_pages": [],
   "replacement_glyph_pages": [],
   "section_pages": {
-    "Arithmetic transfer for a fixed": [],
-    "Explicit estimates added": [
-      34
+    "Round 3 and incoming": [
+      157
     ],
-    "Centered Gaussian packets:": [
-      55
+    "Historical source 23": [
+      2,
+      164
     ],
-    "Galilean localization:": [
-      76
+    "Fable source": [
+      3,
+      287,
+      289,
+      291
     ],
-    "Source metadata": [],
-    "1.082045899": [
-      93
+    "Incoming proposal": [
+      3,
+      300,
+      313,
+      324
     ]
-  }
+  },
+  "pdf_sha256": "eccf6660459c65923a5f517df969df2790510491f22777bd757a6596387fe874"
 }

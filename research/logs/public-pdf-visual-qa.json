@@ -1,12 +1,22 @@
 {
-  "checkpoint": "rounds1-2 before incoming dynamic followups",
-  "pages": 223,
+  "checkpoint": "round3, pinned Fable intake and source corrections",
+  "pages": 333,
   "all_pages_rendered": true,
   "all_page_contact_sheets_inspected": true,
   "high_resolution_pages_inspected": [
-    27,
-    56
+    138,
+    148,
+    157,
+    312
   ],
-  "findings": "No clipping, overlap, missing page, or broken glyph detected in the rendered checkpoint. Zero KaTeX parse errors and zero element overflow.",
-  "pdf_sha256": "2fc12826f2192d27f78cf6c6fa83496685a520d063974e549e3152db4f63010d"
+  "pixel_equivalence": {
+    "previous_render_identical_pages": 331,
+    "changed_pages": [
+      155,
+      157
+    ],
+    "changed_pages_reinspected": true
+  },
+  "findings": "All 333 page layouts inspected. A raw-pipe claim-ledger block was repaired and rechecked; two wide incoming diagrams were reflowed without changing the original sources. No clipping, overlap, missing page or broken glyph detected. Zero KaTeX parse errors and zero element overflow.",
+  "pdf_sha256": "eccf6660459c65923a5f517df969df2790510491f22777bd757a6596387fe874"
 }
