@@ -181,3 +181,12 @@ Evidence: `reports/dyson_round13.md`, `dyson/round13/`, and `logs/round13-integr
 - **Open:** the full signed covariance, the zeta/RMT arithmetic bridge, general-beta extension, sharp spectral wall and all famous-conjecture targets.
 
 Evidence: `reports/dyson_round14.md`, `dyson/round14/`, and `logs/round14-integration/`.
+
+
+## Document checkpoint through Round 14
+
+- **Verified artifact coverage:** 69 complete later-round reports and 297 pinned source objects; all original source bytes unchanged. The public compilation has 705 pages and the private local compilation 753, with complete Markdown and per-volume hash/page indexes.
+- **Verified layout scope:** final 313-page supplement covered by exact comparison to reviewed pages plus individual inspection of every unmatched page; complete merged PDFs checked page by page against source renders. Equivalent table-bar repairs and the removed blank page are fully recorded.
+- **No mathematical status change:** compilation, typesetting and source preservation do not prove RH, Montgomery–Dyson/GUE, AH-Pairs refutation, a new zeta-gap result or a sub-186 prime gap. All prior conditional statements, counterexamples and failed trials retain their audited scopes.
+
+Evidence: `logs/round6-14-handoff/FINAL_ARTIFACT_QA.json`, `docs/handoff/ROUNDS_6_14_ARCHIVE_INDEX.json`, and the independent coverage/review records.

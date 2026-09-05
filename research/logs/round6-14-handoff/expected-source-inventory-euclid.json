@@ -1,0 +1,485 @@
+[
+  {
+    "path": "fable/reviews/pr11-2073028/CBETA_REPAIR_REVIEW.md",
+    "bytes": 9931,
+    "title": "# Independent follow-up: C\u03b2E background repair at 2073028",
+    "sha256": "3f60e18e4994a78aeab9b381213c07cf4316005741ceed1ed614a79c1708a4af",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "fable/reviews/pr11-2073028/F1_F3_INDEPENDENT_AUDIT.md",
+    "bytes": 6267,
+    "title": "# Independent audit of the F1 cutoff repair and F3 mass bound",
+    "sha256": "5af35dcdf0120a5ab88c398f9b957e89587d7f12ea58ec207eb7e0f2f7d0c929",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "fable/reviews/pr11-2073028/F1_REPAIR_AND_CUTOFF_REVIEW.md",
+    "bytes": 4777,
+    "title": "# F1 repair: corrected coefficient, surviving sign issue, and cutoff scaling",
+    "sha256": "9f9cd67afbfd7d304f6eb42adcf34391972c54a9f49a2964be1d8fbb176da628",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "fable/reviews/pr11-2073028/F3_MASS_CUTOFF_BOUND.md",
+    "bytes": 5598,
+    "title": "# The mass cutoff gives a finite Fock operator bound",
+    "sha256": "112eac7be3ed1294ea47c046eaa93720b170858350115960f8578e0301bb638b",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "fable/reviews/pr11-2073028/INTAKE_REVIEW.md",
+    "bytes": 2671,
+    "title": "# Fable 2073028: repaired arithmetic, finite Fock bound and retained gaps",
+    "sha256": "51111bc72197254e92d3120f36b4f1278b8456eedd092c0d1a1362fe7b092f05",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "fable/reviews/pr11-89393d5/BACKGROUND_AND_BOUNDARY_REVIEW.md",
+    "bytes": 6033,
+    "title": "# Independent background and boundary objections to the same Fable snapshot",
+    "sha256": "336ae8258325f935c8613659e4921c8ce610193fbdde54d3fca8e0aafa8ada61",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "fable/reviews/pr11-89393d5/INTAKE_REVIEW.md",
+    "bytes": 6968,
+    "title": "# Fable PR11 snapshot 89393d5: separate intake and two-sided arithmetic audit",
+    "sha256": "6e5a08438cdf6abc3dbffdab699374f72738d894a472d47c6d78fa4db91276eb",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round10/arithmetic-residual/ARITHMETIC_RANGE_AND_MIXED_MOMENT.md",
+    "bytes": 12502,
+    "title": "# Actual-prime variance ranges and a missing logarithmic mixed moment",
+    "sha256": "c2d2a278ffe74d8f8d8a7c00980e5e57e6c508790ff96904db4479277d1daa8c",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round10/arithmetic-residual/INDEPENDENT_REVIEW.md",
+    "bytes": 4155,
+    "title": "# Independent review of the arithmetic range and mixed-moment audit",
+    "sha256": "375ab6c0ae80f43c86273a38868b045732f547ac9ce2eb3ffa363edaad2bd1a8",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round10/shift-average/ACTUAL_KERNEL_AND_PRIME_POWER_REVIEW.md",
+    "bytes": 6575,
+    "title": "# Independent review: actual shift kernel and genuine-prime replacement",
+    "sha256": "df6d6602ce9b68ac4759a8cbb8a3caad84d82b4694105a3bb466a9a69fd22732",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round10/shift-average/COEFFICIENT_AND_SPACING_AUDIT.md",
+    "bytes": 11413,
+    "title": "# Independent audit of the completed-shift coefficients and spacing bound",
+    "sha256": "eccd80ad4909639a53583376444cbc9fce9fab518b75de7f82052c31c7a27fc7",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round10/shift-average/SMOOTH_SHIFT_COMPLETION_BOUND.md",
+    "bytes": 13008,
+    "title": "# A power improvement for a smooth packet of the actual shifted discrepancy",
+    "sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+    "bytes": 11083,
+    "title": "# A real-prime subfamily prevents a coefficient-only power saving",
+    "sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round11/conductor-arithmetic/INDEPENDENT_REVIEW.md",
+    "bytes": 3863,
+    "title": "# Independent review of the canonical conductor-mass construction",
+    "sha256": "b146b7427417bc3acca5443e167e3a07257830cfeb80e7f02523a6fd1f3e252d",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round11/log-weighted-tail/ARITHMETIC_DIAGONAL_AND_SOURCE_GAP.md",
+    "bytes": 8660,
+    "title": "# The log-weighted prime-tail moment: a primary-source check and its arithmetic remainder",
+    "sha256": "85c9435bbd656bcf37f21f55fe2d54cb40638c7a56908abe57e54f551a627daa",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round11/log-weighted-tail/INDEPENDENT_REVIEW.md",
+    "bytes": 4187,
+    "title": "# Independent review of the centered mixed-moment remainder",
+    "sha256": "97a8e45507e0df1cf21e6045ba6d689990401a4eff5f2ba79a00739ab69e08f6",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round11/prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+    "bytes": 13797,
+    "title": "# Removing the shift-length loss from the actual completed pairing, under RH",
+    "sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round11/prime-frequency/SMALL_ARC_INDEPENDENT_REVIEW.md",
+    "bytes": 9325,
+    "title": "# Independent review of the RH centered-small-arc improvement",
+    "sha256": "fdeba2af8e447ed7ec382155496f22e23255267f0d4051afdc3759a1f933daab",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round12/INDEPENDENT_ROOT_REVIEW.md",
+    "bytes": 7673,
+    "title": "# Independent review of the three bounded Round 12 attempts",
+    "sha256": "bff32012d2eb29877b51cd569d976016418d16abe6120a000a3c811f737a8557",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round12/dispersion-transfer/DISPERSION_HYPOTHESIS_OBSTRUCTION.md",
+    "bytes": 18370,
+    "title": "# Two explicit hypothesis failures in the proposed dispersion transfer",
+    "sha256": "26536af7b5e6ebfb8fb4f7c7be993543c57152e29c6fd2b039c5eb147ccefd95",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round12/mixed-arithmetic/SELBERG_MIXED_REMAINDER_AUDIT.md",
+    "bytes": 10511,
+    "title": "# Direct Selberg control of the centered mixed remainder: the precision and sign gap",
+    "sha256": "6223e9a54c44c31d344c2f932fe81ca6ad4672e5f6ef625adfeae07b4ed5a308",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round12/sampling-geometry/ACTUAL_SUPPORT_SAMPLING_OBSTRUCTION.md",
+    "bytes": 11979,
+    "title": "# The actual support saturates positive sampling at the power scale",
+    "sha256": "cb52d72f6068c3030968209d8aa028439ea4dc309aa5584d216a1d7d30a1a59d",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round12/sampling-geometry/COUNTING_REVIEW.md",
+    "bytes": 2258,
+    "title": "# Independent review of the inherited count and sampling constants",
+    "sha256": "820dfdc6707cdc1c29f7eef61dc884d3f6c96980ffcffab661cd790e3843bbc2",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round13/INDEPENDENT_ROOT_REVIEW.md",
+    "bytes": 4599,
+    "title": "# Round 13 independent integration review",
+    "sha256": "d38cfc0ec3f7031276340e4984fbc330185b5c9eef34df1e0955fc9853555456",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round13/minor-arc-source/MINOR_ARC_AND_FIXED_INTERVAL_AUDIT.md",
+    "bytes": 11180,
+    "title": "# Round 13 \u2014 Genuine-prime minor arcs and a fixed-inner-interval averaging audit",
+    "sha256": "bbdb17478b9e885570b7b49c3ff9b94b0ceb98f12a41743edb1ce492cb50edc4",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round13/phase-resonance/AVERAGED_RATIONAL_PHASE_TEST.md",
+    "bytes": 20890,
+    "title": "# Averaging the rational resonances: one power-saving extraction, and its retained main term",
+    "sha256": "7f4285cb02241e22bdb29a1ad4952f7ab8249e3ec3bef984455a57ae05e41ebb",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round13/signed-kernel/INDEPENDENT_AUDIT.md",
+    "bytes": 6833,
+    "title": "# Independent audit of the smooth signed-kernel norm",
+    "sha256": "5ada6ceefda4f1df6435a992876ed1eee5fe567907c183fd3a6e193814c0a731",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round13/signed-kernel/SMOOTH_SIGNED_KERNEL_NORM.md",
+    "bytes": 13904,
+    "title": "# The signed kernel norm: exact main term and a large coherent CRT remainder",
+    "sha256": "1105564835c925b818daf7198186e77c4f0f1ad4ac1001ee1bb50c0f5c7544d9",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round14/INDEPENDENT_ROOT_REVIEW.md",
+    "bytes": 5564,
+    "title": "# Independent root review: two bounded R14 advances",
+    "sha256": "8350088f7454529e209379e8f4692a78be6cc49fe1c67257a053a5065112bf3e",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round14/cue-selected-background/INDEPENDENT_REVIEW_EUCLID.md",
+    "bytes": 8634,
+    "title": "# Independent review: selected CUE background and the finite heat rate",
+    "sha256": "54f03e2f3f2636392fd630a19900dddb81d56e1fcffa7a656a7af36c4f1a6018",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round14/cue-selected-background/SELECTED_CUE_BACKGROUND.md",
+    "bytes": 11711,
+    "title": "# CUE background at the selected smallest gap: a direct finite-N bound",
+    "sha256": "fbc67828d13534d8d0b4ac1f742a639b282dd93a3f7cb635291f8cdbb651c0a5",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round14/smooth-long-factor/INDEPENDENT_REVIEW.md",
+    "bytes": 8401,
+    "title": "# Independent review: smooth long-factor removal",
+    "sha256": "3a6bef5c4cddf0973cacd69826aefa3fbea1db3659beb7f856ecaf3f6cee356b",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round14/smooth-long-factor/SMOOTH_LONG_FACTOR_REMOVAL.md",
+    "bytes": 13229,
+    "title": "# A smooth long factor removes an actual Type I component",
+    "sha256": "d6143f19ddf006a1acc833ecd2e5265bffb35817930cfeaa4f4e4b973af7c849",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round7/arithmetic-resonator/DERIVATION.md",
+    "bytes": 9456,
+    "title": "# Arithmetic transfer for a fixed large-prime sector",
+    "sha256": "3ab12c7227f0c41aaf78aab733f0353c054973cfe599f7b9275e47b12e8ee1f5",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round7/arithmetic-resonator/INDEPENDENT_REVIEW.md",
+    "bytes": 15802,
+    "title": "# Independent audit of the half-threshold arithmetic transfer",
+    "sha256": "b18387755f10dfdb1bb86e9fe755ecd778fb10b71f3b46ea7b6dec987264a3cb",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round7/arithmetic-resonator/REPORT.md",
+    "bytes": 11454,
+    "title": "# Round 7: an arithmetic large-prime sector for zeta's half-gap problem",
+    "sha256": "a1ad13dac36a646c82c857c771fa4c9c9b0e42aa5daa9d4c964361aebf7e2983",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round7/dyson-frontier/DYSON_ACTUAL_ZETA_FRONTIER.md",
+    "bytes": 17526,
+    "title": "# One actual-zeta target beyond Fourier support one",
+    "sha256": "3b8eb5fb9efc2f53af550db64c1e8eef7233f8be83564e906357b3acf00a0301",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round7/dyson-frontier/POISSON_TRANSFER_REVIEW.md",
+    "bytes": 3945,
+    "title": "# Independent review of the actual-zeta Poisson transfer",
+    "sha256": "fc7959a2f6147380709467776add8e4a59aa255747e46c70cad413d808e64b36",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round7/poisson-resolvent/INDEPENDENT_REVIEW.md",
+    "bytes": 11724,
+    "title": "# Independent review of the two-scale actual-zeta reduction",
+    "sha256": "82db15288f7b6f902a461c296abe30eb1d21253bf14ae4949da4dc12c592a370",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round7/poisson-resolvent/TWO_SCALE_ZETA_TARGET.md",
+    "bytes": 14073,
+    "title": "# Two Poisson scales remove the AH near-diagonal parameter",
+    "sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round7/true-zeta-flow/FORWARD_FLOW_OBSTRUCTION.md",
+    "bytes": 19946,
+    "title": "# Forward true-zeta localization: a contractive comparison and a sharp universality obstruction",
+    "sha256": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round8/resolvent-arithmetic/INDEPENDENT_IDENTITY_AUDIT.md",
+    "bytes": 12823,
+    "title": "# Independent audit of the actual-zeta short-polynomial identity",
+    "sha256": "5159f2127474e57041368aa3741cefa9b7c29040b8286492bb6107eea052c8ab",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round8/resolvent-arithmetic/SHORT_PRIME_PROJECTION_AND_CENTERED_TAIL.md",
+    "bytes": 14389,
+    "title": "# The actual-zeta two-scale target: short-prime projection and a centered tail",
+    "sha256": "0067a1b0c7bd4f0b80ef89d6ac85eca1ae99e652375c08c41706ec1f1ddbe40e",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round8/spectral-positivity/MINORANT_REVIEW.md",
+    "bytes": 9174,
+    "title": "# Independent review of the fixed positivity minorant",
+    "sha256": "383af540ae53eba3a0fbcb471fcf79d72b821167450cc05e9a89198c7dbc843a",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round8/spectral-positivity/POSITIVITY_OBLIGATION_NOTE.md",
+    "bytes": 7514,
+    "title": "# A bounded positivity audit of the two-scale target",
+    "sha256": "485b7778a0f7bab21492dac710b8732e5e1996734014fbba770d4b076a7b6329",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/factorization-covariance/COMPLEMENTARY_MODULI_TYPE_I_BRIDGE.md",
+    "bytes": 14048,
+    "title": "# A concrete 186-to-covariance transfer beyond the square-root divisor level",
+    "sha256": "982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/factorization-covariance/INDEPENDENT_BRIDGE_REVIEW.md",
+    "bytes": 11399,
+    "title": "# Independent review of the complementary-modulus covariance component",
+    "sha256": "86844e29f08ca834ebdebf04bb7d2df79fa28f37b09bfed2fcc8c5d1534c50b6",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/mesoscopic-edge/EDGE_RATE_AUDIT.md",
+    "bytes": 11044,
+    "title": "# Mesoscopic damping: the missing arithmetic edge term and its rate requirements",
+    "sha256": "47e69edb32f9e2a083ff8a56ed0a6c19c6b6e69477c63f727eb4713458e05934",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/mesoscopic-edge/INDEPENDENT_EDGE_REVIEW.md",
+    "bytes": 3656,
+    "title": "# Independent review of the mesoscopic edge obligation",
+    "sha256": "715ca92465ab81f1e2b3c0c4198fa4f861cb9394168ad749ae2f602d5ff67dd6",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/multiplicative-profile/DERIVATION.md",
+    "bytes": 10851,
+    "title": "# A fixed interaction between two large prime divisors",
+    "sha256": "0b717ee45e31abcd399ba48d58069b47bab6b1d9ea5086afed42ca9df6438438",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/multiplicative-profile/INDEPENDENT_REVIEW.md",
+    "bytes": 4454,
+    "title": "# Independent review: the fixed two-large-prime interaction",
+    "sha256": "b88133d0b6dbd38d3c1a4c7a8fb70599ce6ef7968297a05f21105682c7ae6997",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/multiplicative-profile/REPORT.md",
+    "bytes": 9353,
+    "title": "# Round 9: duplicate profile avoided, two-prime interaction tested",
+    "sha256": "ecc98ab471b4e0b24516d0315a59481a3e8b76140543a52dade81f1bb917fa84",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/prime-power-removal/INDEPENDENT_REVIEW.md",
+    "bytes": 8940,
+    "title": "# Independent review of the actual prime-power tail estimate",
+    "sha256": "0650ede489f745fa0eea7d7761ccd356f86b2eca7f9e5a5858d63bab644dcbb6",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/dyson/round9/prime-power-removal/PRIME_POWER_TAIL_ESTIMATE.md",
+    "bytes": 8037,
+    "title": "# Prime powers are negligible in the remaining residual energy",
+    "sha256": "e7fff21fa21285a20968c218e99b17b3bc634bf28b88268c002f406a0fdd6cd0",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/prime-gaps/round6/operator-diagnostic/FINITE_MARKED_OPERATOR_AUDIT.md",
+    "bytes": 4828,
+    "title": "# Independent finite marked-space regression for the signed sieve operator",
+    "sha256": "486d31e88130a394b42987e8af29f15c4ad902318e65343b92f2f95fce1348c2",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/prime-gaps/round6/operator-diagnostic/OUTSIDE_SPAN_INDEPENDENT_REVIEW.md",
+    "bytes": 4931,
+    "title": "# Independent review of the frozen radial profile outside the old span",
+    "sha256": "a1f8b3fc86c4232f6f0e6f17b930935d927671466b40274c02ace7893432ad0e",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/prime-gaps/round6/operator-proof/FULL_SIGNED_CAP_OPERATOR.md",
+    "bytes": 21540,
+    "title": "# The full signed cap operator and a mass-orthogonal direction beyond 77 dimensions",
+    "sha256": "020099a5ab6927f17b82dfbb2b96aa5b2cfbc3720c41d388f9c8f39b08d0339b",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/prime-gaps/round6/residual-audit/SIEVE_RESIDUAL_AUDIT.md",
+    "bytes": 19067,
+    "title": "# Residual directions outside the 77-dimensional sieve trial space",
+    "sha256": "be0a8c6ea16af80f27b7c9abc77466884bfee6c02c8750a2f4d72d5381beacc7",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/prime-gaps/round6/residual-trial/PROVENANCE.md",
+    "bytes": 2842,
+    "title": "# Provenance and compact witness export",
+    "sha256": "4a3a8f57b27e88053b12030487ed84fd939c3e32541ead1ecef047949ace04ea",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/prime-gaps/round6/residual-trial/REPORT.md",
+    "bytes": 15322,
+    "title": "# Round 6: one full cap-operator residual beyond the 77-dimensional family",
+    "sha256": "11a346f72bc5540864367d52740a9d77b1a7866cf5074e562509b94f921d4b35",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/prime186_round6.md",
+    "bytes": 11486,
+    "title": "# Round 6: a full signed-operator direction beyond the 77-dimensional sieve trial",
+    "sha256": "e1d83da09a54cf3cf9f2fd77b3ec5f246c00cd1647ba3954146152d2e417003c",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/dyson_round7.md",
+    "bytes": 8767,
+    "title": "# Round 7: two explicit actual-zeta targets for Dyson\u2013Montgomery",
+    "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/dyson_round8.md",
+    "bytes": 6061,
+    "title": "# Round 8: isolate the actual arithmetic remainder",
+    "sha256": "111901c83af7481b414b9ef08728baf0fadbabc696a8e69f533b4a55c05a2cf6",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/dyson_round9.md",
+    "bytes": 13988,
+    "title": "# Round 9: actual prime arithmetic for the Dyson\u2013Montgomery programme",
+    "sha256": "37e6f98bc96fdd9686a1e4ec158d822c087f89b35d7bf4aa9ac523c1b9a4d642",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/dyson_round10.md",
+    "bytes": 9485,
+    "title": "# Round 10: a power saving for one actual shifted-prime discrepancy",
+    "sha256": "c276e4c0da7d40fc275a1c8d10fd8cf94641753a7add8febc4a90f05bb712737",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/dyson_round11.md",
+    "bytes": 8602,
+    "title": "# Round 11: remove the shift-length loss using actual RH prime input",
+    "sha256": "293125227f1a9eef69441f1d15934ecd970466cce7bb14eb2aa1ee273886e9ad",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/dyson_round12.md",
+    "bytes": 8922,
+    "title": "# Round 12: three exact tests of the remaining arithmetic gap",
+    "sha256": "5e697b2ba41e12869bb471a1294d110b1dbf8d2592e9652f467c776d6272a89a",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/dyson_round13.md",
+    "bytes": 5410,
+    "title": "# Dyson--Montgomery round 13: extract a rational core and retain the signed remainder",
+    "sha256": "b41b76a69d98b282aecc9223a90ba793182f6594f7e57a86245b404b1f779a0c",
+    "matches_pinned_commit": true
+  },
+  {
+    "path": "research/reports/dyson_round14.md",
+    "bytes": 6653,
+    "title": "# Dyson--Montgomery round 14: an actual Type I removal and a quantitative CUE heat theorem",
+    "sha256": "2ec5f48334de9a85e0a481c3bc7fabc33f9398afc957a019db8f62ee2bfb9140",
+    "matches_pinned_commit": true
+  }
+]

@@ -21,10 +21,10 @@ This repository preserves a checkable mathematical programme with small, indepen
 * `fable/overnight-2026-09-05/` and `fable/snapshots/89393d5/files/`: separate byte-for-byte public Fable snapshots with their own provenance manifests. `fable/reviews/pr11-89393d5/` holds the later arithmetic and background objections, an independent exact pole check and a bounded replay that never alters source bytes.
 * `fable/snapshots/2073028/files/` and `fable/reviews/pr11-2073028/`: the repaired 160-file source receipt, separate F1/F3/general-beta audits, a mass-weighted Fock boundedness proof and a deliberately small finite-model check. Source bytes are never rewritten by corrections.
 * `historical/riemann-rmt/`: pinned earlier public sources, preserved even when corrected by later audit.
-* `docs/handoff/`: the detailed audited handoff and its current supplement.
-* `output/pdf/`: the public rendered handoff.
+* `docs/handoff/`: the earlier detailed archive, separately pinned Rounds 4–5 and Rounds 6–14 supplements, and the complete public Markdown with a per-volume hash/page index.
+* `output/pdf/`: the public rendered volumes and the 705-page complete compilation. The private 753-page compilation remains adjacent to the repository in `Astra-Local-Archive`.
 * `tools/`: manifest validation and document assembly/rendering.
-  `build_round45_handoff.py` assembles the ten-report supplement against a pinned source commit; `render_handoff.cjs` renders either the main handoff or its separate supplement.
+  `build_round45_handoff.py` and `build_round6_14_handoff.py` assemble complete reports against fixed source commits. The latter records every equivalent inline-math table repair without editing source files. `render_handoff.cjs` renders the volumes; `build_complete_handoff.py` combines them and checks all extracted text and page offsets. `inspect_pdf_pages.py` and `check_merged_pdf.py` retain mechanical and raster evidence for visual review; final receipts and the independent coverage checker are in `research/logs/round6-14-handoff/`.
 * `tasks/`: one bounded task for the user's existing Fable session.
 
 The adjacent local folder `Astra-Local-Archive` contains user-supplied full context and optional large data. It is separate from Git. New mathematical reports, important results, scripts and hashes belong here; credentials and unrelated private conversations do not.

@@ -11,6 +11,8 @@ Every result must state its assumptions, proof status, primary references, repro
 ## Read the research
 
 * [Current state](RESEARCH_STATE.md), [research log](research/RESEARCH_LOG.md), and [claim ledger](research/claims/CLAIM_LEDGER.md).
+* **[Complete takeover Markdown through Round 14](docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md)** and **[705-page public PDF](output/pdf/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.pdf)**. The latest audited programme comes first, followed by the complete earlier archive and Rounds 4–5 supplement. The separate local edition has 753 pages and includes supplied private context.
+* [313-page Rounds 6–14 supplement](output/pdf/ASTRA_ROUNDS_6_14_HANDOFF.pdf), [Markdown](docs/handoff/ASTRA_ROUNDS_6_14_HANDOFF.md), and [source index](docs/handoff/ROUNDS_6_14_ARCHIVE_INDEX.json): 69 complete reports and 297 individually verified source objects at checkpoint `2a9ec81`, including proofs, failed routes, independent reviews and precise next research obligations.
 * [Round 14: an actual Type I removal and a quantitative CUE heat theorem](research/reports/dyson_round14.md). The specified short-divisor component is o(X log X) unconditionally; a finite CUE background bound yields relative heat-depth error O_p(N^(-2/3)). Both have complete proofs and independent reviews, with no zeta transfer.
 * [Round 13: extract a rational core and retain the signed remainder](research/reports/dyson_round13.md). Ordinary RH gives an actual rational-core replacement error X^.923 log²X; its main term remains. A real-prime positive subsum and an exact CRT norm identity identify where cancellation is still needed.
 * [Round 12: test the remaining arithmetic gap](research/reports/dyson_round12.md). Actual-support positive sampling is sharp up to logarithms, a real-prime phase twist violates the 186 theorem's SW hypothesis, and centered Selberg upper norms leave the needed sign/precision open. These rule out specific shortcuts; no stronger prime bound is claimed.
@@ -36,7 +38,7 @@ Every result must state its assumptions, proof status, primary references, repro
 * [Pinned Fable mirror and provenance](fable/README.md).
 * [One Fable computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery to the user's existing session. The earlier task was acknowledged and has F2 outputs; the newer packet has separate, unconfirmed receipt status.
 
-The public handoff combines 48 source documents at checkpoint `055a4a0`; subsequent research is linked above and recorded in the current state and ledger. The historical papers retain known errors, explicitly corrected by the current audit. Neither their filenames nor their earlier status labels supersede the claim ledger.
+The earlier public handoff combines 48 source documents at checkpoint `055a4a0`. The complete archive adds the ten-report Rounds 4–5 supplement and the 69-report Rounds 6–14 supplement, preserving each volume's source checkpoint and pagination. The historical papers retain known errors, explicitly corrected by the current audit. Neither their filenames nor their earlier status labels supersede the claim ledger.
 
 ## Reproduce and verify
 
@@ -74,6 +76,17 @@ node tools/render_handoff.cjs
 ```
 
 `PLAYWRIGHT_MODULE` may specify an installed Playwright module path; `PLAYWRIGHT_CHROMIUM_EXECUTABLE` may specify a browser binary. Otherwise the renderer uses ordinary module resolution and Playwright's installed browser. Input Markdown and output PDF can be supplied as its two positional arguments. The renderer saves math/overflow diagnostics under `tmp/`; final PDF validation is recorded with the research logs.
+
+To rebuild the later supplement and the public complete archive, run:
+
+```text
+python3 tools/build_round6_14_handoff.py
+python3 research/logs/round6-14-handoff/check_source_coverage_euclid.py
+node tools/render_handoff.cjs docs/handoff/ASTRA_ROUNDS_6_14_HANDOFF.md output/pdf/ASTRA_ROUNDS_6_14_HANDOFF.pdf
+python3 tools/build_complete_handoff.py
+```
+
+`build_complete_handoff.py --include-local` additionally combines the private edition when its earlier local source files are present. `inspect_pdf_pages.py` renders every page and screens blank bodies and bounds; it requires human visual review. `check_merged_pdf.py` compares every merged page with its indexed source image and records even single-pixel differences for review. The final receipt, source coverage check and visual reviews are in `research/logs/round6-14-handoff/`.
 
 ## Scope, limitations and rollback
 

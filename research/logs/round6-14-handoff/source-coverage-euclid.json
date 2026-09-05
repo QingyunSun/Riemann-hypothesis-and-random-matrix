@@ -1,0 +1,567 @@
+{
+  "status": "PASS",
+  "source_commit": "2a9ec8192ca8aed1cfdd1bad648c3a3a429e31ba",
+  "expected_sources": 69,
+  "raw_source_bytes": 674061,
+  "complete_embedded_bodies_checked": 69,
+  "associated_git_objects_checked": 297,
+  "equivalent_table_bar_replacements": 8,
+  "unresolved_local_markdown_links": 0,
+  "assembled_markdown_sha256": "94feffadb99109d87e14fecc5aaa6e816cfa856a85763cc3dd78f702178cb486",
+  "archive_index_sha256": "30e1418456ef56c308cc27df8169420938a46746e51f9278f91845530b1963d5",
+  "source_body_checks": [
+    {
+      "path": "research/reports/prime186_round6.md",
+      "source_sha256": "e1d83da09a54cf3cf9f2fd77b3ec5f246c00cd1647ba3954146152d2e417003c",
+      "body_sha256": "55c9ae441bf24797a826148d19d3600c8372dfc596fe85024c6300234f009a9d",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/prime-gaps/round6/operator-proof/FULL_SIGNED_CAP_OPERATOR.md",
+      "source_sha256": "020099a5ab6927f17b82dfbb2b96aa5b2cfbc3720c41d388f9c8f39b08d0339b",
+      "body_sha256": "efcfb74a848041bb3a6d0386bfcd004d9e456599a3895e8b827fc9fd281cf57b",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/prime-gaps/round6/residual-audit/SIEVE_RESIDUAL_AUDIT.md",
+      "source_sha256": "be0a8c6ea16af80f27b7c9abc77466884bfee6c02c8750a2f4d72d5381beacc7",
+      "body_sha256": "4ae7e3d2d3b73046a7339350d172eb3a94e213e71e345faa9e9c40d9c61dd15e",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/prime-gaps/round6/operator-diagnostic/FINITE_MARKED_OPERATOR_AUDIT.md",
+      "source_sha256": "486d31e88130a394b42987e8af29f15c4ad902318e65343b92f2f95fce1348c2",
+      "body_sha256": "c191014b6c9bbba67ecbf95e58817e5f0e5660bd68e7f5b4a91400d20685bf89",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/prime-gaps/round6/residual-trial/REPORT.md",
+      "source_sha256": "11a346f72bc5540864367d52740a9d77b1a7866cf5074e562509b94f921d4b35",
+      "body_sha256": "9c05f3ef71ce2f86523555a4042e8c040a6dd38b1f1b19c7a943daab1a2c96fc",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/prime-gaps/round6/residual-trial/PROVENANCE.md",
+      "source_sha256": "4a3a8f57b27e88053b12030487ed84fd939c3e32541ead1ecef047949ace04ea",
+      "body_sha256": "17895411a9df584fdaa82f70ce02bc7c4317809fc0426890cd6ae8b1242f4baf",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/prime-gaps/round6/operator-diagnostic/OUTSIDE_SPAN_INDEPENDENT_REVIEW.md",
+      "source_sha256": "a1f8b3fc86c4232f6f0e6f17b930935d927671466b40274c02ace7893432ad0e",
+      "body_sha256": "77432113f2a708316062035a24c66a3297d0714b644efd01bfb971d81e9854bc",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/reports/dyson_round7.md",
+      "source_sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33",
+      "body_sha256": "e668cfd7e19a7689e8f3d5e5c2ce2e7595f7ab27c750ed192d22f70fcc372483",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round7/poisson-resolvent/TWO_SCALE_ZETA_TARGET.md",
+      "source_sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+      "body_sha256": "6a0d68991950dd9f2c3f6555c6b09eb7f7bf0ea5b9d2d097b36187e43180f509",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round7/poisson-resolvent/INDEPENDENT_REVIEW.md",
+      "source_sha256": "82db15288f7b6f902a461c296abe30eb1d21253bf14ae4949da4dc12c592a370",
+      "body_sha256": "de4a1c556c1733a12c4d73abe145f1c7b574525d8c52261895a66f9b5ffdb1f3",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round7/dyson-frontier/POISSON_TRANSFER_REVIEW.md",
+      "source_sha256": "fc7959a2f6147380709467776add8e4a59aa255747e46c70cad413d808e64b36",
+      "body_sha256": "380bbe5b1dac644aa29b36926b81dd26d788126e8f5c5115968c9a357b24c2e8",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round7/dyson-frontier/DYSON_ACTUAL_ZETA_FRONTIER.md",
+      "source_sha256": "3b8eb5fb9efc2f53af550db64c1e8eef7233f8be83564e906357b3acf00a0301",
+      "body_sha256": "6bb483cb8e3f0179f43953c44506b0d888937f4315c44003081a26d426dff3af",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 8
+    },
+    {
+      "path": "research/dyson/round7/true-zeta-flow/FORWARD_FLOW_OBSTRUCTION.md",
+      "source_sha256": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da",
+      "body_sha256": "b7d7957e4fe4dbef6508290dbc9567e3b934b564bf28c77347e10c4beccb201d",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round7/arithmetic-resonator/DERIVATION.md",
+      "source_sha256": "3ab12c7227f0c41aaf78aab733f0353c054973cfe599f7b9275e47b12e8ee1f5",
+      "body_sha256": "f3ea9806148b4f9e7c82b8a388cfa8bc8892176762e3b032c1adfc5ec7c8c6d2",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round7/arithmetic-resonator/REPORT.md",
+      "source_sha256": "a1ad13dac36a646c82c857c771fa4c9c9b0e42aa5daa9d4c964361aebf7e2983",
+      "body_sha256": "c05fb4a2dec6bfabaa97ead4cf82e28d062c0b0cfaa7df54482b1422d9f9d774",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round7/arithmetic-resonator/INDEPENDENT_REVIEW.md",
+      "source_sha256": "b18387755f10dfdb1bb86e9fe755ecd778fb10b71f3b46ea7b6dec987264a3cb",
+      "body_sha256": "00e79b6bb63e2ecb74a722d962257781ee07eef2f3590c7171cc552849a80894",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/reports/dyson_round8.md",
+      "source_sha256": "111901c83af7481b414b9ef08728baf0fadbabc696a8e69f533b4a55c05a2cf6",
+      "body_sha256": "dd5327ea2307cb62cfaa6e4ca8c77faf02e21e1c4df1515c721527464707607e",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round8/resolvent-arithmetic/SHORT_PRIME_PROJECTION_AND_CENTERED_TAIL.md",
+      "source_sha256": "0067a1b0c7bd4f0b80ef89d6ac85eca1ae99e652375c08c41706ec1f1ddbe40e",
+      "body_sha256": "3277b58364379e1e8895722846e0f477a2d25e67de668748e40b31e3fe63ed36",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round8/resolvent-arithmetic/INDEPENDENT_IDENTITY_AUDIT.md",
+      "source_sha256": "5159f2127474e57041368aa3741cefa9b7c29040b8286492bb6107eea052c8ab",
+      "body_sha256": "280d3ee7d98ea6eb5f56982f2303a3153bdbd0bb5dfd78f120d90299f22a4121",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round8/spectral-positivity/POSITIVITY_OBLIGATION_NOTE.md",
+      "source_sha256": "485b7778a0f7bab21492dac710b8732e5e1996734014fbba770d4b076a7b6329",
+      "body_sha256": "fd758789244074d0adca74e7ebf878b4a447c74c9cf43bf25f64b925cd89f482",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round8/spectral-positivity/MINORANT_REVIEW.md",
+      "source_sha256": "383af540ae53eba3a0fbcb471fcf79d72b821167450cc05e9a89198c7dbc843a",
+      "body_sha256": "ce8a67ad79f13ec6863ee44ac618d6c0da390d997b9f76a87b075a81147dc48f",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/reports/dyson_round9.md",
+      "source_sha256": "37e6f98bc96fdd9686a1e4ec158d822c087f89b35d7bf4aa9ac523c1b9a4d642",
+      "body_sha256": "5aa4dcba6b31276340458ee5a89ac4eba8014bf520f28657d409d2180e0d0e0c",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/factorization-covariance/COMPLEMENTARY_MODULI_TYPE_I_BRIDGE.md",
+      "source_sha256": "982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a",
+      "body_sha256": "d3453fefcfd79261306d0fe15c96529075bb06d2b4e576644ff701f1dac2827e",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/factorization-covariance/INDEPENDENT_BRIDGE_REVIEW.md",
+      "source_sha256": "86844e29f08ca834ebdebf04bb7d2df79fa28f37b09bfed2fcc8c5d1534c50b6",
+      "body_sha256": "bf82a0c80aacf395eb9eb00f689a63e92b8519fa98c8d107782768f2f279fc12",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/multiplicative-profile/DERIVATION.md",
+      "source_sha256": "0b717ee45e31abcd399ba48d58069b47bab6b1d9ea5086afed42ca9df6438438",
+      "body_sha256": "1aa37e8fd04a9ec47c2d819e67e8fcda36161ffc57901d84c3d9a3974b3b16b9",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/multiplicative-profile/REPORT.md",
+      "source_sha256": "ecc98ab471b4e0b24516d0315a59481a3e8b76140543a52dade81f1bb917fa84",
+      "body_sha256": "88eca6fc71b43b8f75c7153fdf23fc0eeaf8294faf0b1166c1680ed762f1e3a3",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/multiplicative-profile/INDEPENDENT_REVIEW.md",
+      "source_sha256": "b88133d0b6dbd38d3c1a4c7a8fb70599ce6ef7968297a05f21105682c7ae6997",
+      "body_sha256": "2a44a17a209443858afc6e72d389d82ddb58301fffa085d1918c4ea562f053d7",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/prime-power-removal/PRIME_POWER_TAIL_ESTIMATE.md",
+      "source_sha256": "e7fff21fa21285a20968c218e99b17b3bc634bf28b88268c002f406a0fdd6cd0",
+      "body_sha256": "8cb75a3558ac9306768415ed2d13557d8952aa6ea7b4b1e33ca09de5f7c15e4b",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/prime-power-removal/INDEPENDENT_REVIEW.md",
+      "source_sha256": "0650ede489f745fa0eea7d7761ccd356f86b2eca7f9e5a5858d63bab644dcbb6",
+      "body_sha256": "9b350688596f87aac8c853b49dac3168a99578fa80188b0dcde65407fa66ab05",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/mesoscopic-edge/EDGE_RATE_AUDIT.md",
+      "source_sha256": "47e69edb32f9e2a083ff8a56ed0a6c19c6b6e69477c63f727eb4713458e05934",
+      "body_sha256": "c61f05703c8cc519470c254557d054b4c69408ae378bebac21dbef79117c2e06",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round9/mesoscopic-edge/INDEPENDENT_EDGE_REVIEW.md",
+      "source_sha256": "715ca92465ab81f1e2b3c0c4198fa4f861cb9394168ad749ae2f602d5ff67dd6",
+      "body_sha256": "7036021b95b1e7123bc581397b93ae65a5f3ba0dd91ca9e2ba8812943712ec2e",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/reports/dyson_round10.md",
+      "source_sha256": "c276e4c0da7d40fc275a1c8d10fd8cf94641753a7add8febc4a90f05bb712737",
+      "body_sha256": "d345e11ab2386836faee66760b0198e1f2bf3bd9c0144b29438d1f5b3b923ee2",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round10/shift-average/SMOOTH_SHIFT_COMPLETION_BOUND.md",
+      "source_sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+      "body_sha256": "ba85aa8c37563c34c3bc966ac0adc8d14af3bbac9aa68e61c5e4f4d2fa3f0ef7",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round10/shift-average/COEFFICIENT_AND_SPACING_AUDIT.md",
+      "source_sha256": "eccd80ad4909639a53583376444cbc9fce9fab518b75de7f82052c31c7a27fc7",
+      "body_sha256": "8aff6dc0357bd34c0538a915fce33aac42848fc40f2a2339b021d11fc9faffed",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round10/shift-average/ACTUAL_KERNEL_AND_PRIME_POWER_REVIEW.md",
+      "source_sha256": "df6d6602ce9b68ac4759a8cbb8a3caad84d82b4694105a3bb466a9a69fd22732",
+      "body_sha256": "dea3f30f1e4a3ab84d94cdcd4b8c9621552f473aa8e2301fc69fd66bb80c01b2",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round10/arithmetic-residual/ARITHMETIC_RANGE_AND_MIXED_MOMENT.md",
+      "source_sha256": "c2d2a278ffe74d8f8d8a7c00980e5e57e6c508790ff96904db4479277d1daa8c",
+      "body_sha256": "5eb3b3cc67214fb062e832164870aa3d79c91b0575c253fd2fa3347937f7f0f9",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round10/arithmetic-residual/INDEPENDENT_REVIEW.md",
+      "source_sha256": "375ab6c0ae80f43c86273a38868b045732f547ac9ce2eb3ffa363edaad2bd1a8",
+      "body_sha256": "dd0877e57629a54f39216cde79cff50342bba0f712cfc4f8e088da64eb8bb253",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/reports/dyson_round11.md",
+      "source_sha256": "293125227f1a9eef69441f1d15934ecd970466cce7bb14eb2aa1ee273886e9ad",
+      "body_sha256": "7d0e1146fb4dcd4514aa6aad8086cdb84635c443649dcb280833d229da8d3a3d",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+      "source_sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29",
+      "body_sha256": "2b3a14897a3db2e08a7794eab73658ae395e54eb51002cad6d8449cfd97a7661",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/SMALL_ARC_INDEPENDENT_REVIEW.md",
+      "source_sha256": "fdeba2af8e447ed7ec382155496f22e23255267f0d4051afdc3759a1f933daab",
+      "body_sha256": "891c602c3bbbcc57505cd5462629b546f94c7c331755aa6898dc34eddc7dafd9",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "source_sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+      "body_sha256": "1c8406301f692e1187b2b55c77acfbc669a0284c19d08682399db9d8b3829855",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round11/conductor-arithmetic/INDEPENDENT_REVIEW.md",
+      "source_sha256": "b146b7427417bc3acca5443e167e3a07257830cfeb80e7f02523a6fd1f3e252d",
+      "body_sha256": "5aad9472ff3de58c0a671cc7088f72a03a72a8f7a8d64182fc636692ca8c6260",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round11/log-weighted-tail/ARITHMETIC_DIAGONAL_AND_SOURCE_GAP.md",
+      "source_sha256": "85c9435bbd656bcf37f21f55fe2d54cb40638c7a56908abe57e54f551a627daa",
+      "body_sha256": "67e7855485d3a9cd7e6e6ec3ce1141fc291090dac7ecf69c4813ecde4943d49d",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round11/log-weighted-tail/INDEPENDENT_REVIEW.md",
+      "source_sha256": "97a8e45507e0df1cf21e6045ba6d689990401a4eff5f2ba79a00739ab69e08f6",
+      "body_sha256": "d4fe941f4e416d18bbcb5e30ec9a80d5569e508800d138a0166e85b0f965d6b6",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/reports/dyson_round12.md",
+      "source_sha256": "5e697b2ba41e12869bb471a1294d110b1dbf8d2592e9652f467c776d6272a89a",
+      "body_sha256": "03f6f961a52dbf6ce658aed9440facf3d2ede7f6c45a3d436003a783c34af12a",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/ACTUAL_SUPPORT_SAMPLING_OBSTRUCTION.md",
+      "source_sha256": "cb52d72f6068c3030968209d8aa028439ea4dc309aa5584d216a1d7d30a1a59d",
+      "body_sha256": "041879c42323afbaf67ee3290a35f789bde4bababbc5f71000e1360899cfc4c6",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round12/sampling-geometry/COUNTING_REVIEW.md",
+      "source_sha256": "820dfdc6707cdc1c29f7eef61dc884d3f6c96980ffcffab661cd790e3843bbc2",
+      "body_sha256": "a94613282ded05e69c0534a4d6434c5d30a7a090934b782280d4f85a2653025c",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round12/dispersion-transfer/DISPERSION_HYPOTHESIS_OBSTRUCTION.md",
+      "source_sha256": "26536af7b5e6ebfb8fb4f7c7be993543c57152e29c6fd2b039c5eb147ccefd95",
+      "body_sha256": "108247c04b0cc9fe3417c709eb0ff8a1c726ea0b27e0e1bd59344ac0ad3dd722",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round12/mixed-arithmetic/SELBERG_MIXED_REMAINDER_AUDIT.md",
+      "source_sha256": "6223e9a54c44c31d344c2f932fe81ca6ad4672e5f6ef625adfeae07b4ed5a308",
+      "body_sha256": "13c9e87c49ab384a68d7d06e72aa088d215d164d6a18f4cf837fbf83b00cae10",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round12/INDEPENDENT_ROOT_REVIEW.md",
+      "source_sha256": "bff32012d2eb29877b51cd569d976016418d16abe6120a000a3c811f737a8557",
+      "body_sha256": "bb81b4189cce4a733d92492832747d9776bd387853e8679e467f8770c5ca6613",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/reports/dyson_round13.md",
+      "source_sha256": "b41b76a69d98b282aecc9223a90ba793182f6594f7e57a86245b404b1f779a0c",
+      "body_sha256": "08b65eeff632b8420dc30c7855ec6b5cf8c49bfe35019a4575a5912ba98ee51f",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round13/phase-resonance/AVERAGED_RATIONAL_PHASE_TEST.md",
+      "source_sha256": "7f4285cb02241e22bdb29a1ad4952f7ab8249e3ec3bef984455a57ae05e41ebb",
+      "body_sha256": "c4c6c88cbe8eded68b96703cbfe3bd3b1d8bc683b7034eccbd2eeb80fd05001f",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round13/minor-arc-source/MINOR_ARC_AND_FIXED_INTERVAL_AUDIT.md",
+      "source_sha256": "bbdb17478b9e885570b7b49c3ff9b94b0ceb98f12a41743edb1ce492cb50edc4",
+      "body_sha256": "89b7d1f048149da957037909ae9088cde49bdba612e41bb0f65d65e1d17b3ca0",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round13/signed-kernel/SMOOTH_SIGNED_KERNEL_NORM.md",
+      "source_sha256": "1105564835c925b818daf7198186e77c4f0f1ad4ac1001ee1bb50c0f5c7544d9",
+      "body_sha256": "4f75eda0f5d408de7e923ba40b3daf509af72204e242020bd16206797c3cae99",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round13/signed-kernel/INDEPENDENT_AUDIT.md",
+      "source_sha256": "5ada6ceefda4f1df6435a992876ed1eee5fe567907c183fd3a6e193814c0a731",
+      "body_sha256": "4375fcabad9ffd56da93324f7dad97c36f5f8c85d2f97001940b0fee96e8215d",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round13/INDEPENDENT_ROOT_REVIEW.md",
+      "source_sha256": "d38cfc0ec3f7031276340e4984fbc330185b5c9eef34df1e0955fc9853555456",
+      "body_sha256": "c63342958c356f7e25238aaa0820e206b97a3996b2c42d1734bf680e7cd5004c",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/reports/dyson_round14.md",
+      "source_sha256": "2ec5f48334de9a85e0a481c3bc7fabc33f9398afc957a019db8f62ee2bfb9140",
+      "body_sha256": "825563de691394d847bb7ecde5cc42aba21a11a3343a234239ce56e43b38bbdb",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/SMOOTH_LONG_FACTOR_REMOVAL.md",
+      "source_sha256": "d6143f19ddf006a1acc833ecd2e5265bffb35817930cfeaa4f4e4b973af7c849",
+      "body_sha256": "76defeec03e8250c32c0e6d1ba5855877046ffa7d4552b74b7b59a5d599bf921",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/INDEPENDENT_REVIEW.md",
+      "source_sha256": "3a6bef5c4cddf0973cacd69826aefa3fbea1db3659beb7f856ecaf3f6cee356b",
+      "body_sha256": "0ae05eccdb575addbb22e6ba861c334e0b160b0bdec96b559115ccfabe59d0af",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/SELECTED_CUE_BACKGROUND.md",
+      "source_sha256": "fbc67828d13534d8d0b4ac1f742a639b282dd93a3f7cb635291f8cdbb651c0a5",
+      "body_sha256": "866f200d8ffd339af41b8946f0c2ece5f9d1682046d9b59feef16979bfeeaa02",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/INDEPENDENT_REVIEW_EUCLID.md",
+      "source_sha256": "54f03e2f3f2636392fd630a19900dddb81d56e1fcffa7a656a7af36c4f1a6018",
+      "body_sha256": "aa17c6297a6a4fb892cb2db837c8092f65d8b839466a3c24697d778823038011",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "research/dyson/round14/INDEPENDENT_ROOT_REVIEW.md",
+      "source_sha256": "8350088f7454529e209379e8f4692a78be6cc49fe1c67257a053a5065112bf3e",
+      "body_sha256": "3eefc168161d96c9f94cf7fd4c80ec48c13cc917a4aa97b2103da690d5030fdf",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "fable/reviews/pr11-89393d5/INTAKE_REVIEW.md",
+      "source_sha256": "6e5a08438cdf6abc3dbffdab699374f72738d894a472d47c6d78fa4db91276eb",
+      "body_sha256": "8fa44b906a87e65db4ec5713afdfb89f27091e9bdac65d79f4effcd1dd9edd63",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "fable/reviews/pr11-89393d5/BACKGROUND_AND_BOUNDARY_REVIEW.md",
+      "source_sha256": "336ae8258325f935c8613659e4921c8ce610193fbdde54d3fca8e0aafa8ada61",
+      "body_sha256": "d04c88040d49402dd0bc574a8d6d8910d7e1c42d42718d0dea5c2103bb82d058",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "fable/reviews/pr11-2073028/INTAKE_REVIEW.md",
+      "source_sha256": "51111bc72197254e92d3120f36b4f1278b8456eedd092c0d1a1362fe7b092f05",
+      "body_sha256": "f6ecb7b8b11c378968771e542979a44280e6d793efd6d8b8dba5e1d4650b8515",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "fable/reviews/pr11-2073028/F1_F3_INDEPENDENT_AUDIT.md",
+      "source_sha256": "5af35dcdf0120a5ab88c398f9b957e89587d7f12ea58ec207eb7e0f2f7d0c929",
+      "body_sha256": "2bcc2777a7634c4cf67e4fce157c050505aa744108b914d67e194afef4986156",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "fable/reviews/pr11-2073028/F1_REPAIR_AND_CUTOFF_REVIEW.md",
+      "source_sha256": "9f9cd67afbfd7d304f6eb42adcf34391972c54a9f49a2964be1d8fbb176da628",
+      "body_sha256": "6d645050d814b63d6124adf3576c71052fdb7deac8c6e84f5996c5c31d5f1fe4",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "fable/reviews/pr11-2073028/F3_MASS_CUTOFF_BOUND.md",
+      "source_sha256": "112eac7be3ed1294ea47c046eaa93720b170858350115960f8578e0301bb638b",
+      "body_sha256": "617cc7c1a62968fcd10184e9ba529cf2f6f02e950551eb8ffcc98ceb7ca99b5d",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    },
+    {
+      "path": "fable/reviews/pr11-2073028/CBETA_REPAIR_REVIEW.md",
+      "source_sha256": "3f60e18e4994a78aeab9b381213c07cf4316005741ceed1ed614a79c1708a4af",
+      "body_sha256": "a3633f196ca5cb11227ba3f380c6168576de4667723dca4bcf48f77dce37dddd",
+      "embedded_exactly_after_documented_transform": true,
+      "display_math_unchanged": true,
+      "equivalent_table_bar_replacements": 0
+    }
+  ],
+  "scope": "Coverage, exact preservation after documented presentation transforms, displayed mathematical block identity, source checkpoint; no numerical or new mathematical theorem validation."
+}

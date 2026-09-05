@@ -7,9 +7,10 @@ const root=path.resolve(__dirname,'..');
 const input=path.resolve(process.argv[2] || path.join(root,'docs/handoff/ASTRA_PUBLIC_RESEARCH_HANDOFF.md'));
 const output=path.resolve(process.argv[3] || path.join(root,'output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf'));
 const supplement=path.basename(input).includes('ROUNDS_4_5');
-const coverTitle=supplement ? '素数间隙研究<br>第 4-5 轮<br>证明与实验补编' : 'ACUE 与黎曼零点<br>从谱反例走向<br>可证明的数论结果';
-const coverSubtitle=supplement ? '新增正项、变量半径估计与失败搜索<br>GPT-6 Astra · 独立审查与复算' : '完整研究接手档案<br>GPT-6 Astra × Claude Code / Fable';
-const coverDescription=supplement ? '资料检查点 c74b326 · 10 篇完整报告 · 主档案的后续补编' : '经审计主说明、公开历史 Markdown 与完整研究报告、算术相关性新路线';
+const laterSupplement=path.basename(input).includes('ROUNDS_6_14');
+const coverTitle=laterSupplement ? '黎曼零点与随机矩阵<br>第 6-14 轮<br>证明与研究补编' : supplement ? '素数间隙研究<br>第 4-5 轮<br>证明与实验补编' : 'ACUE 与黎曼零点<br>从谱反例走向<br>可证明的数论结果';
+const coverSubtitle=laterSupplement ? '真实算术、CUE 热流、反例与失败路线<br>GPT-6 Astra · 完整证明与独立审查' : supplement ? '新增正项、变量半径估计与失败搜索<br>GPT-6 Astra · 独立审查与复算' : '完整研究接手档案<br>GPT-6 Astra × Claude Code / Fable';
+const coverDescription=laterSupplement ? '资料检查点 2a9ec81 · 完整后续报告 · 可复算证据与未解决义务' : supplement ? '资料检查点 c74b326 · 10 篇完整报告 · 主档案的后续补编' : '经审计主说明、公开历史 Markdown 与完整研究报告、算术相关性新路线';
 const archiveLabel=path.basename(input).includes('FULL_LOCAL')
  ? 'Local archive · includes supplied private context'
  : 'Public research archive';
@@ -59,17 +60,23 @@ md.block.ruler.before('fence','math_block',(state,start,end,silent)=>{
 md.renderer.rules.math_block=(tokens,i)=>'<div class="display-math">'+tex(tokens[i].content,true)+'</div>\n';
 let source=fs.readFileSync(input,'utf8');
 let html=md.render(source);
+if(laterSupplement){
+ const pinnedImagePrefix='src="https://raw.githubusercontent.com/QingyunSun/Riemann-hypothesis-and-random-matrix/2a9ec8192ca8aed1cfdd1bad648c3a3a429e31ba/';
+ html=html.replaceAll(pinnedImagePrefix,'src="file://'+root+'/');
+}
 let headingNumber=0,toc=[];
 html=html.replace(/<(h[12])>([\s\S]*?)<\/\1>/g,(all,tag,content)=>{
   const id='section-'+(++headingNumber);toc.push({id,tag,text:content.replace(/<[^>]+>/g,'')});
-  return `<${tag} id="${id}">${content}</${tag}>`;
+  // Chromium otherwise inserts a blank page before this report after a full preceding page.
+  const paginationStyle=laterSupplement && tag==='h1' && content.startsWith('Current report 40:') ? ' style="break-before:auto"' : '';
+  return `<${tag} id="${id}"${paginationStyle}>${content}</${tag}>`;
 });
 const css=fs.readFileSync(path.join(root,'tools/document-renderer/node_modules/katex/dist/katex.min.css'),'utf8')
  .replace(/url\(fonts\//g,'url(file://'+path.join(root,'tools/document-renderer/node_modules/katex/dist/fonts/'));
 const archiveStart=toc.findIndex(v=>v.text.startsWith('Current report '));
 const tocHtml=toc.filter((v,i)=>i>0 && (i<archiveStart||v.tag==='h1')).map(v=>
  `<li class="${v.tag}"><a href="#${v.id}">${v.text}</a></li>`).join('');
-const title=supplement ? '素数间隙研究 · 第 4-5 轮证明与实验补编' : 'ACUE · 黎曼零点 · Random Matrix · 素数间隙';
+const title=laterSupplement ? '黎曼零点与随机矩阵 · 第 6-14 轮详细研究补编' : supplement ? '素数间隙研究 · 第 4-5 轮证明与实验补编' : 'ACUE · 黎曼零点 · Random Matrix · 素数间隙';
 const page=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>${title}</title>
 <style>${css}
 @page {size:A4;margin:22mm 19mm 22mm 19mm;}
@@ -77,6 +84,7 @@ const page=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title
 h1,h2,h3,h4,h5{font-family:'PingFang SC','Arial',sans-serif;line-height:1.32;color:#143444;break-after:avoid;page-break-after:avoid;}
 h1{font-size:23pt;break-before:page;margin:0 0 20px;border-bottom:2px solid #235e72;padding-bottom:14px;}
 h1:first-of-type{break-before:avoid;}h2{font-size:16pt;margin:29px 0 13px;}h3{font-size:12.1pt;margin:22px 0 9px;}h4{font-size:11pt;}
+img{max-width:100%;max-height:200mm;height:auto;object-fit:contain;display:block;margin:15px auto;break-inside:avoid;}
 p{margin:0 0 10px;orphans:3;widows:3;}a{color:#185770;text-decoration:none;overflow-wrap:anywhere;}strong{font-weight:700;}
 code{font-family:'SFMono-Regular','Menlo',monospace;font-size:.82em;background:#f1f4f5;padding:1px 3px;border-radius:2px;overflow-wrap:anywhere;word-break:break-word;}
 pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:8.4pt;line-height:1.5;padding:10px;background:#f1f4f5;border-left:2px solid #6c919c;break-inside:auto;}pre code{background:transparent;padding:0;}
@@ -102,7 +110,7 @@ fs.writeFileSync(path.join(root,'tmp/handoff.html'),page);
  await tab.evaluate(()=>document.fonts.ready);
  const qa=await tab.evaluate(()=>{
   const issues=[];const width=document.body.clientWidth;
-  for(const el of document.querySelectorAll('.display-math,.katex-display,table,pre')){
+  for(const el of document.querySelectorAll('.display-math,.katex-display,table,pre,img')){
    const inner=el.querySelector('.katex-html');
    if(inner && inner.getBoundingClientRect().width>el.getBoundingClientRect().width){
      let ratio=el.getBoundingClientRect().width/inner.getBoundingClientRect().width;

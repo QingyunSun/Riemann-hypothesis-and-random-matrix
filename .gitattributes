@@ -1,0 +1,5 @@
+# PDFs are binary artifacts, including Poppler files with long ASCII prefixes.
+*.pdf binary
+
+# Complete source compilations retain original Markdown hard breaks and EOFs.
+docs/handoff/*.md whitespace=-blank-at-eol,-blank-at-eof

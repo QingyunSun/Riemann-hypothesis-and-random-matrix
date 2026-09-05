@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 47045,
-      "sha256": "fb74a18bca21ebdfb2dc719ba4069d3e6e59e911a90afe513ace5fa682a75bfb"
+      "bytes": 49530,
+      "sha256": "bc3e67afe1f9dcc6b4a73524e870b62ac19571f75ea943a6daec45bc9de3ccf9"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 28728,
-      "sha256": "d9cf71cd10b5a2058d02e9526baa5aa9479cfe1c03d80d54c51ed92c85ddd98f"
+      "bytes": 29776,
+      "sha256": "a22ff339ebe31f7b7dcd715b126838981d3ee5d6377cf3cc3638974abca0dd93"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -1235,6 +1235,96 @@
       "path": "research/logs/round5-integration/recheck.py",
       "bytes": 4582,
       "sha256": "cee43b2625ac223c076937e0fab59a03550e4b2b06b69a80f6acfdd50bad18fe"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/FINAL_ARTIFACT_QA.json",
+      "bytes": 5623,
+      "sha256": "ef5d73ea902c84a46625f0170f0a06c1d94db30e4cf5b81bc0dcdd9dea231a93"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/check_source_coverage_euclid.py",
+      "bytes": 5881,
+      "sha256": "86aedf96c8a86ca63bb0e4634c4865c48b24dfe307a1503f48f83360d05fbf3e"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/expected-source-inventory-euclid.json",
+      "bytes": 21039,
+      "sha256": "0832003ef71b01339c85f8d9feb42055cb6c0d9ba0f3709a7abb2d257a29eef2"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/public-merged-raster-qa.json",
+      "bytes": 227367,
+      "sha256": "e0ce9f1b4787bf1491ce1b0400ffc4155064cea12e66b4a82dd9d73087767faa"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/source-coverage-euclid.json",
+      "bytes": 29260,
+      "sha256": "98fc53c77b7c471d19f2a51ec57f845b25acc4418304875192a86c1183966ed6"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/source-coverage-euclid.md",
+      "bytes": 6525,
+      "sha256": "4d8dc7dabca98817f3b19b4f6a11cf0e8e0ab6ebd6a3b326999a165e521a81ee"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v1/mechanical_qa.json",
+      "bytes": 4390,
+      "sha256": "2836cbb914f5130eccfa387dd02f378819d8c13eca36e463340e1466a1aaed3d"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v1/visual-review-aquinas.md",
+      "bytes": 4004,
+      "sha256": "413e08a473a59f19c7acada56a3b88a0053cfc921e385dc0615118b7561a3d7a"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v1/visual-review-euclid.md",
+      "bytes": 2547,
+      "sha256": "156e3906818a97fb91eaeff7b160783e5b8791b0d492f30c590cc2a0b1408f96"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/compare_page_bodies.py",
+      "bytes": 6294,
+      "sha256": "2a5d2bffefed08c2cee44e783bc8817db2b6b646528c6772e2f5ff10baa489fb"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/mechanical_qa.json",
+      "bytes": 4390,
+      "sha256": "9ebdf675c20fa5ff677cf643f2109ef912f957e666c05e3ce9a46b599e19e029"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/page_body_comparison.json",
+      "bytes": 295250,
+      "sha256": "a8d7ac3fddc22ab6e6ea0353d299a4ecd1b6977f66b88eb382fd2ac97df8da4b"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/pdffonts.txt",
+      "bytes": 13818,
+      "sha256": "8a9c4996854cd2c0d0ba6a92c8d5a409d3a8bdeb51881081fc7d3207ea4e0e6a"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/pdfinfo.txt",
+      "bytes": 662,
+      "sha256": "efacd7a116818d8cd3b2203cb69fbd23782b82e1882a114e3266f31e6cfd8686"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/render_qa.json",
+      "bytes": 73,
+      "sha256": "e0a573cc5bdaaea3db2a922a0dcd5ccac168442a8dfa7da8dd352bcfc5e7b956"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/table-semantic-review-euclid.json",
+      "bytes": 816,
+      "sha256": "b2c4e26d3cea660515bfe390de75f031b6d7340612fb66ff9f05375dea8142a7"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/table-semantic-review-euclid.md",
+      "bytes": 3271,
+      "sha256": "c8bee6aee3115d85e4a6ec3f7ca88004c7ec9edd525ed56e89a0d8af7c8f2819"
+    },
+    {
+      "path": "research/logs/round6-14-handoff/v2/visual-review-aquinas.md",
+      "bytes": 7126,
+      "sha256": "d3e6521bc0135385cbae2ebe6345f3f5dbc52421bd35c6b68f5f959732a4eae6"
     },
     {
       "path": "research/logs/round6-integration/archive_check.json",
@@ -3078,8 +3168,18 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 6704,
-      "sha256": "2fe3c8f8eccce1ba88239c7163e11b7359a45f8527608ab70497a2a71f2cd86f"
+      "bytes": 7303,
+      "sha256": "fd209c4096806a87400e5e13ec8bc4ceb5490615a3b54e5e19454f37e77b1130"
+    },
+    {
+      "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",
+      "bytes": 1776575,
+      "sha256": "c284185491a44d63c77b2274b221c60b7c3ae5065e07c2d1d148a0a46f4599f7"
+    },
+    {
+      "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05_INDEX.json",
+      "bytes": 2219,
+      "sha256": "6ecc635cd5f6a5f9a7dae0fa590a0be2f94325c00222c10fdb6baae24fd49868"
     },
     {
       "path": "docs/handoff/ASTRA_LATEST_SUPPLEMENT.md",
@@ -3107,6 +3207,11 @@
       "sha256": "c25ad7c01ead84ee98122be3cf1fa02668cfd49f1b9be4430f8405ede650d834"
     },
     {
+      "path": "docs/handoff/ASTRA_ROUNDS_6_14_HANDOFF.md",
+      "bytes": 768038,
+      "sha256": "94feffadb99109d87e14fecc5aaa6e816cfa856a85763cc3dd78f702178cb486"
+    },
+    {
       "path": "docs/handoff/PUBLIC_ARCHIVE_INDEX.json",
       "bytes": 9401,
       "sha256": "8a01db450eb0f2591f1b23b83bee3e3fd8bb349a81ad449008fa35f20dd49adf"
@@ -3122,6 +3227,11 @@
       "sha256": "6084b42bf5f21fc71d7b6dbbba929dd0e1a8719998f326e5093f52eb3b951801"
     },
     {
+      "path": "docs/handoff/ROUNDS_6_14_ARCHIVE_INDEX.json",
+      "bytes": 217141,
+      "sha256": "30e1418456ef56c308cc27df8169420938a46746e51f9278f91845530b1963d5"
+    },
+    {
       "path": "tasks/FABLE_001_SYMMETRIC_PRIME_TRANSFER.md",
       "bytes": 752,
       "sha256": "ffc48479ca4a4fe301ddfa3873e815e3ba581ac818617cc5a22918ed4f187f29"
@@ -3132,6 +3242,11 @@
       "sha256": "63848277e0c3ab6a4529bfc8d10ce08c70d130f219ed7d338272ee8fb410ca21"
     },
     {
+      "path": "output/pdf/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.pdf",
+      "bytes": 10244247,
+      "sha256": "720377f333a5bf0cd03810df5186368baa4aeb1d251a3636540a17138699d06e"
+    },
+    {
       "path": "output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf",
       "bytes": 7785107,
       "sha256": "eccf6660459c65923a5f517df969df2790510491f22777bd757a6596387fe874"
@@ -3140,6 +3255,11 @@
       "path": "output/pdf/ASTRA_ROUNDS_4_5_HANDOFF.pdf",
       "bytes": 1486614,
       "sha256": "85c504f11f7230aea128e08b2b36e924740f4c8f0d6394b5042ff3fbad8110a7"
+    },
+    {
+      "path": "output/pdf/ASTRA_ROUNDS_6_14_HANDOFF.pdf",
+      "bytes": 5044734,
+      "sha256": "1092c6f1e81a9c13bc3106ffe3943f15ff742c7c794729c99233c8ebc805033a"
     },
     {
       "path": "fable/HEAT_SYNC_INVENTORY.json",
