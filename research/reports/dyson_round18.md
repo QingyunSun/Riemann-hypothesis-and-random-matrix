@@ -37,7 +37,7 @@ This is an exactly finite multiplicative prime-power convolution. Let
 I_{\sigma,W}(X)=\int_{\mathbb R}|H(\sigma+it)|^2X^{it}w(t)\,dt,
 \]
 \[
-R_{\sigma,W}(X)=\sum_{\rho\ {m distinct}}m_\rho H(2\sigma-\rho)
+R_{\sigma,W}(X)=\sum_{\rho\ {\mathrm{distinct}}}m_\rho H(2\sigma-\rho)
 X^{\sigma-\rho}w\bigl(-i(\sigma-\rho)\bigr).
 \]
 Multiplicity appears once in this distinct-zero sum. The finite-contour identity is
