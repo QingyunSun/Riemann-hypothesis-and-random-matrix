@@ -14,6 +14,7 @@ This repository preserves a checkable mathematical programme with small, indepen
 * `docs/handoff/`: the detailed audited handoff and its current supplement.
 * `output/pdf/`: the public rendered handoff.
 * `tools/`: manifest validation and document assembly/rendering.
+  `build_round45_handoff.py` assembles the ten-report supplement against a pinned source commit; `render_handoff.cjs` renders either the main handoff or its separate supplement.
 * `tasks/`: one bounded task for the user's existing Fable session.
 
 The adjacent local folder `Astra-Local-Archive` contains user-supplied full context and optional large data. It is separate from Git. New mathematical reports, important results, scripts and hashes belong here; credentials and unrelated private conversations do not.

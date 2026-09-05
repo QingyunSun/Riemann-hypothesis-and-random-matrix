@@ -41,3 +41,5 @@ Raw private chat exports, credentials and unrelated local files are not publishe
 ## Durable local record
 
 The authoritative checkout is `/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research`. The adjacent `Astra-Local-Archive` stores supplied full context and optional large data. The research log, claim ledger, proof reports and important numerical outputs are published in this repository. See `docs/architecture.md` for the directory map.
+
+The 333-page public handoff and 381-page full local handoff preserve the earlier checkpoint. A separate 59-page Rounds 4-5 supplement contains ten complete subsequent proof/search reports, with Markdown and a source hash index. Read that supplement together with the main handoff; the main PDF was not silently replaced.

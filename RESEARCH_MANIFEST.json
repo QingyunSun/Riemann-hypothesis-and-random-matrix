@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 20912,
-      "sha256": "0de0c307bdf20ab0a60026b4f0afbff559e3fefb8d1653b49bf108c6998fa212"
+      "bytes": 21667,
+      "sha256": "34bbd4b4179b666fb9fd552a2995b706b2c8e236421a001396af123ba5d6c128"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -1738,8 +1738,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 2718,
-      "sha256": "4a3f409a5f8f4201aa159349e0d65f99c0dae457e288d43b7fd8b136fa5105a7"
+      "bytes": 2896,
+      "sha256": "0dfd7108a3ed719a246b345879ab79309688c90b70d0fba3eeb130c41ab325eb"
     },
     {
       "path": "docs/handoff/ASTRA_LATEST_SUPPLEMENT.md",
@@ -1762,9 +1762,24 @@
       "sha256": "417328adafcc615d08b34a94e09a96ba0ab75ccbd699e6ee2c28791bbba96ca9"
     },
     {
+      "path": "docs/handoff/ASTRA_ROUNDS_4_5_HANDOFF.md",
+      "bytes": 142386,
+      "sha256": "c25ad7c01ead84ee98122be3cf1fa02668cfd49f1b9be4430f8405ede650d834"
+    },
+    {
       "path": "docs/handoff/PUBLIC_ARCHIVE_INDEX.json",
       "bytes": 9401,
       "sha256": "8a01db450eb0f2591f1b23b83bee3e3fd8bb349a81ad449008fa35f20dd49adf"
+    },
+    {
+      "path": "docs/handoff/ROUNDS_4_5_ARCHIVE_INDEX.json",
+      "bytes": 2016,
+      "sha256": "baf4737ab9657d34397ff342f7074a4ace4a43f43fe28c21d5baee725c9f224f"
+    },
+    {
+      "path": "docs/handoff/ROUNDS_4_5_PDF_QA.json",
+      "bytes": 1426,
+      "sha256": "6084b42bf5f21fc71d7b6dbbba929dd0e1a8719998f326e5093f52eb3b951801"
     },
     {
       "path": "tasks/FABLE_001_SYMMETRIC_PRIME_TRANSFER.md",
@@ -1780,6 +1795,11 @@
       "path": "output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf",
       "bytes": 7785107,
       "sha256": "eccf6660459c65923a5f517df969df2790510491f22777bd757a6596387fe874"
+    },
+    {
+      "path": "output/pdf/ASTRA_ROUNDS_4_5_HANDOFF.pdf",
+      "bytes": 1486614,
+      "sha256": "85c504f11f7230aea128e08b2b36e924740f4c8f0d6394b5042ff3fbad8110a7"
     },
     {
       "path": "fable/HEAT_SYNC_INVENTORY.json",

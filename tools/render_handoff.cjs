@@ -6,6 +6,10 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const root=path.resolve(__dirname,'..');
 const input=path.resolve(process.argv[2] || path.join(root,'docs/handoff/ASTRA_PUBLIC_RESEARCH_HANDOFF.md'));
 const output=path.resolve(process.argv[3] || path.join(root,'output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf'));
+const supplement=path.basename(input).includes('ROUNDS_4_5');
+const coverTitle=supplement ? '素数间隙研究<br>第 4-5 轮<br>证明与实验补编' : 'ACUE 与黎曼零点<br>从谱反例走向<br>可证明的数论结果';
+const coverSubtitle=supplement ? '新增正项、变量半径估计与失败搜索<br>GPT-6 Astra · 独立审查与复算' : '完整研究接手档案<br>GPT-6 Astra × Claude Code / Fable';
+const coverDescription=supplement ? '资料检查点 c74b326 · 10 篇完整报告 · 主档案的后续补编' : '经审计主说明、公开历史 Markdown 与完整研究报告、算术相关性新路线';
 const archiveLabel=path.basename(input).includes('FULL_LOCAL')
  ? 'Local archive · includes supplied private context'
  : 'Public research archive';
@@ -65,7 +69,7 @@ const css=fs.readFileSync(path.join(root,'tools/document-renderer/node_modules/k
 const archiveStart=toc.findIndex(v=>v.text.startsWith('Current report '));
 const tocHtml=toc.filter((v,i)=>i>0 && (i<archiveStart||v.tag==='h1')).map(v=>
  `<li class="${v.tag}"><a href="#${v.id}">${v.text}</a></li>`).join('');
-const title='ACUE · 黎曼零点 · Random Matrix · 素数间隙';
+const title=supplement ? '素数间隙研究 · 第 4-5 轮证明与实验补编' : 'ACUE · 黎曼零点 · Random Matrix · 素数间隙';
 const page=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>${title}</title>
 <style>${css}
 @page {size:A4;margin:22mm 19mm 22mm 19mm;}
@@ -86,8 +90,8 @@ ul,ol{padding-left:23px;margin:8px 0 12px;}li{padding-bottom:4px;}hr{border:0;bo
 .cover{height:244mm;display:flex;flex-direction:column;justify-content:center;break-after:page;font-family:'PingFang SC',sans-serif;}
 .cover .eyebrow{font-size:11pt;letter-spacing:2px;color:#42758a;margin-bottom:28px;}.cover h1{border:none;font-size:34pt;line-height:1.5;margin:0;}.cover .sub{font-size:16pt;line-height:1.8;margin:22px 0;color:#45616d;}.cover .meta{font-size:10pt;color:#566974;margin-top:35px;}.cover .rule{width:80px;height:4px;background:#246176;margin:28px 0;}
 </style></head><body><div class="cover"><div class="eyebrow">RESEARCH HANDOFF · SOURCE ARCHIVE · OVERNIGHT RESEARCH</div>
-<h1>ACUE 与黎曼零点<br>从谱反例走向<br>可证明的数论结果</h1><div class="rule"></div><div class="sub">完整研究接手档案<br>GPT-6 Astra × Claude Code / Fable</div>
-<div class="meta">Bill (Qingyun) Sun · 2026 年 9 月 4–5 日<br>经审计主说明、公开历史 Markdown 与完整研究报告、算术相关性新路线<br>已证明、计算、猜想与失败分别标明 · ${archiveLabel}</div></div>
+<h1>${coverTitle}</h1><div class="rule"></div><div class="sub">${coverSubtitle}</div>
+<div class="meta">Bill (Qingyun) Sun · 2026 年 9 月 4–5 日<br>${coverDescription}<br>已证明、计算、猜想与失败分别标明 · ${archiveLabel}</div></div>
 <nav class="toc"><h1>内容索引</h1><ul>${tocHtml}</ul></nav>${html}</body></html>`;
 fs.writeFileSync(path.join(root,'tmp/handoff.html'),page);
 (async()=>{
