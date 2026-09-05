@@ -14,7 +14,7 @@ This repository preserves a checkable mathematical programme with small, indepen
 * `research/prime-gaps/round5/`: variable-radius exact exceptional constants, source/cap admissibility and mesh-repair proofs, and the bounded negative geometry search with complete finite matrices. The independent integration replay is under `research/logs/round5-integration/`.
 * `research/prime-gaps/round6/`: the full signed cap operator, independent nonnested-projection audit, one radial residual direction, exact outside-span certificate and four compact numerical witnesses. `research/logs/round6-integration/` preserves the independent fine replay and archive checks. The four full density-cache archives remain in the adjacent local archive, identified by public hashes; no candidate arrays are removed from the compact witnesses.
 * `research/residual-gram/`, `operator-bounds/`, `heat-flow/`, `centered-gaussian/`, `prime-gaps/`, `dynamic-generator/`, `force-energy/`, `bridge-audit/`: focused Python experiments with JSON outputs and original execution logs.
-* `fable/overnight-2026-09-05/`: byte-for-byte public Fable snapshot, with its own provenance manifest and separate Astra intake reviews.
+* `fable/overnight-2026-09-05/` and `fable/snapshots/89393d5/files/`: separate byte-for-byte public Fable snapshots with their own provenance manifests. `fable/reviews/pr11-89393d5/` holds the later arithmetic and background objections, an independent exact pole check and a bounded replay that never alters source bytes.
 * `historical/riemann-rmt/`: pinned earlier public sources, preserved even when corrected by later audit.
 * `docs/handoff/`: the detailed audited handoff and its current supplement.
 * `output/pdf/`: the public rendered handoff.

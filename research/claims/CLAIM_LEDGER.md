@@ -114,3 +114,13 @@ All paths are relative to the repository root. The public reports contain the de
 | AUD-009 | The checked Guth–Maynard count range and RH variance comparisons do not directly supply shrinking-edge fluctuation precision | Bounded primary-source audit with independent review | `research/dyson/round10/arithmetic-residual/`; includes the source's fixed-epsilon improvement remark; not a universal literature or method obstruction |
 | ZETA-RED-005 | A stated uniform genuine-prime logarithmic mixed-moment bound with deficit coefficient below two implies a strict gap above -3/4 in the coupled statistic | Conditional calculus lemma with reviewed actual-residual differentiation and quantifiers | Same folder; M_T>=s^-2-(2-epsilon)s^-3+o(s^-3) remains unproved |
 | AUD-010 | Both Round 10 exact-check JSON outputs reproduce | Separate-process integration check | `research/logs/round10-integration/recheck.json`; 9615 Ramanujan cases and scalar implications, with only two temporary source paths excluded; not a numerical proof of the analytic bound |
+
+
+## Fable intake at 89393d5: source receipt and review status
+
+- **Verified provenance:** 141 public research files preserved verbatim; older 81-file mirror unchanged.
+- **Exact correction:** Pi4 leading coefficient is 6a, hence m4=a^2+6a. The source refuter's -zz3 probe has the wrong sign; this was reproduced and corrected separately.
+- **Bounded numerical replay:** ten refuter flags match, including three failed narrative assertions. Insertion values agree within 8.33e-17; this is floating verification, not a formal certificate.
+- **Not accepted as written:** CUE uniform constants 1054/1055; general-beta BB-LD scaling and its claimed consequences; one-point-to-selected-pair density inference; unconditional periodized-zeta gap inference. See the separate review for the limited possible constant repair and missing hypotheses.
+- **Still conditional:** a depth conclusion needing flow-window stability or H_C; arithmetic rate extrapolations from finite drift.
+- **Unchanged:** the independently reviewed Astra fixed-family arithmetic limit remains valid and its certified trial margin negative. No new zeta-gap, AH-refutation, GUE or prime-gap theorem follows.

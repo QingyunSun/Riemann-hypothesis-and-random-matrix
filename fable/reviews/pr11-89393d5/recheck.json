@@ -1,0 +1,17 @@
+{
+  "source_commit": "89393d5da61a45561ed199330c5b836f47fcd629",
+  "verbatim_files_verified": 141,
+  "execution_scope": "Two named refuters only, bounded to L<=10^6; no other Fable main program executed",
+  "rigour_output_exact_match": true,
+  "rigour_probe_sign_bug_reproduced": true,
+  "repro_check_count": 10,
+  "repro_expected_narrative_failures": 3,
+  "repro_all_check_flags_match": true,
+  "repro_output_exact_except_timing": false,
+  "changed_detail_fields": [
+    "independent re-run of f1_insertion_decomposition.decompose at L=1000 matches f1_insertion_results.json"
+  ],
+  "insertion_max_absolute_difference": 8.326672684688674e-17,
+  "insertion_acceptance_tolerance": 1e-12,
+  "status": "PASS for faithful replay and independent correction, not acceptance of the three failed narrative assertions"
+}
