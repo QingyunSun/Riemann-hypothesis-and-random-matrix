@@ -1,0 +1,84 @@
+{
+  "status": "completed fixed-family negative diagnostic; new full proof review pending",
+  "scope": "archive duplication audit followed by a distinct fixed two-large-prime interaction; no coefficient/profile/threshold scan",
+  "python": "3.14.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "thread_environment": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1",
+  "source_files": {
+    "reports/resummed_prime_profiles.md": {
+      "sha256": "1bb8d49fc05c7e7008134d00328a77cc59a9d0344f011ebbd7ca4acd5282b64e",
+      "bytes": 6521
+    },
+    "prime-profiles/euler_profile_precise.py": {
+      "sha256": "43ccf92a14c4d68bfe1a6af6bfb241315c217f27f5e73dbf22cdfdb898b0937b",
+      "bytes": 2173
+    },
+    "prime-profiles/euler_profile_precise.json": {
+      "sha256": "135c4a6942f9c6269094791355406d8e02da7935e685b2d00d0de1524d623f8d",
+      "bytes": 5562
+    },
+    "reports/symmetric_prime_arithmetic_transfer.md": {
+      "sha256": "d1329ec22b249fb0f1a8e6cf645e5d831ecb1ee7f8759f8c2b2caaaacc21d904",
+      "bytes": 13001
+    },
+    "dyson/round7/arithmetic-resonator/DERIVATION.md": {
+      "sha256": "3ab12c7227f0c41aaf78aab733f0353c054973cfe599f7b9275e47b12e8ee1f5",
+      "bytes": 9456
+    },
+    "dyson/round7/arithmetic-resonator/large_prime_sector.py": {
+      "sha256": "255ad9a2f29e086eca01b3823bd9ece3ecbfa47b431259a6af3fee260c9afa8d",
+      "bytes": 9065
+    },
+    "dyson/round7/arithmetic-resonator/large_prime_sector_d4_q40.npz": {
+      "sha256": "24acf558a16697499a7632477439106e267213408127463a14cd2aa0d59013ec",
+      "bytes": 8158
+    }
+  },
+  "baseline_block_comparison_max_abs": {
+    "M": 8.326672684688674e-16,
+    "G": 2.2169766022983595e-15
+  },
+  "files": {
+    "DERIVATION.md": {
+      "sha256": "0b717ee45e31abcd399ba48d58069b47bab6b1d9ea5086afed42ca9df6438438",
+      "bytes": 10851
+    },
+    "REPORT.md": {
+      "sha256": "ecc98ab471b4e0b24516d0315a59481a3e8b76140543a52dade81f1bb917fa84",
+      "bytes": 9353
+    },
+    "check_two_prime_trial.py": {
+      "sha256": "61c4c5c92b5d502670fbf469fe61d422f69778369125ff569a28418aa3dab9ff",
+      "bytes": 6992
+    },
+    "fixed_rational_vector.json": {
+      "sha256": "fb60906d03826a37ae36d3c2ac56e2be3b8417b8e0ac2ea040574a9c4d68e50d",
+      "bytes": 2406
+    },
+    "two_large_prime_d4_q20.json": {
+      "sha256": "80300835ab3b56584614437ff5f08cec0269601817eb4748143ebafa6ae93ed8",
+      "bytes": 5609
+    },
+    "two_large_prime_d4_q20.npz": {
+      "sha256": "7bcae127fdb675d0c14cd07f1c8d1ada06c739e7006dee9bc029e94231898843",
+      "bytes": 8169
+    },
+    "two_large_prime_d4_q32.json": {
+      "sha256": "067addfaea70c7dc5b7fb4432f5d062fc8a0fd6b03b6b49bf58ca99442deec7b",
+      "bytes": 5607
+    },
+    "two_large_prime_d4_q32.npz": {
+      "sha256": "f80fe6aa685a5dbaeee663716e805b3536c32eecbe3e49c19beb584d79c14667",
+      "bytes": 8164
+    },
+    "two_large_prime_sector.py": {
+      "sha256": "ed6fa274593a04d8a168a8597c76a994ad0595edb337995a7904a93b6a845de0",
+      "bytes": 8898
+    },
+    "validation.json": {
+      "sha256": "03c63a825f89f5a79c6d1132e0d4e2a88d61c6f9c1ec72981e2c0fb11304e50f",
+      "bytes": 1245
+    }
+  }
+}
