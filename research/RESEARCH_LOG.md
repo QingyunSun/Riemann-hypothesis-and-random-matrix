@@ -253,3 +253,8 @@ Root independently reads and accepts all three proofs within these scopes. All 1
 ### 2026-09-05 — Fable 2073028 repair intake
 
 Preserved the next 160-file PR11 revision separately. Accepted the repaired F1 coefficient and fixed-v rows while retaining the refuter-sign correction. Proved and independently reviewed the joint-cutoff incomplete-gamma diagnosis. Replaced F3's claimed infinite field norm by a complete mass-weighted sector bound, also uniform for its literal grids; this remains above the sharp threshold. Checked M=6,8,10 only and recorded general-beta repair gaps separately. No new Fable session, large prime sum or spectrum sweep was run. Next work remains the actual signed zeta arithmetic and a separately checked finite-RMT background estimate.
+
+
+### 2026-09-05 — Round 13 rational-core extraction
+
+A fixed rational core can be extracted with total RH error X^.923 log²X after retaining the true conductor/shift weights and primitive means. Its main term can be large on a real-prime admissible subsum. Completed the exact CRT norm decomposition and isolated the unresolved small-gcd nonzero modes. Positive coherent contributions remain only subsums of the signed expression. Two inspected exact scripts replay in a copy; independent reviews distinguish these component results from the unresolved actual prime pairing. Follow-up tests the smooth-long-factor cancellation directly inside the original kernel.

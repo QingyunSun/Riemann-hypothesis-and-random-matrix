@@ -8,6 +8,8 @@ The user's latest direction prioritizes Dyson–Montgomery, random matrices and 
 
 ## Current evidence
 
+- Round 13 extracts one terminal Type II zero-rational core under ordinary RH with total error O(X^.923 log²X), retaining an explicit potentially large main. Actual-prime restricted positivity and the exact CRT norm remainder explain why absolute estimates do not close the complete functional. Two exact scripts replay, and the written analytic/source reviews are preserved.
+
 - Fable PR11 revision 2073028 is preserved as a separate 160-file snapshot. Its F1 coefficient and fixed-v table repairs are accepted; a new independent proof gives finite continuous and discrete mass-cutoff Fock bounds. The sharp threshold, arithmetic operator limit and general-beta background/flow claims remain unresolved. Small matrix checks cover only M=6,8,10.
 
 - Round 12 closes three precise shortcuts without improving the prime bound: positive sampling on the actual support needs Q^2 up to logarithms; direct additive-phase absorption can destroy the 186 theorem's SW premise; local/product residue lifting and known centered interval norms leave quantified gaps. All three reports have an independent root review and exact algebra replays. The actual signed prime pairing remains open.
@@ -75,3 +77,5 @@ Round 10 is a separate [integrated report](research/reports/dyson_round10.md), w
 Round 11 is a separate [integrated report](research/reports/dyson_round11.md). All 18 originals (536,670 bytes) are retained under `Astra-Local-Archive/round11-originals/`; 15 research files are verbatim public. The two exact JSON outputs reproduce in a copy, omitting only the temporary primary-source path from one comparison. No large computation or PDF rebuild was used for this analytic slice.
 
 Round 12 is a separate [integrated report](research/reports/dyson_round12.md). All 18 originals (1,904,996 bytes) are retained under `Astra-Local-Archive/round12-originals/`; 15 research files are public verbatim. Both exact outputs replay, with only four temporary paths excluded from the dispersion certificate. The manual Fable packet was refreshed only with its superseding intake prefix; no new external session was dispatched.
+
+Round 13 preserves 21 original files (6,973,902 bytes) locally, with 15 verbatim public research/review/receipt files. Full primary papers and page images stay in the local archive with public hashes. Both bounded outputs reproduce, excluding only three temporary source paths. Read `research/reports/dyson_round13.md`; the handoff PDFs retain their earlier checkpoints.

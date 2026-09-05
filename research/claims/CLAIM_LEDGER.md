@@ -158,3 +158,15 @@ Evidence: `reports/dyson_round12.md`, `dyson/round12/INDEPENDENT_ROOT_REVIEW.md`
 - **Open:** sharp spectral wall, full arithmetic-to-Fock convergence, general-beta flow transfer and every actual-zeta conjecture target.
 
 Evidence: `fable/reviews/pr11-2073028/` and the separate 160-file pinned snapshot.
+
+
+## Round 13: rational extraction and the signed CRT remainder
+
+- **Ordinary proof under RH, independently reviewed:** the precise terminal-conductor q=1 rational core admits an explicit integral main with total error O(X^.923 log²X). Only ordinary zeta RH is used. The retained main is not bounded away.
+- **Ordinary PNT witness, independently reviewed:** a specified actual-prime, actual-conductor positive core with alpha=1 contributes at least c X^1.123/log^348 X, including its primitive principal term. This is not a lower bound for the whole signed functional or a specific zeta decomposition.
+- **Exact decomposition, independently reviewed:** the smooth kernel norm equals its CRT main plus displayed nonzero modes; an actual coherent positive subsum is at least c Q²H/log^696 X. Remaining signed terms can cancel it. No complete norm lower bound is inferred.
+- **Bounded source application:** legal enlarged minor arcs and exact centered unit variance yield the stated estimates, still worse than Round 11 for the original prime pairing. No misuse of zeta RH as Dirichlet-L RH.
+- **Replay:** exact unit-mask completion, centered variance, 100 CRT cases, residue counts, constants and source hashes reproduce; three temporary reference paths are excluded from one output comparison.
+- **Open:** the original discrepancy at X log X and the signed actual-zeta lower bound. No new famous-conjecture theorem.
+
+Evidence: `reports/dyson_round13.md`, `dyson/round13/`, and `logs/round13-integration/`.
