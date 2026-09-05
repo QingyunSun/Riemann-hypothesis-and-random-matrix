@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-05",
+  "snapshot_revision_prefix": "2073028",
+  "status": "Independent partial-repair review complete; current source proof not accepted as written.",
+  "sources": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Local-Archive/PR11_2073028-source/r1_cbe_background.md",
+      "sha256": "ba4a048ee1165684af31118da33e7ad5f347102f64a45901d98ab87760c0624d",
+      "bytes": 42423
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Local-Archive/PR11_2073028-source/r1_cue_background.md",
+      "sha256": "6c2692aeef2b08f3ec3d9790c1780a7f414b9510c759f74411904b18d86da24a",
+      "bytes": 30301
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round3/fable_heat_sync_review.md",
+      "sha256": "9dc10cd810e665fc49c192b17cd595d209fe8e1d4df7de1a8e5158bc470b3713",
+      "bytes": 19436
+    }
+  ],
+  "review_artifacts": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/fable-intake-2073028/CBETA_REPAIR_REVIEW.md",
+      "sha256": "3f60e18e4994a78aeab9b381213c07cf4316005741ceed1ed614a79c1708a4af",
+      "bytes": 9931
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/fable-intake-2073028/check_cbeta_repair.py",
+      "sha256": "8557c0df97bcf15adffea4bf7af5f8af0afdd363fee30d4e063ccee6fffdffbf",
+      "bytes": 1942
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/fable-intake-2073028/check_cbeta_repair.json",
+      "sha256": "6dd4fe7687c26bb818a3058c10d7bd92781b7fe21ac43c8aa56a77bf05f2d0a0",
+      "bytes": 816
+    }
+  ],
+  "source_line_ranges": {
+    "r1_cbe_background.md": {
+      "rescaling_diagnosis": "3-14,95-109",
+      "finite_N_and_compact_comparison": "99-123",
+      "status_and_universality": "137-168",
+      "invalid_uniform_error_and_cutoff": "202-218",
+      "triple_conclusion_and_event_inclusion": "194-253",
+      "unused_normalization": "58-60"
+    },
+    "r1_cue_background.md": {
+      "exact_kernel_and_correlation_convention": "52-55,145-146",
+      "retained_triple_integral": "226-240"
+    }
+  },
+  "checks": {
+    "status": "PASS",
+    "command": "python3 check_cbeta_repair.py",
+    "sympy_version": "1.14.0",
+    "notes": "Exact symbolic small checks only. Initial harness string parse lost symbol assumptions; corrected with explicit locals before final PASS. No mathematics was changed."
+  },
+  "source_policy": "Preserved source files were read only; no Fable invocation, Git operation, numerical simulation, or heavy computation."
+}

@@ -8,6 +8,8 @@ The user's latest direction prioritizes Dyson–Montgomery, random matrices and 
 
 ## Current evidence
 
+- Fable PR11 revision 2073028 is preserved as a separate 160-file snapshot. Its F1 coefficient and fixed-v table repairs are accepted; a new independent proof gives finite continuous and discrete mass-cutoff Fock bounds. The sharp threshold, arithmetic operator limit and general-beta background/flow claims remain unresolved. Small matrix checks cover only M=6,8,10.
+
 - Round 12 closes three precise shortcuts without improving the prime bound: positive sampling on the actual support needs Q^2 up to logarithms; direct additive-phase absorption can destroy the 186 theorem's SW premise; local/product residue lifting and known centered interval norms leave quantified gaps. All three reports have an independent root review and exact algebra replays. The actual signed prime pairing remains open.
 - Round 11 improves the same actual smooth discrepancy under RH to O(X^1.023 log^5 X), removing sqrt(H), with primary-source and independent proof review. It still exceeds X log X. A real-prime modulus construction gives coefficient squared mass at least c H/log^348 X on the full specified family; it rules out coefficient-only fixed-power savings, not cancellation in the signed prime pairing.
 - The genuine-prime log-weighted mixed moment has explicit diagonal b^(-2)+2b^(-3), plus a combined centered arithmetic remainder. Its sufficient one-sided bound remains unproved. Fixed-width derivative identities do not supply it.

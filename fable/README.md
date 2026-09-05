@@ -11,3 +11,7 @@ Scripts are preserved without execution. Some refer to source-repository paths o
 ## New pinned intake: 89393d5
 
 The [141-file snapshot](snapshots/89393d5/files/) preserves later proposer reports, F1 refuters and finite arithmetic diagnostics, with a [separate manifest](snapshots/89393d5/SOURCE_MANIFEST.json). The earlier mirror is unchanged. Read the [arithmetic intake and replay](reviews/pr11-89393d5/INTAKE_REVIEW.md) and [independent background/boundary objections](reviews/pr11-89393d5/BACKGROUND_AND_BOUNDARY_REVIEW.md) before using source claim labels. These reviews identify both proposer errors and a sign bug in one refuter, plus remaining dynamic and periodization hypotheses. Only two bounded refuters were replayed in a temporary copy; their large proposer computations were not rerun. This is a fixed historical snapshot, not a promise that PR11 has stopped changing.
+
+## Repair intake: 2073028
+
+The [160-file snapshot](snapshots/2073028/files/) and [manifest](snapshots/2073028/SOURCE_MANIFEST.json) preserve the next PR11 revision. The [new independent reviews](reviews/pr11-2073028/INTAKE_REVIEW.md) recognize actual F1 repairs and prove finite boundedness of the idealized mass-cutoff Fock operator. The bound is nonsharp, and no arithmetic-to-Fock limit follows. General-beta formula/flow gaps are reviewed separately. Only the matrix builder was imported for M=6,8,10; the large refuter and proposer sweeps were not rerun. Historical snapshots stay unchanged.

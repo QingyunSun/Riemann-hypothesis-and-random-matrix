@@ -30,6 +30,7 @@ Every result must state its assumptions, proof status, primary references, repro
 * [Variable-radius exceptional bound and geometry search](research/reports/prime186_round5.md): exact source conditions and a uniform one-layer mesh repair accompany ten coarse trials and two refinements. No radius/plateau improvement was found; full restoration remains unevaluated.
 * [Full signed cap operator and a direction beyond the old 77-dimensional space](research/reports/prime186_round6.md): an exact independence certificate accompanies a numerical gain of 71.42 ppm, to 0.99446782090. A separate process reproduces the fine-grid calculation; the quotient remains below one and arithmetic support restoration is outstanding.
 * [Detailed Rounds 4-5 supplement](docs/handoff/ASTRA_ROUNDS_4_5_HANDOFF.md) and [59-page PDF](output/pdf/ASTRA_ROUNDS_4_5_HANDOFF.pdf): ten complete reports, including proof reviews, runtime validation, exact constants and failed searches, pinned to source checkpoint `c74b326`.
+* [Fable 2073028 repair audit](fable/reviews/pr11-2073028/INTAKE_REVIEW.md): corrected F1 coefficient and cutoff scaling; a proved finite mass-cutoff Fock bound; remaining general-beta and arithmetic-limit gaps. A separate 160-file source snapshot remains verbatim.
 * [Pinned Fable mirror and provenance](fable/README.md).
 * [One Fable computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery to the user's existing session. The earlier task was acknowledged and has F2 outputs; the newer packet has separate, unconfirmed receipt status.
 

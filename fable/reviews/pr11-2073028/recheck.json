@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "source_files_verified": 160,
+  "small_check_structured_match": true,
+  "excluded_fields": [],
+  "cbeta_exact_check_structured_match": true,
+  "scope": "M=6,8,10 floating matrix checks, scalar integrals and exact finite Cbeta correction algebra only",
+  "large_refuter_or_proposer_main_executed": false
+}

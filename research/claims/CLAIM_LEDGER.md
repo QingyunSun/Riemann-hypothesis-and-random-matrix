@@ -147,3 +147,14 @@ Evidence: `reports/dyson_round11.md`, the complete author/reviewer records in `d
 - **Unchanged:** strongest actual component bound X^1.023 log^5 X under RH; all target zeta/RMT lower inequalities and famous conjectures remain open.
 
 Evidence: `reports/dyson_round12.md`, `dyson/round12/INDEPENDENT_ROOT_REVIEW.md`, and `logs/round12-integration/`.
+
+
+## Fable repair intake at 2073028
+
+- **Ordinary proof, independently reviewed:** on total-mass-at-most-one bosonic Fock space, ||a(g)||²<=integral |g(u)|²/u² du. Hence the specified K has norm at most twice that integral. For the sine g, this is finite and approximately 15.2721, above the spectral target. Literal grid models obey the same uniform bound.
+- **Ordinary PNT limit, independently reviewed:** the finite Pi4 prime cutoff has the stated incomplete-gamma fraction when epsilon log P has a limit. The corrected 6a leading coefficient and fixed-v table are accepted; the unchanged refuter probe sign is still wrong.
+- **Bounded numerical check:** three small grids verify occupation coefficients and the mass inequality in floating arithmetic; no interval-certified spectral conclusion or large replay.
+- **Not accepted as written:** finite-N CUE equalities replaced by their sine limit, the arbitrary-compact sine comparator, and a uniform relative displacement estimate in the general-beta repair. Corrected conditional statements and remaining dynamic hypotheses are in the separate review.
+- **Open:** sharp spectral wall, full arithmetic-to-Fock convergence, general-beta flow transfer and every actual-zeta conjecture target.
+
+Evidence: `fable/reviews/pr11-2073028/` and the separate 160-file pinned snapshot.
