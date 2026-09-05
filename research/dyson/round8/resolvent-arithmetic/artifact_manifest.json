@@ -1,0 +1,44 @@
+{
+  "status": "Frozen bounded Round 8 actual-zeta analytic test; requested 1/16 lower bound remains unproved",
+  "files": [
+    {
+      "file": "SHORT_PRIME_PROJECTION_AND_CENTERED_TAIL.md",
+      "bytes": 14389,
+      "sha256": "0067a1b0c7bd4f0b80ef89d6ac85eca1ae99e652375c08c41706ec1f1ddbe40e"
+    },
+    {
+      "file": "check_centered_tail.py",
+      "bytes": 7489,
+      "sha256": "2f0d8546e90bbf3684297bd2268dcb620c3b34538fa98ffa59a011ce7a2fa3e6"
+    },
+    {
+      "file": "check_centered_tail.json",
+      "bytes": 8197,
+      "sha256": "ec4fa60211a925cca0d5e884709ef04a5276585a6294af87a0fb981e0e9ece4f"
+    },
+    {
+      "file": "check_centered_tail.log",
+      "bytes": 464,
+      "sha256": "4e9a81b9c8e133b68deb04b0b8c74845ba2713136d7923244bcb90aabe317f4b"
+    }
+  ],
+  "reproduce": "/opt/homebrew/opt/python@3.14/bin/python3.14 /Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round8/resolvent-arithmetic/check_centered_tail.py",
+  "mathematical_result": "Under RH, W_T=B+E_T+o(1); B is exactly evaluated; E_T is an explicitly specified signed difference of centered-prime residual energies.",
+  "proof_status": "ordinary mathematical proof; independently reviewed by root and yau_flow; no formal-assistant verification",
+  "checks": {
+    "exact_rational_constant_enclosures": "passed",
+    "finite_step_integral_identities": "passed at 60 decimal digits",
+    "actual_zeta_Re3_tail_check": "passed; numerical evaluation and analytic tail bound, not Arb",
+    "critical_strip_regularized_sums": "diagnostic only; no certified tail or W_T inference",
+    "markdown_controls": "none",
+    "math_delimiters": "balanced"
+  },
+  "scope_exclusions": [
+    "No proof of the residual lower bound",
+    "No refutation of AH",
+    "No new bound for actual zeta pair correlations",
+    "No new prime-gap result",
+    "Frozen Round 7 files unchanged"
+  ],
+  "independent_review_file": "INDEPENDENT_IDENTITY_AUDIT.md (owned and finalized separately by reviewer)"
+}

@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 29009,
-      "sha256": "27c8eaf14196bb3bcbddae224a80438bf1fc9df58e1d374bebcfb34a1a9c4a91"
+      "bytes": 31676,
+      "sha256": "30b7934f43d593e1cdb0309c7ed5cee189f14faf381e02873712200852633868"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 14050,
-      "sha256": "3c20ba1df8fca36ccbd73be2218851e5bd9a4e7a07fde08a5f5adc686f2795d4"
+      "bytes": 15899,
+      "sha256": "85762136548f655fd7561d54c203a8f916b28d7788d5f1d7499c127473fd20ad"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -280,6 +280,66 @@
       "path": "research/dyson/round7/true-zeta-flow/forward_flow_checks.py",
       "bytes": 5297,
       "sha256": "7bd386bdfab7e7b70eec5d4d6e008d7c80bc27eab14df273067f1d5bbbd73459"
+    },
+    {
+      "path": "research/dyson/round8/INTAKE_MANIFEST.json",
+      "bytes": 2281,
+      "sha256": "776eb8033d1558089502c753f5a6b601ff9d398ccb8c4282e79a49f6875069dd"
+    },
+    {
+      "path": "research/dyson/round8/README.md",
+      "bytes": 1718,
+      "sha256": "40e68aded81ecb2d003665d4bdca0f41c1ab50f38ead03d6860a0be7b6895217"
+    },
+    {
+      "path": "research/dyson/round8/resolvent-arithmetic/INDEPENDENT_IDENTITY_AUDIT.md",
+      "bytes": 12823,
+      "sha256": "5159f2127474e57041368aa3741cefa9b7c29040b8286492bb6107eea052c8ab"
+    },
+    {
+      "path": "research/dyson/round8/resolvent-arithmetic/SHORT_PRIME_PROJECTION_AND_CENTERED_TAIL.md",
+      "bytes": 14389,
+      "sha256": "0067a1b0c7bd4f0b80ef89d6ac85eca1ae99e652375c08c41706ec1f1ddbe40e"
+    },
+    {
+      "path": "research/dyson/round8/resolvent-arithmetic/artifact_manifest.json",
+      "bytes": 2012,
+      "sha256": "772613612bc9b9310ae37e82b59530f86d4388935fa7d1898ff6b9497a060958"
+    },
+    {
+      "path": "research/dyson/round8/resolvent-arithmetic/check_centered_tail.json",
+      "bytes": 8197,
+      "sha256": "ec4fa60211a925cca0d5e884709ef04a5276585a6294af87a0fb981e0e9ece4f"
+    },
+    {
+      "path": "research/dyson/round8/resolvent-arithmetic/check_centered_tail.log",
+      "bytes": 464,
+      "sha256": "4e9a81b9c8e133b68deb04b0b8c74845ba2713136d7923244bcb90aabe317f4b"
+    },
+    {
+      "path": "research/dyson/round8/resolvent-arithmetic/check_centered_tail.py",
+      "bytes": 7489,
+      "sha256": "2f0d8546e90bbf3684297bd2268dcb620c3b34538fa98ffa59a011ce7a2fa3e6"
+    },
+    {
+      "path": "research/dyson/round8/spectral-positivity/MINORANT_REVIEW.md",
+      "bytes": 9174,
+      "sha256": "383af540ae53eba3a0fbcb471fcf79d72b821167450cc05e9a89198c7dbc843a"
+    },
+    {
+      "path": "research/dyson/round8/spectral-positivity/POSITIVITY_OBLIGATION_NOTE.md",
+      "bytes": 7514,
+      "sha256": "485b7778a0f7bab21492dac710b8732e5e1996734014fbba770d4b076a7b6329"
+    },
+    {
+      "path": "research/dyson/round8/spectral-positivity/minorant_symbolic_check.json",
+      "bytes": 1245,
+      "sha256": "4aae1dae6db85d007a988d3e522d727e1f3f7c9a78e3f37e0b9f189ee1231914"
+    },
+    {
+      "path": "research/dyson/round8/spectral-positivity/minorant_symbolic_check.py",
+      "bytes": 3006,
+      "sha256": "3e00c032de32f7ef9a30cc4f165177f6e2f63e3322a9a1dea752cf9309200571"
     },
     {
       "path": "research/force-energy/force_energy.json",
@@ -650,6 +710,31 @@
       "path": "research/logs/round7-integration/validate_sector.log",
       "bytes": 2311,
       "sha256": "cf8970966bcbdb9d65cde8043461466a9633c3ad74de624d2a84b1f7c2e0bc2a"
+    },
+    {
+      "path": "research/logs/round8-integration/check_centered_tail.log",
+      "bytes": 455,
+      "sha256": "f604f083fc19992acf604bc7da9b6eed35e1abd86fa00a72beb6c3653108e726"
+    },
+    {
+      "path": "research/logs/round8-integration/minorant_symbolic_check.log",
+      "bytes": 1245,
+      "sha256": "4aae1dae6db85d007a988d3e522d727e1f3f7c9a78e3f37e0b9f189ee1231914"
+    },
+    {
+      "path": "research/logs/round8-integration/recheck.json",
+      "bytes": 1668,
+      "sha256": "29ae13ed2772f821281e65708c3cb73c7f132ee9a9e76bc00e473b71e6933b76"
+    },
+    {
+      "path": "research/logs/round8-integration/recheck.py",
+      "bytes": 4121,
+      "sha256": "b14edfd27e7f0d50d1347e017aa73ed3572bfa4af3e3f43d56d76cf7e8f2e58c"
+    },
+    {
+      "path": "research/logs/round8-integration/release_checks.json",
+      "bytes": 488,
+      "sha256": "8d64cb10caaa93f734c1eed7b3f99d6cee18862553ff50261d8bc7a47cd3a9d0"
     },
     {
       "path": "research/logs/verify-codex-original.log",
@@ -1647,6 +1732,11 @@
       "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33"
     },
     {
+      "path": "research/reports/dyson_round8.md",
+      "bytes": 6061,
+      "sha256": "111901c83af7481b414b9ef08728baf0fadbabc696a8e69f533b4a55c05a2cf6"
+    },
+    {
       "path": "research/reports/fable_heat_sync_review.md",
       "bytes": 19436,
       "sha256": "9dc10cd810e665fc49c192b17cd595d209fe8e1d4df7de1a8e5158bc470b3713"
@@ -2298,8 +2388,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 3835,
-      "sha256": "bd2ae716b7d7b1235fda9797d720838f04997c98bc0a5574be2e2e8b35e66d73"
+      "bytes": 4228,
+      "sha256": "e40961ca17f6f624bb9cfbdea257cd265bd1fd599c96b55293b6440ea8756f26"
     },
     {
       "path": "docs/handoff/ASTRA_LATEST_SUPPLEMENT.md",

@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-05",
+  "source_root": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round8",
+  "local_archive": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Local-Archive/round8-originals",
+  "public_root": "research/dyson/round8",
+  "copy_policy": "Every listed file is verbatim; no publication edits. Author and independent-review ownership preserved.",
+  "files": [
+    {
+      "path": "resolvent-arithmetic/INDEPENDENT_IDENTITY_AUDIT.md",
+      "bytes": 12823,
+      "sha256": "5159f2127474e57041368aa3741cefa9b7c29040b8286492bb6107eea052c8ab"
+    },
+    {
+      "path": "resolvent-arithmetic/SHORT_PRIME_PROJECTION_AND_CENTERED_TAIL.md",
+      "bytes": 14389,
+      "sha256": "0067a1b0c7bd4f0b80ef89d6ac85eca1ae99e652375c08c41706ec1f1ddbe40e"
+    },
+    {
+      "path": "resolvent-arithmetic/artifact_manifest.json",
+      "bytes": 2012,
+      "sha256": "772613612bc9b9310ae37e82b59530f86d4388935fa7d1898ff6b9497a060958"
+    },
+    {
+      "path": "resolvent-arithmetic/check_centered_tail.json",
+      "bytes": 8197,
+      "sha256": "ec4fa60211a925cca0d5e884709ef04a5276585a6294af87a0fb981e0e9ece4f"
+    },
+    {
+      "path": "resolvent-arithmetic/check_centered_tail.log",
+      "bytes": 464,
+      "sha256": "4e9a81b9c8e133b68deb04b0b8c74845ba2713136d7923244bcb90aabe317f4b"
+    },
+    {
+      "path": "resolvent-arithmetic/check_centered_tail.py",
+      "bytes": 7489,
+      "sha256": "2f0d8546e90bbf3684297bd2268dcb620c3b34538fa98ffa59a011ce7a2fa3e6"
+    },
+    {
+      "path": "spectral-positivity/MINORANT_REVIEW.md",
+      "bytes": 9174,
+      "sha256": "383af540ae53eba3a0fbcb471fcf79d72b821167450cc05e9a89198c7dbc843a"
+    },
+    {
+      "path": "spectral-positivity/POSITIVITY_OBLIGATION_NOTE.md",
+      "bytes": 7514,
+      "sha256": "485b7778a0f7bab21492dac710b8732e5e1996734014fbba770d4b076a7b6329"
+    },
+    {
+      "path": "spectral-positivity/minorant_symbolic_check.json",
+      "bytes": 1245,
+      "sha256": "4aae1dae6db85d007a988d3e522d727e1f3f7c9a78e3f37e0b9f189ee1231914"
+    },
+    {
+      "path": "spectral-positivity/minorant_symbolic_check.py",
+      "bytes": 3006,
+      "sha256": "3e00c032de32f7ef9a30cc4f165177f6e2f63e3322a9a1dea752cf9309200571"
+    }
+  ]
+}

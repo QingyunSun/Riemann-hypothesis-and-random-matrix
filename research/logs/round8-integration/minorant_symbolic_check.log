@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "Exact algebra and fixed normalizations only; inequalities and Fourier pairing reviewed separately. No parameter scan, outward decimal enclosure, actual-zeta bound, or novelty claim.",
+  "note_sha256": "485b7778a0f7bab21492dac710b8732e5e1996734014fbba770d4b076a7b6329",
+  "script_sha256": "3e00c032de32f7ef9a30cc4f165177f6e2f63e3322a9a1dea752cf9309200571",
+  "python": "3.14.3",
+  "sympy": "1.14.0",
+  "checks": {
+    "R_plus_kappa_numerator": true,
+    "kappa_in_t": true,
+    "negative_radius_in_t": true,
+    "a_cosh_square": true,
+    "b_cosh_half_square": true,
+    "Iminus_integral": true,
+    "Iplus_integral": true,
+    "ghat_at_plus_one": true,
+    "closed_bound_rational_form": true,
+    "triangular_correction_coefficient": true,
+    "Palm_pair_normalization": true,
+    "triangle_one_period_integral": true,
+    "DPP_two_scale_closed_value": true
+  },
+  "exact_bound_with_x_equal_exp_1": "(x - 1)*(3*x**6 - 6*x**5 - 17*x**4 + 28*x**3 - 35*x**2 - 6*x - 15)/(12*x**2*(x + 1)*(x**2 + 1))",
+  "floating_bound_55_digits_not_enclosure": "-0.2086745129639258383515265856204792868406009697423794370",
+  "floating_DPP_W_55_digits_not_enclosure": "0.06239241797649854312377122218377322490574896926143643887"
+}
