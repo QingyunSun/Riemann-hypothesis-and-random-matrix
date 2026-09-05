@@ -1,0 +1,33 @@
+{
+  "reviewer_thread": "01a0702b-e4b0-7020-ae61-b1fe718932c1",
+  "date": "2026-09-05",
+  "author_file": "strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+  "reviewed_sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e",
+  "reviewed_bytes": 17025,
+  "status": "Main reduction and source budget accepted; section5 uniform beta<4/9 premise needs qualification before whole-manuscript acceptance",
+  "full_manuscript_read": true,
+  "checker_replayed": false,
+  "verified_steps": [
+    "Exact Lambda-1 centering with rounding-square <=T^(-3/4)/log(T)^2 and RH quadratic comparison.",
+    "Exact Pareto pair kernel and absolute convergence for T>=4.",
+    "Unconditional R2(k)=-k log(k)+O(k) gives hinge primitive; y*k-second-derivative is a probability measure, with uniformly bounded logarithmic moment after u=T*y/m.",
+    "Uniform singular-series sum -0.5 log(m/T)+O(1) retains the original kernel.",
+    "Smooth weight b_T approximation and exponential m>2U tails; diagonal integral alpha*omega and comparison minus integral(alpha-1)*omega give exactly M.",
+    "Abel endpoint/variation norm, beta<4/9 formal exponent budget, upper-wing square-root power loss and hypothetical signed H^rho threshold rho>1/10 checked.",
+    "New window H in [X^(3/7),X^(5/9)] and H>Q threshold alpha>1000/477 checked; old divisor discrepancy theorem not imported as a pair bound."
+  ],
+  "sources_verified": [
+    "Montgomery-Soundararajan arXiv math/0409258v1 printed p4 equation16 and p5 Theorem3: source images personally inspected.",
+    "Chan arXiv math/0503441v2 printed p2: Theorem1 under Conjecture1 and replacement Conjecture2 personally inspected.",
+    "Only the singular-series average is used unconditionally; the tuple-error hypotheses are additional conjectural inputs."
+  ],
+  "correction": {
+    "issue": "Uniform all-shifts exponent beta<1/2 impossible already at h=1.",
+    "note": "COORDINATOR_H1_OBSTRUCTION.md",
+    "note_bytes": 4963,
+    "note_sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34",
+    "scope": "Does not invalidate signed aggregate target, range-restricted or averaged estimates; no general dispersion no-go."
+  },
+  "strict_arithmetic_estimate_proved": false,
+  "limits": "Ordinary derivations and specified source statements checked. No full literature/novelty audit, checker replay, finite-height prime evaluation or AH refutation."
+}

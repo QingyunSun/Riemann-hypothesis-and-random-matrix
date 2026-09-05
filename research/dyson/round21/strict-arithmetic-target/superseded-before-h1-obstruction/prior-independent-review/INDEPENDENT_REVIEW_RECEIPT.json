@@ -1,0 +1,61 @@
+{
+  "author": {
+    "bytes": 17025,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+    "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e"
+  },
+  "author_manifest": {
+    "bytes": 910,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/author_manifest.json",
+    "sha256": "829cff96994fbb3debb6d08d9fa2253dde967e4ea30ad4d7b5ccfb975db3b9f2"
+  },
+  "checker": {
+    "bytes": 5212,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/check_centered_pair_target.py",
+    "sha256": "51f9178f5035e285005ddd27ec88773f03253ddc1d7dee85a8d5c2114e136129"
+  },
+  "independent_outputs": [
+    {
+      "bytes": 5951,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/independent_pair_replay.json",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 5951,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/independent_pair_replay.log",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 2637,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/source_hash_checks.json",
+      "sha256": "6990f0597e5d63f1ea16b77f2238c390b8d855254b4c105f3a7eb66cee231606"
+    }
+  ],
+  "review": {
+    "bytes": 12186,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+    "sha256": "5a0de0ac42401897b4e417be4ce8804867ede2b937ff6ebc85a9711df02728e4"
+  },
+  "scope": "Full author proof, exact centering/Pareto/diagonal/tail/Abel normalization and primary-source ranges reviewed. No strict arithmetic estimate, AH refutation or Montgomery-Dyson theorem accepted.",
+  "source_manifest": {
+    "bytes": 4051,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/source_manifest.json",
+    "sha256": "2deb6bd5b72a12b0812760057873a818526d46f4f9790425dc91ccab4cc1e14a"
+  },
+  "status": "Accepted ordinary conditional reduction and unconditional singular-series lemma. No mathematical amendment requested.",
+  "validation": {
+    "186_primary_text_read": "Proposition2.3 and Corollary2.19; no new transfer assumed.",
+    "author_files_modified": false,
+    "new_heights": false,
+    "parameter_scan": false,
+    "review_control_bytes": 0,
+    "review_display_math_pairs": 6,
+    "source_hashes_verified": 13,
+    "source_pages_visually_read": [
+      "Montgomery-Soundararajan printed p4 Eq16",
+      "Montgomery-Soundararajan printed p5 Theorem3",
+      "Chan printed p2 Conjecture2"
+    ],
+    "tiny_checker_replay": "PASS; unchanged copied source and author report; byte-identical JSON/log."
+  }
+}

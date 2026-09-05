@@ -1,0 +1,21 @@
+{
+  "reviewer_thread": "01a0702b-e4b0-7020-ae61-b1fe718932c1",
+  "date": "2026-09-05",
+  "status": "ACCEPTED revised manuscript at exact pin; original feasibility-assessment issue resolved",
+  "prior_full_review": "COORDINATOR_CENTERED_PAIR_REVIEW.json",
+  "old_sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e",
+  "new_sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e",
+  "new_bytes": 21504,
+  "review_scope": "Full original manuscript plus complete unified diff read; no other core theorem changes in the reviewed delta. Ordinary proof review, not external peer review, Lean, new numerical evaluation or novelty check.",
+  "verified_amendments": [
+    "Original all-shifts beta<4/9 premise explicitly marked impossible, not merely unproved; original source/hash and checker scope preserved as historical.",
+    "Exact h=1 identity retains both singleton endpoint terms and every prime power; rare consecutive-pair product is O(log^2 X).",
+    "All-large-T quantifier implies every large X block by T=sqrt(X); dyadic telescoping and real-x extension are supplied.",
+    "Mellin holomorphy contradicts the nonzero residue -multiplicity/rho at a known critical-line zero; obstruction is unconditional and not a sparse-subsequence statement.",
+    "Actual signed aggregate and averaged/restricted-shift alternatives remain distinct from the excluded all-shifts premise.",
+    "New single-h=1 negligibility sentence checked independently: under RH sup_z |E_X(z,1)|=O(sqrt(X)*log(X)^2); Abel coefficient O(1/(X*log(T)^2)) gives O(X^-1/2) since log(X)/log(T) is uniformly bounded on this window. Summation over dyadic blocks is o(1).",
+    "No strict upper bound for the signed functional is inferred."
+  ],
+  "checker_replayed": false,
+  "strict_arithmetic_estimate_proved": false
+}

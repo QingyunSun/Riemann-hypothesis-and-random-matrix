@@ -1,0 +1,32 @@
+{
+  "status": "Both full ordinary proofs accepted in exact stated scopes",
+  "review_sha256": "5f2846e03a1c30bec56001e6bebecc44a3c02b2a68ced3c2bc49fd238865e621",
+  "review_bytes": 7050,
+  "replays": [
+    {
+      "source_folder": "length-arithmetic-kernel",
+      "report_sha256": "bf2e13a5d62f694d638d247fe7d836d0ea57d47f15c8e9360843681ece6b58d9",
+      "script_sha256": "c46c6a51f8d3c99e6d1b6d5e5fcdfcfc44528b164c6c8a7a2192e7195130c6bb",
+      "full_json_sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d",
+      "json_byte_identical": true,
+      "stdout_byte_identical": true,
+      "excluded_fields": [],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "source_folder": "tauberian-information",
+      "report_sha256": "3f3391cb149b69e86d6c758267eec56ae9d86f7523f2dcf078f6f351ff9ee48c",
+      "script_sha256": "d03d385ca80c83e9433196bbdcf55d695b1ff2e2a7a8522169259c83a2a6a187",
+      "full_json_sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9",
+      "json_byte_identical": true,
+      "stdout_byte_identical": true,
+      "excluded_fields": [],
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "no_additional_numerical_heights": true,
+  "no_strict_arithmetic_bound": true,
+  "formal_verification": false
+}

@@ -1,0 +1,70 @@
+{
+  "assumption_for_obstruction": "unconditional existence of a critical-line zero; no RH needed",
+  "checker": {
+    "bytes": 3930,
+    "sha256": "879c35d3efed14e5c0d2108de3bad078616c0259a4406f9669ffc92944573f4f"
+  },
+  "current_author": {
+    "bytes": 21504,
+    "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+  },
+  "dyadic_geometric_identity_cases": 6,
+  "formal_exact_singleton_endpoint_cases": 22,
+  "formal_h1_expansion": "u*v - u - v + 2",
+  "impossible_premise": "all shifts 1<=h<=X with a uniform beta<1/2 (therefore beta<4/9)",
+  "mellin_zero_residue": "-mult/rho",
+  "new_source_pins": {
+    "COORDINATOR_H1_OBSTRUCTION.md": {
+      "bytes": 4963,
+      "sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34"
+    },
+    "dlmf-25.10.html": {
+      "bytes": 69382,
+      "sha256": "85ff784bf56ef107c7895c80940773948ef44ed63379e94e1e977235a067b45a"
+    },
+    "dlmf-25.2.html": {
+      "bytes": 124933,
+      "sha256": "70f485fb19eb5b42b797da3eb70760bfb71bf21d41d112213b1e331db1a616ca"
+    }
+  },
+  "not_excluded": "the actual signed aggregate; restricted-shift estimates; averaged cancellation",
+  "original_check_files_preserved": {
+    "centered_pair_target_checks.json": {
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    "centered_pair_target_checks.log": {
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    "check_centered_pair_target.py": {
+      "bytes": 5212,
+      "sha256": "51f9178f5035e285005ddd27ec88773f03253ddc1d7dee85a8d5c2114e136129"
+    }
+  },
+  "scope": "new exact algebra/delta check; analytic impossibility established by manuscript proof",
+  "status": "PASS",
+  "superseded_author": {
+    "bytes": 17025,
+    "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e"
+  },
+  "unchanged_mathematical_blocks": {
+    "centered_error_and_Abel_29_30": {
+      "sha256": "a3c7abb76940debb6e357e6c8dc6e1c48dc1a2180b87739040dee0085769caa7",
+      "unchanged": true
+    },
+    "main_sections_1_through_4": {
+      "sha256": "cb49f73355b1826e98c70a0ad22f84efeb564c47b37d01f1435bf70307ad1534",
+      "unchanged": true
+    },
+    "primary_source_audit": {
+      "sha256": "c65dafe1d3de516bb044dcfdceca705b7ea703e711196daa3f5189efde798aeb",
+      "unchanged": true
+    },
+    "square_root_budget_33_34": {
+      "sha256": "a7d00f27f0388e127ff9d41d8d62d967d3f4620d842e7884673338565a8e2679",
+      "unchanged": true
+    }
+  },
+  "uniformity_scope": "all sufficiently large T; X=T^2 covers every sufficiently large X"
+}

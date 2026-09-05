@@ -12,3 +12,10 @@ research/dyson/round20/** whitespace=-blank-at-eof
 
 # Preserve Python csv.writer CRLF bytes in frozen Round 20 data.
 research/dyson/round20/actual-prime-variance/*.csv whitespace=cr-at-eol
+
+# Preserve five original R21 trailing blank lines in source/history files.
+research/dyson/round21/coordinator-review/CENTERED_PAIR_ERROR_TARGET.md whitespace=-blank-at-eof
+research/dyson/round21/strict-arithmetic-target/check_centered_pair_target.py whitespace=-blank-at-eof
+research/dyson/round21/strict-arithmetic-target/check_h1_correction.py whitespace=-blank-at-eof
+research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction/CENTERED_PAIR_ERROR_TARGET.md whitespace=-blank-at-eof
+research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction/check_centered_pair_target.py whitespace=-blank-at-eof

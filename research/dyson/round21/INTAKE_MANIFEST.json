@@ -1,0 +1,689 @@
+{
+  "source": "research-round21 frozen submissions with superseded author and review history",
+  "original_files": 97,
+  "original_bytes": 2197366,
+  "public_verbatim_files": 85,
+  "published_source_edits": [],
+  "history": "Original81a676d6 and initial accepting review are preserved; revised d7e73b83 incorporates coordinator h=1 obstruction. Original scalar-check outputs remain historical; correction addendum has its own replay.",
+  "files": [
+    {
+      "path": "coordinator-intake/COORDINATOR_R20_PUBLICATION_INITIAL_VERIFICATION.json",
+      "bytes": 1391,
+      "sha256": "d6610a7fe810a211b5f04052cb5b377de4da80a145c4f4d8aa5a49f9e98fe57d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-intake/COORDINATOR_R20_PUBLICATION_VERIFICATION.json",
+      "bytes": 16245,
+      "sha256": "f524661f3a88583abd9177197a5ca751a91225025d501ce576544fa1af691437",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-intake/TOOL_MEMO_R20_PUBLICATION_UPDATE_RECEIPT.json",
+      "bytes": 474,
+      "sha256": "0b0393591f80cc08567a7569c313c55b430eff429ad889758bd65bf350ff86e1",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-intake/TRANSFERABLE_MATH_TOOLS_R20_PUBLISHED.md",
+      "bytes": 62554,
+      "sha256": "eaa8fd31a6b466aecf7f5b02867ba9a7e41cfcc073fae40d1cd71613b3bb5bcf",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/AUTHOR_RECEIPT.json",
+      "bytes": 2537,
+      "sha256": "29b60cd498eea92cda9a072c00c5d1b39b07f15ea70440e342f9ff2e905f21db",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/CENTERED_PAIR_ERROR_TARGET.md",
+      "bytes": 17025,
+      "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/CENTERED_PAIR_ERROR_TARGET_d7e73b83.md",
+      "bytes": 21504,
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_CENTERED_PAIR_DELTA_REVIEW.json",
+      "bytes": 1831,
+      "sha256": "d34664bb0a2d74aab0ff0d419321ab8d03ccb90319085d4b7db134ef8ea22358",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_CENTERED_PAIR_REVIEW.json",
+      "bytes": 2415,
+      "sha256": "400b4091101a247bfbd4b7f64b20ab47d474ab638ce9d422fd46ea6ee6bbf1da",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_H1_OBSTRUCTION.md",
+      "bytes": 4963,
+      "sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_HEAT_REVIEW.json",
+      "bytes": 2300,
+      "sha256": "792f32b97881cb423f3d974f948113c1ea0c9b10d6dfb342ef7fd6ebf2d7678d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_LENGTH_KERNEL_REVIEW.json",
+      "bytes": 2708,
+      "sha256": "9f57fd1dce1782cbdaa3fdb6dcaa47f37585608b936aabeb3f58a193314e47f7",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_R21_SOURCE_PINS.json",
+      "bytes": 1295,
+      "sha256": "7218370818e9a8afb3c3d1bc5f1955dd028687fed195c16b9f072e768b62792b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_TAUBERIAN_REVIEW.json",
+      "bytes": 2601,
+      "sha256": "6850912f67b9e3581888780dded8d1f9ee1c8749aa373b90b3ea64eb4cc52e0d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/EXACT_LENGTH_ARITHMETIC_KERNEL.md",
+      "bytes": 17082,
+      "sha256": "bf2e13a5d62f694d638d247fe7d836d0ea57d47f15c8e9360843681ece6b58d9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/FIXED_BUMP_TAUBERIAN_EQUIVALENCE.md",
+      "bytes": 13500,
+      "sha256": "3f3391cb149b69e86d6c758267eec56ae9d86f7523f2dcf078f6f351ff9ee48c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+      "bytes": 10290,
+      "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-arithmetic-kernel/AUTHOR_RECEIPT.json",
+      "bytes": 3861,
+      "sha256": "b4a45570d02a398fe8984c36b32e633c512337615f5a8951ca1ee58caaeb058a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-arithmetic-kernel/EXACT_LENGTH_ARITHMETIC_KERNEL.md",
+      "bytes": 17082,
+      "sha256": "bf2e13a5d62f694d638d247fe7d836d0ea57d47f15c8e9360843681ece6b58d9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-arithmetic-kernel/check_length_arithmetic.py",
+      "bytes": 6107,
+      "sha256": "c46c6a51f8d3c99e6d1b6d5e5fcdfcfc44528b164c6c8a7a2192e7195130c6bb",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-arithmetic-kernel/check_math_syntax.cjs",
+      "bytes": 1549,
+      "sha256": "2648d9b79a7ad059f4236a74f4e111a6e62769f2c60ce891365839e9e4b7bd28",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-arithmetic-kernel/length_arithmetic_checks.json",
+      "bytes": 2694,
+      "sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-arithmetic-kernel/length_arithmetic_checks.log",
+      "bytes": 2694,
+      "sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-arithmetic-kernel/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "2fd3afcdd387c7669d7ab1717537777e0af596d63fb9cc3a715349b75c0a358d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat/AUTHOR_RECEIPT.json",
+      "bytes": 2537,
+      "sha256": "29b60cd498eea92cda9a072c00c5d1b39b07f15ea70440e342f9ff2e905f21db",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+      "bytes": 10290,
+      "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat/check_heat_multiplier.py",
+      "bytes": 1963,
+      "sha256": "a292eec4eb318d5399e584870b6cb1d32bd1f33d224e69cde9e7a61ca3b605e7",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat/heat_multiplier_checks.json",
+      "bytes": 652,
+      "sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat/heat_multiplier_checks.log",
+      "bytes": 652,
+      "sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat/math_syntax_checks.json",
+      "bytes": 457,
+      "sha256": "ae29a42cfc21066c393958b6e6c544405f1fb7e199ae6a020a296290139d3120",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat-review/INDEPENDENT_LOG_PRIME_HEAT_REVIEW.md",
+      "bytes": 8304,
+      "sha256": "48651b0dee077bf4ac8a576736ef5eabcc21bbeb2eb8c0f644d793c92e4f7093",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat-review/REVIEW_RECEIPT.json",
+      "bytes": 2785,
+      "sha256": "6619807a62b9381e9c1d2297b95a0d5b06468f952b237962f659649824e8f5a8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat-review/check_inputs_and_replay.py",
+      "bytes": 2378,
+      "sha256": "320c0596409148b36194a04946380ddd06b8a8057206b4ceb6f00083e448cde3",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat-review/input_and_replay_checks.json",
+      "bytes": 2991,
+      "sha256": "24012e5b9336fd76e2a41e07aee1a75bfd26b2ae331942c2284bcaee9824e689",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat-review/math_syntax_checks.json",
+      "bytes": 227,
+      "sha256": "cde9cb5090e12922ab83fce2dab1b56dccbd3d8856bcbce750275445b4095fe3",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat-review/replayed_heat_checks.json",
+      "bytes": 652,
+      "sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "log-prime-heat-review/replayed_heat_checks.log",
+      "bytes": 652,
+      "sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_CENTERED_PAIR_AND_HEAT_REVIEW.md",
+      "bytes": 9356,
+      "sha256": "388e7bcab1c1e7faa345af6e48be61e15b614baac5af25ce1fe391ea5167a60f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_KERNEL_AND_TAUBERIAN_REVIEW.md",
+      "bytes": 7050,
+      "sha256": "5f2846e03a1c30bec56001e6bebecc44a3c02b2a68ced3c2bc49fd238865e621",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_KERNEL_TAUBERIAN_RECEIPT.json",
+      "bytes": 1280,
+      "sha256": "572bfa0165b6fe8c2e4ad48063ad6bc4e22832fd2a9ec32111b5561c036f7eff",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_PAIR_HEAT_RECEIPT.json",
+      "bytes": 2049,
+      "sha256": "ed8f6d77a72460d33ccef0bc5b39a0ec073cba3140001c87ded465a41351e435",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/replay/length-arithmetic-kernel/length_arithmetic_checks.json",
+      "bytes": 2694,
+      "sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/replay/length-arithmetic-kernel/length_arithmetic_checks.log",
+      "bytes": 2694,
+      "sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/replay/tauberian-information/mellin_transform_checks.json",
+      "bytes": 1629,
+      "sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/replay/tauberian-information/mellin_transform_checks.log",
+      "bytes": 1629,
+      "sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/HISTORICAL_REVIEW_STATUS.md",
+      "bytes": 1133,
+      "sha256": "068701436b1c40d509a3b833f87ad5c5ff31070c600136c7a459d6f7e7fc58f9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+      "bytes": 18273,
+      "sha256": "459f438da25a2b37e915abe39ad4b624e8cc490cec89642465821c0dde217655",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 7023,
+      "sha256": "022ceb8f0053f7e4f27ce8cde5dbadfa02118927fd9a6c92c6c367db03a8f5dc",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/current_source_hash_checks.json",
+      "bytes": 10229,
+      "sha256": "5ead5eef6dc72cecfce873df4e7fe19bf42447ff4cdb57b3da68deb8a5c5cbb2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/independent_h1_replay.json",
+      "bytes": 2637,
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/independent_h1_replay.log",
+      "bytes": 2637,
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/independent_pair_replay.json",
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/independent_pair_replay.log",
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-review/source_hash_checks.json",
+      "bytes": 2637,
+      "sha256": "6990f0597e5d63f1ea16b77f2238c390b8d855254b4c105f3a7eb66cee231606",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "bytes": 21504,
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/author_manifest.json",
+      "bytes": 1775,
+      "sha256": "8f4d8c070beb63e36bf6969dfcb74d9239e4d98fcea53abc63513e20e66d1e39",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/centered_pair_target_checks.json",
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/centered_pair_target_checks.log",
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/check_centered_pair_target.py",
+      "bytes": 5212,
+      "sha256": "51f9178f5035e285005ddd27ec88773f03253ddc1d7dee85a8d5c2114e136129",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/check_h1_correction.py",
+      "bytes": 3930,
+      "sha256": "879c35d3efed14e5c0d2108de3bad078616c0259a4406f9669ffc92944573f4f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/h1_correction_checks.json",
+      "bytes": 2637,
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/h1_correction_checks.log",
+      "bytes": 2637,
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/h1_correction_receipt.json",
+      "bytes": 4678,
+      "sha256": "6390dcf2ff69b0ea04db0fe2181932f88bc819088401b8edc15ff578e6065e67",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/source_manifest.json",
+      "bytes": 5127,
+      "sha256": "46f51c4a3bcdcce50aa380519f537666bc06d5fc5ed11646268e8973457028ac",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/sources/COORDINATOR_H1_OBSTRUCTION.md",
+      "bytes": 4963,
+      "sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/sources/chan-0503441v2.pdf",
+      "bytes": 101359,
+      "sha256": "32634de84c2d115454557b36b540a5f67cbac7d4dd03e193e02b31b695d56fdf",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/sources/chan-0503441v2.txt",
+      "bytes": 16590,
+      "sha256": "acff049b3d4ffcba01e7625e24db3917166f617286758d1040b21a0e2b9ea819",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/sources/chan-page-2.png",
+      "bytes": 130846,
+      "sha256": "184c3a8158156fa3bdbfe611e16462b097119e96c22a4fa764c79005334b8fca",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/sources/dlmf-25.10.html",
+      "bytes": 69382,
+      "sha256": "85ff784bf56ef107c7895c80940773948ef44ed63379e94e1e977235a067b45a",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/sources/dlmf-25.2.html",
+      "bytes": 124933,
+      "sha256": "70f485fb19eb5b42b797da3eb70760bfb71bf21d41d112213b1e331db1a616ca",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.pdf",
+      "bytes": 275525,
+      "sha256": "4814387da412faf35d86f7e5d84a789cfa6743b08a6dff1e47fbc7632d7a8176",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.txt",
+      "bytes": 104037,
+      "sha256": "8f00b857564f48f187284592e9feba4c22ddbab4b4e1958bc0c7231029b8c10f",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/sources/ms-page-04.png",
+      "bytes": 201376,
+      "sha256": "f576eca317fe72c4fb567f9d0f14d5cfc5b3b2c07c8e9941b053044c7385904f",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/sources/ms-page-05.png",
+      "bytes": 227386,
+      "sha256": "7561af3b036cadafb696b19133a3a4425eacbf022073d9d2f9a9f1f6e1fd687f",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/CENTERED_PAIR_ERROR_TARGET.md",
+      "bytes": 17025,
+      "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/PRESERVATION_RECEIPT.json",
+      "bytes": 2123,
+      "sha256": "9a4b024c945a74418d538d2b173f95a4c91a08d77d15a656c4e6ffbe08d819e4",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/author_manifest.json",
+      "bytes": 910,
+      "sha256": "829cff96994fbb3debb6d08d9fa2253dde967e4ea30ad4d7b5ccfb975db3b9f2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/centered_pair_target_checks.json",
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/centered_pair_target_checks.log",
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/check_centered_pair_target.py",
+      "bytes": 5212,
+      "sha256": "51f9178f5035e285005ddd27ec88773f03253ddc1d7dee85a8d5c2114e136129",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/prior-independent-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+      "bytes": 12186,
+      "sha256": "5a0de0ac42401897b4e417be4ce8804867ede2b937ff6ebc85a9711df02728e4",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/prior-independent-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 3302,
+      "sha256": "83b8044d04eabfcfb95fb37a92334db9b7ee362983c46de93f22ac6c3ab9d70e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/prior-independent-review/independent_pair_replay.json",
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/prior-independent-review/independent_pair_replay.log",
+      "bytes": 5951,
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/prior-independent-review/source_hash_checks.json",
+      "bytes": 2637,
+      "sha256": "6990f0597e5d63f1ea16b77f2238c390b8d855254b4c105f3a7eb66cee231606",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "strict-arithmetic-target/superseded-before-h1-obstruction/source_manifest.json",
+      "bytes": 4051,
+      "sha256": "2deb6bd5b72a12b0812760057873a818526d46f4f9790425dc91ccab4cc1e14a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/AUTHOR_RECEIPT.json",
+      "bytes": 4063,
+      "sha256": "521c05943fd61765cdc66cec53c9a5a2b6c543457d0180317c3a35aa1d8af015",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/FIXED_BUMP_TAUBERIAN_EQUIVALENCE.md",
+      "bytes": 13500,
+      "sha256": "3f3391cb149b69e86d6c758267eec56ae9d86f7523f2dcf078f6f351ff9ee48c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/check_math_syntax.cjs",
+      "bytes": 1551,
+      "sha256": "be6ba292843bc17e500d84b6b253563c2e55ab225c39db7e97ceb691665b5f1a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/check_mellin_transform.py",
+      "bytes": 2869,
+      "sha256": "d03d385ca80c83e9433196bbdcf55d695b1ff2e2a7a8522169259c83a2a6a187",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "c94da62f4f4f047d7536a0643d2c31e70414c0686cb3a018d03ca2d4bb934396",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/mellin_transform_checks.json",
+      "bytes": 1629,
+      "sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/mellin_transform_checks.log",
+      "bytes": 1629,
+      "sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/sources/SOURCE_RECEIPT.json",
+      "bytes": 2850,
+      "sha256": "a649b85cb0ba9259b51e586b09aa311c6145f975947e2fd1d0ffe338717699b6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "tauberian-information/sources/theorem1-page2.png",
+      "bytes": 351841,
+      "sha256": "6176172988d65c44e26b1573b9d4cb8367de7f42b5c3fdf54b5532b950d7ff9c",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "tauberian-information/sources/van-neerven-wiener-1997.pdf",
+      "bytes": 84901,
+      "sha256": "1a0ece6c3bbe27fa4ccd5bce4366562d9464b077460360099edcab7278aa5ae3",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "tauberian-information/sources/van-neerven-wiener-1997.txt",
+      "bytes": 10817,
+      "sha256": "13985c3d20245788d05711503c00dcaddc9adf35ac0ce1451320da11d81cc74d",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    }
+  ]
+}

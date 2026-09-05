@@ -265,3 +265,18 @@ Evidence: `reports/dyson_round19.md`, `dyson/round19/`, and `logs/round19-integr
 - **Open:** a strict actual-prime upper estimate, positive initial-zeta Bragg deficit, the physical-flow transfer and all famous-conjecture targets. The prior full RH arithmetic aggregate remains X^1.023 log^5X.
 
 Evidence: `reports/dyson_round20.md`, `dyson/round20/`, and `logs/round20-integration/`.
+
+
+## Round 21: exact targets and a corrected impossible shortcut
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-021A | The all-length actual prime variance has an absolutely convergent full pair/center expansion for T>2 and a finite positive truncation with error at most 2048*T^(9/4)*2^(-T) for T>=3 | Unconditional ordinary proof with root/coordinator review | Round21 length-arithmetic-kernel; the centered T=2 limiting identity separately assumes RH; no floating certification or strict variance bound |
+| TAUB-021 | Full-real-height convergence of the averaged variance to c is equivalent to convergence of the fixed spectral bump to c | Ordinary RH proof with root/coordinator review, applying classical Wiener theorem | Round21 tauberian-information; exact nowhere-zero multiplier and actual-height modulus; no existence of a limit, arbitrary-subsequence converse or full Montgomery theorem |
+| HEAT-021 | Actual log-prime error has the stated positive Fourier-resolvent and heat-energy representation with O(sqrt(logT/T)) localization error | Ordinary RH proof with independent Aquinas and coordinator review | Round21 log-prime-heat and log-prime-heat-review; heat acts on log-prime coordinate, not on moving zeta zeros; strict energy bound open |
+| ARITH-021B | Vbar=M+Ecal+o(1) with the exact centered Pareto pair error | Ordinary RH proof with independent, root and coordinator review | Round21 strict-arithmetic-target; all singleton terms, prime powers, tails and uniform singular-series comparison retained; liminf Ecal<=1-M open |
+| NEG-021 | A uniform all-shifts centered prefix bound X^beta log^B X with beta<1/2 is impossible | Unconditional ordinary obstruction, coordinator discovery and independently reviewed author revision | h=1 gives the prime-counting error plus exact singleton endpoints; all-large-X telescoping would remove a critical-line Mellin pole; no no-go for signed averages or restricted shifts |
+| AUD-021 | The initial beta<4/9 feasibility assessment and initial accepting review are superseded | Substantive prepublication correction, all old bytes preserved | Old manuscript81a676d6 and review retained; corrected manuscriptd7e73b83 and separate exact addendum; original checker never certified feasibility |
+| OPEN-021 | A strict actual signed-pair or heat-energy upper bound sufficient to exclude AH-Pairs | Open | No strict gain from the identities, finite checks, classical source theorems or the 186 factorization input |
+
+All Round21 arguments and reviews are linked from the complete integrated report research/reports/dyson_round21.md. Exact algebra checks and ordinary analytic proofs are separately scoped; no proof-assistant verification is claimed.
