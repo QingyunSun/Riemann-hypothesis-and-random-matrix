@@ -1,0 +1,60 @@
+{
+  "author_receipt": {
+    "bytes": 1209,
+    "sha256": "1410e11acb6ee08b6da9e895bd7011ce20438d47aba95458e097b5c36078af95"
+  },
+  "author_report": {
+    "bytes": 20291,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+    "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+  },
+  "files": {
+    "INDEPENDENT_BRAGG_REVIEW.md": {
+      "bytes": 15048,
+      "sha256": "41167e2fca5ef2eedf507e61601552b9060307086188d82fc8b39137caf6fcc6"
+    },
+    "cccc-primary-page11.png": {
+      "bytes": 211679,
+      "sha256": "9ac1f20dbdb035aeb88078f327ac9a99d48b754dc2ab0332c7c4df6a684096e5"
+    },
+    "independent_input_hash_check.json": {
+      "bytes": 5760,
+      "sha256": "8c610ba6899fcbdec0d244168edea9ffdad2f74a0cd14bec84f15c5dd784f01a"
+    },
+    "replay/bragg_checks.json": {
+      "bytes": 3918,
+      "sha256": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218"
+    },
+    "replay/bragg_checks.log": {
+      "bytes": 170,
+      "sha256": "887adbdc289a9a8b559d9def80466a53295aac737e4ed46d81fbcfd2be1d3e63"
+    },
+    "replay/check_bragg_target.py": {
+      "bytes": 5677,
+      "sha256": "4bb27d8f3dae2eca51d9c6d9b7e17ff43f4d6101ee4fd8ae93c5afae5010bb13"
+    }
+  },
+  "qa": {
+    "display_math_pairs": 14,
+    "inline_math_pairs": 91,
+    "primary_visual_review": "CCCC printed p11, Theorem9, Eq2.25, Eq2.27",
+    "unexpected_control_characters": 0
+  },
+  "replay": {
+    "command": "python3 replay/check_bragg_target.py > replay/bragg_checks.log",
+    "json_and_log_byte_identical_to_author": true,
+    "scope": "Exact rational identities plus floating synthetic normalization diagnostics only; no zeta data or interval enclosure"
+  },
+  "reviewed_input_hashes": 16,
+  "runtime": {
+    "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "numpy": "2.4.4",
+    "python": "3.14.3",
+    "sympy": "1.14.0"
+  },
+  "source_receipt": {
+    "bytes": 3164,
+    "sha256": "2bab896d7209a8b848034973d49181317ae9c9c436351f384d1ff08a99e8ca7d"
+  },
+  "status": "ACCEPTED: ordinary mathematical and primary-source audit; no strict actual-zeta target proved"
+}

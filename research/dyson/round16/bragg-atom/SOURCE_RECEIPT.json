@@ -1,0 +1,65 @@
+{
+  "retrieval_note": "The CCCC author-hosted PDF was downloaded in this round; other primary files are unchanged R7 downloads. Attempt to open arxiv HTML 2310.01913v3 returned 404; the inspected local CMR paper is arXiv:2310.01913v2, 5 Oct 2023.",
+  "scope": "Primary hypotheses and formula checks; no claim that known results exclude AH.",
+  "sources": {
+    "AH_pdf": {
+      "bytes": 391993,
+      "relative_to_research_base": "research-round7/dyson-frontier/sources/ah-goldston-etal-2025.pdf",
+      "sha256": "f4cf982350db1eb9e67182ea1000816cbd57b320ebd9e85bd662d27ec3a901cc",
+      "url": "https://arxiv.org/html/2507.06823v1"
+    },
+    "AH_text": {
+      "bytes": 51237,
+      "relative_to_research_base": "research-round7/dyson-frontier/sources/ah-goldston-etal-2025.txt",
+      "sha256": "80999306a740424c4e0bdc75ce938f284d626d4f1cd2f62701bb190f9b8f74ae"
+    },
+    "CCCC_pdf": {
+      "bytes": 843595,
+      "relative_to_research_base": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    "CCCC_text": {
+      "bytes": 180918,
+      "relative_to_research_base": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    "CMR_pdf": {
+      "bytes": 490086,
+      "relative_to_research_base": "research-round7/dyson-frontier/sources/cmr-fourier-2023.pdf",
+      "sha256": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "url": "https://arxiv.org/abs/2310.01913"
+    },
+    "CMR_text": {
+      "bytes": 64115,
+      "relative_to_research_base": "research-round7/dyson-frontier/sources/cmr-fourier-2023.txt",
+      "sha256": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4"
+    },
+    "R11_small_arc": {
+      "bytes": 13797,
+      "relative_to_research_base": "research-round11/prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+      "sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29"
+    },
+    "R7_frontier": {
+      "bytes": 17526,
+      "relative_to_research_base": "research-round7/dyson-frontier/DYSON_ACTUAL_ZETA_FRONTIER.md",
+      "sha256": "3b8eb5fb9efc2f53af550db64c1e8eef7233f8be83564e906357b3acf00a0301"
+    },
+    "R9_bridge": {
+      "bytes": 14048,
+      "relative_to_research_base": "research-round9/factorization-covariance/COMPLEMENTARY_MODULI_TYPE_I_BRIDGE.md",
+      "sha256": "982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a"
+    },
+    "goldston_pdf": {
+      "bytes": 335294,
+      "relative_to_research_base": "research-round7/dyson-frontier/sources/goldston-notes-2004.pdf",
+      "sha256": "d4107ba6b463294ffffd409842ee6beae394dc9f80c6dc0e8fc52f9c4615473c",
+      "url": "https://arxiv.org/abs/math/0412313"
+    },
+    "goldston_text": {
+      "bytes": 97188,
+      "relative_to_research_base": "research-round7/dyson-frontier/sources/goldston-notes-2004.txt",
+      "sha256": "baebb763289dafdd1fa4618112aadcba77badeefad8f87d1bbe9885bb06f2c78"
+    }
+  }
+}

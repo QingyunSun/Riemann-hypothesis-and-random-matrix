@@ -1,0 +1,25 @@
+{
+  "status": "ordinary proof read and accepted at bounded scope; no external peer or formal verification",
+  "author_sha256": "227179985368ea9a8c961b21dee9474d1440c1c5a3b7d04958a1e28b3e11d22a",
+  "independent_review_sha256": "96a203248c4235c497d177793de501703af7c81d48a1361e1a863183ec294532",
+  "primary_sources": {
+    "short_gaps.pdf": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+    "short_gaps.txt": "c0a356b3457605cf41b5aa5e5a476b673255d76bc0f0161838f61c2220ed0a29"
+  },
+  "checked": [
+    "Vaughan identity signs and distinction between value cutoff and divisor cutoff",
+    "exact relation to R14 original remainder",
+    "primitive masks, long-variable profile without extra log(s), full coefficient sums",
+    "ABQ cutoff budget and uniform fixed-derivative estimates inherited from read R14 proof",
+    "only O(log X) dyadic block pairs; sufficient uniform o(X) block criterion",
+    "all-modulus/auxiliary-coprimality SW with fixed tau exponent1; prime partial summation and prime-power enlargement",
+    "source Proposition2.18 scale range .399 to .5 and unhandled corners",
+    "actual signed integer witnesses and zero at prime inputs"
+  ],
+  "not_repeated": "49,152 finite checks already independently replayed in matching accepted review; root did not execute them again",
+  "limitations": [
+    "no bound for complete signed remainder",
+    "no twisted SW inference",
+    "no improvement to full zeta covariance or famous conjecture"
+  ]
+}

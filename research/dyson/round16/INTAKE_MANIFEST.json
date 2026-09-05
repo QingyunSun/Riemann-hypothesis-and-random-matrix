@@ -1,0 +1,184 @@
+{
+  "source": "research-round16 staging; all original bytes preserved locally",
+  "files": [
+    {
+      "path": "bragg-atom/AUTHOR_RECEIPT.json",
+      "bytes": 1209,
+      "sha256": "1410e11acb6ee08b6da9e895bd7011ce20438d47aba95458e097b5c36078af95",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom/BRAGG_ATOM_TARGET.md",
+      "bytes": 20291,
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom/SOURCE_RECEIPT.json",
+      "bytes": 3164,
+      "sha256": "2bab896d7209a8b848034973d49181317ae9c9c436351f384d1ff08a99e8ca7d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom/bragg_checks.json",
+      "bytes": 3918,
+      "sha256": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom/bragg_checks.log",
+      "bytes": 170,
+      "sha256": "887adbdc289a9a8b559d9def80466a53295aac737e4ed46d81fbcfd2be1d3e63",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom/check_bragg_target.py",
+      "bytes": 5677,
+      "sha256": "4bb27d8f3dae2eca51d9c6d9b7e17ff43f4d6101ee4fd8ae93c5afae5010bb13",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "bytes": 843595,
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "public_verbatim": false,
+      "omission_reason": "Full primary reference body or page rendering retained locally; source URL and hash are public."
+    },
+    {
+      "path": "bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "bytes": 180918,
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "public_verbatim": false,
+      "omission_reason": "Full primary reference body or page rendering retained locally; source URL and hash are public."
+    },
+    {
+      "path": "bragg-atom-review/INDEPENDENT_BRAGG_REVIEW.md",
+      "bytes": 15048,
+      "sha256": "41167e2fca5ef2eedf507e61601552b9060307086188d82fc8b39137caf6fcc6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2202,
+      "sha256": "bd4385ce8a5910ee657540cd5f309948c112a99193a197762b17d88b31547dfc",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom-review/cccc-primary-page11.png",
+      "bytes": 211679,
+      "sha256": "9ac1f20dbdb035aeb88078f327ac9a99d48b754dc2ab0332c7c4df6a684096e5",
+      "public_verbatim": false,
+      "omission_reason": "Full primary reference body or page rendering retained locally; source URL and hash are public."
+    },
+    {
+      "path": "bragg-atom-review/independent_input_hash_check.json",
+      "bytes": 5760,
+      "sha256": "8c610ba6899fcbdec0d244168edea9ffdad2f74a0cd14bec84f15c5dd784f01a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-atom-review/replay/bragg_checks.json",
+      "bytes": 3918,
+      "sha256": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218",
+      "public_verbatim": false,
+      "omission_reason": "Exact duplicate of bragg-atom/bragg_checks.json; unchanged replay receipt remains public."
+    },
+    {
+      "path": "bragg-atom-review/replay/bragg_checks.log",
+      "bytes": 170,
+      "sha256": "887adbdc289a9a8b559d9def80466a53295aac737e4ed46d81fbcfd2be1d3e63",
+      "public_verbatim": false,
+      "omission_reason": "Exact duplicate of bragg-atom/bragg_checks.log; unchanged replay receipt remains public."
+    },
+    {
+      "path": "bragg-atom-review/replay/check_bragg_target.py",
+      "bytes": 5677,
+      "sha256": "4bb27d8f3dae2eca51d9c6d9b7e17ff43f4d6101ee4fd8ae93c5afae5010bb13",
+      "public_verbatim": false,
+      "omission_reason": "Exact duplicate of bragg-atom/check_bragg_target.py; unchanged replay receipt remains public."
+    },
+    {
+      "path": "compact-packet/CHECKER_RECEIPT.json",
+      "bytes": 937,
+      "sha256": "1698acd3dc8426edb8fd52b9608c095075797b28b3abf8dc20321c9004499f95",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet/COMPACT_POLE_PACKET.md",
+      "bytes": 8085,
+      "sha256": "8106f3483adb71ab7ca4e5c105bfd6464dfa46954a1e1e77d2c77900392e19dc",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet/check_compact_packet.py",
+      "bytes": 8807,
+      "sha256": "1eb1bacd42fdcd3841360e0e1cccef3aa8ae44e6b970f18c51720537e2b31530",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet/compact_packet_checks.json",
+      "bytes": 13139,
+      "sha256": "805797e6ad68fee584d7b5dc873cf0d413bf21dba413e2a6e1abfebb6b8a2175",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet/compact_packet_checks.log",
+      "bytes": 340,
+      "sha256": "fe9fa13feb9838e6c2539ac6390d1dbdcf8a52c0e04dd9ceadfe20e40aafa721",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet-review/INDEPENDENT_COMPACT_PACKET_REVIEW.md",
+      "bytes": 8833,
+      "sha256": "097226ed6d056e82b35348d959ae10f0cea415bee000a8fb2fccac4f1f4d49a5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet-review/check_spline_review.py",
+      "bytes": 3625,
+      "sha256": "72d82ba51e0c8595348d8d26354c3283e972191c7b499e2714cbcf1cce135ce3",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet-review/review_manifest.json",
+      "bytes": 1030,
+      "sha256": "1e0ee9d57b4f5a67579be91e9b419db579b2fb6828d29cf039ae7931b55efcfc",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet-review/spline_review.log",
+      "bytes": 714,
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "compact-packet-review/spline_review_receipt.json",
+      "bytes": 714,
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895",
+      "public_verbatim": true,
+      "omission_reason": null
+    }
+  ],
+  "original_files": 25,
+  "original_bytes": 1349620,
+  "public_verbatim_files": 19,
+  "published_source_edits": []
+}

@@ -8,6 +8,8 @@ The user's latest direction prioritizes Dyson–Montgomery, random matrices and 
 
 ## Current evidence
 
+- Round 16 isolates a fixed frequency-two saturation target: RH gives C(2)<=1+epsilon²*m1 asymptotically, AH forces equality, and a positive strict deficit would exclude AH. The exact positive-pair formula and extended centered prime kernel retain all normalizations, prime powers and limits. A separate compact pole packet gives an exactly finite linear prime sum with substantial signed Fourier mass. Both ordinary proofs have independent reviews; no strict actual-zeta bound follows.
+
 - Round 15 gives an exact full-kernel Vaughan reduction with negligible Type I error and a proved untwisted SW property for beta_B. It retains the signed remainder, unbalanced factor corners and polynomial shift-summation loss. A separately proved nonnegative Gaussian packet cancels the actual zeta simple pole, with an exact leading negative Fourier cost, explicit RH bound and centered-tail endpoints. Both complete JSON replays agree without excluded fields; the full discrepancy bound is unchanged.
 
 - Round 14 proves unconditional removal of the actual Lambda divisor portion below X^(.477-eta), for each fixed eta>0, using the full kernel and primitive mean. It also proves selected CUE background tightness at N² and strengthens finite scalar-heat relative error to O_p(N^(-2/3)). Both complete proofs have independent reviews and bounded replays. The signed arithmetic remainder and true-zeta transfer remain open.
@@ -87,3 +89,5 @@ Round 13 preserves 21 original files (6,973,902 bytes) locally, with 15 verbatim
 Round 14 preserves 17 originals (548,013 bytes) locally and 15 public research/review/receipt files. Two bounded outputs reproduce, excluding only one temporary source path. The integration receipt explains the earlier Galilean title/reviewer-attribution publication edit and pins both hashes. The complete later-round supplement and compilation now preserve this material, with independent full-source coverage and page-level layout receipts. They do not change the status of any mathematical claim.
 
 Round 15 preserves 23 originals (152,394 bytes) locally and 21 verbatim public files; the two omissions are exact duplicate replay inputs. Both final mathematical reports have separate author, independent and root reviews. Complete arithmetic and packet output JSON files reproduce byte for byte. The 705-page public and 753-page local handoffs keep their explicit Round 14 checkpoint; read the separate Round 15 integrated report for this later update.
+
+Round 16 preserves the complete original proofs, independent reviews and bounded checks in the adjacent local archive, with selected research files verbatim public and reference bodies identified by hashes. Three full JSON outputs replay byte for byte. Its integrated report supplies the next checkpoint without rebuilding the Round 14 complete PDFs.

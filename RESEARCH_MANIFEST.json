@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 51198,
-      "sha256": "2ba7f68ef8e175e4a39eea8bb8c324d6c17133f759323a65bd056ba517ac3c5d"
+      "bytes": 52901,
+      "sha256": "706667dbc92b2d46c93abd7979e080ac28381a198ecda9ea7cf285688ea59638"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 31431,
-      "sha256": "81490c1f284f4c6d568da9fc58583c83159ddb634af39e6a397af526bbca5c43"
+      "bytes": 33391,
+      "sha256": "b9c26a12f62bb0545648f4e7af17608dc5ea912b8fdae9fa5afdc515894cb945"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -502,6 +502,11 @@
       "sha256": "1cf9ae8467e35c1413a7c809ccc2daeb7757c4701a457356ffae25cd6672daf9"
     },
     {
+      "path": "research/dyson/round15/root-review/COORDINATOR_VAUGHAN_REVIEW.json",
+      "bytes": 1482,
+      "sha256": "338cd757778e80a374680ed850be8f831605fc027c8e3b29b9fac7b1e49fdde4"
+    },
+    {
       "path": "research/dyson/round15/root-review/ROOT_POLE_PACKET_REVIEW.md",
       "bytes": 3845,
       "sha256": "a086040a04a363b0d62a89c3fa2cf0328c111e0652d15bea8835d4602cc96c1e"
@@ -555,6 +560,121 @@
       "path": "research/dyson/round15/signed-arithmetic-review/independent_replay.json",
       "bytes": 3908,
       "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156"
+    },
+    {
+      "path": "research/dyson/round16/INTAKE_MANIFEST.json",
+      "bytes": 6702,
+      "sha256": "5aace2e483da238745f2972244f8491d5c09d04a71b09dda584ec395a78e7a1a"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom/AUTHOR_RECEIPT.json",
+      "bytes": 1209,
+      "sha256": "1410e11acb6ee08b6da9e895bd7011ce20438d47aba95458e097b5c36078af95"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "bytes": 20291,
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom/SOURCE_RECEIPT.json",
+      "bytes": 3164,
+      "sha256": "2bab896d7209a8b848034973d49181317ae9c9c436351f384d1ff08a99e8ca7d"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom/bragg_checks.json",
+      "bytes": 3918,
+      "sha256": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom/bragg_checks.log",
+      "bytes": 170,
+      "sha256": "887adbdc289a9a8b559d9def80466a53295aac737e4ed46d81fbcfd2be1d3e63"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom/check_bragg_target.py",
+      "bytes": 5677,
+      "sha256": "4bb27d8f3dae2eca51d9c6d9b7e17ff43f4d6101ee4fd8ae93c5afae5010bb13"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom-review/INDEPENDENT_BRAGG_REVIEW.md",
+      "bytes": 15048,
+      "sha256": "41167e2fca5ef2eedf507e61601552b9060307086188d82fc8b39137caf6fcc6"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2202,
+      "sha256": "bd4385ce8a5910ee657540cd5f309948c112a99193a197762b17d88b31547dfc"
+    },
+    {
+      "path": "research/dyson/round16/bragg-atom-review/independent_input_hash_check.json",
+      "bytes": 5760,
+      "sha256": "8c610ba6899fcbdec0d244168edea9ffdad2f74a0cd14bec84f15c5dd784f01a"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet/CHECKER_RECEIPT.json",
+      "bytes": 937,
+      "sha256": "1698acd3dc8426edb8fd52b9608c095075797b28b3abf8dc20321c9004499f95"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet/COMPACT_POLE_PACKET.md",
+      "bytes": 8085,
+      "sha256": "8106f3483adb71ab7ca4e5c105bfd6464dfa46954a1e1e77d2c77900392e19dc"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet/check_compact_packet.py",
+      "bytes": 8807,
+      "sha256": "1eb1bacd42fdcd3841360e0e1cccef3aa8ae44e6b970f18c51720537e2b31530"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet/compact_packet_checks.json",
+      "bytes": 13139,
+      "sha256": "805797e6ad68fee584d7b5dc873cf0d413bf21dba413e2a6e1abfebb6b8a2175"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet/compact_packet_checks.log",
+      "bytes": 340,
+      "sha256": "fe9fa13feb9838e6c2539ac6390d1dbdcf8a52c0e04dd9ceadfe20e40aafa721"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet-review/INDEPENDENT_COMPACT_PACKET_REVIEW.md",
+      "bytes": 8833,
+      "sha256": "097226ed6d056e82b35348d959ae10f0cea415bee000a8fb2fccac4f1f4d49a5"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet-review/check_spline_review.py",
+      "bytes": 3625,
+      "sha256": "72d82ba51e0c8595348d8d26354c3283e972191c7b499e2714cbcf1cce135ce3"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet-review/review_manifest.json",
+      "bytes": 1030,
+      "sha256": "1e0ee9d57b4f5a67579be91e9b419db579b2fb6828d29cf039ae7931b55efcfc"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet-review/spline_review.log",
+      "bytes": 714,
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895"
+    },
+    {
+      "path": "research/dyson/round16/compact-packet-review/spline_review_receipt.json",
+      "bytes": 714,
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895"
+    },
+    {
+      "path": "research/dyson/round16/root-review/COORDINATOR_R16_REVIEW.json",
+      "bytes": 2963,
+      "sha256": "471abb330697002743c61a4584e6e645731d47476c62ed4743842356b56c2324"
+    },
+    {
+      "path": "research/dyson/round16/root-review/ROOT_BRAGG_REVIEW.md",
+      "bytes": 3598,
+      "sha256": "07c0044a63ac4ddd89839376e5e5b35bcbabbe6e91498d1dc1baf81dbe940c91"
+    },
+    {
+      "path": "research/dyson/round16/root-review/ROOT_COMPACT_RECEIPT.md",
+      "bytes": 2557,
+      "sha256": "95af8e26838268229c3610877ce05f074cb57cb18674dc0798ed83c883d61c51"
     },
     {
       "path": "research/dyson/round7/INTAKE_MANIFEST.json",
@@ -1235,6 +1355,46 @@
       "path": "research/logs/round15-integration/vaughan_checks.json",
       "bytes": 3908,
       "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156"
+    },
+    {
+      "path": "research/logs/round16-integration/INTEGRATION_RECEIPT.json",
+      "bytes": 370,
+      "sha256": "6d78db7463e44cdbab97e0fdfcef5af369ae617d4e3dafe02c3522183823f417"
+    },
+    {
+      "path": "research/logs/round16-integration/REPLAY_RECEIPT.json",
+      "bytes": 906,
+      "sha256": "3cd6b0e6583153a9e01847549082303150a4599d3bcdc6223a103080e29a3f1d"
+    },
+    {
+      "path": "research/logs/round16-integration/bragg-atom_replay.log",
+      "bytes": 170,
+      "sha256": "887adbdc289a9a8b559d9def80466a53295aac737e4ed46d81fbcfd2be1d3e63"
+    },
+    {
+      "path": "research/logs/round16-integration/bragg_checks.json",
+      "bytes": 3918,
+      "sha256": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218"
+    },
+    {
+      "path": "research/logs/round16-integration/compact-packet-review_replay.log",
+      "bytes": 714,
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895"
+    },
+    {
+      "path": "research/logs/round16-integration/compact-packet_replay.log",
+      "bytes": 340,
+      "sha256": "fe9fa13feb9838e6c2539ac6390d1dbdcf8a52c0e04dd9ceadfe20e40aafa721"
+    },
+    {
+      "path": "research/logs/round16-integration/compact_packet_checks.json",
+      "bytes": 13139,
+      "sha256": "805797e6ad68fee584d7b5dc873cf0d413bf21dba413e2a6e1abfebb6b8a2175"
+    },
+    {
+      "path": "research/logs/round16-integration/spline_review_receipt.json",
+      "bytes": 714,
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895"
     },
     {
       "path": "research/logs/round3-recheck-2026-09-05/README.md",
@@ -2633,8 +2793,13 @@
     },
     {
       "path": "research/reports/dyson_round15.md",
-      "bytes": 7131,
-      "sha256": "c4a9605ce33487123fd09003a07be635b614eac96cd44e79c5f7122305d30ba1"
+      "bytes": 7531,
+      "sha256": "c678052798584442b2647d06697b9f0861c689e535a378059f64cae0b256962e"
+    },
+    {
+      "path": "research/reports/dyson_round16.md",
+      "bytes": 9510,
+      "sha256": "97dc94682856c9a7e0f5dd97b247d276010607e41b7fd3860f2edc87c29b831b"
     },
     {
       "path": "research/reports/dyson_round7.md",
@@ -3303,8 +3468,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 7683,
-      "sha256": "d3c7d76da5bd22d974ec7b9cdeef8d7239daf274802f205d5e7624ed40569f60"
+      "bytes": 8070,
+      "sha256": "f58dded32a42c5a9f2456dd1b9c45047e79ed264cba7fc2eac030c8f391cc67a"
     },
     {
       "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",

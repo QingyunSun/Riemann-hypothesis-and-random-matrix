@@ -202,3 +202,16 @@ Evidence: `logs/round6-14-handoff/FINAL_ARTIFACT_QA.json`, `docs/handoff/ROUNDS_
 - **Open:** the full signed bilinear estimate, a strict actual-zeta covariance gain, higher-pole and weight-derivative extensions, and all famous-conjecture targets. The full RH discrepancy bound remains X^1.023 log^5X.
 
 Evidence: `reports/dyson_round15.md`, the full proof/review folders under `dyson/round15/`, and `logs/round15-integration/`.
+
+
+## Round 16: AH saturation at frequency two and a compact actual-prime identity
+
+- **Exact finite comparison:** for the specified positive autocorrelation bump, 0<=C_epsilon,T(b)<=C_epsilon,T(0), with an explicit nonnegative pair deficit at b=2. Fourier normalization contains one epsilon, never its inverse.
+- **Ordinary proof under RH, independently reviewed:** C(0)->1+epsilon²*m1, and every subsequential spectral atom has mass at most one. The atom conclusion takes epsilon->0 only after the subsequential limit.
+- **Conditional ordinary proof, independently reviewed:** RH+AH-Pairs forces C(2)->1+epsilon²*m1 for every fixed epsilon<1, without simplicity or a limit for p0. A positive strict deficit would refute AH; none is proved.
+- **Actual arithmetic reduction under RH:** the centered prime-kernel identity is uniform on fixed positive compact alpha ranges, including 2±epsilon. Its atomic diagonal tends to 2*epsilon*m0; all signed mixed terms and all prime powers remain. The old smaller-shift error estimates cannot be silently used there.
+- **Ordinary proof under RH, independently reviewed:** the nonnegative sinc-fourth-power packet cancels the one-H simple pole and yields an exactly finite prime sum. Compact-support endpoint terms vanish. The normalized Fourier negative mass is at least 47/104, with limit 2/3; the pointwise RH bound is O(W X^(1/2-sigma) log²X). No quadratic-energy transfer follows.
+- **Bounded checks:** exact Fourier/spline identities and rational constants pass; three whole output JSON files replay byte for byte. An actual finite 45-prime-power example is independently enumerated twice, including 101². It does not evaluate the zeta integral.
+- **Open:** the frequency-two strict deficit, a usable centered covariance upper bound, the quadratic packet/weight transfer, AH refutation and all famous-conjecture targets.
+
+Evidence: `reports/dyson_round16.md`, `dyson/round16/`, and `logs/round16-integration/`.

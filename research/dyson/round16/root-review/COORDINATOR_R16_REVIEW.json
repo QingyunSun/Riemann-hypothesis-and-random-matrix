@@ -1,0 +1,53 @@
+{
+  "status": "Both full frozen proofs read; accepted at their stated bounded scope. No formal verification or global novelty assessment.",
+  "source_pins": {
+    "COMPACT_POLE_PACKET.md": "8106f3483adb71ab7ca4e5c105bfd6464dfa46954a1e1e77d2c77900392e19dc",
+    "BRAGG_ATOM_TARGET.md": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+  },
+  "compact_checked": [
+    "Four-uniform cubic spline, angular Fourier scale and 2pi normalization",
+    "Simple zeros at plus/minus i(1-sigma), rightward contour shift for one H factor and sign of shifted weight transform",
+    "Compact support including zero-valued prime endpoints; all prime powers retained",
+    "Exact continuous centering via derivative of exp(by)(-Bprime+bB), no missing endpoints",
+    "Absolute continuity of K-based arithmetic test despite derivative jumps",
+    "Uniform RH bound obtained from prime-error integral, not from uniform contour constants",
+    "Negative dy mass47/104 bound and limit2/3; full Gram positivity remains valid",
+    "No squared-H/reflected-H or parameter-derivative transfer asserted"
+  ],
+  "atom_checked": [
+    "Double positivity of pair measure and Lorentzian F; autocorrelation seed and bump without1/epsilon",
+    "Exact C(b)<=C(0), nonnegative phase deficit, fixed-epsilon limit1+epsilon²m1",
+    "AH compactness using h<=T growth plus total-mass tail; early zeros removed; half-lattice Fourier periodicity without p0 limit",
+    "Subsequence atom capacity <=1 with epsilon sent to zero only after the spectral limit",
+    "Sharp saturation-breaking threshold versus conservative below-one target",
+    "Goldston exact complex mean, sign, uniform x dependence, endpoint and cross errors",
+    "Full centered kernel, diagonal2epsilon*m0 and all three off-diagonal/mean terms",
+    "New shift range[3/7,5/9]; old nuisance-error bounds not imported",
+    "CCCC fixed-window triangle comparison and CMR long-window scope checked in primary papers"
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/math/0412313",
+      "checked": "Proposition1/3.11 and4.4-4.5, printed pp6-8"
+    },
+    {
+      "url": "https://arxiv.org/html/2507.06823v1",
+      "checked": "AH-Pairs1.9/AH0 and growth bound1.12"
+    },
+    {
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf",
+      "checked": "Theorem7/2.14, Theorem9/2.25 and2.27"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2310.01913",
+      "checked": "normalization, Theorem1/Corollary2 and GRH range; printed pp1-3"
+    }
+  ],
+  "limitations": [
+    "No strict positive phase deficit proved.",
+    "No improved full zeta covariance estimate.",
+    "Packet remains a linear one-H identity, not a quadratic moment theorem.",
+    "Numerical seed values are diagnostics, not certified enclosures."
+  ],
+  "checks_not_repeated": "Existing exact Fourier/spline computations were not rerun; this is an independent ordinary mathematical and primary-source reading."
+}
