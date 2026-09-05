@@ -1,0 +1,56 @@
+[
+  {
+    "name": "goldston-notes-2004",
+    "url": "https://arxiv.org/pdf/math/0412313",
+    "bytes": 335294,
+    "sha256": "d4107ba6b463294ffffd409842ee6beae394dc9f80c6dc0e8fc52f9c4615473c",
+    "status": "downloaded and extracted"
+  },
+  {
+    "name": "ah-goldston-etal-2025",
+    "url": "https://arxiv.org/pdf/2507.06823",
+    "bytes": 391993,
+    "sha256": "f4cf982350db1eb9e67182ea1000816cbd57b320ebd9e85bd662d27ec3a901cc",
+    "status": "downloaded and extracted"
+  },
+  {
+    "name": "lamzouri-2026",
+    "url": "https://arxiv.org/pdf/2609.02882",
+    "bytes": 505955,
+    "sha256": "fa33485f517b3c94d2f6e4d4366f3ab14a1e413a738db512e1862f4a0944f5f9",
+    "status": "downloaded and extracted"
+  },
+  {
+    "name": "bgstb-2023",
+    "url": "https://arxiv.org/pdf/2306.04799",
+    "bytes": 210602,
+    "sha256": "133071c4d85c875fe9b1a7d4001f22d7174270ab8f1fa8e6cee6178d20276ee9",
+    "status": "downloaded and extracted"
+  },
+  {
+    "name": "cmr-fourier-2023",
+    "url": "https://arxiv.org/pdf/2310.01913",
+    "bytes": 490086,
+    "sha256": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+    "status": "downloaded and extracted"
+  },
+  {
+    "name": "rudnick-sarnak-1994",
+    "url": "https://www.math.tau.ac.il/~rudnick/papers/RudnickSarnakCRAS1994.pdf",
+    "bytes": 310342,
+    "sha256": "da4fb7c2fa1d46e46a4de1e346eadb97ae8f115dd15b93b4c87a58c00b5c57c7",
+    "status": "downloaded and extracted"
+  },
+  {
+    "name": "anthropic-zeta-2026",
+    "url": "https://arxiv.org/pdf/2608.13637",
+    "bytes": 478663,
+    "sha256": "6de3b156342e7b4a802c34f8ef40432567e9dabe006938da04233f19fc4ef444",
+    "status": "downloaded and extracted"
+  },
+  {
+    "name": "anthropic-expert-note",
+    "url": "https://www-cdn.anthropic.com/23455459f8832d06bb175cc0f88d019aed962ef8.pdf",
+    "status": "read in web tool; local download failed HTTP403"
+  }
+]

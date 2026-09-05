@@ -11,6 +11,7 @@ Every result must state its assumptions, proof status, primary references, repro
 ## Read the research
 
 * [Current state](RESEARCH_STATE.md), [research log](research/RESEARCH_LOG.md), and [claim ledger](research/claims/CLAIM_LEDGER.md).
+* [Round 7: two explicit actual-zeta targets for Dyson–Montgomery](research/reports/dyson_round7.md). A two-scale logarithmic-derivative mean square cancels AH's unknown diagonal parameter; a lower limit of at least 1/16 would refute AH-Pairs under RH. A separate compact Fourier test has an exact centered prime-covariance kernel. The required arithmetic inequalities remain open. Independent proof reviews, a negative large-prime-mark trial and a forward-flow obstruction are preserved together.
 * [Detailed handoff and public historical archive](docs/handoff/ASTRA_PUBLIC_RESEARCH_HANDOFF.md) and [PDF](output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf).
 * [Fixed symmetric-prime arithmetic transfer](research/reports/symmetric_prime_arithmetic_transfer.md) and [independent review](research/reports/symmetric_prime_transfer_independent_review.md). The proof validates a fixed family; its currently certified margin remains negative.
 * [Centered Gaussian pole correction and counterexample](research/reports/centered_gaussian_mixed_moments.md).

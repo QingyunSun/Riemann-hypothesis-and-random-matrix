@@ -1,0 +1,47 @@
+{
+  "status": "PASS: high-precision algebra/normalization checks only",
+  "precision_decimal_digits": 60,
+  "continuous_mean_checks": [
+    {
+      "t": "0.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "t": "0.75",
+      "absolute_error": "0.0"
+    },
+    {
+      "t": "2.0",
+      "absolute_error": "3.3230916150758632278e-61"
+    }
+  ],
+  "finite_prime_check": {
+    "x": "8.0",
+    "T": "3.0",
+    "truncation_n": 64,
+    "prime_power_terms": 27,
+    "direct_mean_square": "22.97385450474467751793525931424907978191",
+    "expanded_mean_square": "22.97385450474467751793525931424907978191",
+    "absolute_error": "2.9870473333733480194e-59",
+    "diagonal": "41.6696078205953788770133214297",
+    "off_diagonal": "193.674929941133328227565924217",
+    "mean_cross": "-477.739790913237370586282577974",
+    "mean_square": "265.369107656253340999638591642",
+    "omitting_mean_changes_answer_by": "212.370683256984029586643986332"
+  },
+  "AH_p0_upper": "1.29735763271532445711224107358",
+  "CMR_long_average_bounds_compatible_with_entire_AH_p0_range": true,
+  "chosen_target": {
+    "bump_support": [
+      "6/5",
+      "7/5"
+    ],
+    "bump_integral": "1",
+    "mean_alpha": "13/10",
+    "GUE_target": "1",
+    "AH_pairs_target": "7/10",
+    "centered_off_diagonal_GUE_target": "-3/10",
+    "centered_off_diagonal_AH_target": "-3/5"
+  },
+  "script_sha256": "d5fb544b4b54804054f6f893cc853c043b7b30a5d4933625cefb87281176e4fd"
+}

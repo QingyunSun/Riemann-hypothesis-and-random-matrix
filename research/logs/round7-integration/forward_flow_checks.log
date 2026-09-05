@@ -1,0 +1,106 @@
+{
+  "status": "all bounded checks passed; no zeta spacing theorem asserted",
+  "contraction": {
+    "trials": 200,
+    "arithmetic": "exact fractions",
+    "all_passed": true
+  },
+  "external_field": {
+    "points": 81,
+    "B2": "65708217766/732487781025",
+    "B3": "8550628402534336/626903329829151375",
+    "all_passed": true
+  },
+  "two_periodic_circle": {
+    "type": "float64 analytic-trajectory versus cotangent-ODE check",
+    "N_values": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "max_relative_force_error": 4.291135431397039e-13,
+    "gap_evolution_example_N16": [
+      {
+        "microscopic_time": 0.0,
+        "small_gap": 0.5,
+        "large_gap": 1.5,
+        "force_max_abs_error": 4.263256414560601e-14
+      },
+      {
+        "microscopic_time": 0.001,
+        "small_gap": 0.5062219749840469,
+        "large_gap": 1.4937780250159531,
+        "force_max_abs_error": 4.440892098500626e-14
+      },
+      {
+        "microscopic_time": 0.01,
+        "small_gap": 0.5573286865038247,
+        "large_gap": 1.4426713134961753,
+        "force_max_abs_error": 4.973799150320701e-14
+      },
+      {
+        "microscopic_time": 0.1,
+        "small_gap": 0.8302170083434248,
+        "large_gap": 1.1697829916565752,
+        "force_max_abs_error": 1.1546319456101628e-14
+      },
+      {
+        "microscopic_time": 1.0,
+        "small_gap": 0.9999767163857632,
+        "large_gap": 1.0000232836142366,
+        "force_max_abs_error": 7.344222886090934e-15
+      }
+    ],
+    "sine_pair_test_lower_bound": 0.1894305308612978
+  },
+  "generator": {
+    "arithmetic": "exact fractions and integers",
+    "rows": [
+      {
+        "N": 4,
+        "m": 2,
+        "CUE_omitted_diffusion_slope_over_pi_squared": "1",
+        "CUE_deterministic_slope_over_pi_squared": "-1",
+        "clock_diffusion_slope_over_pi_squared": "2"
+      },
+      {
+        "N": 8,
+        "m": 4,
+        "CUE_omitted_diffusion_slope_over_pi_squared": "1",
+        "CUE_deterministic_slope_over_pi_squared": "-1",
+        "clock_diffusion_slope_over_pi_squared": "2"
+      },
+      {
+        "N": 16,
+        "m": 8,
+        "CUE_omitted_diffusion_slope_over_pi_squared": "1",
+        "CUE_deterministic_slope_over_pi_squared": "-1",
+        "clock_diffusion_slope_over_pi_squared": "2"
+      },
+      {
+        "N": 32,
+        "m": 16,
+        "CUE_omitted_diffusion_slope_over_pi_squared": "1",
+        "CUE_deterministic_slope_over_pi_squared": "-1",
+        "clock_diffusion_slope_over_pi_squared": "2"
+      },
+      {
+        "N": 64,
+        "m": 32,
+        "CUE_omitted_diffusion_slope_over_pi_squared": "1",
+        "CUE_deterministic_slope_over_pi_squared": "-1",
+        "clock_diffusion_slope_over_pi_squared": "2"
+      },
+      {
+        "N": 128,
+        "m": 64,
+        "CUE_omitted_diffusion_slope_over_pi_squared": "1",
+        "CUE_deterministic_slope_over_pi_squared": "-1",
+        "clock_diffusion_slope_over_pi_squared": "2"
+      }
+    ],
+    "signed_merge_filtration_checks": 576
+  }
+}

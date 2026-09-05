@@ -1,0 +1,21 @@
+{
+  "status": "all exact Fraction/integer algebra checks passed",
+  "cutoff": 120,
+  "ell": "27/25",
+  "integers_checked": 120,
+  "unique_large_prime_pairs": 70,
+  "coprime_ordered_distinct_prime_triples": 132,
+  "boolean_product_checks": 8,
+  "checks": [
+    "binary mark",
+    "unique large prime and automatic coprimality",
+    "mixed marked integer identity",
+    "AstarA ordered expansion",
+    "AstarA same-prime term uses uninserted amplitude",
+    "A2 ordered expansion",
+    "distinct-prime coefficient factor a",
+    "C-product insertion rule"
+  ],
+  "limitations": "Rational formal labels and kernels; not numerical quadrature, an asymptotic test, or a zeta result.",
+  "script_sha256": "70c703599566cf23cf717e7008fb457f92c15013ebe390ae9799a08f80a13a5d"
+}
