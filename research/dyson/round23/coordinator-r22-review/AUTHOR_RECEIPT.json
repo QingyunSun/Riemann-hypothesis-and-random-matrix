@@ -1,0 +1,124 @@
+{
+  "checks": {
+    "author": {
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    "beta_moments": [
+      {
+        "T": 4,
+        "log_u_expectation": "-5/6 + log(4)",
+        "mass": "1",
+        "mean_scaled_u": "2"
+      },
+      {
+        "T": 5,
+        "log_u_expectation": "-13/12 + log(5)",
+        "mass": "1",
+        "mean_scaled_u": "2"
+      },
+      {
+        "T": 9,
+        "log_u_expectation": "-481/280 + log(9)",
+        "mass": "1",
+        "mean_scaled_u": "2"
+      }
+    ],
+    "checker": {
+      "bytes": 3139,
+      "sha256": "0f14fb615ddf24603e197bf1f4b24367c6f6943691f134aa6b6516b6b83d4f1e"
+    },
+    "checks": [
+      {
+        "name": "exact old minus new singleton identity",
+        "status": "PASS"
+      },
+      {
+        "name": "backward power cancellation T=4",
+        "status": "PASS"
+      },
+      {
+        "name": "exact signed backward second derivative T=4",
+        "status": "PASS"
+      },
+      {
+        "name": "backward power cancellation T=5",
+        "status": "PASS"
+      },
+      {
+        "name": "exact signed backward second derivative T=5",
+        "status": "PASS"
+      },
+      {
+        "name": "backward power cancellation T=9",
+        "status": "PASS"
+      },
+      {
+        "name": "exact signed backward second derivative T=9",
+        "status": "PASS"
+      },
+      {
+        "name": "beta log moment T=4",
+        "status": "PASS"
+      },
+      {
+        "name": "beta log moment T=5",
+        "status": "PASS"
+      },
+      {
+        "name": "beta log moment T=9",
+        "status": "PASS"
+      },
+      {
+        "name": "beta probability mass and scaled mean in three cases",
+        "status": "PASS"
+      },
+      {
+        "name": "compact signed derivative first-moment identity",
+        "status": "PASS"
+      },
+      {
+        "name": "exact backward tail antiderivative",
+        "status": "PASS"
+      },
+      {
+        "name": "RH lower endpoint exponent 7/8",
+        "status": "PASS"
+      }
+    ],
+    "number_of_checks": 14,
+    "scope": "Exact residual algebra, signed derivatives, beta moments, compact hinge identity and tail primitive only; no strict arithmetic bound.",
+    "status": "PASS",
+    "sympy_version": "1.14.0"
+  },
+  "owned_files": [
+    {
+      "bytes": 13005,
+      "path": "SINGLETON_RENORMALIZATION.md",
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "bytes": 3139,
+      "path": "check_singleton_renormalization.py",
+      "sha256": "0f14fb615ddf24603e197bf1f4b24367c6f6943691f134aa6b6516b6b83d4f1e"
+    },
+    {
+      "bytes": 2101,
+      "path": "singleton_renormalization_checks.json",
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce"
+    },
+    {
+      "bytes": 2101,
+      "path": "singleton_renormalization_checks.log",
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce"
+    },
+    {
+      "bytes": 2528,
+      "path": "source_manifest.json",
+      "sha256": "047a44ad066549ab48529f255e40dfd30c4f200762218554b1978202672fa1f9"
+    }
+  ],
+  "programme_dependency_count": 2,
+  "source_count": 5,
+  "status": "ordinary proof frozen for independent review; exact checker PASS"
+}

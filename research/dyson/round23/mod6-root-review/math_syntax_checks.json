@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "../../../Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/INDEPENDENT_MOD6_REVIEW.md",
+      "sha256": "9e6850f2da9558c9ae068c49e57fbe8b51d931fe96bc72c4044f38a44421b242",
+      "mathExpressions": 92,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.pdf",
+    "bytes": 275525,
+    "sha256": "4814387da412faf35d86f7e5d84a789cfa6743b08a6dff1e47fbc7632d7a8176",
+    "match": true
+  },
+  {
+    "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.txt",
+    "bytes": 104037,
+    "sha256": "8f00b857564f48f187284592e9feba4c22ddbab4b4e1958bc0c7231029b8c10f",
+    "match": true
+  },
+  {
+    "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+    "bytes": 1795864,
+    "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+    "match": true
+  },
+  {
+    "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+    "bytes": 64608,
+    "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+    "match": true
+  },
+  {
+    "path": "research-round22/singleton-renormalization/sources/dlmf-25.16.html",
+    "bytes": 124980,
+    "sha256": "9d0cf95c66dc1ae5e3cc4f8373be7f2cdb473bd620673b7851fe2bf69157b7fa",
+    "match": true
+  },
+  {
+    "path": "research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+    "bytes": 21504,
+    "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e",
+    "match": true
+  },
+  {
+    "path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+    "bytes": 18644,
+    "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+    "match": true
+  },
+  {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/singleton-author-review/SINGLETON_RENORMALIZATION.md",
+    "bytes": 13005,
+    "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+  },
+  {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/source_manifest.json",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/singleton-author-review/source_manifest.json",
+    "bytes": 2528,
+    "sha256": "047a44ad066549ab48529f255e40dfd30c4f200762218554b1978202672fa1f9"
+  },
+  {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/AUTHOR_RECEIPT.json",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/singleton-author-review/AUTHOR_RECEIPT.json",
+    "bytes": 3289,
+    "sha256": "ae925879524a3396f3cb63ea1ff67078d44007427c67c9d5a3999d60555d4236"
+  },
+  {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/check_singleton_renormalization.py",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/singleton-author-review/check_singleton_renormalization.py",
+    "bytes": 3139,
+    "sha256": "0f14fb615ddf24603e197bf1f4b24367c6f6943691f134aa6b6516b6b83d4f1e"
+  },
+  {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/singleton-author-review/INDEPENDENT_AUTHOR_REVIEW.md",
+    "bytes": 9114,
+    "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72"
+  }
+]

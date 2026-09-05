@@ -1,0 +1,106 @@
+{
+  "author_files_modified": false,
+  "copied_checker_exit_code": 0,
+  "copied_checker_stderr": "",
+  "exact_checks": 8,
+  "only_copied_checker_executed": true,
+  "replay_json_and_stdout_byte_identical_to_author": true,
+  "replay_json_sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+  "replay_stdout_sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+  "scope": "Full mathematical proof reviewed separately; this replay checks only eight exact scalar assertions and source/file hashes.",
+  "status": "PASS",
+  "verified_input_count": 13,
+  "verified_inputs": [
+    {
+      "bytes": 12163,
+      "group": "author-owned",
+      "path": "research-round23/growing-wheel-centering/GROWING_WHEEL_CENTERING.md",
+      "sha256": "d65b165547316a9b047db65295a4f1e05c3aa2a66416e287d9860688b3b3f73f",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1542,
+      "group": "author-owned",
+      "path": "research-round23/growing-wheel-centering/check_math_syntax.cjs",
+      "sha256": "a5863032df377cdd849dc2dde77ecfaa1ca6456f476ace24b4b73e47c617eb82",
+      "status": "PASS"
+    },
+    {
+      "bytes": 2423,
+      "group": "author-owned",
+      "path": "research-round23/growing-wheel-centering/check_wheel_norm_algebra.py",
+      "sha256": "5c12adf843d1645a05aec285999118f0faab98798dfac4c95296d0468831f6d2",
+      "status": "PASS"
+    },
+    {
+      "bytes": 286,
+      "group": "author-owned",
+      "path": "research-round23/growing-wheel-centering/math_syntax_checks.json",
+      "sha256": "8a0b5ada7bebb9249f73b0188fd8b30b604f11cd3f999c5666d79725ea9588aa",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1125,
+      "group": "author-owned",
+      "path": "research-round23/growing-wheel-centering/wheel_norm_algebra_checks.json",
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1125,
+      "group": "author-owned",
+      "path": "research-round23/growing-wheel-centering/wheel_norm_algebra_checks.log",
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1026,
+      "group": "author-owned",
+      "path": "research-round23/growing-wheel-centering/sources/SOURCE_RECEIPT.json",
+      "sha256": "599ce7405dc47a63d8801bbf34a47e5c97fbc6f331b307652b86fa34db1308e8",
+      "status": "PASS"
+    },
+    {
+      "bytes": 18644,
+      "group": "dependency",
+      "path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "status": "PASS"
+    },
+    {
+      "bytes": 11738,
+      "group": "dependency",
+      "path": "research-round20/length-average-review/INDEPENDENT_EXPONENTIAL_LENGTH_REVIEW.md",
+      "sha256": "951f578b625a3cdc0057ce09fe9d4d91cffef29c487eeac9135d440905142fda",
+      "status": "PASS"
+    },
+    {
+      "bytes": 10290,
+      "group": "dependency",
+      "path": "research-round21/log-prime-heat/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+      "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+      "status": "PASS"
+    },
+    {
+      "bytes": 8304,
+      "group": "dependency",
+      "path": "research-round21/log-prime-heat-review/INDEPENDENT_LOG_PRIME_HEAT_REVIEW.md",
+      "sha256": "48651b0dee077bf4ac8a576736ef5eabcc21bbeb2eb8c0f644d793c92e4f7093",
+      "status": "PASS"
+    },
+    {
+      "bytes": 159124,
+      "group": "retained-primary-source",
+      "path": "research-round23/growing-wheel-centering/sources/dlmf-27.2.html",
+      "sha256": "7281eb9a14b058f18307408b4a7a0e10471ed667004c82797a83b8a9cfa2d329",
+      "status": "PASS"
+    },
+    {
+      "bytes": 41,
+      "group": "retained-primary-source",
+      "path": "research-round23/growing-wheel-centering/sources/dlmf-27.2.E3.tex",
+      "sha256": "cd8b27adfc1701fdd7fffb920b45659d78e4c5719a0b4dd6b470d164683042ec",
+      "status": "PASS"
+    }
+  ]
+}

@@ -295,3 +295,17 @@ All Round21 arguments and reviews are linked from the complete integrated report
 | OPEN-022 | liminf P_T<=1-M, sufficient for a strict actual-zeta deficit | Open | Normalization improvements leave the exact constant target unchanged; no uniform sub-square-root prefix theorem for the new coefficient is established |
 
 The R21 impossible pointwise premise remains rejected. These new weighted identities do not retroactively validate it. Ordinary PNT suffices for renormalization; RH remains an assumption of the inherited variance/zero transfer.
+
+
+## Round 23: source-valid components and arithmetic residuals
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-023A | Actual smooth packets with alpha in [11/5,9/4], H=X/T and canonical odd d<=X^.523 have primitive component O(X^(-7/440)/logX) and actual nonprimitive component O(X^(-15041/45000)) | Unconditional ordinary proof with independent Plato review | Exact five-term opening and even-shift Poisson completion; surviving A+C-M_S unbounded; no full shift partition |
+| ARITH-023B | Full q6-q2 correction is o(1), and all forbidden q6 product rows have absolute mass O(1/T+2^(-T)/log²T) | Unconditional ordinary proof with independent root review | Fixed-modulus PNT/AP, logarithmic signed singular-series prefix, complete 2/3-power tails; no GRH or growing-modulus inference |
+| ARITH-023C | Wheel-center and removed-prime-power norm debts are explicitly bounded for all real endpoints and all lengths | Unconditional finite-height ordinary proof with independent Euclid review | Inclusion-exclusion, positive product measure and every prime-power staircase; squared-variance o(1) additionally uses RH boundedness |
+| HEAT-023 | Under RH, D=o(T^(3/8)logT) gives the same actual variance and log-prime heat target for the supported residual (Lambda-R)*I(coprime to wheel) | Ordinary proof with independent Euclid review | Bounded heat multiplier and explicit L2 prefix comparison; primorial cutoff c*logT*loglogT valid for c<3/(8log2); no strict gain |
+| AUD-023 | Coordinator's complete R22 singleton review is now accepted | Late independent evidence preserved in R23 | Full stronger-tail review, source pins and precise execution scope; R22 pending-at-freeze statement unchanged |
+| OPEN-023 | liminf Q2<A-M, sufficient to exclude the precise AH-Pairs formulation under RH | Open | <=1-M is a stronger sufficient benchmark, not a necessary condition; all component reductions leave the strict estimate missing |
+
+All author files and subsequent acceptance records remain byte-identical. See research/reports/dyson_round23.md for complete proofs, source mappings and the limits of each transfer.

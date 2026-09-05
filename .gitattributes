@@ -24,3 +24,11 @@ research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction
 research/dyson/round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md whitespace=-blank-at-eof
 research/dyson/round22/singleton-renormalization/check_singleton_renormalization.py whitespace=-blank-at-eof
 research/dyson/round22/small-shift-review/INDEPENDENT_SMALL_SHIFT_REVIEW.md whitespace=-blank-at-eof
+
+# Preserve frozen Round 23 original EOF blank lines byte for byte.
+research/dyson/round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md whitespace=-blank-at-eof
+research/dyson/round23/coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW.md whitespace=-blank-at-eof
+research/dyson/round23/coordinator-r22-review/SINGLETON_RENORMALIZATION.md whitespace=-blank-at-eof
+research/dyson/round23/coordinator-r22-review/check_singleton_renormalization.py whitespace=-blank-at-eof
+research/dyson/round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md whitespace=-blank-at-eof
+research/dyson/round23/even-pair-dispersion/check_upper_wing_completion.py whitespace=-blank-at-eof

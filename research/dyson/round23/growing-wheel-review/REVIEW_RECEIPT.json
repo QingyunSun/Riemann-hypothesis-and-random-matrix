@@ -1,0 +1,53 @@
+{
+  "author": {
+    "bytes": 12163,
+    "path": "research-round23/growing-wheel-centering/GROWING_WHEEL_CENTERING.md",
+    "sha256": "d65b165547316a9b047db65295a4f1e05c3aa2a66416e287d9860688b3b3f73f"
+  },
+  "author_receipt": {
+    "bytes": 3925,
+    "path": "research-round23/growing-wheel-centering/AUTHOR_RECEIPT.json",
+    "sha256": "b3cc9053a8953278f58e4dcb723c06c762a0f1928d348e66915cb5c207a8cd07"
+  },
+  "bounded_verification": {
+    "author_files_modified": false,
+    "json_and_stdout_identical_to_author": true,
+    "large_arithmetic_or_prime_scan": false,
+    "source_and_dependency_hashes_verified": 13,
+    "unchanged_copied_scalar_checks": 8
+  },
+  "ordinary_proof_scope": [
+    "complete interval-center comparison at all real endpoints",
+    "all removed prime powers and complete positive length law",
+    "sole sufficient growth condition and PNT primorial example",
+    "actual cumulative rough residual and original fixed-weight RH heat transfer",
+    "bounded multiplier and all positive heat times",
+    "no strict arithmetic improvement or monotonic energy claim"
+  ],
+  "requested_change": "harmless eventual z>=2 qualification added before final author freeze; no substantive correction",
+  "review_files": [
+    {
+      "bytes": 11059,
+      "path": "research-round23/growing-wheel-review/INDEPENDENT_GROWING_WHEEL_REVIEW.md",
+      "sha256": "afcfc009e88b4dc766296d447c81a759f11c071b2479f01251c1612808974612"
+    },
+    {
+      "bytes": 3994,
+      "path": "research-round23/growing-wheel-review/input_and_replay_checks.json",
+      "sha256": "4248f09cecf9d7d22d4f8916ba2a0e1bb7ec91dd74d21ebb62792f715f2257fc"
+    },
+    {
+      "bytes": 1125,
+      "path": "research-round23/growing-wheel-review/replayed_wheel_norm_checks.json",
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b"
+    },
+    {
+      "bytes": 1125,
+      "path": "research-round23/growing-wheel-review/replayed_wheel_norm_checks.log",
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b"
+    }
+  ],
+  "reviewer": "Euclid / prime186",
+  "source_live_check": "https://dlmf.nist.gov/27.2.E3 opened 2026-09-05; retained official HTML and formula independently checked",
+  "status": "accepted and frozen"
+}
