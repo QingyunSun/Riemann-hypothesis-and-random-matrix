@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-05",
+  "status": "Author ordinary unconditional proof frozen; independent review pending. No replacement of the original residual or strict variance bound assumed.",
+  "owned_artifacts": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "bytes": 8245,
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/check_math_syntax.cjs",
+      "bytes": 1543,
+      "sha256": "3d3009699ba5d015c3c97c974f831231cc4625ec97e00b5aa73cc801f5391b7e"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/check_odd_pair_algebra.py",
+      "bytes": 2467,
+      "sha256": "25d221cbbe9852a50020b6404723b44651b044792dd5d8432d918d7e61658e45"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "289b425f3bdffd8f9656299e4fddf42abce1badaf88adca9b6e1c603ee4b8936"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/odd_pair_algebra_checks.json",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/odd_pair_algebra_checks.log",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "bytes": 21504,
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "bytes": 12215,
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b"
+    }
+  ],
+  "arithmetic_inputs": "The exact R21 b_T weight and proposed q coefficient. Everything else is the displayed elementary log bound, binomial Chebyshev proof, positive integral comparisons and geometric summation; no new external theorem, RH input or upper sieve is used. The companion small-shift report is context only, not a necessary theorem input.",
+  "checks": {
+    "exact_scalar_checks": 7,
+    "math_syntax_expressions": 78,
+    "no_scans": true
+  },
+  "reproduction": [
+    "python3 check_odd_pair_algebra.py > odd_pair_algebra_checks.log",
+    "node check_math_syntax.cjs /absolute/path/to/katex"
+  ]
+}

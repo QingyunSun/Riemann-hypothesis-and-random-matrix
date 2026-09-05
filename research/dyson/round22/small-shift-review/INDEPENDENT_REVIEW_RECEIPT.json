@@ -1,0 +1,78 @@
+{
+  "all_check_fields": {
+    "checks": [
+      {
+        "name": "reciprocal local Euler factors",
+        "status": "PASS"
+      },
+      {
+        "name": "finite eight-divisor Euler expansion",
+        "status": "PASS"
+      },
+      {
+        "name": "formal centered prefix with endpoints 1",
+        "status": "PASS"
+      },
+      {
+        "name": "formal centered prefix with endpoints 2",
+        "status": "PASS"
+      },
+      {
+        "name": "formal centered prefix with endpoints 3",
+        "status": "PASS"
+      },
+      {
+        "name": "exact far-tail integral derivative",
+        "status": "PASS"
+      },
+      {
+        "name": "RH lower-window exponent minus seven eighths",
+        "status": "PASS"
+      }
+    ],
+    "number_of_checks": 7,
+    "report_sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b",
+    "scope": "Seven exact scalar/formal-coefficient checks only. No prime samples, parameter scans, sieve verification or numerical constant enclosure.",
+    "status": "PASS",
+    "sympy_version": "1.14.0"
+  },
+  "author": {
+    "bytes": 12215,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+    "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b"
+  },
+  "author_receipt": {
+    "bytes": 3335,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/AUTHOR_RECEIPT.json",
+    "sha256": "16cd2dbca66e5ad3c7482344da0f9a3b39653d69c45979798c301ea4cff9f68a"
+  },
+  "no_author_changes": true,
+  "no_prime_samples_or_parameter_scans": true,
+  "primary_read_scope": [
+    "Tao equation22, Lemma17, Corollary19, local text and live primary page",
+    "Schoenfeld Theorem10 Eq6.2, local primary text plus rendered printedp337"
+  ],
+  "replay_and_source_checks": {
+    "bytes": 5697,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-review/replay_and_source_checks.json",
+    "sha256": "7496755c92134faec09dc9249f7f5794eb0e2f58ace52a5752fd62f77b37a213"
+  },
+  "replay_json": {
+    "bytes": 973,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-review/independent_replay.json",
+    "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40"
+  },
+  "replay_stdout": {
+    "bytes": 973,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-review/independent_replay.log",
+    "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40"
+  },
+  "review": {
+    "bytes": 10518,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-review/INDEPENDENT_SMALL_SHIFT_REVIEW.md",
+    "sha256": "614cd44518df86e4712c6ec38d503a5f3f5706e96dd020075ca1a28648bfd975"
+  },
+  "scope": "Full ordinary proof/source review; unconditional absolute small-shift removal, RH signed odd-shift removal; no strict variance result",
+  "status": "ACCEPTED without amendment",
+  "verified_pin_count": 14
+}

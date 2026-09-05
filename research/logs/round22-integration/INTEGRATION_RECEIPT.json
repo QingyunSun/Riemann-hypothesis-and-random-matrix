@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "original_files": 58,
+  "original_bytes": 1559249,
+  "public_verbatim_files": 55,
+  "dependency_records_verified": 80,
+  "existing_bounded_replays": [
+    {
+      "author": "small-shift-obstruction/small_shift_algebra_checks.json",
+      "independent": "small-shift-review/independent_replay.json",
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "byte_identical": true
+    },
+    {
+      "author": "small-shift-obstruction/small_shift_algebra_checks.log",
+      "independent": "small-shift-review/independent_replay.log",
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "byte_identical": true
+    },
+    {
+      "author": "singleton-renormalization/singleton_renormalization_checks.json",
+      "independent": "singleton-renormalization-review/independent_author_replay.json",
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "byte_identical": true
+    },
+    {
+      "author": "singleton-renormalization/singleton_renormalization_checks.log",
+      "independent": "singleton-renormalization-review/independent_author_replay.log",
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "byte_identical": true
+    },
+    {
+      "author": "odd-primepower-pairs/odd_pair_algebra_checks.json",
+      "independent": "root-review/replay/odd-primepower-pairs/odd_pair_algebra_checks.json",
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "byte_identical": true
+    },
+    {
+      "author": "odd-primepower-pairs/odd_pair_algebra_checks.log",
+      "independent": "root-review/replay/odd-primepower-pairs/odd_pair_algebra_checks.log",
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "byte_identical": true
+    }
+  ],
+  "new_mathematical_reruns_for_integration": 0,
+  "new_prime_heights": 0,
+  "new_pdf_build": false,
+  "formal_verification": false,
+  "strict_arithmetic_bound_proved": false,
+  "mathematics": "Unconditional/PNT singleton and parity corrections plus complete odd-pair removal; RH actual-variance assembly with remaining quadratic strict target open.",
+  "preservation": "All original source bytes unchanged; conditional submission headers and later dependency acceptance remain distinct.",
+  "historical_relative_links_without_public_target": [],
+  "original_whitespace_preservation": "Three original EOF blank lines retained through exact-file .gitattributes exceptions; source bytes unchanged.",
+  "independent_derivation_checks": "Plato own distinct 12 compact polynomial cases and 4 beta moments retained separately; not misrepresented as another replay of the author checker.",
+  "coordinator_review_scope": "Full small-shift, odd-pair, independent singleton derivation and parity assembly reviews included. Coordinator review of main Euclid singleton source is pending separately; root and Plato complete source reviews are included."
+}

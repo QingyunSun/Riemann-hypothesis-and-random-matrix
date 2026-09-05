@@ -1,0 +1,79 @@
+{
+  "status": "ACCEPTED ordinary proofs at specified hashes",
+  "timestamp_utc": "2026-09-05T17:01:34.728146+00:00",
+  "sources": [
+    {
+      "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "frozen_copy": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/SMALL_SHIFT_REMOVAL.md",
+      "bytes": 12215,
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b",
+      "read_in_full": true,
+      "ordinary_review": "ACCEPTED"
+    },
+    {
+      "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "frozen_copy": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "bytes": 8245,
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30",
+      "read_in_full": true,
+      "ordinary_review": "ACCEPTED"
+    },
+    {
+      "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization-review/INDEPENDENT_SINGLETON_DERIVATION.md",
+      "frozen_copy": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/INDEPENDENT_SINGLETON_DERIVATION.md",
+      "bytes": 11171,
+      "sha256": "33b28a289e504973bd75800099e9758869a550f5f116b29798b2b3ffa2451aea",
+      "read_in_full": true,
+      "ordinary_review": "ACCEPTED"
+    }
+  ],
+  "checks": {
+    "small_shift_checks": [
+      "Exact zero-extended integral gives b=O(1/(m ell^2)), b-prime=O(1/(m^2 ell^2)); monotone Pareto factor supplies full Abel variation, including final partial dyadic block.",
+      "Positive squarefree divisor expansion proves sum_{h<=K} S(h)<=K using the convergent product C2 times product(1+1/(p(p-2)))=1; hence sum|c_h|<=2K.",
+      "Upper sieve application is uniform in even h<=X: g_h(2)=1/2, g_h(p)<=2/p<=2/3 for odd p; the dimension-two Mertens axiom has one constant for the entire family. CRT remainder <=O(2^omega(d)), bounded by divisor sum O(D log D). With D=sqrt X and fixed sufficiently large s, z=D^(1/s) gives prime-pair upper bound X S(h)+sqrt X log^3 X, retaining all higher prime powers.",
+      "Actual source eq22, Lemma17 and Cor19 read live; use is their uniform upper-sieve consequence, not the fixed-pattern Theorem32. Finite prime powers up to3X give the stated O(sqrt X log^3 X) error. Odd shifts have O(1) powers2 in[X,3X].",
+      "Absolute block estimate XK+K sqrt X log^3 X, divided by X ell^2 and summed over O(ell) blocks, gives K/ell+K ell/sqrt L. The geometric sum of X^(-1/2) has no extra ell. Original weight beyond2U contributes O(K2^-T).",
+      "RH odd prefixes preserve both singleton E increments and real floor discrepancy. Their uniform sqrt X log^2 X bound gives signed O(K/sqrt L), and cardinality version for arbitrary odd subsets. This does not bound the absolute coefficient sum or remove all odd effective shifts. PNT alternative o(K/ell) is also valid."
+    ],
+    "odd_pair_checks": [
+      "Every nonzero odd-shift pair has exactly one even endpoint equal to2^j; split into lower/upper power2 endpoints is exact with the original factor2. No truncation in h.",
+      "For lower powers in(L,2U], decreasing integral comparison bounds sum_{n>r} log n(r/n)^T with the integer endpoint retained. For upper powers, increasing integral comparison bounds sum_{m<r} m^(T-1)<=r^T/T.",
+      "Number of powers is <=3ell/(2log2); sum log r<=33ell^2/(8log2). The combined near contribution is <=247B/(9T)<32B/T.",
+      "Elementary binomial Chebyshev constant C0=4log2 suffices. Far lower endpoint uses exact Stieltjes -Psi(r) boundary before positive enlargement; far upper endpoint uses original primitive and nonnegative Fubini. Geometric powers tail <=(16/7)2^-T; combined constant <=512B/(9ell^2)2^-T<64B/(ell^2)2^-T.",
+      "Conclusion applies to q on odd shifts. Original centered residual additionally contains -Lambda(m)-Lambda(n)+2 there and cannot have all odd shifts removed using this lemma alone."
+    ],
+    "singleton_checks": [
+      "Reindexed backward weight f_n(h)=T/(n^T ell^2) integral_1^(n-h) W(x)x^(T-2) dx is exact. Its derivatives vanish outside n-h in[L,U], including n>U where f itself can have a plateau. No positivity of f-double-prime is assumed.",
+      "Integral h f-double-prime=b(n) retains endpoint at0; absolute derivative envelope CT(T-1)/(n^3ell^2)*(1-h/n)^(T-3) controls both total variation and logarithmic moment uniformly at all moving boundaries.",
+      "Beta(2,T-2) variable v has E(Tv)=2 and scaled density<=u for0<u<1; E|log(Tv)|<=9/4. This is an envelope probability, not the signed derivative normalized by b(n).",
+      "Hinge identity sum c_h f_n(h)=integral A2 f-double-prime is finite and exact. R21 triangular singular-series input then gives backward transform -b(n)log(n/T)/2+O(1/(n ell^2)). Extending main term across0<h<1 costs at most CT^2/(n^3ell^2), absorbed because n>L>T.",
+      "Chebyshev partial summation, rather than pointwise log bounds, gives sum_{L<n<=2U}|a_n|/n=O(ell). Both forward and backward transform remainders are O(1/ell).",
+      "Forward and backward absolute tails both bounded by O(U^(3/2)(1+log U)2^-T/ell^2) via |c_h|<=C sqrt h and original primitive, ensuring absolute convergence for realT>=4 before regrouping. Backward O(1/(n ell^2)) error is never summed to infinity.",
+      "Both marginals and outer factor2 give linear correction -2 sum b(n)a_n log(n/T)+O(1/ell)+tail. Exact partial summation uses A(x)=Psi(x)-floor x and g(L)=0. Ordinary PNT sup_{x>=L}|A(x)|/x=o(1) gives main termo(1); RH supplies the stronger O(ell/sqrt L), but is unnecessary for this linear correction.",
+      "Exact q algebra verified. Therefore original E_T=Q_T+o(1) unconditionally for the correction itself; RH remains necessary in the inherited variance-to-pairs transfer. Neither this nor odd-pair deletion supplies a strict estimate for Q_T."
+    ]
+  },
+  "primary_sources_live_read": [
+    {
+      "url": "https://terrytao.wordpress.com/2015/01/21/254a-notes-4-some-sieve-theory/",
+      "scope": "Equation22, Lemma17, Corollary19 and surrounding uniformity assumptions, not full course-note proof rederivation."
+    },
+    {
+      "url": "https://dlmf.nist.gov/25.16.E3",
+      "scope": "Chebyshev psi definition and equivalence of PNT to psi(x)=x+o(x)."
+    }
+  ],
+  "reused_prior_reviewed_inputs": [
+    "R21 unconditional Montgomery-Soundararajan triangular singular-series average and exact forward Pareto transform.",
+    "Previously retained Schoenfeld RH Chebyshev error bound."
+  ],
+  "checkers_rerun": false,
+  "numerical_scans": false,
+  "formal_verification": false,
+  "external_peer_review": false,
+  "novelty_review": false,
+  "parity_adjusted_target_reviewed": false,
+  "strict_arithmetic_gain_proved": false,
+  "scope": "Independent full reading and ordinary proof/range review by coordinator; no author edits. Euclid final main singleton manuscript and parity-adjusted target have not yet been read by coordinator."
+}

@@ -19,3 +19,8 @@ research/dyson/round21/strict-arithmetic-target/check_centered_pair_target.py wh
 research/dyson/round21/strict-arithmetic-target/check_h1_correction.py whitespace=-blank-at-eof
 research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction/CENTERED_PAIR_ERROR_TARGET.md whitespace=-blank-at-eof
 research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction/check_centered_pair_target.py whitespace=-blank-at-eof
+
+# Preserve three original R22 trailing blank lines without editing research sources.
+research/dyson/round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md whitespace=-blank-at-eof
+research/dyson/round22/singleton-renormalization/check_singleton_renormalization.py whitespace=-blank-at-eof
+research/dyson/round22/small-shift-review/INDEPENDENT_SMALL_SHIFT_REVIEW.md whitespace=-blank-at-eof

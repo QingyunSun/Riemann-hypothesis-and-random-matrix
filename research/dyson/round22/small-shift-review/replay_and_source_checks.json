@@ -1,0 +1,132 @@
+{
+  "all_checks": {
+    "checks": [
+      {
+        "name": "reciprocal local Euler factors",
+        "status": "PASS"
+      },
+      {
+        "name": "finite eight-divisor Euler expansion",
+        "status": "PASS"
+      },
+      {
+        "name": "formal centered prefix with endpoints 1",
+        "status": "PASS"
+      },
+      {
+        "name": "formal centered prefix with endpoints 2",
+        "status": "PASS"
+      },
+      {
+        "name": "formal centered prefix with endpoints 3",
+        "status": "PASS"
+      },
+      {
+        "name": "exact far-tail integral derivative",
+        "status": "PASS"
+      },
+      {
+        "name": "RH lower-window exponent minus seven eighths",
+        "status": "PASS"
+      }
+    ],
+    "number_of_checks": 7,
+    "report_sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b",
+    "scope": "Seven exact scalar/formal-coefficient checks only. No prime samples, parameter scans, sieve verification or numerical constant enclosure.",
+    "status": "PASS",
+    "sympy_version": "1.14.0"
+  },
+  "byte_identical_json": true,
+  "byte_identical_stdout": true,
+  "command": "python3 check_small_shift_algebra.py in a temporary copy",
+  "returncode": 0,
+  "status": "PASS",
+  "stderr": "",
+  "syntax_checker": "hash verified, not rerun",
+  "verified_files": [
+    {
+      "bytes": 12215,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1538,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/check_math_syntax.cjs",
+      "sha256": "d36f60c8e617a2e0a957f4390b1853a4055edf62558bb3361c5fa71403ac9b4d",
+      "status": "PASS"
+    },
+    {
+      "bytes": 3449,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/check_small_shift_algebra.py",
+      "sha256": "6051656d8da1c456cb994107d3fbe9099c479bf158829b98d673e3cedd822c38",
+      "status": "PASS"
+    },
+    {
+      "bytes": 287,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/math_syntax_checks.json",
+      "sha256": "0ae2d907e7f34b3fb125330e841ed2d51aa8a890ad16217cce625844047c8313",
+      "status": "PASS"
+    },
+    {
+      "bytes": 973,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/small_shift_algebra_checks.json",
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "status": "PASS"
+    },
+    {
+      "bytes": 973,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/small_shift_algebra_checks.log",
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "status": "PASS"
+    },
+    {
+      "bytes": 2105,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/sources/SOURCE_RECEIPT.json",
+      "sha256": "39f17e6ec74f97f0bcd6d177674a4d1b097748dea266ec19ef1b1282cddd5eb4",
+      "status": "PASS"
+    },
+    {
+      "bytes": 21504,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e",
+      "status": "PASS"
+    },
+    {
+      "bytes": 4963,
+      "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r21/COORDINATOR_H1_OBSTRUCTION.md",
+      "sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34",
+      "status": "PASS"
+    },
+    {
+      "bytes": 17082,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/length-arithmetic-kernel/EXACT_LENGTH_ARITHMETIC_KERNEL.md",
+      "sha256": "bf2e13a5d62f694d638d247fe7d836d0ea57d47f15c8e9360843681ece6b58d9",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1046515,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/sources/tao-2015-sieve-notes.html",
+      "sha256": "df614dcbd6d8183121114997c8929357b73a9dea707332509f4b8ea0f2658561",
+      "status": "PASS"
+    },
+    {
+      "bytes": 108496,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/sources/tao-2015-sieve-notes.txt",
+      "sha256": "fab1ec40325bfb0d4a99fbb5dc6a0847b962900e024db58a993e177cdd1f2eef",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1795864,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "status": "PASS"
+    },
+    {
+      "bytes": 64608,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+      "status": "PASS"
+    }
+  ]
+}

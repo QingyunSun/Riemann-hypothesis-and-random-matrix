@@ -1,0 +1,58 @@
+{
+  "status": "accepted ordinary proofs and complete assembly with dependencies reviewed",
+  "review": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/root-review/ROOT_ROUND22_REVIEW.md",
+    "bytes": 11655,
+    "sha256": "821eefd68c4747420b93a3447f5b219e294c49a4d0a840bbfeca76d891b1ddd8"
+  },
+  "inputs": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "bytes": 12215,
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-review/INDEPENDENT_SMALL_SHIFT_REVIEW.md",
+      "bytes": 10518,
+      "sha256": "614cd44518df86e4712c6ec38d503a5f3f5706e96dd020075ca1a28648bfd975"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization-review/INDEPENDENT_SINGLETON_DERIVATION.md",
+      "bytes": 11171,
+      "sha256": "33b28a289e504973bd75800099e9758869a550f5f116b29798b2b3ffa2451aea"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "bytes": 9114,
+      "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "bytes": 8245,
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-review/INDEPENDENT_PARITY_ADJUSTMENT_REVIEW.md",
+      "bytes": 7690,
+      "sha256": "700a7e9c194f685fbcecbcbd6116bc606bd95a77cd8ed7494e4c2957b2533de4"
+    }
+  ],
+  "new_root_scalar_replay": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/root-review/replay/odd-primepower-pairs/REPLAY_RECEIPT.json",
+    "bytes": 277,
+    "sha256": "d0029ed3a2a16ebe7229b59ce50391f46eccfbd45140c1dc5b180f782e032138"
+  },
+  "strict_arithmetic_bound": false,
+  "formal_verification": false,
+  "own_authored_component": "parity-adjusted-target; independent review is Aquinas, not this root note"
+}

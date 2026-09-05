@@ -280,3 +280,18 @@ Evidence: `reports/dyson_round20.md`, `dyson/round20/`, and `logs/round20-integr
 | OPEN-021 | A strict actual signed-pair or heat-energy upper bound sufficient to exclude AH-Pairs | Open | No strict gain from the identities, finite checks, classical source theorems or the 186 factorization input |
 
 All Round21 arguments and reviews are linked from the complete integrated report research/reports/dyson_round21.md. Exact algebra checks and ordinary analytic proofs are separately scoped; no proof-assistant verification is claimed.
+
+
+## Round 22: legitimate removal of linear and parity terms
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-022A | All shifts h<=K=o(logT) can be removed from the old residual in absolute value | Unconditional ordinary proof with independent source review | Round22 small-shift-obstruction; uniform dimension-two sieve, prime powers and infinite tail; no full natural-scale estimate |
+| ARITH-022B | Under RH, any subset of odd h<=K has signed mass O(cardinality*T^(-7/8)+cardinality*2^(-T)) | Ordinary proof with independent review | Same source; K<=T^(7/4); does not bound absolute individual coefficients or all odd shifts |
+| ARITH-022C | The complete old-to-q singleton correction is o(1) using ordinary PNT | Two complete ordinary derivations, final-source independent and root review | Round22 singleton-renormalization and singleton-renormalization-review; exact backward primitive, signed derivative and all tails; RH quantitative rate separate |
+| ARITH-022D | Complete nonnegative odd-shift Lambda-Lambda mass is at most 32B/T+64B*2^(-T)/(logT)^2 | Unconditional ordinary proof, independent root/coordinator review and exact copied scalar replay | Round22 odd-primepower-pairs; removes odd shifts only after global renormalization, not directly from the old residual |
+| ARITH-022E | Changing baseline one to 2*I(m odd) and removing even endpoints costs o(1) | Unconditional ordinary proof with independent review | Round22 parity-adjusted-target; alternating smooth weights and powers-of-two tails; large old even baseline cannot be dropped first |
+| ARITH-022F | Under RH, Vbar=M+P_T+o(1), with exact odd-endpoint/even-shift coefficient Lambda-Lambda minus S(h)*(Lambda+Lambda-2) | Ordinary assembly with every component independently reviewed | Round22 integrated report and root review; no strict estimate for P_T |
+| OPEN-022 | liminf P_T<=1-M, sufficient for a strict actual-zeta deficit | Open | Normalization improvements leave the exact constant target unchanged; no uniform sub-square-root prefix theorem for the new coefficient is established |
+
+The R21 impossible pointwise premise remains rejected. These new weighted identities do not retroactively validate it. Ordinary PNT suffices for renormalization; RH remains an assumption of the inherited variance/zero transfer.

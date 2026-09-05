@@ -1,0 +1,53 @@
+{
+  "assumptions": "renormalization unconditional by PNT; quantitative rate and inherited prime/zero transfer under ordinary RH; no GRH or conjectural pair-error bound",
+  "primary_sources": [
+    {
+      "bytes": 275525,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.pdf",
+      "scope": "Printed p4 equation16, unconditional triangular singular-series average",
+      "sha256": "4814387da412faf35d86f7e5d84a789cfa6743b08a6dff1e47fbc7632d7a8176",
+      "url": "https://arxiv.org/pdf/math/0409258v1"
+    },
+    {
+      "bytes": 104037,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.txt",
+      "scope": "Retained extraction of the same primary source",
+      "sha256": "8f00b857564f48f187284592e9feba4c22ddbab4b4e1958bc0c7231029b8c10f",
+      "url": "https://arxiv.org/pdf/math/0409258v1"
+    },
+    {
+      "bytes": 1795864,
+      "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "scope": "Printed p337 Theorem10 equation6.2: RH bound for Psi including prime powers",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf"
+    },
+    {
+      "bytes": 64608,
+      "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "scope": "Retained extraction of the same primary source",
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf"
+    },
+    {
+      "bytes": 124980,
+      "path": "research-round22/singleton-renormalization/sources/dlmf-25.16.html",
+      "scope": "PNT formulation Psi=x+o(x); checked live",
+      "sha256": "9d0cf95c66dc1ae5e3cc4f8373be7f2cdb473bd620673b7851fe2bf69157b7fa",
+      "url": "https://dlmf.nist.gov/25.16.E3"
+    }
+  ],
+  "programme_dependencies": [
+    {
+      "bytes": 21504,
+      "path": "research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+    },
+    {
+      "bytes": 18644,
+      "path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    }
+  ],
+  "status": "primary sources and programme dependencies pinned"
+}
