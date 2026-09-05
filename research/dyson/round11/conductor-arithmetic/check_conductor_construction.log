@@ -1,0 +1,4 @@
+PASS: all exact exponent identities, source guards, and counting constants.
+Plain coefficient mass is at least c0*mV^2/512 * H/log(X)^348 eventually.
+The prime-counting statement is justified by the written PNT proof, not this script.
+Report SHA256: 46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92

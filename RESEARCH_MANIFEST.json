@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 40123,
-      "sha256": "483f489fe2d937e89d3473d90f368eb78d73ee4bf61b1f1cdd78a5b5c981a10a"
+      "bytes": 42506,
+      "sha256": "155c67d7bf80deb39c62a732a94a0b4bbd3f76495827440d0386153950a501ca"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 21145,
-      "sha256": "19005081c0617248c7266e993c3e3bde5f20a9c330efeba8cb4469e95a9548ae"
+      "bytes": 22558,
+      "sha256": "68ed8d6572e351aa5586e0ed9451f61bf2a8310c7ba82dc8d3879d9bbd467c1a"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -125,6 +125,86 @@
       "path": "research/dyson/round10/shift-average/check_shift_completion.py",
       "bytes": 5840,
       "sha256": "34c8ddb694a5334a09d7d5fd0c09b0c370ca125086c41fd27b1a9da8b09a9f6d"
+    },
+    {
+      "path": "research/dyson/round11/INTAKE_MANIFEST.json",
+      "bytes": 4128,
+      "sha256": "8759ce00cef5a81387a024bc182a1d4b12769fbf3b6376bf9445000dab4d428d"
+    },
+    {
+      "path": "research/dyson/round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "bytes": 11083,
+      "sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92"
+    },
+    {
+      "path": "research/dyson/round11/conductor-arithmetic/INDEPENDENT_REVIEW.md",
+      "bytes": 3863,
+      "sha256": "b146b7427417bc3acca5443e167e3a07257830cfeb80e7f02523a6fd1f3e252d"
+    },
+    {
+      "path": "research/dyson/round11/conductor-arithmetic/check_conductor_construction.log",
+      "bytes": 315,
+      "sha256": "101ba561332dabbfce8596ce96f494c492d98a58250a708c9c769c83ed72629a"
+    },
+    {
+      "path": "research/dyson/round11/conductor-arithmetic/check_conductor_construction.py",
+      "bytes": 4139,
+      "sha256": "d9e3727d738d212baf0ee97b94fe206e0235f0e37b5d3ecb89ff362f25e7611d"
+    },
+    {
+      "path": "research/dyson/round11/conductor-arithmetic/conductor_construction_certificate.json",
+      "bytes": 2789,
+      "sha256": "13ecc31977c96ff02af62b3db17af0566a76f7f5db84fc6466c541ec1ad17c13"
+    },
+    {
+      "path": "research/dyson/round11/log-weighted-tail/ARITHMETIC_DIAGONAL_AND_SOURCE_GAP.md",
+      "bytes": 8660,
+      "sha256": "85c9435bbd656bcf37f21f55fe2d54cb40638c7a56908abe57e54f551a627daa"
+    },
+    {
+      "path": "research/dyson/round11/log-weighted-tail/INDEPENDENT_REVIEW.md",
+      "bytes": 4187,
+      "sha256": "97a8e45507e0df1cf21e6045ba6d689990401a4eff5f2ba79a00739ab69e08f6"
+    },
+    {
+      "path": "research/dyson/round11/log-weighted-tail/sources/receipt.json",
+      "bytes": 425,
+      "sha256": "25cc2738282cb4d9d5250f7060ff9194456ead5c93da006e38b085aab5ed4a55"
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+      "bytes": 13797,
+      "sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29"
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/README.md",
+      "bytes": 1154,
+      "sha256": "3dcca0cb8cb81168df8cad5b392b50cf8e01b823bd32c1af8ca3210a84c26337"
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/SMALL_ARC_INDEPENDENT_REVIEW.md",
+      "bytes": 9325,
+      "sha256": "fdeba2af8e447ed7ec382155496f22e23255267f0d4051afdc3759a1f933daab"
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/check_small_arc_bound.json",
+      "bytes": 1134,
+      "sha256": "dedb17308bca322adbde7b7b52bf646cb2c49f632fdedda66f2b9506ebf785bd"
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/check_small_arc_bound.py",
+      "bytes": 3552,
+      "sha256": "1d028cde17f8042af29315890032add298eba4426a84d141bf8ccc9ca5b1276c"
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/manifest.json",
+      "bytes": 2230,
+      "sha256": "00f90d3cc96c574672b26c796d5bfc777b477c235eb88faa06331552ab478b72"
+    },
+    {
+      "path": "research/dyson/round11/prime-frequency/source_receipt.json",
+      "bytes": 2443,
+      "sha256": "8e932c58f5908b090b17d357edfd824183dcd6e8633b1ca200f8dcb3735b8c5b"
     },
     {
       "path": "research/dyson/round7/INTAKE_MANIFEST.json",
@@ -705,6 +785,26 @@
       "path": "research/logs/round10-integration/recheck.py",
       "bytes": 3833,
       "sha256": "4944f4740f93e79647c1cfcaaed13d4bc0a3c8cd7d452e6abf41cf5f518f2dae"
+    },
+    {
+      "path": "research/logs/round11-integration/check_conductor_construction.replay.log",
+      "bytes": 315,
+      "sha256": "101ba561332dabbfce8596ce96f494c492d98a58250a708c9c769c83ed72629a"
+    },
+    {
+      "path": "research/logs/round11-integration/check_small_arc_bound.replay.log",
+      "bytes": 1134,
+      "sha256": "dedb17308bca322adbde7b7b52bf646cb2c49f632fdedda66f2b9506ebf785bd"
+    },
+    {
+      "path": "research/logs/round11-integration/recheck.json",
+      "bytes": 971,
+      "sha256": "ef18c7361fd79a400992b59e44018db5323d5b37cb2b3f4a0656b9ce2eacc4a3"
+    },
+    {
+      "path": "research/logs/round11-integration/recheck.py",
+      "bytes": 3332,
+      "sha256": "e23b87662ada20aa8e8aad8e0e660b89d85f4741c0a077e493e96246e86c3774"
     },
     {
       "path": "research/logs/round3-recheck-2026-09-05/README.md",
@@ -1992,6 +2092,11 @@
       "sha256": "c276e4c0da7d40fc275a1c8d10fd8cf94641753a7add8febc4a90f05bb712737"
     },
     {
+      "path": "research/reports/dyson_round11.md",
+      "bytes": 8602,
+      "sha256": "293125227f1a9eef69441f1d15934ecd970466cce7bb14eb2aa1ee273886e9ad"
+    },
+    {
       "path": "research/reports/dyson_round7.md",
       "bytes": 8767,
       "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33"
@@ -2658,8 +2763,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 5163,
-      "sha256": "2d1727920224c95547075ddd5cf7056ae7a22ac79d439dc79dbf65961da31c07"
+      "bytes": 5510,
+      "sha256": "0d647aac26f3246750af8d88be2d6f1f9bd2845e8bf33c49482ab3b68a261e0d"
     },
     {
       "path": "docs/handoff/ASTRA_LATEST_SUPPLEMENT.md",

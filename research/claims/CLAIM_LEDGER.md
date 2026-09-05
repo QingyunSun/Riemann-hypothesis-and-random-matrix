@@ -124,3 +124,14 @@ All paths are relative to the repository root. The public reports contain the de
 - **Not accepted as written:** CUE uniform constants 1054/1055; general-beta BB-LD scaling and its claimed consequences; one-point-to-selected-pair density inference; unconditional periodized-zeta gap inference. See the separate review for the limited possible constant repair and missing hypotheses.
 - **Still conditional:** a depth conclusion needing flow-window stability or H_C; arithmetic rate extrapolations from finite drift.
 - **Unchanged:** the independently reviewed Astra fixed-family arithmetic limit remains valid and its certified trial margin negative. No new zeta-gap, AH-refutation, GUE or prime-gap theorem follows.
+
+
+## Round 11: RH component estimate and exact remaining arithmetic scope
+
+- **Ordinary proof under RH, independently reviewed:** the specified actual smooth discrepancy satisfies O(sqrt(X(X+Q^2)) log^5 X), Q=X^.523. This removes sqrt(H) from Round 10. The assumption change is explicit; no novelty claim for classical small-arc methods.
+- **Ordinary PNT construction, independently reviewed:** on the full canonical complementary family, fixed nonnegative V gives completed coefficient squared mass >=c_V H/log^348 X (log-weight version log^-346). All actual squarefree prime products satisfy the guards. This excludes a fixed-power saving for that coefficient norm only.
+- **Ordinary RH identity, independently reviewed:** M_T(b)=b^(-2)+2b^(-3)+B_T(b)+o(b^(-3)) uniformly on the stated slow range, with all centered terms combined. The pole and cutoff errors are quantified.
+- **Exact finite checks:** rational exponents/counting constants, 384 arc counts and 2901 unique frequency memberships reproduce. They do not prove RH, PNT or the analytic source lemma.
+- **Open:** an arithmetic bound at X log X, full sharp covariance, joint prime/coefficient cancellation and the strict lower bound on B_T. No new actual-zeta pair-correlation, gap, AH-refutation, GUE or sub-186 theorem.
+
+Evidence: `reports/dyson_round11.md`, the complete author/reviewer records in `dyson/round11/`, and `logs/round11-integration/`.
