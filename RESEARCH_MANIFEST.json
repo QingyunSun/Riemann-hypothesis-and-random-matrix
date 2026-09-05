@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 46241,
-      "sha256": "53a901332a39024acff54efef5aba923dbe9021d4e1e83ddfe6c3e31815dc396"
+      "bytes": 47045,
+      "sha256": "fb74a18bca21ebdfb2dc719ba4069d3e6e59e911a90afe513ace5fa682a75bfb"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 27257,
-      "sha256": "6094fe9d41b8c563982a20f9e4967b9090acf13e0affbb0ffb7f7e7692f7c1cb"
+      "bytes": 28728,
+      "sha256": "d9cf71cd10b5a2058d02e9526baa5aa9479cfe1c03d80d54c51ed92c85ddd98f"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -365,6 +365,86 @@
       "path": "research/dyson/round13/signed-kernel/source_receipt.json",
       "bytes": 1221,
       "sha256": "632a8cba72fa6bf38b052c868133fba7dac0267752edfa172bdd7e958a21ebb6"
+    },
+    {
+      "path": "research/dyson/round14/INDEPENDENT_ROOT_REVIEW.md",
+      "bytes": 5564,
+      "sha256": "8350088f7454529e209379e8f4692a78be6cc49fe1c67257a053a5065112bf3e"
+    },
+    {
+      "path": "research/dyson/round14/INTAKE_MANIFEST.json",
+      "bytes": 3623,
+      "sha256": "98e100de7021e141eb915d6f6af61aaf07b48be507a4a4c8fa22132a7c0e7982"
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/INDEPENDENT_REVIEW_EUCLID.md",
+      "bytes": 8634,
+      "sha256": "54f03e2f3f2636392fd630a19900dddb81d56e1fcffa7a656a7af36c4f1a6018"
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/README.md",
+      "bytes": 1122,
+      "sha256": "85e811293a6f395fec72993f10a245de14d1a116992c15b57210ef9866243127"
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/SELECTED_CUE_BACKGROUND.md",
+      "bytes": 11711,
+      "sha256": "fbc67828d13534d8d0b4ac1f742a639b282dd93a3f7cb635291f8cdbb651c0a5"
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/check_selected_background.json",
+      "bytes": 780,
+      "sha256": "8e715a8d6de5a404e7fa16a0b77ac25940453c89b06f85d4c363b4903080c41c"
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/check_selected_background.py",
+      "bytes": 4123,
+      "sha256": "4ef6808960745265187c9486cca3898f391d5e6c90ad4a0c740c366e3503effc"
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/manifest.json",
+      "bytes": 1331,
+      "sha256": "119899087ca5d7482bd36d1b5f8e9d26059ef5eb8f12fab27ba08e95f59e375e"
+    },
+    {
+      "path": "research/dyson/round14/cue-selected-background/source_receipt.json",
+      "bytes": 1622,
+      "sha256": "5351241db629bec810361a7802ce092398e7c0b9aa109b23563935a1f385b3b5"
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/INDEPENDENT_REPLAY.json",
+      "bytes": 965,
+      "sha256": "f54ee51ff7a872e4e02708b5c3966978e3286994956120d6fd0b6e9c647b2b17"
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/INDEPENDENT_REVIEW.md",
+      "bytes": 8401,
+      "sha256": "3a6bef5c4cddf0973cacd69826aefa3fbea1db3659beb7f856ecaf3f6cee356b"
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2731,
+      "sha256": "4024f48123ac71e245a13f9ffaad5a1a8ae490e0ee8d9c9f4db04abe78ce151e"
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/SMOOTH_LONG_FACTOR_REMOVAL.md",
+      "bytes": 13229,
+      "sha256": "d6143f19ddf006a1acc833ecd2e5265bffb35817930cfeaa4f4e4b973af7c849"
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/check_smooth_long_factor.log",
+      "bytes": 512,
+      "sha256": "1eac3f4d5ad27287fc7f1e2b6d4663cb3cc4a6032797d42bdb536bc2ecac5d60"
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/check_smooth_long_factor.py",
+      "bytes": 9115,
+      "sha256": "9d1426f47c0f9e67a2e548db94d195f8505fd298a5b2b46e0fcbe16e905b9d9b"
+    },
+    {
+      "path": "research/dyson/round14/smooth-long-factor/smooth_long_factor_certificate.json",
+      "bytes": 3203,
+      "sha256": "3e9a946cf3faeccc697590d097d9c49796c2091678199ee231bbafb24d8fbe83"
     },
     {
       "path": "research/dyson/round7/INTAKE_MANIFEST.json",
@@ -1005,6 +1085,26 @@
       "path": "research/logs/round13-integration/recheck.py",
       "bytes": 3207,
       "sha256": "092d6471d88cbcc50399fab5ac3180273df390c177166c0603704edfd7b5875f"
+    },
+    {
+      "path": "research/logs/round14-integration/check_selected_background.replay.log",
+      "bytes": 780,
+      "sha256": "8e715a8d6de5a404e7fa16a0b77ac25940453c89b06f85d4c363b4903080c41c"
+    },
+    {
+      "path": "research/logs/round14-integration/check_smooth_long_factor.replay.log",
+      "bytes": 512,
+      "sha256": "1eac3f4d5ad27287fc7f1e2b6d4663cb3cc4a6032797d42bdb536bc2ecac5d60"
+    },
+    {
+      "path": "research/logs/round14-integration/recheck.json",
+      "bytes": 1040,
+      "sha256": "726689eaf679b692bad3deb25809a0af2aee61587a800c43f020e0cb1474c6b9"
+    },
+    {
+      "path": "research/logs/round14-integration/recheck.py",
+      "bytes": 4278,
+      "sha256": "52d22fe5430cc32d80178883ac10cd150a114b83e143e01a6628ea2365ba2aa6"
     },
     {
       "path": "research/logs/round3-recheck-2026-09-05/README.md",
@@ -2307,6 +2407,11 @@
       "sha256": "b41b76a69d98b282aecc9223a90ba793182f6594f7e57a86245b404b1f779a0c"
     },
     {
+      "path": "research/reports/dyson_round14.md",
+      "bytes": 6653,
+      "sha256": "2ec5f48334de9a85e0a481c3bc7fabc33f9398afc957a019db8f62ee2bfb9140"
+    },
+    {
       "path": "research/reports/dyson_round7.md",
       "bytes": 8767,
       "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33"
@@ -2973,8 +3078,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 6397,
-      "sha256": "f4326bffe94a378a083352ffd676a16d1684f62a7c2224f681116aacfab7dd97"
+      "bytes": 6704,
+      "sha256": "2fe3c8f8eccce1ba88239c7163e11b7359a45f8527608ab70497a2a71f2cd86f"
     },
     {
       "path": "docs/handoff/ASTRA_LATEST_SUPPLEMENT.md",

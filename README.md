@@ -11,6 +11,7 @@ Every result must state its assumptions, proof status, primary references, repro
 ## Read the research
 
 * [Current state](RESEARCH_STATE.md), [research log](research/RESEARCH_LOG.md), and [claim ledger](research/claims/CLAIM_LEDGER.md).
+* [Round 14: an actual Type I removal and a quantitative CUE heat theorem](research/reports/dyson_round14.md). The specified short-divisor component is o(X log X) unconditionally; a finite CUE background bound yields relative heat-depth error O_p(N^(-2/3)). Both have complete proofs and independent reviews, with no zeta transfer.
 * [Round 13: extract a rational core and retain the signed remainder](research/reports/dyson_round13.md). Ordinary RH gives an actual rational-core replacement error X^.923 log²X; its main term remains. A real-prime positive subsum and an exact CRT norm identity identify where cancellation is still needed.
 * [Round 12: test the remaining arithmetic gap](research/reports/dyson_round12.md). Actual-support positive sampling is sharp up to logarithms, a real-prime phase twist violates the 186 theorem's SW hypothesis, and centered Selberg upper norms leave the needed sign/precision open. These rule out specific shortcuts; no stronger prime bound is claimed.
 * [Round 11: remove the shift-length loss under RH](research/reports/dyson_round11.md). The actual smooth discrepancy improves to X^1.023 log^5 X, with an independent source/proof audit. An explicit prime-modulus construction rules out a coefficient-only power saving for the full chosen family; the joint prime pairing remains open.

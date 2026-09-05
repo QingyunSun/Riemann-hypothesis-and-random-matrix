@@ -170,3 +170,14 @@ Evidence: `fable/reviews/pr11-2073028/` and the separate 160-file pinned snapsho
 - **Open:** the original discrepancy at X log X and the signed actual-zeta lower bound. No new famous-conjecture theorem.
 
 Evidence: `reports/dyson_round13.md`, `dyson/round13/`, and `logs/round13-integration/`.
+
+
+## Round 14: exact Type I removal and quantitative finite CUE comparison
+
+- **Unconditional ordinary proof, independently reviewed:** the actual selected smooth discrepancy with Lambda_{<=U} is O_J(HX(UQ/X)^J log²X). Thus U<=X^(.477-eta), fixed J eta>2/7, gives o(XlogX). All original kernel and primitive means are retained. This is a classical component estimate; Lambda_{>U} remains unestimated and signed.
+- **Finite CUE ordinary proof, independently reviewed:** E sum_{gap<=epsilon} B_i <=N^6 epsilon³/18; the selected minimum background satisfies B_min/N²=O_p(1), using the checked classical extreme-gap input. No conditioning at the selected pair or general-beta density assertion.
+- **Finite scalar-heat consequence, independently reviewed:** 8D_N/delta_min²-1=O_p(N^(-2/3)), equivalently absolute difference O_p(N^(-10/3)), by the existing quantified Galilean lemma. Not a rate of convergence to the limiting distribution and no zeta transfer.
+- **Bounded checks:** exact N=3 determinant/singular cancellation, 63 period means, symbolic divisor/HB identities through 125 and exponent constants pass; two fixed floating Gaussian diagnostics pass. Only one temporary reference path is excluded in integration replay.
+- **Open:** the full signed covariance, the zeta/RMT arithmetic bridge, general-beta extension, sharp spectral wall and all famous-conjecture targets.
+
+Evidence: `reports/dyson_round14.md`, `dyson/round14/`, and `logs/round14-integration/`.

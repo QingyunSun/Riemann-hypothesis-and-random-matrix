@@ -258,3 +258,8 @@ Preserved the next 160-file PR11 revision separately. Accepted the repaired F1 c
 ### 2026-09-05 — Round 13 rational-core extraction
 
 A fixed rational core can be extracted with total RH error X^.923 log²X after retaining the true conductor/shift weights and primitive means. Its main term can be large on a real-prime admissible subsum. Completed the exact CRT norm decomposition and isolated the unresolved small-gcd nonzero modes. Positive coherent contributions remain only subsums of the signed expression. Two inspected exact scripts replay in a copy; independent reviews distinguish these component results from the unresolved actual prime pairing. Follow-up tests the smooth-long-factor cancellation directly inside the original kernel.
+
+
+### 2026-09-05 — Round 14 concrete arithmetic and CUE progress
+
+The long smooth cofactor permits a direct Poisson estimate inside the original discrepancy: all fixed-power-separated short Möbius divisors below X/Q can be removed with small total error. The exact remaining Lambda_{>U} term has signs and stays unestimated. Separately, an exact CUE Gram bound with endpoint weights controls the selected minimum's background at N²; the existing quantified heat lemma then gives relative error O_p(N^(-2/3)). Both written proofs passed root and separate agent reviews, and both bounded scripts replay. This is finite-model RMT progress plus one actual arithmetic component removal, not a solved zeta conjecture. Next retain the exact signed remainder and assemble the later-round handoff supplement.

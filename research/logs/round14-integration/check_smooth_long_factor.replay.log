@@ -1,0 +1,7 @@
+PASS: exact uniform mean centering on 63 fixed numerator cases.
+PASS: symbolic mu*log and Heath-Brown identities including n=1 and real cutoff.
+PASS: fixed Gaussian Poisson sign diagnostics; each absolute error <1e-12.
+PASS: exponent 1711/1750 with margin 39/1750; general cutoff condition recorded.
+PASS: pinned source and frozen R9/R13 dependencies.
+Report SHA256: d6143f19ddf006a1acc833ecd2e5265bffb35817930cfeaa4f4e4b973af7c849
+Script SHA256: 9d1426f47c0f9e67a2e548db94d195f8505fd298a5b2b46e0fcbe16e905b9d9b

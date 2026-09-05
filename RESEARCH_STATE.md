@@ -8,6 +8,8 @@ The user's latest direction prioritizes Dyson–Montgomery, random matrices and 
 
 ## Current evidence
 
+- Round 14 proves unconditional removal of the actual Lambda divisor portion below X^(.477-eta), for each fixed eta>0, using the full kernel and primitive mean. It also proves selected CUE background tightness at N² and strengthens finite scalar-heat relative error to O_p(N^(-2/3)). Both complete proofs have independent reviews and bounded replays. The signed arithmetic remainder and true-zeta transfer remain open.
+
 - Round 13 extracts one terminal Type II zero-rational core under ordinary RH with total error O(X^.923 log²X), retaining an explicit potentially large main. Actual-prime restricted positivity and the exact CRT norm remainder explain why absolute estimates do not close the complete functional. Two exact scripts replay, and the written analytic/source reviews are preserved.
 
 - Fable PR11 revision 2073028 is preserved as a separate 160-file snapshot. Its F1 coefficient and fixed-v table repairs are accepted; a new independent proof gives finite continuous and discrete mass-cutoff Fock bounds. The sharp threshold, arithmetic operator limit and general-beta background/flow claims remain unresolved. Small matrix checks cover only M=6,8,10.
@@ -79,3 +81,5 @@ Round 11 is a separate [integrated report](research/reports/dyson_round11.md). A
 Round 12 is a separate [integrated report](research/reports/dyson_round12.md). All 18 originals (1,904,996 bytes) are retained under `Astra-Local-Archive/round12-originals/`; 15 research files are public verbatim. Both exact outputs replay, with only four temporary paths excluded from the dispersion certificate. The manual Fable packet was refreshed only with its superseding intake prefix; no new external session was dispatched.
 
 Round 13 preserves 21 original files (6,973,902 bytes) locally, with 15 verbatim public research/review/receipt files. Full primary papers and page images stay in the local archive with public hashes. Both bounded outputs reproduce, excluding only three temporary source paths. Read `research/reports/dyson_round13.md`; the handoff PDFs retain their earlier checkpoints.
+
+Round 14 preserves 17 originals (548,013 bytes) locally and 15 public research/review/receipt files. Two bounded outputs reproduce, excluding only one temporary source path. The integration receipt explains the earlier Galilean title/reviewer-attribution publication edit and pins both hashes. The large PDFs still retain their earlier checkpoints; a complete later-round supplement remains to be assembled.
