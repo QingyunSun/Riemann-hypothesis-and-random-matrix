@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "original_files": 73,
+  "original_bytes": 4957076,
+  "public_verbatim_files": 59,
+  "local_only_primary_source_files": 14,
+  "source_preservation": "All original bytes unchanged, including historical proof/check outputs and final deltas.",
+  "reviews": "Root read all full final author proofs and independent reviews; coordinator full and delta reviews preserved separately.",
+  "dependency_records_verified": 75,
+  "existing_independent_replays": [
+    {
+      "author": "bragg-variance-literature/weighted_variance_checks.json",
+      "independent": "bragg-variance-review/replay/weighted_variance_checks.json",
+      "byte_identical": true,
+      "sha256": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f"
+    },
+    {
+      "author": "bragg-variance-literature/weighted_variance_checks.log",
+      "independent": "bragg-variance-review/replay/weighted_variance_checks.log",
+      "byte_identical": true,
+      "sha256": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989"
+    },
+    {
+      "author": "dynamic-observability/local_bragg_checks.json",
+      "independent": "dynamic-observability-review/independent_replay.json",
+      "byte_identical": true,
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d"
+    },
+    {
+      "author": "dynamic-observability/local_bragg_checks.log",
+      "independent": "dynamic-observability-review/independent_replay.log",
+      "byte_identical": true,
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d"
+    },
+    {
+      "author": "shift-dispersion/shift_dispersion_checks.json",
+      "independent": "shift-dispersion-review/final-log-clarification/shift_dispersion_replay.json",
+      "byte_identical": true,
+      "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61"
+    },
+    {
+      "author": "shift-dispersion/shift_dispersion_checks.log",
+      "independent": "shift-dispersion-review/final-log-clarification/shift_dispersion_replay.log",
+      "byte_identical": true,
+      "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61"
+    }
+  ],
+  "new_mathematical_reruns": 0,
+  "finite_flow_scope": "Ordinary deterministic finite ACUE proof, uniform N>=8 and stated positive time interval; no actual-zeta transfer.",
+  "variance_scope": "RH reduction with conditional strict-deficit implication; no arithmetic strict deficit proved.",
+  "shift_scope": "Source-valid exact norm/CRT deductions and an unproved localized variance premise; inherited RH aggregate unchanged.",
+  "formal_verification": false,
+  "new_strict_bragg_bound": false,
+  "new_aggregate_bound": false,
+  "new_pdf_build": false,
+  "source_whitespace": "Five frozen author/review files retain an extra EOF blank line; scoped Git whitespace attribute preserves their exact source hashes. No source edit."
+}

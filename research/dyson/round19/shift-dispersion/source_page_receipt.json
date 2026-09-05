@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Direct visual reading of retained primary theorem pages, plus text/control-byte/hash verification. Not independent review of author mathematics.",
+  "pages": [
+    {
+      "path": "source-page-checks/MV-p214.png",
+      "sha256": "92702160535d1af9f919db2113a288bab571ff9ec903530509eb0c8f5289bee7",
+      "bytes": 196418
+    },
+    {
+      "path": "source-page-checks/maynard-II-p19.png",
+      "sha256": "29024af80ddd8717126dce060a5460409411b5ec41199c6ce608d3080c6b33ae",
+      "bytes": 257657
+    },
+    {
+      "path": "source-page-checks/maynard-III-p3.png",
+      "sha256": "831e6743f178ecfa2e72a989c045287602463cff55b292e0e151d3c88a1f2b32",
+      "bytes": 375885
+    }
+  ],
+  "verified_locations": [
+    "Maynard III printed p3: delta range and weak/strong theorem distinction",
+    "Maynard II printed p19: all four Proposition 8.2 inequalities and coefficient hypotheses",
+    "Montgomery\u2013Vaughan printed p214 / PDF226: Theorem 20.12 unconditional range"
+  ],
+  "report_sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+  "documentation_refresh": {
+    "reason": "Section 4 explicitly distinguishes the j=0 packet bound from the additional (log X)^j factor in D_j. No source statement, threshold, or mathematical formula changed.",
+    "source_visual_check": "Preserved from the historical receipt; no new source rendering was needed."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "links": [
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/bragg-variance-review/INDEPENDENT_WEIGHTED_VARIANCE_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/root-review/ROOT_VARIANCE_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/dynamic-observability/LOCAL_BRAGG_PRODUCTION.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/dynamic-observability-review/INDEPENDENT_LOCAL_BRAGG_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/root-review/ROOT_DYNAMIC_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/root-bragg-curvature/INDEPENDENT_CURVATURE_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/shift-dispersion/SHORT_RESIDUE_DISPERSION_TEST.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/shift-dispersion-review/ROOT_SHIFT_DISPERSION_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/shift-dispersion-review/final-log-clarification/ROOT_DELTA_REPLAY_RECEIPT.json"
+    },
+    {
+      "file": "research/reports/dyson_round19.md",
+      "target": "../dyson/round19/INTAKE_MANIFEST.json"
+    },
+    {
+      "file": "research/dyson/round19/SOURCE_LINK_MAP.md",
+      "target": "root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md"
+    },
+    {
+      "file": "research/dyson/round19/SOURCE_LINK_MAP.md",
+      "target": "../round16/bragg-atom/BRAGG_ATOM_TARGET.md"
+    },
+    {
+      "file": "research/dyson/round19/SOURCE_LINK_MAP.md",
+      "target": "../round7/true-zeta-flow/FORWARD_FLOW_OBSTRUCTION.md"
+    },
+    {
+      "file": "research/dyson/round19/SOURCE_LINK_MAP.md",
+      "target": "../round18/functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md"
+    },
+    {
+      "file": "research/dyson/round19/SOURCE_LINK_MAP.md",
+      "target": "dynamic-observability/LOCAL_BRAGG_PRODUCTION.md"
+    },
+    {
+      "file": "research/dyson/round19/SOURCE_LINK_MAP.md",
+      "target": "root-bragg-curvature/INDEPENDENT_CURVATURE_REVIEW.md"
+    }
+  ]
+}

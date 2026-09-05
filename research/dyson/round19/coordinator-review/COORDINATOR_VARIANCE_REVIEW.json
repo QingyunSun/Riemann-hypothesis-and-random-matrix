@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-05",
+  "status": "Accepted for bounded ordinary analytic reduction; no strict prime variance estimate proved.",
+  "author_file": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBerg_VARIANCE.md",
+  "author_sha256": "a65e1016bf20e97741bd9fd4a3fd598444a44f8ac8231b0aa0a976b7a94b81ac",
+  "author_bytes": 20775,
+  "root_snapshot": "work/source-tools-review/r19/BRAGG_WEIGHTED_SELBerg_VARIANCE.md",
+  "reviewed": "Entire frozen author text, independent algebra and limit-order review, selected exact primary-source statements. No checker replay or full source-proof reconstruction.",
+  "accepted": [
+    "RH, fixed epsilon: positive logarithmic Selberg variance with h=x/T and x in T^[2-epsilon,2+epsilon], no inverse-epsilon normalization.",
+    "CCCC equation (3.8) and the exact equality preceding (3.9) yield the stated 2T/pi and 2Y prefactors and logarithmic height range. Full positive-measure tail argument retains small and large zero heights.",
+    "AH gives V -> A_epsilon. The stronger liminf V < A_epsilon implies limsup D > 0 without matched subsequences or same-height identification.",
+    "Finite-R integration by parts gives the conditional deficit inequality (11) and conversion (14). Checked derivative, signs, pi factors and conservative constants; infinite absolute derivative integration is not used.",
+    "Exact finite arithmetic intersection kernel, negative prime-mean term and positive mean-square term; all Lambda prime powers retained. Diagonal -> 2 epsilon m0.",
+    "Uniform fixed-multiplicative-window single-log variance premise (22) implies V limsup <= B epsilon m0. Error after O(log T) cells remains o(1); no existing fixed B is supplied.",
+    "Primary source ranges do not provide the missing strict variance upper bound."
+  ],
+  "square_approximation_clarification": {
+    "finding": "No mathematical obstruction found. The one-test full-limit argument for the original bump is justified by the finite-R argument, not by assuming that every smooth-square approximant has a full spectral limit.",
+    "explicit_argument": "Let eta_j=||omega_j-omega||_infinity and fix R, then a small lower endpoint. Uniform compact spectral mass bounds give sup_s large |C_s(omega_j)-C_s(omega)| <= M eta_j. Apply the finite-R Stieltjes identity for omega_j, replace C(omega_j) by C(omega), and bound the replacement by M eta_j times [R k(R)+integral_0^R |y k'(y)|dy]. The positive variance mass bound also gives limsup |V(omega_j)-V(omega)| <= M' eta_j. Take T to infinity, then j to infinity at fixed R; finally remove the small endpoint and let R grow. For full equality use the already established positive tails, with midrange constants controlled by the common compact support and sup norms; fixed-j outer errors disappear before j varies.",
+    "suggestion": "Add one sentence pointing to this finite-R argument for implication (5); optional exposition clarification, not a blocking correction."
+  },
+  "sources_checked": [
+    {
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf",
+      "location": "Lemma 13, equation (3.8), exact weighted equality preceding (3.9), Theorem 14, Corollary 15"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1308.3934v3",
+      "location": "Printed page 4, paragraph immediately before J(X,Y,h): RH alone has log^2; single log uses additional pair-correlation upper bound"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1311.0597v4",
+      "location": "Theorems 1-2 and corollary; T S/X condition fails at X=T^2"
+    },
+    {
+      "url": "https://arxiv.org/html/2502.05106v1",
+      "location": "Theorem 1 long-length quantifiers"
+    },
+    {
+      "url": "https://arxiv.org/html/2605.22059v1",
+      "location": "Theorems 1.1-1.2 and 5.1: geometric ensemble and degree>1 early range do not yield this zeta test"
+    }
+  ],
+  "limits": [
+    "This is a sufficient new arithmetic target, not a proved variance deficit, AH refutation, RH proof, or Montgomery-Dyson result.",
+    "Numerical constants inherited from R16 are diagnostic; exact integrals control the deductions.",
+    "No claim of exhaustive literature coverage, novelty, optimal bound, formal verification, or independently replayed scripts."
+  ]
+}

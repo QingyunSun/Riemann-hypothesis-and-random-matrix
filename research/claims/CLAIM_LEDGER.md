@@ -239,3 +239,16 @@ Evidence: `reports/dyson_round17.md`, `dyson/round17/`, and `logs/round17-integr
 - **Open:** the RH full aggregate still has bound X^1.023 log^5X; the strict frequency-two deficit, AH refutation, GUE, and all famous-conjecture targets remain unproved.
 
 Evidence: `reports/dyson_round18.md`, `dyson/round18/`, and `logs/round18-integration/`.
+
+
+## Round 19: positive variance, finite local heat and physical-shift dispersion
+
+- **Ordinary proof under RH, independently reviewed:** RH+AH-Pairs forces the specified positive centered prime variance V to tend to A=1+epsilon²*m1. A strict liminf variance deficit implies positive limsup of the actual-zeta Bragg deficit, with an explicit finite-cutoff conversion. No strict actual-prime bound is proved.
+- **Exact finite arithmetic:** the complete positive prime-pair kernel retains every prime power, both mixed centers and the continuous square. The current source upper transfer remains L+*A>A; narrow-window conclusions cannot be imported from long-average source constants.
+- **Unconditional finite ACUE heat theorem, independently reviewed:** for epsilon=1/4, every N>=8 and 0<s<=1/4,128,768, E D_N(s)>=kappa*s²/3528 while D_N(0)=0. The circle gap is at least 1/2 and acceleration is uniformly below 12,288. This is deterministic scalar heat, not DBM or an actual-zeta trajectory theorem.
+- **Exact finite curvature, independently reviewed:** E B_N''(0)=-(64*pi^4/3)*(1-N^-2) for the global coherent mode. Its Taylor remainder is not asserted uniformly in N; the separate localized theorem supplies its own uniform-time proof.
+- **Exact norm/source audit:** the physical short-residue packet retains its full H-scale projected norm. Its squared CRT condition is h1*n2=h2*n1 modulo q, with switched size HN/q. A localized variance HX would imply a gain in the stated smaller window, but that variance premise and full Bragg transfer are unproved.
+- **Verification:** complete variance, finite-ACUE and final shift JSON/stdout outputs agree with separate replays; the latter retains 576 CRT and 60,480 fully centered product checks. The finite ACUE enumeration is floating diagnostic evidence, not a proof assistant certificate. All source bytes and historical corrections remain separately pinned.
+- **Open:** strict initial-zeta deficit, an applicable time transfer, the localized variance premise and all famous-conjecture targets. The full RH aggregate remains X^1.023 log^5X.
+
+Evidence: `reports/dyson_round19.md`, `dyson/round19/`, and `logs/round19-integration/`.

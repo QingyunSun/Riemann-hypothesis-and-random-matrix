@@ -1,0 +1,41 @@
+{
+  "author_files_modified": false,
+  "checks": [
+    {
+      "bytes": 8079,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/check_local_bragg.py",
+      "sha256": "83807e566506c778fbc9a6903293e94158c557c1c1fe73e06f7f6d3157b2f549"
+    },
+    {
+      "bytes": 4151,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/AUTHOR_RECEIPT.json",
+      "sha256": "59f2823709dd7e0c3466c39fbc470e64d5b728c2f8472f40ebdf94962ae17f8d"
+    },
+    {
+      "bytes": 1668,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability-review/independent_replay.json",
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d"
+    },
+    {
+      "bytes": 1668,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability-review/independent_replay.log",
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d"
+    }
+  ],
+  "review": {
+    "bytes": 9075,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability-review/INDEPENDENT_LOCAL_BRAGG_REVIEW.md",
+    "sha256": "40058d7c76ad150ec9ddc7f7ab99406be6329b917f6715d110f7d61044a3f2fa"
+  },
+  "source": {
+    "bytes": 18586,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/LOCAL_BRAGG_PRODUCTION.md",
+    "sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735"
+  },
+  "status": "Accepted ordinary mathematical proof within stated model scope; no actual-zeta transfer accepted.",
+  "validation": {
+    "control_bytes": 0,
+    "display_math_pairs": 4,
+    "replay": "N=8 unchanged bounded checker; byte-identical JSON/log"
+  }
+}

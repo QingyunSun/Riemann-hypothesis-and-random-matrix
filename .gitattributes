@@ -3,3 +3,6 @@
 
 # Complete source compilations retain original Markdown hard breaks and EOFs.
 docs/handoff/*.md whitespace=-blank-at-eol,-blank-at-eof
+
+# Frozen Round 19 source snapshots retain original end-of-file blank lines.
+research/dyson/round19/** whitespace=-blank-at-eof
