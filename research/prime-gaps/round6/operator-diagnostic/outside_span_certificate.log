@@ -1,0 +1,36 @@
+{
+  "status": "PASS: exact outside-span and dimension78 certificate for the frozen profile",
+  "source_sha256": "7f71bdefcfe3bb5ca76a143929b3cb3f4156c21dc483253cda3077420f1e5de4",
+  "input_sha256": "b283cab182b0b32091f24ac898def31cc263fa6af1a4540b30721e8122b80c77",
+  "restricted_polynomial_degree_bound": 12,
+  "zero_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "nonzero_index": 18422,
+  "nonzero_exact_binary_rational": "-6264072493613325/4611686018427387904",
+  "mesh": "2742997/258046918656",
+  "minimum_cap": "41328816845772771/110249118001760000",
+  "first_outer_upper": "653622010000/689056987511",
+  "single_coordinate_cap_slack": "2526508177060212813/14111887104225280000",
+  "whole_cell_outer_slack": "50961110960045117/67737058100281344",
+  "positive_product_cell_mass": {
+    "base": "2742997/258046918656",
+    "exponent": 39
+  },
+  "modular_rank": 77,
+  "modulus_prime": 1000000007,
+  "augmented_rank_over_rationals": 78,
+  "scope": "Exact membership and linear independence only. The new quotient and projection norms remain floating diagnostics; no arithmetic support restoration is certified."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "all exact rational toy checks passed; no k39 numerical gain asserted",
+  "residual": {
+    "exact_trials": 80,
+    "nonnested_exact_ritz_example": {
+      "h_mass_squared": "7544/406125",
+      "Qh_mass_squared": "9572/676875",
+      "unnormalized_coupling": "7544/406125",
+      "within_U_mass_squared": "9004/2030625",
+      "negative_rayleigh_witness": "-1/9"
+    }
+  },
+  "mass": {
+    "outer_points": 23,
+    "face_adjoint_checks": 3,
+    "conditional_expectation_wrong_adjoint_defect": "2142527/525",
+    "conjugated_single_g_identity": true,
+    "radial_projection_checks": 5
+  }
+}

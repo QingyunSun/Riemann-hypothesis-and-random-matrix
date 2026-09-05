@@ -1,0 +1,122 @@
+[
+  {
+    "source": "radial_residual_n16384_cut1e-09_tilt20.json",
+    "source_sha256": "16bd9d5f251cca51efb5faeba3699b3f3aef69491fcc6dc1e6e3f12be9a9e505",
+    "N": 16384,
+    "tilt": 20,
+    "density_cutoff": 1e-09,
+    "norm_f_squared": 1.0000000000000409,
+    "two_by_two_matrix": [
+      [
+        0.9933793528729782,
+        0.008207564549709681
+      ],
+      [
+        0.008207564549709681,
+        0.043529578541331125
+      ]
+    ],
+    "two_by_two_largest_eigenvalue": 0.993450268388934,
+    "two_by_two_gain": 7.091551595583834e-05,
+    "full_78_largest_eigenvalue": 0.9934506692779733,
+    "extra_gain_from_full_78_reoptimization": 4.008890392981357e-07,
+    "ritz_defect_squared_computed": 1.0320022428644149e-19,
+    "ritz_defect_norm_computed": 3.212479171705888e-10,
+    "compressed_norm_squared": 6.654336789948977e-05,
+    "orthogonal_norm_squared": 6.573261981593157e-05,
+    "coupling_squared": 6.736411583765108e-05,
+    "two_by_two_crossing_coupling_squared_threshold": 0.006332453147911683,
+    "fraction_of_crossing_coupling_squared": 0.010637917764913338,
+    "normalized_new_vector_mass_check": 1.0000000000001217
+  },
+  {
+    "source": "radial_residual_n98304_cut1e-08_tilt20.json",
+    "source_sha256": "6813a13812e6e51233945a05819090b32b285464683fa5a23f9473bdb1c84b01",
+    "N": 98304,
+    "tilt": 20,
+    "density_cutoff": 1e-08,
+    "norm_f_squared": 0.9999999999997682,
+    "two_by_two_matrix": [
+      [
+        0.9943963991909279,
+        0.008217322968028228
+      ],
+      [
+        0.008217322968028228,
+        0.04348233092617879
+      ]
+    ],
+    "two_by_two_largest_eigenvalue": 0.9944674038772069,
+    "two_by_two_gain": 7.100468627896372e-05,
+    "full_78_largest_eigenvalue": 0.9944678032713334,
+    "extra_gain_from_full_78_reoptimization": 3.9939412654899087e-07,
+    "ritz_defect_squared_computed": 2.6773083048314773e-20,
+    "ritz_defect_norm_computed": 1.6362482405892687e-10,
+    "compressed_norm_squared": 6.668528242902395e-05,
+    "orthogonal_norm_squared": 6.585659553273768e-05,
+    "coupling_squared": 6.752439676088425e-05,
+    "two_by_two_crossing_coupling_squared_threshold": 0.005359943184313798,
+    "fraction_of_crossing_coupling_squared": 0.012597968754314137,
+    "normalized_new_vector_mass_check": 0.9999999999997939
+  },
+  {
+    "source": "radial_residual_n98304_cut1e-09_tilt20.json",
+    "source_sha256": "75c0c7b61243b9292f8a830ba13379aeb47c048d56b84c7c34734456a893c3d8",
+    "N": 98304,
+    "tilt": 20,
+    "density_cutoff": 1e-09,
+    "norm_f_squared": 0.9999999999997682,
+    "two_by_two_matrix": [
+      [
+        0.9943963991909279,
+        0.008217784708256407
+      ],
+      [
+        0.008217784708256407,
+        0.043583189070450945
+      ]
+    ],
+    "two_by_two_largest_eigenvalue": 0.9944674193880856,
+    "two_by_two_gain": 7.102019715765628e-05,
+    "full_78_largest_eigenvalue": 0.9944678209367751,
+    "extra_gain_from_full_78_reoptimization": 4.0154868952146927e-07,
+    "ritz_defect_squared_computed": 2.6773083048314773e-20,
+    "ritz_defect_norm_computed": 1.6362482405892687e-10,
+    "compressed_norm_squared": 6.670688589594228e-05,
+    "orthogonal_norm_squared": 6.589186717477095e-05,
+    "coupling_squared": 6.753198551125285e-05,
+    "two_by_two_crossing_coupling_squared_threshold": 0.005359378015534953,
+    "fraction_of_crossing_coupling_squared": 0.012600713238644737,
+    "normalized_new_vector_mass_check": 1.0000000000000504
+  },
+  {
+    "source": "radial_residual_n98304_cut1e-09_tilt25.json",
+    "source_sha256": "f166bcc6a93ba3aac8de7eeeaafa0985bad3350ac3dc76bc9481bcb71ad86117",
+    "N": 98304,
+    "tilt": 25.0,
+    "density_cutoff": 1e-09,
+    "norm_f_squared": 0.9999999999997682,
+    "two_by_two_matrix": [
+      [
+        0.9943963991909279,
+        0.008217784708252992
+      ],
+      [
+        0.008217784708252992,
+        0.043583189069473026
+      ]
+    ],
+    "two_by_two_largest_eigenvalue": 0.9944674193880856,
+    "two_by_two_gain": 7.102019715765628e-05,
+    "full_78_largest_eigenvalue": 0.9944678209367753,
+    "extra_gain_from_full_78_reoptimization": 4.015486897435139e-07,
+    "ritz_defect_squared_computed": 2.6773083048314773e-20,
+    "ritz_defect_norm_computed": 1.6362482405892687e-10,
+    "compressed_norm_squared": 6.670688589592519e-05,
+    "orthogonal_norm_squared": 6.589186717474775e-05,
+    "coupling_squared": 6.75319855111967e-05,
+    "two_by_two_crossing_coupling_squared_threshold": 0.005359378015540433,
+    "fraction_of_crossing_coupling_squared": 0.012600713238621377,
+    "normalized_new_vector_mass_check": 0.9999999999997448
+  }
+]

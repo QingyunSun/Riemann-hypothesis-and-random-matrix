@@ -1,0 +1,25 @@
+{
+  "upstream_sha256": "7f71bdefcfe3bb5ca76a143929b3cb3f4156c21dc483253cda3077420f1e5de4",
+  "exact_checks": {
+    "finite_marked_operator_check.py": "identical JSON output",
+    "exact_residual_checks.py": "identical JSON output",
+    "audit_outputs.py": "identical JSON output"
+  },
+  "scope": "One fine-grid replay plus exact algebra and saved-output checks; no outward certificate or full residual norm.",
+  "fine_replay": {
+    "N": 98304,
+    "field_differences": {
+      "original_77_quotient": 0.0,
+      "new_78_matrix_quotient": 0.0,
+      "radial_norm_squared": 0.0,
+      "outside_77_norm_squared": 0.0,
+      "orthogonal_complement_coupling": 0.0
+    },
+    "direct_quotient_difference": 0.0,
+    "relative_radial_profile_mass_error_squared": 0.0,
+    "active_mask_identical": true,
+    "radial_cells_identical": true,
+    "replayed_direct_quotient": 0.994467820900683
+  },
+  "status": "PASS: exact checks and independent fine radial-residual replay"
+}

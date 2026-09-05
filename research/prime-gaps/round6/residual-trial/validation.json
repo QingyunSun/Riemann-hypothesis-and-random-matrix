@@ -1,0 +1,30 @@
+{
+  "status": "numerical structural regressions pass; not interval certificates",
+  "cases": [
+    {
+      "file": "radial_residual_n16384_cut1e-09_tilt20.json",
+      "coupling_identity_relative_error": 4.726751469838156e-10,
+      "matrix_direct_difference": -1.1652767639702688e-10,
+      "passed": true
+    },
+    {
+      "file": "radial_residual_n98304_cut1e-08_tilt20.json",
+      "coupling_identity_relative_error": -7.382699009139167e-10,
+      "matrix_direct_difference": -7.670986068575303e-11,
+      "passed": true
+    },
+    {
+      "file": "radial_residual_n98304_cut1e-09_tilt20.json",
+      "coupling_identity_relative_error": -7.392751950233485e-10,
+      "matrix_direct_difference": 3.609212928523675e-11,
+      "passed": true
+    },
+    {
+      "file": "radial_residual_n98304_cut1e-09_tilt25.json",
+      "coupling_identity_relative_error": -7.396106209999443e-10,
+      "matrix_direct_difference": -1.1707579350428432e-10,
+      "passed": true
+    }
+  ],
+  "tilt_matrix_difference": -2.220446049250313e-16
+}
