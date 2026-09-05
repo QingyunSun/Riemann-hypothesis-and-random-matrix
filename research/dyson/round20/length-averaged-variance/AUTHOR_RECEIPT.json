@@ -1,0 +1,95 @@
+{
+  "checks": {
+    "interval_or_zero_scan": "None",
+    "katex": "192 expressions pass; zero errors and disallowed control bytes",
+    "symbolic": "13 elementary exact checks pass; no analytic-error or numerical-zeta verification"
+  },
+  "dependencies": [
+    {
+      "bytes": 843595,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "role": "Primary CCCC PDF, fixed-test equations1.3,3.8,3.9",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac"
+    },
+    {
+      "bytes": 180918,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "role": "Primary CCCC extracted text; inspected relevant input ranges",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "bytes": 1795864,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "role": "Primary RH Chebyshev error bound",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897"
+    },
+    {
+      "bytes": 64608,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "role": "Primary extracted text, Theorem10Eq6.2",
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6"
+    },
+    {
+      "bytes": 21201,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "role": "Prior fixed-test transfer and normalization",
+      "sha256": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502"
+    },
+    {
+      "bytes": 13646,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-review/INDEPENDENT_WEIGHTED_VARIANCE_REVIEW.md",
+      "role": "Prior independent source/proof audit",
+      "sha256": "2a04a778e4b341cfb908bb524f3ba94cc2a7768e080d1fd1f0856141929eb38e"
+    },
+    {
+      "bytes": 20291,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "role": "Exact bump, positive-pair bound, AH saturation",
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+    }
+  ],
+  "owned_files": [
+    {
+      "bytes": 18644,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "bytes": 3012,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/check_length_kernel.py",
+      "sha256": "181a60da6fcb8577c1f1101deb9d34bb1de8804b3091fd7075c37e609a61b1bd"
+    },
+    {
+      "bytes": 1075,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/length_kernel_checks.json",
+      "sha256": "7262ab47eb028f0e2453ca2139a16bd0f78b478e57bc7a80e3680e3eb6f2bf8e"
+    },
+    {
+      "bytes": 1075,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/length_kernel_checks.log",
+      "sha256": "7262ab47eb028f0e2453ca2139a16bd0f78b478e57bc7a80e3680e3eb6f2bf8e"
+    },
+    {
+      "bytes": 1545,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/check_math_syntax.cjs",
+      "sha256": "28283dbb50e433ad9ca93b72a2e1c0abd7789d39950f0c960b427866939d5507"
+    },
+    {
+      "bytes": 287,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/math_syntax_checks.json",
+      "sha256": "89317adb7fc36fa1d3f03c467c75991a7b9ea0671feab0b987580fa0c4b6986f"
+    },
+    {
+      "bytes": 3494,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/sources/SOURCE_RECEIPT.json",
+      "sha256": "7f1c6dad46c87234a8cbdc564bb1df7a0807f7ac18f053b0ad5549615cdc5271"
+    },
+    {
+      "bytes": 7056,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/sources/digizeitschriften-shutdown-response.html",
+      "sha256": "17d344c05dd48c0c59246eceeacae075bbf56dc4ce78c0f149b8b3f2eab88554"
+    }
+  ],
+  "scope": "RH actual all-length prime variance, non-strict upper bound at AH saturation; no proof of positive deficit.",
+  "status": "Author proof and bounded elementary checks frozen; independent review is a separate artifact."
+}

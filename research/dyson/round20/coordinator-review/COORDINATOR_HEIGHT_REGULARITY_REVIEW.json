@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-05",
+  "status": "Accepted RH equicontinuity and persistence proof; length-average consequences remain conditional on a separate identity.",
+  "author_sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+  "author_bytes": 10461,
+  "author_file": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+  "snapshot": "work/source-tools-review/r20/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+  "review_scope": "Entire frozen proof read and independently checked, with direct CCCC (1.5)-(1.6) verification. No checker replay or formal verification.",
+  "checked": [
+    "Positive pair measure retains physical Lorentzian w(gamma-gamma') and denominator S log S/(2pi), all multiplicities and zero endpoints.",
+    "Three shifted squared-sinc envelope has qhat=(1-|alpha|)_+ (1+cos(pi alpha)), q>=1/[2pi²(1+u²)], and M_S(q)->7/3 from the support-one formula.",
+    "A bounded low-band envelope controls every Schwartz dilation error by 6pi² B_phi |a-1|, uniformly including arbitrarily distant pairs.",
+    "Freezing logarithmic scale on U/T in [1/2,2] costs O_phi(1/log T); the Lorentzian is not rescaled.",
+    "Positive prefix increments obey 0<=Delta S_D<=2 Delta S_0. Retaining the opposite signs of increment and denominator change yields coefficient 2A, not an unnecessary sum of absolute bounds.",
+    "Reverse-height argument uses the same [T/2,2T] full-limit error. Uniform |D_(Ty)-D_T|<=2A|y-1|/max(1,y)+o(1) follows without simplicity, AH or a literal finite-height continuity assertion.",
+    "If d=limsup D>0, deficit >=d/2 persists on [1-d/(8A),1+d/(8A)] along a subsequence.",
+    "Conditional on the independently justified positive average identity, density p(y)=4y²/[pi(1+y²)²] has unit mass and minimum16/(25pi) on [1/2,2]. This gives 2d²/(25pi A)<=A-liminf Vbar<=d and equivalence of strict deficits.",
+    "Bounded extension at small zero heights is harmless; the small-y probability mass vanishes and the statistic is globally bounded by the full low-band limit plus its compact-height bound."
+  ],
+  "independent_dependency": "The actual arithmetic exponential length-average identity A-Vbar=integral p(y)D_(Ty)dy+o(1) is not proved by this note and has not yet been reviewed here.",
+  "primary_source": {
+    "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf",
+    "location": "Printed page 2, equations (1.5)-(1.6), uniform support-one formula and Fourier convention"
+  },
+  "outcome": "A positive subsequential original deficit cannot be confined to arbitrarily narrow multiplicative-height spikes. No positive deficit is established."
+}

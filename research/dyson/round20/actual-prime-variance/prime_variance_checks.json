@@ -1,0 +1,152 @@
+{
+  "exact": {
+    "I1_I2_series_coefficients": "Exact through degree 12",
+    "coefficient_l1_norms": [
+      1,
+      2,
+      8,
+      88,
+      1096
+    ],
+    "derivative_polynomials_P0_to_P4": [
+      "1",
+      "-2*z",
+      "6*z**4 - 2",
+      "-24*z**7 - 12*z**5 + 40*z**3 - 12*z",
+      "120*z**10 + 180*z**8 - 528*z**6 + 232*z**4 + 24*z**2 - 12"
+    ],
+    "finite_kernel_controls": [
+      {
+        "T": "5",
+        "coefficient_count": 24,
+        "coefficients": {
+          "11": "L_11",
+          "13": "L_13",
+          "16": "L_2",
+          "17": "L_17",
+          "19": "L_19",
+          "2": "L_2",
+          "23": "L_23",
+          "25": "L_5",
+          "27": "L_3",
+          "29": "L_29",
+          "3": "L_3",
+          "31": "L_31",
+          "32": "L_2",
+          "37": "L_37",
+          "4": "L_2",
+          "41": "L_41",
+          "43": "L_43",
+          "47": "L_47",
+          "49": "L_7",
+          "5": "L_5",
+          "53": "L_53",
+          "7": "L_7",
+          "8": "L_2",
+          "9": "L_3"
+        },
+        "direct_minus_full_pair_and_both_centers": "0",
+        "event_cells": 31,
+        "window": [
+          "10",
+          "45"
+        ]
+      },
+      {
+        "T": "4",
+        "coefficient_count": 28,
+        "coefficients": {
+          "10": "0",
+          "11": "1/4",
+          "12": "2",
+          "13": "3/2",
+          "14": "-1",
+          "15": "-1/2",
+          "16": "-1",
+          "17": "0",
+          "18": "1/3",
+          "19": "1/2",
+          "2": "-1/3",
+          "20": "3",
+          "21": "-3/2",
+          "22": "-2/3",
+          "23": "-1/4",
+          "24": "0",
+          "25": "1/2",
+          "26": "2/3",
+          "27": "3/4",
+          "28": "-3",
+          "29": "-1",
+          "3": "0",
+          "4": "1",
+          "5": "1",
+          "6": "1",
+          "7": "-3/4",
+          "8": "-2",
+          "9": "-1/2"
+        },
+        "direct_minus_full_pair_and_both_centers": "0",
+        "event_cells": 36,
+        "window": [
+          "11/2",
+          "23"
+        ]
+      }
+    ],
+    "log_bounds": "log(T)<7, log(integer cutoff)<16 proved from e>27/10",
+    "stable_integral_derivative_identity": "0",
+    "uniform_cell_relative_width_upper": "7/32761 < 1/4096"
+  },
+  "high_precision": {
+    "T": 100,
+    "absolute_total_difference": "0.0000000000000002051121920334716320257468144573152685537914602826717901711652680821293",
+    "adaptive_seed_controls": [
+      {
+        "absolute_difference_from_simpson": "0.0",
+        "adaptive_70digit_psi": "1.0",
+        "v": "0.0"
+      },
+      {
+        "absolute_difference_from_simpson": "0.00000000000000001594285894590919119439359074411998009823101253584922247484500627436393",
+        "adaptive_70digit_psi": "0.9131885990330048840571410540908088056064092558800199017689874641507775",
+        "v": "0.125"
+      },
+      {
+        "absolute_difference_from_simpson": "0.00000000000000003553876916952926436683674280439126524161913629218607163232496314192313",
+        "adaptive_70digit_psi": "0.2544800908482456355387691695292643668367428043912652416191362921860716",
+        "v": "0.5"
+      },
+      {
+        "absolute_difference_from_simpson": "0.00000000000000000277677322257909189452440187783191007845966521057693169633625867787191",
+        "adaptive_70digit_psi": "0.0149013935225644737767732225790918945244018778319100784596652105769317",
+        "v": "0.75"
+      },
+      {
+        "absolute_difference_from_simpson": "0.00000000000000000001072361227866003390669653638036126896145117123798362149856078212245994",
+        "adaptive_70digit_psi": "0.0001068679058611613007236122786600339066965363803612689614511712379836215",
+        "v": "0.875"
+      },
+      {
+        "absolute_difference_from_simpson": "0.0",
+        "adaptive_70digit_psi": "0.0",
+        "v": "1.0"
+      }
+    ],
+    "cell_count": 22390,
+    "decimal_precision": 70,
+    "independent_formula": "Direct uncentered antiderivative; active Lambda from prefix differences at the cell midpoint.",
+    "max_unweighted_bin_difference": "0.000000000000002079532687117922413326691519672690313940743160733565019842133355211244",
+    "same_frozen_piecewise_constant_weight_result": "0.1204060368923083293431356668642307385636489070833349600414602826717902",
+    "scope": "High-precision diagnostics, not directed-rounding certificates."
+  },
+  "independent_factorization_range": [
+    2,
+    1000
+  ],
+  "mpmath_version": "1.3.0",
+  "prime_power_integer_identity_count": 389500,
+  "scope": "Exact finite algebra plus bounded high-precision diagnostics. No asymptotic inference or interval certificate.",
+  "script_sha256": "051d7f740e03183919bd65bca9d8a441f0c19ec111820973543d8b12dafd88fb",
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}

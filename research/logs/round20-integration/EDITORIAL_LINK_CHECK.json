@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "links": [
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/length-average-review/INDEPENDENT_EXPONENTIAL_LENGTH_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/root-review/ROOT_ROUND20_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/height-regularity-review/INDEPENDENT_HEIGHT_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/actual-prime-variance/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/actual-prime-variance/REPRODUCTION.md"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/INTAKE_MANIFEST.json"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../dyson/round20/SOURCE_LINK_MAP.md"
+    },
+    {
+      "file": "research/reports/dyson_round20.md",
+      "target": "../logs/round20-integration/INTEGRATION_RECEIPT.json"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "../round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "../round16/bragg-atom/BRAGG_ATOM_TARGET.md"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "actual-prime-variance/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "../round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "../round16/bragg-atom/BRAGG_ATOM_TARGET.md"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "../round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "../round16/bragg-atom/BRAGG_ATOM_TARGET.md"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "../round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md"
+    },
+    {
+      "file": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "target": "../round16/bragg-atom/BRAGG_ATOM_TARGET.md"
+    }
+  ]
+}

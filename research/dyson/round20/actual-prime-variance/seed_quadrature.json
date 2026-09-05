@@ -1,0 +1,34 @@
+{
+  "AH_limit_A": 1.0105877964142522,
+  "analytic_constants": {
+    "derivative_upper_f_0_to_4": [
+      "3/8",
+      "9/4",
+      "162",
+      "5845851/64",
+      "115053696"
+    ],
+    "derivative_upper_product4": "2818940211/32",
+    "ideal_simpson_error_m0": "179751755475203864283/967140564887283222582394880",
+    "ideal_simpson_error_m1": "50247279281824623363197347461/259614818551615460455054667184865280",
+    "ideal_simpson_error_psi_uniform": "16913641266/90071984090589287",
+    "ideal_simpson_error_s2": "313215579/180143985094819840",
+    "ideal_simpson_error_seed_integral": "99873/43980465111040",
+    "s2_lower": "1/54",
+    "scope": "Rational analytic truncation bounds for exact evaluations and sums. Machine rounding is not enclosed."
+  },
+  "autocorrelation": "psi(v)=integral f(x)f(x-v) dx / integral f(x)^2 dx",
+  "m0": 0.7406125730612161,
+  "m1": 0.16940474262803673,
+  "s2": 0.06654306042249714,
+  "scope": "Finite quadrature diagnostic with separately proved analytic truncation bounds. Rounding not enclosed.",
+  "seed": "exp(-1/(1-4x^2)) for |x|<1/2, otherwise 0",
+  "seed_integral": 0.2219969080840397,
+  "simpson_control": 2048,
+  "simpson_control_max_psi_difference": 5.551115123125783e-16,
+  "simpson_control_s2_difference": 0.0,
+  "simpson_control_seed_integral_difference": 0.0,
+  "simpson_fine": 4096,
+  "sine_limit": 0.18515314326530402,
+  "v_grid_count": 8193
+}

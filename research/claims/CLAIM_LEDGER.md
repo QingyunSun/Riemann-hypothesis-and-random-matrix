@@ -252,3 +252,16 @@ Evidence: `reports/dyson_round18.md`, `dyson/round18/`, and `logs/round18-integr
 - **Open:** strict initial-zeta deficit, an applicable time transfer, the localized variance premise and all famous-conjecture targets. The full RH aggregate remains X^1.023 log^5X.
 
 Evidence: `reports/dyson_round19.md`, `dyson/round19/`, and `logs/round19-integration/`.
+
+
+## Round 20: actual length average and strict-target equivalence
+
+- **Ordinary RH proof, independently reviewed:** the exactly centered all-length prime variance Vbar equals the probability average of C_(Ty) with density 4*y²/[pi*(1+y²)²], up to o(1). Actual length tails, fixed-test reparameterization and zero-height cutoffs are controlled. This different statistic has upper limit A; AH forces equality. It does not improve the old single-length variance by implication.
+- **Ordinary RH proof, independently reviewed:** the actual deficit obeys uniform multiplicative-height regularity with bound 2*A*abs(y-1)/max(1,y)+o(1) for y in [1/2,2]. The global support-one envelope has exact limiting mass 7/3 and controls all Schwartz pair tails.
+- **Combined ordinary RH theorem:** for d=limsup D, 2*d²/(25*pi*A)<=A-liminf Vbar<=d. Thus d>0 iff liminf Vbar<A. Either strict condition would exclude AH-Pairs. Neither is proved, and failure of AH-Pairs is not proved to force this one bump's deficit.
+- **Finite numerical diagnostic:** the earlier single-length variance at T=100,300,1000 is approximately .12040604,.13610580,.15427942. All prime powers, centers,16,384 bins per height and integer arrays remain. These are not values of Vbar or of an actual-zero statistic.
+- **Exact controls and precision diagnostic:** formal-log pair/center identities, rational derivative/series bounds and all stored n=p^k identities pass; a70-decimal same-weight T=100 control agrees closely. Ideal analytic columns retain separately stated truncation budgets and exclude machine rounding. No certified numerical enclosure or asymptotic inference is made.
+- **Independent validation:** both analytic symbolic outputs/stdout replay byte for byte, including13 kernel checks and3159 prefix cases. Full ordinary proofs have independent cross-reviews and root/coordinator reviews. Publication reaggregates existing CSVs and verifies hashes without another sieve or high-precision execution.
+- **Open:** a strict actual-prime upper estimate, positive initial-zeta Bragg deficit, the physical-flow transfer and all famous-conjecture targets. The prior full RH arithmetic aggregate remains X^1.023 log^5X.
+
+Evidence: `reports/dyson_round20.md`, `dyson/round20/`, and `logs/round20-integration/`.

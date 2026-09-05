@@ -6,3 +6,9 @@ docs/handoff/*.md whitespace=-blank-at-eol,-blank-at-eof
 
 # Frozen Round 19 source snapshots retain original end-of-file blank lines.
 research/dyson/round19/** whitespace=-blank-at-eof
+
+# Frozen Round 20 source snapshots retain original EOF blank lines.
+research/dyson/round20/** whitespace=-blank-at-eof
+
+# Preserve Python csv.writer CRLF bytes in frozen Round 20 data.
+research/dyson/round20/actual-prime-variance/*.csv whitespace=cr-at-eol

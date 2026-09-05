@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "title": "CCCC: On Montgomery pair correlation, retained author primary",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf",
+      "locations": "equations (1.5)\u2013(1.6), printed pp.1\u20132",
+      "files": [
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+          "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+          "bytes": 843595
+        },
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+          "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+          "bytes": 180918
+        }
+      ]
+    },
+    {
+      "title": "R16 fixed actual-zeta Bragg statistic",
+      "files": [
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+          "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+          "bytes": 20291
+        }
+      ]
+    }
+  ],
+  "length_average_dependency": "The separately authored R20 length-average identity is explicitly conditional in this report and is not a source assumption for the height lemma.",
+  "no_source_mutation": true
+}
