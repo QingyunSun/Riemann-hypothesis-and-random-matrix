@@ -104,3 +104,13 @@ All paths are relative to the repository root. The public reports contain the de
 | ARITH-007 | Prime-power tail energy is at most O(T N^(-1/3) log^4(2N)+delta^(-4)); replacing the RH residual by its genuine-prime continuation changes normalized energy by o(1) | Elementary ordinary proof and independent review, with growing-width corollary | `research/dyson/round9/prime-power-removal/`; uniform amplified error O(b² e^(2b) a_T)=o(1) on b=o(log log T); no lower-bound gain |
 | ZETA-RED-004 | The coupled mesoscopic residual has sine target zero and AH target -3/4; a stated uniform strict lower bound would refute AH-Pairs under RH | Source/rate audit, exact algebra and independent quantifier review | `research/dyson/round9/mesoscopic-edge/`; existential slow diagonal only, no prescribed AH convergence rate or proved arithmetic edge estimate |
 | AUD-008 | Five Round 9 output JSON files and the fresh q32 full M/G arrays reproduce | Separate-process bounded integration replay | `research/logs/round9-integration/recheck.json`; excludes timing and temporary source paths only; q20 retained matrices are checked but not recomputed |
+
+
+## Round 10: smooth completion of the actual shift sum
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-008 | A specified smooth shift packet of the actual selected discrepancy is O(sqrt(H X (X+Q²)) log^4 X), Q=X^.523 | Unconditional ordinary proof with separate coefficient/spacing and actual-kernel reviews | `research/dyson/round10/shift-average/`; saves a power over accumulating the source per-shift estimate, but remains above X log X; full sharp packet and complementary terms are not evaluated |
+| AUD-009 | The checked Guth–Maynard count range and RH variance comparisons do not directly supply shrinking-edge fluctuation precision | Bounded primary-source audit with independent review | `research/dyson/round10/arithmetic-residual/`; includes the source's fixed-epsilon improvement remark; not a universal literature or method obstruction |
+| ZETA-RED-005 | A stated uniform genuine-prime logarithmic mixed-moment bound with deficit coefficient below two implies a strict gap above -3/4 in the coupled statistic | Conditional calculus lemma with reviewed actual-residual differentiation and quantifiers | Same folder; M_T>=s^-2-(2-epsilon)s^-3+o(s^-3) remains unproved |
+| AUD-010 | Both Round 10 exact-check JSON outputs reproduce | Separate-process integration check | `research/logs/round10-integration/recheck.json`; 9615 Ramanujan cases and scalar implications, with only two temporary source paths excluded; not a numerical proof of the analytic bound |
