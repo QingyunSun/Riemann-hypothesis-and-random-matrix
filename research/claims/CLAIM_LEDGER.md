@@ -331,3 +331,13 @@ All author files and subsequent acceptance records remain byte-identical. See re
 | R25-C | True zero core is o(1) under ordinary RH; fixed-order remote tail is o(1) | Complete proof with independent source review | Physical natural-scale packet in two stated parameter ranges; does not yet cover polylog Q in a global partition |
 | R25-N | Factorwise Davenport/prime norm gives only sqrt(X) times arbitrary fixed log saving | Reviewed estimate, insufficient | Weaker than prior sqrt(H)log^(3/2)X; hypothetical factorwise square-root bound still loses sqrt(K) |
 | R25-OPEN | Signed remaining annulus has an O(1) or strict AH-excluding upper bound | Open | Neither Fourier identity nor joint main cancellation estimates its required sign |
+
+## Round 26: whole variance with the accumulated singular-series constant
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R26-G | Under ordinary RH, full Q2=Z_T+M1+O(log(T)^(-1/2)) for the exact finite scale-dependent covariance | Complete proof with independent full reviews | Actual Q_j=Y_j^(2/3), both tails, direct q2 small-shift bound, uniform derivative orders and all nine summed errors |
+| R26-S | Refined singular-series transform has correction minus one half integral f/h and summable remainder | Complete ordinary proof and independent derivations | Unconditional MS Eq47 printedp16; real endpoint interpolation; no differentiation of remainder |
+| R26-M | The total correction tends to M1, and symmetric variance is Z_T+2M+o(1) | Complete proof with independent exact-moment companion | Nonzero additional constant retained; no assertion Z_T tends to zero |
+| R26-B | Global Z_T is O(1), with lower/upper limits bounded by -2M and A-2M | Consequence of inherited RH variance bounds and R26 identity | This is not a new improvement; individual packet estimates can grow |
+| R26-OPEN | Strict liminf Z_T<A-2M, or stronger sufficient <=1-2M | Open | No strict arithmetic, AH-refuting or Montgomery theorem is proved |

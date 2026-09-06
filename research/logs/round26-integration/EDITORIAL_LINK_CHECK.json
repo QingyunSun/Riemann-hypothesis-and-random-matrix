@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checked": 12,
+  "targets": [
+    "research/dyson/round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+    "research/dyson/round26/global-reduction-review/INDEPENDENT_GLOBAL_REDUCTION_REVIEW.md",
+    "research/dyson/round26/singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+    "research/dyson/round26/coordinator-global-review/COORDINATOR_GLOBAL_REDUCTION_REVIEW.md",
+    "research/dyson/round26/INTAKE_MANIFEST.json",
+    "research/dyson/round26/SOURCE_LINK_MAP.md",
+    "research/logs/round26-integration/INTEGRATION_RECEIPT.json",
+    "research/dyson/round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+    "research/dyson/round26/singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+    "research/dyson/round26/global-reduction-review/source_and_replay_checks.json",
+    "research/dyson/round26/global-reduction-review/independent_exact_check_results.json",
+    "research/dyson/round26/global-reduction-review/independent_exact_check_stdout.log"
+  ]
+}

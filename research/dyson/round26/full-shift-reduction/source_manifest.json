@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "bytes": 157587,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-0705.0723v2.pdf",
+      "scope": "primary; printed page1 equation1 and Theorem1, ordinary RH M\u00f6bius input",
+      "sha256": "9bacaa0c6bbaf687091d8be7b9f0df3e58727339002c9cabcb4de90e33f41fa7",
+      "url": "https://arxiv.org/pdf/0705.0723v2"
+    },
+    {
+      "bytes": 37065,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-0705.0723v2.txt",
+      "scope": "retained primary extraction",
+      "sha256": "5739fc9b5c9a87a0bcd2f9327f85671866c52ea1fdf2c4760961988519835045",
+      "url": "https://arxiv.org/pdf/0705.0723v2"
+    },
+    {
+      "bytes": 1795864,
+      "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "scope": "primary; printed337 Theorem10 equation6.2, RH psi bound",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf"
+    },
+    {
+      "bytes": 64608,
+      "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "scope": "retained primary extraction",
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf"
+    },
+    {
+      "bytes": 275525,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.pdf",
+      "scope": "primary; printed page16 Eq47, unconditional full singular-series hinge asymptotic",
+      "sha256": "4814387da412faf35d86f7e5d84a789cfa6743b08a6dff1e47fbc7632d7a8176",
+      "url": "https://arxiv.org/pdf/math/0409258v1"
+    },
+    {
+      "bytes": 104037,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.txt",
+      "scope": "retained primary extraction; Eq47 at printed page16",
+      "sha256": "8f00b857564f48f187284592e9feba4c22ddbab4b4e1958bc0c7231029b8c10f",
+      "url": "https://arxiv.org/pdf/math/0409258v1"
+    },
+    {
+      "bytes": 116491,
+      "path": "research-round26/full-shift-reduction/sources/ms-page-16.png",
+      "scope": "printed MS page16 Eq47 rendered100dpi and visually checked",
+      "sha256": "d8a758b97bf6c481818ca1160467aa38e79c4d4d199e14e45b1e9058e998dd94"
+    },
+    {
+      "bytes": 19377,
+      "path": "research-round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+      "scope": "frozen compact-packet proof; new variable-scale/global debts independently rederived",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "bytes": 18459,
+      "path": "research-round25/joint-main-cancellation-review/INDEPENDENT_JOINT_MAIN_REVIEW.md",
+      "scope": "frozen independent R25 full proof review",
+      "sha256": "0bca000d65a52c2915765913e5208e7736edc38307df84995136df2e0feff385"
+    },
+    {
+      "bytes": 21504,
+      "path": "research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "scope": "corrected frozen actual variance M0+E identity; impossible all-shift premise is not invoked",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+    },
+    {
+      "bytes": 13005,
+      "path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "scope": "frozen global singleton renormalization",
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "bytes": 7693,
+      "path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "scope": "frozen parity correction and actual Q2 coefficient",
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    },
+    {
+      "bytes": 8245,
+      "path": "research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "scope": "frozen removal of odd-shift prime-power pairs in inherited assembly",
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30"
+    },
+    {
+      "bytes": 12215,
+      "path": "research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "scope": "frozen uniform dimension2 sieve input; present note independently applies it to q2",
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b"
+    },
+    {
+      "bytes": 18644,
+      "path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "scope": "actual exponential-length variance and RH context",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "bytes": 14577,
+      "path": "research-round26/singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+      "scope": "independent companion ordinary proof of the accumulated M1 correction; no extra assumption",
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe"
+    }
+  ],
+  "path_base": "ACUE-Astra-Handoff-2026-09-04",
+  "primary_visual_check": "MS printedpage16 Eq47 read at100dpi,2026-09-05; same PDF/text pinned fromR21. Soundararajan and Schoenfeld retained source scopes unchanged.",
+  "source_scope": "Ordinary RH M\u00f6bius and full psi estimates; unconditional singular-series theorem and uniform upper sieve. No GRH or conditional prime-pair asymptotic.",
+  "status": "all retained primary and dependency bytes verified"
+}

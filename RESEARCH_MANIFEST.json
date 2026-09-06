@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 71139,
-      "sha256": "1cda9b90c785c11cd3c019349f3d6a58048163d4556f2c6883f201bdb2f0cf3a"
+      "bytes": 72993,
+      "sha256": "4518d26778610c18acf1069597ac19a76e9b20e364dcd5adc1634b5f5f70ddda"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 51604,
-      "sha256": "22a763425aafcfaf9b472812ce27190f3b0418ab4d133842ab7a3d4ea1e764a1"
+      "bytes": 52866,
+      "sha256": "869aad9dc6a161faae0af5cd7aee393d11de2479d71606a852ccfb159eee7406"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -2952,6 +2952,151 @@
       "sha256": "12f94dfe0d51d25d99c8be0930c8ff8cb0aefd829f68933e8b86880ebdaf502c"
     },
     {
+      "path": "research/dyson/round26/INTAKE_MANIFEST.json",
+      "bytes": 7172,
+      "sha256": "7ac1eba28ab496d66533767def919742069168240883e59f4eab842ff7384718"
+    },
+    {
+      "path": "research/dyson/round26/SOURCE_LINK_MAP.md",
+      "bytes": 1572,
+      "sha256": "b641d00468e0a2fce7f2c84fb43a1d83a5c8b2238c271f116b30ff80b8c04989"
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/AUTHOR_BYTES_READ.json",
+      "bytes": 925,
+      "sha256": "5fa3cba4274835439f7604743ad33f40f34b37b7ab363a6a3c282b1ab8b7b4f8"
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/COORDINATOR_GLOBAL_REDUCTION_REVIEW.md",
+      "bytes": 6740,
+      "sha256": "72a075853c4f3e5ca08a587415c7aa18cd2ff96e0d8016a0619b497a70070080"
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/COORDINATOR_GLOBAL_REDUCTION_REVIEW_RECEIPT.json",
+      "bytes": 2208,
+      "sha256": "586e0ba0abf2dba4da9643dbff6b8200610f7f08d85e4793817ad21e74673395"
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/COORDINATOR_RATIONAL_MARGINS.json",
+      "bytes": 386,
+      "sha256": "3e0d564912a371eef15f7295122b4de3c90d0b78395d35dc17e573a84558c3e8"
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/FULL_SHIFT_REDUCTION_AUTHOR_FROZEN.md",
+      "bytes": 22834,
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/REFINED_SINGULAR_CORRECTION_AUTHOR_FROZEN.md",
+      "bytes": 14577,
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe"
+    },
+    {
+      "path": "research/dyson/round26/full-shift-reduction/AUTHOR_RECEIPT.json",
+      "bytes": 1803,
+      "sha256": "ee739ec077a190962f89f0990c32b5936fc244fc632ad928aa06c6310698cd73"
+    },
+    {
+      "path": "research/dyson/round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "bytes": 22834,
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    },
+    {
+      "path": "research/dyson/round26/full-shift-reduction/check_full_shift.py",
+      "bytes": 4671,
+      "sha256": "44aed4416f64c413a95c8486b5fc1dd15dbf25e8105f8b5f26bb5c7c272ade8c"
+    },
+    {
+      "path": "research/dyson/round26/full-shift-reduction/exact_check_results.json",
+      "bytes": 1152,
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "path": "research/dyson/round26/full-shift-reduction/exact_check_stdout.log",
+      "bytes": 1152,
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "path": "research/dyson/round26/full-shift-reduction/math_syntax_check.json",
+      "bytes": 74,
+      "sha256": "51af0af69831a767551d1e99765cffdb6e2a90febf0d20f6d2956effd62e5035"
+    },
+    {
+      "path": "research/dyson/round26/full-shift-reduction/source_manifest.json",
+      "bytes": 5526,
+      "sha256": "9c837898f2c221505deecc27c69554f0cbacf7b2dd5267f231b10dd35a3172e1"
+    },
+    {
+      "path": "research/dyson/round26/global-reduction-review/INDEPENDENT_GLOBAL_REDUCTION_REVIEW.md",
+      "bytes": 23124,
+      "sha256": "92d728c2f5d97f1e66b3582647cb2c66ef9c94203c2427ca3f439caca671e729"
+    },
+    {
+      "path": "research/dyson/round26/global-reduction-review/REVIEW_RECEIPT.json",
+      "bytes": 5310,
+      "sha256": "6bd09583fdf94ad1c01e1d39f1cc752f9a859d147f57c25826e4b388978386f4"
+    },
+    {
+      "path": "research/dyson/round26/global-reduction-review/check_math_syntax.cjs",
+      "bytes": 1554,
+      "sha256": "5a1bda4ec20aeed178d7281d2639c4a29382f5ff9e1b1bd96afa1f26dbc640b6"
+    },
+    {
+      "path": "research/dyson/round26/global-reduction-review/independent_exact_check_results.json",
+      "bytes": 1152,
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "path": "research/dyson/round26/global-reduction-review/independent_exact_check_stdout.log",
+      "bytes": 1152,
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "path": "research/dyson/round26/global-reduction-review/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "9f68d9192045e75d10a4866b9d8c4e4f02f1e1bcefce02ce75f646317612c39f"
+    },
+    {
+      "path": "research/dyson/round26/global-reduction-review/source_and_replay_checks.json",
+      "bytes": 11395,
+      "sha256": "917493f027cdf2dafeb03e57ccb034e4ec5db07a3cff5ef1d05698294b35a6ff"
+    },
+    {
+      "path": "research/dyson/round26/singular-correction-review/AUTHOR_RECEIPT.json",
+      "bytes": 2280,
+      "sha256": "ad06787e4fe1c8b32d2904266cd15368531aeee0cc5f5059680d3c1281908390"
+    },
+    {
+      "path": "research/dyson/round26/singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+      "bytes": 14577,
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe"
+    },
+    {
+      "path": "research/dyson/round26/singular-correction-review/check_singular_correction_algebra.py",
+      "bytes": 1639,
+      "sha256": "d8dfa09d5cf5e5944086345f03dad94ade50ab4d3d67fdc10961614382c1eb28"
+    },
+    {
+      "path": "research/dyson/round26/singular-correction-review/math_syntax_checks.json",
+      "bytes": 88,
+      "sha256": "90d0c0abe91b9c2c57a6e6ccd757342cc26a6ee59b66a1fcb77667f12f659e4f"
+    },
+    {
+      "path": "research/dyson/round26/singular-correction-review/singular_correction_checks.json",
+      "bytes": 509,
+      "sha256": "12f25aafa2c2f5e21298df97146de49388f6c90728d705610a215888b0f09479"
+    },
+    {
+      "path": "research/dyson/round26/singular-correction-review/singular_correction_checks.log",
+      "bytes": 509,
+      "sha256": "12f25aafa2c2f5e21298df97146de49388f6c90728d705610a215888b0f09479"
+    },
+    {
+      "path": "research/dyson/round26/singular-correction-review/source_receipt.json",
+      "bytes": 3169,
+      "sha256": "8ef861c990ade4509cbf228f47e7461631ab7316866bac87cf639ec240d24eba"
+    },
+    {
       "path": "research/dyson/round7/INTAKE_MANIFEST.json",
       "bytes": 21425,
       "sha256": "23dcf8432a3c6d72c2a2fc7c4d0e28ded8aba82d4d1d484a1d71cd29933da7f3"
@@ -3850,6 +3995,26 @@
       "path": "research/logs/round25-integration/MATH_SYNTAX_CHECK.json",
       "bytes": 2716,
       "sha256": "1700f90972f693a2691d61e98286545a9e0a03066a493143d4cab005a4bf6370"
+    },
+    {
+      "path": "research/logs/round26-integration/DEPENDENCY_HASH_CHECK.json",
+      "bytes": 44500,
+      "sha256": "18ffec1aa4ce602767965fc71f1d97d2c51a154ca1dcb159b05a9c4394cd5eaa"
+    },
+    {
+      "path": "research/logs/round26-integration/EDITORIAL_LINK_CHECK.json",
+      "bytes": 1003,
+      "sha256": "4dd2f409e77834e823ebd854464ba3944596b0794d0154781e8814cb2d189f94"
+    },
+    {
+      "path": "research/logs/round26-integration/INTEGRATION_RECEIPT.json",
+      "bytes": 1463,
+      "sha256": "b7fecae120f38a71bebafd81def72b5ad42b50431ca6b271f850486d19b0e965"
+    },
+    {
+      "path": "research/logs/round26-integration/MATH_SYNTAX_CHECK.json",
+      "bytes": 2217,
+      "sha256": "8bdba9388b758770d67189cea448f87ccb5bd4bc234a98e64b6ab34f4c6cd5a9"
     },
     {
       "path": "research/logs/round3-recheck-2026-09-05/README.md",
@@ -5302,6 +5467,11 @@
       "sha256": "fae61ab55a611f5f5522724bdb98eb92204443ff5bf26c470607198a62c27984"
     },
     {
+      "path": "research/reports/dyson_round26.md",
+      "bytes": 12518,
+      "sha256": "a5dda62943722d1d4a90d25bcfb75f8bbe618a116951ff1586d767958e5e10fe"
+    },
+    {
       "path": "research/reports/dyson_round7.md",
       "bytes": 8767,
       "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33"
@@ -5968,8 +6138,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 12051,
-      "sha256": "5ea33593df4b7830363e2f7cfb7dfbbd5c6358d6eb993655eec912aaccd64f22"
+      "bytes": 12417,
+      "sha256": "10a86fcfffdd483ae2c9104a3f6eb1cf3df67c173c681ee65479056c45866bfe"
     },
     {
       "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",

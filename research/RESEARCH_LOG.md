@@ -391,3 +391,17 @@ The next bounded work exploits p|h in the nonprimitive terms, switches the full 
 **Evidence.** Forty-two originals total 1,758,250 bytes; 35 public originals total 171,178 bytes, with seven complete primary bodies retained locally. Integration verifies 91 dependency records without path substitutions, and two complete author/independent JSON-and-stdout replay pairs. The first Fourier copied replay lacked its required manuscript hash input; the exact input was copied and the successful rerun is fully recorded. No source edits or numerical scans were used.
 
 **Next.** The full shift partition must keep an accumulated singular-series correction, rather than summing O(log^-2 T) packet errors as if their total vanished. Then a joint signed estimate, not another equivalent formulation, must improve the actual bound. See [Round 25](reports/dyson_round25.md).
+
+## 2026-09-06: Round 26, the complete shift partition and its surviving constant
+
+**Question.** Can the central-scale packet reduction be extended to the full actual variance without discarding a cumulative main term?
+
+**Result.** Yes, under ordinary RH. An exact smooth dyadic partition uses Y_j=2^j sqrt(logT), Q_j=Y_j^(2/3), real cutoff thresholds and the original Pareto kernel. Fixed-order completions make all nine local error types summable. A direct bound for q2 removes small shifts, and both infinite tails are controlled absolutely. The full identity is Q2=Z_T+M1+O(log(T)^(-1/2)).
+
+**Correction preserved.** The stronger unconditional MS singular-series average contributes -one-half integral f/h in each marginal. Its summed contribution to Q2-Z_T is positive M1. The companion computes exact b_T moments independently. For the actual symmetric bump M1=M, so the variance is Z_T+2M+o(1), not Z_T+M+o(1). A mistaken zero limit for this newly defined covariance would lose that constant.
+
+**What is still missing.** The inherited nonnegative variance and RH cap give global Z_T=O(1), but no strict improvement below A-2M. Individual packet bounds still grow. R25 fixed-power Davenport logarithms do not extend uniformly to the new lowest polylogarithmic scales.
+
+**Evidence.** Full Euclid proof, Aquinas independent correction proof, Plato full review and coordinator full review are preserved. Seven groups/2,793 exact cases replay with identical complete outputs; the companion has eight symbolic checks. No new frequency or prime scan and no proof-assistant claim. See [Round 26](reports/dyson_round26.md).
+
+**Next.** Test a legal joint cofactor/mixed-moment inequality with its correct upper-bound direction. Do not confuse an equivalent formulation with a new bound, or a lower-bound projection certificate with the strict upper target.

@@ -42,3 +42,6 @@ research/dyson/round24/small-cofactor-target/check_exact_constants.py whitespace
 
 # Preserve frozen Round 25 source EOF blank lines.
 research/dyson/round25/joint-main-cancellation/check_joint_main.py whitespace=-blank-at-eof
+
+# Preserve frozen Round 26 source EOF blank lines.
+research/dyson/round26/full-shift-reduction/check_full_shift.py whitespace=-blank-at-eof
