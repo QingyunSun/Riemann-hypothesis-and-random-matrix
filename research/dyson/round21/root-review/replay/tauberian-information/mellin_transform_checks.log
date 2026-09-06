@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "Exact kernel/Jacobian/gamma-algebra/normalization checks only; not a proof of Wiener density, analytic limits, a numerical inverse, or a zeta deficit.",
+  "sympy_version": "1.14.0",
+  "report_sha256": "3f3391cb149b69e86d6c758267eec56ae9d86f7523f2dcf078f6f351ff9ee48c",
+  "checks": [
+    {
+      "name": "logarithmic change of variables",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "positive kernel normalization",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "square-variable Jacobian",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "gamma reflection trigonometric factor",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "gamma recurrence and reflection multiplier",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "reflected kernel transform at zero",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "opposite Fourier-sign conjugacy",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "squared Fourier modulus",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "first Mellin derivative at zero",
+      "status": "PASS",
+      "exact_residue": "0"
+    },
+    {
+      "name": "height modulus for positive logarithmic shift",
+      "status": "PASS",
+      "exact_residue": "0"
+    }
+  ],
+  "number_of_checks": 10,
+  "nonvanishing_argument": "For real tau, 1+tau^2>0 and cosh(pi*tau/2)>0; the exact squared modulus is therefore strictly positive."
+}

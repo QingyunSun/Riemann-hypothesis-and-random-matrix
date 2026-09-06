@@ -1,0 +1,1575 @@
+{
+  "status": "PASS",
+  "checked_records": 196,
+  "checks": [
+    {
+      "receipt": "kernel-realizability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/kernel-realizability/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/AUTHOR_RECEIPT.json",
+      "bytes": 1332,
+      "sha256": "c4bb847deb6e9e4be6ce12e838dfb4ddd438ea314f5a2bfed1379e75ad63e86d",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/kernel-realizability-review/INDEPENDENT_REALIZABILITY_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability-review/INDEPENDENT_REALIZABILITY_REVIEW.md",
+      "bytes": 6993,
+      "sha256": "5b2b0acf98e08b11091e9a342f5b420773443d2ef31f8ebc9f88b001d9b98054",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "bytes": 7052,
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/kernel-realizability/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/math_syntax_checks.json",
+      "bytes": 465,
+      "sha256": "455c5ff51d6a713196f418a7d69d91b045a565e4cc88d8bf52b2468ee18fdf61",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "bytes": 17120,
+      "sha256": "331e923f508fe05f88491cb0b0992930323c2b095fe48a4083dd427c02ffa9da",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/source_receipt.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "bytes": 18339,
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/source_receipt.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "bytes": 1638,
+      "sha256": "4af1a6589b091442935c42ff5c4ba9619199b983ae046d4d88013841b504b239",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/source_receipt.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "bytes": 8245,
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/AUTHOR_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "bytes": 9934,
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/AUTHOR_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/check_nonprimitive_exponents.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/check_nonprimitive_exponents.py",
+      "bytes": 1490,
+      "sha256": "4f6caa17ba6b0eabbd3617c81d9ae3bbb38f663910e3fbacd1d22cd6a8de1f0e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/AUTHOR_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/nonprimitive_exponent_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/nonprimitive_exponent_checks.json",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/AUTHOR_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/nonprimitive_exponent_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/nonprimitive_exponent_checks.log",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/AUTHOR_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/math_syntax_checks.json",
+      "bytes": 87,
+      "sha256": "c7ec895ab5ef517a1bf2bc52b070dd4b47fd4879ca01215e61b803027f20cab4",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive/AUTHOR_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/source_receipt.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/source_receipt.json",
+      "bytes": 1066,
+      "sha256": "9976c8707f22acbb0ecbf88105a88aac3bd3d6ce296e88ef1118e0e9ee82696b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-review/INDEPENDENT_SMALL_COFACTOR_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-review/INDEPENDENT_SMALL_COFACTOR_REVIEW.md",
+      "bytes": 9668,
+      "sha256": "7c424b08cc6ef058e2c40fa0556c048904f260ba52b8f902d0fc66033262514a",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-review/verification_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-review/verification_checks.json",
+      "bytes": 4385,
+      "sha256": "b2c0b17d631568aa45f516cfc7614926755f180db39807e92d5f50f8a45fd40b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-review/review_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-review/review_syntax_checks.json",
+      "bytes": 88,
+      "sha256": "7381fd35b392421604ebcd35751001e23e4eedaa0c2db174a785caf1583a1f2a",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "bytes": 20129,
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/AUTHOR_RECEIPT.json",
+      "bytes": 1718,
+      "sha256": "c91d0c22c22d7de5cc836325bea4ec0797fa1cd22c1b3e154294597d81fba31b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/source_manifest.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/source_manifest.json",
+      "bytes": 3314,
+      "sha256": "a409c9c767d36596784b653607d519ca94026a8ebceab057af22c45fa6a2014e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "bytes": 9934,
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/AUTHOR_RECEIPT.json",
+      "bytes": 2238,
+      "sha256": "1fb960176ef30c03076789d9140010bde23334763c18aa6628a57fc53fc4476d",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+      "bytes": 369949,
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+      "bytes": 112915,
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "bytes": 843595,
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "bytes": 180918,
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "bytes": 18339,
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "bytes": 13945,
+      "sha256": "c84270bc355febda26b2b14004029015524de75142aea637e5d23c064308df58",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "bytes": 20129,
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/check_exact_constants.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/check_exact_constants.py",
+      "bytes": 1354,
+      "sha256": "8b45f1a162c44cdeea5153e13a29c4ac3404667b0fa5b35eee84f2d9c0abf8ab",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/exact_constant_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/exact_constant_checks.json",
+      "bytes": 1033,
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/exact_constant_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/exact_constant_checks.log",
+      "bytes": 1033,
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-review/verification_checks.json",
+      "declared_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/source_manifest.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/source_manifest.json",
+      "bytes": 3314,
+      "sha256": "a409c9c767d36596784b653607d519ca94026a8ebceab057af22c45fa6a2014e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-realizability-review/COORDINATOR_REALIZABILITY_REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/COORDINATOR_REALIZABILITY_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/COORDINATOR_REALIZABILITY_REVIEW.md",
+      "bytes": 9056,
+      "sha256": "4808d9b1a571e18c6852d534a10edf91d3314df3d8365cdad35109907950ea14",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/general-nonprimitive/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/AUTHOR_RECEIPT.json",
+      "bytes": 2238,
+      "sha256": "1fb960176ef30c03076789d9140010bde23334763c18aa6628a57fc53fc4476d",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "bytes": 9934,
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/general-nonprimitive-review/INDEPENDENT_NONPRIMITIVE_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive-review/INDEPENDENT_NONPRIMITIVE_REVIEW.md",
+      "bytes": 10087,
+      "sha256": "ec7c6a63845ff54fcbe3ff34f5619c727b298afea0aa5a2ae2242bd40563e8a7",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/general-nonprimitive-review/source_and_replay_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive-review/source_and_replay_checks.json",
+      "bytes": 2953,
+      "sha256": "eecfa2aa338e2f8750bf96973a5d84b58597ea7ca2636990422524b0a34b7030",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/general-nonprimitive-review/independent_exponent_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive-review/independent_exponent_checks.json",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "declared_path": "research-round24/general-nonprimitive-review/independent_exponent_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive-review/independent_exponent_checks.log",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "bytes": 18339,
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "bytes": 1638,
+      "sha256": "4af1a6589b091442935c42ff5c4ba9619199b983ae046d4d88013841b504b239",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "bytes": 8245,
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "bytes": 9934,
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round24/general-nonprimitive/check_nonprimitive_exponents.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/check_nonprimitive_exponents.py",
+      "bytes": 1490,
+      "sha256": "4f6caa17ba6b0eabbd3617c81d9ae3bbb38f663910e3fbacd1d22cd6a8de1f0e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round24/general-nonprimitive/nonprimitive_exponent_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/nonprimitive_exponent_checks.json",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round24/general-nonprimitive/nonprimitive_exponent_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/nonprimitive_exponent_checks.log",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round24/general-nonprimitive/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/math_syntax_checks.json",
+      "bytes": 87,
+      "sha256": "c7ec895ab5ef517a1bf2bc52b070dd4b47fd4879ca01215e61b803027f20cab4",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "general-nonprimitive-review/source_and_replay_checks.json",
+      "declared_path": "research-round24/general-nonprimitive/source_receipt.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/source_receipt.json",
+      "bytes": 1066,
+      "sha256": "9976c8707f22acbb0ecbf88105a88aac3bd3d6ce296e88ef1118e0e9ee82696b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/sources/dlmf-27.2.html",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/sources/dlmf-27.2.html",
+      "bytes": 159124,
+      "sha256": "7281eb9a14b058f18307408b4a7a0e10471ed667004c82797a83b8a9cfa2d329",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/sources/dlmf-27.11.html",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/sources/dlmf-27.11.html",
+      "bytes": 120618,
+      "sha256": "d33816752fa993c118be9943d434f6f5762890b9174da025297fa11078c3d3c4",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "bytes": 17120,
+      "sha256": "331e923f508fe05f88491cb0b0992930323c2b095fe48a4083dd427c02ffa9da",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/COORDINATOR_R22_PUBLICATION_VERIFICATION.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/COORDINATOR_R22_PUBLICATION_VERIFICATION.json",
+      "bytes": 28612,
+      "sha256": "f0bf1228858d66230af945fa0dfd4f9ce2a8d0f3db9ff9a95d79cdceaafccff0",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/SECOND_READING_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/SECOND_READING_RECEIPT.json",
+      "bytes": 1020,
+      "sha256": "84f878f4a3534eaf436f7ff01b41302a857b8ea78445630a4d12a1df86fba38b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/TOOL_MEMO_R22_PUBLICATION_UPDATE_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/TOOL_MEMO_R22_PUBLICATION_UPDATE_RECEIPT.json",
+      "bytes": 544,
+      "sha256": "068847f90094ce7d671a2c71a3a85fa1b374d89d58482a104c816119bb7a7b65",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/TRANSFERABLE_MATH_TOOLS_R22_PUBLISHED.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/TRANSFERABLE_MATH_TOOLS_R22_PUBLISHED.md",
+      "bytes": 72764,
+      "sha256": "ccd2a2c263fe0e75bc4fd6f651891b35b00e7634d51429ee3b28443dc3495c04",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/AUTHOR_RECEIPT.json",
+      "bytes": 3289,
+      "sha256": "ae925879524a3396f3cb63ea1ff67078d44007427c67c9d5a3999d60555d4236",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW.md",
+      "bytes": 9496,
+      "sha256": "c3c73e58d58cb01a836c77ede94341409cd58b3a4309aa19d3503f774a1cf52d",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW_RECEIPT.json",
+      "bytes": 977,
+      "sha256": "28dfba2ced4ad8ce6cb5782a0edf26f03bb24b5d3bc1125e5e68e0106aff5678",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "bytes": 9114,
+      "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/PIN_CHECKS.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/PIN_CHECKS.json",
+      "bytes": 3751,
+      "sha256": "3a0405dde882857081b87f8e3a8284703c3605108c0fbcfec35cee85d2e1a669",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/SINGLETON_RENORMALIZATION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/SINGLETON_RENORMALIZATION.md",
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/check_singleton_renormalization.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/check_singleton_renormalization.py",
+      "bytes": 3139,
+      "sha256": "0f14fb615ddf24603e197bf1f4b24367c6f6943691f134aa6b6516b6b83d4f1e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/source_manifest.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/source_manifest.json",
+      "bytes": 2528,
+      "sha256": "047a44ad066549ab48529f255e40dfd30c4f200762218554b1978202672fa1f9",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2701,
+      "sha256": "440afb7f9bfd106670fbcd79910e5b24860da121cbc331ae785ec4ab79649c13",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "bytes": 13945,
+      "sha256": "c84270bc355febda26b2b14004029015524de75142aea637e5d23c064308df58",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/independent_author_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/independent_author_checks.json",
+      "bytes": 1777,
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/independent_author_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/independent_author_checks.log",
+      "bytes": 1777,
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/source_and_replay_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/source_and_replay_checks.json",
+      "bytes": 3043,
+      "sha256": "18283c43b83eb409d708f67a33aa63277f4708818a97d08df7ebb57815233305",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "bytes": 1638,
+      "sha256": "4af1a6589b091442935c42ff5c4ba9619199b983ae046d4d88013841b504b239",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "bytes": 18339,
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/check_upper_wing_completion.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/check_upper_wing_completion.py",
+      "bytes": 6964,
+      "sha256": "02cf3471cb845aa845c94db4869a0b8acb485bc2df099a4a222b4e181e7c43e3",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/source_manifest.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/source_manifest.json",
+      "bytes": 2239,
+      "sha256": "fee5d29b87d5bc072fb71a2f2727d98f66d52dafe654adce3dcedb180cf63e27",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/upper_wing_completion_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/upper_wing_completion_checks.json",
+      "bytes": 1777,
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/upper_wing_completion_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/upper_wing_completion_checks.log",
+      "bytes": 1777,
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/AUTHOR_RECEIPT.json",
+      "bytes": 3925,
+      "sha256": "b3cc9053a8953278f58e4dcb723c06c762a0f1928d348e66915cb5c207a8cd07",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/GROWING_WHEEL_CENTERING.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/GROWING_WHEEL_CENTERING.md",
+      "bytes": 12163,
+      "sha256": "d65b165547316a9b047db65295a4f1e05c3aa2a66416e287d9860688b3b3f73f",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/check_math_syntax.cjs",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/check_math_syntax.cjs",
+      "bytes": 1542,
+      "sha256": "a5863032df377cdd849dc2dde77ecfaa1ca6456f476ace24b4b73e47c617eb82",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/check_wheel_norm_algebra.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/check_wheel_norm_algebra.py",
+      "bytes": 2423,
+      "sha256": "5c12adf843d1645a05aec285999118f0faab98798dfac4c95296d0468831f6d2",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "8a0b5ada7bebb9249f73b0188fd8b30b604f11cd3f999c5666d79725ea9588aa",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/sources/SOURCE_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/sources/SOURCE_RECEIPT.json",
+      "bytes": 1026,
+      "sha256": "599ce7405dc47a63d8801bbf34a47e5c97fbc6f331b307652b86fa34db1308e8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/sources/dlmf-27.2.E3.tex",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/sources/dlmf-27.2.E3.tex",
+      "bytes": 41,
+      "sha256": "cd8b27adfc1701fdd7fffb920b45659d78e4c5719a0b4dd6b470d164683042ec",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/wheel_norm_algebra_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/wheel_norm_algebra_checks.json",
+      "bytes": 1125,
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/wheel_norm_algebra_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/wheel_norm_algebra_checks.log",
+      "bytes": 1125,
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/INDEPENDENT_GROWING_WHEEL_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/INDEPENDENT_GROWING_WHEEL_REVIEW.md",
+      "bytes": 11059,
+      "sha256": "afcfc009e88b4dc766296d447c81a759f11c071b2479f01251c1612808974612",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/REVIEW_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/REVIEW_RECEIPT.json",
+      "bytes": 2257,
+      "sha256": "b02c0b9967f3099f9e64eca33771c80ee3845d952c84716e9473c60ff1298bdc",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/input_and_replay_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/input_and_replay_checks.json",
+      "bytes": 3994,
+      "sha256": "4248f09cecf9d7d22d4f8916ba2a0e1bb7ec91dd74d21ebb62792f715f2257fc",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/replayed_wheel_norm_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/replayed_wheel_norm_checks.json",
+      "bytes": 1125,
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/replayed_wheel_norm_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/replayed_wheel_norm_checks.log",
+      "bytes": 1125,
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/AUTHOR_RECEIPT.json",
+      "bytes": 2249,
+      "sha256": "84e825e286e533bde223407d5a426f8b6b148e5bcbffeaa1b584b4c0e381191f",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/FIXED_MOD6_CENTERING.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/FIXED_MOD6_CENTERING.md",
+      "bytes": 17011,
+      "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/SOURCE_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/SOURCE_RECEIPT.json",
+      "bytes": 2563,
+      "sha256": "f48209d01379e1c8e7e4c84f828e1193ad922d894f0702bc7d072de32863c31b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/check_math_syntax.cjs",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/check_math_syntax.cjs",
+      "bytes": 1539,
+      "sha256": "f5ad160f0ba7d7048ed37b70cf5d1f576402fe834d9be40d9428b4d2b774b6e5",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/check_mod6_centering.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/check_mod6_centering.py",
+      "bytes": 4506,
+      "sha256": "fb15183dff1d7bf8bdda03057901aff25b5b3b8c8fa7a34d42a16f10176d8712",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "8d7544cbc8c89e182cca17dd889c9c1dc9d5189ec016648c56f05bdd36c2010f",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/mod6_centering_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/mod6_centering_checks.json",
+      "bytes": 9592,
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/mod6_centering_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/mod6_centering_checks.log",
+      "bytes": 9592,
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/INDEPENDENT_MOD6_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/INDEPENDENT_MOD6_REVIEW.md",
+      "bytes": 9883,
+      "sha256": "9e6850f2da9558c9ae068c49e57fbe8b51d931fe96bc72c4044f38a44421b242",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/ROOT_REVIEW_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/ROOT_REVIEW_RECEIPT.json",
+      "bytes": 3349,
+      "sha256": "f3ef5f31291ba5c9504c645c717d244059556f9c74c242ed8c799f2175cc87d7",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/math_syntax_checks.json",
+      "bytes": 454,
+      "sha256": "2e2f787703b60d81536dae427a194c1e16481a75f20123881b9fbc42ad69f8cb",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/replay/FIXED_MOD6_CENTERING.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/replay/FIXED_MOD6_CENTERING.md",
+      "bytes": 17011,
+      "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/replay/check_mod6_centering.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/replay/check_mod6_centering.py",
+      "bytes": 4506,
+      "sha256": "fb15183dff1d7bf8bdda03057901aff25b5b3b8c8fa7a34d42a16f10176d8712",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/replay/mod6_centering_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/replay/mod6_centering_checks.json",
+      "bytes": 9592,
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/replay/mod6_centering_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/replay/mod6_centering_checks.log",
+      "bytes": 9592,
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "bytes": 17120,
+      "sha256": "331e923f508fe05f88491cb0b0992930323c2b095fe48a4083dd427c02ffa9da",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/COORDINATOR_R22_PUBLICATION_VERIFICATION.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/COORDINATOR_R22_PUBLICATION_VERIFICATION.json",
+      "bytes": 28612,
+      "sha256": "f0bf1228858d66230af945fa0dfd4f9ce2a8d0f3db9ff9a95d79cdceaafccff0",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/SECOND_READING_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/SECOND_READING_RECEIPT.json",
+      "bytes": 1020,
+      "sha256": "84f878f4a3534eaf436f7ff01b41302a857b8ea78445630a4d12a1df86fba38b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/TOOL_MEMO_R22_PUBLICATION_UPDATE_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/TOOL_MEMO_R22_PUBLICATION_UPDATE_RECEIPT.json",
+      "bytes": 544,
+      "sha256": "068847f90094ce7d671a2c71a3a85fa1b374d89d58482a104c816119bb7a7b65",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-intake/TRANSFERABLE_MATH_TOOLS_R22_PUBLISHED.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/TRANSFERABLE_MATH_TOOLS_R22_PUBLISHED.md",
+      "bytes": 72764,
+      "sha256": "ccd2a2c263fe0e75bc4fd6f651891b35b00e7634d51429ee3b28443dc3495c04",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/AUTHOR_RECEIPT.json",
+      "bytes": 3289,
+      "sha256": "ae925879524a3396f3cb63ea1ff67078d44007427c67c9d5a3999d60555d4236",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW.md",
+      "bytes": 9496,
+      "sha256": "c3c73e58d58cb01a836c77ede94341409cd58b3a4309aa19d3503f774a1cf52d",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW_RECEIPT.json",
+      "bytes": 977,
+      "sha256": "28dfba2ced4ad8ce6cb5782a0edf26f03bb24b5d3bc1125e5e68e0106aff5678",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "bytes": 9114,
+      "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/PIN_CHECKS.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/PIN_CHECKS.json",
+      "bytes": 3751,
+      "sha256": "3a0405dde882857081b87f8e3a8284703c3605108c0fbcfec35cee85d2e1a669",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/SINGLETON_RENORMALIZATION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/SINGLETON_RENORMALIZATION.md",
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/check_singleton_renormalization.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/check_singleton_renormalization.py",
+      "bytes": 3139,
+      "sha256": "0f14fb615ddf24603e197bf1f4b24367c6f6943691f134aa6b6516b6b83d4f1e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "coordinator-r22-review/source_manifest.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-r22-review/source_manifest.json",
+      "bytes": 2528,
+      "sha256": "047a44ad066549ab48529f255e40dfd30c4f200762218554b1978202672fa1f9",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "bytes": 1638,
+      "sha256": "4af1a6589b091442935c42ff5c4ba9619199b983ae046d4d88013841b504b239",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "bytes": 18339,
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/check_upper_wing_completion.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/check_upper_wing_completion.py",
+      "bytes": 6964,
+      "sha256": "02cf3471cb845aa845c94db4869a0b8acb485bc2df099a4a222b4e181e7c43e3",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/source_manifest.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/source_manifest.json",
+      "bytes": 2239,
+      "sha256": "fee5d29b87d5bc072fb71a2f2727d98f66d52dafe654adce3dcedb180cf63e27",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/upper_wing_completion_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/upper_wing_completion_checks.json",
+      "bytes": 1777,
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion/upper_wing_completion_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/upper_wing_completion_checks.log",
+      "bytes": 1777,
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2701,
+      "sha256": "440afb7f9bfd106670fbcd79910e5b24860da121cbc331ae785ec4ab79649c13",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "bytes": 13945,
+      "sha256": "c84270bc355febda26b2b14004029015524de75142aea637e5d23c064308df58",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/independent_author_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/independent_author_checks.json",
+      "bytes": 1777,
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/independent_author_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/independent_author_checks.log",
+      "bytes": 1777,
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "even-pair-dispersion-review/source_and_replay_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/source_and_replay_checks.json",
+      "bytes": 3043,
+      "sha256": "18283c43b83eb409d708f67a33aa63277f4708818a97d08df7ebb57815233305",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/AUTHOR_RECEIPT.json",
+      "bytes": 3925,
+      "sha256": "b3cc9053a8953278f58e4dcb723c06c762a0f1928d348e66915cb5c207a8cd07",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/GROWING_WHEEL_CENTERING.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/GROWING_WHEEL_CENTERING.md",
+      "bytes": 12163,
+      "sha256": "d65b165547316a9b047db65295a4f1e05c3aa2a66416e287d9860688b3b3f73f",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/check_math_syntax.cjs",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/check_math_syntax.cjs",
+      "bytes": 1542,
+      "sha256": "a5863032df377cdd849dc2dde77ecfaa1ca6456f476ace24b4b73e47c617eb82",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/check_wheel_norm_algebra.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/check_wheel_norm_algebra.py",
+      "bytes": 2423,
+      "sha256": "5c12adf843d1645a05aec285999118f0faab98798dfac4c95296d0468831f6d2",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "8a0b5ada7bebb9249f73b0188fd8b30b604f11cd3f999c5666d79725ea9588aa",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/sources/SOURCE_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/sources/SOURCE_RECEIPT.json",
+      "bytes": 1026,
+      "sha256": "599ce7405dc47a63d8801bbf34a47e5c97fbc6f331b307652b86fa34db1308e8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/sources/dlmf-27.2.E3.tex",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/sources/dlmf-27.2.E3.tex",
+      "bytes": 41,
+      "sha256": "cd8b27adfc1701fdd7fffb920b45659d78e4c5719a0b4dd6b470d164683042ec",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/sources/dlmf-27.2.html",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/sources/dlmf-27.2.html",
+      "bytes": 159124,
+      "sha256": "7281eb9a14b058f18307408b4a7a0e10471ed667004c82797a83b8a9cfa2d329",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/wheel_norm_algebra_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/wheel_norm_algebra_checks.json",
+      "bytes": 1125,
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-centering/wheel_norm_algebra_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/wheel_norm_algebra_checks.log",
+      "bytes": 1125,
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/INDEPENDENT_GROWING_WHEEL_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/INDEPENDENT_GROWING_WHEEL_REVIEW.md",
+      "bytes": 11059,
+      "sha256": "afcfc009e88b4dc766296d447c81a759f11c071b2479f01251c1612808974612",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/REVIEW_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/REVIEW_RECEIPT.json",
+      "bytes": 2257,
+      "sha256": "b02c0b9967f3099f9e64eca33771c80ee3845d952c84716e9473c60ff1298bdc",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/input_and_replay_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/input_and_replay_checks.json",
+      "bytes": 3994,
+      "sha256": "4248f09cecf9d7d22d4f8916ba2a0e1bb7ec91dd74d21ebb62792f715f2257fc",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/replayed_wheel_norm_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/replayed_wheel_norm_checks.json",
+      "bytes": 1125,
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "growing-wheel-review/replayed_wheel_norm_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-review/replayed_wheel_norm_checks.log",
+      "bytes": 1125,
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/AUTHOR_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/AUTHOR_RECEIPT.json",
+      "bytes": 2249,
+      "sha256": "84e825e286e533bde223407d5a426f8b6b148e5bcbffeaa1b584b4c0e381191f",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/FIXED_MOD6_CENTERING.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/FIXED_MOD6_CENTERING.md",
+      "bytes": 17011,
+      "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/SOURCE_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/SOURCE_RECEIPT.json",
+      "bytes": 2563,
+      "sha256": "f48209d01379e1c8e7e4c84f828e1193ad922d894f0702bc7d072de32863c31b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/check_math_syntax.cjs",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/check_math_syntax.cjs",
+      "bytes": 1539,
+      "sha256": "f5ad160f0ba7d7048ed37b70cf5d1f576402fe834d9be40d9428b4d2b774b6e5",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/check_mod6_centering.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/check_mod6_centering.py",
+      "bytes": 4506,
+      "sha256": "fb15183dff1d7bf8bdda03057901aff25b5b3b8c8fa7a34d42a16f10176d8712",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "8d7544cbc8c89e182cca17dd889c9c1dc9d5189ec016648c56f05bdd36c2010f",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/mod6_centering_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/mod6_centering_checks.json",
+      "bytes": 9592,
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/mod6_centering_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/mod6_centering_checks.log",
+      "bytes": 9592,
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod3-centering/sources/dlmf-27.11.html",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/sources/dlmf-27.11.html",
+      "bytes": 120618,
+      "sha256": "d33816752fa993c118be9943d434f6f5762890b9174da025297fa11078c3d3c4",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/INDEPENDENT_MOD6_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/INDEPENDENT_MOD6_REVIEW.md",
+      "bytes": 9883,
+      "sha256": "9e6850f2da9558c9ae068c49e57fbe8b51d931fe96bc72c4044f38a44421b242",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/ROOT_REVIEW_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/ROOT_REVIEW_RECEIPT.json",
+      "bytes": 3349,
+      "sha256": "f3ef5f31291ba5c9504c645c717d244059556f9c74c242ed8c799f2175cc87d7",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/math_syntax_checks.json",
+      "bytes": 454,
+      "sha256": "2e2f787703b60d81536dae427a194c1e16481a75f20123881b9fbc42ad69f8cb",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/replay/FIXED_MOD6_CENTERING.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/replay/FIXED_MOD6_CENTERING.md",
+      "bytes": 17011,
+      "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/replay/check_mod6_centering.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/replay/check_mod6_centering.py",
+      "bytes": 4506,
+      "sha256": "fb15183dff1d7bf8bdda03057901aff25b5b3b8c8fa7a34d42a16f10176d8712",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/replay/mod6_centering_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/replay/mod6_centering_checks.json",
+      "bytes": 9592,
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "declared_path": "mod6-root-review/replay/mod6_centering_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod6-root-review/replay/mod6_centering_checks.log",
+      "bytes": 9592,
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "bytes": 7052,
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/kernel-realizability/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/math_syntax_checks.json",
+      "bytes": 465,
+      "sha256": "455c5ff51d6a713196f418a7d69d91b045a565e4cc88d8bf52b2468ee18fdf61",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "bytes": 17120,
+      "sha256": "331e923f508fe05f88491cb0b0992930323c2b095fe48a4083dd427c02ffa9da",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "kernel-realizability/math_syntax_checks.json",
+      "declared_path": "../../../Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/../../../Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "bytes": 7052,
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-r23-review/COORDINATOR_MOD6_REVIEW_RECEIPT.json",
+      "declared_path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r23/mod6/COORDINATOR_MOD6_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r23/mod6/COORDINATOR_MOD6_REVIEW.md",
+      "bytes": 7536,
+      "sha256": "3dafd94b7e9fa4ec1e0ff23791a22ee0f5990677706784162823d97576b3fe26",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-r23-review/PIN_CHECKS.json",
+      "declared_path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-r23-review/PIN_CHECKS.json",
+      "declared_path": "research-round22/singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "bytes": 9114,
+      "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-r23-review/PIN_CHECKS.json",
+      "declared_path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-r23-review/PIN_CHECKS.json",
+      "declared_path": "research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "bytes": 12215,
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-r23-review/PIN_CHECKS.json",
+      "declared_path": "research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "bytes": 21504,
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-r23-review/PIN_CHECKS.json",
+      "declared_path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "coordinator-r23-review/PIN_CHECKS.json",
+      "declared_path": "research-round23/mod3-centering/sources/dlmf-27.11.html",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/sources/dlmf-27.11.html",
+      "bytes": 120618,
+      "sha256": "d33816752fa993c118be9943d434f6f5762890b9174da025297fa11078c3d3c4",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "bytes": 20129,
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/small-cofactor-target/check_exact_constants.py",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/check_exact_constants.py",
+      "bytes": 1354,
+      "sha256": "8b45f1a162c44cdeea5153e13a29c4ac3404667b0fa5b35eee84f2d9c0abf8ab",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/small-cofactor-target/exact_constant_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/exact_constant_checks.json",
+      "bytes": 1033,
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/small-cofactor-target/exact_constant_checks.log",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/exact_constant_checks.log",
+      "bytes": 1033,
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/small-cofactor-target/source_manifest.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/source_manifest.json",
+      "bytes": 3314,
+      "sha256": "a409c9c767d36596784b653607d519ca94026a8ebceab057af22c45fa6a2014e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "sources/openai-short-gaps.pdf",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+      "bytes": 369949,
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "sources/openai-short-gaps.txt",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+      "bytes": 112915,
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "bytes": 843595,
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "bytes": 180918,
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "bytes": 18339,
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "bytes": 13945,
+      "sha256": "c84270bc355febda26b2b14004029015524de75142aea637e5d23c064308df58",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "small-cofactor-target/source_manifest.json",
+      "declared_path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "finite-window-realizability/SOURCE_RECEIPT.json",
+      "declared_path": "research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "bytes": 7052,
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "finite-window-realizability/SOURCE_RECEIPT.json",
+      "declared_path": "research-round23/mod3-centering/FIXED_MOD6_CENTERING.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/FIXED_MOD6_CENTERING.md",
+      "bytes": 17011,
+      "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "finite-window-realizability/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/finite-window-realizability/FINITE_WINDOW_ZERO_MARGIN_THEOREM.md",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/finite-window-realizability/FINITE_WINDOW_ZERO_MARGIN_THEOREM.md",
+      "bytes": 11658,
+      "sha256": "c857d22a766099049bcdc95cdb12bf876d87deb6d83f9e9654c154d4dc2a6a7d",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "finite-window-realizability/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/finite-window-realizability/SOURCE_RECEIPT.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/finite-window-realizability/SOURCE_RECEIPT.json",
+      "bytes": 804,
+      "sha256": "988c04e004e1a04b380cc9d13d883d45748a52958740bdc0d617f39a6bc73eb6",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "finite-window-realizability/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/finite-window-realizability/check_math_syntax.cjs",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/finite-window-realizability/check_math_syntax.cjs",
+      "bytes": 1552,
+      "sha256": "35b075feaf711732c6c823d4dcf0b103d14c6d697f73bb60ff8e6d2cf2828701",
+      "exact_byte_path_substitute": false
+    },
+    {
+      "receipt": "finite-window-realizability/AUTHOR_RECEIPT.json",
+      "declared_path": "research-round24/finite-window-realizability/math_syntax_checks.json",
+      "verified_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/finite-window-realizability/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "c04c277515e63ee0a060c841e7ff2d1dabdcfed61457c5cec53a32c7ab14785e",
+      "exact_byte_path_substitute": false
+    }
+  ],
+  "unresolved_records": []
+}

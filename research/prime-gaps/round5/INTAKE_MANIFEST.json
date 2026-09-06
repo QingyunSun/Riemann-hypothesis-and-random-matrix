@@ -1,0 +1,380 @@
+{
+  "source_date": "2026-09-05",
+  "files": [
+    {
+      "staging_path": "exceptional-radius/EXCEPTIONAL_RADIUS_EXTENSION.md",
+      "published_path": "research/prime-gaps/round5/exceptional-radius/EXCEPTIONAL_RADIUS_EXTENSION.md",
+      "original_sha256": "70326c9bd4430855349a64fc2863e0dcccd80f40e9b0b5b28750925e0c7de54b",
+      "published_sha256": "70326c9bd4430855349a64fc2863e0dcccd80f40e9b0b5b28750925e0c7de54b",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "exceptional-radius/certify_exceptional_radius.json",
+      "published_path": "research/prime-gaps/round5/exceptional-radius/certify_exceptional_radius.json",
+      "original_sha256": "be69aa8f0c06cedbea91d32dc452cf543d19fb8ee54eae0603412dfeaeb734da",
+      "published_sha256": "be69aa8f0c06cedbea91d32dc452cf543d19fb8ee54eae0603412dfeaeb734da",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "exceptional-radius/certify_exceptional_radius.log",
+      "published_path": "research/prime-gaps/round5/exceptional-radius/certify_exceptional_radius.log",
+      "original_sha256": "be69aa8f0c06cedbea91d32dc452cf543d19fb8ee54eae0603412dfeaeb734da",
+      "published_sha256": "be69aa8f0c06cedbea91d32dc452cf543d19fb8ee54eae0603412dfeaeb734da",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "exceptional-radius/certify_exceptional_radius.py",
+      "published_path": "research/prime-gaps/round5/exceptional-radius/certify_exceptional_radius.py",
+      "original_sha256": "e19445eed88dee180f816e925ea58ab2a93286584070b34cbeafe45c5f4e7c24",
+      "published_sha256": "e19445eed88dee180f816e925ea58ab2a93286584070b34cbeafe45c5f4e7c24",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-audit/GEOMETRY_SOURCE_AUDIT.md",
+      "published_path": "research/prime-gaps/round5/geometry-audit/GEOMETRY_SOURCE_AUDIT.md",
+      "original_sha256": "c2870e1d539e1be90e82131671ec15b85d74a0a886bad299270a20cb87ecc7c9",
+      "published_sha256": "c2870e1d539e1be90e82131671ec15b85d74a0a886bad299270a20cb87ecc7c9",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-audit/geometry_feasibility.json",
+      "published_path": "research/prime-gaps/round5/geometry-audit/geometry_feasibility.json",
+      "original_sha256": "e8b45b3e2e92635a43744a6497efee7c40cd634668eeeddf2267b1fb809b5511",
+      "published_sha256": "e8b45b3e2e92635a43744a6497efee7c40cd634668eeeddf2267b1fb809b5511",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-audit/geometry_feasibility.log",
+      "published_path": "research/prime-gaps/round5/geometry-audit/geometry_feasibility.log",
+      "original_sha256": "08f47af36e06f3373cab7a4a15b708aac3474bf21777629e93f00e229fc2508a",
+      "published_sha256": "08f47af36e06f3373cab7a4a15b708aac3474bf21777629e93f00e229fc2508a",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-audit/geometry_feasibility.py",
+      "published_path": "research/prime-gaps/round5/geometry-audit/geometry_feasibility.py",
+      "original_sha256": "77856be722b77ca00f66dec71169ab5332f908a0c74a66b359cba30ed9ca2f2d",
+      "published_sha256": "f3ffa7f4b777255e186925e01d992cdde7b90b082452e64f55b2731f039e9ce7",
+      "change": "environment-selectable external source path only"
+    },
+    {
+      "staging_path": "geometry-trial/REPORT.md",
+      "published_path": "research/prime-gaps/round5/geometry-trial/REPORT.md",
+      "original_sha256": "a0d2aa154e278797bd1065d7a5c78fc8d0c650e14c6b43b4d0200f84465f9462",
+      "published_sha256": "a0d2aa154e278797bd1065d7a5c78fc8d0c650e14c6b43b4d0200f84465f9462",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/baseline.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/baseline.config.json",
+      "original_sha256": "882d1d987de260a5a30fc505b1b59e834fccbef033cda5dcff97f78512006aa3",
+      "published_sha256": "882d1d987de260a5a30fc505b1b59e834fccbef033cda5dcff97f78512006aa3",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/baseline_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/baseline_k39_n16384.json",
+      "original_sha256": "0618081f5f090a9225e0fbf3a03e93f728d449cddcae117c227e909191412ec2",
+      "published_sha256": "0618081f5f090a9225e0fbf3a03e93f728d449cddcae117c227e909191412ec2",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/baseline_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/baseline_k39_n16384.npz",
+      "original_sha256": "459d76222e16efa2a88be0df657e11ed8b34082bde0ccf461452f4f183666e86",
+      "published_sha256": "459d76222e16efa2a88be0df657e11ed8b34082bde0ccf461452f4f183666e86",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/baseline_n16384.log",
+      "published_path": "research/prime-gaps/round5/geometry-trial/baseline_n16384.log",
+      "original_sha256": "9ae7b9691d0b722eec78f0d8e6461c89dacd2b863f110cef832a42d763abf959",
+      "published_sha256": "9ae7b9691d0b722eec78f0d8e6461c89dacd2b863f110cef832a42d763abf959",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/cap_trial.py",
+      "published_path": "research/prime-gaps/round5/geometry-trial/cap_trial.py",
+      "original_sha256": "7c45af700907356006dc8218117b2e1001d3492346380cb0da32c8fa93961df2",
+      "published_sha256": "62721474dc05b63bbec403f4aedef0dc81601626a61f46ffab472071917da1d9",
+      "change": "environment-selectable external source path only"
+    },
+    {
+      "staging_path": "geometry-trial/geometry_checks.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/geometry_checks.json",
+      "original_sha256": "0e52c685af6c4d0cbb237dcabbde3f6169d3e34db9afd245627f3754602e57d7",
+      "published_sha256": "0e52c685af6c4d0cbb237dcabbde3f6169d3e34db9afd245627f3754602e57d7",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/manifest.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/manifest.json",
+      "original_sha256": "cf74ee8110b899c0d35203b24e666c727463b62415f74bc27ef78c9dd8730d2e",
+      "published_sha256": "cf74ee8110b899c0d35203b24e666c727463b62415f74bc27ef78c9dd8730d2e",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/optimize_cap.py",
+      "published_path": "research/prime-gaps/round5/geometry-trial/optimize_cap.py",
+      "original_sha256": "feafcc6b29aee9b562c55a6717f560a128b2b06b1251c5b48fc3d47e6eafed58",
+      "published_sha256": "feafcc6b29aee9b562c55a6717f560a128b2b06b1251c5b48fc3d47e6eafed58",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r272_min.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r272_min.config.json",
+      "original_sha256": "1a7b0ddeaf740ae6b7ecbc46df9cf558c030c37b66d521f1d2153f553690c375",
+      "published_sha256": "1a7b0ddeaf740ae6b7ecbc46df9cf558c030c37b66d521f1d2153f553690c375",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r272_min_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r272_min_k39_n16384.json",
+      "original_sha256": "1780f0f2c60c3406dda2bb8943ab7e8a73b6c05d031d1007e1876176824c1c62",
+      "published_sha256": "1780f0f2c60c3406dda2bb8943ab7e8a73b6c05d031d1007e1876176824c1c62",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r272_min_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r272_min_k39_n16384.npz",
+      "original_sha256": "e0b36e489d2abb8e4a6e07a5c7655960cccb35a9d446b39e6fc417dd2fe64023",
+      "published_sha256": "e0b36e489d2abb8e4a6e07a5c7655960cccb35a9d446b39e6fc417dd2fe64023",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r272_original.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r272_original.config.json",
+      "original_sha256": "dac25f81a36d59d810cd30fc7b249edd1ab9d7137cdc940f42f994931a915df4",
+      "published_sha256": "dac25f81a36d59d810cd30fc7b249edd1ab9d7137cdc940f42f994931a915df4",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r272_original_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r272_original_k39_n16384.json",
+      "original_sha256": "baa47b8d54dc986b3510d70fdb28fb0ce1c3aa307e41327a76244d67b480d146",
+      "published_sha256": "baa47b8d54dc986b3510d70fdb28fb0ce1c3aa307e41327a76244d67b480d146",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r272_original_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r272_original_k39_n16384.npz",
+      "original_sha256": "473ae5116cef024517fffff5f8b4db015d05be4e28f7ce94d3726ed4357ff6f8",
+      "published_sha256": "473ae5116cef024517fffff5f8b4db015d05be4e28f7ce94d3726ed4357ff6f8",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r274_max.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r274_max.config.json",
+      "original_sha256": "f1db979331d75eb46afc8527d9c0bfb2b6a9b14fe6817855ead7fab2a54f3900",
+      "published_sha256": "f1db979331d75eb46afc8527d9c0bfb2b6a9b14fe6817855ead7fab2a54f3900",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r274_max_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r274_max_k39_n16384.json",
+      "original_sha256": "701668c83619923ee4bce569ad34757d498e6cd478f1d4e133d454cf08fdab2d",
+      "published_sha256": "701668c83619923ee4bce569ad34757d498e6cd478f1d4e133d454cf08fdab2d",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r274_max_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r274_max_k39_n16384.npz",
+      "original_sha256": "9a6217c21d67716a56dbf56ff44a8d35e761bf04244710c958f6ee5c429bea54",
+      "published_sha256": "9a6217c21d67716a56dbf56ff44a8d35e761bf04244710c958f6ee5c429bea54",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r274_max_k39_n98304.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r274_max_k39_n98304.json",
+      "original_sha256": "582af771b96d69bae121b501b00b876b42a661cbb88ee604b0c02960ec2f3add",
+      "published_sha256": "582af771b96d69bae121b501b00b876b42a661cbb88ee604b0c02960ec2f3add",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r274_max_k39_n98304.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r274_max_k39_n98304.npz",
+      "original_sha256": "297006abebce6d4c5a2ae73eeddd5c5870b455c8c45d775959143f93d21a3c44",
+      "published_sha256": "297006abebce6d4c5a2ae73eeddd5c5870b455c8c45d775959143f93d21a3c44",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r274_original.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r274_original.config.json",
+      "original_sha256": "f314ab53fbd8ce81e6f7c89f7fc797a7c3c483b74130afbe0c63d927815595b8",
+      "published_sha256": "f314ab53fbd8ce81e6f7c89f7fc797a7c3c483b74130afbe0c63d927815595b8",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r274_original_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r274_original_k39_n16384.json",
+      "original_sha256": "53807c465b7a7a7797a83f7d2f7e90b16f4f04ce39c20652323c280ef581b35f",
+      "published_sha256": "53807c465b7a7a7797a83f7d2f7e90b16f4f04ce39c20652323c280ef581b35f",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r274_original_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r274_original_k39_n16384.npz",
+      "original_sha256": "5e8eeb914cf52a7390804715bdf7f951f350e69e41cd660b1ae46825285c8da4",
+      "published_sha256": "5e8eeb914cf52a7390804715bdf7f951f350e69e41cd660b1ae46825285c8da4",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r275_max.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r275_max.config.json",
+      "original_sha256": "41ca906bdd9a5a04320b6db7ba91ac5fdc4018d0362fb74da8fab81567aff605",
+      "published_sha256": "41ca906bdd9a5a04320b6db7ba91ac5fdc4018d0362fb74da8fab81567aff605",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r275_max_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r275_max_k39_n16384.json",
+      "original_sha256": "eb9dc17a2dabc7bf520dca04acf1c97f9851577bbb7077b7a091cd441dfb7f40",
+      "published_sha256": "eb9dc17a2dabc7bf520dca04acf1c97f9851577bbb7077b7a091cd441dfb7f40",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r275_max_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r275_max_k39_n16384.npz",
+      "original_sha256": "8e6b13dc229a6533cb07e30ad2c86b7ec4cfb5d0235d64b20df5d8acbb3ec94d",
+      "published_sha256": "8e6b13dc229a6533cb07e30ad2c86b7ec4cfb5d0235d64b20df5d8acbb3ec94d",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r275_max_k39_n98304.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r275_max_k39_n98304.json",
+      "original_sha256": "15612c42694123680330b1ba9d500c0e3899b8c32647f348c84bae857afaa651",
+      "published_sha256": "15612c42694123680330b1ba9d500c0e3899b8c32647f348c84bae857afaa651",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r275_max_k39_n98304.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r275_max_k39_n98304.npz",
+      "original_sha256": "05f1b1b53dc614003d77182baaf239ef35109a03195139a05c90a579176572f9",
+      "published_sha256": "05f1b1b53dc614003d77182baaf239ef35109a03195139a05c90a579176572f9",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r276_max.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r276_max.config.json",
+      "original_sha256": "7ea13c17975114cd113b68bf1c07f252fa9409fd0ddfbeb3ee7ab094b1417629",
+      "published_sha256": "7ea13c17975114cd113b68bf1c07f252fa9409fd0ddfbeb3ee7ab094b1417629",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r276_max_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r276_max_k39_n16384.json",
+      "original_sha256": "cc558210985c57110cd7848569d2fb5fd597ffefd150dcc619d5ca10015e86de",
+      "published_sha256": "cc558210985c57110cd7848569d2fb5fd597ffefd150dcc619d5ca10015e86de",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r276_max_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r276_max_k39_n16384.npz",
+      "original_sha256": "50f8476260d27e85fa9799cd954185d7690409945fd342d872afb1ee3e0778f3",
+      "published_sha256": "50f8476260d27e85fa9799cd954185d7690409945fd342d872afb1ee3e0778f3",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r276_min.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r276_min.config.json",
+      "original_sha256": "de0d2c7ac1466301645df51aef4577dde6620a20db41fa1769d99f8d9ee6cebe",
+      "published_sha256": "de0d2c7ac1466301645df51aef4577dde6620a20db41fa1769d99f8d9ee6cebe",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r276_min_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r276_min_k39_n16384.json",
+      "original_sha256": "713026f473c9ef2709f39de3ee470326fd11df9296ad6fa0872de0294876d99d",
+      "published_sha256": "713026f473c9ef2709f39de3ee470326fd11df9296ad6fa0872de0294876d99d",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r276_min_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r276_min_k39_n16384.npz",
+      "original_sha256": "11dcfda4045e7946c1a693084c611569e8eec2fe5fa8f8f74144e6d0ec3b36d0",
+      "published_sha256": "11dcfda4045e7946c1a693084c611569e8eec2fe5fa8f8f74144e6d0ec3b36d0",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r278_max.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r278_max.config.json",
+      "original_sha256": "a6d5b599a05386e678c617f7a52f6c1d4764a833855a225eb6b56625188d1dc3",
+      "published_sha256": "a6d5b599a05386e678c617f7a52f6c1d4764a833855a225eb6b56625188d1dc3",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r278_max_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r278_max_k39_n16384.json",
+      "original_sha256": "42b933e3b5be1d560d8a12f510105b0e10c265707981fa3b9323673decf8b615",
+      "published_sha256": "42b933e3b5be1d560d8a12f510105b0e10c265707981fa3b9323673decf8b615",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r278_max_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r278_max_k39_n16384.npz",
+      "original_sha256": "008ed7bfa165fc517d4a38d63ff16c4c8d42cbbdc6f26b661b676bc2aa93ca84",
+      "published_sha256": "008ed7bfa165fc517d4a38d63ff16c4c8d42cbbdc6f26b661b676bc2aa93ca84",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r278_min.config.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r278_min.config.json",
+      "original_sha256": "c4ff592f59b64cbba1c663e5289329cb447bcab898dfd8f745ca9c06a5b3ae46",
+      "published_sha256": "c4ff592f59b64cbba1c663e5289329cb447bcab898dfd8f745ca9c06a5b3ae46",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r278_min_k39_n16384.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r278_min_k39_n16384.json",
+      "original_sha256": "e82fbb2557398a1fb9c347daff90a5e45c476b7e06e8a1ad3da370766d399daa",
+      "published_sha256": "e82fbb2557398a1fb9c347daff90a5e45c476b7e06e8a1ad3da370766d399daa",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/r278_min_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round5/geometry-trial/r278_min_k39_n16384.npz",
+      "original_sha256": "20d8a01726a697df7646f49d04ab55c04bbdad1176234740ce603e05f995a417",
+      "published_sha256": "20d8a01726a697df7646f49d04ab55c04bbdad1176234740ce603e05f995a417",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/refinement.log",
+      "published_path": "research/prime-gaps/round5/geometry-trial/refinement.log",
+      "original_sha256": "1cae8675a50ffbc7b04d439ada344eb16d2621c0c0fe7590473d37decf87adf5",
+      "published_sha256": "1cae8675a50ffbc7b04d439ada344eb16d2621c0c0fe7590473d37decf87adf5",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/run_bounded_screen.py",
+      "published_path": "research/prime-gaps/round5/geometry-trial/run_bounded_screen.py",
+      "original_sha256": "90cd6e1dc4d11a8a7ab9d87f78468cd93e540842045298b4d6757271a7ec3958",
+      "published_sha256": "90cd6e1dc4d11a8a7ab9d87f78468cd93e540842045298b4d6757271a7ec3958",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/screen.log",
+      "published_path": "research/prime-gaps/round5/geometry-trial/screen.log",
+      "original_sha256": "2ce19bcb3475bb0a21881df9b3033998f12ac0f5d39608d21457c3969c236268",
+      "published_sha256": "2ce19bcb3475bb0a21881df9b3033998f12ac0f5d39608d21457c3969c236268",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/summary.json",
+      "published_path": "research/prime-gaps/round5/geometry-trial/summary.json",
+      "original_sha256": "468d4022ce2f0c83be7c18b5c46af9a6a36f30ce5729c103a03bf6dca2e8d86b",
+      "published_sha256": "468d4022ce2f0c83be7c18b5c46af9a6a36f30ce5729c103a03bf6dca2e8d86b",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "geometry-trial/validate_geometry.py",
+      "published_path": "research/prime-gaps/round5/geometry-trial/validate_geometry.py",
+      "original_sha256": "d93f0103fc05079466e8546593b3de60a61e3963b418e42d21cc514bdb0403cd",
+      "published_sha256": "d93f0103fc05079466e8546593b3de60a61e3963b418e42d21cc514bdb0403cd",
+      "change": "verbatim"
+    }
+  ],
+  "notes": [
+    "Original outputs and reports are preserved verbatim. Two source-path definitions accept PRIME186_SOURCE in the published copy.",
+    "Nested original manifests describe their execution snapshot; this intake manifest records the final received files and portability edits."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "status": "PASS: exact source inequalities, modular identities, cubic-phase sign, and pinned sources",
+  "assumptions": {
+    "X": "all sufficiently large real X",
+    "H": "X^(1/6) <= H <= X^(2/7)",
+    "V": "fixed nonnegative nonzero C_c^infinity(1,2)",
+    "RH": "not used for the two obstruction lemmas",
+    "prime_counts": "ordinary PNT in fixed-ratio intervals and fixed reduced classes modulo 3"
+  },
+  "source_parameters": {
+    "omega": "3/250",
+    "delta": "1/1000",
+    "retreat": "1/1000",
+    "sigma": "101/1000",
+    "modulus_exponent": "523/1000",
+    "N_exponent": "2/5",
+    "M_exponent": "3/5",
+    "prop_2_18_left_sides": [
+      "111/125",
+      "249/250",
+      "99/100"
+    ],
+    "prop_2_18_positive_margins": [
+      "14/125",
+      "1/250",
+      "1/100"
+    ]
+  },
+  "positive_exponent_margins": {
+    "M_over_d_growth": "77/1000",
+    "d_over_N_growth": "123/1000",
+    "nonzero_low_numerator": "1661/7000",
+    "primitive_shift_class_count": "23/300",
+    "short_factor_scale_gap": "393/3500"
+  },
+  "phase_discrepancy": {
+    "normalization": "N/log N",
+    "exact_leading_coefficient_in_Q_i_sqrt3": [
+      "0",
+      "1/4"
+    ],
+    "meaning": "i sqrt(3)/4 for both d mod 3 branches",
+    "perturbation": "O(N^2/(d log N)) = o(N/log N)",
+    "failed_test": "source SW definition r=3, s=1, a=1, L=2"
+  },
+  "crt_hull": {
+    "number_of_distinct_prime_factors": 348,
+    "primitive_class_lower_bound": "(ell H/p)(1-347/(lambda X^kappa))-348",
+    "local_images_after_global_coprimality": "all p-1 nonzero classes",
+    "product_hull_cost": "phi(d) ~ d",
+    "divisor_count": "573374653997517877902705223825521735199141247292070280934397209846730719022121202017504638277531421638656"
+  },
+  "fixed_modular_algebra_cases": [
+    {
+      "d": 35,
+      "k": 12,
+      "sign_relative_to_one_third": 1,
+      "phase_difference": "1/105",
+      "toy_lower_endpoint": 3517,
+      "unit_representative": 3547
+    },
+    {
+      "d": 55,
+      "k": 18,
+      "sign_relative_to_one_third": -1,
+      "phase_difference": "-1/165",
+      "toy_lower_endpoint": 5517,
+      "unit_representative": 5518
+    },
+    {
+      "d": 65,
+      "k": 22,
+      "sign_relative_to_one_third": 1,
+      "phase_difference": "1/195",
+      "toy_lower_endpoint": 6517,
+      "unit_representative": 6522
+    },
+    {
+      "d": 77,
+      "k": 26,
+      "sign_relative_to_one_third": 1,
+      "phase_difference": "1/231",
+      "toy_lower_endpoint": 7717,
+      "unit_representative": 7726
+    },
+    {
+      "d": 85,
+      "k": 28,
+      "sign_relative_to_one_third": -1,
+      "phase_difference": "-1/255",
+      "toy_lower_endpoint": 8517,
+      "unit_representative": 8528
+    },
+    {
+      "d": 143,
+      "k": 48,
+      "sign_relative_to_one_third": 1,
+      "phase_difference": "1/429",
+      "toy_lower_endpoint": 14317,
+      "unit_representative": 14348
+    }
+  ],
+  "primary_source": {
+    "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+    "pdf_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+    "pdf_sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+    "text_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+    "text_sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+    "official_repository_commit": "61340d0b74163003b32756bb16e91d9209a5e330",
+    "printed_locations": [
+      "Proposition 2.3 pp4-5",
+      "Definitions 2.6-2.9 p6",
+      "Proposition 2.10 and equation (2.5) p7",
+      "Proposition 2.14 pp9-10",
+      "Proposition 2.18 pp10-11",
+      "Appendix A.4.2 pp35-36"
+    ]
+  },
+  "frozen_dependencies": {
+    "conductor_report_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+    "conductor_report_sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+    "previous_prime_bound_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+    "previous_prime_bound_sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29"
+  },
+  "report_sha256": "26536af7b5e6ebfb8fb4f7c7be993543c57152e29c6fd2b039c5eb147ccefd95",
+  "script_sha256": "f7f4e57171337cd7137f48662e8b4947f4e62a4f1e27f29e40b4d259d1816b06",
+  "scope_limits": [
+    "not a counterexample to the source theorem",
+    "not a counterexample to cancellation in the actual signed prime pairing",
+    "not proof every specific Heath-Brown factor loses SW",
+    "CRT failure concerns the product-local hull, not every correlated residue-set method",
+    "no numerical prime realization or parameter sweep",
+    "finite script verifies algebra, not the asymptotic PNT statements",
+    "no improvement of the current X^1.023 log^5 bound is claimed"
+  ]
+}

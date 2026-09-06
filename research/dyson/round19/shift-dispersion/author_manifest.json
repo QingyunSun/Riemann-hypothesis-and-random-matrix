@@ -1,0 +1,44 @@
+{
+  "status": "AUTHOR FROZEN after section-4 logarithmic scope clarification; final independent delta review pending",
+  "files": [
+    {
+      "path": "SHORT_RESIDUE_DISPERSION_TEST.md",
+      "bytes": 15610,
+      "sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa"
+    },
+    {
+      "path": "check_shift_dispersion.py",
+      "bytes": 4247,
+      "sha256": "61fc73eff3f574024924cafd77dd9c64e82e1a79b07321fa0b83dae57afd0303"
+    },
+    {
+      "path": "shift_dispersion_checks.json",
+      "bytes": 1103,
+      "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61"
+    },
+    {
+      "path": "shift_dispersion_checks.log",
+      "bytes": 1103,
+      "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 4140,
+      "sha256": "290a5a68548fa0007ea96b39ad6e254985a932bcc622e36a60d143c79ddd5419"
+    },
+    {
+      "path": "source_page_receipt.json",
+      "bytes": 1415,
+      "sha256": "00932169042eab1744e353fbd4914eef3625de8bcd40e2630fb77f89a87e7e6c"
+    },
+    {
+      "path": "log_clarification_receipt.json",
+      "bytes": 1812,
+      "sha256": "51a011cd10c0b31144dbd91e79348ef81c35b18e4f210b94d0f22b2e0031d1b4"
+    }
+  ],
+  "scope": "Actual canonical residue norm and direct theorem-application audit; no improved prime discrepancy or zeta theorem. RH label belongs to inherited aggregate only.",
+  "publication_policy": "Original source PDFs/text and their page images stay local; authored derivation/checks/provenance may be integrated by parent.",
+  "historical_directory": "historical-pre-log-clarification",
+  "scope_only_delta": "Section 4 maximal-residue packet estimate is explicitly before inserting (log q)^j; full D_j has an additional O((log X)^j) factor. All thresholds and other mathematical text remain unchanged."
+}

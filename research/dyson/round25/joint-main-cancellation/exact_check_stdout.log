@@ -1,0 +1,24 @@
+{
+  "author_sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03",
+  "check_groups": {
+    "both_marginals_constant_cancellation": 12,
+    "even_singular_hinge_algebra_real_endpoints": 160,
+    "nonprimitive_even_shift_count_including_empty_ranges": 1200,
+    "odd_mobius_geometric_identities_real_endpoints": 399,
+    "primitive_principal_nonprimitive_exact_partition": 1632,
+    "sharp_complement_switch_log_coefficient_identities": 200,
+    "strict_rational_power_margins": 6,
+    "von_mangoldt_divisor_log_coefficient_identities": 200
+  },
+  "power_margins": {
+    "cofactor_grid": "29/45",
+    "joint_RH_epsilon_1_over_100": "158/1125",
+    "nonprimitive_eta_1_over_100": "391/900",
+    "primitive_B_J16": "2/35",
+    "principal_mask_Q_over_H": "1/35",
+    "unperturbed_joint_RH": "13/90"
+  },
+  "scope": "Exact finite algebra and rational margins only; ordinary proof is separate.",
+  "status": "PASS",
+  "total_scalar_cases": 3809
+}

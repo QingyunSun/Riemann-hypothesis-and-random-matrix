@@ -1,0 +1,59 @@
+{
+  "author": {
+    "bytes": 18339,
+    "name": "UPPER_WING_SHIFT_COMPLETION.md",
+    "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+  },
+  "checker": {
+    "bytes": 6964,
+    "name": "check_upper_wing_completion.py",
+    "sha256": "02cf3471cb845aa845c94db4869a0b8acb485bc2df099a4a222b4e181e7c43e3"
+  },
+  "checks": [
+    {
+      "name": "rational_exponent_and_source_margins",
+      "status": "PASS",
+      "values": {
+        "completion_power_J24": "7/440",
+        "height_boundary": "1000/477",
+        "nonprimitive_power_eta_1_100": "15041/45000",
+        "owner_largest_prime_exponent": "501/5000",
+        "physical_shift_gap_lower": "247/11000",
+        "source_cutoff": "5231/10000",
+        "source_parameter_slack": "17/125"
+      }
+    },
+    {
+      "cases": 7700,
+      "name": "exact_primitive_principal_nonprimitive_identity",
+      "status": "PASS"
+    },
+    {
+      "grid_spacing": "2d",
+      "name": "even_grid_period_and_exact_zero_mean",
+      "periods": 79,
+      "status": "PASS"
+    },
+    {
+      "coefficients": 146,
+      "name": "positive_phase_fourier_ramanujan_coefficient",
+      "poisson_prefactor": "1/(2d)",
+      "status": "PASS",
+      "zero_frequency": "exactly zero"
+    },
+    {
+      "cases": 12,
+      "n_equals_one_endpoint": "PASS",
+      "name": "full_five_term_divisor_identity_with_formal_prime_logs",
+      "scope": "finite algebra only; no canonical-family numerical realization",
+      "status": "PASS"
+    }
+  ],
+  "scope": "exact algebra and normalization checks; no asymptotic or prime-height experiment",
+  "source_manifest": {
+    "bytes": 2239,
+    "name": "source_manifest.json",
+    "sha256": "fee5d29b87d5bc072fb71a2f2727d98f66d52dafe654adce3dcedb180cf63e27"
+  },
+  "status": "PASS"
+}

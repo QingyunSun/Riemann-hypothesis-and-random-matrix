@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "Exact rational constants and exponent margins for a proved upper-bound calculation. No prime computation, no numerical bound for the Bragg limit.",
+  "report_sha256": "5939a90ce808ec8fbd11a9659bfd2dc61e60adb65f2b2b4b12f9cfb8641a9607",
+  "script_sha256": "1583e9699a11cfa94bf0820514e8c3009f1c0ee4df0125f92a1e05bc2628518d",
+  "moment_constant": "4/3",
+  "rows": [
+    {
+      "alpha": "7/4",
+      "short_interval_exponent_in_x": "3/7",
+      "von_mangoldt_cap": "14/3",
+      "centered_J_coefficient": "44/9",
+      "normalized_F_bound_power_of_T": "3/4"
+    },
+    {
+      "alpha": "2",
+      "short_interval_exponent_in_x": "1/2",
+      "von_mangoldt_cap": "4",
+      "centered_J_coefficient": "4",
+      "normalized_F_bound_power_of_T": "1"
+    },
+    {
+      "alpha": "9/4",
+      "short_interval_exponent_in_x": "5/9",
+      "von_mangoldt_cap": "18/5",
+      "centered_J_coefficient": "52/15",
+      "normalized_F_bound_power_of_T": "5/4"
+    }
+  ],
+  "low_u_relative_powers_at_alpha_min": [
+    "-3/2",
+    "-7/4",
+    "-2"
+  ],
+  "uniform_large_u_cap_limit": "10",
+  "kept_center_terms": "A^2 - 2*A*m + m^2"
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "Complete ordinary mathematical review of all eight author sections; not a global proof or a checker replay",
+  "source": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+    "bytes": 19377,
+    "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+  },
+  "review": {
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r25/joint-main/COORDINATOR_JOINT_MAIN_REVIEW.md",
+    "bytes": 8642,
+    "sha256": "2188977fbebdbd44d06a7d791a78dba11850b785d614bdfb2e515231c024941e"
+  },
+  "primary_new_source": {
+    "url": "https://arxiv.org/pdf/math/0409258v1",
+    "locations": "Printed page 16 equation (47), page 4 equation (16), definition of B",
+    "scope": "Statements and normalization checked through web PDF; underlying proof not re-audited"
+  },
+  "verdict": "Accepted for fixed smooth compact packets under ordinary RH; global correction and signed covariance not bounded",
+  "supersedes_caution": "Exact h=2pr positive-integer count needs neither +1 nor H much larger than p",
+  "new_contribution": "Real-endpoint parity hinge refinement and two-marginal correction sign diagnostic; global interchange remains unproved"
+}

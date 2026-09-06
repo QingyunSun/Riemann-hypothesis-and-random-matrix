@@ -1,0 +1,3 @@
+PASS: kernel derivative, Dirichlet integral, Abelian constants, tail budget, rational interval bound.
+PASS: exact full interval-kernel expansion for prime-power logarithms and independent signed rational data.
+No asymptotic arithmetic inequality or numerical zero statistic is claimed.

@@ -1,0 +1,125 @@
+{
+  "author": {
+    "bytes": 21504,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+    "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+  },
+  "author_correction_receipt": {
+    "bytes": 4678,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/h1_correction_receipt.json",
+    "sha256": "6390dcf2ff69b0ea04db0fe2181932f88bc819088401b8edc15ff578e6065e67"
+  },
+  "author_manifest": {
+    "bytes": 1775,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/author_manifest.json",
+    "sha256": "8f4d8c070beb63e36bf6969dfcb74d9239e4d98fcea53abc63513e20e66d1e39"
+  },
+  "checker": {
+    "bytes": 3930,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/check_h1_correction.py",
+    "sha256": "879c35d3efed14e5c0d2108de3bad078616c0259a4406f9669ffc92944573f4f"
+  },
+  "coordinator_obstruction": {
+    "bytes": 4963,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/sources/COORDINATOR_H1_OBSTRUCTION.md",
+    "sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34"
+  },
+  "coordinator_original_review_json": {
+    "bytes": 2415,
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r21/COORDINATOR_CENTERED_PAIR_REVIEW.json",
+    "sha256": "400b4091101a247bfbd4b7f64b20ab47d474ab638ce9d422fd46ea6ee6bbf1da"
+  },
+  "historical_status": {
+    "bytes": 1133,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/HISTORICAL_REVIEW_STATUS.md",
+    "sha256": "068701436b1c40d509a3b833f87ad5c5ff31070c600136c7a459d6f7e7fc58f9"
+  },
+  "independent_outputs": [
+    {
+      "bytes": 2637,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/independent_h1_replay.json",
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e"
+    },
+    {
+      "bytes": 2637,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/independent_h1_replay.log",
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e"
+    },
+    {
+      "bytes": 10229,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/current_source_hash_checks.json",
+      "sha256": "5ead5eef6dc72cecfce873df4e7fe19bf42447ff4cdb57b3da68deb8a5c5cbb2"
+    }
+  ],
+  "preservation_receipt": {
+    "bytes": 2123,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/superseded-before-h1-obstruction/PRESERVATION_RECEIPT.json",
+    "sha256": "9a4b024c945a74418d538d2b173f95a4c91a08d77d15a656c4e6ffbe08d819e4"
+  },
+  "retained_original_outputs": [
+    {
+      "bytes": 5951,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/independent_pair_replay.json",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 5951,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/independent_pair_replay.log",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 2637,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/source_hash_checks.json",
+      "sha256": "6990f0597e5d63f1ea16b77f2238c390b8d855254b4c105f3a7eb66cee231606"
+    }
+  ],
+  "review": {
+    "bytes": 18273,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+    "sha256": "459f438da25a2b37e915abe39ad4b624e8cc490cec89642465821c0dde217655"
+  },
+  "source_manifest": {
+    "bytes": 5127,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/source_manifest.json",
+    "sha256": "46f51c4a3bcdcce50aa380519f537666bc06d5fc5ed11646268e8973457028ac"
+  },
+  "status": "Accepted revised ordinary reduction and unconditional h=1 impossibility proof; original feasibility acceptance superseded.",
+  "substantive_correction": "The uniform all-shifts beta<1/2 premise is impossible, not merely unproved; the signed aggregate remains open.",
+  "superseded_receipt": {
+    "bytes": 3302,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/superseded-before-h1-obstruction/prior-independent-review/INDEPENDENT_REVIEW_RECEIPT.json",
+    "sha256": "83b8044d04eabfcfb95fb37a92334db9b7ee362983c46de93f22ac6c3ab9d70e"
+  },
+  "superseded_review": {
+    "bytes": 12186,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/superseded-before-h1-obstruction/prior-independent-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+    "sha256": "5a0de0ac42401897b4e417be4ce8804867ede2b937ff6ebc85a9711df02728e4"
+  },
+  "validation": {
+    "author_files_modified": false,
+    "correction_receipt_hashes_verified": 6,
+    "live_classical_sources": [
+      {
+        "scope": "Euler product for Re(s)>1",
+        "url": "https://dlmf.nist.gov/25.2.E11"
+      },
+      {
+        "scope": "Paragraph after Eq25.10.2: infinitely many critical-line zeros; one suffices",
+        "url": "https://dlmf.nist.gov/25.10"
+      }
+    ],
+    "new_heights": false,
+    "new_tiny_checker_replay": "PASS; 22 exact endpoint cases and residue/delta checks; JSON/log byte-identical to author.",
+    "obstruction_requires_RH": false,
+    "parameter_scan": false,
+    "preserved_history_hashes_verified": 11,
+    "review_control_bytes": 0,
+    "review_display_math_pairs": 9,
+    "scope": "Full original proof/source audit retained; every revised mathematical passage, complete coordinator note, exact singleton endpoints, dyadic quantifier and unconditional Mellin contradiction checked.",
+    "source_hashes_verified": 16,
+    "strict_aggregate_bound_proved": false,
+    "unchanged_original_algebra_relabelled_as_new": false,
+    "unchanged_original_checker_replayed": false,
+    "variance_transfer_requires_RH": true
+  }
+}

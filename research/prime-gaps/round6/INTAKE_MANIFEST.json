@@ -1,0 +1,291 @@
+{
+  "source_date": "2026-09-05",
+  "files": [
+    {
+      "staging_path": "operator-diagnostic/FINITE_MARKED_OPERATOR_AUDIT.md",
+      "published_path": "research/prime-gaps/round6/operator-diagnostic/FINITE_MARKED_OPERATOR_AUDIT.md",
+      "sha256": "486d31e88130a394b42987e8af29f15c4ad902318e65343b92f2f95fce1348c2",
+      "bytes": 4828,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-diagnostic/finite_marked_operator_check.json",
+      "published_path": "research/prime-gaps/round6/operator-diagnostic/finite_marked_operator_check.json",
+      "sha256": "be23e0f0ebf3a9d612eb0aa0598705ca5d7ebc4074bc8e4e2f4eb7dbc96fc3cd",
+      "bytes": 1934,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-diagnostic/finite_marked_operator_check.log",
+      "published_path": "research/prime-gaps/round6/operator-diagnostic/finite_marked_operator_check.log",
+      "sha256": "be23e0f0ebf3a9d612eb0aa0598705ca5d7ebc4074bc8e4e2f4eb7dbc96fc3cd",
+      "bytes": 1934,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-diagnostic/finite_marked_operator_check.py",
+      "published_path": "research/prime-gaps/round6/operator-diagnostic/finite_marked_operator_check.py",
+      "sha256": "c749b20848c6e73a943cba281956e7e589e44890db5365f36d2c9d3fa9dc7f0f",
+      "bytes": 5812,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-diagnostic/radial_energy_profile.json",
+      "published_path": "research/prime-gaps/round6/operator-diagnostic/radial_energy_profile.json",
+      "sha256": "2d72c2f7b02fd0bd90071048fb769f9ce1a6f8782324ba3e29a5a8f5f07b7b53",
+      "bytes": 1041,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-diagnostic/radial_energy_profile.log",
+      "published_path": "research/prime-gaps/round6/operator-diagnostic/radial_energy_profile.log",
+      "sha256": "2d72c2f7b02fd0bd90071048fb769f9ce1a6f8782324ba3e29a5a8f5f07b7b53",
+      "bytes": 1041,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-diagnostic/radial_energy_profile.png",
+      "published_path": "research/prime-gaps/round6/operator-diagnostic/radial_energy_profile.png",
+      "sha256": "48ea78c72fe15a43284f3403a4f3c6db6ad4a983be1fd076cef7943fbfd15644",
+      "bytes": 107708,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-diagnostic/radial_energy_profile.py",
+      "published_path": "research/prime-gaps/round6/operator-diagnostic/radial_energy_profile.py",
+      "sha256": "b97182c87e899a89ccb3513d4dad64385c0637f90478d26d07c8ceff1916f353",
+      "bytes": 3230,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-proof/FULL_SIGNED_CAP_OPERATOR.md",
+      "published_path": "research/prime-gaps/round6/operator-proof/FULL_SIGNED_CAP_OPERATOR.md",
+      "sha256": "020099a5ab6927f17b82dfbb2b96aa5b2cfbc3720c41d388f9c8f39b08d0339b",
+      "bytes": 21540,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "operator-proof/operator_proof_provenance.json",
+      "published_path": "research/prime-gaps/round6/operator-proof/operator_proof_provenance.json",
+      "sha256": "892962f37c10d01ba7caa8c73736ae94bd77233cd0dd41941c8fddd93885d466",
+      "bytes": 3560,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-audit/SIEVE_RESIDUAL_AUDIT.md",
+      "published_path": "research/prime-gaps/round6/residual-audit/SIEVE_RESIDUAL_AUDIT.md",
+      "sha256": "be0a8c6ea16af80f27b7c9abc77466884bfee6c02c8750a2f4d72d5381beacc7",
+      "bytes": 19067,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-audit/exact_residual_checks.json",
+      "published_path": "research/prime-gaps/round6/residual-audit/exact_residual_checks.json",
+      "sha256": "1dc6f7697e99159c2af622abf57d08feca15e458a71ca9a7092fb05e3513c93e",
+      "bytes": 604,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-audit/exact_residual_checks.py",
+      "published_path": "research/prime-gaps/round6/residual-audit/exact_residual_checks.py",
+      "sha256": "9161dacaa66cdca22065fa77954a12859187c5135f139627630b7fab00b5852a",
+      "bytes": 6819,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/PROVENANCE.md",
+      "published_path": "research/prime-gaps/round6/residual-trial/PROVENANCE.md",
+      "sha256": "4a3a8f57b27e88053b12030487ed84fd939c3e32541ead1ecef047949ace04ea",
+      "bytes": 2842,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/REPORT.md",
+      "published_path": "research/prime-gaps/round6/residual-trial/REPORT.md",
+      "sha256": "11a346f72bc5540864367d52740a9d77b1a7866cf5074e562509b94f921d4b35",
+      "bytes": 15322,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/audit_outputs.py",
+      "published_path": "research/prime-gaps/round6/residual-trial/audit_outputs.py",
+      "sha256": "2bf9a77346f37cf7e3028ba14743e12afe45c84becec052b78c17a70243f1479",
+      "bytes": 2375,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/cap_trial.py",
+      "published_path": "research/prime-gaps/round6/residual-trial/cap_trial.py",
+      "sha256": "62721474dc05b63bbec403f4aedef0dc81601626a61f46ffab472071917da1d9",
+      "bytes": 15444,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/coarse.log",
+      "published_path": "research/prime-gaps/round6/residual-trial/coarse.log",
+      "sha256": "f3a9b15a860a0df936d40a7411ac6ab25eef137fb44cd4fb1f41c649f1fe08bc",
+      "bytes": 1350,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/compact_witness.py",
+      "published_path": "research/prime-gaps/round6/residual-trial/compact_witness.py",
+      "sha256": "b430432c5425d90e8309ae34dfad81eab40b398f76d0afeaab891f48ec1d76f4",
+      "bytes": 1740,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/compaction_manifest.json",
+      "published_path": "research/prime-gaps/round6/residual-trial/compaction_manifest.json",
+      "sha256": "0045ef6cfce81742eddf40b5c5460e18d8543034e4b42399a16e9940ae710f53",
+      "bytes": 7182,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/fine.log",
+      "published_path": "research/prime-gaps/round6/residual-trial/fine.log",
+      "sha256": "932ac796d66e854de9a2be6071f8feb8d952c052cd7a87b0d7aff0b04d9a2a39",
+      "bytes": 1486,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/fine_cut8.log",
+      "published_path": "research/prime-gaps/round6/residual-trial/fine_cut8.log",
+      "sha256": "a244651144d1e811837c81f74eb49a113f61de5520bff5f38fc472263ce37a2f",
+      "bytes": 1747,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/fine_tilt25.log",
+      "published_path": "research/prime-gaps/round6/residual-trial/fine_tilt25.log",
+      "sha256": "ee04faa65688d0b4174c6cd514802f5809062982f1eb218b736251b549134e0b",
+      "bytes": 1766,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/manifest.json",
+      "published_path": "research/prime-gaps/round6/residual-trial/manifest.json",
+      "sha256": "4c7165f82e6987bce5feaf7728ff4b307d3187b29f1e08de054f692e4a730429",
+      "bytes": 3806,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/projection_audit.json",
+      "published_path": "research/prime-gaps/round6/residual-trial/projection_audit.json",
+      "sha256": "3507518b518778b5bf88a027e09a24b7c28b0776393ff24e57c7860bc8211a63",
+      "bytes": 4583,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/projection_audit.log",
+      "published_path": "research/prime-gaps/round6/residual-trial/projection_audit.log",
+      "sha256": "3507518b518778b5bf88a027e09a24b7c28b0776393ff24e57c7860bc8211a63",
+      "bytes": 4583,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual.py",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual.py",
+      "sha256": "0cae6f84a62f8267dce20eed3cd0edbf35d2899f1c04de82daf16535fad3608e",
+      "bytes": 11169,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual_n16384_cut1e-09_tilt20.json",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual_n16384_cut1e-09_tilt20.json",
+      "sha256": "16bd9d5f251cca51efb5faeba3699b3f3aef69491fcc6dc1e6e3f12be9a9e505",
+      "bytes": 4999,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual_n16384_cut1e-09_tilt20_compact.npz",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual_n16384_cut1e-09_tilt20_compact.npz",
+      "sha256": "d9a6d1c6ce757953292ba230c6fc0a0e918a55b22b63c14f8d0c36bbab471d9e",
+      "bytes": 484037,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual_n98304_cut1e-08_tilt20.json",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual_n98304_cut1e-08_tilt20.json",
+      "sha256": "6813a13812e6e51233945a05819090b32b285464683fa5a23f9473bdb1c84b01",
+      "bytes": 5396,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual_n98304_cut1e-08_tilt20_compact.npz",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual_n98304_cut1e-08_tilt20_compact.npz",
+      "sha256": "0a18a97021be26c6b8ef080beafb2495349b9828e6d3b345631a7f9ab274b6b5",
+      "bytes": 2473133,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual_n98304_cut1e-09_tilt20.json",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual_n98304_cut1e-09_tilt20.json",
+      "sha256": "75c0c7b61243b9292f8a830ba13379aeb47c048d56b84c7c34734456a893c3d8",
+      "bytes": 5139,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual_n98304_cut1e-09_tilt20_compact.npz",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual_n98304_cut1e-09_tilt20_compact.npz",
+      "sha256": "b283cab182b0b32091f24ac898def31cc263fa6af1a4540b30721e8122b80c77",
+      "bytes": 2494947,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual_n98304_cut1e-09_tilt25.json",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual_n98304_cut1e-09_tilt25.json",
+      "sha256": "f166bcc6a93ba3aac8de7eeeaafa0985bad3350ac3dc76bc9481bcb71ad86117",
+      "bytes": 5417,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/radial_residual_n98304_cut1e-09_tilt25_compact.npz",
+      "published_path": "research/prime-gaps/round6/residual-trial/radial_residual_n98304_cut1e-09_tilt25_compact.npz",
+      "sha256": "8002ae3f1dd1751f579161cd9e90d9d187ee5ef171c0a13ee0947dff838accde",
+      "bytes": 2585808,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/validate_outputs.py",
+      "published_path": "research/prime-gaps/round6/residual-trial/validate_outputs.py",
+      "sha256": "37b7b91686120f2630193d5f507d3651338a1eb0488773a7f9feb90499e96fd4",
+      "bytes": 1569,
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "residual-trial/validation.json",
+      "published_path": "research/prime-gaps/round6/residual-trial/validation.json",
+      "sha256": "17f689698bd80e7a2bd7d03c1748d3bbccc9cb727cf05a09e5fea9fa3e3b10d9",
+      "bytes": 1028,
+      "change": "verbatim"
+    }
+  ],
+  "local_full_arrays": [
+    {
+      "name": "radial_residual_n16384_cut1e-09_tilt20.npz",
+      "bytes": 10003394,
+      "sha256": "6a43a7d9c183d249f8e4d3146165eef8b7a934829a13534459a53cc469c50715",
+      "reason": "Full D cache preserved locally; all remaining arrays published byte-for-byte in compact witness."
+    },
+    {
+      "name": "radial_residual_n98304_cut1e-08_tilt20.npz",
+      "bytes": 57692211,
+      "sha256": "8050a4edb3628c624d2034e1380f3163bbf7f99d0a2aede2b3088de93c98e6b6",
+      "reason": "Full D cache preserved locally; all remaining arrays published byte-for-byte in compact witness."
+    },
+    {
+      "name": "radial_residual_n98304_cut1e-09_tilt20.npz",
+      "bytes": 57714025,
+      "sha256": "206b9da6ecf3e7c2fde932fd76b6496c180b7ac3c322ba268b21d1caa678b80e",
+      "reason": "Full D cache preserved locally; all remaining arrays published byte-for-byte in compact witness."
+    },
+    {
+      "name": "radial_residual_n98304_cut1e-09_tilt25.npz",
+      "bytes": 57636895,
+      "sha256": "1f9eae8e897dc2d334a5b689d19dfbfd108d1e96304e6fd47ce3cd53a315a57b",
+      "reason": "Full D cache preserved locally; all remaining arrays published byte-for-byte in compact witness."
+    }
+  ],
+  "compact_policy": "Only the reconstructible77-by-N D density cache is omitted from public NPZs; candidate and other arrays are unchanged. See residual-trial/compaction_manifest.json."
+}

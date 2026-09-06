@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-05",
+  "kind": "primary-source receipt; author manuscript and publisher original paper",
+  "sources": [
+    {
+      "file": "montgomery-vaughan-II-author-draft.pdf",
+      "url": "https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+      "text_file": "montgomery-vaughan-II-author-draft.txt",
+      "text_sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd",
+      "audited_location": "Theorem 17.1, (17.28)-(17.29), printed pp.65-66, PDF pages77-78; first theorem page visually checked."
+    },
+    {
+      "file": "schoenfeld-1976-II.pdf",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "text_file": "schoenfeld-1976-II.txt",
+      "text_sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+      "audited_location": "Theorem10, (6.3), printed337, PDF1; page visually checked."
+    }
+  ]
+}

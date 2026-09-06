@@ -1,0 +1,50 @@
+# PDFs are binary artifacts, including Poppler files with long ASCII prefixes.
+*.pdf binary
+
+# Complete source compilations retain original Markdown hard breaks and EOFs.
+docs/handoff/*.md whitespace=-blank-at-eol,-blank-at-eof
+
+# Frozen Round 19 source snapshots retain original end-of-file blank lines.
+research/dyson/round19/** whitespace=-blank-at-eof
+
+# Frozen Round 20 source snapshots retain original EOF blank lines.
+research/dyson/round20/** whitespace=-blank-at-eof
+
+# Preserve Python csv.writer CRLF bytes in frozen Round 20 data.
+research/dyson/round20/actual-prime-variance/*.csv whitespace=cr-at-eol
+
+# Preserve five original R21 trailing blank lines in source/history files.
+research/dyson/round21/coordinator-review/CENTERED_PAIR_ERROR_TARGET.md whitespace=-blank-at-eof
+research/dyson/round21/strict-arithmetic-target/check_centered_pair_target.py whitespace=-blank-at-eof
+research/dyson/round21/strict-arithmetic-target/check_h1_correction.py whitespace=-blank-at-eof
+research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction/CENTERED_PAIR_ERROR_TARGET.md whitespace=-blank-at-eof
+research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction/check_centered_pair_target.py whitespace=-blank-at-eof
+
+# Preserve three original R22 trailing blank lines without editing research sources.
+research/dyson/round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md whitespace=-blank-at-eof
+research/dyson/round22/singleton-renormalization/check_singleton_renormalization.py whitespace=-blank-at-eof
+research/dyson/round22/small-shift-review/INDEPENDENT_SMALL_SHIFT_REVIEW.md whitespace=-blank-at-eof
+
+# Preserve frozen Round 23 original EOF blank lines byte for byte.
+research/dyson/round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md whitespace=-blank-at-eof
+research/dyson/round23/coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW.md whitespace=-blank-at-eof
+research/dyson/round23/coordinator-r22-review/SINGLETON_RENORMALIZATION.md whitespace=-blank-at-eof
+research/dyson/round23/coordinator-r22-review/check_singleton_renormalization.py whitespace=-blank-at-eof
+research/dyson/round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md whitespace=-blank-at-eof
+research/dyson/round23/even-pair-dispersion/check_upper_wing_completion.py whitespace=-blank-at-eof
+
+# Preserve frozen Round 24 original EOF blank lines.
+research/dyson/round24/coordinator-intake/ASTRA_186_FLT_TOOLS_AFTER_REALIZABILITY.md whitespace=-blank-at-eof
+research/dyson/round24/coordinator-r23-review/COORDINATOR_MOD6_REVIEW.md whitespace=-blank-at-eof
+research/dyson/round24/coordinator-realizability-review/COORDINATOR_REALIZABILITY_REVIEW.md whitespace=-blank-at-eof
+research/dyson/round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md whitespace=-blank-at-eof
+research/dyson/round24/small-cofactor-target/check_exact_constants.py whitespace=-blank-at-eof
+
+# Preserve frozen Round 25 source EOF blank lines.
+research/dyson/round25/joint-main-cancellation/check_joint_main.py whitespace=-blank-at-eof
+
+# Preserve frozen Round 26 source EOF blank lines.
+research/dyson/round26/full-shift-reduction/check_full_shift.py whitespace=-blank-at-eof
+
+# Preserve frozen Round 27 source EOF blank lines.
+research/dyson/round27/joint-dispersion-test/check_joint_dispersion.py whitespace=-blank-at-eof

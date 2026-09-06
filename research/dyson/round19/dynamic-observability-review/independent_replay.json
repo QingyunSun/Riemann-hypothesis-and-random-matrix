@@ -1,0 +1,38 @@
+{
+  "N": 8,
+  "author_report_sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+  "configuration_count": 12870,
+  "exact_rational_checks": {
+    "acceleration_below_chosen_bound": true,
+    "acceleration_envelope": 12160,
+    "chebyshev_hole_event_lower": "1/16",
+    "deficit_coefficient_without_kappa": "1/3528",
+    "gap_increment_below_quarter": true,
+    "gap_increment_upper": "43009/1387266048",
+    "opening_exceeds_beta": true,
+    "opening_rational_lower": "2/165",
+    "s_star": "1/4128768",
+    "s_star_matches": true
+  },
+  "float_diagnostics": {
+    "adjacent_formula": 0.1473666313707493,
+    "adjacent_probability": 0.14736663137075093,
+    "coherent_B_formula": -2045.590911714051,
+    "expected_good_unordered_bonds": 2.357866101932015,
+    "force_square_formula": 84.0,
+    "good_event_probability": 0.14736663137075093,
+    "maximum_absolute_initial_acceleration": 76.10181556073064,
+    "maximum_center_acceleration_error": 7.437384041963924e-13,
+    "maximum_center_velocity_error": 5.051514762044462e-14,
+    "maximum_curvature_normalization_error": 9.094947017729282e-13,
+    "maximum_hole_formula_absolute_error": 7.993605777301127e-15,
+    "mean_angular_force_square": 84.00000000000082,
+    "mean_coherent_B_second_derivative": -2045.5909117140707,
+    "minimum_good_initial_gap_speed": 1.5707963267948966,
+    "probability_mass": 1.0000000000000102
+  },
+  "good_pair_checks": 48048,
+  "scope": "One N=8 exhaustive FLOAT subset enumeration, not exact numerical proof; exact rational checks are separated.",
+  "script_sha256": "83807e566506c778fbc9a6903293e94158c557c1c1fe73e06f7f6d3157b2f549",
+  "status": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "finite numerical Ritz diagnostic; no interval or asymptotic certification",
+  "L": 100000,
+  "ell": "16/15",
+  "theta": 1,
+  "operator_source_sha256": "ace698e62f08ba97e3da43c58e4b5baeb7d6f42fbfafae7c01ec07e6214cb579",
+  "initial_rayleigh": 4.192011775686907,
+  "residual_norm": 0.1775212398875796,
+  "residual_rayleigh": 0.9335496415830578,
+  "compressed_matrix": [
+    [
+      4.192011775686907,
+      0.1775212398875796
+    ],
+    [
+      0.1775212398875796,
+      0.9335496415830578
+    ]
+  ],
+  "ritz_top": 4.201654608743949,
+  "direct_new_vector_rayleigh": 4.2016546087439535,
+  "orthogonality_error": 1.3877787807814457e-16,
+  "initial_margin": -0.037630202522392214,
+  "new_margin": -0.03714169089288974,
+  "margin_gain": 0.0004885116295024986,
+  "threshold": 4.934802200544679,
+  "seconds": 0.0784769169986248,
+  "transfer_status": "K_L u contains prime-removal and cutoff-dependent sums; the fixed H=f+gS2 transfer does not automatically cover it"
+}

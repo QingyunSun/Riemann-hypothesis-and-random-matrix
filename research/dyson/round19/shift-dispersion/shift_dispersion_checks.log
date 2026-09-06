@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "scope": "Exact finite identities and rational exponent comparisons only; no new prime estimate, PNT-family threshold, localized variance, or zeta claim.",
+  "author_sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+  "script_sha256": "61fc73eff3f574024924cafd77dd9c64e82e1a79b07321fa0b83dae57afd0303",
+  "primitive_projection_sharpness": [
+    {
+      "H": 3,
+      "norm": "563/243",
+      "sharp_pairing": "563/243"
+    },
+    {
+      "H": 4,
+      "norm": "104111/30720",
+      "sharp_pairing": "104111/30720"
+    },
+    {
+      "H": 5,
+      "norm": "94253/18750",
+      "sharp_pairing": "94253/18750"
+    }
+  ],
+  "crt_cases": 576,
+  "retained_principal_product_cases": 60480,
+  "compatible_cases_not_reducible_to_n1_equals_n2_mod_q": 124,
+  "maynard_III_allocation": {
+    "delta": "3/125",
+    "q1_exponent": "2401/86500",
+    "q2_exponent": "85677/173000"
+  },
+  "maynard_II_margins": [
+    "1/50",
+    "3/100",
+    "53/200",
+    "57/100"
+  ],
+  "localized_variance_theta_threshold": "477/2000",
+  "old_compact_alpha_threshold": "2000/1523"
+}

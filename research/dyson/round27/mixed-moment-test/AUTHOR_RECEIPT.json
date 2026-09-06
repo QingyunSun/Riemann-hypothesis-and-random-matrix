@@ -1,0 +1,42 @@
+{
+  "status": "Frozen ordinary derivation submitted for independent review",
+  "scope": "Actual mixed estimate, summable pure-divisor evaluation, and exact upper/lower direction; no strict covariance gain.",
+  "checks": "15 exact scalar assertions; 212 KaTeX expressions; no scans.",
+  "files": [
+    {
+      "path": "MIXED_MOMENT_DIRECTION_TEST.md",
+      "bytes": 21089,
+      "sha256": "b338a3210061055f6ad5899fd168175ba2c85d6225f80f71e6cd48098923cdc5"
+    },
+    {
+      "path": "check_mixed_moment_algebra.py",
+      "bytes": 1808,
+      "sha256": "9b410aa1edec6ce3b46c917fd844dd3def56d38ede634b197e2e31d0caf02f21"
+    },
+    {
+      "path": "mixed_moment_checks.json",
+      "bytes": 773,
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584"
+    },
+    {
+      "path": "mixed_moment_checks.log",
+      "bytes": 773,
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584"
+    },
+    {
+      "path": "check_math_syntax.cjs",
+      "bytes": 1102,
+      "sha256": "04602aba8ef7910453d45a0044da18717c8e1247244955eb4d1a19bfccf2815c"
+    },
+    {
+      "path": "math_syntax_check.json",
+      "bytes": 78,
+      "sha256": "2eecd9da841a9726d33374957bf1d714b1f14c1b4343a790cf005612b8f6728c"
+    },
+    {
+      "path": "source_receipt.json",
+      "bytes": 3786,
+      "sha256": "63434fd13e09c53376c805ed3f7712fb5a9ce2ee3f180f54d8f6ba5aa9c68444"
+    }
+  ]
+}

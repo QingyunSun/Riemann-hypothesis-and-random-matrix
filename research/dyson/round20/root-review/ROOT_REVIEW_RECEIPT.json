@@ -1,0 +1,49 @@
+{
+  "status": "Accepted ordinary RH proofs and bounded diagnostic scopes",
+  "files": [
+    {
+      "path": "length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "path": "height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "bytes": 10461,
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe"
+    },
+    {
+      "path": "actual-prime-variance/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+      "bytes": 16818,
+      "sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9"
+    },
+    {
+      "path": "actual-prime-variance/compute_prime_variance.py",
+      "bytes": 15273,
+      "sha256": "d6d13914220ffb30b059abf7bc4d923cfb20bd240f54fc838741dc7635f6e71f"
+    },
+    {
+      "path": "actual-prime-variance/check_prime_variance.py",
+      "bytes": 8571,
+      "sha256": "051d7f740e03183919bd65bca9d8a441f0c19ec111820973543d8b12dafd88fb"
+    },
+    {
+      "path": "length-average-review/INDEPENDENT_EXPONENTIAL_LENGTH_REVIEW.md",
+      "bytes": 11738,
+      "sha256": "951f578b625a3cdc0057ce09fe9d4d91cffef29c487eeac9135d440905142fda"
+    },
+    {
+      "path": "height-regularity-review/INDEPENDENT_HEIGHT_REVIEW.md",
+      "bytes": 8990,
+      "sha256": "674a947633c4544cd8d838c1e5588cb1fe802827dabee4b95b60a0ecf76bdc18"
+    },
+    {
+      "path": "root-review/ROOT_ROUND20_REVIEW.md",
+      "bytes": 7228,
+      "sha256": "425f589e8851d39df3f824378989e2a476751d7ada41f3d8b0519fb63bff432b"
+    }
+  ],
+  "mathematical_read": "Complete author proofs, both analytic independent reviews, all 492 computation/checker source lines, primary source text inputs",
+  "new_mathematical_execution": false,
+  "formal_verification": false,
+  "strict_deficit_proved": false
+}

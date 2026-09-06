@@ -1,0 +1,119 @@
+{
+  "exact": {
+    "continuous_mean_denominator_identity": "PASS",
+    "diagonal_leading_weight_mass": "1",
+    "diagonal_log_correction": "0",
+    "half_lattice_cosine_exact_cases": 41,
+    "nuisance_power_relative_to_X": [
+      "-1/14",
+      "0",
+      "1/18"
+    ],
+    "polynomial_seed_regression": {
+      "m0": "7/10",
+      "m1": "5/33",
+      "psi_on_0_1": "-v**9 + 6*v**7 - 21*v**5 + 21*v**4 - 6*v**2 + 1",
+      "s2": "128/315",
+      "scope": "Algebra check only; main theorem uses the fixed C-infinity seed.",
+      "seed": "(1-4*x^2)^2 on [-1/2,1/2]"
+    },
+    "shift_exponents_epsilon_1_over_4": [
+      "3/7",
+      "5/9"
+    ],
+    "status": "PASS",
+    "triangle_candidate_ell_1_over_4": "1085/768"
+  },
+  "floating": [
+    {
+      "certification": "floating quadrature only; no interval enclosure",
+      "epsilon_1_over_4": {
+        "AH_and_RH_upper": 1.0105877964142982,
+        "atomic_prime_diagonal": 0.3703062865320857,
+        "centered_prime_remainder_upper_target": 0.6296937134679144,
+        "sine_prediction": 0.18515314326604285,
+        "strict_deficit_required_for_bound_below_one": 0.010587796414298134
+      },
+      "m0": 0.7406125730641714,
+      "m1": 0.16940474262877014,
+      "order": 64,
+      "s2": 0.06654306042249813,
+      "status": "PASS",
+      "synthetic_finite_sum_check": {
+        "T": 100.0,
+        "absolute_identity_error": 6.938893903907228e-18,
+        "c0": 0.026231716025579804,
+        "cb_direct_double_integral": 0.005792212832141921,
+        "cb_fourier_pair": 0.005792212832141928,
+        "defect": 0.020439503193437875,
+        "normalized_offsets": [
+          0,
+          0.3333333333333333,
+          1.1666666666666667,
+          2.25
+        ]
+      }
+    },
+    {
+      "certification": "floating quadrature only; no interval enclosure",
+      "epsilon_1_over_4": {
+        "AH_and_RH_upper": 1.0105877964142522,
+        "atomic_prime_diagonal": 0.3703062865306041,
+        "centered_prime_remainder_upper_target": 0.6296937134693958,
+        "sine_prediction": 0.18515314326530205,
+        "strict_deficit_required_for_bound_below_one": 0.010587796414252181
+      },
+      "m0": 0.7406125730612082,
+      "m1": 0.1694047426280349,
+      "order": 128,
+      "s2": 0.06654306042249641,
+      "status": "PASS",
+      "synthetic_finite_sum_check": {
+        "T": 100.0,
+        "absolute_identity_error": 3.469446951953614e-18,
+        "c0": 0.026231716025495545,
+        "cb_direct_double_integral": 0.005792212832114736,
+        "cb_fourier_pair": 0.00579221283211474,
+        "defect": 0.020439503193380806,
+        "normalized_offsets": [
+          0,
+          0.3333333333333333,
+          1.1666666666666667,
+          2.25
+        ]
+      }
+    },
+    {
+      "certification": "floating quadrature only; no interval enclosure",
+      "epsilon_1_over_4": {
+        "AH_and_RH_upper": 1.0105877964142522,
+        "atomic_prime_diagonal": 0.3703062865306046,
+        "centered_prime_remainder_upper_target": 0.6296937134693954,
+        "sine_prediction": 0.1851531432653023,
+        "strict_deficit_required_for_bound_below_one": 0.01058779641425219
+      },
+      "m0": 0.7406125730612092,
+      "m1": 0.16940474262803504,
+      "order": 192,
+      "s2": 0.0665430604224965,
+      "status": "PASS",
+      "synthetic_finite_sum_check": {
+        "T": 100.0,
+        "absolute_identity_error": 1.734723475976807e-18,
+        "c0": 0.026231716025495573,
+        "cb_direct_double_integral": 0.005792212832114743,
+        "cb_fourier_pair": 0.005792212832114741,
+        "defect": 0.020439503193380833,
+        "normalized_offsets": [
+          0,
+          0.3333333333333333,
+          1.1666666666666667,
+          2.25
+        ]
+      }
+    }
+  ],
+  "floating_refinement_max_change": 9.992007221626409e-16,
+  "scope": "Normalization and exact rational source checks only. No zeta upper target is tested or proved.",
+  "status": "PASS"
+}

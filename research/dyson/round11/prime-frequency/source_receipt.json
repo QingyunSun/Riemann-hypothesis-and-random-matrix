@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-05",
+  "primary_source": "Bhowmik and Schlage-Puchta, Mean representation number of integers as the sum of primes (2010), Lemma 3",
+  "assumption": "RH; no Montgomery or GRH assumption",
+  "provenance_note": "Primary PDF read online; local PDF re-read via layout text. Web screenshot endpoint timed out, but PDF retrieval and text succeeded.",
+  "publication_note": "Third-party source bodies remain local references; publish this receipt and URL, not the PDF/text copies.",
+  "files": [
+    {
+      "path": "research-round11/prime-frequency/sources/bhowmik-schlage-puchta-goldbach-2010.pdf",
+      "sha256": "6cf48524eb9473cca93c1ce0ea97e00fc7dab7c49a3db4e01a490cc165296607",
+      "bytes": 103776,
+      "reviewed_scope": "Primary author PDF: Lemmas 1\u20133, especially Lemma 3 at printed page 3; source includes endpoint proof. Local source body only.",
+      "url": "https://pro.univ-lille.fr/fileadmin/user_upload/pages_pros/gautami_bhowmik/Publications/Goldbach4.2.10.pdf"
+    },
+    {
+      "path": "research-round11/prime-frequency/sources/bhowmik-schlage-puchta-goldbach-2010.txt",
+      "sha256": "3c9fb7b99176f617e444d188d56b133883042fe39bdd83361fce9cc61b2762ac",
+      "bytes": 15717,
+      "reviewed_scope": "pdftotext -layout transcription of the pinned author PDF, same reviewed scope.",
+      "url": "https://pro.univ-lille.fr/fileadmin/user_upload/pages_pros/gautami_bhowmik/Publications/Goldbach4.2.10.pdf"
+    },
+    {
+      "path": "research-round10/shift-average/SMOOTH_SHIFT_COMPLETION_BOUND.md",
+      "sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+      "bytes": 13008,
+      "reviewed_scope": "Frozen Round 10 exact object/completion, prime-power discrepancy and actual smooth-kernel transfer."
+    },
+    {
+      "path": "research-round10/shift-average/ACTUAL_KERNEL_AND_PRIME_POWER_REVIEW.md",
+      "sha256": "df6d6602ce9b68ac4759a8cbb8a3caad84d82b4694105a3bb466a9a69fd22732",
+      "bytes": 6575,
+      "reviewed_scope": "Frozen Round 10 exact object/completion, prime-power discrepancy and actual smooth-kernel transfer."
+    },
+    {
+      "path": "research-round10/shift-average/COEFFICIENT_AND_SPACING_AUDIT.md",
+      "sha256": "eccd80ad4909639a53583376444cbc9fce9fab518b75de7f82052c31c7a27fc7",
+      "bytes": 11413,
+      "reviewed_scope": "Frozen Round 10 exact object/completion, prime-power discrepancy and actual smooth-kernel transfer."
+    }
+  ]
+}

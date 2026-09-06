@@ -1,0 +1,142 @@
+{
+  "source": "research-round17 staging; all original bytes preserved locally",
+  "original_files": 19,
+  "original_bytes": 480767,
+  "public_verbatim_files": 17,
+  "published_source_edits": [],
+  "files": [
+    {
+      "path": "bragg-sieve/BRAGG_SHORT_INTERVAL_CAP_TEST.md",
+      "bytes": 12359,
+      "sha256": "5939a90ce808ec8fbd11a9659bfd2dc61e60adb65f2b2b4b12f9cfb8641a9607",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve/author_manifest.json",
+      "bytes": 1179,
+      "sha256": "bd8556218d934930580af126424a4d28145c07210c07019b3732dd5edc16aeac",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve/bragg_cap_constants.json",
+      "bytes": 1150,
+      "sha256": "2462eb950e9d7f63701e27b1969859896d2502cda393fd42cea8bcd095be65c2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve/bragg_cap_constants.log",
+      "bytes": 1150,
+      "sha256": "2462eb950e9d7f63701e27b1969859896d2502cda393fd42cea8bcd095be65c2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve/check_bragg_cap_constants.py",
+      "bytes": 2169,
+      "sha256": "1583e9699a11cfa94bf0820514e8c3009f1c0ee4df0125f92a1e05bc2628518d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve/source_manifest.json",
+      "bytes": 2184,
+      "sha256": "fc2129ac6040fe1bc61d8e521ff9cd7ff58cdb4f488efbfde56471649994e618",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve/sources/yamada-2312.16090v1.pdf",
+      "bytes": 375123,
+      "sha256": "a7d4e0b101372d40e09be6782c0336153260f5762e1bf77820dbf05b60dbfb06",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary reference retained locally; public source manifest gives URL/hash."
+    },
+    {
+      "path": "bragg-sieve/sources/yamada-2312.16090v1.txt",
+      "bytes": 39483,
+      "sha256": "699eecaffddc0c945b13e504e4653f11a43ebafbb1fbe36f4ae9961a95f81493",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary reference retained locally; public source manifest gives URL/hash."
+    },
+    {
+      "path": "bragg-sieve-review/INDEPENDENT_CAP_REVIEW.md",
+      "bytes": 4174,
+      "sha256": "680b31751f399d9208f85d184fc127d258bc50353e67cf70730df6a778806d60",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve-review/ROOT_REVIEW_RECEIPT.json",
+      "bytes": 1366,
+      "sha256": "e6f1cb459307010ce22d529e4e462685d43e286a428751c6a71418c642f6c3c7",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve-review/bragg_cap_constants.json",
+      "bytes": 1150,
+      "sha256": "2462eb950e9d7f63701e27b1969859896d2502cda393fd42cea8bcd095be65c2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-sieve-review/root_replay.log",
+      "bytes": 1150,
+      "sha256": "2462eb950e9d7f63701e27b1969859896d2502cda393fd42cea8bcd095be65c2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "quadratic-packet/AUTHOR_RECEIPT.json",
+      "bytes": 1351,
+      "sha256": "3739426094b514defccb42ef2ceb50cf7ce71c4aa91cbc731d325331904c36ff",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "quadratic-packet/QUADRATIC_COMPACT_PACKET.md",
+      "bytes": 16688,
+      "sha256": "a7b5290a3d96d2590da42f3fe13a53c1e02499b53d066366824b9f15883a7da3",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "quadratic-packet-review/INDEPENDENT_QUADRATIC_REVIEW.md",
+      "bytes": 14750,
+      "sha256": "ad8c03dfebb0ebebdc3280bf7f1fe2bbc5c31031f5088f4941cfc5e877c83ae3",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "quadratic-packet-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2724,
+      "sha256": "83e96512771a900f132527e7d3257424fbf4377a2f9a314f6eb7aaa429de10d6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "quadratic-packet-review/check_local_residues.json",
+      "bytes": 432,
+      "sha256": "66303965c5d03d98039232a4a21aa043d7b4d2678276ad1767d4b8332ac5dbf4",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "quadratic-packet-review/check_local_residues.log",
+      "bytes": 388,
+      "sha256": "ff2bdac2897f6e7019a952228084e4f094309e3c4eed0bef2129ab05a327e1c0",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "quadratic-packet-review/check_local_residues.py",
+      "bytes": 1797,
+      "sha256": "15d6d5765dadc64c670eff980c08eed0f29025dc555ddea5ce6c56c80eb19b99",
+      "public_verbatim": true,
+      "omission_reason": null
+    }
+  ]
+}

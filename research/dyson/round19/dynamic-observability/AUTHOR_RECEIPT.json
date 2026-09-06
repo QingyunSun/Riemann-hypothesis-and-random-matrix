@@ -1,0 +1,78 @@
+{
+  "external_reference": {
+    "role": "Primary context only; no additional positive-time arithmetic comparison theorem imported.",
+    "url": "https://arxiv.org/abs/1801.05914"
+  },
+  "owned_files": [
+    {
+      "bytes": 18586,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/LOCAL_BRAGG_PRODUCTION.md",
+      "sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735"
+    },
+    {
+      "bytes": 8079,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/check_local_bragg.py",
+      "sha256": "83807e566506c778fbc9a6903293e94158c557c1c1fe73e06f7f6d3157b2f549"
+    },
+    {
+      "bytes": 1668,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/local_bragg_checks.json",
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d"
+    },
+    {
+      "bytes": 1668,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/local_bragg_checks.log",
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d"
+    },
+    {
+      "bytes": 1541,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/check_math_syntax.cjs",
+      "sha256": "837849d42db436e7d65a99eca7d39ffcd74cc0cc4bc0d000793b9c97c13c2b44"
+    },
+    {
+      "bytes": 287,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/math_syntax_checks.json",
+      "sha256": "92b584227565bd6473986b770f39343b986e8bbd2f447597787abbf71a2c0a1b"
+    },
+    {
+      "bytes": 2462,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/ROOT_CURVATURE_CROSSCHECK.md",
+      "sha256": "429d58a41215d95fa6dc8c22689159b9c20900235eb1d92bc183ec2ac6f69c74"
+    }
+  ],
+  "resolved_local_dependencies": [
+    {
+      "bytes": 20291,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+    },
+    {
+      "bytes": 19946,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round7/true-zeta-flow/FORWARD_FLOW_OBSTRUCTION.md",
+      "sha256": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da"
+    },
+    {
+      "bytes": 14227,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round3/force_energy.md",
+      "sha256": "526c5e7abd2c6437f3ec2d6cdcdffb27db13a134af15c4ab17464487cbdf360c"
+    },
+    {
+      "bytes": 18635,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md",
+      "sha256": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701"
+    },
+    {
+      "bytes": 6029,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md",
+      "sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76"
+    }
+  ],
+  "scope": "Finite ACUE circular scalar-heat theorem only; no actual-zeta transfer.",
+  "status": "Author proof and bounded checks frozen; independent reviews are separate artifacts.",
+  "validation": {
+    "float_checks": "N=8 only, 12870 configurations; not interval proof.",
+    "math_syntax": "168 expressions, KaTeX 0.18.5, zero errors and control bytes.",
+    "ordinary_proof_review": "Parent and Plato reported acceptance; final written reviews maintained separately.",
+    "rational_checks": "Exact Fraction arithmetic."
+  }
+}

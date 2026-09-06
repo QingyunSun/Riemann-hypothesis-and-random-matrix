@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "Pinned-input checks and unchanged eight-scalar-assertion replay in a temporary copy; not analytic proof certification.",
+  "author_receipt_sha256": "29b60cd498eea92cda9a072c00c5d1b39b07f15ea70440e342f9ff2e905f21db",
+  "verified_inputs": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/log-prime-heat/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+      "bytes": 10290,
+      "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/log-prime-heat/check_heat_multiplier.py",
+      "bytes": 1963,
+      "sha256": "a292eec4eb318d5399e584870b6cb1d32bd1f33d224e69cde9e7a61ca3b605e7",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/log-prime-heat/heat_multiplier_checks.json",
+      "bytes": 652,
+      "sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/log-prime-heat/heat_multiplier_checks.log",
+      "bytes": 652,
+      "sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/log-prime-heat/math_syntax_checks.json",
+      "bytes": 457,
+      "sha256": "ae29a42cfc21066c393958b6e6c544405f1fb7e199ae6a020a296290139d3120",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "bytes": 10461,
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "status": "MATCH"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "bytes": 64608,
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+      "status": "MATCH"
+    }
+  ],
+  "scalar_assertions": 8,
+  "generated_json_sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+  "stdout_sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+  "byte_identical_to_author": true
+}

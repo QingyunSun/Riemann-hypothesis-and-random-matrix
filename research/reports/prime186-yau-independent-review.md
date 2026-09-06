@@ -1,0 +1,24 @@
+# Independent adversarial review of the circular heat isolation theorem
+
+Reviewer: the prime186 research agent. Date: 2026-09-05. Reviewed `yau_flow.md` §§3.1–3.4, §§4.1–4.4, and §§10.1–10.2, and checked the stated input against the locally downloaded Feng–Wei paper. This is an independent mathematical review, not formal verification or a novelty determination.
+
+**Conclusion:** I found no fatal gap in the deterministic isolation argument or its transfer to CUE and fixed positive integer circular-beta ensembles. The argument supplies a plausible complete proof of the stated finite-ensemble depth law. It does not provide a zeta-zero theorem.
+
+## Checks that could have invalidated the argument
+
+1. **Flow sign and time normalization.** Multiplication by `exp[s j(N-j)]` on a centered characteristic polynomial is ordinary scalar heat at time `s`, up to an irrelevant scalar. The normal Gaussian displacement is `sqrt(2s) Z`. The quadratic local model is therefore `x²-1/4+2τ`, which disappears at `τ=1/8`. This agrees with the root ODE and with the exact two-body collision time `-log cos(δ/2)`.
+2. **Gaussian tails.** The estimate `|H(y)/H(0)-1| ≤ exp(A|y|)-1` is global for real `y`. It does not use a local Taylor expansion outside its range. Under `δA≤1`, the scaled integrand is dominated by a polynomial times `exp(|Y|)`, uniformly on compact scaled space/time ranges. Gaussian integrability gives the required uniform convergence, including time zero.
+3. **First collision versus a disappearing local minimum.** The proof does not infer a collision from final-time positivity alone. It keeps both fixed boundary values nonzero at every intermediate time and tracks the two initial simple roots. Consequently they cannot escape the interval without a collision. If another pair collides earlier, the claimed global upper bound is already satisfied.
+4. **Persistence on the circle.** The coefficient evolution preserves self-inversive symmetry. Before a multiple root occurs, simple roots starting on the circle remain there by uniqueness in the implicit function theorem and reciprocal-conjugate symmetry. Leading and constant coefficients remain nonzero throughout, so no root escapes through zero or infinity.
+5. **Long initial gaps.** The deterministic lower bound compares every adjacent gap to the same scalar solution initialized at the global minimum, rather than applying a logarithm of a negative cosine to a long gap. The scalar field `-2cot(g/2)` is increasing on `(0,2π)`, and the background contribution to an adjacent-gap derivative is nonnegative.
+6. **Initial third-root exclusion.** A third root at distance at most `Rδ` from the selected pair midpoint would force `δA` to be bounded below by a positive constant. Thus the hypothesis genuinely isolates exactly two roots inside the fixed scaled interval.
+7. **Triple-overcrowding probability.** The CUE divided-difference determinant estimate gives the power `N^9` and the full squared Vandermonde. Integrating two anchored offsets contributes `r^8`. At `r=N^(-7/6)`, the probability tends to zero at rate `O(N^(-1/3))`.
+8. **Packing and quantifiers.** Triple-free arcs imply at most two points per arc; with the chosen closest pair isolated, ordering reciprocal chord distances gives `A≤C r^(-1)(1+log N)`. Only tightness of the rescaled minimum gap is needed. No growing-argument extrapolation of the limiting tail is used.
+9. **General beta input.** Feng–Wei Lemma 1.1 explicitly supplies `C_{β,N-3,(3)}/C_{β,N}≤(Nβ)^(3β)` for `β≥1`. Hölder with exponents `(3,3,3)` produces precisely the stated three-point bound. Their extreme-gap theorem has the positive integer beta restriction used in the report.
+10. **Constants.** The paper gives `A1=1/24`, `A2=1/(24π)`, `A4=1/(270π)`. Under `D∼δ²/8`, these yield the reported tails `exp(-t/6)`, `exp[-2sqrt(2)t^(3/2)/(9π)]`, and `exp[-64sqrt(2)t^(5/2)/(675π)]`.
+
+## Suggested final-statement clarifications
+
+Define `D` explicitly as the infimum of positive times at which the evolved polynomial has a multiple root, with infimum of the empty set equal to infinity. State that initial roots are distinct almost surely in the random ensemble. Mention the preserved nonzero leading and constant coefficients in the circle-persistence argument. Keep the qualification that novelty requires comparison with Lehmer-pair/Newman and function-field literature.
+
+The proof's arithmetic limitation is substantive. It exploits an extreme pair whose angular gap is asymptotically much smaller than the mean spacing, and a probability law guaranteeing initial isolation. A half-lattice mimicker fails that hypothesis. Producing it for zeta zeros remains the missing arithmetic information, and a single or sparse exceptional close pair does not refute an Alternative Hypothesis permitting density-zero exceptions.

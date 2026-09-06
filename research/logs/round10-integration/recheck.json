@@ -1,0 +1,21 @@
+{
+  "scope": "Exact finite algebra and source-range implications only; analytic bounds rely on written proofs and reviews.",
+  "intake_public_files_verified": 14,
+  "python_files_parsed": 2,
+  "checks": {
+    "check_shift_completion.py": {
+      "identical_output": true,
+      "excluded_fields": [
+        "primary_source.path",
+        "frozen_round9.path"
+      ]
+    },
+    "check_edge_mixed_moment.py": {
+      "identical_output": true,
+      "excluded_fields": []
+    }
+  },
+  "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "original_files_unchanged": true,
+  "status": "PASS"
+}

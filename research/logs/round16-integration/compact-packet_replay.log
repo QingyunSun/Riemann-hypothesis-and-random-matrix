@@ -1,0 +1,1 @@
+{"C2_endpoint_matches": 15, "finite_prime_power_count": 45, "higher_prime_powers": [{"k": 2, "n": 10201, "p": 101, "weighted_term": "-0.0283790301835028788716139418551681207217798212674847850875072"}], "inverse_fourier_diagnostics": 18, "result_sha256": "805797e6ad68fee584d7b5dc873cf0d413bf21dba413e2a6e1abfebb6b8a2175", "status": "PASS"}

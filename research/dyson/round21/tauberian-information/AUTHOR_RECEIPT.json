@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-05",
+  "status": "Author mathematical proof and bounded checks frozen, pending independent R21 review; R20 dependencies have separate completed ordinary-proof reviews. No conjecture or rate proved.",
+  "owned_artifacts": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/FIXED_BUMP_TAUBERIAN_EQUIVALENCE.md",
+      "bytes": 13500,
+      "sha256": "3f3391cb149b69e86d6c758267eec56ae9d86f7523f2dcf078f6f351ff9ee48c"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/check_math_syntax.cjs",
+      "bytes": 1551,
+      "sha256": "be6ba292843bc17e500d84b6b253563c2e55ab225c39db7e97ceb691665b5f1a"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/check_mellin_transform.py",
+      "bytes": 2869,
+      "sha256": "d03d385ca80c83e9433196bbdcf55d695b1ff2e2a7a8522169259c83a2a6a187"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "c94da62f4f4f047d7536a0643d2c31e70414c0686cb3a018d03ca2d4bb934396"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/mellin_transform_checks.json",
+      "bytes": 1629,
+      "sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/mellin_transform_checks.log",
+      "bytes": 1629,
+      "sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/sources/SOURCE_RECEIPT.json",
+      "bytes": 2850,
+      "sha256": "a649b85cb0ba9259b51e586b09aa311c6145f975947e2fd1d0ffe338717699b6"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "bytes": 20291,
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "bytes": 10461,
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-average-review/INDEPENDENT_EXPONENTIAL_LENGTH_REVIEW.md",
+      "bytes": 11738,
+      "sha256": "951f578b625a3cdc0057ce09fe9d4d91cffef29c487eeac9135d440905142fda"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity-review/INDEPENDENT_HEIGHT_REVIEW.md",
+      "bytes": 8990,
+      "sha256": "674a947633c4544cd8d838c1e5588cb1fe802827dabee4b95b60a0ecf76bdc18"
+    }
+  ],
+  "checks": {
+    "exact_algebra": 10,
+    "syntax_expressions": 109,
+    "scope": "Exact scalar algebra and syntax only, no numerical scan or Tauberian proof certification."
+  },
+  "reproduction": [
+    "python3 check_mellin_transform.py > mellin_transform_checks.log",
+    "node check_math_syntax.cjs /absolute/path/to/katex"
+  ]
+}

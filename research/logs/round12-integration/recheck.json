@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "public_verbatim_files_verified": 15,
+  "checks": [
+    {
+      "script": "sampling-geometry/check_sampling_geometry.py",
+      "output": "sampling-geometry/check_sampling_geometry.json",
+      "structured_match": true,
+      "excluded_temporary_provenance_paths": []
+    },
+    {
+      "script": "dispersion-transfer/check_dispersion_hypotheses.py",
+      "output": "dispersion-transfer/dispersion_hypotheses_certificate.json",
+      "structured_match": true,
+      "excluded_temporary_provenance_paths": [
+        "primary_source.pdf_path",
+        "primary_source.text_path",
+        "frozen_dependencies.conductor_report_path",
+        "frozen_dependencies.previous_prime_bound_path"
+      ]
+    }
+  ],
+  "scope": "Exact constants, 60 cyclotomic signed-kernel identities, source parameter inequalities and six modular-selection cases only. Analytic and asymptotic claims use written proofs and independent reviews.",
+  "stronger_actual_prime_bound_proved": false,
+  "new_model_sessions_or_large_scans": false
+}

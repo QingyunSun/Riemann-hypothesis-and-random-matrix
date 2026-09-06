@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "bytes": 369949,
+      "path": "sources/openai-short-gaps.pdf",
+      "scope": "primary; printed pp.6\u201311, coefficients, variation and distribution hypotheses",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+    },
+    {
+      "bytes": 112915,
+      "path": "sources/openai-short-gaps.txt",
+      "scope": "retained extraction of the same primary source",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84"
+    },
+    {
+      "bytes": 843595,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "scope": "primary; printed p.1 equations1.1/1.3, actual RH Selberg bound at fixed exponent3",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "bytes": 180918,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "scope": "retained extraction of the same primary source",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "bytes": 18339,
+      "path": "research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "scope": "exact packet, five-term decomposition and smooth physical-shift bound",
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+    },
+    {
+      "bytes": 13945,
+      "path": "research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "scope": "frozen full independent review of that proof",
+      "sha256": "c84270bc355febda26b2b14004029015524de75142aea637e5d23c064308df58"
+    },
+    {
+      "bytes": 13005,
+      "path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "scope": "unchanged b/Pareto kernel and original singleton reduction",
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "bytes": 7693,
+      "path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "scope": "exact parity-adjusted coefficient with both S-weighted marginals",
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    },
+    {
+      "bytes": 18644,
+      "path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "scope": "actual variance and RH source-bound context",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    }
+  ],
+  "pending_separate_assembly_input": {
+    "name": "R24 enlarged-family nonprimitive N_Q proof",
+    "status": "Aquinas announced the ordinary bound O_eta(X^eta/T); standalone manuscript path/hash not yet delivered at this author freeze. It is a separate assembly input, not a premise of the cofactor Lemmas1\u20133. Equation24 retains N_Q exactly; equation25 is the stated assembly after its separate bound is inserted."
+  },
+  "primary_live_check": "CCCC official author-hosted PDF opened2026-09-05 and equation1.3 verified; 186 primary statements read in retained text",
+  "status": "retained source/dependency bytes pinned; originals unchanged"
+}

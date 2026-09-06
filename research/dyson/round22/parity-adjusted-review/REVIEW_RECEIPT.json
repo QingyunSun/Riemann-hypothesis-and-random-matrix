@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-05",
+  "verdict": "Unconditional author estimates (2) and (3) accepted as ordinary proofs without amendment. Assembly (8) accepted as a conditional implication only; the separate singleton-renormalization proof is not audited by this review.",
+  "review": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-review/INDEPENDENT_PARITY_ADJUSTMENT_REVIEW.md",
+    "bytes": 7690,
+    "sha256": "700a7e9c194f685fbcecbcbd6116bc606bd95a77cd8ed7494e4c2957b2533de4"
+  },
+  "reviewed_author": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+    "bytes": 7693,
+    "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+  },
+  "author_receipt": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/AUTHOR_RECEIPT.json",
+    "bytes": 1618,
+    "sha256": "9b2e94ada43a15b551b82cd6640b63951d0a44a30d02b0d56afbf0174775c88c"
+  },
+  "owned_checks": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-review/check_math_syntax.cjs",
+      "bytes": 1555,
+      "sha256": "c4e60adc15353d0cc01ca0969a451cdc5497d9915a002820a95b28310468fb43"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-review/input_hash_checks.json",
+      "bytes": 1527,
+      "sha256": "21d093061d3baa296d4cd4db7cb87576aef4f6cb0a045eb4d4ebb61d89e2f1f8"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-review/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "a1cb3de77263d66ee511456ca1eedaa69eb07d79a7c2242ecaca2f9518c10ba3"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-review/verify_review_inputs.py",
+      "bytes": 1220,
+      "sha256": "b1ecfa256360ad06d29af9f965de81d19570ff66a73d67a69792403a9d0eeec0"
+    }
+  ],
+  "independence": "Reviewer independently audited the new root-authored parity correction. Reviewer authored the small-shift and all-odd companions; their distinct outside reviews are handled separately. No new numerical scan or formal proof assistant used."
+}

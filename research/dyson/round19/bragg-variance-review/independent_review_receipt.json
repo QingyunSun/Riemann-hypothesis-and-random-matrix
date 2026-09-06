@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "author_sha256": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+  "author_bytes": 21201,
+  "author_artifacts": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "sha256": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+      "bytes": 21201,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/check_weighted_variance.py",
+      "sha256": "aad7280e160f7b27292c8cea000710b09c5b7b9beb0e0ae9613ec36207f9fbd9",
+      "bytes": 5052,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/weighted_variance_checks.json",
+      "sha256": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f",
+      "bytes": 2215,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/weighted_variance_checks.log",
+      "sha256": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989",
+      "bytes": 286,
+      "status": "PASS"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "bytes": 20291,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/bragg_checks.json",
+      "sha256": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218",
+      "bytes": 3918,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "bytes": 843595,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "bytes": 180918,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md",
+      "sha256": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+      "bytes": 18635,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/das-ismoilov-ramos-2502.05106v1.html",
+      "sha256": "226884cfea450bd4d2842d572c9a84acf227e1dd569ed46852911ca1035d2301",
+      "bytes": 921080,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/carneiro-milinovich-ramos-2310.01913.pdf",
+      "sha256": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "bytes": 490086,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1311.0597.pdf",
+      "sha256": "0039741a14b1cd921c1315d4a3a92fe4c36f9fde24d349931a4ec1584e4c9bec",
+      "bytes": 208956,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/rudnick-2605.22059v1.html",
+      "sha256": "4b0d3227a1753ef2c21c3d6571b033019601a9058b70fddc271e039a8f544033",
+      "bytes": 416097,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1308.3934.pdf",
+      "sha256": "5a701152a7ee378ce03a2b5c7e40d19685abbcd4dbd30f2c871d36e9b954686c",
+      "bytes": 195124,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/carneiro-milinovich-ramos-2310.01913.txt",
+      "sha256": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4",
+      "bytes": 64115,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1308.3934.txt",
+      "sha256": "39c78416100ade5e1fcb9a768a895ee538410b36c32ae45a4a11ee47f836a6a7",
+      "bytes": 51581,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1311.0597.txt",
+      "sha256": "33310a5bb92bbb14653607ec42db9dc41d0780fd4b3b27156acb3aa7cff36ca8",
+      "bytes": 59405,
+      "status": "PASS"
+    }
+  ],
+  "copied_checker_replay": {
+    "all_json_fields_equal": true,
+    "json_bytes_equal": true,
+    "log_bytes_equal": true,
+    "json_sha256": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f",
+    "json": {
+      "Abelian_normalization": "A",
+      "finite_interval_candidate_length_half": "57/32",
+      "integral_k": "pi/4",
+      "interval_tests": [
+        {
+          "T": "7",
+          "coefficient_count": 18,
+          "coefficients": {
+            "11": "log(11)",
+            "13": "log(13)",
+            "16": "log(2)",
+            "17": "log(17)",
+            "19": "log(19)",
+            "2": "log(2)",
+            "23": "log(23)",
+            "25": "log(5)",
+            "27": "log(3)",
+            "29": "log(29)",
+            "3": "log(3)",
+            "31": "log(31)",
+            "32": "log(2)",
+            "4": "log(2)",
+            "5": "log(5)",
+            "7": "log(7)",
+            "8": "log(2)",
+            "9": "log(3)"
+          },
+          "direct_minus_full_kernel": "0",
+          "expression_sha256": "60325422a1543ad0ade61fee094dd6e9ef1ce86bdcbe53ef86bc0b2173a0c5c0",
+          "integration_cells": 20,
+          "normalization": "Both expressions omit the same positive T/log(T)^2 factor.",
+          "status": "PASS",
+          "x_high": "30",
+          "x_low": "10"
+        },
+        {
+          "T": "3",
+          "coefficient_count": 23,
+          "coefficients": {
+            "10": "-1",
+            "11": "-1/3",
+            "12": "0",
+            "13": "1/2",
+            "14": "2/3",
+            "15": "-2",
+            "16": "-1/2",
+            "17": "0",
+            "18": "1",
+            "19": "1",
+            "2": "0",
+            "20": "-2/3",
+            "21": "-1",
+            "22": "0",
+            "23": "1/3",
+            "24": "2",
+            "3": "1",
+            "4": "1",
+            "5": "-2/3",
+            "6": "-1",
+            "7": "0",
+            "8": "1/3",
+            "9": "2"
+          },
+          "direct_minus_full_kernel": "0",
+          "expression_sha256": "c26e3b86d5821d36caaab4219dcdbec7f0d4d55967603136d63b7a644ac36b14",
+          "integration_cells": 31,
+          "normalization": "Both expressions omit the same positive T/log(T)^2 factor.",
+          "status": "PASS",
+          "x_high": "18",
+          "x_low": "5/2"
+        }
+      ],
+      "kernel_at_zero": "1/4",
+      "kernel_derivative": "sin(y)/(2*y) - (1 - cos(y))/y**2",
+      "kernel_derivative_second_order": "-1/24",
+      "quantitative_tail_budget_at_R_8A_over_pi_delta": "delta/2",
+      "scope": "Exact finite algebra and kernel normalization only. No actual asymptotic variance bound or Bragg deficit is evaluated.",
+      "status": "PASS",
+      "sympy_version": "1.14.0"
+    },
+    "command": "python3 TEMPORARY_COPY/check_weighted_variance.py --output-dir REVIEW/replay",
+    "stderr": "",
+    "exit_code": 0
+  },
+  "source_mutation": false,
+  "scope": "Exact checker replay and artifact/source hash verification; ordinary proof review is in the adjacent independent review.",
+  "review": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-review/INDEPENDENT_WEIGHTED_VARIANCE_REVIEW.md",
+    "bytes": 13646,
+    "sha256": "2a04a778e4b341cfb908bb524f3ba94cc2a7768e080d1fd1f0856141929eb38e"
+  },
+  "source_download_receipt": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/DOWNLOAD_RECEIPT.json",
+    "bytes": 1223,
+    "sha256": "b1c86155ff0145b03aac1f0b9497edc7dd6ed4878209cf7e1311dbfdc8c2850f"
+  },
+  "visual_source_check": {
+    "page": "CCCC printed p25 / PDF25",
+    "status": "PASS",
+    "render": {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-review/source-page-checks/cccc-p25.png",
+      "bytes": 300734,
+      "sha256": "d03e730cbde64ce81850794df8d7bafbc910f32521d6aaae752ff95cb1e78488"
+    }
+  },
+  "mathematical_verdict": "ACCEPTED: RH reduction and conditional deficit conversion; no new arithmetic deficit",
+  "approximation_clarification": "Common compact support inside (1,3); first T limit at fixed approximation/cutoffs, then approximation, then end removal. Intermediate tail constant uses uniformly bounded spectral mass, not uniform Schwartz seminorms."
+}

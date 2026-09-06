@@ -1,0 +1,77 @@
+{
+  "author": {
+    "bytes": 13005,
+    "path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+    "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+  },
+  "author_checker": {
+    "bytes": 3139,
+    "path": "research-round22/singleton-renormalization/check_singleton_renormalization.py",
+    "sha256": "0f14fb615ddf24603e197bf1f4b24367c6f6943691f134aa6b6516b6b83d4f1e"
+  },
+  "author_receipt": {
+    "bytes": 3289,
+    "path": "research-round22/singleton-renormalization/AUTHOR_RECEIPT.json",
+    "sha256": "ae925879524a3396f3cb63ea1ff67078d44007427c67c9d5a3999d60555d4236"
+  },
+  "author_source_manifest": {
+    "bytes": 2528,
+    "path": "research-round22/singleton-renormalization/source_manifest.json",
+    "sha256": "047a44ad066549ab48529f255e40dfd30c4f200762218554b1978202672fa1f9"
+  },
+  "independent_earlier_derivation": {
+    "bytes": 11171,
+    "path": "research-round22/singleton-renormalization-review/INDEPENDENT_SINGLETON_DERIVATION.md",
+    "sha256": "33b28a289e504973bd75800099e9758869a550f5f116b29798b2b3ffa2451aea"
+  },
+  "independent_earlier_derivation_receipt": {
+    "bytes": 3008,
+    "path": "research-round22/singleton-renormalization-review/INDEPENDENT_DERIVATION_RECEIPT.json",
+    "sha256": "a8da7982f78bba0495df87b980d1b5820968b58102280d52f71c108d4b7ec51c"
+  },
+  "independent_replay": [
+    {
+      "bytes": 2101,
+      "path": "research-round22/singleton-renormalization-review/independent_author_replay.json",
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce"
+    },
+    {
+      "bytes": 2101,
+      "path": "research-round22/singleton-renormalization-review/independent_author_replay.log",
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce"
+    }
+  ],
+  "review": {
+    "bytes": 9114,
+    "path": "research-round22/singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+    "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72"
+  },
+  "source_hash_checks": {
+    "bytes": 1511,
+    "path": "research-round22/singleton-renormalization-review/author_source_hash_checks.json",
+    "sha256": "b1ca7d6b282f8144dccb57ed460474d426fe21c4af2c91c7c8f2856978852898"
+  },
+  "source_retrieval_note": "DLMF25.16.3 checked live. AMS PDF live fetch403; retained Schoenfeld primary PDF/text and p337 image were independently read instead.",
+  "status": "Accepted complete ordinary author proof and source ranges; unconditional singleton correction o(1), RH quantitative rate and inherited variance transfer. No strict pair bound.",
+  "validation": {
+    "PNT_unconditional_rate_modulus": true,
+    "RH_distinguished_from_unconditional_variance": true,
+    "author_source_edits": false,
+    "fixed_T_absolute_before_signed_bounds": true,
+    "full_author_read": true,
+    "moving_support_endpoint_uniformity": true,
+    "new_prime_heights": false,
+    "original_frozen_independent_proof_unchanged": true,
+    "parameter_sweep": false,
+    "proof_review_control_bytes": 0,
+    "signed_second_derivative_retained": true,
+    "source_hash_count": 7,
+    "tiny_author_checker": "14 exact checks PASS, copied JSON/log byte-identical",
+    "uniform_O_2_negative_T_tails": true
+  },
+  "visually_inspected_source_page": {
+    "bytes": 182109,
+    "path": "research-round13/minor-arc-source/sources/schoenfeld-theorem10-page337.png",
+    "sha256": "0e5e01377b296c6ad10d46a8b71e14a3ad21ce3af37ea9a2d19e0c0488c51c35"
+  }
+}

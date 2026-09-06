@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "report_sha256": "3213cf34d3a5521260b48ebbeebbf12522afd04c92075c30e6e0434478bb908a",
+  "fourier_checks": 9,
+  "pole_checks": 3,
+  "mass_cases": 3,
+  "centered_step_cases": 3,
+  "full_constant_upper": "120784/105",
+  "tail_constant_upper": "1824/7"
+}

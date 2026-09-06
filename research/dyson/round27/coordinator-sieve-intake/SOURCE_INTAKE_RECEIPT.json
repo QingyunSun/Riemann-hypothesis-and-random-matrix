@@ -1,0 +1,39 @@
+{
+  "note": {
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r27-sieve-intake/GOLDSTON_YILDIRIM_TOOL_INTAKE.md",
+    "bytes": 6945,
+    "sha256": "51e8493fd9a08a239881ef138ef1147e44a21e66d47aae778a10ac50393d8b0a"
+  },
+  "sources": [
+    {
+      "url": "https://math.colgate.edu/~integers/d5/d5.pdf",
+      "version": "published 2003",
+      "read_scope": "Definition 1.1; mixed definition 1.4; introduction page 2; statements 1.3 and 1.4"
+    },
+    {
+      "url": "https://arxiv.org/pdf/math/0412366v1",
+      "version": "v1 as identified by the live PDF",
+      "read_scope": "Definitions 1.1/1.2; rational frequency discussion page 2; Theorem 2/page 8, Theorem 3/page 9; Section 10 displayed argument, pages 41-44"
+    }
+  ],
+  "not_claimed": [
+    "Complete source proof audit",
+    "Exhaustive search for later improvements",
+    "Bound on actual Z_T",
+    "No-go theorem for all sieve methods"
+  ],
+  "deductions_checked": {
+    "natural_Y_lower": "3/7",
+    "natural_Y_upper": "5/9",
+    "natural_Q_lower": "2/7",
+    "natural_Q_upper": "10/27",
+    "k3_BV_cutoff": "1/4",
+    "minimum_gap_above_k3_cutoff": "1/28"
+  },
+  "new_tools": [
+    "Exact Ramanujan expansion and complete-period Gram identity",
+    "Actual c_Q mapping includes log(m/Q)D_Q",
+    "Projection inequality direction and residual energy"
+  ],
+  "status": "Prepared for owner to use in current sieve mixed-moment audit"
+}

@@ -1,0 +1,93 @@
+{
+  "status": "exact rational Sturm and exact symbolic checks passed",
+  "sympy_version": "1.14.0",
+  "flow": "H_s=exp(s*d_x^2)P, s >= 0 is attractive root motion",
+  "initial_polynomial": "x**5 - 200*x**4 + 3999479*x**3/400 + 200*x**2 - 3999879*x/400",
+  "heat_polynomial": "60*s**2*x - 2400*s**2 + 20*s*x**3 - 2400*s*x**2 + 11998437*s*x/200 + 400*s + x**5 - 200*x**4 + 3999479*x**3/400 + 200*x**2 - 3999879*x/400",
+  "discriminant_coefficients_descending": [
+    "88473600000",
+    "-265478418432000",
+    "358473666652201728",
+    "-35634206108588194612512/125",
+    "29057596658782179063729994971/200000",
+    "-913738995375205209623005687933226193/20000000000",
+    "110971038182346928752118847245941857370277/16000000000000",
+    "-57665159811174655014563680687667678054537507/12800000000000000",
+    "28126896794864835077125572642569236935601507/25600000000000000",
+    "-6096587267665013056046402170851914948996769/51200000000000000",
+    "495327853822796113139388608238858007789641/102400000000000000"
+  ],
+  "discriminant_squarefree": true,
+  "first_collision_interval": [
+    "12999/85936",
+    "53965/356761"
+  ],
+  "interval_decimals": [
+    "0.151263731148761869298082293800",
+    "0.151263731181379130566401596587"
+  ],
+  "sturm_counts": {
+    "zero_to_lo": 0,
+    "lo_to_hi": 1,
+    "narrow_interval": 1
+  },
+  "boundary_root_counts": {
+    "-2": 0,
+    "2": 0,
+    "98": 0,
+    "102": 0
+  },
+  "real_root_counts": [
+    {
+      "s": "0",
+      "cluster": 3,
+      "isolated_pair": 2,
+      "all_real": 5
+    },
+    {
+      "s": "151/1000",
+      "cluster": 3,
+      "isolated_pair": 2,
+      "all_real": 5
+    },
+    {
+      "s": "19/125",
+      "cluster": 3,
+      "isolated_pair": 0,
+      "all_real": 3
+    }
+  ],
+  "minimum_initial_gap": "1",
+  "first_colliding_initial_gap": "11/10",
+  "missing_gap_correction": "21/800",
+  "marked_lambda": "log((a*b + 1)/(sqrt(a**2 + 1)*sqrt(b**2 + 1)))",
+  "marked_chi_small": "(2*e - 1)/((e**2 + 1)*(e**2 - e - 1))",
+  "marked_chi_large": "-(2*e - 1)/((e**2 - 2*e + 2)*(e**2 - e - 1))",
+  "marked_limits": {
+    "chi_small": "1",
+    "chi_large": "-1/2",
+    "inverse_small": "+infinity"
+  },
+  "marked_examples": [
+    {
+      "epsilon": "1/10",
+      "inverse_small": "10",
+      "chi_small": "0.726678172404396402943046598238",
+      "chi_large": "-0.405494449794718434791423792387"
+    },
+    {
+      "epsilon": "1/100",
+      "inverse_small": "100",
+      "chi_small": "0.970296078620675411417170987129",
+      "chi_large": "-0.490072778257935194666083886788"
+    },
+    {
+      "epsilon": "1/1000000",
+      "inverse_small": "1000000",
+      "chi_small": "0.999997000002999996000007999986",
+      "chi_large": "-0.499999000000749997750002874995"
+    }
+  ],
+  "elapsed_seconds": 0.1348677080241032,
+  "limitations": "Exact CAS arithmetic certificate, not a Lean/Isabelle formal proof. No global zeta conclusion."
+}

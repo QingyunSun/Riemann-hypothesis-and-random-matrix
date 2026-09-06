@@ -1,0 +1,37 @@
+{
+  "status": "exact symbolic and cyclotomic audit; mathematical Fatou argument reviewed separately",
+  "sympy_version": "1.14.0",
+  "triple_identity_exact": true,
+  "all_N_final_polynomial_identity_exact": true,
+  "odd_cosecant_fourth_and_sixth_sums_exact": true,
+  "independent_direct_force_enumeration": [
+    {
+      "N": 2,
+      "subsets": 6,
+      "ED": "1",
+      "ELD": "-4",
+      "normalization_exact": true,
+      "pointwise_pair_triple_reduction_exact": true,
+      "direct_force_expectations_exact": true
+    },
+    {
+      "N": 3,
+      "subsets": 20,
+      "ED": "4",
+      "ELD": "-32",
+      "normalization_exact": true,
+      "pointwise_pair_triple_reduction_exact": true,
+      "direct_force_expectations_exact": true
+    },
+    {
+      "N": 4,
+      "subsets": 70,
+      "ED": "10",
+      "ELD": "-136",
+      "normalization_exact": true,
+      "pointwise_pair_triple_reduction_exact": true,
+      "direct_force_expectations_exact": true
+    }
+  ],
+  "dependency": "dynamic-generator/generator_audit.py: CyclotomicRing only"
+}

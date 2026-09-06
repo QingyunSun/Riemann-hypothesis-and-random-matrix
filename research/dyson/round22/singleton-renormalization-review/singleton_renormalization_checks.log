@@ -1,0 +1,191 @@
+{
+  "beta_moments": [
+    {
+      "T": 4,
+      "absolute_envelope_mass": "2",
+      "mass": "1",
+      "scaled_mean": "2"
+    },
+    {
+      "T": 5,
+      "absolute_envelope_mass": "5/3",
+      "mass": "1",
+      "scaled_mean": "2"
+    },
+    {
+      "T": 8,
+      "absolute_envelope_mass": "4/3",
+      "mass": "1",
+      "scaled_mean": "2"
+    },
+    {
+      "T": 12,
+      "absolute_envelope_mass": "6/5",
+      "mass": "1",
+      "scaled_mean": "2"
+    }
+  ],
+  "checker": {
+    "bytes": 3756,
+    "sha256": "8d12ec1d43b218962cc38fe31a14218fe8cb1831a0552d59c99cbdd076b47779"
+  },
+  "coefficient_identity": "0",
+  "compact_weight": "(x-2)^2(5-x)^2 on [2,5], zero elsewhere; C1 endpoints",
+  "formal_ell": "3",
+  "hinge_cases": [
+    {
+      "T": 4,
+      "b_n": "0",
+      "checked_integer_h": 2,
+      "derivative_support": [
+        "0",
+        "0"
+      ],
+      "finite_signed_hinge_sum": "0",
+      "h_fpp_integral": "0",
+      "n": "19/10"
+    },
+    {
+      "T": 4,
+      "b_n": "2578313/9189227250",
+      "checked_integer_h": 3,
+      "derivative_support": [
+        "0",
+        "1/10"
+      ],
+      "finite_signed_hinge_sum": "0",
+      "h_fpp_integral": "2578313/9189227250",
+      "n": "21/10"
+    },
+    {
+      "T": 4,
+      "b_n": "5296/76545",
+      "checked_integer_h": 3,
+      "derivative_support": [
+        "0",
+        "1"
+      ],
+      "finite_signed_hinge_sum": "0",
+      "h_fpp_integral": "5296/76545",
+      "n": "3"
+    },
+    {
+      "T": 4,
+      "b_n": "21369471077/272386847250",
+      "checked_integer_h": 5,
+      "derivative_support": [
+        "0",
+        "29/10"
+      ],
+      "finite_signed_hinge_sum": "-89956951423/3268642167000",
+      "h_fpp_integral": "21369471077/272386847250",
+      "n": "49/10"
+    },
+    {
+      "T": 4,
+      "b_n": "11/315",
+      "checked_integer_h": 6,
+      "derivative_support": [
+        "1",
+        "4"
+      ],
+      "finite_signed_hinge_sum": "-3289/382725",
+      "h_fpp_integral": "11/315",
+      "n": "6"
+    },
+    {
+      "T": 4,
+      "b_n": "144/46585",
+      "checked_integer_h": 11,
+      "derivative_support": [
+        "6",
+        "9"
+      ],
+      "finite_signed_hinge_sum": "-199330/174330387",
+      "h_fpp_integral": "144/46585",
+      "n": "11"
+    },
+    {
+      "T": 6,
+      "b_n": "0",
+      "checked_integer_h": 2,
+      "derivative_support": [
+        "0",
+        "0"
+      ],
+      "finite_signed_hinge_sum": "0",
+      "h_fpp_integral": "0",
+      "n": "19/10"
+    },
+    {
+      "T": 6,
+      "b_n": "6662013329/16209796869000",
+      "checked_integer_h": 3,
+      "derivative_support": [
+        "0",
+        "1/10"
+      ],
+      "finite_signed_hinge_sum": "0",
+      "h_fpp_integral": "6662013329/16209796869000",
+      "n": "21/10"
+    },
+    {
+      "T": 6,
+      "b_n": "24079/275562",
+      "checked_integer_h": 3,
+      "derivative_support": [
+        "0",
+        "1"
+      ],
+      "finite_signed_hinge_sum": "0",
+      "h_fpp_integral": "24079/275562",
+      "n": "3"
+    },
+    {
+      "T": 6,
+      "b_n": "177300016481881/2616003280989000",
+      "checked_integer_h": 5,
+      "derivative_support": [
+        "0",
+        "29/10"
+      ],
+      "finite_signed_hinge_sum": "-656057005341919/31392039371868000",
+      "h_fpp_integral": "177300016481881/2616003280989000",
+      "n": "49/10"
+    },
+    {
+      "T": 6,
+      "b_n": "487/24192",
+      "checked_integer_h": 6,
+      "derivative_support": [
+        "1",
+        "4"
+      ],
+      "finite_signed_hinge_sum": "-248663/44089920",
+      "h_fpp_integral": "487/24192",
+      "n": "6"
+    },
+    {
+      "T": 6,
+      "b_n": "13149/24801854",
+      "checked_integer_h": 11,
+      "derivative_support": [
+        "6",
+        "9"
+      ],
+      "finite_signed_hinge_sum": "-292389631/1687518146160",
+      "h_fpp_integral": "13149/24801854",
+      "n": "11"
+    }
+  ],
+  "new_prime_heights": false,
+  "odd_shift_q": "lambda_m*lambda_n",
+  "report": {
+    "bytes": 11171,
+    "sha256": "33b28a289e504973bd75800099e9758869a550f5f116b29798b2b3ffa2451aea"
+  },
+  "scope": "Exact finite algebra/hinge checks only; uniform asymptotics are supplied by ordinary proof.",
+  "small_u_log_moment": "1/4",
+  "status": "PASS",
+  "uniform_log_moment_bound": "9/4"
+}

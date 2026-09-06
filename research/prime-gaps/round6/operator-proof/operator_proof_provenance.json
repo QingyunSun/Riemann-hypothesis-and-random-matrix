@@ -1,0 +1,68 @@
+{
+  "status": "ordinary-mathematics proof and independent source/code review; not an outward numerical certificate",
+  "source_commit": "61340d0b74163003b32756bb16e91d9209a5e330",
+  "source_sections": [
+    "main (3.15)-(3.24), Lemma 3.8",
+    "main (4.28)-(4.40)",
+    "numerical companion section 1.1 and (2.12)-(2.15)"
+  ],
+  "sources": {
+    "main_paper_text": {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+      "bytes": 112915,
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84"
+    },
+    "numerical_companion_text": {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round1/prime186-work/short_gaps_numerics.txt",
+      "bytes": 95340,
+      "sha256": "6a107b80a3a3b28315b31b8830342cb851aa2db667ea2970e580e5f498afe728"
+    },
+    "official_certificate_engine": {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round1/prime186-work/PrimeGaps186/prime_gap_186_certificate.py",
+      "bytes": 112171,
+      "sha256": "7f71bdefcfe3bb5ca76a143929b3cb3f4156c21dc483253cda3077420f1e5de4"
+    },
+    "reviewed_cap_engine": {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/research/prime-gaps/round5/geometry-trial/cap_trial.py",
+      "bytes": 15444,
+      "sha256": "62721474dc05b63bbec403f4aedef0dc81601626a61f46ffab472071917da1d9"
+    },
+    "reviewed_radial_residual": {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round6/residual-trial/radial_residual.py",
+      "bytes": 11169,
+      "sha256": "0cae6f84a62f8267dce20eed3cd0edbf35d2899f1c04de82daf16535fad3608e"
+    },
+    "reviewed_root_rational_model": {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round6/operator-diagnostic/finite_marked_operator_check.py",
+      "bytes": 5812,
+      "sha256": "c749b20848c6e73a943cba281956e7e589e44890db5365f36d2c9d3fa9dc7f0f"
+    },
+    "root_rational_model_receipt": {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round6/operator-diagnostic/finite_marked_operator_check.json",
+      "bytes": 1934,
+      "sha256": "be23e0f0ebf3a9d612eb0aa0598705ca5d7ebc4074bc8e4e2f4eb7dbc96fc3cd"
+    }
+  },
+  "report": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round6/operator-proof/FULL_SIGNED_CAP_OPERATOR.md",
+    "bytes": 21540,
+    "sha256": "020099a5ab6927f17b82dfbb2b96aa5b2cfbc3720c41d388f9c8f39b08d0339b"
+  },
+  "text_checks": {
+    "control_characters": [],
+    "display_math_delimiters": 80,
+    "words": 2885,
+    "vector_v_disambiguated_from_grid_h": true
+  },
+  "review_scope": {
+    "radial_residual_formulas": "reviewed against independent Fubini derivation; counts, single erased g, signed layer prefixes, true mass projection and exponential tilt agree",
+    "root_rational_model": "source and existing exact receipt reviewed; not independently rerun in this subtask",
+    "new_prime_gap_claim": false,
+    "full_operator_positive_claim": false,
+    "independent_numerical_certificate": false
+  },
+  "remaining_obligations": [
+    "outward certification for a fixed new profile or coherent projection bounds",
+    "new-profile arithmetic support restoration and realization/source hypotheses"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "author_files": [
+    {
+      "bytes": 17690,
+      "matches": true,
+      "path": "JOINT_DISPERSION_TEST.md",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942"
+    },
+    {
+      "bytes": 3595,
+      "matches": true,
+      "path": "check_joint_dispersion.py",
+      "sha256": "6ed90f5a81b71bf4729626e2d7281572a66e358ffdd12820dabb5471a20a8ea3"
+    },
+    {
+      "bytes": 869,
+      "matches": true,
+      "path": "exact_check_results.json",
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709"
+    },
+    {
+      "bytes": 869,
+      "matches": true,
+      "path": "exact_check_stdout.log",
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709"
+    },
+    {
+      "bytes": 4950,
+      "matches": true,
+      "path": "source_manifest.json",
+      "sha256": "719bbd0c0250a7764e1203c2dbff4d6a7cbb6332120e66d375d06a6419f265be"
+    },
+    {
+      "bytes": 74,
+      "matches": true,
+      "path": "math_syntax_check.json",
+      "sha256": "774f4d6684294727a6725afde1522ff5a90c3ba5b45ea82a6650ee143c077770"
+    }
+  ],
+  "author_manifest": {
+    "bytes": 2283,
+    "sha256": "b4edc07a335966503d1696188565d931aade096b464b68968c7019ecd8ed4190"
+  },
+  "copied_replay": {
+    "author_directory_unmodified": true,
+    "check_groups": 6,
+    "json_equals_author_json": true,
+    "json_equals_stdout": true,
+    "output": {
+      "bytes": 869,
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709"
+    },
+    "scalar_cases": 26,
+    "stderr_empty": true,
+    "stdout_equals_author_stdout": true,
+    "temporary_copy_only": true
+  },
+  "python_version": "3.14.3",
+  "scope": "Six tiny exact groups only. No asymptotic proof or matrix norm is inferred from finite tests.",
+  "source_files": [
+    {
+      "bytes": 3173609,
+      "matches": true,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340"
+    },
+    {
+      "bytes": 1503246,
+      "matches": true,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd"
+    },
+    {
+      "bytes": 843595,
+      "matches": true,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac"
+    },
+    {
+      "bytes": 180918,
+      "matches": true,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "bytes": 369949,
+      "matches": true,
+      "path": "sources/openai-short-gaps.pdf",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930"
+    },
+    {
+      "bytes": 112915,
+      "matches": true,
+      "path": "sources/openai-short-gaps.txt",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84"
+    },
+    {
+      "bytes": 114493,
+      "matches": true,
+      "path": "research-round27/joint-dispersion-test/sources/mv-page-59.png",
+      "sha256": "dbe2ed19f5ceb0185422858e9f18aabaf04d530fdc68b197a460a4cbbcada12f"
+    },
+    {
+      "bytes": 203253,
+      "matches": true,
+      "path": "research-round27/joint-dispersion-test/sources/prime186-page-10.png",
+      "sha256": "531c588cda839a273b801ebe3ab32ad9eef790ea52633f0327101701bebeb28d"
+    },
+    {
+      "bytes": 142264,
+      "matches": true,
+      "path": "research-round27/joint-dispersion-test/sources/cccc-page-01.png",
+      "sha256": "dbfe7e7ee14706e57830f74dd6b62a15a4a5ea76547381ce97bb3519b967124b"
+    },
+    {
+      "bytes": 19377,
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "bytes": 18459,
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation-review/INDEPENDENT_JOINT_MAIN_REVIEW.md",
+      "sha256": "0bca000d65a52c2915765913e5208e7736edc38307df84995136df2e0feff385"
+    },
+    {
+      "bytes": 22834,
+      "matches": true,
+      "path": "research-round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    },
+    {
+      "bytes": 23124,
+      "matches": true,
+      "path": "research-round26/global-reduction-review/INDEPENDENT_GLOBAL_REDUCTION_REVIEW.md",
+      "sha256": "92d728c2f5d97f1e66b3582647cb2c66ef9c94203c2427ca3f439caca671e729"
+    },
+    {
+      "bytes": 20129,
+      "matches": true,
+      "path": "research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73"
+    },
+    {
+      "bytes": 157587,
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-0705.0723v2.pdf",
+      "sha256": "9bacaa0c6bbaf687091d8be7b9f0df3e58727339002c9cabcb4de90e33f41fa7"
+    }
+  ],
+  "source_manifest": {
+    "bytes": 4950,
+    "sha256": "719bbd0c0250a7764e1203c2dbff4d6a7cbb6332120e66d375d06a6419f265be"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "final_report_sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+  "historical_reviewed_report_sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+  "final_output_sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+  "complete_current_comparison": "JSON and stdout byte-identical; no fields excluded",
+  "difference_from_prior_replay": [
+    "author_sha256"
+  ],
+  "delta_scope": "The weak maximal-residue packet estimate is explicitly before (log q)^j; full D_j retains O((log X)^j). No power threshold or other mathematical text changed."
+}

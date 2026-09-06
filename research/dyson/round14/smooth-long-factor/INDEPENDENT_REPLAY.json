@@ -1,0 +1,9 @@
+{
+  "temp_replay_directory": "/var/folders/6g/2tc8534500vfmlvjj8hjtpx40000gn/T/r14-long-factor-review-_ryipqyd",
+  "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "returncode": 0,
+  "stdout": "PASS: exact uniform mean centering on 63 fixed numerator cases.\nPASS: symbolic mu*log and Heath-Brown identities including n=1 and real cutoff.\nPASS: fixed Gaussian Poisson sign diagnostics; each absolute error <1e-12.\nPASS: exponent 1711/1750 with margin 39/1750; general cutoff condition recorded.\nPASS: pinned source and frozen R9/R13 dependencies.\nReport SHA256: d6143f19ddf006a1acc833ecd2e5265bffb35817930cfeaa4f4e4b973af7c849\nScript SHA256: 9d1426f47c0f9e67a2e548db94d195f8505fd298a5b2b46e0fcbe16e905b9d9b\n",
+  "stderr": "",
+  "certificate_comparison": "identical after normalizing only source.path for the temporary replay",
+  "author_report_sha256": "d6143f19ddf006a1acc833ecd2e5265bffb35817930cfeaa4f4e4b973af7c849"
+}

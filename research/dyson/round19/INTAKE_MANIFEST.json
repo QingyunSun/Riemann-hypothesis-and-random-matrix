@@ -1,0 +1,521 @@
+{
+  "source": "research-round19 staging; all original bytes preserved locally",
+  "original_files": 73,
+  "original_bytes": 4957076,
+  "public_verbatim_files": 59,
+  "published_source_edits": [],
+  "historical_review_scope": "Historical variance and shift proofs/check outputs remain separately pinned with accepted final deltas.",
+  "files": [
+    {
+      "path": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "bytes": 4992,
+      "sha256": "452a86688d57fff408a66930e3e03aef14a5c006d16e015f171137b578084c59",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "bytes": 21201,
+      "sha256": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-literature/check_weighted_variance.py",
+      "bytes": 5052,
+      "sha256": "aad7280e160f7b27292c8cea000710b09c5b7b9beb0e0ae9613ec36207f9fbd9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-literature/sources/DOWNLOAD_RECEIPT.json",
+      "bytes": 1223,
+      "sha256": "b1c86155ff0145b03aac1f0b9497edc7dd6ed4878209cf7e1311dbfdc8c2850f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-literature/sources/carneiro-milinovich-ramos-2310.01913.pdf",
+      "bytes": 490086,
+      "sha256": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "bragg-variance-literature/sources/carneiro-milinovich-ramos-2310.01913.txt",
+      "bytes": 64115,
+      "sha256": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "bragg-variance-literature/sources/das-ismoilov-ramos-2502.05106v1.html",
+      "bytes": 921080,
+      "sha256": "226884cfea450bd4d2842d572c9a84acf227e1dd569ed46852911ca1035d2301",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "bragg-variance-literature/sources/languasco-perelli-zaccagnini-1308.3934.pdf",
+      "bytes": 195124,
+      "sha256": "5a701152a7ee378ce03a2b5c7e40d19685abbcd4dbd30f2c871d36e9b954686c",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "bragg-variance-literature/sources/languasco-perelli-zaccagnini-1308.3934.txt",
+      "bytes": 51581,
+      "sha256": "39c78416100ade5e1fcb9a768a895ee538410b36c32ae45a4a11ee47f836a6a7",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "bragg-variance-literature/sources/languasco-perelli-zaccagnini-1311.0597.pdf",
+      "bytes": 208956,
+      "sha256": "0039741a14b1cd921c1315d4a3a92fe4c36f9fde24d349931a4ec1584e4c9bec",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "bragg-variance-literature/sources/languasco-perelli-zaccagnini-1311.0597.txt",
+      "bytes": 59405,
+      "sha256": "33310a5bb92bbb14653607ec42db9dc41d0780fd4b3b27156acb3aa7cff36ca8",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "bragg-variance-literature/sources/rudnick-2605.22059v1.html",
+      "bytes": 416097,
+      "sha256": "4b0d3227a1753ef2c21c3d6571b033019601a9058b70fddc271e039a8f544033",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "bragg-variance-literature/weighted_variance_checks.json",
+      "bytes": 2215,
+      "sha256": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-literature/weighted_variance_checks.log",
+      "bytes": 286,
+      "sha256": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-review/INDEPENDENT_WEIGHTED_VARIANCE_REVIEW.md",
+      "bytes": 13646,
+      "sha256": "2a04a778e4b341cfb908bb524f3ba94cc2a7768e080d1fd1f0856141929eb38e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-review/independent_review_receipt.json",
+      "bytes": 10104,
+      "sha256": "fb5b0a1bc628ea60739a173b8820b4031310c06edea970d195f84f9c4b7dfc12",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-review/replay/weighted_variance_checks.json",
+      "bytes": 2215,
+      "sha256": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-review/replay/weighted_variance_checks.log",
+      "bytes": 286,
+      "sha256": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "bragg-variance-review/source-page-checks/cccc-p25.png",
+      "bytes": 300734,
+      "sha256": "d03e730cbde64ce81850794df8d7bafbc910f32521d6aaae752ff95cb1e78488",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "coordinator-intake/PRIMARY_SOURCE_RANGE_GUARDS.json",
+      "bytes": 1920,
+      "sha256": "b315af65fa39c61784aa2b4bfd2d5ef2d1c97bff1967928c75a3642b44619176",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/BRAGG_WEIGHTED_SELBerg_VARIANCE.md",
+      "bytes": 20775,
+      "sha256": "a65e1016bf20e97741bd9fd4a3fd598444a44f8ac8231b0aa0a976b7a94b81ac",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_FLOW_REVIEW.json",
+      "bytes": 2637,
+      "sha256": "c5aba3688ec3a86a2d6b6f2f6232e660adc2e515aca0752019171fbd6a0118d0",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_SHIFT_DELTA_REVIEW.json",
+      "bytes": 745,
+      "sha256": "3bd3509ee2eab0173e05b2f6e9156c815ba516b894decdaabe02c9f6e230bbd8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_SHIFT_REVIEW.json",
+      "bytes": 3073,
+      "sha256": "70c7914a1f0019422187d385f255d59d2d9d295de34b0ae980ac56d308371445",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_VARIANCE_DELTA_REVIEW.json",
+      "bytes": 563,
+      "sha256": "cc15e3c38c60b594a5831ba38c62c97d32531bcb49cf29a8b6ea6e71fdb0e089",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_VARIANCE_REVIEW.json",
+      "bytes": 4316,
+      "sha256": "3da8e399511073a682f8bffcd438b53e72b32071e036fda474ca2726fe857fc1",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/EXACT_COHERENT_MODE_CURVATURE.md",
+      "bytes": 6029,
+      "sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/LOCAL_BRAGG_PRODUCTION.md",
+      "bytes": 18586,
+      "sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/PRIMARY_SOURCE_RANGE_GUARDS.json",
+      "bytes": 1920,
+      "sha256": "b315af65fa39c61784aa2b4bfd2d5ef2d1c97bff1967928c75a3642b44619176",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "bytes": 15488,
+      "sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "bytes": 4151,
+      "sha256": "59f2823709dd7e0c3466c39fbc470e64d5b728c2f8472f40ebdf94962ae17f8d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability/LOCAL_BRAGG_PRODUCTION.md",
+      "bytes": 18586,
+      "sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability/ROOT_CURVATURE_CROSSCHECK.md",
+      "bytes": 2462,
+      "sha256": "429d58a41215d95fa6dc8c22689159b9c20900235eb1d92bc183ec2ac6f69c74",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability/check_local_bragg.py",
+      "bytes": 8079,
+      "sha256": "83807e566506c778fbc9a6903293e94158c557c1c1fe73e06f7f6d3157b2f549",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability/check_math_syntax.cjs",
+      "bytes": 1541,
+      "sha256": "837849d42db436e7d65a99eca7d39ffcd74cc0cc4bc0d000793b9c97c13c2b44",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability/local_bragg_checks.json",
+      "bytes": 1668,
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability/local_bragg_checks.log",
+      "bytes": 1668,
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "92b584227565bd6473986b770f39343b986e8bbd2f447597787abbf71a2c0a1b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability-review/INDEPENDENT_LOCAL_BRAGG_REVIEW.md",
+      "bytes": 9075,
+      "sha256": "40058d7c76ad150ec9ddc7f7ab99406be6329b917f6715d110f7d61044a3f2fa",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2039,
+      "sha256": "569112921cd3fe82c7bfc6b0537d87e0175b4069de0b33e0331fd736f32f23f1",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability-review/independent_replay.json",
+      "bytes": 1668,
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dynamic-observability-review/independent_replay.log",
+      "bytes": 1668,
+      "sha256": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-bragg-curvature/AUTHOR_RECEIPT.json",
+      "bytes": 885,
+      "sha256": "b7f00a0d02b4fa1100ad3ea9065464dc197d3697331244137526b2bebc73fe1c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md",
+      "bytes": 6029,
+      "sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-bragg-curvature/INDEPENDENT_CURVATURE_RECEIPT.json",
+      "bytes": 916,
+      "sha256": "3fa054ca6a1f06be94c214a825128d542b1f91d2b041a5975c209a2bf20df0e8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-bragg-curvature/INDEPENDENT_CURVATURE_REVIEW.md",
+      "bytes": 3009,
+      "sha256": "475d183dd68dd006cfa1e9a75e14976880241561b531ba5d81eb835e6f10b647",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_DYNAMIC_REVIEW.md",
+      "bytes": 4172,
+      "sha256": "61303c8c44acc48756e4ad54248adc650af95b5df723304fd58215be695674fd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_VARIANCE_REVIEW.md",
+      "bytes": 5393,
+      "sha256": "803e66327713cc5629de8e06cf31487409ad84f725c4348e213330daf0eb0d44",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "bytes": 15610,
+      "sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/author_manifest.json",
+      "bytes": 1878,
+      "sha256": "e077ee85743c5f2efbd2e3a68ffa554080acdbccb03ad52a58341942c6bf6c76",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/check_shift_dispersion.py",
+      "bytes": 4247,
+      "sha256": "61fc73eff3f574024924cafd77dd9c64e82e1a79b07321fa0b83dae57afd0303",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/historical-pre-log-clarification/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "bytes": 15488,
+      "sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/historical-pre-log-clarification/author_manifest.json",
+      "bytes": 1373,
+      "sha256": "65468cfbd3219d1b33274ed71ee24d0e1f7e16fdd3bdc7831820c0901a17708f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/historical-pre-log-clarification/shift_dispersion_checks.json",
+      "bytes": 1103,
+      "sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/historical-pre-log-clarification/shift_dispersion_checks.log",
+      "bytes": 1103,
+      "sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/historical-pre-log-clarification/source_page_receipt.json",
+      "bytes": 1094,
+      "sha256": "d64b1538a05030f8ceb36d9249010bc03b8838b9b49a419b0cc4055ac11ad265",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/log_clarification_receipt.json",
+      "bytes": 1812,
+      "sha256": "51a011cd10c0b31144dbd91e79348ef81c35b18e4f210b94d0f22b2e0031d1b4",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/shift_dispersion_checks.json",
+      "bytes": 1103,
+      "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/shift_dispersion_checks.log",
+      "bytes": 1103,
+      "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/source-page-checks/MV-p214.png",
+      "bytes": 196418,
+      "sha256": "92702160535d1af9f919db2113a288bab571ff9ec903530509eb0c8f5289bee7",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "shift-dispersion/source-page-checks/maynard-II-p19.png",
+      "bytes": 257657,
+      "sha256": "29024af80ddd8717126dce060a5460409411b5ec41199c6ce608d3080c6b33ae",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "shift-dispersion/source-page-checks/maynard-III-p3.png",
+      "bytes": 375885,
+      "sha256": "831e6743f178ecfa2e72a989c045287602463cff55b292e0e151d3c88a1f2b32",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "shift-dispersion/source_manifest.json",
+      "bytes": 4140,
+      "sha256": "290a5a68548fa0007ea96b39ad6e254985a932bcc622e36a60d143c79ddd5419",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/source_page_receipt.json",
+      "bytes": 1415,
+      "sha256": "00932169042eab1744e353fbd4914eef3625de8bcd40e2630fb77f89a87e7e6c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion/sources/maynard-2006.08250v1.pdf",
+      "bytes": 800975,
+      "sha256": "561508e19cd9b56a8cbb68be5c238b213f58aa3973dbec3eb201b7834ad56f4c",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "shift-dispersion/sources/maynard-2006.08250v1.txt",
+      "bytes": 344730,
+      "sha256": "981033e06ab7699fcba555a6fd09566dc5eaaee7cd6b2a595002a7acf4f43588",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party source body or source page image; retained locally"
+    },
+    {
+      "path": "shift-dispersion-review/ROOT_REPLAY_RECEIPT.json",
+      "bytes": 459,
+      "sha256": "6d89459e0671b9dd8802894434f2096d1e0b23f1c545653b7f56d47802ba1432",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion-review/ROOT_SHIFT_DISPERSION_REVIEW.md",
+      "bytes": 6682,
+      "sha256": "a9b74370856c8f9ac844160ea398f310e5ce3b49633f901fea3c25a955de8f30",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion-review/final-log-clarification/ROOT_DELTA_REPLAY_RECEIPT.json",
+      "bytes": 643,
+      "sha256": "4e2016fd7e63819205d15ed78ecafa8b71a31c802e521f4a66876d1439417e46",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion-review/final-log-clarification/shift_dispersion_replay.json",
+      "bytes": 1103,
+      "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion-review/final-log-clarification/shift_dispersion_replay.log",
+      "bytes": 1103,
+      "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion-review/shift_dispersion_replay.json",
+      "bytes": 1103,
+      "sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "shift-dispersion-review/shift_dispersion_replay.log",
+      "bytes": 1103,
+      "sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd",
+      "public_verbatim": true,
+      "omission_reason": null
+    }
+  ]
+}

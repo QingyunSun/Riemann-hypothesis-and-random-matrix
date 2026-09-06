@@ -1,0 +1,30 @@
+{
+  "author_report_sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+  "checks": {
+    "arithmetic_tail_factor": true,
+    "averaged_kernel": true,
+    "cdf_derivative": true,
+    "cosine_laplace": true,
+    "density": true,
+    "density_derivative": true,
+    "density_half_endpoint": true,
+    "density_mass_one": true,
+    "density_two_endpoint": true,
+    "exact_kappa": true,
+    "exact_log_interval": true,
+    "expected_length_one": true,
+    "kernel_zero_value": true
+  },
+  "expressions": {
+    "density_cdf": "2*(-y/(y**2 + 1) + atan(y))/pi",
+    "density_mass": "1",
+    "height_density": "4*y**2/(pi*(y**2 + 1)**2)",
+    "kappa": "delta/2",
+    "kernel": "1/(2*(y**2 + 1))",
+    "length_tail": "(L + 1)*exp(-L)"
+  },
+  "scope": "Exact symbolic elementary kernels and reparameterization only. No analytic error estimate, zeta theorem, numerical sweep, or gain enclosure is verified by this script.",
+  "script_sha256": "181a60da6fcb8577c1f1101deb9d34bb1de8804b3091fd7075c37e609a61b1bd",
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}

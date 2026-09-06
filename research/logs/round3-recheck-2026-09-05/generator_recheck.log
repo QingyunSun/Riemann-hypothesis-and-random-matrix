@@ -1,0 +1,163 @@
+{
+  "output": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/tmp/round3-recheck/dynamic-generator/generator_audit_results.json",
+  "protected_equalities": 234,
+  "total_exact_results": 243,
+  "unprotected_results": [
+    {
+      "N": 2,
+      "m": 3,
+      "r": 0,
+      "protected": false,
+      "haar_expectation": 2,
+      "acue_expectation": 1,
+      "acue_minus_haar": -1
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "r": 1,
+      "protected": false,
+      "haar_expectation": 0,
+      "acue_expectation": 6,
+      "acue_minus_haar": 6
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "r": 2,
+      "protected": false,
+      "haar_expectation": 24,
+      "acue_expectation": -12,
+      "acue_minus_haar": -36
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "r": 3,
+      "protected": false,
+      "haar_expectation": -384,
+      "acue_expectation": -168,
+      "acue_minus_haar": 216
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "r": 4,
+      "protected": false,
+      "haar_expectation": 3552,
+      "acue_expectation": 2256,
+      "acue_minus_haar": -1296
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "r": 5,
+      "protected": false,
+      "haar_expectation": -26880,
+      "acue_expectation": -19104,
+      "acue_minus_haar": 7776
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "r": 6,
+      "protected": false,
+      "haar_expectation": 184704,
+      "acue_expectation": 138048,
+      "acue_minus_haar": -46656
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "r": 7,
+      "protected": false,
+      "haar_expectation": -1204224,
+      "acue_expectation": -924288,
+      "acue_minus_haar": 279936
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "r": 8,
+      "protected": false,
+      "haar_expectation": 7613952,
+      "acue_expectation": 5934336,
+      "acue_minus_haar": -1679616
+    }
+  ],
+  "floating_checks": [
+    {
+      "N": 2,
+      "subset_count": 6,
+      "normalization": 1.0,
+      "max_gram_absolute_error": 8.881784197001252e-16,
+      "max_derivative_scaled_absolute_error": 2.515195524814514e-16,
+      "evidence_level": "floating independent check, not exact"
+    },
+    {
+      "N": 3,
+      "subset_count": 20,
+      "normalization": 0.9999999999999999,
+      "max_gram_absolute_error": 4.440892098500626e-15,
+      "max_derivative_scaled_absolute_error": 5.443370972952441e-16,
+      "evidence_level": "floating independent check, not exact"
+    },
+    {
+      "N": 4,
+      "subset_count": 70,
+      "normalization": 1.0,
+      "max_gram_absolute_error": 1.776641618946437e-15,
+      "max_derivative_scaled_absolute_error": 2.292261583803977e-16,
+      "evidence_level": "floating independent check, not exact"
+    },
+    {
+      "N": 5,
+      "subset_count": 252,
+      "normalization": 1.0,
+      "max_gram_absolute_error": 1.5543122978630215e-15,
+      "max_derivative_scaled_absolute_error": 6.125370788991506e-16,
+      "evidence_level": "floating independent check, not exact"
+    },
+    {
+      "N": 6,
+      "subset_count": 924,
+      "normalization": 1.0,
+      "max_gram_absolute_error": 5.7731607505110186e-15,
+      "max_derivative_scaled_absolute_error": 1.5883806318216817e-15,
+      "evidence_level": "floating independent check, not exact"
+    },
+    {
+      "N": 7,
+      "subset_count": 3432,
+      "normalization": 0.9999999999999986,
+      "max_gram_absolute_error": 7.771571290797517e-15,
+      "max_derivative_scaled_absolute_error": 1.9146341826265567e-15,
+      "evidence_level": "floating independent check, not exact"
+    },
+    {
+      "N": 8,
+      "subset_count": 12870,
+      "normalization": 1.0000000000000013,
+      "max_gram_absolute_error": 2.3980817429939604e-14,
+      "max_derivative_scaled_absolute_error": 1.6155343660624933e-15,
+      "evidence_level": "floating independent check, not exact"
+    },
+    {
+      "N": 9,
+      "subset_count": 48620,
+      "normalization": 0.9999999999999982,
+      "max_gram_absolute_error": 1.2434500191907254e-14,
+      "max_derivative_scaled_absolute_error": 2.8865819483567472e-15,
+      "evidence_level": "floating independent check, not exact"
+    },
+    {
+      "N": 10,
+      "subset_count": 184756,
+      "normalization": 1.0000000000000007,
+      "max_gram_absolute_error": 1.2434499015765637e-14,
+      "max_derivative_scaled_absolute_error": 6.996115851092006e-16,
+      "evidence_level": "floating independent check, not exact"
+    }
+  ],
+  "elapsed_seconds": 0.7935237910132855
+}

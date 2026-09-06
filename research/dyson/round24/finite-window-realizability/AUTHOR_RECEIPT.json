@@ -1,0 +1,47 @@
+{
+  "author": "Plato / residual_gram",
+  "claim": "No nonzero exact S-weighted zero-margin perturbation in any finite set of distinct full Pareto tails with eventually constant lower-endpoint coefficients; covers compact actual lower-window variations.",
+  "date": "2026-09-05",
+  "files": [
+    {
+      "bytes": 11658,
+      "path": "research-round24/finite-window-realizability/FINITE_WINDOW_ZERO_MARGIN_THEOREM.md",
+      "sha256": "c857d22a766099049bcdc95cdb12bf876d87deb6d83f9e9654c154d4dc2a6a7d"
+    },
+    {
+      "bytes": 804,
+      "path": "research-round24/finite-window-realizability/SOURCE_RECEIPT.json",
+      "sha256": "988c04e004e1a04b380cc9d13d883d45748a52958740bdc0d617f39a6bc73eb6"
+    },
+    {
+      "bytes": 1552,
+      "path": "research-round24/finite-window-realizability/check_math_syntax.cjs",
+      "sha256": "35b075feaf711732c6c823d4dcf0b103d14c6d697f73bb60ff8e6d2cf2828701"
+    },
+    {
+      "bytes": 286,
+      "path": "research-round24/finite-window-realizability/math_syntax_checks.json",
+      "sha256": "c04c277515e63ee0a060c841e7ff2d1dabdcfed61457c5cec53a32c7ab14785e"
+    }
+  ],
+  "mathematical_validation": "Direct proof; ordinary independent review pending. No numerical or finite-prime experiment is asserted.",
+  "new_external_sources": false,
+  "presentation_note": "Eight accidentally encoded carriage returns in draft LaTeX rm commands were repaired to literal backslash-rm before the final syntax pass and hash freeze; no mathematical statement changed.",
+  "prime_height_runs": 0,
+  "reproduce_syntax": "node check_math_syntax.cjs [optional absolute path to KaTeX module]",
+  "scope_limits": [
+    "Full triangular odd-endpoint domain and exact margins are required.",
+    "Separate upper-endpoint truncation is not covered.",
+    "Arbitrary non-eventually-constant row coefficients are not covered.",
+    "No quantitative approximate-margin theorem.",
+    "No strict actual-zeta or double-prime estimate."
+  ],
+  "source_files_changed": false,
+  "status": "frozen ordinary proof submitted for independent review",
+  "syntax_validation": {
+    "controls": 0,
+    "katex_version": "0.18.5",
+    "math_expressions": 97,
+    "status": "PASS"
+  }
+}

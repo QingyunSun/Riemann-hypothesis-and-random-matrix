@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-05",
+  "source_root": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round10",
+  "local_archive": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Local-Archive/round10-originals",
+  "public_root": "research/dyson/round10",
+  "copy_policy": "Verbatim research records and independent reviews; no publication edits. Third-party HTML body stays local. Previously pinned primary files remain in the Round9 local references.",
+  "files": [
+    {
+      "path": "arithmetic-residual/ARITHMETIC_RANGE_AND_MIXED_MOMENT.md",
+      "bytes": 12502,
+      "sha256": "c2d2a278ffe74d8f8d8a7c00980e5e57e6c508790ff96904db4479277d1daa8c",
+      "public": true
+    },
+    {
+      "path": "arithmetic-residual/INDEPENDENT_REVIEW.md",
+      "bytes": 4155,
+      "sha256": "375ab6c0ae80f43c86273a38868b045732f547ac9ce2eb3ffa363edaad2bd1a8",
+      "public": true
+    },
+    {
+      "path": "arithmetic-residual/check_edge_mixed_moment.json",
+      "bytes": 952,
+      "sha256": "7edbe3ece945d26f2be85b500d366e99a5f3a0fee644564498ea5a5cbaee4476",
+      "public": true
+    },
+    {
+      "path": "arithmetic-residual/check_edge_mixed_moment.py",
+      "bytes": 1918,
+      "sha256": "4cd2efe0f55e03371c48792ba7a4e193f0a702f732c5d27f8167dae52a8e3cc0",
+      "public": true
+    },
+    {
+      "path": "arithmetic-residual/manifest.json",
+      "bytes": 804,
+      "sha256": "4a5478935ff7452d8eac3bc59fab3079efe5580b8111eed7dcdc66d7e78e98e8",
+      "public": true
+    },
+    {
+      "path": "arithmetic-residual/sources/guth-maynard-2405.20552v2.html",
+      "bytes": 1388004,
+      "sha256": "bef63f09d561f24013e8d0c010f25179197c84ce8415d38c27fe6ec14e5dd811",
+      "public": false
+    },
+    {
+      "path": "arithmetic-residual/sources/receipt.json",
+      "bytes": 2753,
+      "sha256": "f51994ae6500ed58c18c119657c67727de4059a04da0784e6d84a7f676e6f798",
+      "public": true
+    },
+    {
+      "path": "shift-average/ACTUAL_KERNEL_AND_PRIME_POWER_REVIEW.md",
+      "bytes": 6575,
+      "sha256": "df6d6602ce9b68ac4759a8cbb8a3caad84d82b4694105a3bb466a9a69fd22732",
+      "public": true
+    },
+    {
+      "path": "shift-average/COEFFICIENT_AND_SPACING_AUDIT.md",
+      "bytes": 11413,
+      "sha256": "eccd80ad4909639a53583376444cbc9fce9fab518b75de7f82052c31c7a27fc7",
+      "public": true
+    },
+    {
+      "path": "shift-average/SMOOTH_SHIFT_COMPLETION_BOUND.md",
+      "bytes": 13008,
+      "sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+      "public": true
+    },
+    {
+      "path": "shift-average/actual_kernel_review_checks.json",
+      "bytes": 452,
+      "sha256": "9d08ac30ae446453b8f1ee76b32c9e95b5322c7825d33c41d2c7b1f8fa3061a6",
+      "public": true
+    },
+    {
+      "path": "shift-average/actual_kernel_review_receipt.json",
+      "bytes": 1069,
+      "sha256": "e7b573b37ef58b91b4394e69d99867338237a25627a9b7c8970f778904932624",
+      "public": true
+    },
+    {
+      "path": "shift-average/check_shift_completion.json",
+      "bytes": 2313,
+      "sha256": "a8650b51ebdaac6b73ecd2705bd9035e81f46493038b6851ff23cf85ec5cbce3",
+      "public": true
+    },
+    {
+      "path": "shift-average/check_shift_completion.log",
+      "bytes": 303,
+      "sha256": "f387e862b1684d934434621d0b59da634a563a63bf3cec3264a1fd8a0d55b0be",
+      "public": true
+    },
+    {
+      "path": "shift-average/check_shift_completion.py",
+      "bytes": 5840,
+      "sha256": "34c8ddb694a5334a09d7d5fd0c09b0c370ca125086c41fd27b1a9da8b09a9f6d",
+      "public": true
+    }
+  ]
+}

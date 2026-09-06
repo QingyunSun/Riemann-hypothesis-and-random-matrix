@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "Exact range, exponent, dyadic factor and one finite Farey partition checks only",
+  "assumption_for_analytic_bound": "RH; the program does not test or prove the source theorem",
+  "comparisons": [
+    {
+      "theta": "1/6",
+      "old_exponent": "3319/3000",
+      "RH_exponent": "1023/1000",
+      "power_saving": "1/12"
+    },
+    {
+      "theta": "2/7",
+      "old_exponent": "8161/7000",
+      "RH_exponent": "1023/1000",
+      "power_saving": "1/7"
+    }
+  ],
+  "remaining_power_above_covariance_scale": "23/1000",
+  "prime_power_error_exponent": "557/700",
+  "finite_instance": {
+    "H": 16,
+    "Q": 97,
+    "arc_count_checks": 384,
+    "unique_frequency_memberships": 2901,
+    "band_counts": [
+      360,
+      366,
+      728,
+      1447
+    ],
+    "minimum_spacing": "1/9312",
+    "required_spacing": "1/9409"
+  },
+  "J2_cauchy_band_factors_first_nine": [
+    "1",
+    "1/2",
+    "1/4",
+    "1/8",
+    "1/16",
+    "1/32",
+    "1/64",
+    "1/128",
+    "1/256"
+  ],
+  "J2_infinite_geometric_sum": "2",
+  "script_sha256": "1d028cde17f8042af29315890032add298eba4426a84d141bf8ccc9ca5b1276c"
+}

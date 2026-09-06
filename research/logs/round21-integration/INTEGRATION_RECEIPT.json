@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "original_files": 97,
+  "original_bytes": 2197366,
+  "public_verbatim_files": 85,
+  "dependency_records_verified": 109,
+  "existing_bounded_replays": [
+    {
+      "author": "length-arithmetic-kernel/length_arithmetic_checks.json",
+      "independent": "root-review/replay/length-arithmetic-kernel/length_arithmetic_checks.json",
+      "sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d",
+      "byte_identical": true,
+      "historical_original": false
+    },
+    {
+      "author": "length-arithmetic-kernel/length_arithmetic_checks.log",
+      "independent": "root-review/replay/length-arithmetic-kernel/length_arithmetic_checks.log",
+      "sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d",
+      "byte_identical": true,
+      "historical_original": false
+    },
+    {
+      "author": "tauberian-information/mellin_transform_checks.json",
+      "independent": "root-review/replay/tauberian-information/mellin_transform_checks.json",
+      "sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9",
+      "byte_identical": true,
+      "historical_original": false
+    },
+    {
+      "author": "tauberian-information/mellin_transform_checks.log",
+      "independent": "root-review/replay/tauberian-information/mellin_transform_checks.log",
+      "sha256": "fff4a294815c3bd2a3e874a38f4e614f229578ca7ae940e82337f3a42d660ff9",
+      "byte_identical": true,
+      "historical_original": false
+    },
+    {
+      "author": "log-prime-heat/heat_multiplier_checks.json",
+      "independent": "log-prime-heat-review/replayed_heat_checks.json",
+      "sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+      "byte_identical": true,
+      "historical_original": false
+    },
+    {
+      "author": "log-prime-heat/heat_multiplier_checks.log",
+      "independent": "log-prime-heat-review/replayed_heat_checks.log",
+      "sha256": "afc7ffa76c2c01926164f42bbf0e0bee574e0ab2cd48f495bf2f974beee49c32",
+      "byte_identical": true,
+      "historical_original": false
+    },
+    {
+      "author": "strict-arithmetic-target/centered_pair_target_checks.json",
+      "independent": "strict-arithmetic-review/independent_pair_replay.json",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "byte_identical": true,
+      "historical_original": true
+    },
+    {
+      "author": "strict-arithmetic-target/centered_pair_target_checks.log",
+      "independent": "strict-arithmetic-review/independent_pair_replay.log",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2",
+      "byte_identical": true,
+      "historical_original": true
+    },
+    {
+      "author": "strict-arithmetic-target/h1_correction_checks.json",
+      "independent": "strict-arithmetic-review/independent_h1_replay.json",
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e",
+      "byte_identical": true,
+      "historical_original": false
+    },
+    {
+      "author": "strict-arithmetic-target/h1_correction_checks.log",
+      "independent": "strict-arithmetic-review/independent_h1_replay.log",
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e",
+      "byte_identical": true,
+      "historical_original": false
+    }
+  ],
+  "new_mathematical_reruns_for_integration": 0,
+  "new_prime_heights": 0,
+  "new_pdf_build": false,
+  "formal_verification": false,
+  "strict_arithmetic_bound_proved": false,
+  "substantive_correction": "Uniform all-shifts sub-square-root centered prefix premise impossible unconditionally at h=1; signed aggregate remains open. Historical original checks did not certify feasibility.",
+  "preservation": "All original files unchanged; current and superseded author/reviewer versions separately preserved.",
+  "historical_relative_links_without_public_target": [],
+  "original_whitespace_preservation": "Five original EOF blank lines preserved with exact-file .gitattributes exceptions; original bytes unchanged.",
+  "link_parser_scope": "Two W-backslash-lambda substrings inside mathematical notation are not Markdown links; excluded from source-link inventory. Historical prior review link maps to its exact original author copy."
+}

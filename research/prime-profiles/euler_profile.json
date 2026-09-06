@@ -1,0 +1,53 @@
+{
+  "status": "exploratory continuum variational trial, not arithmetic theorem",
+  "results": [
+    {
+      "prime_log_profile_degree": 2,
+      "parameters": [
+        1.058515279442234,
+        -1.6817265251028055
+      ],
+      "optimized_degree5_order20_margin": -0.014719880155426551,
+      "validated_degree7_order32_margin": -0.014719877050096808,
+      "norm_gram_condition": 3.8593980891592436,
+      "radial_jacobi_coefficients": [
+        1.2156161956637335,
+        -0.08042463455658076,
+        -0.012124784067810796,
+        -0.00652512089508044,
+        -0.0013928684885944674,
+        0.001513227809951323,
+        -0.00016396424188128508,
+        8.446774106669415e-05
+      ],
+      "optimizer_success": true,
+      "iterations": 32,
+      "seconds_total": 1.1215679589658976
+    },
+    {
+      "prime_log_profile_degree": 3,
+      "parameters": [
+        1.0906269411552656,
+        0.6070329368880861,
+        -2.1906991585666895
+      ],
+      "optimized_degree5_order20_margin": -0.014670566762223697,
+      "validated_degree7_order32_margin": -0.014670566347483982,
+      "norm_gram_condition": 1.6143431245983437,
+      "radial_jacobi_coefficients": [
+        1.0000440902565,
+        -0.23259830220625255,
+        0.013732469590149073,
+        -0.0009984243126487718,
+        -0.0007227458599646579,
+        -0.0003332840352332178,
+        5.2407431990754666e-05,
+        1.2658817273550503e-05
+      ],
+      "optimizer_success": true,
+      "iterations": 98,
+      "seconds_total": 2.6681755000026897
+    }
+  ],
+  "baseline": -0.015357982181678165
+}

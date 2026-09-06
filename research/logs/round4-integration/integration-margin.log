@@ -1,0 +1,21 @@
+{
+  "status": "exact scalar replay using new outward alpha and source-inherited original bounds",
+  "rectangle_certificate_sha256": "009b6e23a124f8ff815c2f93da101ad7ebfbbf63dc1c2748936bdfb29c257e16",
+  "old_margin_lower": {
+    "exact": "69162467338708766984467/2960664736250000000000000000",
+    "decimal_diagnostic": 2.3360452297044097e-05
+  },
+  "new_credit_lower": {
+    "exact": "148149250207766546368962886357892265625/98384961338916601614479711293644855629053952",
+    "decimal_diagnostic": 1.5058119471879639e-06
+  },
+  "new_margin_lower": {
+    "exact": "46662644315949545147794446700464312482292338659650421/1876544214990932495393366075394532311040000000000000000000",
+    "decimal_diagnostic": 2.486626424423206e-05
+  },
+  "relative_margin_increase_lower": {
+    "exact": "2825722698359805037860162474782796204090118408203125/43836921617589740109934284225681516278202220251447296",
+    "decimal_diagnostic": 0.06445987980200628
+  },
+  "scope": "Original I,J,97 loss component endpoints are printed source bounds, not freshly re-certified in this task. k40/diameter186 unchanged."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "scope": "Documentation-only logarithmic factor clarification; original finite checker rerun unchanged.",
+  "old_author_sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+  "new_author_sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+  "changed_checker_fields": [
+    "author_sha256"
+  ],
+  "mathematical_check_fields_unchanged": true,
+  "json_and_stdout_byte_identical": true,
+  "historical_files": [
+    {
+      "path": "historical-pre-log-clarification/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "bytes": 15488,
+      "sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742"
+    },
+    {
+      "path": "historical-pre-log-clarification/author_manifest.json",
+      "bytes": 1373,
+      "sha256": "65468cfbd3219d1b33274ed71ee24d0e1f7e16fdd3bdc7831820c0901a17708f"
+    },
+    {
+      "path": "historical-pre-log-clarification/shift_dispersion_checks.json",
+      "bytes": 1103,
+      "sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd"
+    },
+    {
+      "path": "historical-pre-log-clarification/shift_dispersion_checks.log",
+      "bytes": 1103,
+      "sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd"
+    },
+    {
+      "path": "historical-pre-log-clarification/source_page_receipt.json",
+      "bytes": 1094,
+      "sha256": "d64b1538a05030f8ceb36d9249010bc03b8838b9b49a419b0cc4055ac11ad265"
+    }
+  ],
+  "new_checker_receipt": {
+    "path": "shift_dispersion_checks.json",
+    "bytes": 1103,
+    "sha256": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61"
+  },
+  "source_files_mutated": false,
+  "historical_reviews": "Past reviews/replays remain pinned to the preserved historical author version; root will record this scope-only delta."
+}

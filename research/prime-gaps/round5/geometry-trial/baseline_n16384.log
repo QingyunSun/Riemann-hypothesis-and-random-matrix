@@ -1,0 +1,12 @@
+{"stage": "denominator_complete", "seconds": 0.4297100839903578}
+{"stage": "face_layer", "layer": 0, "cap": 5877}
+{"stage": "face_layer", "layer": 1, "cap": 5903}
+{"stage": "face_layer", "layer": 2, "cap": 7463}
+{"stage": "face_layer", "layer": 3, "cap": 7496}
+{"stage": "face_layer", "layer": 4, "cap": 7763}
+{"stage": "face_layer", "layer": 5, "cap": 8192}
+{"stage": "face_layer", "layer": 6, "cap": 11370}
+{"relative_gram_cutoff": 1e-08, "retained_dimension": 62, "retained_scaled_gram_condition": 86830138.66719478, "rho_J_over_I": 0.9933539228726636, "gap_to_one": 0.006646077127336447, "projected_eigen_residual": 1.3682244377563103e-13, "full_scaled_pencil_relative_residual": 3.205942957980903e-09, "matrix_vs_direct_quotient_difference": -6.019318377070704e-11}
+{"relative_gram_cutoff": 1e-10, "retained_dimension": 75, "retained_scaled_gram_condition": 3462380046.3090324, "rho_J_over_I": 0.9933789869788234, "gap_to_one": 0.006621013021176569, "projected_eigen_residual": 4.549856134806336e-13, "full_scaled_pencil_relative_residual": 1.560725521323908e-11, "matrix_vs_direct_quotient_difference": -8.825451480731772e-11}
+{"relative_gram_cutoff": 1e-12, "retained_dimension": 77, "retained_scaled_gram_condition": 21590014517.58805, "rho_J_over_I": 0.9933793528730188, "gap_to_one": 0.006620647126981183, "projected_eigen_residual": 1.1178514199092647e-12, "full_scaled_pencil_relative_residual": 3.8291044264254885e-16, "matrix_vs_direct_quotient_difference": -1.9562573783105108e-11}
+{"output": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round5/geometry-trial/baseline_k39_n16384.json", "seconds": 7.933820249978453}

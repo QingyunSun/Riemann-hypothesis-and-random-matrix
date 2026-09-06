@@ -1,0 +1,532 @@
+{
+  "status": "PASS",
+  "checked_records": 75,
+  "checks": [
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "expected": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+      "actual": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/check_weighted_variance.py",
+      "expected": "aad7280e160f7b27292c8cea000710b09c5b7b9beb0e0ae9613ec36207f9fbd9",
+      "actual": "aad7280e160f7b27292c8cea000710b09c5b7b9beb0e0ae9613ec36207f9fbd9",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/weighted_variance_checks.json",
+      "expected": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f",
+      "actual": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/weighted_variance_checks.log",
+      "expected": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989",
+      "actual": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/das-ismoilov-ramos-2502.05106v1.html",
+      "expected": "226884cfea450bd4d2842d572c9a84acf227e1dd569ed46852911ca1035d2301",
+      "actual": "226884cfea450bd4d2842d572c9a84acf227e1dd569ed46852911ca1035d2301",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/carneiro-milinovich-ramos-2310.01913.pdf",
+      "expected": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "actual": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1311.0597.pdf",
+      "expected": "0039741a14b1cd921c1315d4a3a92fe4c36f9fde24d349931a4ec1584e4c9bec",
+      "actual": "0039741a14b1cd921c1315d4a3a92fe4c36f9fde24d349931a4ec1584e4c9bec",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/rudnick-2605.22059v1.html",
+      "expected": "4b0d3227a1753ef2c21c3d6571b033019601a9058b70fddc271e039a8f544033",
+      "actual": "4b0d3227a1753ef2c21c3d6571b033019601a9058b70fddc271e039a8f544033",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1308.3934.pdf",
+      "expected": "5a701152a7ee378ce03a2b5c7e40d19685abbcd4dbd30f2c871d36e9b954686c",
+      "actual": "5a701152a7ee378ce03a2b5c7e40d19685abbcd4dbd30f2c871d36e9b954686c",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/carneiro-milinovich-ramos-2310.01913.txt",
+      "expected": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4",
+      "actual": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1308.3934.txt",
+      "expected": "39c78416100ade5e1fcb9a768a895ee538410b36c32ae45a4a11ee47f836a6a7",
+      "actual": "39c78416100ade5e1fcb9a768a895ee538410b36c32ae45a4a11ee47f836a6a7",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1311.0597.txt",
+      "expected": "33310a5bb92bbb14653607ec42db9dc41d0780fd4b3b27156acb3aa7cff36ca8",
+      "actual": "33310a5bb92bbb14653607ec42db9dc41d0780fd4b3b27156acb3aa7cff36ca8",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/DOWNLOAD_RECEIPT.json",
+      "expected": "b1c86155ff0145b03aac1f0b9497edc7dd6ed4878209cf7e1311dbfdc8c2850f",
+      "actual": "b1c86155ff0145b03aac1f0b9497edc7dd6ed4878209cf7e1311dbfdc8c2850f",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "expected": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+      "actual": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/check_weighted_variance.py",
+      "expected": "aad7280e160f7b27292c8cea000710b09c5b7b9beb0e0ae9613ec36207f9fbd9",
+      "actual": "aad7280e160f7b27292c8cea000710b09c5b7b9beb0e0ae9613ec36207f9fbd9",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/weighted_variance_checks.json",
+      "expected": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f",
+      "actual": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/weighted_variance_checks.log",
+      "expected": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989",
+      "actual": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "expected": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "actual": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/bragg_checks.json",
+      "expected": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218",
+      "actual": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "expected": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "actual": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "expected": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "actual": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md",
+      "expected": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+      "actual": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/das-ismoilov-ramos-2502.05106v1.html",
+      "expected": "226884cfea450bd4d2842d572c9a84acf227e1dd569ed46852911ca1035d2301",
+      "actual": "226884cfea450bd4d2842d572c9a84acf227e1dd569ed46852911ca1035d2301",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/carneiro-milinovich-ramos-2310.01913.pdf",
+      "expected": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "actual": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1311.0597.pdf",
+      "expected": "0039741a14b1cd921c1315d4a3a92fe4c36f9fde24d349931a4ec1584e4c9bec",
+      "actual": "0039741a14b1cd921c1315d4a3a92fe4c36f9fde24d349931a4ec1584e4c9bec",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/rudnick-2605.22059v1.html",
+      "expected": "4b0d3227a1753ef2c21c3d6571b033019601a9058b70fddc271e039a8f544033",
+      "actual": "4b0d3227a1753ef2c21c3d6571b033019601a9058b70fddc271e039a8f544033",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1308.3934.pdf",
+      "expected": "5a701152a7ee378ce03a2b5c7e40d19685abbcd4dbd30f2c871d36e9b954686c",
+      "actual": "5a701152a7ee378ce03a2b5c7e40d19685abbcd4dbd30f2c871d36e9b954686c",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/carneiro-milinovich-ramos-2310.01913.txt",
+      "expected": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4",
+      "actual": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1308.3934.txt",
+      "expected": "39c78416100ade5e1fcb9a768a895ee538410b36c32ae45a4a11ee47f836a6a7",
+      "actual": "39c78416100ade5e1fcb9a768a895ee538410b36c32ae45a4a11ee47f836a6a7",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/languasco-perelli-zaccagnini-1311.0597.txt",
+      "expected": "33310a5bb92bbb14653607ec42db9dc41d0780fd4b3b27156acb3aa7cff36ca8",
+      "actual": "33310a5bb92bbb14653607ec42db9dc41d0780fd4b3b27156acb3aa7cff36ca8",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-review/INDEPENDENT_WEIGHTED_VARIANCE_REVIEW.md",
+      "expected": "2a04a778e4b341cfb908bb524f3ba94cc2a7768e080d1fd1f0856141929eb38e",
+      "actual": "2a04a778e4b341cfb908bb524f3ba94cc2a7768e080d1fd1f0856141929eb38e",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/sources/DOWNLOAD_RECEIPT.json",
+      "expected": "b1c86155ff0145b03aac1f0b9497edc7dd6ed4878209cf7e1311dbfdc8c2850f",
+      "actual": "b1c86155ff0145b03aac1f0b9497edc7dd6ed4878209cf7e1311dbfdc8c2850f",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-review/independent_review_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-review/source-page-checks/cccc-p25.png",
+      "expected": "d03e730cbde64ce81850794df8d7bafbc910f32521d6aaae752ff95cb1e78488",
+      "actual": "d03e730cbde64ce81850794df8d7bafbc910f32521d6aaae752ff95cb1e78488",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/LOCAL_BRAGG_PRODUCTION.md",
+      "expected": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "actual": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/check_local_bragg.py",
+      "expected": "83807e566506c778fbc9a6903293e94158c557c1c1fe73e06f7f6d3157b2f549",
+      "actual": "83807e566506c778fbc9a6903293e94158c557c1c1fe73e06f7f6d3157b2f549",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/local_bragg_checks.json",
+      "expected": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "actual": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/local_bragg_checks.log",
+      "expected": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "actual": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/check_math_syntax.cjs",
+      "expected": "837849d42db436e7d65a99eca7d39ffcd74cc0cc4bc0d000793b9c97c13c2b44",
+      "actual": "837849d42db436e7d65a99eca7d39ffcd74cc0cc4bc0d000793b9c97c13c2b44",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/math_syntax_checks.json",
+      "expected": "92b584227565bd6473986b770f39343b986e8bbd2f447597787abbf71a2c0a1b",
+      "actual": "92b584227565bd6473986b770f39343b986e8bbd2f447597787abbf71a2c0a1b",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/ROOT_CURVATURE_CROSSCHECK.md",
+      "expected": "429d58a41215d95fa6dc8c22689159b9c20900235eb1d92bc183ec2ac6f69c74",
+      "actual": "429d58a41215d95fa6dc8c22689159b9c20900235eb1d92bc183ec2ac6f69c74",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "expected": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "actual": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round7/true-zeta-flow/FORWARD_FLOW_OBSTRUCTION.md",
+      "expected": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da",
+      "actual": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round3/force_energy.md",
+      "expected": "526c5e7abd2c6437f3ec2d6cdcdffb27db13a134af15c4ab17464487cbdf360c",
+      "actual": "526c5e7abd2c6437f3ec2d6cdcdffb27db13a134af15c4ab17464487cbdf360c",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md",
+      "expected": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+      "actual": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md",
+      "expected": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "actual": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/check_local_bragg.py",
+      "expected": "83807e566506c778fbc9a6903293e94158c557c1c1fe73e06f7f6d3157b2f549",
+      "actual": "83807e566506c778fbc9a6903293e94158c557c1c1fe73e06f7f6d3157b2f549",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/AUTHOR_RECEIPT.json",
+      "expected": "59f2823709dd7e0c3466c39fbc470e64d5b728c2f8472f40ebdf94962ae17f8d",
+      "actual": "59f2823709dd7e0c3466c39fbc470e64d5b728c2f8472f40ebdf94962ae17f8d",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability-review/independent_replay.json",
+      "expected": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "actual": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability-review/independent_replay.log",
+      "expected": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "actual": "b9272cb9512e0bea0551308a1d495a16adc2ba80e7c3a7bac9c1ae908055942d",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability-review/INDEPENDENT_LOCAL_BRAGG_REVIEW.md",
+      "expected": "40058d7c76ad150ec9ddc7f7ab99406be6329b917f6715d110f7d61044a3f2fa",
+      "actual": "40058d7c76ad150ec9ddc7f7ab99406be6329b917f6715d110f7d61044a3f2fa",
+      "status": "PASS"
+    },
+    {
+      "receipt": "dynamic-observability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/dynamic-observability/LOCAL_BRAGG_PRODUCTION.md",
+      "expected": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "actual": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "status": "PASS"
+    },
+    {
+      "receipt": "root-bragg-curvature/INDEPENDENT_CURVATURE_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/root-bragg-curvature/INDEPENDENT_CURVATURE_REVIEW.md",
+      "expected": "475d183dd68dd006cfa1e9a75e14976880241561b531ba5d81eb835e6f10b647",
+      "actual": "475d183dd68dd006cfa1e9a75e14976880241561b531ba5d81eb835e6f10b647",
+      "status": "PASS"
+    },
+    {
+      "receipt": "root-bragg-curvature/INDEPENDENT_CURVATURE_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md",
+      "expected": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "actual": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/author_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "expected": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+      "actual": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/author_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/check_shift_dispersion.py",
+      "expected": "61fc73eff3f574024924cafd77dd9c64e82e1a79b07321fa0b83dae57afd0303",
+      "actual": "61fc73eff3f574024924cafd77dd9c64e82e1a79b07321fa0b83dae57afd0303",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/author_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/shift_dispersion_checks.json",
+      "expected": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+      "actual": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/author_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/shift_dispersion_checks.log",
+      "expected": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+      "actual": "6dbc40857888d3e99d3ee24c0915cbb764a4681011831b8300243b10db6b6d61",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/author_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/source_manifest.json",
+      "expected": "290a5a68548fa0007ea96b39ad6e254985a932bcc622e36a60d143c79ddd5419",
+      "actual": "290a5a68548fa0007ea96b39ad6e254985a932bcc622e36a60d143c79ddd5419",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/author_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/source_page_receipt.json",
+      "expected": "00932169042eab1744e353fbd4914eef3625de8bcd40e2630fb77f89a87e7e6c",
+      "actual": "00932169042eab1744e353fbd4914eef3625de8bcd40e2630fb77f89a87e7e6c",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/author_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/log_clarification_receipt.json",
+      "expected": "51a011cd10c0b31144dbd91e79348ef81c35b18e4f210b94d0f22b2e0031d1b4",
+      "actual": "51a011cd10c0b31144dbd91e79348ef81c35b18e4f210b94d0f22b2e0031d1b4",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/sources/maynard-2006.08250v1.pdf",
+      "expected": "561508e19cd9b56a8cbb68be5c238b213f58aa3973dbec3eb201b7834ad56f4c",
+      "actual": "561508e19cd9b56a8cbb68be5c238b213f58aa3973dbec3eb201b7834ad56f4c",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/sources/maynard-2006.08250v1.txt",
+      "expected": "981033e06ab7699fcba555a6fd09566dc5eaaee7cd6b2a595002a7acf4f43588",
+      "actual": "981033e06ab7699fcba555a6fd09566dc5eaaee7cd6b2a595002a7acf4f43588",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/modulus-weights/sources/maynard-2006.07088v1.pdf",
+      "expected": "04516b141dfac689f317d533189eabf9b50cec200706159aaa3d8dbe1e25bfb4",
+      "actual": "04516b141dfac689f317d533189eabf9b50cec200706159aaa3d8dbe1e25bfb4",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/modulus-weights/sources/maynard-2006.07088v1.txt",
+      "expected": "4bcb824f57cf391ab86827e1d64d57b6c04cb8689c33502e7a6b6c6d7bf7514b",
+      "actual": "4bcb824f57cf391ab86827e1d64d57b6c04cb8689c33502e7a6b6c6d7bf7514b",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "expected": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+      "actual": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "expected": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd",
+      "actual": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+      "expected": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "actual": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+      "expected": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+      "actual": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "expected": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+      "actual": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+      "status": "PASS"
+    },
+    {
+      "receipt": "shift-dispersion/source_manifest.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/modulus-weights/MODULUS_WEIGHT_LEVEL_AND_NORMALIZATION.md",
+      "expected": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+      "actual": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "expected": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "actual": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/bragg_checks.json",
+      "expected": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218",
+      "actual": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "expected": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "actual": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "expected": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "actual": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "status": "PASS"
+    },
+    {
+      "receipt": "bragg-variance-literature/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md",
+      "expected": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+      "actual": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+      "status": "PASS"
+    }
+  ],
+  "unresolved_records": []
+}

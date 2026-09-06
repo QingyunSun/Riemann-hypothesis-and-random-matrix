@@ -1,0 +1,20 @@
+{
+  "author_files_modified": false,
+  "checks": [],
+  "review": {
+    "bytes": 3009,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/root-bragg-curvature/INDEPENDENT_CURVATURE_REVIEW.md",
+    "sha256": "475d183dd68dd006cfa1e9a75e14976880241561b531ba5d81eb835e6f10b647"
+  },
+  "source": {
+    "bytes": 6029,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md",
+    "sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76"
+  },
+  "status": "Accepted ordinary mathematical proof within stated model scope; no actual-zeta transfer accepted.",
+  "validation": {
+    "control_bytes": 0,
+    "display_math_pairs": 4,
+    "replay": "Analytic derivation and independent N=2 exact check; no floating calculation"
+  }
+}

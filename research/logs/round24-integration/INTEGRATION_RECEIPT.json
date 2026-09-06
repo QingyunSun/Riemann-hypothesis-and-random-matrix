@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "original_files": 42,
+  "original_bytes": 188323,
+  "public_verbatim_files": 42,
+  "public_verbatim_bytes": 188323,
+  "dependency_records_verified": 196,
+  "existing_bounded_replays": [
+    {
+      "author": "general-nonprimitive/nonprimitive_exponent_checks.json",
+      "independent": "general-nonprimitive-review/independent_exponent_checks.json",
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "byte_identical": true
+    },
+    {
+      "author": "general-nonprimitive/nonprimitive_exponent_checks.log",
+      "independent": "general-nonprimitive-review/independent_exponent_checks.log",
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "byte_identical": true
+    }
+  ],
+  "additional_small_cofactor_replay": "Eight exact assertions checked by the preserved independent review; no integration rerun.",
+  "new_mathematical_reruns_for_integration": 0,
+  "new_prime_heights": 0,
+  "new_pdf_build": false,
+  "formal_verification": false,
+  "strict_arithmetic_bound_proved": false,
+  "preservation": "All original bytes unchanged. Late R23 reviews and revised coordinator memo are separate R24 evidence.",
+  "historical_relative_links_without_public_target": [],
+  "math_expressions_checked": 1036,
+  "editorial_links_checked": 22,
+  "source_eof_exceptions": 5,
+  "selected_manifest_files_at_validation": 1582
+}

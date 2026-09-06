@@ -1,0 +1,18 @@
+{
+  "base_path_convention": "relative to ACUE-Astra-Handoff-2026-09-04",
+  "files": [
+    {
+      "bytes": 7052,
+      "path": "research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c"
+    },
+    {
+      "bytes": 17011,
+      "path": "research-round23/mod3-centering/FIXED_MOD6_CENTERING.md",
+      "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e"
+    }
+  ],
+  "new_external_sources": false,
+  "scope": "Original actual kernel and preceding exact two-profile test; actual singular-series positive divisor expansion. All additional Fourier means and limiting arguments are proved in the new report.",
+  "status": "verified current bytes against cited frozen programme files"
+}

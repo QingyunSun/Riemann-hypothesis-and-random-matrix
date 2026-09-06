@@ -1,0 +1,72 @@
+{
+  "status": "PASS: exact algebra, rational exponents, residue bounds, centering and primary-source hashes",
+  "exponents": {
+    "q1_RH_extraction_error": "923/1000",
+    "restricted_positive_core": "1123/1000",
+    "centered_m_mean_square_bound": "1323/1000",
+    "trivial_factored_bound": "1523/1000",
+    "Vaughan_N_4_5_term": "1443/1000"
+  },
+  "q1_error_power_margin_below_X": "77/1000",
+  "positive_core_lower_constant_after_c0_integralV": "1/131072",
+  "positive_core_scope": "restricted actual F_X block, low primitive a, alpha=1, positive rational core",
+  "positive_core_not_a_claim_about": [
+    "the full signed family",
+    "all rational arcs together",
+    "a specific actual-zeta or Heath-Brown coefficient sequence"
+  ],
+  "exact_fourier_and_centered_variance": {
+    "modulus": 35,
+    "totient": 24,
+    "ordinary_progression_value": "-123/160",
+    "cyclotomic_remainder": [
+      "0"
+    ],
+    "unit_mean": "17/24",
+    "centered_unit_second_moment": "54671/24",
+    "full_parseval_second_moment": "3045",
+    "scope": "fixed rational coefficients on prime indices; checks the algebra, not asymptotic prime estimates"
+  },
+  "finite_residue_checks": {
+    "unit_numerator_cases": 244,
+    "integer_dirichlet_cutoff_cases": 3
+  },
+  "source_receipts": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+      "location": "Propositions 2.3, 2.10, 2.18; Definition 2.9"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+      "url": "https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf",
+      "location": "Theorem17.1 equation17.29, printed65/PDF77"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf",
+      "location": "Theorem10 equation6.3, printed337/PDF1"
+    }
+  ],
+  "inherited_conductor_report_sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+  "report_sha256": "7f4285cb02241e22bdb29a1ad4952f7ab8249e3ec3bef984455a57ae05e41ebb",
+  "script_sha256": "4cff005e205f02ea1083be61547a46995e9acbbefdb817812d1a66c6fcdc7650",
+  "assumption_ledger": {
+    "q1_integral_extraction": "ordinary RH for zeta",
+    "positive_restricted_core": "ordinary PNT, no RH",
+    "small_q_main_extraction": "classical SW; only logarithmic remainder asserted",
+    "Vaughan_and_m_mean_square": "unconditional",
+    "outer_coefficients": "|alpha_m|<=1; divisor-bounded extension costs X^eta",
+    "support": "fixed inner prime interval independent of m"
+  },
+  "limitations": [
+    "no numerical realization of the asymptotic canonical family",
+    "no parameter scan",
+    "no claim that R13 improves the existing R11 bound",
+    "no GRH assumption silently inferred from ordinary RH",
+    "finite exact tests verify algebra, not the analytic source theorems"
+  ]
+}

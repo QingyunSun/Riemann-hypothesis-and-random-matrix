@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "date": "2026-09-05",
+  "author": "residual_gram / Astra",
+  "artifacts": [
+    {
+      "path": "BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "bytes": 21201,
+      "sha256": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502"
+    },
+    {
+      "path": "check_weighted_variance.py",
+      "bytes": 5052,
+      "sha256": "aad7280e160f7b27292c8cea000710b09c5b7b9beb0e0ae9613ec36207f9fbd9"
+    },
+    {
+      "path": "weighted_variance_checks.json",
+      "bytes": 2215,
+      "sha256": "e2a6154e2d531a542178bf4bc60ac69fcd11346937cb15292dbbb1478cbfb28f"
+    },
+    {
+      "path": "weighted_variance_checks.log",
+      "bytes": 286,
+      "sha256": "3f888f00c4b3dc5c9420cb36fde053f3d949141e19b8b918bc0fc65f1cbbb989"
+    }
+  ],
+  "source_root": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04",
+  "sources": [
+    {
+      "path": "research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "bytes": 20291,
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+    },
+    {
+      "path": "research-round16/bragg-atom/bragg_checks.json",
+      "bytes": 3918,
+      "sha256": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218"
+    },
+    {
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "bytes": 843595,
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac"
+    },
+    {
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "bytes": 180918,
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "path": "research-round18/functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md",
+      "bytes": 18635,
+      "sha256": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701"
+    },
+    {
+      "path": "sources/das-ismoilov-ramos-2502.05106v1.html",
+      "bytes": 921080,
+      "sha256": "226884cfea450bd4d2842d572c9a84acf227e1dd569ed46852911ca1035d2301",
+      "url": "https://arxiv.org/html/2502.05106v1"
+    },
+    {
+      "path": "sources/carneiro-milinovich-ramos-2310.01913.pdf",
+      "bytes": 490086,
+      "sha256": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "url": "https://arxiv.org/pdf/2310.01913"
+    },
+    {
+      "path": "sources/languasco-perelli-zaccagnini-1311.0597.pdf",
+      "bytes": 208956,
+      "sha256": "0039741a14b1cd921c1315d4a3a92fe4c36f9fde24d349931a4ec1584e4c9bec",
+      "url": "https://arxiv.org/pdf/1311.0597"
+    },
+    {
+      "path": "sources/rudnick-2605.22059v1.html",
+      "bytes": 416097,
+      "sha256": "4b0d3227a1753ef2c21c3d6571b033019601a9058b70fddc271e039a8f544033",
+      "url": "https://arxiv.org/html/2605.22059v1"
+    },
+    {
+      "path": "sources/languasco-perelli-zaccagnini-1308.3934.pdf",
+      "bytes": 195124,
+      "sha256": "5a701152a7ee378ce03a2b5c7e40d19685abbcd4dbd30f2c871d36e9b954686c",
+      "url": "https://arxiv.org/pdf/1308.3934"
+    },
+    {
+      "path": "sources/carneiro-milinovich-ramos-2310.01913.txt",
+      "bytes": 64115,
+      "sha256": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4"
+    },
+    {
+      "path": "sources/languasco-perelli-zaccagnini-1308.3934.txt",
+      "bytes": 51581,
+      "sha256": "39c78416100ade5e1fcb9a768a895ee538410b36c32ae45a4a11ee47f836a6a7"
+    },
+    {
+      "path": "sources/languasco-perelli-zaccagnini-1311.0597.txt",
+      "bytes": 59405,
+      "sha256": "33310a5bb92bbb14653607ec42db9dc41d0780fd4b3b27156acb3aa7cff36ca8"
+    }
+  ],
+  "source_download_receipt": {
+    "path": "sources/DOWNLOAD_RECEIPT.json",
+    "bytes": 1223,
+    "sha256": "b1c86155ff0145b03aac1f0b9497edc7dd6ed4878209cf7e1311dbfdc8c2850f"
+  },
+  "qa": {
+    "control_characters": "PASS",
+    "display_open": 34,
+    "display_close": 34,
+    "inline_open": 0,
+    "inline_close": 0
+  },
+  "proof_scope": "RH conditional actual-zeta reduction. AH forces the exact weighted Selberg variance limit; any strict subsequential variance deficit yields positive limsup Bragg deficit, with explicit finite-R modulus. Finite prime-pair intersection kernel and all centering terms are exact. No actual variance deficit or famous conjecture is proved.",
+  "literature_scope": "Bounded primary-only search; no exhaustive-best-bound claim. Primary theorem ranges checked, including long-length restrictions and X<T restrictions.",
+  "source_visual_check": "CCCC printed p25, equations3.8-3.9, rendered with pdftoppm and visually inspected.",
+  "validation_scope": "Exact finite algebra and kernel normalization only. No actual asymptotic variance bound or Bragg deficit is evaluated.",
+  "runtime": "python3; SymPy1.14.0; pdftotext for source extraction",
+  "initial_checker_issue": "SymPy did not factor composite rational logarithms; an exact factorint-based canonicalization fixed the symbolic comparison. No mathematical formula changed.",
+  "source_mutation": false,
+  "git_mutation": false
+}

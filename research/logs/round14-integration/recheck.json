@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "public_verbatim_files_verified": 15,
+  "checks": [
+    {
+      "script": "smooth-long-factor/check_smooth_long_factor.py",
+      "structured_match": true,
+      "excluded_temporary_paths": [
+        "source.path"
+      ]
+    },
+    {
+      "script": "cue-selected-background/check_selected_background.py",
+      "structured_match": true,
+      "excluded_temporary_paths": []
+    }
+  ],
+  "inherited_publication_correspondence": [
+    {
+      "file": "research/reports/galilean-proof-audit.md",
+      "original_sha256": "c85684fe873c19c193a81d3d16cde2507f10cf6753324ce31eda99b14672a2da",
+      "published_sha256": "f3896ff6b7a07d1296762ff09ad8bf9315766459f16394d6636e64d9036c8f13",
+      "difference": "title and same-agent second-pass attribution only; root compared complete mathematical bodies"
+    }
+  ],
+  "scope": "Exact finite determinant, convolution and centering algebra; two fixed floating Poisson diagnostics; proof/source hashes. No Monte Carlo or large scan.",
+  "new_actual_zeta_lower_bound": false
+}

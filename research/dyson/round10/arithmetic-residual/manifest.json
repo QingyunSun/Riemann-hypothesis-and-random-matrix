@@ -1,0 +1,26 @@
+{
+  "status": "frozen bounded task, ordinary conditional lemma plus exact symbolic checks",
+  "source_receipt": "sources/receipt.json",
+  "files": [
+    {
+      "path": "ARITHMETIC_RANGE_AND_MIXED_MOMENT.md",
+      "sha256": "c2d2a278ffe74d8f8d8a7c00980e5e57e6c508790ff96904db4479277d1daa8c",
+      "bytes": 12502
+    },
+    {
+      "path": "check_edge_mixed_moment.py",
+      "sha256": "4cd2efe0f55e03371c48792ba7a4e193f0a702f732c5d27f8167dae52a8e3cc0",
+      "bytes": 1918
+    },
+    {
+      "path": "check_edge_mixed_moment.json",
+      "sha256": "7edbe3ece945d26f2be85b500d366e99a5f3a0fee644564498ea5a5cbaee4476",
+      "bytes": 952
+    },
+    {
+      "path": "sources/receipt.json",
+      "sha256": "f51994ae6500ed58c18c119657c67727de4059a04da0784e6d84a7f676e6f798",
+      "bytes": 2753
+    }
+  ]
+}

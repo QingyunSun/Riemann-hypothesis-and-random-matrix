@@ -1,0 +1,132 @@
+{
+  "round": 13,
+  "policy": "All original research and review bytes retained; third-party full paper bodies/page images stay local with public source receipts.",
+  "files": [
+    {
+      "path": "INDEPENDENT_ROOT_REVIEW.md",
+      "bytes": 4599,
+      "sha256": "d38cfc0ec3f7031276340e4984fbc330185b5c9eef34df1e0955fc9853555456",
+      "public": true
+    },
+    {
+      "path": "minor-arc-source/MINOR_ARC_AND_FIXED_INTERVAL_AUDIT.md",
+      "bytes": 11180,
+      "sha256": "bbdb17478b9e885570b7b49c3ff9b94b0ceb98f12a41743edb1ce492cb50edc4",
+      "public": true
+    },
+    {
+      "path": "minor-arc-source/manifest.json",
+      "bytes": 390,
+      "sha256": "430308a009ff6c90e3e4ccc47bccb44931c8a0244b7f79ada69a36d077b22f74",
+      "public": true
+    },
+    {
+      "path": "minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "bytes": 3173609,
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+      "public": false
+    },
+    {
+      "path": "minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "bytes": 1503246,
+      "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd",
+      "public": false
+    },
+    {
+      "path": "minor-arc-source/sources/receipt.json",
+      "bytes": 1125,
+      "sha256": "d8e6392638b92466821c9e0bffe5868eb86d2492c01b5d95154546c7e21f1f9c",
+      "public": true
+    },
+    {
+      "path": "minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "bytes": 1795864,
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "public": false
+    },
+    {
+      "path": "minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "bytes": 64608,
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+      "public": false
+    },
+    {
+      "path": "minor-arc-source/sources/schoenfeld-theorem10-page337.png",
+      "bytes": 182109,
+      "sha256": "0e5e01377b296c6ad10d46a8b71e14a3ad21ce3af37ea9a2d19e0c0488c51c35",
+      "public": false
+    },
+    {
+      "path": "minor-arc-source/sources/theorem17-1-page65.png",
+      "bytes": 168762,
+      "sha256": "1669aeae45e5bb0b0295dc50ef2263bb3f0f48b2a428065f6cdc464fc609e4fc",
+      "public": false
+    },
+    {
+      "path": "phase-resonance/AVERAGED_RATIONAL_PHASE_TEST.md",
+      "bytes": 20890,
+      "sha256": "7f4285cb02241e22bdb29a1ad4952f7ab8249e3ec3bef984455a57ae05e41ebb",
+      "public": true
+    },
+    {
+      "path": "phase-resonance/check_phase_resonance.log",
+      "bytes": 443,
+      "sha256": "5515b55bfa2e9bc116337b16472a8075e4021b1987f23629bba89bd85c42f262",
+      "public": true
+    },
+    {
+      "path": "phase-resonance/check_phase_resonance.py",
+      "bytes": 10627,
+      "sha256": "4cff005e205f02ea1083be61547a46995e9acbbefdb817812d1a66c6fcdc7650",
+      "public": true
+    },
+    {
+      "path": "phase-resonance/phase_resonance_certificate.json",
+      "bytes": 3546,
+      "sha256": "fcb096c5c1549b1c7bef97e366ff1b6edf96a453ec89cf9f664a1e6e7eb784c3",
+      "public": true
+    },
+    {
+      "path": "signed-kernel/INDEPENDENT_AUDIT.md",
+      "bytes": 6833,
+      "sha256": "5ada6ceefda4f1df6435a992876ed1eee5fe567907c183fd3a6e193814c0a731",
+      "public": true
+    },
+    {
+      "path": "signed-kernel/README.md",
+      "bytes": 1397,
+      "sha256": "3a6583f29182e6c527ad59767d072880938bf3fcf1d948cd9042dd6585c83a8c",
+      "public": true
+    },
+    {
+      "path": "signed-kernel/SMOOTH_SIGNED_KERNEL_NORM.md",
+      "bytes": 13904,
+      "sha256": "1105564835c925b818daf7198186e77c4f0f1ad4ac1001ee1bb50c0f5c7544d9",
+      "public": true
+    },
+    {
+      "path": "signed-kernel/check_signed_kernel_norm.json",
+      "bytes": 1671,
+      "sha256": "9f92dc12f0ac555e42af962478288e523593cf299c177fa93727d408373fdb5a",
+      "public": true
+    },
+    {
+      "path": "signed-kernel/check_signed_kernel_norm.py",
+      "bytes": 6400,
+      "sha256": "d661b1ef764f5ab395a9ca2db66ae9387d6885426772a93b595a43462fdc61d0",
+      "public": true
+    },
+    {
+      "path": "signed-kernel/manifest.json",
+      "bytes": 1478,
+      "sha256": "5247bb9a49b793863efe91717d89453c525f274180e17457e45601d94405df15",
+      "public": true
+    },
+    {
+      "path": "signed-kernel/source_receipt.json",
+      "bytes": 1221,
+      "sha256": "632a8cba72fa6bf38b052c868133fba7dac0267752edfa172bdd7e958a21ebb6",
+      "public": true
+    }
+  ]
+}

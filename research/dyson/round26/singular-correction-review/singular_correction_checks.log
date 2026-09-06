@@ -1,0 +1,12 @@
+{
+  "exact_checks": 8,
+  "report_sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe",
+  "scope": "Second derivative sign, linear-term cancellation, two endpoint moment primitives, exact moment combination, density factor and two rational decay exponents only.",
+  "status": "PASS",
+  "values": {
+    "RH_height_tail_power": "-7/8",
+    "hinge_second_derivative": "1 - 1/(2*y)",
+    "summed_transform_log_power_at_epsilon_1_8": "-19/16",
+    "total_prime_minus_lattice_factor": 1
+  }
+}

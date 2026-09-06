@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-05",
+  "status": "Requested log-weight clarification verified; accepted final delta",
+  "file": "SHORT_RESIDUE_DISPERSION_TEST.md",
+  "preceding_sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+  "final_sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+  "final_bytes": 15610,
+  "verification": "Full unified diff inspected. Only section 4 text changes: the O(delta H X + ...) bound is now explicitly before insertion of (log q)^j, and full D_j carries O((log X)^j). No other proof or numerical exponent changed.",
+  "preceding_review": "COORDINATOR_SHIFT_REVIEW.json",
+  "scope": "Ordinary proof and source-range review; not a new prime estimate or checker replay."
+}

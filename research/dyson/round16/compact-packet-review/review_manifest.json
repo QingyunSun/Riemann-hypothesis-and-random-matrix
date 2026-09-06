@@ -1,0 +1,27 @@
+{
+  "status": "Frozen independent ordinary-proof review: ACCEPTED in stated scope.",
+  "author_sha256": "8106f3483adb71ab7ca4e5c105bfd6464dfa46954a1e1e77d2c77900392e19dc",
+  "scope": "Author mathematical Sections 1-6. Contour/Fourier and endpoint proofs, uniform pointwise RH estimate, normalized negative mass; not subsequent numeric prime examples or any W_T transfer.",
+  "files": [
+    {
+      "path": "INDEPENDENT_COMPACT_PACKET_REVIEW.md",
+      "sha256": "097226ed6d056e82b35348d959ae10f0cea415bee000a8fb2fccac4f1f4d49a5",
+      "bytes": 8833
+    },
+    {
+      "path": "check_spline_review.py",
+      "sha256": "72d82ba51e0c8595348d8d26354c3283e972191c7b499e2714cbcf1cce135ce3",
+      "bytes": 3625
+    },
+    {
+      "path": "spline_review_receipt.json",
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895",
+      "bytes": 714
+    },
+    {
+      "path": "spline_review.log",
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895",
+      "bytes": 714
+    }
+  ]
+}

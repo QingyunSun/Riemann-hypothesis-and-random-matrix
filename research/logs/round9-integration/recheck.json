@@ -1,0 +1,41 @@
+{
+  "scope": "Fixed arithmetic identities, one q32 quadrature replay, and saved-array checks; no new zeta bound.",
+  "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "intake_public_files_verified": 26,
+  "python_files_parsed": 4,
+  "excluded_comparison_fields": [
+    "seconds",
+    "sources[].local_file"
+  ],
+  "checks": {
+    "multiplicative-profile/two_large_prime_d4_q32.json": "identical except declared metadata exclusions",
+    "multiplicative-profile/validation.json": "identical except declared metadata exclusions",
+    "multiplicative-profile/fixed_rational_vector.json": "identical except declared metadata exclusions",
+    "mesoscopic-edge/edge_identity_checks.json": "identical except declared metadata exclusions",
+    "factorization-covariance/check_divisor_bridge.json": "identical except declared metadata exclusions"
+  },
+  "matrix_checks": {
+    "20": {
+      "M_and_G_symmetric_finite": true,
+      "shape": [
+        30,
+        30
+      ],
+      "recomputed_this_replay": false,
+      "exact_array_agreement": true
+    },
+    "32": {
+      "M_and_G_symmetric_finite": true,
+      "shape": [
+        30,
+        30
+      ],
+      "recomputed_this_replay": true,
+      "exact_array_agreement": true
+    }
+  },
+  "original_files_unchanged": true,
+  "status": "PASS"
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-05",
+  "scope": "forward deterministic zero-flow comparison and obstruction; no new zeta spacing theorem",
+  "sources": [
+    {
+      "title": "Rodgers-Tao, The de Bruijn-Newman constant is non-negative",
+      "url": "https://arxiv.org/abs/1801.05914v5",
+      "local_text": "research-round2/rodgers-tao-1801.05914.txt",
+      "local_text_sha256": "9b22e0f48aa23bdbbb1ccd5ccccc4b40592c81796c443f39a5c6496301f1a246"
+    },
+    {
+      "title": "Erdos-Schlein-Yau-Yin, The local relaxation flow approach",
+      "url": "https://www.numdam.org/article/AIHPB_2012__48_1_1_0.pdf",
+      "equation": "5.5"
+    },
+    {
+      "title": "Landon-Sosoe-Yau, Fixed energy universality for Dyson Brownian motion",
+      "url": "https://arxiv.org/abs/1609.09011v3"
+    }
+  ],
+  "files": {
+    "forward_flow_checks.py": "7bd386bdfab7e7b70eec5d4d6e008d7c80bc27eab14df273067f1d5bbbd73459",
+    "FORWARD_FLOW_OBSTRUCTION.md": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da",
+    "forward_flow_checks.json": "c848c9557c8ed818b5f7332676645fa6c7174ea03e2da0bcca00d7a1ee1a6b9c"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "source": "research-round15 staging, all original bytes preserved locally",
+  "files": [
+    {
+      "path": "dyson-bridge/POLE_ANNIHILATING_PACKET.md",
+      "bytes": 17759,
+      "sha256": "3213cf34d3a5521260b48ebbeebbf12522afd04c92075c30e6e0434478bb908a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dyson-bridge/author_manifest.json",
+      "bytes": 1346,
+      "sha256": "dac30de4579eb2e5bf3f38794347f14c33e8d691029209fde7ac7a51a55edb60",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dyson-bridge/check_pole_packet.py",
+      "bytes": 8155,
+      "sha256": "25a20d5946dd6e973cd18cc52a1031f47cc4b2fe82cca236c32de0332ad40a04",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dyson-bridge/pole_packet_checks.json",
+      "bytes": 7191,
+      "sha256": "1cf9ae8467e35c1413a7c809ccc2daeb7757c4701a457356ffae25cd6672daf9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dyson-bridge/pole_packet_checks.log",
+      "bytes": 274,
+      "sha256": "7c29ad1cb18a63c9399724f221e20f3e9c0954205588134c92a6c9a7be7fa259",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "dyson-bridge/source_manifest.json",
+      "bytes": 3700,
+      "sha256": "84cd4a5f31145cf596708b93933c1dee600bfa87569896d3d9acc8dcaf362243",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "pole-packet-review/INDEPENDENT_POLE_PACKET_REVIEW.md",
+      "bytes": 12701,
+      "sha256": "637e0d94f86d4d114a85d88b5ff5a15512d26e8396313914ea5a719db2bdfdc4",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "pole-packet-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 3383,
+      "sha256": "f7c3544e2d3ab062cc523748cd30093578c8f4f29a86e7503b11de494336f2f1",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "pole-packet-review/replay/POLE_ANNIHILATING_PACKET.md",
+      "bytes": 17759,
+      "sha256": "3213cf34d3a5521260b48ebbeebbf12522afd04c92075c30e6e0434478bb908a",
+      "public_verbatim": false,
+      "omission_reason": "Exact duplicate of author report/script; original replay copy retained locally."
+    },
+    {
+      "path": "pole-packet-review/replay/check_pole_packet.py",
+      "bytes": 8155,
+      "sha256": "25a20d5946dd6e973cd18cc52a1031f47cc4b2fe82cca236c32de0332ad40a04",
+      "public_verbatim": false,
+      "omission_reason": "Exact duplicate of author report/script; original replay copy retained locally."
+    },
+    {
+      "path": "pole-packet-review/replay/independent_replay.log",
+      "bytes": 274,
+      "sha256": "7c29ad1cb18a63c9399724f221e20f3e9c0954205588134c92a6c9a7be7fa259",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "pole-packet-review/replay/pole_packet_checks.json",
+      "bytes": 7191,
+      "sha256": "1cf9ae8467e35c1413a7c809ccc2daeb7757c4701a457356ffae25cd6672daf9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_POLE_PACKET_REVIEW.md",
+      "bytes": 3845,
+      "sha256": "a086040a04a363b0d62a89c3fa2cf0328c111e0652d15bea8835d4602cc96c1e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_VAUGHAN_REVIEW.md",
+      "bytes": 4663,
+      "sha256": "0420d8d743a057cbc25145ab8a1781cb77c53867e528b46e2f2b1eea0d336717",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/root_vaughan_replay.json",
+      "bytes": 3908,
+      "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "signed-arithmetic/AUTHOR_RECEIPT.json",
+      "bytes": 2314,
+      "sha256": "578a31eacea11138b68ea43302afff54cc0461db58f18fc87afdb62bfdf7c95f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "signed-arithmetic/VAUGHAN_SIGNED_REMAINDER.md",
+      "bytes": 19344,
+      "sha256": "227179985368ea9a8c961b21dee9474d1440c1c5a3b7d04958a1e28b3e11d22a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "signed-arithmetic/check_vaughan_remainder.py",
+      "bytes": 9422,
+      "sha256": "39ed2285c79c6a469f2c664be7222084e500ed2bcb174b1dd6a4baa44a9ee49c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "signed-arithmetic/vaughan_checks.json",
+      "bytes": 3908,
+      "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "signed-arithmetic/vaughan_checks.log",
+      "bytes": 187,
+      "sha256": "ba1fda4fd5611c45309395d9503f48be36993716303cec2b2198d663ed26764a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "signed-arithmetic-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 925,
+      "sha256": "eb0bccceb8086d0e43a2d5dc2d336c0ce4da66ad1af09edb777064f616c274b5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "signed-arithmetic-review/INDEPENDENT_VAUGHAN_REVIEW.md",
+      "bytes": 12082,
+      "sha256": "96a203248c4235c497d177793de501703af7c81d48a1361e1a863183ec294532",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "signed-arithmetic-review/independent_replay.json",
+      "bytes": 3908,
+      "sha256": "294ee54fddb9eea2fc472dd842df6214c5be78146cd61f620ad5a919707bc156",
+      "public_verbatim": true,
+      "omission_reason": null
+    }
+  ],
+  "original_files": 23,
+  "original_bytes": 152394,
+  "public_verbatim_files": 21
+}

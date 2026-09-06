@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "comparison": "Complete JSON and stdout byte-identical; no excluded fields",
+  "author_sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+  "script_sha256": "61fc73eff3f574024924cafd77dd9c64e82e1a79b07321fa0b83dae57afd0303",
+  "output_sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd",
+  "scope": "Exact finite norm/CRT/exponent checks only, not an actual prime variance estimate"
+}

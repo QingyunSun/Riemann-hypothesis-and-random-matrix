@@ -1,0 +1,33 @@
+{
+  "status": "AUTHOR FROZEN; independent review pending",
+  "files": [
+    {
+      "path": "MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "bytes": 10461
+    },
+    {
+      "path": "check_height_regularity.py",
+      "sha256": "371b2bfd2365cc1a85225817cfd73695961965b32bf456194df10b9d6528b8d9",
+      "bytes": 3053
+    },
+    {
+      "path": "height_regularity_checks.json",
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f",
+      "bytes": 1099
+    },
+    {
+      "path": "height_regularity_checks.log",
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f",
+      "bytes": 1099
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "547e99cd636ea5c116d9c9894489c273cd4ee4f7a32699fe5f2896334b902ea5",
+      "bytes": 1491
+    }
+  ],
+  "proof_scope": "RH height equicontinuity and conditional persistence. No positive actual deficit is proved. Combined variance equivalence depends on a separate length-average identity.",
+  "checks": "Exact finite algebra and source normalization only, not numerical zeta evidence.",
+  "source_publication": "Primary sources remain in local previously retained source folders."
+}

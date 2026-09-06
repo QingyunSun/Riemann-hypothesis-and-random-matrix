@@ -1,0 +1,19 @@
+# Root review of the R15 pole-annihilating packet
+
+Date: 2026-09-05. Author report SHA-256 `3213cf34d3a5521260b48ebbeebbf12522afd04c92075c30e6e0434478bb908a`. Independent Aquinas review SHA-256 `637e0d94f86d4d114a85d88b5ff5a15512d26e8396313914ea5a719db2bdfdc4`.
+
+Status: accepted within the linear actual-zeta, signed Fourier and explicitly bounded centered-error scope. No transfer to the old W_T target or new signed lower bound is established.
+
+The simple pole of -zeta'/zeta at one has residue +1. Moving the right and left contours with both vertical integrals oriented upward gives the series minus the pole term in the general identity. The chosen nonnegative real packet has exactly zero value at the pole argument, and the translated Fourier integral restores n^(-sigma) with no extra power of X. Gaussian decay justifies the final arithmetic series, while the contour itself uses the convergent series only to the right of one. RH suffices; no Dirichlet-L GRH is introduced.
+
+Direct differentiation of the Gaussian transform gives the signed quadratic polynomial. Its tilted primitive (z+b)exp(-z²/2+bz) proves both exact cancellation of the continuous density and the equal nonzero positive/negative density masses. The time-width convention is explicit: the logarithmic density saddle is a/W², not aW². The latter value would belong to the inverse convention and is not an objection to this packet. The negative part nevertheless stays leading at the natural bandwidth; removing it gives an upper bound for the prime sum, not the needed lower bound.
+
+The all-positive-u Stieltjes convention keeps E=psi-u below one. Integration by parts gives zero boundary terms at both infinity and zero. The alternate formula starting at one correctly contains both f(1) and the continuous integral below one. The independent review correctly distinguishes the displayed integrated-by-parts tail bound from a sharply truncated prime-sum tail; the latter has two Ef endpoint terms. The final report retains them.
+
+For the uniform RH bound, delta=sigma-1/2 is at most1/4 and W>=1, so the Gaussian exponent can be bounded with exp(|z|/4). The global prime-error bound and the stated degree-five polynomial dominate every term. The exact rational comparisons give the constants10800 and2430. These deliberately loose constants prove convergence and a weak pointwise bound; they are not a new variance estimate. Source Schoenfeld applies to psi above73.2, with the elementary bounded-range extension used separately.
+
+The Gram formula uses the actual nonnegative time measure and remains positive semidefinite despite signed entries. The projection inequality is therefore valid, provided the full Gram matrix is retained. Plancherel uses the weight squared; replacing that squared weight by the original weight or a sharp interval is invalid. The one-H contour avoids reflected zero poles. A derivative or H² requires a different pole-order check, and a parameter-dependent time weight produces a derivative-of-weight term. These are explicit remaining obligations.
+
+The continuum comparison against a dense approximator is also appropriately limited: both continuum pieces scale like M, while the diagonal part of the Gram scales like W. This is not a bound for the full Gram or a prime short-interval asymptotic. It explains one failed small-negative-error shortcut without ruling out all signed-kernel approaches.
+
+I read the complete proof and the exact/rational plus high-precision finite check code. The integration replay is performed in a copy with its matching report; complete JSON comparison is required. Floating Fourier quadrature and the finite Dirichlet-polynomial check supplement the ordinary proof and are not interval certificates or measurements of the true zeta target. No new large search is justified by the identity alone.

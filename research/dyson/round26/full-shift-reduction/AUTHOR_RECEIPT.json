@@ -1,0 +1,53 @@
+{
+  "author": "Euclid",
+  "date": "2026-09-05",
+  "exact_checks": {
+    "all_passed": true,
+    "auxiliary_cutoff_is_not_the_theorem_profile": true,
+    "groups": 7,
+    "json_equals_stdout": true,
+    "scalar_cases": 2793
+  },
+  "files": [
+    {
+      "bytes": 22834,
+      "path": "FULL_SHIFT_REDUCTION.md",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    },
+    {
+      "bytes": 4671,
+      "path": "check_full_shift.py",
+      "sha256": "44aed4416f64c413a95c8486b5fc1dd15dbf25e8105f8b5f26bb5c7c272ade8c"
+    },
+    {
+      "bytes": 1152,
+      "path": "exact_check_results.json",
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "bytes": 1152,
+      "path": "exact_check_stdout.log",
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "bytes": 74,
+      "path": "math_syntax_check.json",
+      "sha256": "51af0af69831a767551d1e99765cffdb6e2a90febf0d20f6d2956effd62e5035"
+    },
+    {
+      "bytes": 5526,
+      "path": "source_manifest.json",
+      "sha256": "9c837898f2c221505deecc27c69554f0cbacf7b2dd5267f231b10dd35a3172e1"
+    }
+  ],
+  "math_syntax": {
+    "errors": [],
+    "expressions": 305,
+    "unexpected_control_bytes": 0
+  },
+  "preservation": "No frozen R25 or earlier source, public Git, or sibling author file modified.",
+  "review_delta": "Added direct h<=K small-shift K*2^(-T) tail argument before freeze; no formula change.",
+  "scope": "Under ordinary RH the actual global parity remainder is finite Z_T+M1+O(log(T)^(-1/2)); the symmetric actual variance is Z_T+2M+o(1). No strict covariance bound or AH refutation.",
+  "source_files_verified": 16,
+  "status": "author package frozen; separate full independent review receipt pending"
+}

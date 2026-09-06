@@ -1,0 +1,44 @@
+{
+  "status": "ACCEPTED ordinary proof, including assembly with independently reviewed companion lemmas",
+  "timestamp_utc": "2026-09-05T17:05:04.604509+00:00",
+  "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+  "bytes": 7693,
+  "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+  "frozen_copy": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r22/PARITY_ADJUSTED_PAIR_TARGET.md",
+  "read_in_full": true,
+  "checks": [
+    "Exact q2-q=S(h)(2*1_m_odd-1) has correct sign and vanishes on odd h. Alternating integer-prefix sums have modulus at most1, so the actual Abel variation gives C/(X ell^2)*(1+h/(2X))^-T per fixed h.",
+    "Nonnegative singular-series cumulative bound A(y)<=y is valid for every real y. For the kernels used, Stieltjes integration with endpoints retained gives sum S(h)g(h)<=integral g; all are integrable and boundary terms vanish.",
+    "After summing all h, each dyadic m block costs O(1/(T ell^2)); O(ell) blocks give O(1/(T ell)). Original primitive handles m>2U with O(U2^-T/(T^2 ell^2)), absorbed uniformly for realT>=4. No alternating tail cancellation is assumed.",
+    "When m,h are even, q2 has zero constant baseline. Nonzero Lambda at either endpoint occurs only at powers2 and equalslog2. The product is bounded by a fixed multiple of S(h)(Lambda(m)+Lambda(n)) using S(even h)>=2C2>0; zero cases are retained.",
+    "Lower power2 endpoint uses sum S(h)k(r,h)<=r/(T-1), giving O(1/(T ell^2)) per near power. Upper endpoint uses exact m/r power T-1 and kernel integral r/T, giving the same bound; O(ell) near powers yield O(1/(T ell)).",
+    "Far lower power endpoint gives O(2^-T/(T ell^2)) by sparse geometric sum; far upper endpoint cancels m^T exactly in b(m)(m/r)^T and uses sum_{m<r}S(r-m)<=r, giving O(2^-T/ell^2). All higher powers2 and infinite endpoints remain controlled.",
+    "All sums are absolutely convergent before regrouping: inherited R21 exact-kernel bounds and the companion linear-correction tails cover q; bounded parity baseline adds an absolutely summable nonnegative S-weight. Thus successive o(1) changes can be assembled.",
+    "Using accepted independent singleton proof33b28a28, first replace original centered residual by full q-sum. Then perform the proved global parity baseline correction. Accepted odd-pair proof6db0484a removes all odd h from q2; proved even-endpoint bound then leaves only oddm and evenh>=2. The remaining baseline is2, not1.",
+    "The resulting equality(8) is accepted as an ordinary arithmetic reduction using those explicit companion proofs. RH is still required in the earlier transfer to Vbar; no strict upper bound for the residual pair functional has been established."
+  ],
+  "dependencies": [
+    {
+      "file": "INDEPENDENT_SINGLETON_DERIVATION.md",
+      "sha256": "33b28a289e504973bd75800099e9758869a550f5f116b29798b2b3ffa2451aea",
+      "coordinator_review": "accepted"
+    },
+    {
+      "file": "ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30",
+      "coordinator_review": "accepted"
+    },
+    {
+      "file": "SMALL_SHIFT_REMOVAL.md",
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b",
+      "scope": "positive divisor proof of cumulative singular-series bound and exact Abel norm; no upper-sieve input needed in parity proof"
+    }
+  ],
+  "main_euclid_singleton_manuscript_read": false,
+  "checkers_rerun": false,
+  "new_numerical_scan": false,
+  "formal_verification": false,
+  "external_peer_review": false,
+  "novelty_claim": false,
+  "strict_arithmetic_gain": false
+}

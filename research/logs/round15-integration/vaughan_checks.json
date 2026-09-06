@@ -1,0 +1,140 @@
+{
+  "arithmetic": "exact formal logarithm coefficients and rational numbers",
+  "finite_identities": [
+    {
+      "A": "2",
+      "B": "3",
+      "U0": "6",
+      "identities_per_n": 4,
+      "independent_triple_terms": 21104,
+      "n_range": [
+        1,
+        4096
+      ],
+      "status": "PASS"
+    },
+    {
+      "A": "5/2",
+      "B": "9/2",
+      "U0": "45/4",
+      "identities_per_n": 4,
+      "independent_triple_terms": 17515,
+      "n_range": [
+        1,
+        4096
+      ],
+      "status": "PASS"
+    },
+    {
+      "A": "7",
+      "B": "5",
+      "U0": "35",
+      "identities_per_n": 4,
+      "independent_triple_terms": 9308,
+      "n_range": [
+        1,
+        4096
+      ],
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "No finite test proves Siegel-Walfisz or Poisson decay.",
+    "No estimate of the full signed bilinear form or actual zeta zeros.",
+    "Support witnesses do not determine a full discrepancy sign."
+  ],
+  "rational_checks": {
+    "Q_exponent": "523/1000",
+    "asymmetric_error_exponent": "6991/7000",
+    "asymmetric_eta": "7/1000",
+    "asymmetric_margin_below_one": "9/7000",
+    "both_source_cutoffs_would_require": "399/500",
+    "cutoff_sum_upper_bound": "477/1000",
+    "fixed_source_lower_exponent": "399/1000",
+    "source_inequality_left_sides": [
+      "111/125",
+      "249/250",
+      "99/100"
+    ],
+    "strict_limiting_source_lower_exponent": "199/500",
+    "symmetric_error_exponent": "1711/1750",
+    "symmetric_eta": "77/1000",
+    "symmetric_margin_below_one": "39/1750"
+  },
+  "signed_support_witnesses": [
+    {
+      "R_formal_log_coefficients": {
+        "100003": -1,
+        "120011": -1
+      },
+      "factorization": {
+        "100003": 1,
+        "120011": 1
+      },
+      "n": 12001460033,
+      "parameters": {
+        "A": 100,
+        "B": 100,
+        "H": 100,
+        "T": 100000000,
+        "X": 10000000000,
+        "h": 150
+      },
+      "sign": "negative",
+      "sinc_phase_strict_upper_bound": "15000000000/12001459883",
+      "status": "PASS",
+      "support_ratio": "12001459883/10000000000"
+    },
+    {
+      "R_formal_log_coefficients": {
+        "50021": 2
+      },
+      "factorization": {
+        "59": 1,
+        "61": 1,
+        "67": 1,
+        "50021": 1
+      },
+      "n": 12061713793,
+      "parameters": {
+        "A": 100,
+        "B": 100,
+        "H": 100,
+        "T": 100000000,
+        "X": 10000000000,
+        "h": 150
+      },
+      "sign": "positive",
+      "sinc_phase_strict_upper_bound": "15000000000/12061713643",
+      "status": "PASS",
+      "support_ratio": "12061713643/10000000000"
+    }
+  ],
+  "sources": {
+    "primary_pdf": {
+      "relative_to_research_base": "sources/openai-short-gaps.pdf",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930"
+    },
+    "primary_text": {
+      "relative_to_research_base": "sources/openai-short-gaps.txt",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84"
+    },
+    "r12_dispersion": {
+      "relative_to_research_base": "research-round12/dispersion-transfer/DISPERSION_HYPOTHESIS_OBSTRUCTION.md",
+      "sha256": "26536af7b5e6ebfb8fb4f7c7be993543c57152e29c6fd2b039c5eb147ccefd95"
+    },
+    "r13_phase": {
+      "relative_to_research_base": "research-round13/phase-resonance/AVERAGED_RATIONAL_PHASE_TEST.md",
+      "sha256": "7f4285cb02241e22bdb29a1ad4952f7ab8249e3ec3bef984455a57ae05e41ebb"
+    },
+    "r14_smooth": {
+      "relative_to_research_base": "research-round14/smooth-long-factor/SMOOTH_LONG_FACTOR_REMOVAL.md",
+      "sha256": "d6143f19ddf006a1acc833ecd2e5265bffb35817930cfeaa4f4e4b973af7c849"
+    },
+    "r9_bridge": {
+      "relative_to_research_base": "research-round9/factorization-covariance/COMPLEMENTARY_MODULI_TYPE_I_BRIDGE.md",
+      "sha256": "982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a"
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "polytope": 1,
+    "halfspace_count": 11,
+    "enumerated_vertices": 7,
+    "simplices": 3,
+    "interior_faces": 2,
+    "exterior_faces": 11,
+    "interior_degree": 1,
+    "status": "PASS_EXACT_RATIONAL_GEOMETRY"
+  },
+  {
+    "polytope": 2,
+    "halfspace_count": 10,
+    "enumerated_vertices": 7,
+    "simplices": 3,
+    "interior_faces": 2,
+    "exterior_faces": 11,
+    "interior_degree": 1,
+    "status": "PASS_EXACT_RATIONAL_GEOMETRY"
+  }
+]

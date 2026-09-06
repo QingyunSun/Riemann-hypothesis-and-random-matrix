@@ -1,0 +1,505 @@
+{
+  "date": "2026-09-05",
+  "scope": "Round7 freeze: all original research and primary references preserved locally; public research copy excludes third-party PDF/text bodies.",
+  "original_source_root": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round7",
+  "local_original_archive": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Local-Archive/round7-originals",
+  "public_root": "research/dyson/round7",
+  "author_manifests": "Author manifests and reviews pin original pre-publication bytes. This intake records the three explicit publication edits.",
+  "files": [
+    {
+      "source_relative_path": "arithmetic-resonator/DERIVATION.md",
+      "source_sha256": "62970c91f2ff757eabc5d9a364d189fb7a42494c0f188713b2974003df4833b0",
+      "bytes": 9210,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "3ab12c7227f0c41aaf78aab733f0353c054973cfe599f7b9275e47b12e8ee1f5",
+      "public_bytes": 9456,
+      "publication_edit": "Update completed review status and clarify the full n>=1 measure before restriction, as required by the independent audit."
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/INDEPENDENT_REVIEW.md",
+      "source_sha256": "b18387755f10dfdb1bb86e9fe755ecd778fb10b71f3b46ea7b6dec987264a3cb",
+      "bytes": 15802,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "b18387755f10dfdb1bb86e9fe755ecd778fb10b71f3b46ea7b6dec987264a3cb",
+      "public_bytes": 15802
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/REPORT.md",
+      "source_sha256": "439e08210143acf4adfae7918f8e8ca92e5ce6d66080ce8a8858cc62bbe35d06",
+      "bytes": 11383,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "a1ad13dac36a646c82c857c771fa4c9c9b0e42aa5daa9d4c964361aebf7e2983",
+      "public_bytes": 11454,
+      "publication_edit": "Update completed review status and link to independent audit."
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/finite_integer.log",
+      "source_sha256": "a7b5eb537fc17589db00457a783fb850dffec439149d1912210230041a626d6e",
+      "bytes": 700,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "a7b5eb537fc17589db00457a783fb850dffec439149d1912210230041a626d6e",
+      "public_bytes": 700
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/finite_integer_check.py",
+      "source_sha256": "2126542d6b75822fb79e0910d43e4e5639be5455e079be3095c534c60a171295",
+      "bytes": 3319,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "2126542d6b75822fb79e0910d43e4e5639be5455e079be3095c534c60a171295",
+      "public_bytes": 3319
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/finite_integer_results.json",
+      "source_sha256": "adc2912c6d51961f6a46d35eb76007042582a035dbc728db52972e5ba8e76cbc",
+      "bytes": 832,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "adc2912c6d51961f6a46d35eb76007042582a035dbc728db52972e5ba8e76cbc",
+      "public_bytes": 832
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/fixed_rational_vector.json",
+      "source_sha256": "1858e8c2ec1effa0f51e93ff28561057d1e1c5d8c9d9c08b50d099ab71e9943f",
+      "bytes": 2301,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "1858e8c2ec1effa0f51e93ff28561057d1e1c5d8c9d9c08b50d099ab71e9943f",
+      "public_bytes": 2301
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/independent_identity_checks.json",
+      "source_sha256": "9eff89993873b723c916e2b389baa311759b625e064bb29deaac53d9e99858ba",
+      "bytes": 767,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "9eff89993873b723c916e2b389baa311759b625e064bb29deaac53d9e99858ba",
+      "public_bytes": 767
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/independent_identity_checks.py",
+      "source_sha256": "70c703599566cf23cf717e7008fb457f92c15013ebe390ae9799a08f80a13a5d",
+      "bytes": 4624,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "70c703599566cf23cf717e7008fb457f92c15013ebe390ae9799a08f80a13a5d",
+      "public_bytes": 4624
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/large_prime_sector.py",
+      "source_sha256": "255ad9a2f29e086eca01b3823bd9ece3ecbfa47b431259a6af3fee260c9afa8d",
+      "bytes": 9065,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "255ad9a2f29e086eca01b3823bd9ece3ecbfa47b431259a6af3fee260c9afa8d",
+      "public_bytes": 9065
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/large_prime_sector_d4_q20.json",
+      "source_sha256": "daad1c87a3b48105dc5a4d76183fc7cef4022b5b820dd993f9dd4085758ef099",
+      "bytes": 5482,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "daad1c87a3b48105dc5a4d76183fc7cef4022b5b820dd993f9dd4085758ef099",
+      "public_bytes": 5482
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/large_prime_sector_d4_q20.npz",
+      "source_sha256": "9f27a6ed7aa408df9d6e82e834984dbfe09f0931245ead076150aa6113b263ab",
+      "bytes": 8163,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "9f27a6ed7aa408df9d6e82e834984dbfe09f0931245ead076150aa6113b263ab",
+      "public_bytes": 8163
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/large_prime_sector_d4_q28.json",
+      "source_sha256": "131eb235395eb37240e2809e6be0ec6716e15b1c22f5b0c840d35592da218e49",
+      "bytes": 5469,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "131eb235395eb37240e2809e6be0ec6716e15b1c22f5b0c840d35592da218e49",
+      "public_bytes": 5469
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/large_prime_sector_d4_q28.npz",
+      "source_sha256": "4d7d904f050148b44f8a4f2a5eeef25013fd56774b005ce6d991cf86707c4e95",
+      "bytes": 8161,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "4d7d904f050148b44f8a4f2a5eeef25013fd56774b005ce6d991cf86707c4e95",
+      "public_bytes": 8161
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/large_prime_sector_d4_q40.json",
+      "source_sha256": "1d2a639bca17b40f2734fd1f95635bb2faf6e08b643873ab8786f492d43b448e",
+      "bytes": 5474,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "1d2a639bca17b40f2734fd1f95635bb2faf6e08b643873ab8786f492d43b448e",
+      "public_bytes": 5474
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/large_prime_sector_d4_q40.npz",
+      "source_sha256": "24acf558a16697499a7632477439106e267213408127463a14cd2aa0d59013ec",
+      "bytes": 8158,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "24acf558a16697499a7632477439106e267213408127463a14cd2aa0d59013ec",
+      "public_bytes": 8158
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/manifest.json",
+      "source_sha256": "7bff5ae1b2d1e0ded04d245aabc8c25c8af4f21efcb615188da7304dfc1b2b1e",
+      "bytes": 2385,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "7bff5ae1b2d1e0ded04d245aabc8c25c8af4f21efcb615188da7304dfc1b2b1e",
+      "public_bytes": 2385
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/q20.log",
+      "source_sha256": "e1850fd16f22e9b71101c201133a202d5d898cbd3518b0592b0938a4367620c2",
+      "bytes": 992,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "e1850fd16f22e9b71101c201133a202d5d898cbd3518b0592b0938a4367620c2",
+      "public_bytes": 992
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/q28.log",
+      "source_sha256": "6ffd86d5e88126cc2df40449276f4e9d3704f5f493c43a103d13f8fc8701c324",
+      "bytes": 982,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "6ffd86d5e88126cc2df40449276f4e9d3704f5f493c43a103d13f8fc8701c324",
+      "public_bytes": 982
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/q40.log",
+      "source_sha256": "f0c5bab55b2f7789ce89a364c9d12a60bc500cdc3d37639231f26b266dd3176b",
+      "bytes": 980,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "f0c5bab55b2f7789ce89a364c9d12a60bc500cdc3d37639231f26b266dd3176b",
+      "public_bytes": 980
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/validate_sector.py",
+      "source_sha256": "72a286b477034a3f3aae63aeaba479d5de5640a1e13fe8043f37b3f918b07d26",
+      "bytes": 3476,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "a290564d2eeb836fd8a686d4b34e8372a15f24e9a450582b9aee66bb85d862ef",
+      "public_bytes": 3520,
+      "publication_edit": "Configurable portable path to the pinned prior arithmetic source; mathematical calculation unchanged."
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/validation.json",
+      "source_sha256": "cf8970966bcbdb9d65cde8043461466a9633c3ad74de624d2a84b1f7c2e0bc2a",
+      "bytes": 2311,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "cf8970966bcbdb9d65cde8043461466a9633c3ad74de624d2a84b1f7c2e0bc2a",
+      "public_bytes": 2311
+    },
+    {
+      "source_relative_path": "arithmetic-resonator/validation.log",
+      "source_sha256": "cf8970966bcbdb9d65cde8043461466a9633c3ad74de624d2a84b1f7c2e0bc2a",
+      "bytes": 2311,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "cf8970966bcbdb9d65cde8043461466a9633c3ad74de624d2a84b1f7c2e0bc2a",
+      "public_bytes": 2311
+    },
+    {
+      "source_relative_path": "dyson-frontier/DYSON_ACTUAL_ZETA_FRONTIER.md",
+      "source_sha256": "3b8eb5fb9efc2f53af550db64c1e8eef7233f8be83564e906357b3acf00a0301",
+      "bytes": 17526,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "3b8eb5fb9efc2f53af550db64c1e8eef7233f8be83564e906357b3acf00a0301",
+      "public_bytes": 17526
+    },
+    {
+      "source_relative_path": "dyson-frontier/POISSON_TRANSFER_REVIEW.md",
+      "source_sha256": "fc7959a2f6147380709467776add8e4a59aa255747e46c70cad413d808e64b36",
+      "bytes": 3945,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "fc7959a2f6147380709467776add8e4a59aa255747e46c70cad413d808e64b36",
+      "public_bytes": 3945
+    },
+    {
+      "source_relative_path": "dyson-frontier/frontier_manifest.json",
+      "source_sha256": "32d28fc0086a66a9540acd26349ad6073b49902c17b545e735dae5ba65822513",
+      "bytes": 1882,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "32d28fc0086a66a9540acd26349ad6073b49902c17b545e735dae5ba65822513",
+      "public_bytes": 1882
+    },
+    {
+      "source_relative_path": "dyson-frontier/kernel_identity_check.json",
+      "source_sha256": "c70fc7b26d340689befa7a4380b0bd4f777acc3d6b3b1e3b3b107326baf5bc96",
+      "bytes": 1436,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "c70fc7b26d340689befa7a4380b0bd4f777acc3d6b3b1e3b3b107326baf5bc96",
+      "public_bytes": 1436
+    },
+    {
+      "source_relative_path": "dyson-frontier/kernel_identity_check.log",
+      "source_sha256": "c70fc7b26d340689befa7a4380b0bd4f777acc3d6b3b1e3b3b107326baf5bc96",
+      "bytes": 1436,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "c70fc7b26d340689befa7a4380b0bd4f777acc3d6b3b1e3b3b107326baf5bc96",
+      "public_bytes": 1436
+    },
+    {
+      "source_relative_path": "dyson-frontier/kernel_identity_check.py",
+      "source_sha256": "d5fb544b4b54804054f6f893cc853c043b7b30a5d4933625cefb87281176e4fd",
+      "bytes": 3790,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "d5fb544b4b54804054f6f893cc853c043b7b30a5d4933625cefb87281176e4fd",
+      "public_bytes": 3790
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/ah-goldston-etal-2025.pdf",
+      "source_sha256": "f4cf982350db1eb9e67182ea1000816cbd57b320ebd9e85bd662d27ec3a901cc",
+      "bytes": 391993,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/ah-goldston-etal-2025.txt",
+      "source_sha256": "80999306a740424c4e0bdc75ce938f284d626d4f1cd2f62701bb190f9b8f74ae",
+      "bytes": 51237,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/anthropic-zeta-2026.pdf",
+      "source_sha256": "6de3b156342e7b4a802c34f8ef40432567e9dabe006938da04233f19fc4ef444",
+      "bytes": 478663,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/anthropic-zeta-2026.txt",
+      "source_sha256": "e292fdded159d719d31f8e79dfe4bda71f45801e0ae09c76b916f34148a60cf5",
+      "bytes": 96947,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/bgstb-2023.pdf",
+      "source_sha256": "133071c4d85c875fe9b1a7d4001f22d7174270ab8f1fa8e6cee6178d20276ee9",
+      "bytes": 210602,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/bgstb-2023.txt",
+      "source_sha256": "53681680aad5417d90df7cf4c978a72a9cf62030ef5c86a9b74514c605e18cec",
+      "bytes": 62862,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/cmr-fourier-2023.pdf",
+      "source_sha256": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc",
+      "bytes": 490086,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/cmr-fourier-2023.txt",
+      "source_sha256": "832502c0592a437bdb892adb0f737ed692728c661de51a4f20c58f17f02496e4",
+      "bytes": 64115,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/download_manifest.json",
+      "source_sha256": "a7bd5c6fb5876864567f87025aeefcd4b29d850f3d8e8c52c6927618eef78920",
+      "bytes": 1869,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "a7bd5c6fb5876864567f87025aeefcd4b29d850f3d8e8c52c6927618eef78920",
+      "public_bytes": 1869
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/goldston-notes-2004.pdf",
+      "source_sha256": "d4107ba6b463294ffffd409842ee6beae394dc9f80c6dc0e8fc52f9c4615473c",
+      "bytes": 335294,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/goldston-notes-2004.txt",
+      "source_sha256": "baebb763289dafdd1fa4618112aadcba77badeefad8f87d1bbe9885bb06f2c78",
+      "bytes": 97188,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/lamzouri-2026.pdf",
+      "source_sha256": "fa33485f517b3c94d2f6e4d4366f3ab14a1e413a738db512e1862f4a0944f5f9",
+      "bytes": 505955,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/lamzouri-2026.txt",
+      "source_sha256": "4d1c606d8ce2ddee0b5fe3d31862cc4c795970c4aa4dbe8b8f0d304a75701812",
+      "bytes": 56570,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/rudnick-sarnak-1994.pdf",
+      "source_sha256": "da4fb7c2fa1d46e46a4de1e346eadb97ae8f115dd15b93b4c87a58c00b5c57c7",
+      "bytes": 310342,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "dyson-frontier/sources/rudnick-sarnak-1994.txt",
+      "source_sha256": "af572d59e418c23cf131d050b88a7514a47d932b845ddf9632de51e7a0390793",
+      "bytes": 12615,
+      "local_archive_verified": true,
+      "public": false
+    },
+    {
+      "source_relative_path": "poisson-resolvent/INDEPENDENT_REVIEW.md",
+      "source_sha256": "82db15288f7b6f902a461c296abe30eb1d21253bf14ae4949da4dc12c592a370",
+      "bytes": 11724,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "82db15288f7b6f902a461c296abe30eb1d21253bf14ae4949da4dc12c592a370",
+      "public_bytes": 11724
+    },
+    {
+      "source_relative_path": "poisson-resolvent/TWO_SCALE_ZETA_TARGET.md",
+      "source_sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+      "bytes": 14073,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+      "public_bytes": 14073
+    },
+    {
+      "source_relative_path": "poisson-resolvent/independent_review_receipt.json",
+      "source_sha256": "505a42a07aa01252e74d0e284fc86411acdf6436d4bd30ecceda42410f8d5a0e",
+      "bytes": 3169,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "505a42a07aa01252e74d0e284fc86411acdf6436d4bd30ecceda42410f8d5a0e",
+      "public_bytes": 3169
+    },
+    {
+      "source_relative_path": "poisson-resolvent/poisson_checks.json",
+      "source_sha256": "23c119587cd303dd2c10e85650f0e3f036084c7e56503bc0c1db5212b66e5d05",
+      "bytes": 11333,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "23c119587cd303dd2c10e85650f0e3f036084c7e56503bc0c1db5212b66e5d05",
+      "public_bytes": 11333
+    },
+    {
+      "source_relative_path": "poisson-resolvent/poisson_checks.log",
+      "source_sha256": "6476ed9c9a04b165ebd48c23aae78eb1d24e8fe23ff7dc318df377cdeff2929a",
+      "bytes": 1416,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "6476ed9c9a04b165ebd48c23aae78eb1d24e8fe23ff7dc318df377cdeff2929a",
+      "public_bytes": 1416
+    },
+    {
+      "source_relative_path": "poisson-resolvent/poisson_checks.py",
+      "source_sha256": "7ba29bda814267bec9e6c696e7d0230a29607c47e1ece99627fffe372814e797",
+      "bytes": 4768,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "7ba29bda814267bec9e6c696e7d0230a29607c47e1ece99627fffe372814e797",
+      "public_bytes": 4768
+    },
+    {
+      "source_relative_path": "poisson-resolvent/two_scale_certificate.json",
+      "source_sha256": "f76089ee4582b17c5e02409ba9265b43f993e4dc9672e935694e090c0d734d18",
+      "bytes": 5254,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "f76089ee4582b17c5e02409ba9265b43f993e4dc9672e935694e090c0d734d18",
+      "public_bytes": 5254
+    },
+    {
+      "source_relative_path": "poisson-resolvent/two_scale_certificate.log",
+      "source_sha256": "3652fe696ffe91fd1c2db4bcebc10f0b57d4cf8b70e8e62177253ac3dbd5edc1",
+      "bytes": 670,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "3652fe696ffe91fd1c2db4bcebc10f0b57d4cf8b70e8e62177253ac3dbd5edc1",
+      "public_bytes": 670
+    },
+    {
+      "source_relative_path": "poisson-resolvent/two_scale_certificate.py",
+      "source_sha256": "900d87c7ddb2e52b79b024eb499a977cf28bebb2a422bfa88f6ce61fa5812f8a",
+      "bytes": 2507,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "900d87c7ddb2e52b79b024eb499a977cf28bebb2a422bfa88f6ce61fa5812f8a",
+      "public_bytes": 2507
+    },
+    {
+      "source_relative_path": "true-zeta-flow/FORWARD_FLOW_OBSTRUCTION.md",
+      "source_sha256": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da",
+      "bytes": 19946,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da",
+      "public_bytes": 19946
+    },
+    {
+      "source_relative_path": "true-zeta-flow/PROVENANCE.json",
+      "source_sha256": "1a51e723c3097fb193acd05b2588babc1974558997e8c9060d000491a2e7f525",
+      "bytes": 1103,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "1a51e723c3097fb193acd05b2588babc1974558997e8c9060d000491a2e7f525",
+      "public_bytes": 1103
+    },
+    {
+      "source_relative_path": "true-zeta-flow/forward_flow_checks.json",
+      "source_sha256": "c848c9557c8ed818b5f7332676645fa6c7174ea03e2da0bcca00d7a1ee1a6b9c",
+      "bytes": 3014,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "c848c9557c8ed818b5f7332676645fa6c7174ea03e2da0bcca00d7a1ee1a6b9c",
+      "public_bytes": 3014
+    },
+    {
+      "source_relative_path": "true-zeta-flow/forward_flow_checks.py",
+      "source_sha256": "7bd386bdfab7e7b70eec5d4d6e008d7c80bc27eab14df273067f1d5bbbd73459",
+      "bytes": 5297,
+      "local_archive_verified": true,
+      "public": true,
+      "public_sha256": "7bd386bdfab7e7b70eec5d4d6e008d7c80bc27eab14df273067f1d5bbbd73459",
+      "public_bytes": 5297
+    }
+  ],
+  "additional_coordinator_certificate": {
+    "source": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/two_scale_threshold_1_16_check.json",
+    "relative_path": "poisson-resolvent/coordinator_threshold_1_16_check.json",
+    "sha256": "58013f09288a462de6af8c449b0e70a3b7006e82363bcdaf2f27a1e5fff79777",
+    "bytes": 1163,
+    "scope": "Exact scalar certificate only; no arithmetic lower bound."
+  }
+}

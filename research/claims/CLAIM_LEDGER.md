@@ -1,0 +1,354 @@
+# Claim ledger
+
+The classifications below apply to the exact stated scope. “Proof with internal review” means a written mathematical proof and a recorded human-readable audit; it does not mean a Lean kernel has checked it or external referees have accepted it. Historical files may use stronger wording than this ledger.
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| AUD-001 | Independent historical audit has 21 passing checks | Reproduced finite checks | `research/logs/audit_results.json`; not a blanket theorem audit |
+| AUD-002 | Original verifier has 39 pass, 4 fail, 1 skip | Recorded run | `research/logs/verify-codex-original.log`; zero process exit does not erase failures |
+| ALG-001 | Fixed-support approximator is saturated | Exact algebra | `research/reports/residual_gram_round1.md`; says nothing about larger support |
+| NEG-001 | Sparse longer tails under the stated coefficient bounds cannot supply constant energy | Proof in report | Same report; hypothesis on coefficients is essential |
+| NUM-001 | Degree-14 half-gap trial has margin about -0.01535798 | Numerical optimization | `research/residual-gram/variational-results.json`; no global optimality claim |
+| CERT-001 | Fixed rational trial has margin in (-.01467,-.01465) for the stipulated integral | Exact rational certificate | `research/residual-gram/rational-trial-certificate.json`; transfer is separate |
+| ARITH-001 | Fixed symmetric-prime family has that arithmetic limiting form | Written proof, independent internal review | `research/reports/symmetric_prime_arithmetic_transfer.md`, `symmetric_prime_transfer_independent_review.md` |
+| NUM-002 | Full finite operator remains below pi²/2 through L=10⁷ | Numerical eigenvalue data | `research/operator-bounds/extended-arithmetic-results.json`; no asymptotic upper bound |
+| NUM-003 | Structural features nearly recover the L=10⁶ optimum | Numerical fit and full-form evaluation | `research/operator-bounds/eigenvector-feature-results.json`; finite L only |
+| NEG-002 | Tested Schur–Volterra majorant is too large to prove the target barrier | Numerical diagnostic of an explicit bound | `research/reports/residual_gram_round2.md`; not a certified optimum over all profiles |
+| FOCK-001 | Fixed prime-bin compression provides a constructive limiting lower bound | Proof draft | Same report; not full operator convergence or an upper bound |
+| NEG-003 | Centered Gaussian pole term cannot be dropped in a uniform long-support estimate | Analytic counterexample, primary review | `research/reports/centered_gaussian_mixed_moments.md`; RH for the contour identity |
+| NEG-004 | Nonnegative Fourier transform cannot coexist with a zero at the origin for a nonzero Schwartz weight | Elementary proof | Same report; does not rule out quantitative subtraction |
+| HEAT-001 | Isolated-pair first collision satisfies D ~ δ²/8 under δ²B→0 | Proof draft with internal audits | `research/reports/yau_flow_galilean_refinement.md`; quantitative second-pass audit in `galilean-proof-audit.md`; K=16384, eta0=1/524288 |
+| RMT-001 | Circular positive-integer-beta extreme gaps induce the stated first-collision law | Proof draft with internal review | `research/reports/yau_flow.md`; published gap laws are inputs; novelty audit incomplete |
+| PRIME-001 | A 39-element admissible tuple has diameter 182 | Exact finite verification | `research/reports/prime186.md`; DHL[39,2] is not proved |
+| PRIME-002 | Fixed prime-sieve minorant mass has the saved rational enclosure | Exact rational computation plus separate coverage check | `research/prime-gaps/minorant_mass.json`, `minorant_geometry.json` |
+| OPEN-001 | μζ < 1/2 under RH | Open in this programme | No positive applicable certificate |
+| OPEN-002 | New fixed-width Montgomery pair-correlation theorem beyond known support | Open in this programme | No new arithmetic mixed-term theorem supplied |
+| OPEN-003 | Prime-gap bound below 186 | Open in this programme | No improved admissible-tuple/sieve certificate chain |
+| OPEN-004 | RH, full GUE statistics, general-beta depth universality | Open here | Not implied by any local counterexample or finite computation |
+
+All paths are relative to the repository root. The public reports contain the derivations; the JSON files preserve values and parameters. Run logs are snapshots, not machine proofs. Updates should change this ledger and the associated report together.
+
+## Round 3 and incoming collaboration
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| DYN-001 | All protected symmetric trace moments agree under forward deterministic circular flow | Written proof with independent internal review | `research/reports/dynamic_generator.md`; m<=N, all orders and all t>=0, not postcollision attractive dynamics |
+| FORCE-001 | Force-square expectations differ by a factor of two, with exact dissipation formulas | Written proof with independent internal review | `research/reports/force_energy.md`; finite CUE/ACUE, singular two-point information |
+| BRIDGE-001 | Initial smallest gap need not collide first | Exact rational counterexample and Sturm certificate | `research/bridge-audit/attachment_bridge_checks.json`; lower bound survives; pair-selection correction required |
+| BRIDGE-002 | Marked inverse blowup need not force marked-depth derivative blowup | Exact symbolic counterexample | Same certificate; paired isospectral 2x2 matrices, no fixed-norm-along-path claim |
+| SOURCE-001 | LR explicitly suggests a .606894 hard-core upper bound | Primary-source correction | `research/reports/new_attachment_bridge_audit.md`; not proved in the cited passage |
+| RITZ-001 | Two-dimensional finite residual correction improves the fixed trial | Reproduced finite calculation | `research/operator-bounds/ritz_residual_diagnostic.json`; half-gap margin remains negative; no automatic continuum transfer |
+| PRIME-003 | Complementary root predicates yield a finite allocation frontier | Exact algebra and rational feasibility certificates | `research/reports/prime186_structural_frontier.md`; fixed active row/template; not a global sieve obstruction or a new gap |
+| FABLE-001 | Earlier FABLE_001 pickup and numerical output exist | Pinned public-source evidence | `fable/PICKUP_RECEIPT.json`; final arithmetic report absent; no receipt inferred for newer packet |
+
+## Round 4: actual restoration credit and finite-family diagnosis
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| PRIME-004 | One true failure rectangle gives positive normalized credit exceeding 1.5058119471 ppm | Outward integral, independent mathematical review and identical separate-process rerun | `research/reports/prime186_round4.md`; k=40 fixed step trial, 53 coherent signed terms; no gap reduction |
+| PRIME-005 | Complete fixed-k=40 margin improves from 23.36045 to 24.86626 ppm | Exact scalar combination of new lower credit with inherited published endpoints | Same report and `research/prime-gaps/round4/prime-credit/alpha_credit_margin_replay.json`; original 149 upper forms not recomputed here |
+| RESTORE-001 | Exact projected-marginal and signed-residual restoration identities hold | Written proof and independent finite signed diagnostics | `research/prime-gaps/round4/restoration-proof/RESTORATION_PROOF_AUDIT.md`; new weighted residual integrals still needed; alternative lower bounds cannot be added together |
+| NUM-004 | Full77 k=39 cap-only Ritz candidate directly evaluates near 0.99439639936 | Floating optimization with matrix/independent scalar comparison | `research/prime-gaps/round4/k39-trial/REPORT.md`; Gram condition number about 2.28e10; no strict family upper bound or restored criterion |
+| AUD-003 | Corrected isolated FLINT passes the original signed regression and relevant native suites | Source-built upstream fix and recorded tests | `research/prime-gaps/round4/repro-flint/README.md`; full binding suite has a separate Jacobi contract assertion; no universal library-verification claim |
+
+## Round 5: radius-dependent constants and bounded geometry search
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| PRIME-006 | The original exceptional-square estimate extends to the explicit radius interval with a recomputed constant | Ordinary written derivation and exact rational certificates | `research/prime-gaps/round5/exceptional-radius/EXCEPTIONAL_RADIUS_EXTENSION.md`; canonical fixed-profile class, all roots bounded, original global prime cap, no new distribution theorem |
+| PRIME-007 | Twelve of fifteen natural cap templates satisfy the audited source conditions; a one-layer trim repairs the row-39 mesh issue uniformly over [0.272,0.278] | Exact arithmetic and sufficient-template proof | `research/prime-gaps/round5/geometry-audit/GEOMETRY_SOURCE_AUDIT.md`; new failure covers and physical integrals remain uncomputed |
+| NUM-005 | Ten coarse radius/plateau trials and two fine refinements give no geometry improvement over the original k=39 point | Saved floating cap-only searches and matrix/vector checks | `research/reports/prime186_round5.md`; untrimmed supports, ill-conditioned matrices, no rigorous family upper bound or global no-go theorem |
+| AUD-004 | Three bounded Round 5 replay scripts reproduce their exact outputs, and all twelve saved matrices match their thirty-six candidate witnesses | Independent integration replay | `research/logs/round5-integration/recheck.json`; metadata exclusions stated; no fresh full integral or eigenvalue sweep |
+
+## Round 6: full signed cap operator and a new radial direction
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| PRIME-008 | The fixed cap functional is represented by a bounded self-adjoint signed operator on the actual fragment-measure space | Written derivation and independent internal audit | `research/prime-gaps/round6/operator-proof/FULL_SIGNED_CAP_OPERATOR.md`; true arithmetic support uses a different projected operator and denominator |
+| ALG-002 | For h=P_V(I−P_U)Tf and w=(I−P_U)h, the mixed form equals ||h||², with nonnested projections | Exact identity, rational signed-model checks | `research/prime-gaps/round6/residual-audit/SIEVE_RESIDUAL_AUDIT.md`; the normalized coupling is ||h||²/||w|| for unit f; numerical projection errors remain separate |
+| CERT-002 | The frozen new radial function is outside the old trial space, whose extension has dimension 78 | Exact rational support checks, polynomial-root argument and modular-rank certificate | `research/prime-gaps/round6/operator-diagnostic/outside_span_certificate.json`; proves independence, not a distance or Rayleigh-value enclosure |
+| NUM-006 | The new 78-dimensional cap trial directly evaluates at 0.994467820900683, approximately 71.4215 ppm above the old trial | Floating optimization, tilt/cutoff controls, independent fine replay | `research/reports/prime186_round6.md`; still below one, ill-conditioned Gram, no interval gain certificate or arithmetic restoration |
+| AUD-005 | Exact model checks, saved-output checks and one fine-grid radial-residual calculation reproduce their recorded outputs | Independent integration replay | `research/logs/round6-integration/recheck.json`; not a proof of full residual norm, missing-energy bound or smaller prime gap |
+
+## Round 7: actual-zeta reductions and arithmetic/dynamical tests
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ZETA-RED-001 | RH+AH-Pairs implies the stated two-scale zeta logarithmic-derivative mean square tends to W_AH=0.0623924179764985... | Ordinary reduction with two internal reviews | `research/dyson/round7/poisson-resolvent/TWO_SCALE_ZETA_TARGET.md`; handles nonconvergent P_0(T), endpoints, tails and Gamma/holomorphic-square terms; no actual arithmetic lower bound or novelty claim |
+| CERT-003 | W_AH<0.06240<1/16, with certified strict gap greater than 0.00010 | Exact Fraction enclosure and separate coordinator certificate | Same folder, `two_scale_certificate.json` and `coordinator_threshold_1_16_check.json`; an RH-dependent liminf bound of 1/16 would refute AH-Pairs, but is not proved |
+| ZETA-RED-002 | The fixed compact Fourier bump has AH target 7/10; its centered prime-covariance remainder has AH target -3/5 | Source-backed reduction and exact kernel expansion | `research/dyson/round7/dyson-frontier/DYSON_ACTUAL_ZETA_FRONTIER.md`; the new covariance estimate remains open; finite kernel normalization is not an asymptotic theorem |
+| ARITH-002 | The fixed binary large-prime mark has the stated arithmetic limiting forms for fixed polynomial coefficients | Ordinary arithmetic proof with independent internal review | `research/dyson/round7/arithmetic-resonator/DERIVATION.md` and `INDEPENDENT_REVIEW.md`; full n>=1 measure before restriction, short-background limit and same-prime insertion specified; no growing-family uniformity |
+| NUM-007 | One new 30-feature trial has limiting half-gap margin about -0.01465492379421; its fixed rational vector is also negative on finite integer operators through L=10^6 | Floating quadrature and integer-operator evaluation, independently replayed | Same folder; three quadrature orders agree but no interval enclosure, finite-family upper bound or actual zero data is supplied |
+| FLOW-001 | Ordered repulsive systems with the stated decreasing common field have gap-independent contraction; a bounded-discrepancy deterministic half-grid family retains hard core 1/2 under forward flow | Ordinary derivation, exact algebra and force calibration | `research/dyson/round7/true-zeta-flow/FORWARD_FLOW_OBSTRUCTION.md`; actual H_t boundary propagation and removal of stochastic smoothing are missing |
+| AUD-006 | Nine Round 7 output files and the order-40 matrix arrays reproduce in an isolated replay | Separate-process integration check | `research/logs/round7-integration/recheck.json`; excludes timing fields only, original evidence unchanged; does not certify either missing zeta inequality |
+
+## Round 8: actual short-prime projection and centered residual
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ZETA-RED-003 | Under RH, the actual logarithmic-derivative mean square equals its short-prime diagonal plus residual norm squared and O_c(N log^4 T), with N=floor(T/log^6 T) | Ordinary analytic proof and independent review of final draft | `research/dyson/round8/resolvent-arithmetic/SHORT_PRIME_PROJECTION_AND_CENTERED_TAIL.md`; fixed c>0, all sufficiently large T, no growing-c uniformity or new zeta lower bound |
+| ARITH-003 | The residual has the displayed absolutely convergent centered-psi continuation; its pole may be removed from normalized energy with O_c(log^-3 T) error | Ordinary RH-dependent continuation and norm bounds, independently reviewed | Same folder; exact endpoint includes the atom at N; both scales use one common arithmetic error function; the signed comparison is unproved |
+| CERT-004 | The short-prime two-scale main term B lies strictly in (0.45609397932923,0.45609397932924) | Exact rational scalar enclosure | Same folder, `check_centered_tail.json`; the sufficient target liminf E_T>=1/16-B remains open |
+| POS-001 | The displayed band-limited minorant gives the exact weak bound near -0.208674513 under the stated pair-measure assumptions | Ordinary proof, independent Fourier-pairing review and thirteen exact symbolic checks | `research/dyson/round8/spectral-positivity/`; optimum only in the specified one-parameter family; does not reach 1/16 or claim a new actual-zeta estimate |
+| AUD-007 | Both Round 8 result JSON files reproduce exactly, and eight rational cutoff cases verify the Stieltjes endpoint convention | Isolated integration replay | `research/logs/round8-integration/recheck.json`; no excluded fields, parameter scan or large-T zeta computation |
+
+
+## Round 9: complementary moduli, genuine primes and the first edge correction
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-004 | Selected Mobius–log divisor correlations on complementary moduli up to X^.523 have per-shift error O_A(X log^(-A)X) | Application of the cited ordinary distribution theorem, independently reviewed | `research/dyson/round9/factorization-covariance/`; uniform coherent residues and smooth weights; full H-shift packet is not controlled at scale X log X |
+| ARITH-005 | Under RH the selected aggregate equals its explicit progression discrepancy plus O(H sqrt(X) log^4 X) | Ordinary proof with independent review | Same folder, Eq22; error is o(X log X) on H<=X^(2/7), but the discrepancy, complementary divisors and other covariance terms remain open |
+| ARITH-006 | The fixed two-large-prime interaction has the stated arithmetic moment and insertion limit | Ordinary fixed-family extension with independent root review | `research/dyson/round9/multiplicative-profile/DERIVATION.md` and `INDEPENDENT_REVIEW.md`; relies on reviewed fixed-moment/Schur inputs, not a general Fock limit |
+| NUM-008 | The new 30-feature interaction has floating margin -0.0146549114371551; the frozen L=100000 integer trial is also negative | Deterministic quadrature, finite checks and independent exact-array replay | Same folder; small matched-baseline gain is not interval-certified, and the trial is worse than the historical 48-feature best |
+| ARITH-007 | Prime-power tail energy is at most O(T N^(-1/3) log^4(2N)+delta^(-4)); replacing the RH residual by its genuine-prime continuation changes normalized energy by o(1) | Elementary ordinary proof and independent review, with growing-width corollary | `research/dyson/round9/prime-power-removal/`; uniform amplified error O(b² e^(2b) a_T)=o(1) on b=o(log log T); no lower-bound gain |
+| ZETA-RED-004 | The coupled mesoscopic residual has sine target zero and AH target -3/4; a stated uniform strict lower bound would refute AH-Pairs under RH | Source/rate audit, exact algebra and independent quantifier review | `research/dyson/round9/mesoscopic-edge/`; existential slow diagonal only, no prescribed AH convergence rate or proved arithmetic edge estimate |
+| AUD-008 | Five Round 9 output JSON files and the fresh q32 full M/G arrays reproduce | Separate-process bounded integration replay | `research/logs/round9-integration/recheck.json`; excludes timing and temporary source paths only; q20 retained matrices are checked but not recomputed |
+
+
+## Round 10: smooth completion of the actual shift sum
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-008 | A specified smooth shift packet of the actual selected discrepancy is O(sqrt(H X (X+Q²)) log^4 X), Q=X^.523 | Unconditional ordinary proof with separate coefficient/spacing and actual-kernel reviews | `research/dyson/round10/shift-average/`; saves a power over accumulating the source per-shift estimate, but remains above X log X; full sharp packet and complementary terms are not evaluated |
+| AUD-009 | The checked Guth–Maynard count range and RH variance comparisons do not directly supply shrinking-edge fluctuation precision | Bounded primary-source audit with independent review | `research/dyson/round10/arithmetic-residual/`; includes the source's fixed-epsilon improvement remark; not a universal literature or method obstruction |
+| ZETA-RED-005 | A stated uniform genuine-prime logarithmic mixed-moment bound with deficit coefficient below two implies a strict gap above -3/4 in the coupled statistic | Conditional calculus lemma with reviewed actual-residual differentiation and quantifiers | Same folder; M_T>=s^-2-(2-epsilon)s^-3+o(s^-3) remains unproved |
+| AUD-010 | Both Round 10 exact-check JSON outputs reproduce | Separate-process integration check | `research/logs/round10-integration/recheck.json`; 9615 Ramanujan cases and scalar implications, with only two temporary source paths excluded; not a numerical proof of the analytic bound |
+
+
+## Fable intake at 89393d5: source receipt and review status
+
+- **Verified provenance:** 141 public research files preserved verbatim; older 81-file mirror unchanged.
+- **Exact correction:** Pi4 leading coefficient is 6a, hence m4=a^2+6a. The source refuter's -zz3 probe has the wrong sign; this was reproduced and corrected separately.
+- **Bounded numerical replay:** ten refuter flags match, including three failed narrative assertions. Insertion values agree within 8.33e-17; this is floating verification, not a formal certificate.
+- **Not accepted as written:** CUE uniform constants 1054/1055; general-beta BB-LD scaling and its claimed consequences; one-point-to-selected-pair density inference; unconditional periodized-zeta gap inference. See the separate review for the limited possible constant repair and missing hypotheses.
+- **Still conditional:** a depth conclusion needing flow-window stability or H_C; arithmetic rate extrapolations from finite drift.
+- **Unchanged:** the independently reviewed Astra fixed-family arithmetic limit remains valid and its certified trial margin negative. No new zeta-gap, AH-refutation, GUE or prime-gap theorem follows.
+
+
+## Round 11: RH component estimate and exact remaining arithmetic scope
+
+- **Ordinary proof under RH, independently reviewed:** the specified actual smooth discrepancy satisfies O(sqrt(X(X+Q^2)) log^5 X), Q=X^.523. This removes sqrt(H) from Round 10. The assumption change is explicit; no novelty claim for classical small-arc methods.
+- **Ordinary PNT construction, independently reviewed:** on the full canonical complementary family, fixed nonnegative V gives completed coefficient squared mass >=c_V H/log^348 X (log-weight version log^-346). All actual squarefree prime products satisfy the guards. This excludes a fixed-power saving for that coefficient norm only.
+- **Ordinary RH identity, independently reviewed:** M_T(b)=b^(-2)+2b^(-3)+B_T(b)+o(b^(-3)) uniformly on the stated slow range, with all centered terms combined. The pole and cutoff errors are quantified.
+- **Exact finite checks:** rational exponents/counting constants, 384 arc counts and 2901 unique frequency memberships reproduce. They do not prove RH, PNT or the analytic source lemma.
+- **Open:** an arithmetic bound at X log X, full sharp covariance, joint prime/coefficient cancellation and the strict lower bound on B_T. No new actual-zeta pair-correlation, gap, AH-refutation, GUE or sub-186 theorem.
+
+Evidence: `reports/dyson_round11.md`, the complete author/reviewer records in `dyson/round11/`, and `logs/round11-integration/`.
+
+
+## Round 12: specific arithmetic shortcuts fail
+
+- **Ordinary proof, independently reviewed:** actual canonical support forces positive local sampling constant >=c Q^2/log^348 X, even for artificial integer-frequency packets obeying the known arc envelopes. The analogous specified absolute-weight operator has its stated lower bound. This is not a lower bound for actual prime concentration or the full signed functional.
+- **Ordinary prime-arithmetic counterexample, independently reviewed:** at legal source scales and conductors, an additive twist of a prime-interval SW coefficient has modulus-3 discrepancy (i sqrt(3)/4+o(1))N/log N. Therefore direct phase absorption does not inherit SW. The source theorem is not contradicted; averaged phase treatment remains open.
+- **Ordinary support count, independently reviewed:** the primitive-filtered shift interval has full local unit images, so the product-local residue lift costs phi(d)~d on the constructed family. Also H is below the source's permitted short-factor scale. These are failed applications, not a general dispersion impossibility.
+- **Insufficient RH estimate, independently reviewed:** centered Selberg--Gallagher gives only the recorded weak one-sided mixed bound; stronger known global estimates are retained separately and still do not supply the required signed shrinking-shell coefficient in the proposed use. No optimality of RH norm bounds is claimed.
+- **Exact replay:** 60 signed-kernel identities, rational constants/source inequalities and six modular-selection cases pass. No large numerical prime realization.
+- **Unchanged:** strongest actual component bound X^1.023 log^5 X under RH; all target zeta/RMT lower inequalities and famous conjectures remain open.
+
+Evidence: `reports/dyson_round12.md`, `dyson/round12/INDEPENDENT_ROOT_REVIEW.md`, and `logs/round12-integration/`.
+
+
+## Fable repair intake at 2073028
+
+- **Ordinary proof, independently reviewed:** on total-mass-at-most-one bosonic Fock space, ||a(g)||²<=integral |g(u)|²/u² du. Hence the specified K has norm at most twice that integral. For the sine g, this is finite and approximately 15.2721, above the spectral target. Literal grid models obey the same uniform bound.
+- **Ordinary PNT limit, independently reviewed:** the finite Pi4 prime cutoff has the stated incomplete-gamma fraction when epsilon log P has a limit. The corrected 6a leading coefficient and fixed-v table are accepted; the unchanged refuter probe sign is still wrong.
+- **Bounded numerical check:** three small grids verify occupation coefficients and the mass inequality in floating arithmetic; no interval-certified spectral conclusion or large replay.
+- **Not accepted as written:** finite-N CUE equalities replaced by their sine limit, the arbitrary-compact sine comparator, and a uniform relative displacement estimate in the general-beta repair. Corrected conditional statements and remaining dynamic hypotheses are in the separate review.
+- **Open:** sharp spectral wall, full arithmetic-to-Fock convergence, general-beta flow transfer and every actual-zeta conjecture target.
+
+Evidence: `fable/reviews/pr11-2073028/` and the separate 160-file pinned snapshot.
+
+
+## Round 13: rational extraction and the signed CRT remainder
+
+- **Ordinary proof under RH, independently reviewed:** the precise terminal-conductor q=1 rational core admits an explicit integral main with total error O(X^.923 log²X). Only ordinary zeta RH is used. The retained main is not bounded away.
+- **Ordinary PNT witness, independently reviewed:** a specified actual-prime, actual-conductor positive core with alpha=1 contributes at least c X^1.123/log^348 X, including its primitive principal term. This is not a lower bound for the whole signed functional or a specific zeta decomposition.
+- **Exact decomposition, independently reviewed:** the smooth kernel norm equals its CRT main plus displayed nonzero modes; an actual coherent positive subsum is at least c Q²H/log^696 X. Remaining signed terms can cancel it. No complete norm lower bound is inferred.
+- **Bounded source application:** legal enlarged minor arcs and exact centered unit variance yield the stated estimates, still worse than Round 11 for the original prime pairing. No misuse of zeta RH as Dirichlet-L RH.
+- **Replay:** exact unit-mask completion, centered variance, 100 CRT cases, residue counts, constants and source hashes reproduce; three temporary reference paths are excluded from one output comparison.
+- **Open:** the original discrepancy at X log X and the signed actual-zeta lower bound. No new famous-conjecture theorem.
+
+Evidence: `reports/dyson_round13.md`, `dyson/round13/`, and `logs/round13-integration/`.
+
+
+## Round 14: exact Type I removal and quantitative finite CUE comparison
+
+- **Unconditional ordinary proof, independently reviewed:** the actual selected smooth discrepancy with Lambda_{<=U} is O_J(HX(UQ/X)^J log²X). Thus U<=X^(.477-eta), fixed J eta>2/7, gives o(XlogX). All original kernel and primitive means are retained. This is a classical component estimate; Lambda_{>U} remains unestimated and signed.
+- **Finite CUE ordinary proof, independently reviewed:** E sum_{gap<=epsilon} B_i <=N^6 epsilon³/18; the selected minimum background satisfies B_min/N²=O_p(1), using the checked classical extreme-gap input. No conditioning at the selected pair or general-beta density assertion.
+- **Finite scalar-heat consequence, independently reviewed:** 8D_N/delta_min²-1=O_p(N^(-2/3)), equivalently absolute difference O_p(N^(-10/3)), by the existing quantified Galilean lemma. Not a rate of convergence to the limiting distribution and no zeta transfer.
+- **Bounded checks:** exact N=3 determinant/singular cancellation, 63 period means, symbolic divisor/HB identities through 125 and exponent constants pass; two fixed floating Gaussian diagnostics pass. Only one temporary reference path is excluded in integration replay.
+- **Open:** the full signed covariance, the zeta/RMT arithmetic bridge, general-beta extension, sharp spectral wall and all famous-conjecture targets.
+
+Evidence: `reports/dyson_round14.md`, `dyson/round14/`, and `logs/round14-integration/`.
+
+
+## Document checkpoint through Round 14
+
+- **Verified artifact coverage:** 69 complete later-round reports and 297 pinned source objects; all original source bytes unchanged. The public compilation has 705 pages and the private local compilation 753, with complete Markdown and per-volume hash/page indexes.
+- **Verified layout scope:** final 313-page supplement covered by exact comparison to reviewed pages plus individual inspection of every unmatched page; complete merged PDFs checked page by page against source renders. Equivalent table-bar repairs and the removed blank page are fully recorded.
+- **No mathematical status change:** compilation, typesetting and source preservation do not prove RH, Montgomery–Dyson/GUE, AH-Pairs refutation, a new zeta-gap result or a sub-186 prime gap. All prior conditional statements, counterexamples and failed trials retain their audited scopes.
+
+Evidence: `logs/round6-14-handoff/FINAL_ARTIFACT_QA.json`, `docs/handoff/ROUNDS_6_14_ARCHIVE_INDEX.json`, and the independent coverage/review records.
+
+
+## Round 15: explicit signed remainder and pole-annihilating Gaussian
+
+- **Unconditional ordinary proof, independently reviewed:** exact full-kernel Vaughan reduction D[Lambda]=D[mu_{>A}*beta_B]+O_J(HX(ABQ/X)^J log²X); the corresponding old divisor remainder is accounted for exactly. Symmetric cutoffs yield error X^(1711/1750)log²X.
+- **Ordinary arithmetic proof, independently reviewed:** beta_B has the full untwisted Siegel–Walfisz property with fixed divisor exponent one. Phase twists, factor swaps, uncovered length corners and shift-aggregate estimates do not follow.
+- **Exact finite evidence:**49,152 formal-log identities, rational source inequalities and two legal-support opposite-sign coefficient witnesses pass. No finite test proves SW or the asymptotic error.
+- **Ordinary proof under RH, independently reviewed:** a nonnegative Gaussian-polynomial time weight cancels the actual simple zeta pole in a linear pairing. Its prime Fourier kernel remains signed; equal leading continuum masses, an explicit10800 pointwise bound,2430 centered IBP-tail constant and retained finite-window endpoints are established.
+- **Exact Hilbert identities:** the full Gram is PSD despite signed entries; Plancherel uses the squared time weight. No original sharp-window/two-width transfer is inferred.
+- **Open:** the full signed bilinear estimate, a strict actual-zeta covariance gain, higher-pole and weight-derivative extensions, and all famous-conjecture targets. The full RH discrepancy bound remains X^1.023 log^5X.
+
+Evidence: `reports/dyson_round15.md`, the full proof/review folders under `dyson/round15/`, and `logs/round15-integration/`.
+
+
+## Round 16: AH saturation at frequency two and a compact actual-prime identity
+
+- **Exact finite comparison:** for the specified positive autocorrelation bump, 0<=C_epsilon,T(b)<=C_epsilon,T(0), with an explicit nonnegative pair deficit at b=2. Fourier normalization contains one epsilon, never its inverse.
+- **Ordinary proof under RH, independently reviewed:** C(0)->1+epsilon²*m1, and every subsequential spectral atom has mass at most one. The atom conclusion takes epsilon->0 only after the subsequential limit.
+- **Conditional ordinary proof, independently reviewed:** RH+AH-Pairs forces C(2)->1+epsilon²*m1 for every fixed epsilon<1, without simplicity or a limit for p0. A positive strict deficit would refute AH; none is proved.
+- **Actual arithmetic reduction under RH:** the centered prime-kernel identity is uniform on fixed positive compact alpha ranges, including 2±epsilon. Its atomic diagonal tends to 2*epsilon*m0; all signed mixed terms and all prime powers remain. The old smaller-shift error estimates cannot be silently used there.
+- **Ordinary proof under RH, independently reviewed:** the nonnegative sinc-fourth-power packet cancels the one-H simple pole and yields an exactly finite prime sum. Compact-support endpoint terms vanish. The normalized Fourier negative mass is at least 47/104, with limit 2/3; the pointwise RH bound is O(W X^(1/2-sigma) log²X). No quadratic-energy transfer follows.
+- **Bounded checks:** exact Fourier/spline identities and rational constants pass; three whole output JSON files replay byte for byte. An actual finite 45-prime-power example is independently enumerated twice, including 101². It does not evaluate the zeta integral.
+- **Open:** the frequency-two strict deficit, a usable centered covariance upper bound, the quadratic packet/weight transfer, AH refutation and all famous-conjecture targets.
+
+Evidence: `reports/dyson_round16.md`, `dyson/round16/`, and `logs/round16-integration/`.
+
+
+## Round 17: actual sieve-cap failure and quadratic packet identities
+
+- **Ordinary proof under RH, independently reviewed:** the exact moving-log-interval/Fejer identity and full centered cap estimate J<=[(4/3)(alpha+1)/(alpha-1)+o(1)]x²/T² hold on alpha in [7/4,9/4]. The resulting Bragg majorant is too large by a power. This is a failure of the specified inequality step, not a true-statistic lower bound or a general sieve impossibility.
+- **Ordinary proof under RH, independently reviewed:** the double-zero sinc-sixth-power packet yields an exactly finite H² formula with coefficient Lambda*Lambda and cancels both continuous pole moments. At X=1,W>=3 the finite sum is empty, so the positive modulus energy equals twice the real-part square exactly. All gamma-center and all-ordinate pair terms remain.
+- **Ordinary contour/derivative identities:** the reflected shift retains its distinct-zero residue sum with multiplicity once; the holomorphic square and modulus square are not interchangeable. The two sigma-derivative integrals are opposite nonzero values, making the derivative-of-weight contribution indispensable. Absolute W differentiation for sinc^6 is not asserted.
+- **Finite checks:** exact rational cap constants and generic symbolic Laurent residues are checked; these are not asymptotic zeta estimates.
+- **Open:** an averaged centered covariance estimate or quantified transfer to one sufficient Bragg test. No RH, AH-refutation, GUE or gap theorem follows.
+
+Evidence: `reports/dyson_round17.md`, `dyson/round17/`, and `logs/round17-integration/`.
+
+
+## Round 18: functional reflection and arithmetic normalization
+
+- **Ordinary proof under RH, independently reviewed:** the finite reflected identity evaluates its gamma contribution by a rational prime sum and a combined convergent digamma integral. The artificial real-pole residues cancel; distinct nontrivial zeros and their multiplicities remain.
+- **Ordinary fixed-parameter trace:** at carrier one, W>3/log2, the gamma term is minus2pi times a positive trivial-zero series. That series is O(W^-4) uniformly in sigma for W>=6. The exact energy still contains the unbounded nontrivial quadratic residue sum. No shrinking-sigma interchange is asserted.
+- **Actual failure of one extension:** the proposed carrier-weighted positive trivial-residue series fails the term test if X exp(3/W)>2, including X=T²,W=T,T>=2. This does not invalidate the finite-contour identity or constitute a general impossibility theorem.
+- **Unconditional support/representation lemmas:** a nonzero triply well-factorable coefficient requires level at least n*Pminus(n)^2; actual canonical terminal coefficients obstruct levels Q polylog(X). Strong dense divisibility constructs point masses at level QY², including squarefree divisors, with completed scalar norm at most (logQ)^j(1+logQ)^2.
+- **Exact unconditional normalization:** the primitive Ramanujan expansion and Mobius inverse restore lambda_j(r) from completed M_d, including the divisor multiplier. The completed small norm is not directly the norm of the progression functional. No universal lower bound on all compressed enlarged-level representations is asserted.
+- **Bounded verification:** 320 formal-log inversions, 2183 primitive-principal identities, 4366 complete prime-kernel identities and exact exponent/norm checks pass in a copied replay. All mathematical fields match; documentation-only provenance differences are explicit.
+- **Open:** the RH full aggregate still has bound X^1.023 log^5X; the strict frequency-two deficit, AH refutation, GUE, and all famous-conjecture targets remain unproved.
+
+Evidence: `reports/dyson_round18.md`, `dyson/round18/`, and `logs/round18-integration/`.
+
+
+## Round 19: positive variance, finite local heat and physical-shift dispersion
+
+- **Ordinary proof under RH, independently reviewed:** RH+AH-Pairs forces the specified positive centered prime variance V to tend to A=1+epsilon²*m1. A strict liminf variance deficit implies positive limsup of the actual-zeta Bragg deficit, with an explicit finite-cutoff conversion. No strict actual-prime bound is proved.
+- **Exact finite arithmetic:** the complete positive prime-pair kernel retains every prime power, both mixed centers and the continuous square. The current source upper transfer remains L+*A>A; narrow-window conclusions cannot be imported from long-average source constants.
+- **Unconditional finite ACUE heat theorem, independently reviewed:** for epsilon=1/4, every N>=8 and 0<s<=1/4,128,768, E D_N(s)>=kappa*s²/3528 while D_N(0)=0. The circle gap is at least 1/2 and acceleration is uniformly below 12,288. This is deterministic scalar heat, not DBM or an actual-zeta trajectory theorem.
+- **Exact finite curvature, independently reviewed:** E B_N''(0)=-(64*pi^4/3)*(1-N^-2) for the global coherent mode. Its Taylor remainder is not asserted uniformly in N; the separate localized theorem supplies its own uniform-time proof.
+- **Exact norm/source audit:** the physical short-residue packet retains its full H-scale projected norm. Its squared CRT condition is h1*n2=h2*n1 modulo q, with switched size HN/q. A localized variance HX would imply a gain in the stated smaller window, but that variance premise and full Bragg transfer are unproved.
+- **Verification:** complete variance, finite-ACUE and final shift JSON/stdout outputs agree with separate replays; the latter retains 576 CRT and 60,480 fully centered product checks. The finite ACUE enumeration is floating diagnostic evidence, not a proof assistant certificate. All source bytes and historical corrections remain separately pinned.
+- **Open:** strict initial-zeta deficit, an applicable time transfer, the localized variance premise and all famous-conjecture targets. The full RH aggregate remains X^1.023 log^5X.
+
+Evidence: `reports/dyson_round19.md`, `dyson/round19/`, and `logs/round19-integration/`.
+
+
+## Round 20: actual length average and strict-target equivalence
+
+- **Ordinary RH proof, independently reviewed:** the exactly centered all-length prime variance Vbar equals the probability average of C_(Ty) with density 4*y²/[pi*(1+y²)²], up to o(1). Actual length tails, fixed-test reparameterization and zero-height cutoffs are controlled. This different statistic has upper limit A; AH forces equality. It does not improve the old single-length variance by implication.
+- **Ordinary RH proof, independently reviewed:** the actual deficit obeys uniform multiplicative-height regularity with bound 2*A*abs(y-1)/max(1,y)+o(1) for y in [1/2,2]. The global support-one envelope has exact limiting mass 7/3 and controls all Schwartz pair tails.
+- **Combined ordinary RH theorem:** for d=limsup D, 2*d²/(25*pi*A)<=A-liminf Vbar<=d. Thus d>0 iff liminf Vbar<A. Either strict condition would exclude AH-Pairs. Neither is proved, and failure of AH-Pairs is not proved to force this one bump's deficit.
+- **Finite numerical diagnostic:** the earlier single-length variance at T=100,300,1000 is approximately .12040604,.13610580,.15427942. All prime powers, centers,16,384 bins per height and integer arrays remain. These are not values of Vbar or of an actual-zero statistic.
+- **Exact controls and precision diagnostic:** formal-log pair/center identities, rational derivative/series bounds and all stored n=p^k identities pass; a70-decimal same-weight T=100 control agrees closely. Ideal analytic columns retain separately stated truncation budgets and exclude machine rounding. No certified numerical enclosure or asymptotic inference is made.
+- **Independent validation:** both analytic symbolic outputs/stdout replay byte for byte, including13 kernel checks and3159 prefix cases. Full ordinary proofs have independent cross-reviews and root/coordinator reviews. Publication reaggregates existing CSVs and verifies hashes without another sieve or high-precision execution.
+- **Open:** a strict actual-prime upper estimate, positive initial-zeta Bragg deficit, the physical-flow transfer and all famous-conjecture targets. The prior full RH arithmetic aggregate remains X^1.023 log^5X.
+
+Evidence: `reports/dyson_round20.md`, `dyson/round20/`, and `logs/round20-integration/`.
+
+
+## Round 21: exact targets and a corrected impossible shortcut
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-021A | The all-length actual prime variance has an absolutely convergent full pair/center expansion for T>2 and a finite positive truncation with error at most 2048*T^(9/4)*2^(-T) for T>=3 | Unconditional ordinary proof with root/coordinator review | Round21 length-arithmetic-kernel; the centered T=2 limiting identity separately assumes RH; no floating certification or strict variance bound |
+| TAUB-021 | Full-real-height convergence of the averaged variance to c is equivalent to convergence of the fixed spectral bump to c | Ordinary RH proof with root/coordinator review, applying classical Wiener theorem | Round21 tauberian-information; exact nowhere-zero multiplier and actual-height modulus; no existence of a limit, arbitrary-subsequence converse or full Montgomery theorem |
+| HEAT-021 | Actual log-prime error has the stated positive Fourier-resolvent and heat-energy representation with O(sqrt(logT/T)) localization error | Ordinary RH proof with independent Aquinas and coordinator review | Round21 log-prime-heat and log-prime-heat-review; heat acts on log-prime coordinate, not on moving zeta zeros; strict energy bound open |
+| ARITH-021B | Vbar=M+Ecal+o(1) with the exact centered Pareto pair error | Ordinary RH proof with independent, root and coordinator review | Round21 strict-arithmetic-target; all singleton terms, prime powers, tails and uniform singular-series comparison retained; liminf Ecal<=1-M open |
+| NEG-021 | A uniform all-shifts centered prefix bound X^beta log^B X with beta<1/2 is impossible | Unconditional ordinary obstruction, coordinator discovery and independently reviewed author revision | h=1 gives the prime-counting error plus exact singleton endpoints; all-large-X telescoping would remove a critical-line Mellin pole; no no-go for signed averages or restricted shifts |
+| AUD-021 | The initial beta<4/9 feasibility assessment and initial accepting review are superseded | Substantive prepublication correction, all old bytes preserved | Old manuscript81a676d6 and review retained; corrected manuscriptd7e73b83 and separate exact addendum; original checker never certified feasibility |
+| OPEN-021 | A strict actual signed-pair or heat-energy upper bound sufficient to exclude AH-Pairs | Open | No strict gain from the identities, finite checks, classical source theorems or the 186 factorization input |
+
+All Round21 arguments and reviews are linked from the complete integrated report research/reports/dyson_round21.md. Exact algebra checks and ordinary analytic proofs are separately scoped; no proof-assistant verification is claimed.
+
+
+## Round 22: legitimate removal of linear and parity terms
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-022A | All shifts h<=K=o(logT) can be removed from the old residual in absolute value | Unconditional ordinary proof with independent source review | Round22 small-shift-obstruction; uniform dimension-two sieve, prime powers and infinite tail; no full natural-scale estimate |
+| ARITH-022B | Under RH, any subset of odd h<=K has signed mass O(cardinality*T^(-7/8)+cardinality*2^(-T)) | Ordinary proof with independent review | Same source; K<=T^(7/4); does not bound absolute individual coefficients or all odd shifts |
+| ARITH-022C | The complete old-to-q singleton correction is o(1) using ordinary PNT | Two complete ordinary derivations, final-source independent and root review | Round22 singleton-renormalization and singleton-renormalization-review; exact backward primitive, signed derivative and all tails; RH quantitative rate separate |
+| ARITH-022D | Complete nonnegative odd-shift Lambda-Lambda mass is at most 32B/T+64B*2^(-T)/(logT)^2 | Unconditional ordinary proof, independent root/coordinator review and exact copied scalar replay | Round22 odd-primepower-pairs; removes odd shifts only after global renormalization, not directly from the old residual |
+| ARITH-022E | Changing baseline one to 2*I(m odd) and removing even endpoints costs o(1) | Unconditional ordinary proof with independent review | Round22 parity-adjusted-target; alternating smooth weights and powers-of-two tails; large old even baseline cannot be dropped first |
+| ARITH-022F | Under RH, Vbar=M+P_T+o(1), with exact odd-endpoint/even-shift coefficient Lambda-Lambda minus S(h)*(Lambda+Lambda-2) | Ordinary assembly with every component independently reviewed | Round22 integrated report and root review; no strict estimate for P_T |
+| OPEN-022 | liminf P_T<=1-M, sufficient for a strict actual-zeta deficit | Open | Normalization improvements leave the exact constant target unchanged; no uniform sub-square-root prefix theorem for the new coefficient is established |
+
+The R21 impossible pointwise premise remains rejected. These new weighted identities do not retroactively validate it. Ordinary PNT suffices for renormalization; RH remains an assumption of the inherited variance/zero transfer.
+
+
+## Round 23: source-valid components and arithmetic residuals
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| ARITH-023A | Actual smooth packets with alpha in [11/5,9/4], H=X/T and canonical odd d<=X^.523 have primitive component O(X^(-7/440)/logX) and actual nonprimitive component O(X^(-15041/45000)) | Unconditional ordinary proof with independent Plato review | Exact five-term opening and even-shift Poisson completion; surviving A+C-M_S unbounded; no full shift partition |
+| ARITH-023B | Full q6-q2 correction is o(1), and all forbidden q6 product rows have absolute mass O(1/T+2^(-T)/log²T) | Unconditional ordinary proof with independent root review | Fixed-modulus PNT/AP, logarithmic signed singular-series prefix, complete 2/3-power tails; no GRH or growing-modulus inference |
+| ARITH-023C | Wheel-center and removed-prime-power norm debts are explicitly bounded for all real endpoints and all lengths | Unconditional finite-height ordinary proof with independent Euclid review | Inclusion-exclusion, positive product measure and every prime-power staircase; squared-variance o(1) additionally uses RH boundedness |
+| HEAT-023 | Under RH, D=o(T^(3/8)logT) gives the same actual variance and log-prime heat target for the supported residual (Lambda-R)*I(coprime to wheel) | Ordinary proof with independent Euclid review | Bounded heat multiplier and explicit L2 prefix comparison; primorial cutoff c*logT*loglogT valid for c<3/(8log2); no strict gain |
+| AUD-023 | Coordinator's complete R22 singleton review is now accepted | Late independent evidence preserved in R23 | Full stronger-tail review, source pins and precise execution scope; R22 pending-at-freeze statement unchanged |
+| OPEN-023 | liminf Q2<A-M, sufficient to exclude the precise AH-Pairs formulation under RH | Open | <=1-M is a stronger sufficient benchmark, not a necessary condition; all component reductions leave the strict estimate missing |
+
+All author files and subsequent acceptance records remain byte-identical. See research/reports/dyson_round23.md for complete proofs, source mappings and the limits of each transfer.
+
+## Round 24: actual complement and exact kernel realizability
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R24-N | Nonprimitive actual packet is O_eta(X^eta/T) for every odd divisor subset d<=Q<X | Proof with full independent review | Exact h=2pr count, no owner or H>>sqrt(X) requirement; round24/general-nonprimitive and review |
+| R24-C | Exact small-cofactor rewrite, primitive center 2k/phi(k), complete L0 main and parity comparison | Proof with full independent review | Original Q=X^.523 upper window; K/H condition belongs to primitive-center completion |
+| R24-S | Ordinary RH Selberg bound gives O(sqrt(H)log^(3/2)X) for the actual parity covariance | Proof with full independent review | Grows; no O(1), sign or strict variance consequence |
+| R24-W | Literal Mobius smooth-weight absorption has variation of order D | Proof with full independent review | Specific source application excluded, not all possible representations |
+| R24-K2 | Exact singular-series zero row/column margins force one or two arbitrary Pareto profiles to vanish | Proof with full independent reviews | Full odd triangular domain, t>2, no separate upper cutoff |
+| R24-KF | Every finite compact-lower-window Pareto combination with exact zero margins vanishes | Proof with full independent review | Eventually constant row coefficients; arbitrary complex coefficients; no approximate-margin bound |
+| R24-OPEN | Strict actual bound liminf Q2<A-M | Open | Neither the component removals nor the kernel impossibility establishes it |
+
+## Round 25: joint mains and actual Fourier localization
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R25-M | Ordinary RH gives actual compact packet P=Z2+o(1) at Q=X^.4 for alpha in [7/4,9/4] | Complete proof with independent full reviews | Both singular-series marginals and all centers paid jointly; no K/H condition; fixed compact h/H only |
+| R25-F | Exact nonseparable finite Fourier identity retains actual mu, prime powers and sharp d>Q | Complete proof with independent full review | Period-half normalization and all Fourier modes retained |
+| R25-C | True zero core is o(1) under ordinary RH; fixed-order remote tail is o(1) | Complete proof with independent source review | Physical natural-scale packet in two stated parameter ranges; does not yet cover polylog Q in a global partition |
+| R25-N | Factorwise Davenport/prime norm gives only sqrt(X) times arbitrary fixed log saving | Reviewed estimate, insufficient | Weaker than prior sqrt(H)log^(3/2)X; hypothetical factorwise square-root bound still loses sqrt(K) |
+| R25-OPEN | Signed remaining annulus has an O(1) or strict AH-excluding upper bound | Open | Neither Fourier identity nor joint main cancellation estimates its required sign |
+
+## Round 26: whole variance with the accumulated singular-series constant
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R26-G | Under ordinary RH, full Q2=Z_T+M1+O(log(T)^(-1/2)) for the exact finite scale-dependent covariance | Complete proof with independent full reviews | Actual Q_j=Y_j^(2/3), both tails, direct q2 small-shift bound, uniform derivative orders and all nine summed errors |
+| R26-S | Refined singular-series transform has correction minus one half integral f/h and summable remainder | Complete ordinary proof and independent derivations | Unconditional MS Eq47 printedp16; real endpoint interpolation; no differentiation of remainder |
+| R26-M | The total correction tends to M1, and symmetric variance is Z_T+2M+o(1) | Complete proof with independent exact-moment companion | Nonzero additional constant retained; no assertion Z_T tends to zero |
+| R26-B | Global Z_T is O(1), with lower/upper limits bounded by -2M and A-2M | Consequence of inherited RH variance bounds and R26 identity | This is not a new improvement; individual packet estimates can grow |
+| R26-OPEN | Strict liminf Z_T<A-2M, or stronger sufficient <=1-2M | Open | No strict arithmetic, AH-refuting or Montgomery theorem is proved |
+
+## Round 27: joint divisor band and genuine mixed-moment boundaries
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R27-B | Central Z(X^(1/3))-Z(X^.49)=O(X^(-.01)log^3X) | Ordinary RH proof, independently reviewed | Entire signed cofactor sum retained; central compact packet only |
+| R27-P | Actual pure A_Q pair moment equals a finite divisor main with global error O(log^5T/sqrtT) | Unconditional proof, independently reviewed | Correct three-derivative smooth CRT completion; no pointwise singular-series claim |
+| R27-M | Exact actual one-prime mixed main with BV error Y log^(-B)T plus two smaller terms | Unconditional valid but insufficient bound | Fixed B cannot pay the full shift sum; standard cutoff has an extra Mobius divisor term |
+| R27-G | Exact finite prime matrix and interval Gram/projection identities | Ordinary algebra, independently reviewed | Projection positivity gives a lower bound; necessary strict upper or residual estimate remains open |
+| R27-186 | Actual odd Mobius/log convolution meets Proposition 2.18 at stated parameters | Source-valid application, independently reviewed | Coefficient-sequence terminology corrected; no insertion of a second prime indicator permitted |
+| R27-OPEN | Strict global improvement below A-2M or adequate actual prime matrix norm | Open | Global O(1) is inherited, not strengthened; central band and pure moments do not settle it |

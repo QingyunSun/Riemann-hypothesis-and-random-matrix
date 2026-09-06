@@ -1,0 +1,14 @@
+{
+  "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/outputs/TRANSFERABLE_MATH_TOOLS_FOR_ASTRA.md",
+  "bytes": 61894,
+  "sha256": "5692c77e3dfaaea8e86cd1c348ee251886d21dcc57d9a1f51de01e341857da23",
+  "previous_sha256": "11f74de893f6bac4740e2f9b9f0e74b333358c1e242302156bf0508a2a374c6e",
+  "display_math_pairs": 61,
+  "reviewed_through_round": 20,
+  "latest_verified_public_commit": "019a3356e515f828dd4215785751c351862cb5e6",
+  "unpublished_reviewed_rounds": [
+    19,
+    20
+  ],
+  "scope": "Updated standalone user-facing tool memo only. No research repository edits, new Fable calls, PDF rebuild or claim of a strict arithmetic bound."
+}

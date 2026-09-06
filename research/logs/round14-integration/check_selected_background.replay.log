@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Exact rational normalization and symbolic N=3 Laurent determinant; not a numerical probability test or formal proof",
+  "rho_far_coefficient_without_pi_cubed": "1/24",
+  "rho_near_coefficient_without_pi_cubed": "1/72",
+  "truncated_moment_constant": "1/18",
+  "background_scale_exponent": "2",
+  "relative_depth_error_exponent": "-2/3",
+  "absolute_depth_error_exponent": "-10/3",
+  "N3_gram_equals_vandermonde_squared": true,
+  "N3_endpoint_cancelled_w_constant": {
+    "-1": -2,
+    "0": 4,
+    "1": -2
+  },
+  "N3_integrated_endpoint_density": "(1-cos(d))/pi^2 = 2*sin(d/2)^2/pi^2",
+  "N3_all_short_oriented_endpoint_sum": "(4/pi)*(epsilon-sin(epsilon))",
+  "script_sha256": "4ef6808960745265187c9486cca3898f391d5e6c90ad4a0c740c366e3503effc"
+}

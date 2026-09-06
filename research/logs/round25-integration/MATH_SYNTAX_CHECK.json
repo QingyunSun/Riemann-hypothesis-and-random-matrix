@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "research/dyson/round25/SOURCE_LINK_MAP.md",
+      "sha256": "cbfbebe09fb4ba82ae20df45b45fa66e7225767aca79a9cbf41efc51da481a98",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round25/coordinator-joint-main/COORDINATOR_JOINT_MAIN_REVIEW.md",
+      "sha256": "2188977fbebdbd44d06a7d791a78dba11850b785d614bdfb2e515231c024941e",
+      "mathExpressions": 6,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round25/coordinator-joint-main/JOINT_MAIN_CANCELLATION_AUTHOR_FROZEN.md",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03",
+      "mathExpressions": 231,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round25/coordinator-odd-mobius/ODD_MOBIUS_CENTERED_PACKET_LEMMA.md",
+      "sha256": "f1c71299f2b01e19237807baffc2dbdf470de533cb99e43d21ad7c56a5877a1e",
+      "mathExpressions": 64,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/INDEPENDENT_FOURIER_REVIEW.md",
+      "sha256": "5c3bb274376d26d44b94903917c059d93d96ee588508232b3c1d68c979af9fec",
+      "mathExpressions": 66,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/replay/ACTUAL_MOBIUS_FOURIER_TEST.md",
+      "sha256": "00343ddd2edd35410bfd6b1a5cd29baa4024a0e074820881d568e0490730e0b5",
+      "mathExpressions": 154,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03",
+      "mathExpressions": 231,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation-review/INDEPENDENT_JOINT_MAIN_REVIEW.md",
+      "sha256": "0bca000d65a52c2915765913e5208e7736edc38307df84995136df2e0feff385",
+      "mathExpressions": 215,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round25/mobius-fourier-audit/ACTUAL_MOBIUS_FOURIER_TEST.md",
+      "sha256": "00343ddd2edd35410bfd6b1a5cd29baa4024a0e074820881d568e0490730e0b5",
+      "mathExpressions": 154,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/reports/dyson_round25.md",
+      "sha256": "fae61ab55a611f5f5522724bdb98eb92204443ff5bf26c470607198a62c27984",
+      "mathExpressions": 93,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

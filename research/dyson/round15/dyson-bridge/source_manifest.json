@@ -1,0 +1,74 @@
+{
+  "purpose": "Source provenance for the R15 pole-annihilating linear logarithmic-derivative packet; third-party source files remain local.",
+  "primary_sources": [
+    {
+      "author": "Lowell Schoenfeld",
+      "title": "Sharper bounds for the Chebyshev functions theta(x) and psi(x). II",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf",
+      "location": "Theorem 10, Eq. (6.2), printed p.337, PDF page 1",
+      "use": "Under RH, |psi(x)-x| < sqrt(x) log^2(x)/(8*pi), x > 73.2. Primary source retained from R13 and inspected in this programme.",
+      "retained_files": [
+        {
+          "local_staging_relative_path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+          "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+          "bytes": 1795864
+        },
+        {
+          "local_staging_relative_path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+          "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+          "bytes": 64608
+        }
+      ]
+    },
+    {
+      "author": "Shota Inoue",
+      "title": "Small gaps between consecutive zeros of the Riemann zeta-function",
+      "url": "https://arxiv.org/html/2604.05733v1",
+      "location": "Lemma 5.5, Eqs. (5.42)-(5.43)",
+      "use": "Background primary source for the earlier R2 log-zeta contour identity; not a black-box input to the R15 one-logarithmic-derivative proof.",
+      "access": "Primary HTML opened with web tool in this R15 turn. No local HTML snapshot was saved; no content hash is asserted."
+    }
+  ],
+  "programme_source_files": [
+    {
+      "role": "Round 2 Gaussian audit",
+      "repository_relative_path": "research/reports/centered_gaussian_mixed_moments.md",
+      "sha256": "5aec8de6c69d3b8d67799a65d0598d49ff1a87a5878ebc548dd3c90d806e1716",
+      "bytes": 14606
+    },
+    {
+      "role": "Round 7 actual zeta target",
+      "repository_relative_path": "research/dyson/round7/poisson-resolvent/TWO_SCALE_ZETA_TARGET.md",
+      "sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+      "bytes": 14073
+    },
+    {
+      "role": "Round 8 centered tail",
+      "repository_relative_path": "research/dyson/round8/resolvent-arithmetic/SHORT_PRIME_PROJECTION_AND_CENTERED_TAIL.md",
+      "sha256": "0067a1b0c7bd4f0b80ef89d6ac85eca1ae99e652375c08c41706ec1f1ddbe40e",
+      "bytes": 14389
+    },
+    {
+      "role": "Round 10 arithmetic remainder",
+      "repository_relative_path": "research/dyson/round10/arithmetic-residual/ARITHMETIC_RANGE_AND_MIXED_MOMENT.md",
+      "sha256": "c2d2a278ffe74d8f8d8a7c00980e5e57e6c508790ff96904db4479277d1daa8c",
+      "bytes": 12502
+    },
+    {
+      "role": "Round 11 diagonal audit",
+      "repository_relative_path": "research/dyson/round11/log-weighted-tail/ARITHMETIC_DIAGONAL_AND_SOURCE_GAP.md",
+      "sha256": "85c9435bbd656bcf37f21f55fe2d54cb40638c7a56908abe57e54f551a627daa",
+      "bytes": 8660
+    },
+    {
+      "role": "Round 14 selected CUE",
+      "repository_relative_path": "research/dyson/round14/cue-selected-background/SELECTED_CUE_BACKGROUND.md",
+      "sha256": "fbc67828d13534d8d0b4ac1f742a639b282dd93a3f7cb635291f8cdbb651c0a5",
+      "bytes": 11711
+    }
+  ],
+  "independent_external_receipt": {
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/gaussian_pole_packet_crosscheck.json",
+    "use": "Coordinator reported an independent normalized-packet variant check. This report does not depend on that separate computation and does not claim to have independently replayed it."
+  }
+}

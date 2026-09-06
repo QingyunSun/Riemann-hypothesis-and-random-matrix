@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "research/dyson/round19/SOURCE_LINK_MAP.md",
+      "sha256": "f8f5dc905bd1e8e4fa7e325b577c8de414daa3732edca9c3a5532e27c959f17d",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md",
+      "sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "mathExpressions": 15,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/root-bragg-curvature/INDEPENDENT_CURVATURE_REVIEW.md",
+      "sha256": "475d183dd68dd006cfa1e9a75e14976880241561b531ba5d81eb835e6f10b647",
+      "mathExpressions": 4,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/shift-dispersion-review/ROOT_SHIFT_DISPERSION_REVIEW.md",
+      "sha256": "a9b74370856c8f9ac844160ea398f310e5ce3b49633f901fea3c25a955de8f30",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/shift-dispersion/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+      "mathExpressions": 144,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/root-review/ROOT_VARIANCE_REVIEW.md",
+      "sha256": "803e66327713cc5629de8e06cf31487409ad84f725c4348e213330daf0eb0d44",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/root-review/ROOT_DYNAMIC_REVIEW.md",
+      "sha256": "61303c8c44acc48756e4ad54248adc650af95b5df723304fd58215be695674fd",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/coordinator-review/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+      "mathExpressions": 141,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/coordinator-review/LOCAL_BRAGG_PRODUCTION.md",
+      "sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "mathExpressions": 168,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/coordinator-review/BRAGG_WEIGHTED_SELBerg_VARIANCE.md",
+      "sha256": "a65e1016bf20e97741bd9fd4a3fd598444a44f8ac8231b0aa0a976b7a94b81ac",
+      "mathExpressions": 34,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/coordinator-review/EXACT_COHERENT_MODE_CURVATURE.md",
+      "sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "mathExpressions": 15,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/bragg-variance-review/INDEPENDENT_WEIGHTED_VARIANCE_REVIEW.md",
+      "sha256": "2a04a778e4b341cfb908bb524f3ba94cc2a7768e080d1fd1f0856141929eb38e",
+      "mathExpressions": 133,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "sha256": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+      "mathExpressions": 34,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/dynamic-observability/LOCAL_BRAGG_PRODUCTION.md",
+      "sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "mathExpressions": 168,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/dynamic-observability/ROOT_CURVATURE_CROSSCHECK.md",
+      "sha256": "429d58a41215d95fa6dc8c22689159b9c20900235eb1d92bc183ec2ac6f69c74",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/dynamic-observability-review/INDEPENDENT_LOCAL_BRAGG_REVIEW.md",
+      "sha256": "40058d7c76ad150ec9ddc7f7ab99406be6329b917f6715d110f7d61044a3f2fa",
+      "mathExpressions": 4,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round19/shift-dispersion/historical-pre-log-clarification/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+      "mathExpressions": 141,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/reports/dyson_round19.md",
+      "sha256": "b258c268f45d7ee96334c23aea30f9649368c7a5ad59d0242cdc107bc4bd6e39",
+      "mathExpressions": 85,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

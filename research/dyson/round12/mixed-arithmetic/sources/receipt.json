@@ -1,0 +1,10 @@
+{
+  "url": "https://aif.centre-mersenne.org/item/10.5802/aif.649.pdf",
+  "file": "saffari-vaughan-1977-II.pdf",
+  "sha256": "26ea860646aea8e0007bed07cc074dcf2abb3f646d173688f3939dbf32439bde",
+  "source": "Saffari and Vaughan, On the fractional parts of x/n and related sequences II, Ann. Inst. Fourier 27(2), 1977",
+  "used": "Definition (6.1), Lemma 5 equation (6.4), and the stronger Selberg remark equation (6.5), printed pp19-22",
+  "scope": "RH genuine-prime short-interval upper bound, uniform 0<eta<=1; no variance asymptotic or lower bound.",
+  "visual_check": "Printed page 20 rendered and inspected as lemma5-page20.png; verified genuine-prime theta, eta X^2 log^2(2/eta), and 0<eta<=1.",
+  "text_sha256": "ede6670b4bcb951a746c7fdbfb272043cfefe6e7e4d5377fa7bd2c6dbd761e17"
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-05",
+  "status": "Author package frozen, ordinary proof awaiting independent/coordinator review",
+  "claim_scope": "Exact smooth CRT main/remainder and a lower bound for a specified positive coherent subsum only. No improved prime upper bound or complete signed norm lower bound.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "3a6583f29182e6c527ad59767d072880938bf3fcf1d948cd9042dd6585c83a8c",
+      "bytes": 1397
+    },
+    {
+      "path": "SMOOTH_SIGNED_KERNEL_NORM.md",
+      "sha256": "1105564835c925b818daf7198186e77c4f0f1ad4ac1001ee1bb50c0f5c7544d9",
+      "bytes": 13904
+    },
+    {
+      "path": "check_signed_kernel_norm.py",
+      "sha256": "d661b1ef764f5ab395a9ca2db66ae9387d6885426772a93b595a43462fdc61d0",
+      "bytes": 6400
+    },
+    {
+      "path": "check_signed_kernel_norm.json",
+      "sha256": "9f92dc12f0ac555e42af962478288e523593cf299c177fa93727d408373fdb5a",
+      "bytes": 1671
+    },
+    {
+      "path": "source_receipt.json",
+      "sha256": "632a8cba72fa6bf38b052c868133fba7dac0267752edfa172bdd7e958a21ebb6",
+      "bytes": 1221
+    }
+  ],
+  "checks": {
+    "exact_arithmetic": "PASS",
+    "CRT_compatibility_cases": 100,
+    "period_mean_variance": "PASS",
+    "finite_window_signed_remainder": "PASS",
+    "relative_links": "PASS",
+    "control_characters": "PASS"
+  },
+  "independent_reviews": "Any later reviewer artifact is outside this frozen author manifest and may be included separately at intake."
+}

@@ -1,0 +1,168 @@
+{
+  "all_hashes_match": true,
+  "author_files_verified": 6,
+  "checks": [
+    {
+      "bytes": 157587,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-0705.0723v2.pdf",
+      "sha256": "9bacaa0c6bbaf687091d8be7b9f0df3e58727339002c9cabcb4de90e33f41fa7"
+    },
+    {
+      "bytes": 37065,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-0705.0723v2.txt",
+      "sha256": "5739fc9b5c9a87a0bcd2f9327f85671866c52ea1fdf2c4760961988519835045"
+    },
+    {
+      "bytes": 145553,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-page-01.png",
+      "sha256": "bf474f0421899fb4bb554e0a3fc7a6dc298ce1265031560b6c04a2a2dfaa289d"
+    },
+    {
+      "bytes": 1795864,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897"
+    },
+    {
+      "bytes": 64608,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6"
+    },
+    {
+      "bytes": 275525,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.pdf",
+      "sha256": "4814387da412faf35d86f7e5d84a789cfa6743b08a6dff1e47fbc7632d7a8176"
+    },
+    {
+      "bytes": 104037,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.txt",
+      "sha256": "8f00b857564f48f187284592e9feba4c22ddbab4b4e1958bc0c7231029b8c10f"
+    },
+    {
+      "bytes": 13005,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "bytes": 18339,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+    },
+    {
+      "bytes": 20129,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73"
+    },
+    {
+      "bytes": 9934,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02"
+    },
+    {
+      "bytes": 7693,
+      "manifest": "source_manifest.json",
+      "matches": true,
+      "path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    },
+    {
+      "bytes": 19377,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "bytes": 4947,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/check_joint_main.py",
+      "sha256": "f9fbdc3dfbc878c0b340379a6e3556d336aa379470f4afc618f3bd5143c28511"
+    },
+    {
+      "bytes": 962,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/exact_check_results.json",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "bytes": 962,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/exact_check_stdout.log",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "bytes": 4300,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/source_manifest.json",
+      "sha256": "857ac555fecc9f933b1b59ae60c1e6c9be7c08cdb9fac80f41a9d1190e7ae03a"
+    },
+    {
+      "bytes": 74,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round25/joint-main-cancellation/math_syntax_check.json",
+      "sha256": "07fb85c8eb48826c21409efd790b9ab5a9cb1c4d93408a1f259ce27c85356e37"
+    }
+  ],
+  "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "python_version": "3.14.3",
+  "replay": {
+    "bytes": 962,
+    "exit_code": 0,
+    "json_byte_identical": true,
+    "result": {
+      "author_sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03",
+      "check_groups": {
+        "both_marginals_constant_cancellation": 12,
+        "even_singular_hinge_algebra_real_endpoints": 160,
+        "nonprimitive_even_shift_count_including_empty_ranges": 1200,
+        "odd_mobius_geometric_identities_real_endpoints": 399,
+        "primitive_principal_nonprimitive_exact_partition": 1632,
+        "sharp_complement_switch_log_coefficient_identities": 200,
+        "strict_rational_power_margins": 6,
+        "von_mangoldt_divisor_log_coefficient_identities": 200
+      },
+      "power_margins": {
+        "cofactor_grid": "29/45",
+        "joint_RH_epsilon_1_over_100": "158/1125",
+        "nonprimitive_eta_1_over_100": "391/900",
+        "primitive_B_J16": "2/35",
+        "principal_mask_Q_over_H": "1/35",
+        "unperturbed_joint_RH": "13/90"
+      },
+      "scope": "Exact finite algebra and rational margins only; ordinary proof is separate.",
+      "status": "PASS",
+      "total_scalar_cases": 3809
+    },
+    "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e",
+    "stderr_bytes": 0,
+    "stdout_byte_identical": true
+  },
+  "scope": "Independent source and author hash verification; tiny exact finite checker replay. No numerical heights or asymptotic experiment.",
+  "source_files_verified": 12
+}

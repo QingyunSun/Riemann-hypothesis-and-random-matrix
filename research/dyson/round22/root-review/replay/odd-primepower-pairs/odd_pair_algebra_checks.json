@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Seven exact algebra/primitive/rational-constant checks only; not verification of prime data or the infinite-sum ordinary proof.",
+  "sympy_version": "1.14.0",
+  "report_sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30",
+  "checks": [
+    {
+      "name": "exact old-to-new singleton correction",
+      "status": "PASS"
+    },
+    {
+      "name": "decreasing logarithmic tail primitive",
+      "status": "PASS"
+    },
+    {
+      "name": "increasing power-sum comparison primitive",
+      "status": "PASS"
+    },
+    {
+      "name": "main rational upper constant",
+      "exact_value": "247/9",
+      "status": "PASS"
+    },
+    {
+      "name": "dyadic tail factor at T at least four",
+      "exact_value": "16/7",
+      "status": "PASS"
+    },
+    {
+      "name": "tail rational upper constant",
+      "exact_value": "512/9",
+      "status": "PASS"
+    },
+    {
+      "name": "number-of-powers times maximum log factor",
+      "exact_value": "33/8",
+      "status": "PASS"
+    }
+  ],
+  "number_of_checks": 7
+}
