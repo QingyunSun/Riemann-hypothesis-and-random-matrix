@@ -1,0 +1,53 @@
+{
+  "author": "Euclid",
+  "date": "2026-09-05",
+  "exact_checks": {
+    "all_passed": true,
+    "groups": 8,
+    "json_equals_stdout": true,
+    "no_asymptotic_numerical_claim": true,
+    "scalar_cases": 3809
+  },
+  "files": [
+    {
+      "bytes": 19377,
+      "path": "JOINT_MAIN_CANCELLATION.md",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "bytes": 4947,
+      "path": "check_joint_main.py",
+      "sha256": "f9fbdc3dfbc878c0b340379a6e3556d336aa379470f4afc618f3bd5143c28511"
+    },
+    {
+      "bytes": 962,
+      "path": "exact_check_results.json",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "bytes": 962,
+      "path": "exact_check_stdout.log",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "bytes": 4300,
+      "path": "source_manifest.json",
+      "sha256": "857ac555fecc9f933b1b59ae60c1e6c9be7c08cdb9fac80f41a9d1190e7ae03a"
+    },
+    {
+      "bytes": 74,
+      "path": "math_syntax_check.json",
+      "sha256": "07fb85c8eb48826c21409efd790b9ab5a9cb1c4d93408a1f259ce27c85356e37"
+    }
+  ],
+  "math_syntax": {
+    "errors": [],
+    "expressions": 231,
+    "unexpected_control_bytes": 0
+  },
+  "old_artifacts": "All frozen R22/R23/R24 sources and canonical Git remain unchanged.",
+  "primary_and_dependency_files": 12,
+  "review_delta": "Reviewer identified wording Subtract(19),(23); changed to Combine before final freeze, no formula change.",
+  "scope": "Under ordinary RH, fixed actual compact packets satisfy P=Z_Q^(2)+o(1), including Q=X^(2/5) and alpha in[7/4,9/4]. No strict sign, all-length summation, or AH refutation is proved.",
+  "status": "author package frozen; separate full independent review pending final receipt"
+}

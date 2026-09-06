@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checked": 13,
+  "targets": [
+    "research/dyson/round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+    "research/dyson/round25/joint-main-cancellation-review/INDEPENDENT_JOINT_MAIN_REVIEW.md",
+    "research/dyson/round25/coordinator-odd-mobius/ODD_MOBIUS_CENTERED_PACKET_LEMMA.md",
+    "research/dyson/round25/coordinator-joint-main/COORDINATOR_JOINT_MAIN_REVIEW.md",
+    "research/dyson/round25/mobius-fourier-audit/ACTUAL_MOBIUS_FOURIER_TEST.md",
+    "research/dyson/round25/fourier-root-review/INDEPENDENT_FOURIER_REVIEW.md",
+    "research/dyson/round25/INTAKE_MANIFEST.json",
+    "research/dyson/round25/SOURCE_LINK_MAP.md",
+    "research/logs/round25-integration/INTEGRATION_RECEIPT.json",
+    "research/dyson/round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+    "research/dyson/round25/joint-main-cancellation-review/source_and_replay_checks.json",
+    "research/dyson/round25/joint-main-cancellation-review/independent_exact_check_results.json",
+    "research/dyson/round25/joint-main-cancellation-review/independent_exact_check_stdout.log"
+  ]
+}

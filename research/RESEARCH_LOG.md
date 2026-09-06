@@ -381,3 +381,13 @@ The next bounded work exploits p|h in the nonprimitive terms, switches the full 
 **Validation and preservation.** Full author and independent/coordinator reviews are retained. Forty-two originals totaling 188,323 bytes are copied unchanged to the public round folder and local originals folder. Integration verifies 196 dependency records and the complete existing nonprimitive replay bytes, with zero path substitutions. No new prime scan, scalar rerun, model session or PDF build was made for publication.
 
 **Next.** Evaluate the large mains jointly, then control the signed actual covariance and its full scale partition. The strict AH-excluding bound is still open. See [Round 24](reports/dyson_round24.md).
+
+## 2026-09-06: Round 25, central-scale main cancellation
+
+**Result.** Combining the actual small-divisor principal with the whole complementary flat center makes the Mobius truncation error multiply a centered prime singleton. Ordinary RH evaluates this error, and the remaining constant-two part matches both true singular-series marginals. The actual fixed compact packet is Z2+o(1) for Q=X^.4 across alpha in [7/4,9/4], including T², without primitive-cofactor completion. Euclid authored the proof; Plato and the coordinator independently checked it; root read it in full.
+
+**Fourier test.** Aquinas derived an exact finite Fourier identity for the nonseparable kernel. Root independently checked the complete proof and live primary statements. The true zero core and sufficiently remote tail are negligible; the intervening signed cofactor-prime annulus is unbounded at fluctuation scale. Even stronger individual-factor estimates do not by themselves remove the cofactor loss.
+
+**Evidence.** Forty-two originals total 1,758,250 bytes; 35 public originals total 171,178 bytes, with seven complete primary bodies retained locally. Integration verifies 91 dependency records without path substitutions, and two complete author/independent JSON-and-stdout replay pairs. The first Fourier copied replay lacked its required manuscript hash input; the exact input was copied and the successful rerun is fully recorded. No source edits or numerical scans were used.
+
+**Next.** The full shift partition must keep an accumulated singular-series correction, rather than summing O(log^-2 T) packet errors as if their total vanished. Then a joint signed estimate, not another equivalent formulation, must improve the actual bound. See [Round 25](reports/dyson_round25.md).

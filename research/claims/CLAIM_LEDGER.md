@@ -321,3 +321,13 @@ All author files and subsequent acceptance records remain byte-identical. See re
 | R24-K2 | Exact singular-series zero row/column margins force one or two arbitrary Pareto profiles to vanish | Proof with full independent reviews | Full odd triangular domain, t>2, no separate upper cutoff |
 | R24-KF | Every finite compact-lower-window Pareto combination with exact zero margins vanishes | Proof with full independent review | Eventually constant row coefficients; arbitrary complex coefficients; no approximate-margin bound |
 | R24-OPEN | Strict actual bound liminf Q2<A-M | Open | Neither the component removals nor the kernel impossibility establishes it |
+
+## Round 25: joint mains and actual Fourier localization
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R25-M | Ordinary RH gives actual compact packet P=Z2+o(1) at Q=X^.4 for alpha in [7/4,9/4] | Complete proof with independent full reviews | Both singular-series marginals and all centers paid jointly; no K/H condition; fixed compact h/H only |
+| R25-F | Exact nonseparable finite Fourier identity retains actual mu, prime powers and sharp d>Q | Complete proof with independent full review | Period-half normalization and all Fourier modes retained |
+| R25-C | True zero core is o(1) under ordinary RH; fixed-order remote tail is o(1) | Complete proof with independent source review | Physical natural-scale packet in two stated parameter ranges; does not yet cover polylog Q in a global partition |
+| R25-N | Factorwise Davenport/prime norm gives only sqrt(X) times arbitrary fixed log saving | Reviewed estimate, insufficient | Weaker than prior sqrt(H)log^(3/2)X; hypothetical factorwise square-root bound still loses sqrt(K) |
+| R25-OPEN | Signed remaining annulus has an O(1) or strict AH-excluding upper bound | Open | Neither Fourier identity nor joint main cancellation estimates its required sign |

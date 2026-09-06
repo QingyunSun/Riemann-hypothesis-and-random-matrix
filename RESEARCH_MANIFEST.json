@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 69371,
-      "sha256": "2d8bf65b599a3ed89bf4e239f124c023af4185043d60466d340d22471eea33cb"
+      "bytes": 71139,
+      "sha256": "1cda9b90c785c11cd3c019349f3d6a58048163d4556f2c6883f201bdb2f0cf3a"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 50358,
-      "sha256": "2233dcb0ba2be4f39e3306a40db1e2997f355164bdf77342a6ba2d776f38daac"
+      "bytes": 51604,
+      "sha256": "22a763425aafcfaf9b472812ce27190f3b0418ab4d133842ab7a3d4ea1e764a1"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -2767,6 +2767,191 @@
       "sha256": "a409c9c767d36596784b653607d519ca94026a8ebceab057af22c45fa6a2014e"
     },
     {
+      "path": "research/dyson/round25/INTAKE_MANIFEST.json",
+      "bytes": 10873,
+      "sha256": "01663329f21d653571c5c990feeac7be8d0622ff81987aa7dd8c1fb5296082b5"
+    },
+    {
+      "path": "research/dyson/round25/SOURCE_LINK_MAP.md",
+      "bytes": 1362,
+      "sha256": "cbfbebe09fb4ba82ae20df45b45fa66e7225767aca79a9cbf41efc51da481a98"
+    },
+    {
+      "path": "research/dyson/round25/coordinator-joint-main/COORDINATOR_JOINT_MAIN_REVIEW.md",
+      "bytes": 8642,
+      "sha256": "2188977fbebdbd44d06a7d791a78dba11850b785d614bdfb2e515231c024941e"
+    },
+    {
+      "path": "research/dyson/round25/coordinator-joint-main/COORDINATOR_JOINT_MAIN_REVIEW_RECEIPT.json",
+      "bytes": 1334,
+      "sha256": "724e60d704b569b8a10c539df306cdee7145dfbe8e1308207f5e5850e6222244"
+    },
+    {
+      "path": "research/dyson/round25/coordinator-joint-main/JOINT_MAIN_CANCELLATION_AUTHOR_FROZEN.md",
+      "bytes": 19377,
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "path": "research/dyson/round25/coordinator-odd-mobius/COORDINATOR_ODD_MOBIUS_LEMMA_RECEIPT.json",
+      "bytes": 1316,
+      "sha256": "e1f37193adcd523d0450a9c5ec1ea0570999911551e861bf8cba668dcc9f4866"
+    },
+    {
+      "path": "research/dyson/round25/coordinator-odd-mobius/ODD_MOBIUS_CENTERED_PACKET_LEMMA.md",
+      "bytes": 9602,
+      "sha256": "f1c71299f2b01e19237807baffc2dbdf470de533cb99e43d21ad7c56a5877a1e"
+    },
+    {
+      "path": "research/dyson/round25/coordinator-odd-mobius/PRIMARY_SOURCE_RECEIPT.json",
+      "bytes": 340,
+      "sha256": "e71838bfa429f505ca45fd18e5d2d95172b90a17d6e87d95f370e05f29d3460f"
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/INDEPENDENT_FOURIER_REVIEW.md",
+      "bytes": 8444,
+      "sha256": "5c3bb274376d26d44b94903917c059d93d96ee588508232b3c1d68c979af9fec"
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/MATH_SYNTAX_CHECK.json",
+      "bytes": 460,
+      "sha256": "acf06c47ad1587854ad4bc17276fd9da988af064f1a3e391c8a18a086d902c7b"
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/REVIEW_RECEIPT.json",
+      "bytes": 2671,
+      "sha256": "07d4b529bd5be7c6ab85e921ad9987238c2b607332d40dccbacc00ec9de5bd07"
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/SOURCE_AND_REPLAY_CHECKS.json",
+      "bytes": 7832,
+      "sha256": "cca420a3b53eb9bbc0c3cb9a3a992acd690b93c445b4c78c246660883d625fb6"
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/replay/ACTUAL_MOBIUS_FOURIER_TEST.md",
+      "bytes": 15958,
+      "sha256": "00343ddd2edd35410bfd6b1a5cd29baa4024a0e074820881d568e0490730e0b5"
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/replay/check_fourier_scales.py",
+      "bytes": 1373,
+      "sha256": "2cea1093d80bb4cb53fa2eeef691d03a76f4fe96cdd7b0a0face65dad38297d2"
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/replay/fourier_scale_checks.json",
+      "bytes": 1092,
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec"
+    },
+    {
+      "path": "research/dyson/round25/fourier-root-review/replay/fourier_scale_checks.log",
+      "bytes": 1092,
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation/AUTHOR_RECEIPT.json",
+      "bytes": 1814,
+      "sha256": "2058f6d018663e6b9810c42e1a29b1d7e914eff85433236e60c69187565a9d50"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+      "bytes": 19377,
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation/check_joint_main.py",
+      "bytes": 4947,
+      "sha256": "f9fbdc3dfbc878c0b340379a6e3556d336aa379470f4afc618f3bd5143c28511"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation/exact_check_results.json",
+      "bytes": 962,
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation/exact_check_stdout.log",
+      "bytes": 962,
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation/math_syntax_check.json",
+      "bytes": 74,
+      "sha256": "07fb85c8eb48826c21409efd790b9ab5a9cb1c4d93408a1f259ce27c85356e37"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation/source_manifest.json",
+      "bytes": 4300,
+      "sha256": "857ac555fecc9f933b1b59ae60c1e6c9be7c08cdb9fac80f41a9d1190e7ae03a"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation-review/INDEPENDENT_JOINT_MAIN_REVIEW.md",
+      "bytes": 18459,
+      "sha256": "0bca000d65a52c2915765913e5208e7736edc38307df84995136df2e0feff385"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation-review/REVIEW_RECEIPT.json",
+      "bytes": 4092,
+      "sha256": "5ecff3f7ad4ce497bc56821b966dbb0e9a015ed26a460e3e4d43aacf2bdc89a9"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation-review/check_math_syntax.cjs",
+      "bytes": 1548,
+      "sha256": "629ec032ff876a4d40350c9549f567e64747c456159cc05063103507364ddb3e"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation-review/independent_exact_check_results.json",
+      "bytes": 962,
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation-review/independent_exact_check_stdout.log",
+      "bytes": 962,
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation-review/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "533a99160f484c034b30701e2159d652c60ef77fb6a5678256783153d36c8898"
+    },
+    {
+      "path": "research/dyson/round25/joint-main-cancellation-review/source_and_replay_checks.json",
+      "bytes": 6521,
+      "sha256": "6e8088ba1ba2062138bcc2b5947ec4e8b2912082173817cb55add0fcb7761ae9"
+    },
+    {
+      "path": "research/dyson/round25/mobius-fourier-audit/ACTUAL_MOBIUS_FOURIER_TEST.md",
+      "bytes": 15958,
+      "sha256": "00343ddd2edd35410bfd6b1a5cd29baa4024a0e074820881d568e0490730e0b5"
+    },
+    {
+      "path": "research/dyson/round25/mobius-fourier-audit/AUTHOR_RECEIPT.json",
+      "bytes": 2238,
+      "sha256": "d00a7983bc2fb02fca432a4bfc0ea1118b4c4f933c1e73fe4cda66657b799532"
+    },
+    {
+      "path": "research/dyson/round25/mobius-fourier-audit/check_fourier_scales.py",
+      "bytes": 1373,
+      "sha256": "2cea1093d80bb4cb53fa2eeef691d03a76f4fe96cdd7b0a0face65dad38297d2"
+    },
+    {
+      "path": "research/dyson/round25/mobius-fourier-audit/fourier_scale_checks.json",
+      "bytes": 1092,
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec"
+    },
+    {
+      "path": "research/dyson/round25/mobius-fourier-audit/fourier_scale_checks.log",
+      "bytes": 1092,
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec"
+    },
+    {
+      "path": "research/dyson/round25/mobius-fourier-audit/math_syntax_checks.json",
+      "bytes": 88,
+      "sha256": "6e8390f488010b5a45de2bceb999969d95cbeb407e1b56fd7306b7a844e057a8"
+    },
+    {
+      "path": "research/dyson/round25/mobius-fourier-audit/source_receipt.json",
+      "bytes": 4537,
+      "sha256": "12f94dfe0d51d25d99c8be0930c8ff8cb0aefd829f68933e8b86880ebdaf502c"
+    },
+    {
       "path": "research/dyson/round7/INTAKE_MANIFEST.json",
       "bytes": 21425,
       "sha256": "23dcf8432a3c6d72c2a2fc7c4d0e28ded8aba82d4d1d484a1d71cd29933da7f3"
@@ -3645,6 +3830,26 @@
       "path": "research/logs/round24-integration/MATH_SYNTAX_CHECK.json",
       "bytes": 3500,
       "sha256": "a5fdfe9d9dc25d9148868057d8ed00d080e9a3ba0c1be71d3ba97887c5d03758"
+    },
+    {
+      "path": "research/logs/round25-integration/DEPENDENCY_HASH_CHECK.json",
+      "bytes": 49761,
+      "sha256": "90a69263a7775bf21b26485c2b9b83a172bc64d2bfb70efd7ee92204cba0ccad"
+    },
+    {
+      "path": "research/logs/round25-integration/EDITORIAL_LINK_CHECK.json",
+      "bytes": 1102,
+      "sha256": "ac6d310633dc4a92d9875d70d144e17955b165f5759c77db7dac3a8dd416edbe"
+    },
+    {
+      "path": "research/logs/round25-integration/INTEGRATION_RECEIPT.json",
+      "bytes": 2011,
+      "sha256": "e047806ba6991178e2a36ca3926b03f522909e7d2571df9efd32a39dc089c39b"
+    },
+    {
+      "path": "research/logs/round25-integration/MATH_SYNTAX_CHECK.json",
+      "bytes": 2716,
+      "sha256": "1700f90972f693a2691d61e98286545a9e0a03066a493143d4cab005a4bf6370"
     },
     {
       "path": "research/logs/round3-recheck-2026-09-05/README.md",
@@ -5092,6 +5297,11 @@
       "sha256": "19551631a99470ed19b52eef50d6162de8a12334464e487c4589c39f4632d870"
     },
     {
+      "path": "research/reports/dyson_round25.md",
+      "bytes": 12398,
+      "sha256": "fae61ab55a611f5f5522724bdb98eb92204443ff5bf26c470607198a62c27984"
+    },
+    {
       "path": "research/reports/dyson_round7.md",
       "bytes": 8767,
       "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33"
@@ -5758,8 +5968,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 11666,
-      "sha256": "2c337f77de98991a124ddde03e7412642a1acde40898a9d2e6c660ee65e43043"
+      "bytes": 12051,
+      "sha256": "5ea33593df4b7830363e2f7cfb7dfbbd5c6358d6eb993655eec912aaccd64f22"
     },
     {
       "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",

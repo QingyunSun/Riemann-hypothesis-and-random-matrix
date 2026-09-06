@@ -1,0 +1,38 @@
+{
+  "checks": "Nine rational scalar assertions, 154 KaTeX expressions and control scan pass; no numerical frequency or prime-height scan.",
+  "files": [
+    {
+      "bytes": 15958,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/ACTUAL_MOBIUS_FOURIER_TEST.md",
+      "sha256": "00343ddd2edd35410bfd6b1a5cd29baa4024a0e074820881d568e0490730e0b5"
+    },
+    {
+      "bytes": 1373,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/check_fourier_scales.py",
+      "sha256": "2cea1093d80bb4cb53fa2eeef691d03a76f4fe96cdd7b0a0face65dad38297d2"
+    },
+    {
+      "bytes": 1092,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/fourier_scale_checks.json",
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec"
+    },
+    {
+      "bytes": 1092,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/fourier_scale_checks.log",
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec"
+    },
+    {
+      "bytes": 88,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/math_syntax_checks.json",
+      "sha256": "6e8390f488010b5a45de2bceb999969d95cbeb407e1b56fd7306b7a844e057a8"
+    },
+    {
+      "bytes": 4537,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "sha256": "12f94dfe0d51d25d99c8be0930c8ff8cb0aefd829f68933e8b86880ebdaf502c"
+    }
+  ],
+  "reproduce": "python3 check_fourier_scales.py > fourier_scale_checks.log",
+  "scope": "Exact finite Fourier identity in two parameter ranges; RH removal of genuine zero core and fixed-order remote tail; Davenport norm test remains insufficient, with actual annulus retained. No strict target result.",
+  "status": "author package frozen; independent ordinary proof review pending"
+}

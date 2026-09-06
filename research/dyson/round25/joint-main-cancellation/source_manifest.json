@@ -1,0 +1,87 @@
+{
+  "files": [
+    {
+      "bytes": 157587,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-0705.0723v2.pdf",
+      "scope": "primary; printed page1 equation1 and Theorem1, ordinary RH M\u00f6bius input",
+      "sha256": "9bacaa0c6bbaf687091d8be7b9f0df3e58727339002c9cabcb4de90e33f41fa7",
+      "url": "https://arxiv.org/pdf/0705.0723v2"
+    },
+    {
+      "bytes": 37065,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-0705.0723v2.txt",
+      "scope": "retained primary extraction",
+      "sha256": "5739fc9b5c9a87a0bcd2f9327f85671866c52ea1fdf2c4760961988519835045",
+      "url": "https://arxiv.org/pdf/0705.0723v2"
+    },
+    {
+      "bytes": 145553,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-page-01.png",
+      "scope": "page1 rendered at100dpi; visually verified",
+      "sha256": "bf474f0421899fb4bb554e0a3fc7a6dc298ce1265031560b6c04a2a2dfaa289d",
+      "url": "https://arxiv.org/pdf/0705.0723v2"
+    },
+    {
+      "bytes": 1795864,
+      "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "scope": "primary; printed337 Theorem10 equation6.2, RH psi bound",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf"
+    },
+    {
+      "bytes": 64608,
+      "path": "research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "scope": "retained primary extraction",
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf"
+    },
+    {
+      "bytes": 275525,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.pdf",
+      "scope": "primary; printed page4 equation16, singular series; conditional prime-pair theorem not invoked",
+      "sha256": "4814387da412faf35d86f7e5d84a789cfa6743b08a6dff1e47fbc7632d7a8176",
+      "url": "https://arxiv.org/pdf/math/0409258v1"
+    },
+    {
+      "bytes": 104037,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.txt",
+      "scope": "retained primary extraction",
+      "sha256": "8f00b857564f48f187284592e9feba4c22ddbab4b4e1958bc0c7231029b8c10f",
+      "url": "https://arxiv.org/pdf/math/0409258v1"
+    },
+    {
+      "bytes": 13005,
+      "path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "scope": "frozen actual b kernel and unconditional hinge reduction",
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "bytes": 18339,
+      "path": "research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "scope": "frozen exact five-term decomposition; changed parameter range is independently rederived",
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+    },
+    {
+      "bytes": 20129,
+      "path": "research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "scope": "frozen exact complement and flat center; no inherited K/H condition used",
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73"
+    },
+    {
+      "bytes": 9934,
+      "path": "research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "scope": "frozen nonprimitive proof; no H versus p assumption needed in exact count",
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02"
+    },
+    {
+      "bytes": 7693,
+      "path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "scope": "frozen parity-centered coefficient and both singular series marginals",
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    }
+  ],
+  "new_primary_visual_check": "Soundararajan page1 rendered and inspected2026-09-05; Eq1 and Theorem1 both explicitly assume ordinary RH",
+  "path_base": "ACUE-Astra-Handoff-2026-09-04",
+  "scope": "No GRH, phase-twisted SW, or unproved prime-pair asymptotic is assumed.",
+  "status": "retained primary and dependency hashes verified"
+}
