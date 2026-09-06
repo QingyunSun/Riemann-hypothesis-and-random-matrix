@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-05",
+  "status": "accepted ordinary proofs on specified actual endpoint domains",
+  "review": {
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/COORDINATOR_REALIZABILITY_REVIEW.md",
+    "bytes": 9056,
+    "sha256": "4808d9b1a571e18c6852d534a10edf91d3314df3d8365cdad35109907950ea14"
+  },
+  "author_one_two_sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+  "author_finite_window_sha256": "c857d22a766099049bcdc95cdb12bf876d87deb6d83f9e9654c154d4dc2a6a7d",
+  "independent_one_two_review_sha256": "5b2b0acf98e08b11091e9a342f5b420773443d2ef31f8ebc9f88b001d9b98054",
+  "complete_texts_read": 3,
+  "source_pins_verified": 6,
+  "coordinator_new_numerical_runs": 0,
+  "lean_build": false,
+  "strict_prime_correlation_bound": false,
+  "exclusion_scope": "Exact S-weighted margins of one/two complete Pareto tails with arbitrary row coefficients; any finite number with eventually constant coefficients, including compact actual lower-window variations. No exclusion of approximate margins, separate upper cutoffs, or arbitrary nonconstant three-plus profiles."
+}

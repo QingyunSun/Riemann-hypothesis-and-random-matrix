@@ -367,3 +367,17 @@ A separate growing-wheel argument controls center discrepancy and all excluded p
 The coordinator's full second reading of 186 and FLT is frozen as a new input. Actual factorization hypotheses and realizable zero-margin directions are selected; marked-factor algebra awaits a real common measure, and a Godement dimension route awaits an actual independent function family with a uniform bound. No generic formalization project or new external model session was started. A late complete coordinator review closes the R22 main singleton item while preserving its original pending-at-freeze status.
 
 The next bounded work exploits p|h in the nonprimitive terms, switches the full complementary divisor sum to a small-cofactor Mobius-prime expression, and tests whether exact zero-margin directions occur within actual Pareto kernels. It retains the strict target liminf Q2<A-M and treats <=1-M only as a stronger sufficient benchmark. No new prime scan or PDF build accompanied this checkpoint.
+
+## 2026-09-06: Round 24, a sharper actual removal and a closed comparison route
+
+**Question.** Can the modulus restriction in the nonprimitive estimate be removed, and can exact zero-margin kernels be realized by the actual compact-window family?
+
+**Mathematical result.** A nonprimitive prime-power endpoint forces its base to divide the physical shift. The exact h=2pr count is at most H/p even when p>H. This proves O_eta(X^eta/T) for every odd divisor subset d<=Q<X. The complete complementary cofactor retains its true primitive center and every added-back principal; a separately justified flat-center comparison is available in the stated upper range.
+
+**What remains too weak.** The literal Mobius smooth-weight application fails by a positive-density variation witness. The source-valid RH Selberg argument gives only O(sqrt(H)log^(3/2)X). Large mains cannot be dropped using relative errors because the packet mass is H/log²T.
+
+**Negative theorem.** One or two arbitrary Pareto profiles, and every finite compact-lower-window family with eventually constant row coefficients, have no nonzero exact zero-margin kernel on the full odd triangular domain. The finite-family proof uses rational-frequency means of singular-series translates and all nontrivial roots, not a one-root polynomial shortcut. Approximate margins and other domains remain outside its scope.
+
+**Validation and preservation.** Full author and independent/coordinator reviews are retained. Forty-two originals totaling 188,323 bytes are copied unchanged to the public round folder and local originals folder. Integration verifies 196 dependency records and the complete existing nonprimitive replay bytes, with zero path substitutions. No new prime scan, scalar rerun, model session or PDF build was made for publication.
+
+**Next.** Evaluate the large mains jointly, then control the signed actual covariance and its full scale partition. The strict AH-excluding bound is still open. See [Round 24](reports/dyson_round24.md).

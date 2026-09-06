@@ -1,0 +1,77 @@
+{
+  "hash_checks": [
+    {
+      "bytes": 18339,
+      "manifest": "source_receipt.json",
+      "path": "research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1638,
+      "manifest": "source_receipt.json",
+      "path": "research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "sha256": "4af1a6589b091442935c42ff5c4ba9619199b983ae046d4d88013841b504b239",
+      "status": "PASS"
+    },
+    {
+      "bytes": 8245,
+      "manifest": "source_receipt.json",
+      "path": "research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30",
+      "status": "PASS"
+    },
+    {
+      "bytes": 9934,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "path": "research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1490,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "path": "research-round24/general-nonprimitive/check_nonprimitive_exponents.py",
+      "sha256": "4f6caa17ba6b0eabbd3617c81d9ae3bbb38f663910e3fbacd1d22cd6a8de1f0e",
+      "status": "PASS"
+    },
+    {
+      "bytes": 441,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "path": "research-round24/general-nonprimitive/nonprimitive_exponent_checks.json",
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "status": "PASS"
+    },
+    {
+      "bytes": 441,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "path": "research-round24/general-nonprimitive/nonprimitive_exponent_checks.log",
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "status": "PASS"
+    },
+    {
+      "bytes": 87,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "path": "research-round24/general-nonprimitive/math_syntax_checks.json",
+      "sha256": "c7ec895ab5ef517a1bf2bc52b070dd4b47fd4879ca01215e61b803027f20cab4",
+      "status": "PASS"
+    },
+    {
+      "bytes": 1066,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "path": "research-round24/general-nonprimitive/source_receipt.json",
+      "sha256": "9976c8707f22acbb0ecbf88105a88aac3bd3d6ce296e88ef1118e0e9ee82696b",
+      "status": "PASS"
+    }
+  ],
+  "replay": {
+    "exact_assertions": 6,
+    "json_and_stdout_byte_identical": true,
+    "output_sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+    "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "python_version": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "stderr_empty": true
+  },
+  "scope": "Tiny rational scalar checks only, replayed in a disposable copy. Original author files untouched. No prime-height or divisor enumeration.",
+  "status": "PASS"
+}

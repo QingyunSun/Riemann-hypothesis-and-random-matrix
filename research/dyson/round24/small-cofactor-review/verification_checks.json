@@ -1,0 +1,84 @@
+{
+  "checker_replay": {
+    "exact_scalar_assertions": 8,
+    "json_and_stdout_byte_identical": true,
+    "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed",
+    "stderr": "",
+    "unchanged_copy": true
+  },
+  "inputs": [
+    {
+      "bytes": 369949,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930"
+    },
+    {
+      "bytes": 112915,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84"
+    },
+    {
+      "bytes": 843595,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac"
+    },
+    {
+      "bytes": 180918,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "bytes": 18339,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+    },
+    {
+      "bytes": 13945,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "sha256": "c84270bc355febda26b2b14004029015524de75142aea637e5d23c064308df58"
+    },
+    {
+      "bytes": 13005,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "bytes": 7693,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    },
+    {
+      "bytes": 18644,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "bytes": 20129,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73"
+    },
+    {
+      "bytes": 1354,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/check_exact_constants.py",
+      "sha256": "8b45f1a162c44cdeea5153e13a29c4ac3404667b0fa5b35eee84f2d9c0abf8ab"
+    },
+    {
+      "bytes": 1033,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/exact_constant_checks.json",
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed"
+    },
+    {
+      "bytes": 1033,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/exact_constant_checks.log",
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed"
+    },
+    {
+      "bytes": 3314,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/source_manifest.json",
+      "sha256": "a409c9c767d36596784b653607d519ca94026a8ebceab057af22c45fa6a2014e"
+    }
+  ],
+  "scope": "Pin verification and one copied tiny scalar replay only; ordinary proof reviewed separately.",
+  "status": "PASS",
+  "verified_pin_entries": 14
+}

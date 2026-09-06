@@ -309,3 +309,15 @@ The R21 impossible pointwise premise remains rejected. These new weighted identi
 | OPEN-023 | liminf Q2<A-M, sufficient to exclude the precise AH-Pairs formulation under RH | Open | <=1-M is a stronger sufficient benchmark, not a necessary condition; all component reductions leave the strict estimate missing |
 
 All author files and subsequent acceptance records remain byte-identical. See research/reports/dyson_round23.md for complete proofs, source mappings and the limits of each transfer.
+
+## Round 24: actual complement and exact kernel realizability
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R24-N | Nonprimitive actual packet is O_eta(X^eta/T) for every odd divisor subset d<=Q<X | Proof with full independent review | Exact h=2pr count, no owner or H>>sqrt(X) requirement; round24/general-nonprimitive and review |
+| R24-C | Exact small-cofactor rewrite, primitive center 2k/phi(k), complete L0 main and parity comparison | Proof with full independent review | Original Q=X^.523 upper window; K/H condition belongs to primitive-center completion |
+| R24-S | Ordinary RH Selberg bound gives O(sqrt(H)log^(3/2)X) for the actual parity covariance | Proof with full independent review | Grows; no O(1), sign or strict variance consequence |
+| R24-W | Literal Mobius smooth-weight absorption has variation of order D | Proof with full independent review | Specific source application excluded, not all possible representations |
+| R24-K2 | Exact singular-series zero row/column margins force one or two arbitrary Pareto profiles to vanish | Proof with full independent reviews | Full odd triangular domain, t>2, no separate upper cutoff |
+| R24-KF | Every finite compact-lower-window Pareto combination with exact zero margins vanishes | Proof with full independent review | Eventually constant row coefficients; arbitrary complex coefficients; no approximate-margin bound |
+| R24-OPEN | Strict actual bound liminf Q2<A-M | Open | Neither the component removals nor the kernel impossibility establishes it |

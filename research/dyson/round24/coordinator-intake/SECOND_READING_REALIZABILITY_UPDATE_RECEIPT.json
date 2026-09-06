@@ -1,0 +1,10 @@
+{
+  "artifact": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/outputs/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+  "bytes": 18965,
+  "sha256": "18aa2431e21026340d4d28b0f38a9b293e1ec58ba8bc4b27592906944d51f280",
+  "original_bytes": 17120,
+  "original_sha256": "331e923f508fe05f88491cb0b0992930323c2b095fe48a4083dd427c02ffa9da",
+  "original_preserved": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-reread/ASTRA_186_FLT_SECOND_READING_TOOLS_ORIGINAL.md",
+  "change": "Added proved realizability exclusion and changed execution item 2 to close the finite actual-window exact-zero-margin search; original mathematical sections retained",
+  "no_new_fable_task": true
+}

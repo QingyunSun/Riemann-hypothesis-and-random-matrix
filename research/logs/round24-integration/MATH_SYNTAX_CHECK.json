@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "research/dyson/round24/ROOT_PROGRESS_NOTE.md",
+      "sha256": "53a840604a67814a3bdff600fd9c2ec59b508e2485f510b94d9536cc86dc9b13",
+      "mathExpressions": 46,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/SOURCE_LINK_MAP.md",
+      "sha256": "1e991fadc8263c4600aa521dabb85aea9d0a376bb5d7c68b93973277afcadd6e",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/coordinator-intake/ASTRA_186_FLT_TOOLS_AFTER_REALIZABILITY.md",
+      "sha256": "18aa2431e21026340d4d28b0f38a9b293e1ec58ba8bc4b27592906944d51f280",
+      "mathExpressions": 104,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/coordinator-r23-review/COORDINATOR_MOD6_REVIEW.md",
+      "sha256": "3dafd94b7e9fa4ec1e0ff23791a22ee0f5990677706784162823d97576b3fe26",
+      "mathExpressions": 44,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/coordinator-realizability-review/COORDINATOR_REALIZABILITY_REVIEW.md",
+      "sha256": "4808d9b1a571e18c6852d534a10edf91d3314df3d8365cdad35109907950ea14",
+      "mathExpressions": 44,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/finite-window-realizability/FINITE_WINDOW_ZERO_MARGIN_THEOREM.md",
+      "sha256": "c857d22a766099049bcdc95cdb12bf876d87deb6d83f9e9654c154d4dc2a6a7d",
+      "mathExpressions": 97,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02",
+      "mathExpressions": 99,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/general-nonprimitive-review/INDEPENDENT_NONPRIMITIVE_REVIEW.md",
+      "sha256": "ec7c6a63845ff54fcbe3ff34f5619c727b298afea0aa5a2ae2242bd40563e8a7",
+      "mathExpressions": 93,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+      "mathExpressions": 43,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/kernel-realizability-review/INDEPENDENT_REALIZABILITY_REVIEW.md",
+      "sha256": "5b2b0acf98e08b11091e9a342f5b420773443d2ef31f8ebc9f88b001d9b98054",
+      "mathExpressions": 36,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/small-cofactor-review/INDEPENDENT_SMALL_COFACTOR_REVIEW.md",
+      "sha256": "7c424b08cc6ef058e2c40fa0556c048904f260ba52b8f902d0fc66033262514a",
+      "mathExpressions": 108,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73",
+      "mathExpressions": 230,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/reports/dyson_round24.md",
+      "sha256": "19551631a99470ed19b52eef50d6162de8a12334464e487c4589c39f4632d870",
+      "mathExpressions": 92,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

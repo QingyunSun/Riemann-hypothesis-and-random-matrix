@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checked": 22,
+  "targets": [
+    "research/dyson/round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+    "research/dyson/round24/general-nonprimitive-review/INDEPENDENT_NONPRIMITIVE_REVIEW.md",
+    "research/dyson/round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+    "research/dyson/round24/small-cofactor-review/INDEPENDENT_SMALL_COFACTOR_REVIEW.md",
+    "research/dyson/round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+    "research/dyson/round24/kernel-realizability-review/INDEPENDENT_REALIZABILITY_REVIEW.md",
+    "research/dyson/round24/coordinator-realizability-review/COORDINATOR_REALIZABILITY_REVIEW.md",
+    "research/dyson/round24/finite-window-realizability/FINITE_WINDOW_ZERO_MARGIN_THEOREM.md",
+    "research/dyson/round24/coordinator-realizability-review/COORDINATOR_REALIZABILITY_REVIEW.md",
+    "research/dyson/round24/coordinator-r23-review/COORDINATOR_MOD6_REVIEW.md",
+    "research/dyson/round24/coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+    "research/dyson/round24/coordinator-intake/ASTRA_186_FLT_TOOLS_AFTER_REALIZABILITY.md",
+    "research/dyson/round24/INTAKE_MANIFEST.json",
+    "research/dyson/round24/SOURCE_LINK_MAP.md",
+    "research/logs/round24-integration/INTEGRATION_RECEIPT.json",
+    "research/dyson/round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+    "research/dyson/round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+    "research/dyson/round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+    "research/dyson/round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+    "research/dyson/round24/general-nonprimitive-review/source_and_replay_checks.json",
+    "research/dyson/round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+    "research/dyson/round23/mod3-centering/FIXED_MOD6_CENTERING.md"
+  ]
+}

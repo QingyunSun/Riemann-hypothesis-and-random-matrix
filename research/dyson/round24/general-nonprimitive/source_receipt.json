@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    {
+      "bytes": 18339,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+    },
+    {
+      "bytes": 1638,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+      "sha256": "4af1a6589b091442935c42ff5c4ba9619199b983ae046d4d88013841b504b239"
+    },
+    {
+      "bytes": 8245,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30"
+    }
+  ],
+  "scope": "Unchanged programme dependencies; no new distribution theorem or external source is used. Elementary arithmetic ingredients are reproved in the author note.",
+  "status": "PASS"
+}

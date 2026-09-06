@@ -1,12 +1,14 @@
 # Current research state
 
-Updated 2026-09-05. Astra leads the research; Fable contributes through the user's single existing Claude Code session. The current programme spans 72 hours with recoverable checkpoints; no claim of uninterrupted execution or guaranteed conjecture solution is made.
+Updated 2026-09-06. Astra leads the research; Fable contributes through the user's single existing Claude Code session. The current programme spans 72 hours with recoverable checkpoints; no claim of uninterrupted execution or guaranteed conjecture solution is made.
 
 ## Main target
 
 The user's latest direction prioritizes Dyson–Montgomery, random matrices and actual zeta zeros. Under RH, seek an arithmetic inequality that refutes the precise AH-Pairs formulation or proves one explicit out-of-band pair-correlation test. Round 7 supplies two concrete targets: a two-scale logarithmic-derivative mean square with sufficient lower limit 1/16, and a compact Fourier bump with sufficient lower limit greater than 7/10. Neither lower bound is established. The normalized gap target below 1/2 remains another route; prime-gap parameter sweeps are paused. RMT results support these decisions and do not supply the missing zeta arithmetic.
 
 ## Current evidence
+
+- Round 24 proves the actual nonprimitive estimate O_eta(X^eta/T) for every odd divisor subset below Q<X, using the exact p-divides-h count without an H>>sqrt(X) condition. The complete small-cofactor rewrite retains the primitive center 2k/phi(k), its whole added-back main and a legal parity-centered comparison. RH Selberg gives only O(sqrt(H)log^(3/2)X), still too large. One/two-profile and finite compact-window exact zero-margin kernels are proved trivial, with full independent reviews. The strict actual covariance bound remains open.
 
 - Round 23 proves two actual upper-window packet components are negligible by physical-shift completion and a paid nonprimitive prime-power bound. The surviving principal plus complementary divisor minus singular-series marginals remain unestimated. A separate fixed-six normalization has an unconditional full correction bound, and a growing wheel with D=o(T^(3/8)logT) preserves the actual variance/heat target under RH. All three proofs have full independent reviews. The strict target is liminf Q2<A-M; <=1-M is only a stronger sufficient benchmark.
 
@@ -67,7 +69,7 @@ The user's latest direction prioritizes Dyson–Montgomery, random matrices and 
 ## Active responsibilities
 
 - Astra: main proof dependencies, mathematical review and publication. Round 7's two actual-zeta targets are now the priority. The two-scale spectral weight changes sign beyond log(2 cosh 1); the actual ACUE process is a countermodel to deriving the 1/16 bound from known low-band identities plus generic positivity. An additional arithmetic input must be identified.
-- Internal research agents: Rounds 7–23 have frozen mathematical packages and recorded independent reviews. Bounded R24 work tests a sharper actual prime-power removal using divisibility of the shift, the full small-cofactor Mobius–prime complement, and exact realization of zero-margin perturbations; none is claimed to establish a strict gain. The main objective remains the actual quadratic prime-pair inequality. No prime-height scan, prime-gap sweep or new Fable/Claude session is running.
+- Internal research agents: Rounds 7–24 have frozen mathematical packages and independent reviews. R25 evaluates the joint one-prime mains and audits the actual Fourier covariance; a further variable-shift extension must preserve any accumulated singular-series correction. Publication and proof status are tracked separately in the reports. The main objective remains the strict actual quadratic prime-pair inequality. No prime-height scan, prime-gap sweep or new Fable/Claude session is running.
 - Fable: [one computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery by the user. The earlier FABLE_001 task was acknowledged in the existing Fable session. A new pinned PR11 snapshot at 89393d5 contains 141 files, including recovered proposer reports and F1 refuters. Separate intake finds a wrong Pi4 intermediate coefficient, a mixed-v table, and the refuter's own probe sign error. Further background/boundary objections remain recorded; source claim labels are not accepted wholesale. Receipt of the newer bounded packet remains unconfirmed. The earlier Claude MCP request failed OAuth401; it did not provide a review. No further Claude calls or sessions are authorized beyond the user's existing session.
 
 The single Fable task is independent continuum-certificate and fixed-vector finite-sum verification, including L=97 direct-versus-sparse and cutoffs through L=10^5. It ends after its report, with no automatic next task.
