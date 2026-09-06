@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "bytes": 3173609,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "scope": "primary; printed58\u201360 especially59, Eq17.12\u201317.14; PDF page71",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+      "url": "https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf"
+    },
+    {
+      "bytes": 1503246,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "scope": "retained primary extraction",
+      "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd",
+      "url": "https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf"
+    },
+    {
+      "bytes": 843595,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "scope": "primary; printed1 Eq1.3, ordinary RH centered mean square at beta3",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "bytes": 180918,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "scope": "retained primary extraction",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "bytes": 369949,
+      "path": "sources/openai-short-gaps.pdf",
+      "scope": "primary; Def2.1,Def2.9,Prop2.12,Prop2.18; support and SW requirements",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+    },
+    {
+      "bytes": 112915,
+      "path": "sources/openai-short-gaps.txt",
+      "scope": "retained primary extraction",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+    },
+    {
+      "bytes": 114493,
+      "path": "research-round27/joint-dispersion-test/sources/mv-page-59.png",
+      "scope": "primary page visually inspected",
+      "sha256": "dbe2ed19f5ceb0185422858e9f18aabaf04d530fdc68b197a460a4cbbcada12f"
+    },
+    {
+      "bytes": 203253,
+      "path": "research-round27/joint-dispersion-test/sources/prime186-page-10.png",
+      "scope": "primary page visually inspected",
+      "sha256": "531c588cda839a273b801ebe3ab32ad9eef790ea52633f0327101701bebeb28d"
+    },
+    {
+      "bytes": 142264,
+      "path": "research-round27/joint-dispersion-test/sources/cccc-page-01.png",
+      "scope": "primary page visually inspected",
+      "sha256": "dbfe7e7ee14706e57830f74dd6b62a15a4a5ea76547381ce97bb3519b967124b"
+    },
+    {
+      "bytes": 19377,
+      "path": "research-round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+      "scope": "frozen joint principal cancellation and ordinary RH Mobius input",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "bytes": 18459,
+      "path": "research-round25/joint-main-cancellation-review/INDEPENDENT_JOINT_MAIN_REVIEW.md",
+      "scope": "frozen full independent R25 review",
+      "sha256": "0bca000d65a52c2915765913e5208e7736edc38307df84995136df2e0feff385"
+    },
+    {
+      "bytes": 22834,
+      "path": "research-round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "scope": "frozen exact finite global covariance and 2M correction",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    },
+    {
+      "bytes": 23124,
+      "path": "research-round26/global-reduction-review/INDEPENDENT_GLOBAL_REDUCTION_REVIEW.md",
+      "scope": "frozen full independent R26 review",
+      "sha256": "92d728c2f5d97f1e66b3582647cb2c66ef9c94203c2427ca3f439caca671e729"
+    },
+    {
+      "bytes": 20129,
+      "path": "research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "scope": "frozen source-valid actual Selberg prefix and parity treatment",
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73"
+    },
+    {
+      "bytes": 157587,
+      "path": "research-round25/joint-main-cancellation/sources/soundararajan-0705.0723v2.pdf",
+      "scope": "primary; printed1 Eq1 ordinary RH Mobius bound",
+      "sha256": "9bacaa0c6bbaf687091d8be7b9f0df3e58727339002c9cabcb4de90e33f41fa7",
+      "url": "https://arxiv.org/pdf/0705.0723v2"
+    }
+  ],
+  "path_base": "ACUE-Astra-Handoff-2026-09-04",
+  "primary_visual_checks": [
+    "MV printed59/PDF71",
+    "186 printed10",
+    "CCCC printed1"
+  ],
+  "scope": "No phase-twisted SW or generic replacement of actual prime coefficients. The 186 convolution application is distinguished from the missing shifted-prime pairing.",
+  "status": "primary/dependency bytes pinned and checked"
+}

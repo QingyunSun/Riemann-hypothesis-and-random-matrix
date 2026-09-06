@@ -1,0 +1,37 @@
+{
+  "author": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round27/mixed-moment-test/MIXED_MOMENT_DIRECTION_TEST.md",
+    "frozen_path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r27-mixed-review/MIXED_MOMENT_DIRECTION_TEST_AUTHOR_FROZEN.md",
+    "bytes": 21089,
+    "sha256": "b338a3210061055f6ad5899fd168175ba2c85d6225f80f71e6cd48098923cdc5"
+  },
+  "review": {
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r27-mixed-review/COORDINATOR_MIXED_MOMENT_REVIEW.md",
+    "bytes": 6643,
+    "sha256": "f2b97b24cfeec7ac4d06f43e58c3d47abc5d9b789ef4797cdc18e37f1de5072f"
+  },
+  "r20_bound_input": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+    "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+    "scope": "Reopened statement and equations 5-7; full inherited proof not re-audited"
+  },
+  "new_source": {
+    "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+    "location": "Proposition 2.15, printed page 10",
+    "scope": "Ordinary below-one-half prime case and interval uniformity"
+  },
+  "correction": "Poisson derivative count changed from two to three and verified in live source",
+  "expanded_scope": "Read complete expanded manuscript after Lemma2 added; accept pure divisor finite-main formula with total error O(ell^5 T^-1/2)",
+  "exact_checks": {
+    "pure_Y_exponent": "5",
+    "pure_global_T_exponent": "-1/2"
+  },
+  "verdict": "Accept corrected Lemma1, new Lemma2 and limited direction/scope conclusion",
+  "global_status": "RH gives global Z_T=O(1); strict improvement below A-2M remains unproved",
+  "not_run": [
+    "Author checker",
+    "Formal build",
+    "Prime/frequency scan",
+    "Publication integrity audit"
+  ]
+}

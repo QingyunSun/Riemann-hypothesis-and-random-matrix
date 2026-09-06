@@ -341,3 +341,14 @@ All author files and subsequent acceptance records remain byte-identical. See re
 | R26-M | The total correction tends to M1, and symmetric variance is Z_T+2M+o(1) | Complete proof with independent exact-moment companion | Nonzero additional constant retained; no assertion Z_T tends to zero |
 | R26-B | Global Z_T is O(1), with lower/upper limits bounded by -2M and A-2M | Consequence of inherited RH variance bounds and R26 identity | This is not a new improvement; individual packet estimates can grow |
 | R26-OPEN | Strict liminf Z_T<A-2M, or stronger sufficient <=1-2M | Open | No strict arithmetic, AH-refuting or Montgomery theorem is proved |
+
+## Round 27: joint divisor band and genuine mixed-moment boundaries
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R27-B | Central Z(X^(1/3))-Z(X^.49)=O(X^(-.01)log^3X) | Ordinary RH proof, independently reviewed | Entire signed cofactor sum retained; central compact packet only |
+| R27-P | Actual pure A_Q pair moment equals a finite divisor main with global error O(log^5T/sqrtT) | Unconditional proof, independently reviewed | Correct three-derivative smooth CRT completion; no pointwise singular-series claim |
+| R27-M | Exact actual one-prime mixed main with BV error Y log^(-B)T plus two smaller terms | Unconditional valid but insufficient bound | Fixed B cannot pay the full shift sum; standard cutoff has an extra Mobius divisor term |
+| R27-G | Exact finite prime matrix and interval Gram/projection identities | Ordinary algebra, independently reviewed | Projection positivity gives a lower bound; necessary strict upper or residual estimate remains open |
+| R27-186 | Actual odd Mobius/log convolution meets Proposition 2.18 at stated parameters | Source-valid application, independently reviewed | Coefficient-sequence terminology corrected; no insertion of a second prime indicator permitted |
+| R27-OPEN | Strict global improvement below A-2M or adequate actual prime matrix norm | Open | Global O(1) is inherited, not strengthened; central band and pure moments do not settle it |

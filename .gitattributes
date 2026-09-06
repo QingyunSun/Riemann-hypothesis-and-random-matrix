@@ -45,3 +45,6 @@ research/dyson/round25/joint-main-cancellation/check_joint_main.py whitespace=-b
 
 # Preserve frozen Round 26 source EOF blank lines.
 research/dyson/round26/full-shift-reduction/check_full_shift.py whitespace=-blank-at-eof
+
+# Preserve frozen Round 27 source EOF blank lines.
+research/dyson/round27/joint-dispersion-test/check_joint_dispersion.py whitespace=-blank-at-eof

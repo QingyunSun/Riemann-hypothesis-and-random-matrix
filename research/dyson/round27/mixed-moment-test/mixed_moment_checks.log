@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "cutoff_log_identity": true,
+    "natural_mixed_tail_lower_exponent": true,
+    "natural_mixed_tail_upper_exponent": true,
+    "natural_pair_CRT_lower_exponent": true,
+    "natural_pair_CRT_upper_exponent": true,
+    "negative_semiprime_witness": true,
+    "polarization": true,
+    "positive_three_prime_witness": true,
+    "prime_power_remainder": true,
+    "real_cutoff_between_five_and_six": true,
+    "smooth_pure_global_T_exponent": true,
+    "smooth_pure_packet_Y_exponent": true,
+    "triple_mixed_range_misses_natural_packets": true,
+    "uniform_Q_upper_exponent": true,
+    "zero_diagonal_negative_determinant": true
+  },
+  "scope": "Fifteen exact scalar and formal-log checks; no asymptotic correlation certification.",
+  "status": "PASS"
+}

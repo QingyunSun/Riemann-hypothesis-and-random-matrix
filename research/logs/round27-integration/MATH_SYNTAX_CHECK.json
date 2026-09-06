@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "research/dyson/round27/SOURCE_LINK_MAP.md",
+      "sha256": "da183b05ba3087c0dea4c7c1b36a68bbea53b28498d51b9db1603accb1e27bd8",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/coordinator-mixed-review/COORDINATOR_MIXED_MOMENT_REVIEW.md",
+      "sha256": "f2b97b24cfeec7ac4d06f43e58c3d47abc5d9b789ef4797cdc18e37f1de5072f",
+      "mathExpressions": 2,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/coordinator-mixed-review/MIXED_MOMENT_DIRECTION_TEST_AUTHOR_FROZEN.md",
+      "sha256": "b338a3210061055f6ad5899fd168175ba2c85d6225f80f71e6cd48098923cdc5",
+      "mathExpressions": 212,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/coordinator-sieve-intake/GOLDSTON_YILDIRIM_TOOL_INTAKE.md",
+      "sha256": "51e8493fd9a08a239881ef138ef1147e44a21e66d47aae778a10ac50393d8b0a",
+      "mathExpressions": 10,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/joint-dispersion-review/INDEPENDENT_JOINT_DISPERSION_REVIEW.md",
+      "sha256": "fd21347c625d394a1a31ce5eb1b5fc0519ae46d68313a8cd8f0607afdbeab603",
+      "mathExpressions": 186,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942",
+      "mathExpressions": 162,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/joint-dispersion-test/historical-before-coefficient-terminology/JOINT_DISPERSION_TEST.md",
+      "sha256": "c7012e375b62263ec472dcb45e362caebca6d8719fe5080c7476a1f4b0d94e5b",
+      "mathExpressions": 162,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/mixed-moment-review/INDEPENDENT_MIXED_MOMENT_REVIEW.md",
+      "sha256": "99c844b4fad7117a4c562825e001844e6cf6682d93278a77ed3da6d26528bf02",
+      "mathExpressions": 193,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/mixed-moment-review/sources/COORDINATOR_GY_TOOL_INTAKE.md",
+      "sha256": "51e8493fd9a08a239881ef138ef1147e44a21e66d47aae778a10ac50393d8b0a",
+      "mathExpressions": 10,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round27/mixed-moment-test/MIXED_MOMENT_DIRECTION_TEST.md",
+      "sha256": "b338a3210061055f6ad5899fd168175ba2c85d6225f80f71e6cd48098923cdc5",
+      "mathExpressions": 212,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/reports/dyson_round27.md",
+      "sha256": "d4fb6c48f16decab359d8f90f8ba0b76c67c42e96d64916347d233bd208ea9f0",
+      "mathExpressions": 86,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

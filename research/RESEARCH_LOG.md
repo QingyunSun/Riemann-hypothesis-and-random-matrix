@@ -405,3 +405,15 @@ The next bounded work exploits p|h in the nonprimitive terms, switches the full 
 **Evidence.** Full Euclid proof, Aquinas independent correction proof, Plato full review and coordinator full review are preserved. Seven groups/2,793 exact cases replay with identical complete outputs; the companion has eight symbolic checks. No new frequency or prime scan and no proof-assistant claim. See [Round 26](reports/dyson_round26.md).
 
 **Next.** Test a legal joint cofactor/mixed-moment inequality with its correct upper-bound direction. Do not confuse an equivalent formulation with a new bound, or a lower-bound projection certificate with the strict upper target.
+
+## 2026-09-06: Round 27, signed band removal and the mixed-moment direction
+
+**Results.** The complete central cofactor sum allows RH removal of divisors between X^(1/3) and X^.49, with error O(X^(-.01)log^3X). A separate unconditional three-derivative completion evaluates the actual pure divisor pair moment with global error O(log^5T/sqrtT). Both have full independent reviews. The full actual variance and inherited global O(1) bound remain unchanged.
+
+**Corrections and failed transfers.** The actual A_Q includes log(m/Q) times a sharp Mobius divisor sum; it cannot be identified with the standard logarithmic cutoff. The pure CRT error is removable with smoothness, so the earlier crude budget is not a structural obstacle. The displayed small-grid error uses three derivatives, not two. The positive composite witness needs its third prime and product condition. Projection positivity provides a lower bound, not the required upper bound. All final corrected proofs and separate reviews are retained.
+
+**186 source scope.** The actual untwisted odd logarithmic factor is a valid coefficient sequence and satisfies the stated SW normalization. It is not divisor-bounded in the source's stricter terminology; that phrase was corrected before final acceptance, with the old file retained. Proposition 2.18 does distribute the single Mobius/log convolution on the admitted moduli. It does not permit the second prime multiplier or an order-preserving upper-sieve substitution for a signed coefficient.
+
+**Preservation.** All 48 originals / 1,992,602 bytes are local; 41 originals / 199,627 bytes are public, with seven complete primary-source bodies/page images local by hash. The 113 dependency checks include nine explicit exact-byte path relocations. Both complete independent JSON/stdout replay pairs match, covering 15 mixed-moment assertions and 26 joint-dispersion cases. No new mathematical rerun or prime scan was made for integration.
+
+**Next decision.** R28 separately tests whether actual multiplicative prime matrices have coherent Mellin modes that make the proposed uniform operator bound too strong. The actual fixed Mobius/log pairing remains the target. The finite data and the Gaussian comparison model cannot imply an actual asymptotic theorem. See [Round 27](reports/dyson_round27.md).

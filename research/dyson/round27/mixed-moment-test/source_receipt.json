@@ -1,0 +1,66 @@
+{
+  "status": "PINNED",
+  "scope": "Read primary theorem statements/proofs and three actual-programme dependencies. No GRH theorem invoked.",
+  "files": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round27/mixed-moment-test/sources/goldston-yildirim-I-0111212v1.pdf",
+      "bytes": 485661,
+      "sha256": "a2a867d18cbdfb31ef5765b9fa8900f0c746d70568e332eecb1c3cabd22df5f5",
+      "role": "Primary source; retained PDF and pdftotext extraction",
+      "url": "https://arxiv.org/pdf/math/0111212v1"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round27/mixed-moment-test/sources/goldston-yildirim-I-0111212v1.txt",
+      "bytes": 214221,
+      "sha256": "7ec8cafd7c3eb9e7ac4301684808b5cf94f9f7ed1dbd2bf148be429e79b2a5c6",
+      "role": "Primary source; retained PDF and pdftotext extraction",
+      "url": "https://arxiv.org/pdf/math/0111212v1"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round27/mixed-moment-test/sources/goldston-yildirim-II-0412366v1.pdf",
+      "bytes": 418416,
+      "sha256": "edbe0a686cab8d386d20781b0aff362edca99c8688aa713e31cf5bcf74c72443",
+      "role": "Primary source; retained PDF and pdftotext extraction",
+      "url": "https://arxiv.org/pdf/math/0412366v1"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round27/mixed-moment-test/sources/goldston-yildirim-II-0412366v1.txt",
+      "bytes": 214667,
+      "sha256": "2c74e6f99e456d7f0533dab6140025f1ea3bb2eea453af3bdac01c741d79df00",
+      "role": "Primary source; retained PDF and pdftotext extraction",
+      "url": "https://arxiv.org/pdf/math/0412366v1"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+      "bytes": 369949,
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "role": "Primary source; only Propositions 2.12 and 2.15 below one-half used",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+      "bytes": 112915,
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+      "role": "Primary source; only Propositions 2.12 and 2.15 below one-half used",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "bytes": 22834,
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6",
+      "role": "Frozen exact global target, full read"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "bytes": 9934,
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02",
+      "role": "Read forced prime-power shift-divisibility proof"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "role": "Read exact positive arithmetic variance and inherited boundedness"
+    }
+  ]
+}
