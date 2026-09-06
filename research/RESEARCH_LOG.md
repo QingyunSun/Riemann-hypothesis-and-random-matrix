@@ -417,3 +417,17 @@ The next bounded work exploits p|h in the nonprimitive terms, switches the full 
 **Preservation.** All 48 originals / 1,992,602 bytes are local; 41 originals / 199,627 bytes are public, with seven complete primary-source bodies/page images local by hash. The 113 dependency checks include nine explicit exact-byte path relocations. Both complete independent JSON/stdout replay pairs match, covering 15 mixed-moment assertions and 26 joint-dispersion cases. No new mathematical rerun or prime scan was made for integration.
 
 **Next decision.** R28 separately tests whether actual multiplicative prime matrices have coherent Mellin modes that make the proposed uniform operator bound too strong. The actual fixed Mobius/log pairing remains the target. The finite data and the Gaussian comparison model cannot imply an actual asymptotic theorem. See [Round 27](reports/dyson_round27.md).
+
+## 2026-09-06: Round 28, significant finite Mellin pairings
+
+**Question.** Does the actual multiplicative prime matrix contain modes that make a uniform operator estimate more demanding than the fixed Mobius/log pairing?
+
+**Finite results.** The three predeclared X values 10^6,4*10^6,16*10^6 produced complete matrices of dimensions150,300,600. Every prime power, even shift and exact flat2 center remains. Initial leading-vector projections were small; a separately declared Mellin grid found up to13.16%,12.29%,5.72% squared plane overlap. The subsequent six-value transpose test corrected the inference gap: at those existing frequencies the actual pairings reach35.3%,47.3%,54.8% of the operator norms. All original reports and later qualifications remain unchanged. These finite signs and ratios are not asymptotic claims.
+
+**Ordinary proof.** Exact sampled Mellin vectors give a necessary all-frequency prime/zero test, retaining multiplicities, continuous center, powers2 and trivial zeros. A finite odd cyclic Gaussian model rigorously has squared norm asymptotic Xlog²X/2 while every fixed normalized sample-independent contraction is smaller. No comparison theorem with the actual primes is asserted.
+
+**Independent checks.** Plato checked nine entries by separately factoring all9441 contributing endpoints and using nested adaptive quadrature; all stored eigenpairs and selected Gram/transpose identities pass. The coordinator independently recomputed the six transpose values with standard-library array reads and grouped product sums. Root read the complete Mellin proof and reproduced all56 exact scalar checks. Numerical tolerance checks and exact proof obligations are kept distinct.
+
+**Preservation.** All59 originals/33,610,266 bytes are local. The56 public originals/33,281,840 bytes include all11 numerical archives/115 arrays. Three complete primary HTML bodies remain local with hashes. Integration verifies124 dependency records with36 explicit exact-byte path relocations; it does not rerun the prime computation or a frequency grid. Peak RSS remains unmeasured. The earlier PDFs keep their Round14 coverage.
+
+**Next.** Analyze the logarithmic vector's actual coupling to the observed Mellin input planes, and test a direct signed Mellin estimate instead of the full uniform operator bound. A single-plane projection must retain its entire output cross term; a growing family requires its joint Gram estimate. The inherited global O(1) bound and unresolved strict threshold remain unchanged. See [Round28](reports/dyson_round28.md).

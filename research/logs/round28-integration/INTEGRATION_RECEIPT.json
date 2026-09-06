@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "original_files": 59,
+  "original_bytes": 33610266,
+  "public_verbatim_files": 56,
+  "public_verbatim_bytes": 33281840,
+  "dependency_records_verified": 124,
+  "existing_bounded_replays": [
+    {
+      "author": "mellin-operator-audit/exact_check_results.json",
+      "independent": "mellin-operator-review/independent_exact_check_results.json",
+      "sha256": "c58593a0043c41a8c89f8e78d82ce61ba08faee5e1c5d892bd290d273c18b522",
+      "byte_identical": true
+    },
+    {
+      "author": "mellin-operator-audit/exact_check_stdout.log",
+      "independent": "mellin-operator-review/independent_exact_check_stdout.log",
+      "sha256": "c58593a0043c41a8c89f8e78d82ce61ba08faee5e1c5d892bd290d273c18b522",
+      "byte_identical": true
+    }
+  ],
+  "bounded_checks": "One complete exact Mellin replay: six groups/56 cases. Independent matrix-entry, full-spectrum and six transpose-pairing audits are preserved separately; their different-algorithm outputs are not claimed byte-identical to the author experiment.",
+  "new_mathematical_reruns_for_integration": 0,
+  "new_pdf_build": false,
+  "formal_verification": false,
+  "strict_arithmetic_bound_proved": false,
+  "preservation": "All original bytes unchanged. Independent/coordinator proofs and reviews remain separate. Full primary-source bodies are local with public hashes.",
+  "historical_relative_links_without_public_target": [],
+  "complete_replay_pairs": 1,
+  "source_eof_exceptions": 0,
+  "editorial_links_checked": 13,
+  "math_expressions_checked": 407,
+  "source_experiment_predeclared_height_cases": 3,
+  "new_prime_heights_for_integration": 0,
+  "numerical_archives_verified": 11,
+  "numerical_arrays_verified": 115,
+  "different_algorithm_numerical_reviews": "Nine independent factorization/quadrature entries, full saved spectrum, six selected transpose pairings; no claim of byte-identical new floating execution outputs."
+}

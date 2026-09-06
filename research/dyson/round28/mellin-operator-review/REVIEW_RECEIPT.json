@@ -1,0 +1,46 @@
+{
+  "reviewer": "Astra root",
+  "date": "2026-09-06",
+  "status": "accepted ordinary proof and exact finite model; no actual norm bound",
+  "author_sha256": "243994064c74e4fda98ae0aadf7364678e49756f5d282cc36a4a56a134373e7a",
+  "files": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round28/mellin-operator-review/INDEPENDENT_MELLIN_OPERATOR_REVIEW.md",
+      "bytes": 9874,
+      "sha256": "e3ee3cff8250b2eff0ba8df97fcfa6272fac9c2c49e58627b309cdfdb504ab84"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round28/mellin-operator-review/independent_exact_check_results.json",
+      "bytes": 1399,
+      "sha256": "c58593a0043c41a8c89f8e78d82ce61ba08faee5e1c5d892bd290d273c18b522"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round28/mellin-operator-review/independent_exact_check_stdout.log",
+      "bytes": 1399,
+      "sha256": "c58593a0043c41a8c89f8e78d82ce61ba08faee5e1c5d892bd290d273c18b522"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round28/mellin-operator-review/math_syntax_check.json",
+      "bytes": 471,
+      "sha256": "c33ba1213a3d60c108b7049b777ac228bc2ee374c7393b657c78ba82b10c3a8e"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round28/mellin-operator-review/source_and_replay_checks.json",
+      "bytes": 6175,
+      "sha256": "a92c1cb81316d4f3a6afc064ae226350f974527fb9eab6fed0f0059c72ccf93c"
+    }
+  ],
+  "full_manuscript_and_checker_read": true,
+  "source_and_author_records_checked": 13,
+  "complete_replay_matches": true,
+  "exact_cases": 56,
+  "math_expressions": 77,
+  "primary_pages_reopened": [
+    "https://dlmf.nist.gov/25.2",
+    "https://dlmf.nist.gov/25.4.E2",
+    "https://dlmf.nist.gov/25.6.E1"
+  ],
+  "new_prime_scan": false,
+  "formal_verification": false,
+  "scope": "Actual exact discrete, centered prime and contour identities; Gaussian extra logarithm only in the separate model. Independent matrix computation reviewed elsewhere."
+}

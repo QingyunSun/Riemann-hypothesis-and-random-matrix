@@ -352,3 +352,14 @@ All author files and subsequent acceptance records remain byte-identical. See re
 | R27-G | Exact finite prime matrix and interval Gram/projection identities | Ordinary algebra, independently reviewed | Projection positivity gives a lower bound; necessary strict upper or residual estimate remains open |
 | R27-186 | Actual odd Mobius/log convolution meets Proposition 2.18 at stated parameters | Source-valid application, independently reviewed | Coefficient-sequence terminology corrected; no insertion of a second prime indicator permitted |
 | R27-OPEN | Strict global improvement below A-2M or adequate actual prime matrix norm | Open | Global O(1) is inherited, not strengthened; central band and pure moments do not settle it |
+
+## Round 28: actual Mellin tests and finite matrix diagnostics
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R28-M | Exact unit-vector Mellin lower test, centered-prime/carrier identity and smooth zero representation | Complete ordinary proof, independently reviewed | All product multiplicities, odd lattice, powers2, pole and trivial-zero terms retained |
+| R28-N | Proposed uniform operator saving requires the stated all-frequency zero bound | Necessary implication, unproved target | Neither a converse nor a deduction from the existing heat norm is supplied |
+| R28-H | Odd cyclic real Gaussian Hankel norm has exact CDF and leading squared scale Xlog²X/2 | Exact separate finite-model theorem, independently reviewed | Fixed sample-independent normalized contractions are smaller; no actual-prime transfer |
+| R28-D | Selected Mellin transpose pairings reach 35.3%,47.3%,54.8% of three saved matrix norms | Independently reproduced floating diagnostic | Full raw matrices/coefficients/spectra and six evaluations retained; no interval enclosure or asymptotic exponent |
+| R28-P | Top-vector plane overlap alone does not measure the transpose pairing | Exact algebraic distinction with observed finite relevance | Follow-up computes transpose, not adjoint; no arbitrary mode removal |
+| R28-OPEN | Uniform actual operator bound or strict global fixed signed variance bound | Open | Finite matrices and model theorem establish neither |

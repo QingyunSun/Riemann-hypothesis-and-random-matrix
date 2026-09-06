@@ -1,0 +1,53 @@
+{
+  "author": "Euclid",
+  "date": "2026-09-05",
+  "exact_checks": {
+    "all_passed": true,
+    "cases": 56,
+    "groups": 6,
+    "json_equals_stdout": true,
+    "no_actual_prime_height_scan": true,
+    "no_random_sampling": true
+  },
+  "files": [
+    {
+      "bytes": 14373,
+      "path": "MELLIN_OPERATOR_AUDIT.md",
+      "sha256": "243994064c74e4fda98ae0aadf7364678e49756f5d282cc36a4a56a134373e7a"
+    },
+    {
+      "bytes": 5940,
+      "path": "check_mellin_operator.py",
+      "sha256": "eb405c2b273b1f2717a1d0261af2e2ed4670272db535802f43332680ea37d9fe"
+    },
+    {
+      "bytes": 1399,
+      "path": "exact_check_results.json",
+      "sha256": "c58593a0043c41a8c89f8e78d82ce61ba08faee5e1c5d892bd290d273c18b522"
+    },
+    {
+      "bytes": 1399,
+      "path": "exact_check_stdout.log",
+      "sha256": "c58593a0043c41a8c89f8e78d82ce61ba08faee5e1c5d892bd290d273c18b522"
+    },
+    {
+      "bytes": 2256,
+      "path": "source_manifest.json",
+      "sha256": "78c432237245b26cb18166f730f786c88b7ffd0e39995802bb6d820459f9ec5a"
+    },
+    {
+      "bytes": 74,
+      "path": "math_syntax_check.json",
+      "sha256": "46ffbad947fd34045929f6a50e21d51182041b2d8e6bc023449a1a56ee40f8fb"
+    }
+  ],
+  "math_syntax": {
+    "errors": [],
+    "expressions": 141,
+    "unexpected_control_bytes": 0
+  },
+  "preservation": "No frozen prior proof changed except the explicitly reviewed R27 terminology correction with historical bytes retained. No public Git mutation.",
+  "scope": "Unconditional exact Mellin/centered-prime/carrier/zero identities and a separate exact finite Gaussian model. RH is used only for critical-line zero location and inherited heat bound. No actual-prime operator lower bound, uniform norm saving, or strict global variance deficit.",
+  "source_files_pinned": 7,
+  "status": "author package frozen; ordinary independent review pending"
+}

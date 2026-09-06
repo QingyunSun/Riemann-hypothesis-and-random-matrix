@@ -1,0 +1,218 @@
+{
+  "scope": "Post-initial-result fixed Mellin template grid; existing matrices only. No new prime computation or mode subtraction.",
+  "cases": [
+    {
+      "X": 1000000,
+      "dimension": 150,
+      "grid_count": 600,
+      "frequency_step": 3.534946677951325,
+      "nyquist_conventions": {
+        "minimum_local": 1652.4772380709635,
+        "mean_spacing": 1875.228427410988,
+        "maximum_local": 2117.433060092844
+      },
+      "maximum_squared_projection": 0.13163557708494525,
+      "winning_frequency": 1756.8684989418084,
+      "winning_frequency_over_T": 1.7568684989418084,
+      "winning_index": 497,
+      "winning_QR_projection": 0.1316355770849451,
+      "minimum_positive_frequency_Gram_eigenvalue": 9.451897080331904,
+      "left_right_max_difference": 0.0,
+      "top_ten_grid_points": [
+        {
+          "index": 497,
+          "frequency": 1756.8684989418084,
+          "squared_projection": 0.13163557708494525
+        },
+        {
+          "index": 498,
+          "frequency": 1760.4034456197599,
+          "squared_projection": 0.12392467414406472
+        },
+        {
+          "index": 496,
+          "frequency": 1753.3335522638572,
+          "squared_projection": 0.12384047237644165
+        },
+        {
+          "index": 390,
+          "frequency": 1378.6292044010168,
+          "squared_projection": 0.11332724637069629
+        },
+        {
+          "index": 389,
+          "frequency": 1375.0942577230653,
+          "squared_projection": 0.10752074212168976
+        },
+        {
+          "index": 391,
+          "frequency": 1382.1641510789682,
+          "squared_projection": 0.10735009051297598
+        },
+        {
+          "index": 458,
+          "frequency": 1619.0055785017069,
+          "squared_projection": 0.10422615967424113
+        },
+        {
+          "index": 499,
+          "frequency": 1763.9383922977113,
+          "squared_projection": 0.1022157282134779
+        },
+        {
+          "index": 459,
+          "frequency": 1622.5405251796583,
+          "squared_projection": 0.10198894289645691
+        },
+        {
+          "index": 495,
+          "frequency": 1749.798605585906,
+          "squared_projection": 0.10185376715501525
+        }
+      ],
+      "source_array_sha256": "1f27e7b8436a6a563898beac94852a72f91dde87d9ebdf75f9369c762212aa8b"
+    },
+    {
+      "X": 4000000,
+      "dimension": 300,
+      "grid_count": 1200,
+      "frequency_step": 3.5346190955985417,
+      "nyquist_conventions": {
+        "minimum_local": 3301.8136298267677,
+        "mean_spacing": 3750.325521835811,
+        "maximum_local": 4238.0082956226515
+      },
+      "maximum_squared_projection": 0.12287620424432466,
+      "winning_frequency": 3046.841660405943,
+      "winning_frequency_over_T": 1.5234208302029715,
+      "winning_index": 862,
+      "winning_QR_projection": 0.1228762042443246,
+      "minimum_positive_frequency_Gram_eigenvalue": 18.901011985312522,
+      "left_right_max_difference": 0.0,
+      "top_ten_grid_points": [
+        {
+          "index": 862,
+          "frequency": 3046.841660405943,
+          "squared_projection": 0.12287620424432466
+        },
+        {
+          "index": 861,
+          "frequency": 3043.3070413103446,
+          "squared_projection": 0.11745218833943817
+        },
+        {
+          "index": 863,
+          "frequency": 3050.3762795015414,
+          "squared_projection": 0.11601353395979734
+        },
+        {
+          "index": 882,
+          "frequency": 3117.5340423179136,
+          "squared_projection": 0.10254205572740006
+        },
+        {
+          "index": 883,
+          "frequency": 3121.0686614135125,
+          "squared_projection": 0.10126861689333336
+        },
+        {
+          "index": 860,
+          "frequency": 3039.772422214746,
+          "squared_projection": 0.10060648194027812
+        },
+        {
+          "index": 864,
+          "frequency": 3053.91089859714,
+          "squared_projection": 0.09873009901801376
+        },
+        {
+          "index": 881,
+          "frequency": 3113.9994232223153,
+          "squared_projection": 0.09483088692742397
+        },
+        {
+          "index": 884,
+          "frequency": 3124.603280509111,
+          "squared_projection": 0.09086129727740556
+        },
+        {
+          "index": 880,
+          "frequency": 3110.464804126717,
+          "squared_projection": 0.08096129704276728
+        }
+      ],
+      "source_array_sha256": "5cf82296f36abb88f1dc8cb6cc72a56daeca4523da28fcd86bb40897556512af"
+    },
+    {
+      "X": 16000000,
+      "dimension": 600,
+      "grid_count": 2400,
+      "frequency_step": 3.5344553876772,
+      "nyquist_conventions": {
+        "minimum_local": 6600.486040586119,
+        "mean_spacing": 7500.519375150537,
+        "maximum_local": 8479.158475037602
+      },
+      "maximum_squared_projection": 0.05723814178827212,
+      "winning_frequency": 4760.911407201188,
+      "winning_frequency_over_T": 1.190227851800297,
+      "winning_index": 1347,
+      "winning_QR_projection": 0.05723814178827218,
+      "minimum_positive_frequency_Gram_eigenvalue": 37.79895239841903,
+      "left_right_max_difference": 0.0,
+      "top_ten_grid_points": [
+        {
+          "index": 1347,
+          "frequency": 4760.911407201188,
+          "squared_projection": 0.05723814178827212
+        },
+        {
+          "index": 1346,
+          "frequency": 4757.376951813511,
+          "squared_projection": 0.05429910909628471
+        },
+        {
+          "index": 1348,
+          "frequency": 4764.445862588866,
+          "squared_projection": 0.054264421294605125
+        },
+        {
+          "index": 1345,
+          "frequency": 4753.842496425834,
+          "squared_projection": 0.04634147164132543
+        },
+        {
+          "index": 1349,
+          "frequency": 4767.980317976543,
+          "squared_projection": 0.04595413817987624
+        },
+        {
+          "index": 1344,
+          "frequency": 4750.308041038157,
+          "squared_projection": 0.03535386330873265
+        },
+        {
+          "index": 1350,
+          "frequency": 4771.51477336422,
+          "squared_projection": 0.03424520577025075
+        },
+        {
+          "index": 818,
+          "frequency": 2891.1845071199496,
+          "squared_projection": 0.027488663809539945
+        },
+        {
+          "index": 819,
+          "frequency": 2894.7189625076267,
+          "squared_projection": 0.027088771641068127
+        },
+        {
+          "index": 817,
+          "frequency": 2887.6500517322725,
+          "squared_projection": 0.025754814771597023
+        }
+      ],
+      "source_array_sha256": "57c883150b2a75f08af05d04a1e0a9951baf7c8bb4b07d4bf76c519023112b7d"
+    }
+  ]
+}

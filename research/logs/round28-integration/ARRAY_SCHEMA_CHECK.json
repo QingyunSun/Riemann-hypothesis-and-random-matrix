@@ -1,0 +1,1144 @@
+{
+  "status": "PASS",
+  "scope": "Read-only schema and frozen-byte validation, not a numerical experiment rerun or interval certificate.",
+  "archives": 11,
+  "array_count": 115,
+  "files": [
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/case_1000000.npz",
+      "bytes": 1023988,
+      "sha256": "1f27e7b8436a6a563898beac94852a72f91dde87d9ebdf75f9369c762212aa8b",
+      "arrays": [
+        {
+          "key": "C",
+          "shape": [
+            150,
+            150
+          ],
+          "dtype": "float64",
+          "elements": 22500,
+          "all_finite": true
+        },
+        {
+          "key": "row_integers",
+          "shape": [
+            150
+          ],
+          "dtype": "int64",
+          "elements": 150,
+          "all_finite": true
+        },
+        {
+          "key": "unique_products",
+          "shape": [
+            11238
+          ],
+          "dtype": "int64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "inverse_product_index",
+          "shape": [
+            22500
+          ],
+          "dtype": "int64",
+          "elements": 22500,
+          "all_finite": true
+        },
+        {
+          "key": "shifts",
+          "shape": [
+            449
+          ],
+          "dtype": "int64",
+          "elements": 449,
+          "all_finite": true
+        },
+        {
+          "key": "V_shift",
+          "shape": [
+            449
+          ],
+          "dtype": "float64",
+          "elements": 449,
+          "all_finite": true
+        },
+        {
+          "key": "b32",
+          "shape": [
+            11238
+          ],
+          "dtype": "float64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "b64",
+          "shape": [
+            11238
+          ],
+          "dtype": "float64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "chi_product",
+          "shape": [
+            11238
+          ],
+          "dtype": "float64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "centered_window_sum",
+          "shape": [
+            11238
+          ],
+          "dtype": "float64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "prime_window_sum",
+          "shape": [
+            11238
+          ],
+          "dtype": "float64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "flat2_window_sum",
+          "shape": [
+            11238
+          ],
+          "dtype": "float64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "f_values",
+          "shape": [
+            11238
+          ],
+          "dtype": "float64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "mobius",
+          "shape": [
+            150
+          ],
+          "dtype": "float64",
+          "elements": 150,
+          "all_finite": true
+        },
+        {
+          "key": "log_vector",
+          "shape": [
+            150
+          ],
+          "dtype": "float64",
+          "elements": 150,
+          "all_finite": true
+        },
+        {
+          "key": "eigenvalues",
+          "shape": [
+            150
+          ],
+          "dtype": "float64",
+          "elements": 150,
+          "all_finite": true
+        },
+        {
+          "key": "eigenvectors",
+          "shape": [
+            150,
+            150
+          ],
+          "dtype": "float64",
+          "elements": 22500,
+          "all_finite": true
+        },
+        {
+          "key": "grouped_coefficient",
+          "shape": [
+            11238
+          ],
+          "dtype": "float64",
+          "elements": 11238,
+          "all_finite": true
+        },
+        {
+          "key": "smooth_basis",
+          "shape": [
+            150,
+            9
+          ],
+          "dtype": "float64",
+          "elements": 1350,
+          "all_finite": true
+        },
+        {
+          "key": "arithmetic_basis",
+          "shape": [
+            150,
+            13
+          ],
+          "dtype": "float64",
+          "elements": 1950,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/case_16000000.npz",
+      "bytes": 15895381,
+      "sha256": "57c883150b2a75f08af05d04a1e0a9951baf7c8bb4b07d4bf76c519023112b7d",
+      "arrays": [
+        {
+          "key": "C",
+          "shape": [
+            600,
+            600
+          ],
+          "dtype": "float64",
+          "elements": 360000,
+          "all_finite": true
+        },
+        {
+          "key": "row_integers",
+          "shape": [
+            600
+          ],
+          "dtype": "int64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "unique_products",
+          "shape": [
+            177130
+          ],
+          "dtype": "int64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "inverse_product_index",
+          "shape": [
+            360000
+          ],
+          "dtype": "int64",
+          "elements": 360000,
+          "all_finite": true
+        },
+        {
+          "key": "shifts",
+          "shape": [
+            1799
+          ],
+          "dtype": "int64",
+          "elements": 1799,
+          "all_finite": true
+        },
+        {
+          "key": "V_shift",
+          "shape": [
+            1799
+          ],
+          "dtype": "float64",
+          "elements": 1799,
+          "all_finite": true
+        },
+        {
+          "key": "b32",
+          "shape": [
+            177130
+          ],
+          "dtype": "float64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "b64",
+          "shape": [
+            177130
+          ],
+          "dtype": "float64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "chi_product",
+          "shape": [
+            177130
+          ],
+          "dtype": "float64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "centered_window_sum",
+          "shape": [
+            177130
+          ],
+          "dtype": "float64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "prime_window_sum",
+          "shape": [
+            177130
+          ],
+          "dtype": "float64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "flat2_window_sum",
+          "shape": [
+            177130
+          ],
+          "dtype": "float64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "f_values",
+          "shape": [
+            177130
+          ],
+          "dtype": "float64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "mobius",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "log_vector",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "eigenvalues",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "eigenvectors",
+          "shape": [
+            600,
+            600
+          ],
+          "dtype": "float64",
+          "elements": 360000,
+          "all_finite": true
+        },
+        {
+          "key": "grouped_coefficient",
+          "shape": [
+            177130
+          ],
+          "dtype": "float64",
+          "elements": 177130,
+          "all_finite": true
+        },
+        {
+          "key": "smooth_basis",
+          "shape": [
+            600,
+            9
+          ],
+          "dtype": "float64",
+          "elements": 5400,
+          "all_finite": true
+        },
+        {
+          "key": "arithmetic_basis",
+          "shape": [
+            600,
+            13
+          ],
+          "dtype": "float64",
+          "elements": 7800,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/case_4000000.npz",
+      "bytes": 3995914,
+      "sha256": "5cf82296f36abb88f1dc8cb6cc72a56daeca4523da28fcd86bb40897556512af",
+      "arrays": [
+        {
+          "key": "C",
+          "shape": [
+            300,
+            300
+          ],
+          "dtype": "float64",
+          "elements": 90000,
+          "all_finite": true
+        },
+        {
+          "key": "row_integers",
+          "shape": [
+            300
+          ],
+          "dtype": "int64",
+          "elements": 300,
+          "all_finite": true
+        },
+        {
+          "key": "unique_products",
+          "shape": [
+            44552
+          ],
+          "dtype": "int64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "inverse_product_index",
+          "shape": [
+            90000
+          ],
+          "dtype": "int64",
+          "elements": 90000,
+          "all_finite": true
+        },
+        {
+          "key": "shifts",
+          "shape": [
+            899
+          ],
+          "dtype": "int64",
+          "elements": 899,
+          "all_finite": true
+        },
+        {
+          "key": "V_shift",
+          "shape": [
+            899
+          ],
+          "dtype": "float64",
+          "elements": 899,
+          "all_finite": true
+        },
+        {
+          "key": "b32",
+          "shape": [
+            44552
+          ],
+          "dtype": "float64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "b64",
+          "shape": [
+            44552
+          ],
+          "dtype": "float64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "chi_product",
+          "shape": [
+            44552
+          ],
+          "dtype": "float64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "centered_window_sum",
+          "shape": [
+            44552
+          ],
+          "dtype": "float64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "prime_window_sum",
+          "shape": [
+            44552
+          ],
+          "dtype": "float64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "flat2_window_sum",
+          "shape": [
+            44552
+          ],
+          "dtype": "float64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "f_values",
+          "shape": [
+            44552
+          ],
+          "dtype": "float64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "mobius",
+          "shape": [
+            300
+          ],
+          "dtype": "float64",
+          "elements": 300,
+          "all_finite": true
+        },
+        {
+          "key": "log_vector",
+          "shape": [
+            300
+          ],
+          "dtype": "float64",
+          "elements": 300,
+          "all_finite": true
+        },
+        {
+          "key": "eigenvalues",
+          "shape": [
+            300
+          ],
+          "dtype": "float64",
+          "elements": 300,
+          "all_finite": true
+        },
+        {
+          "key": "eigenvectors",
+          "shape": [
+            300,
+            300
+          ],
+          "dtype": "float64",
+          "elements": 90000,
+          "all_finite": true
+        },
+        {
+          "key": "grouped_coefficient",
+          "shape": [
+            44552
+          ],
+          "dtype": "float64",
+          "elements": 44552,
+          "all_finite": true
+        },
+        {
+          "key": "smooth_basis",
+          "shape": [
+            300,
+            9
+          ],
+          "dtype": "float64",
+          "elements": 2700,
+          "all_finite": true
+        },
+        {
+          "key": "arithmetic_basis",
+          "shape": [
+            300,
+            13
+          ],
+          "dtype": "float64",
+          "elements": 3900,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/lambda_coefficients.npz",
+      "bytes": 11618704,
+      "sha256": "a615a35acea4954fc8cc709ee85f0fe6b4dcddb5b1fa3cd7710d5f6c9cec4be1",
+      "arrays": [
+        {
+          "key": "indices",
+          "shape": [
+            1809625
+          ],
+          "dtype": "uint32",
+          "elements": 1809625,
+          "all_finite": true
+        },
+        {
+          "key": "values",
+          "shape": [
+            1809625
+          ],
+          "dtype": "float64",
+          "elements": 1809625,
+          "all_finite": true
+        },
+        {
+          "key": "limit",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "elements": 1,
+          "all_finite": true
+        },
+        {
+          "key": "mobius_prefix",
+          "shape": [
+            5400
+          ],
+          "dtype": "int8",
+          "elements": 5400,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/mellin_1000000.npz",
+      "bytes": 35416,
+      "sha256": "baffb97d8b8c17c48d8c805e9cd72e353fbc9430a20b66931174aafd8c1101d4",
+      "arrays": [
+        {
+          "key": "frequencies",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "right_projection",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "left_projection",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "gram_cc",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "gram_ss",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "gram_cs",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "gram_minimum_eigenvalue",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "winning_basis",
+          "shape": [
+            150,
+            2
+          ],
+          "dtype": "float64",
+          "elements": 300,
+          "all_finite": true
+        },
+        {
+          "key": "row_log_coordinate",
+          "shape": [
+            150
+          ],
+          "dtype": "float64",
+          "elements": 150,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/mellin_16000000.npz",
+      "bytes": 133144,
+      "sha256": "2af6a064f7c791ce11828d3a0e0c69b4856330b7c735d250ea234e5eb2c7d723",
+      "arrays": [
+        {
+          "key": "frequencies",
+          "shape": [
+            2400
+          ],
+          "dtype": "float64",
+          "elements": 2400,
+          "all_finite": true
+        },
+        {
+          "key": "right_projection",
+          "shape": [
+            2400
+          ],
+          "dtype": "float64",
+          "elements": 2400,
+          "all_finite": true
+        },
+        {
+          "key": "left_projection",
+          "shape": [
+            2400
+          ],
+          "dtype": "float64",
+          "elements": 2400,
+          "all_finite": true
+        },
+        {
+          "key": "gram_cc",
+          "shape": [
+            2400
+          ],
+          "dtype": "float64",
+          "elements": 2400,
+          "all_finite": true
+        },
+        {
+          "key": "gram_ss",
+          "shape": [
+            2400
+          ],
+          "dtype": "float64",
+          "elements": 2400,
+          "all_finite": true
+        },
+        {
+          "key": "gram_cs",
+          "shape": [
+            2400
+          ],
+          "dtype": "float64",
+          "elements": 2400,
+          "all_finite": true
+        },
+        {
+          "key": "gram_minimum_eigenvalue",
+          "shape": [
+            2400
+          ],
+          "dtype": "float64",
+          "elements": 2400,
+          "all_finite": true
+        },
+        {
+          "key": "winning_basis",
+          "shape": [
+            600,
+            2
+          ],
+          "dtype": "float64",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "row_log_coordinate",
+          "shape": [
+            600
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/mellin_4000000.npz",
+      "bytes": 67994,
+      "sha256": "83bc977ea3573e0dec2a731b9ebe22947767a02b800a2c484e0cf288617c2bc4",
+      "arrays": [
+        {
+          "key": "frequencies",
+          "shape": [
+            1200
+          ],
+          "dtype": "float64",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "right_projection",
+          "shape": [
+            1200
+          ],
+          "dtype": "float64",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "left_projection",
+          "shape": [
+            1200
+          ],
+          "dtype": "float64",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "gram_cc",
+          "shape": [
+            1200
+          ],
+          "dtype": "float64",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "gram_ss",
+          "shape": [
+            1200
+          ],
+          "dtype": "float64",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "gram_cs",
+          "shape": [
+            1200
+          ],
+          "dtype": "float64",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "gram_minimum_eigenvalue",
+          "shape": [
+            1200
+          ],
+          "dtype": "float64",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "winning_basis",
+          "shape": [
+            300,
+            2
+          ],
+          "dtype": "float64",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "row_log_coordinate",
+          "shape": [
+            300
+          ],
+          "dtype": "float64",
+          "elements": 300,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/omega_quadrature.npz",
+      "bytes": 221544,
+      "sha256": "0800040f7eef42a50644130532f8ffc3d452c5b0d6383d0dd05f4141518e7e1e",
+      "arrays": [
+        {
+          "key": "coarse_grid",
+          "shape": [
+            8193
+          ],
+          "dtype": "float64",
+          "elements": 8193,
+          "all_finite": true
+        },
+        {
+          "key": "coarse_psi",
+          "shape": [
+            8193
+          ],
+          "dtype": "float64",
+          "elements": 8193,
+          "all_finite": true
+        },
+        {
+          "key": "fine_grid",
+          "shape": [
+            16385
+          ],
+          "dtype": "float64",
+          "elements": 16385,
+          "all_finite": true
+        },
+        {
+          "key": "fine_psi",
+          "shape": [
+            16385
+          ],
+          "dtype": "float64",
+          "elements": 16385,
+          "all_finite": true
+        },
+        {
+          "key": "coarse_nodes",
+          "shape": [
+            128
+          ],
+          "dtype": "float64",
+          "elements": 128,
+          "all_finite": true
+        },
+        {
+          "key": "coarse_weights",
+          "shape": [
+            128
+          ],
+          "dtype": "float64",
+          "elements": 128,
+          "all_finite": true
+        },
+        {
+          "key": "fine_nodes",
+          "shape": [
+            256
+          ],
+          "dtype": "float64",
+          "elements": 256,
+          "all_finite": true
+        },
+        {
+          "key": "fine_weights",
+          "shape": [
+            256
+          ],
+          "dtype": "float64",
+          "elements": 256,
+          "all_finite": true
+        },
+        {
+          "key": "s2",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "elements": 2,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/transpose_pairing_1000000.npz",
+      "bytes": 3606,
+      "sha256": "a3cf286529b643f12d48cf045eac3f2d3373d92b2eb732b75ea32ba1a5154722",
+      "arrays": [
+        {
+          "key": "frequencies",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "elements": 2,
+          "all_finite": true
+        },
+        {
+          "key": "w_vectors",
+          "shape": [
+            150,
+            2
+          ],
+          "dtype": "complex128",
+          "elements": 300,
+          "all_finite": true
+        },
+        {
+          "key": "transpose_pairings",
+          "shape": [
+            2
+          ],
+          "dtype": "complex128",
+          "elements": 2,
+          "all_finite": true
+        },
+        {
+          "key": "compression_zero",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "elements": 1,
+          "all_finite": true
+        },
+        {
+          "key": "compression_selected",
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "float64",
+          "elements": 4,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/transpose_pairing_16000000.npz",
+      "bytes": 10858,
+      "sha256": "0577a6f959fb0556ef477da7d911f7017fc675fd66ccdf693b297f03f6b2771c",
+      "arrays": [
+        {
+          "key": "frequencies",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "elements": 2,
+          "all_finite": true
+        },
+        {
+          "key": "w_vectors",
+          "shape": [
+            600,
+            2
+          ],
+          "dtype": "complex128",
+          "elements": 1200,
+          "all_finite": true
+        },
+        {
+          "key": "transpose_pairings",
+          "shape": [
+            2
+          ],
+          "dtype": "complex128",
+          "elements": 2,
+          "all_finite": true
+        },
+        {
+          "key": "compression_zero",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "elements": 1,
+          "all_finite": true
+        },
+        {
+          "key": "compression_selected",
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "float64",
+          "elements": 4,
+          "all_finite": true
+        }
+      ]
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/arrays/transpose_pairing_4000000.npz",
+      "bytes": 6034,
+      "sha256": "81f1dec6f2efd6ac07f4d8fc9cb4c684be428d0a2e428c716f87215cf219aeaf",
+      "arrays": [
+        {
+          "key": "frequencies",
+          "shape": [
+            2
+          ],
+          "dtype": "float64",
+          "elements": 2,
+          "all_finite": true
+        },
+        {
+          "key": "w_vectors",
+          "shape": [
+            300,
+            2
+          ],
+          "dtype": "complex128",
+          "elements": 600,
+          "all_finite": true
+        },
+        {
+          "key": "transpose_pairings",
+          "shape": [
+            2
+          ],
+          "dtype": "complex128",
+          "elements": 2,
+          "all_finite": true
+        },
+        {
+          "key": "compression_zero",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "elements": 1,
+          "all_finite": true
+        },
+        {
+          "key": "compression_selected",
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "float64",
+          "elements": 4,
+          "all_finite": true
+        }
+      ]
+    }
+  ]
+}
