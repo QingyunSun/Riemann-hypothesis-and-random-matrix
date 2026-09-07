@@ -6412,6 +6412,11 @@
       "sha256": "2e1e19544854af0375b3b114c2e38448f8841cf70680690e1b1c7749f3800403"
     },
     {
+      "path": "research/reports/progress_assessment_2026_09_07.md",
+      "bytes": 8966,
+      "sha256": "59e6aa39e998634c5653eaa9eb2ab153283564667e626ea289872eb99a03a9c1"
+    },
+    {
       "path": "research/reports/residual_gram_round1.md",
       "bytes": 22295,
       "sha256": "21b55679859ee1b67ea3b5c244b0d4367e5124be05e28d62aa13bcd02e877163"
@@ -7640,6 +7645,11 @@
       "path": "fable/reviews/pr11-89393d5/refute_F1_rigour.replay.log",
       "bytes": 1765,
       "sha256": "244c50d8c085bf4691e9ea07413cc6c6ca7ad6a2da92ea485d3d1896ccb66e60"
+    },
+    {
+      "path": "fable/reviews/pr11-a64b698/PRIME_CLAIM_AUDIT.md",
+      "bytes": 9493,
+      "sha256": "f372f2d31ac01cb219125f09c4d2b012a588d4ad5f02e4fbf12a078574c37c8b"
     },
     {
       "path": "fable/snapshots/2073028/SOURCE_MANIFEST.json",
