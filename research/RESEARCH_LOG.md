@@ -2,6 +2,14 @@
 
 This log records problems, mathematical arguments, calculations, corrections, and evidence. It is a public research record, not a transcript of private model deliberation. Detailed proofs and counterexamples live in the linked reports. Timestamps record checkpoints; they do not imply continuous computation between checkpoints.
 
+## 2026-09-07: R30 upper-height elimination and candid assessment
+
+The user's NEW_RESULTS summary was independently assessed at immutable source a64b698. The [Chinese assessment](reports/progress_assessment_2026_09_07.md) records the absence of a major-conjecture result, the finite CUE theorem's actual scope, explicit low-bandwidth and sine-tilt counterexamples to overbroad wording, the signed residual obstruction, and the incomplete public repair certificate outputs for the multi-prime claims.
+
+The substantive new arithmetic step is [R30](reports/dyson_round30.md): full unmasked balanced blocks at X=T^alpha, with fixed 2+delta<=alpha<=9/4, vanish under RH with an explicit power saving. The root proposed using reciprocal-zeta cancellation above the central scale; an independent agent wrote the complete sharp Perron and general-height energy proof, and root plus coordinator checked it. The first stationary alias now lies above the prime-error Mellin scale; a fixed second-order energy controls its entire tail. Twelve exact algebra identities were independently replayed. No new prime scan was run. The central scale and the strict global signed inequality remain open, and novelty is unassessed.
+
+The preceding sharp stationary representation is also retained. Its endpoint-uniform vanishing error did not solve the actual central signed main term. This failure explains why the next estimate must exploit that correlation or an equally strong arithmetic input. Local KaTeX returned empty exports during the upper-height syntax check; the failure is preserved as unavailable, not passed.
+
 ## 2026-09-05: source recovery and independent audit
 
 **Question.** Which statements in the earlier ACUE, Newman-depth, zeta and prime-gap programme survive direct checking?

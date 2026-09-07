@@ -4,6 +4,9 @@ The classifications below apply to the exact stated scope. “Proof with interna
 
 | ID | Claim | Status | Evidence and remaining obligation |
 |---|---|---|---|
+| R30-ARITH-001 | Complete unmasked balanced block is o(1) uniformly for fixed 2+delta<=alpha<=9/4 | Ordinary RH proof with author, root and coordinator review | `research/reports/dyson_round30.md`; explicit power saving; fixed profiles and sharp odd intervals only; central alpha=2 and global threshold remain open |
+| R30-REP-001 | Sharp odd cofactor sum has endpoint-uniform stationary representation with retained second saddle | Written proof with internal reviews | `research/dyson/round30/stationary-challenge/SHARP_ODD_STATIONARY_CHALLENGE.md`; band projection remains noncompact; no new central signed estimate follows |
+| R30-CHECK-001 | Twelve exponent and norm identities replay byte for byte | Reproduced finite algebra | `research/dyson/round30/stationary-challenge/upper_height_algebra_checks.json`; no analytic or formal certification; upper-height syntax check unavailable |
 | AUD-001 | Independent historical audit has 21 passing checks | Reproduced finite checks | `research/logs/audit_results.json`; not a blanket theorem audit |
 | AUD-002 | Original verifier has 39 pass, 4 fail, 1 skip | Recorded run | `research/logs/verify-codex-original.log`; zero process exit does not erase failures |
 | ALG-001 | Fixed-support approximator is saturated | Exact algebra | `research/reports/residual_gram_round1.md`; says nothing about larger support |

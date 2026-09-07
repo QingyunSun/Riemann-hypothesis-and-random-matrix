@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-07",
+  "status": "Independent ordinary derivation accepts the proposed upper-height balanced-block saving, subject to root review.",
+  "theoremScope": "Ordinary RH; all odd sharp d,k intervals with D,K comparable to sqrt(X); fixed smooth profiles; X=T^alpha, 2+delta<=alpha<=9/4, fixed delta>0. No arbitrary divisor mask or global variance conclusion.",
+  "bound": "O(T^(-141/800)/sqrt(log T) + T^(-3 delta/4))",
+  "artifacts": [
+    {"path": "UPPER_HEIGHT_BALANCED_CHECK.md", "bytes": 12457, "sha256": "53aa1b19cd28094248efe2ac5d3f88859e27f1751ebb1ffbbaa6c6e38213d5f2"},
+    {"path": "check_upper_height_algebra.py", "bytes": 2011, "sha256": "1c6b69e3faebc4e7c437836dc1ce9a3cb2a336fa558dce99a2243e3b78c35547"},
+    {"path": "upper_height_algebra_checks.json", "bytes": 529, "sha256": "8d92f945a165a6ad224312cd7af2083c00488176a5bf8f0d94fcd869bb2f4865"},
+    {"path": "check_upper_height_syntax.cjs", "bytes": 1552, "sha256": "a9d18040ed1bc460c468a10ba6dd6d88c3382a5352f5a6f745ff48ad85ad5786"},
+    {"path": "upper_height_syntax_checks.json", "bytes": 413, "sha256": "e9656c4d89851e53119fbaf5b9f31f89d14965b61cc1d765bab5ee68712f33d7"},
+    {"path": "upper_height_syntax_runtime_error.json", "bytes": 11599, "sha256": "ef0ac1f658934da6ae376b5368ea615dec0192a98c304fc671283f0dad483ef4"}
+  ],
+  "sources": [
+    {"path": "../../research-round29/signed-mellin-test/SIGNED_MELLIN_BLOCK_BOUND.md", "sha256": "753f116b8ebc5d6cc7d7a4e148c98e9b8ef9df97d4327efe2fa094507aa13492", "use": "Complete corrected proof read; exact extension, energy proofs and sharp Dirichlet-polynomial estimates checked at general X."},
+    {"path": "../../research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md", "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5", "use": "Complete proof read to verify that the new full balanced-block conclusion was not already its theorem."},
+    {"url": "https://www.isibang.ac.in/~statmath/eprints/2005/isibc200535.pdf", "location": "printed page 4, PDF page index 5, equation (3)", "use": "Independently read primary reciprocal-zeta estimate; sharp odd Perron consequence derived in the note."}
+  ],
+  "verification": {
+    "exactAlgebraGroupsPassed": 12,
+    "syntaxStatus": "UNAVAILABLE: existing Dropbox KaTeX module returned empty exports",
+    "newPrimeCalculations": 0,
+    "newExternalModels": 0,
+    "formalProofCertification": false,
+    "gitWrites": 0
+  }
+}
