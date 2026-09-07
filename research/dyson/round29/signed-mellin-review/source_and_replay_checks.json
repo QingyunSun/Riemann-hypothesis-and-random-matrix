@@ -1,0 +1,163 @@
+{
+  "author_files": [
+    {
+      "bytes": 16995,
+      "matches": true,
+      "path": "SIGNED_MELLIN_BLOCK_BOUND.md",
+      "sha256": "753f116b8ebc5d6cc7d7a4e148c98e9b8ef9df97d4327efe2fa094507aa13492"
+    },
+    {
+      "bytes": 4502,
+      "matches": true,
+      "path": "check_signed_mellin.py",
+      "sha256": "64aef6b9cdd651ab07c5fb26272716ee04e7b99206b98ec7eedce58defb3e83d"
+    },
+    {
+      "bytes": 1611,
+      "matches": true,
+      "path": "exact_check_results.json",
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "bytes": 1611,
+      "matches": true,
+      "path": "exact_check_stdout.log",
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "bytes": 5686,
+      "matches": true,
+      "path": "source_manifest.json",
+      "sha256": "b1499d0344af32ca17ef89c2d5a8a9a3118644d97d16f073876ac54d5de008f2"
+    },
+    {
+      "bytes": 74,
+      "matches": true,
+      "path": "math_syntax_check.json",
+      "sha256": "9348b6cedbc616c453155d0db051f33a0ad782810194d1a5f7535aa96018ed28"
+    }
+  ],
+  "author_manifest": {
+    "bytes": 2274,
+    "sha256": "b0c59369ba98535d47db0a65aa201dbd218de00824bd53d9e939e2b113e96023"
+  },
+  "copied_replay": {
+    "author_directory_unmodified": true,
+    "check_groups": 7,
+    "json_equals_author_json": true,
+    "json_equals_stdout": true,
+    "output": {
+      "bytes": 1611,
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    "scalar_cases": 147,
+    "stderr_empty": true,
+    "stdout_equals_author_stdout": true,
+    "temporary_copy_only": true
+  },
+  "python_version": "3.14.3",
+  "scope": "Seven tiny exact groups only. No asymptotic proof or prime estimate is inferred from finite tests.",
+  "source_files": [
+    {
+      "bytes": 719168,
+      "matches": true,
+      "path": "research-round29/signed-mellin-test/sources/brent-platt-trudgian-mean-square.pdf",
+      "sha256": "4be3667cbe07ab6a24930e8835923362ae12af946b622fa73c89fd654e9fae34"
+    },
+    {
+      "bytes": 67296,
+      "matches": true,
+      "path": "research-round29/signed-mellin-test/sources/brent-platt-trudgian-mean-square.txt",
+      "sha256": "097137ff929ceb80766738b33feb81cb18de38873869ecfef520bdc3037c3eb7"
+    },
+    {
+      "bytes": 538953,
+      "matches": true,
+      "path": "research-round29/signed-mellin-test/sources/montgomery-vaughan-hilbert-1974.pdf",
+      "sha256": "0dbcddf24bc41c65d1920c59aafe7fe85f13a7519b0edf9be9164c84d1cc6db4"
+    },
+    {
+      "bytes": 29600,
+      "matches": true,
+      "path": "research-round29/signed-mellin-test/sources/montgomery-vaughan-hilbert-1974.txt",
+      "sha256": "e6e22c1dcde3e2af219d081b0f122e457c2580bb062d75a18e798f1073a0f8a8"
+    },
+    {
+      "bytes": 3173609,
+      "matches": true,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340"
+    },
+    {
+      "bytes": 1503246,
+      "matches": true,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd"
+    },
+    {
+      "bytes": 843595,
+      "matches": true,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac"
+    },
+    {
+      "bytes": 180918,
+      "matches": true,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "bytes": 223282,
+      "matches": true,
+      "path": "research-round29/signed-mellin-test/sources/bpt-page741.png",
+      "sha256": "97d03855e65d723a7c038ad1860512ff5b05bc24230578496099aa6a8a07e0c5"
+    },
+    {
+      "bytes": 177771,
+      "matches": true,
+      "path": "research-round29/signed-mellin-test/sources/hilbert-page75.png",
+      "sha256": "eb422def8499ab579f267db6e5e6280ef07a9473a940152e949f2616511a19d2"
+    },
+    {
+      "bytes": 186346,
+      "matches": true,
+      "path": "research-round29/signed-mellin-test/sources/mv-page7.png",
+      "sha256": "78b4e9eb8d66f21a7f43d93e7f18bda65c63f85ad3cd6033b9564962213177d0"
+    },
+    {
+      "bytes": 150296,
+      "matches": true,
+      "path": "research-round29/signed-mellin-test/sources/mv-page8.png",
+      "sha256": "b9e01a9ae5bea8cb30b31ea4c4c21124ef8dff1273556578a95606f0dcb1c772"
+    },
+    {
+      "bytes": 17690,
+      "matches": true,
+      "path": "research-round27/joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942"
+    },
+    {
+      "bytes": 20835,
+      "matches": true,
+      "path": "research-round27/joint-dispersion-review/INDEPENDENT_JOINT_DISPERSION_REVIEW.md",
+      "sha256": "fd21347c625d394a1a31ce5eb1b5fc0519ae46d68313a8cd8f0607afdbeab603"
+    },
+    {
+      "bytes": 14373,
+      "matches": true,
+      "path": "research-round28/mellin-operator-audit/MELLIN_OPERATOR_AUDIT.md",
+      "sha256": "243994064c74e4fda98ae0aadf7364678e49756f5d282cc36a4a56a134373e7a"
+    },
+    {
+      "bytes": 22834,
+      "matches": true,
+      "path": "research-round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    }
+  ],
+  "source_manifest": {
+    "bytes": 5686,
+    "sha256": "b1499d0344af32ca17ef89c2d5a8a9a3118644d97d16f073876ac54d5de008f2"
+  },
+  "status": "PASS"
+}

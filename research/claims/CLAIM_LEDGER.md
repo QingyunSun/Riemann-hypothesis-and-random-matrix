@@ -363,3 +363,13 @@ All author files and subsequent acceptance records remain byte-identical. See re
 | R28-D | Selected Mellin transpose pairings reach 35.3%,47.3%,54.8% of three saved matrix norms | Independently reproduced floating diagnostic | Full raw matrices/coefficients/spectra and six evaluations retained; no interval enclosure or asymptotic exponent |
 | R28-P | Top-vector plane overlap alone does not measure the transpose pairing | Exact algebraic distinction with observed finite relevance | Follow-up computes transpose, not adjoint; no arbitrary mode removal |
 | R28-OPEN | Uniform actual operator bound or strict global fixed signed variance bound | Open | Finite matrices and model theorem establish neither |
+
+## Round 29: complete local fixed-pairing control
+
+| ID | Claim | Status | Evidence and remaining obligation |
+|---|---|---|---|
+| R29-C | Each balanced central fixed Mobius/log block is O(1) under RH | Complete ordinary proof with full independent reviews | X=T², Y=T, sharp odd factor intervals and fixed profiles; not the complete global partition |
+| R29-L | Its whole low Mellin interval contributes O(1/log X) | Complete ordinary RH proof | Cramer mean square and exact negative-order decomposition, including lattice and powers2 corrections |
+| R29-H | Every higher Mellin band is bounded by O_j((R/T)^(1-j)), with summable tails | Complete ordinary RH proof | All fixed derivative orders; actual Selberg input still has two logarithms |
+| R29-P | One input plane has log-vector projection O(log T/sqrt T); its whole normalized output contributes O_eta(T^(-1/2+eta)) | Unconditional projection lemma plus RH application, independently reviewed | Uniform t in [T,2T] on fixed R28 interval; residual and growing families remain uncontrolled |
+| R29-OPEN | Actual stationary signed correlation yields a strict global improvement below A-2M | Open | Local boundedness does not give a sign, explicit strict constant, or global summability |

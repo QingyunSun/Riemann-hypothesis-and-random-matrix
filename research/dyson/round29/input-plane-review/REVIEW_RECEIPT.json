@@ -1,0 +1,95 @@
+{
+  "accepted_claims": [
+    "Unconditional exact plane Gram lower bound \u226bT uniformly t\u2208[T,2T].",
+    "Unconditional ||P_t log||\u226alog T / sqrt T.",
+    "Under RH inherited Frobenius bound, whole normalized input-plane contribution is O_eta(T^(-1/2+eta)).",
+    "The exact residual identity retains all output components, without replacing C by P_t C P_t."
+  ],
+  "date": "2026-09-05",
+  "original_archived_byte_identically": true,
+  "original_author": "Coordinator",
+  "original_input": {
+    "bytes": 6544,
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r28-input-projection/LOG_VECTOR_MELLIN_INPUT_PROJECTION.md",
+    "sha256": "f808242fbfddfbff337859eb375e6e22934fe2edba1bec11c7c5d822ba675739"
+  },
+  "preservation": "Original coordinator bytes, source files, all earlier rounds and Git unchanged; only new R29 review files written.",
+  "primary_and_programme_dependencies": [
+    {
+      "bytes": 3173609,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340"
+    },
+    {
+      "bytes": 1503246,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd"
+    },
+    {
+      "bytes": 17690,
+      "path": "research-round27/joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942"
+    },
+    {
+      "bytes": 20835,
+      "path": "research-round27/joint-dispersion-review/INDEPENDENT_JOINT_DISPERSION_REVIEW.md",
+      "sha256": "fd21347c625d394a1a31ce5eb1b5fc0519ae46d68313a8cd8f0607afdbeab603"
+    }
+  ],
+  "primary_read_scope": "MV Theorem16.5, Corollary16.6 and Theorem16.7 including surrounding proofs and negative-second-derivative remark, printed6-9, retained primary extraction. No new external theorem invoked.",
+  "review_files": [
+    {
+      "bytes": 6544,
+      "path": "research-round29/input-plane-review/COORDINATOR_LOG_VECTOR_MELLIN_INPUT_PROJECTION.md",
+      "sha256": "f808242fbfddfbff337859eb375e6e22934fe2edba1bec11c7c5d822ba675739"
+    },
+    {
+      "bytes": 10930,
+      "path": "research-round29/input-plane-review/INDEPENDENT_INPUT_PLANE_REVIEW.md",
+      "sha256": "79ee2c5d96272492fa80c33f9c96f20f1976712fd1efee9fc33d641fdd50f656"
+    },
+    {
+      "bytes": 2031,
+      "path": "research-round29/input-plane-review/check_projection_algebra.py",
+      "sha256": "ff7bda1d510f6cd846b01f45921dc9e4f888283aaf054cb69e95e80d97b7df66"
+    },
+    {
+      "bytes": 856,
+      "path": "research-round29/input-plane-review/exact_projection_checks.json",
+      "sha256": "d4032c79712dda825940405d98fd410ee1da6741d85a0877c6b548a7a2fe357e"
+    },
+    {
+      "bytes": 856,
+      "path": "research-round29/input-plane-review/exact_projection_checks.log",
+      "sha256": "d4032c79712dda825940405d98fd410ee1da6741d85a0877c6b548a7a2fe357e"
+    },
+    {
+      "bytes": 1549,
+      "path": "research-round29/input-plane-review/check_math_syntax.cjs",
+      "sha256": "1b5f4a297c99eb149313a944a7ebb33ef433f57993496c9f5399a82ebb843eb5"
+    },
+    {
+      "bytes": 286,
+      "path": "research-round29/input-plane-review/math_syntax_checks.json",
+      "sha256": "a2be2e2676bf4588ac97d51b0633680286f47ac09d3ad9dde3d364287e642da6"
+    }
+  ],
+  "reviewer": "Plato / residual_gram",
+  "scope_limits": [
+    "No bound for the remaining input vector or full global covariance.",
+    "No sum over a growing family of planes without joint Gram control.",
+    "No finite numerical threshold is claimed.",
+    "No asymptotic operator obstruction or famous-conjecture result."
+  ],
+  "status": "accepted and frozen ordinary independent proof review",
+  "verification": {
+    "development_note": "Initial SymPy charpoly assertion used a generator with mismatched assumptions; replaced by the identical direct determinant expression before final freeze. No mathematical formula changed.",
+    "exact_symbolic_checks": 12,
+    "json_stdout_byte_identical": true,
+    "math_errors": [],
+    "math_expressions": 72,
+    "no_scan": true,
+    "sympy_version": "1.14.0",
+    "unexpected_control_bytes": []
+  }
+}

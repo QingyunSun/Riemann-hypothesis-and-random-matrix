@@ -48,3 +48,6 @@ research/dyson/round26/full-shift-reduction/check_full_shift.py whitespace=-blan
 
 # Preserve frozen Round 27 source EOF blank lines.
 research/dyson/round27/joint-dispersion-test/check_joint_dispersion.py whitespace=-blank-at-eof
+
+# Preserve the frozen Round 29 independent source review verbatim.
+research/dyson/round29/mellin-energy-review/INDEPENDENT_MELLIN_ENERGY_REVIEW.md whitespace=-blank-at-eof

@@ -1,0 +1,163 @@
+{
+  "artifacts": [
+    {
+      "bytes": 9836,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-review/INDEPENDENT_MELLIN_ENERGY_REVIEW.md",
+      "sha256": "241597dc909bcc84368c77674040894b57abd3ad5d582ec8f74af99aed708bfe"
+    },
+    {
+      "bytes": 2023,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-review/check_mellin_energy.py",
+      "sha256": "cac4a8cc61513988fd8fc49e21f1049f3419635395d3fba461c0b5a1f69411f0"
+    },
+    {
+      "bytes": 604,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-review/mellin_energy_checks.json",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 604,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-review/mellin_energy_checks.log",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 1494,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-review/check_math_syntax.cjs",
+      "sha256": "9acdc382700501fbadffce74b47194fb09bb7b6c6c2f2ca438d944f6b7415f18"
+    },
+    {
+      "bytes": 286,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-review/math_syntax_checks.json",
+      "sha256": "5a2f017e560978d508df9c5436c7eb422ab587e50ffef6c380b99e66570ae781"
+    }
+  ],
+  "author_artifacts_verified": [
+    {
+      "bytes": 13239,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/WEIGHTED_MELLIN_ENERGY.md",
+      "sha256": "5b7378c9e4e18881c829883b199dfded12a103945d7a64b72a908343aad013a7"
+    },
+    {
+      "bytes": 2023,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/check_mellin_energy.py",
+      "sha256": "cac4a8cc61513988fd8fc49e21f1049f3419635395d3fba461c0b5a1f69411f0"
+    },
+    {
+      "bytes": 604,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/mellin_energy_checks.json",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 604,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/mellin_energy_checks.log",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 1126,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/check_syntax.cjs",
+      "sha256": "ded5b1edc8fc919c2fe783a9c958d4489a5fb75a2275586a128d473712af7609"
+    },
+    {
+      "bytes": 83,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/syntax_checks.json",
+      "sha256": "9efee991232ca853b50a8372b94e3581a7a5ece03c2b294669bae31bf1f5a992"
+    },
+    {
+      "bytes": 3066,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/source_receipt.json",
+      "sha256": "053039168a1d2ace628b3f8b2ab0ecdc3a7c80f27480d7c53ca013d5283e2ea4"
+    }
+  ],
+  "complete_replay": {
+    "all_passed": true,
+    "checks": 13,
+    "output": {
+      "bytes": 604,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-review/mellin_energy_checks.json",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    "stderr_empty": true,
+    "temporary_copy_only": true,
+    "whole_json_equals_stdout_and_all_four_frozen_outputs": true
+  },
+  "completion_agent": "r29_close; preserves the existing complete ordinary review",
+  "historical_wording_recovery": {
+    "current": {
+      "bytes": 13239,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/WEIGHTED_MELLIN_ENERGY.md",
+      "sha256": "5b7378c9e4e18881c829883b199dfded12a103945d7a64b72a908343aad013a7"
+    },
+    "mathematical_change": "None. Exact adjacent-increment resonance and continuous stationary center are related but not identical.",
+    "method": "Reverse only the one recorded wording substitution in the final author file; the recovered 13211-byte file matches its previously recorded SHA256. This is recovery, not a claim of an original contemporaneous copy.",
+    "old": {
+      "bytes": 13211,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/historical-before-alias-wording/WEIGHTED_MELLIN_ENERGY.md",
+      "sha256": "c8f8c6bfcfc9d605e3d02e9031d56d88cc8ea3402096bcb06b394d0abe81ecff"
+    },
+    "status": "exact old bytes recovered and verified against the prior recorded hash"
+  },
+  "reviewer": "Astra root",
+  "scope": "RH fixed-order weighted Mellin energy O_j(Y log^2 X); unconditional sharp odd-log nonstationary bound. No strict deficit, one-log prime-window bound, growing derivative order, or M\u00f6bius-specific cancellation.",
+  "source_pins_verified": [
+    {
+      "bytes": 843595,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac"
+    },
+    {
+      "bytes": 180918,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "bytes": 3173609,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340"
+    },
+    {
+      "bytes": 1503246,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd"
+    },
+    {
+      "bytes": 17690,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round27/joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942"
+    },
+    {
+      "bytes": 20291,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+    },
+    {
+      "bytes": 6686,
+      "matches_recorded_pin": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round28/actual-prime-matrix-test/mellin_results.json",
+      "sha256": "06624672d6b4739f0575e8125596e9020aeab44ea970b51ada16fbb43d73120e"
+    }
+  ],
+  "status": "ordinary proof accepted; interrupted receipt complete",
+  "syntax": {
+    "controls": [],
+    "errors": [],
+    "katexVersion": "0.18.5",
+    "mathExpressions": 81,
+    "reportSha256": "241597dc909bcc84368c77674040894b57abd3ad5d582ec8f74af99aed708bfe",
+    "scope": "KaTeX syntax and control-byte check only; not mathematical or visual proof.",
+    "status": "PASS"
+  },
+  "verification_boundary": "Finite exact algebra and byte comparisons are not formal verification of the analytic proof. No new prime, matrix, frequency scan, or source theorem reproof."
+}

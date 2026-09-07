@@ -1,0 +1,14 @@
+{
+  "scope": "Full ordinary proof review and exact source-applicability check; no numerical replay, Lean, or publication audit",
+  "decision": "accepted within balanced central fixed-profile scope",
+  "files": {
+    "SIGNED_MELLIN_BLOCK_BOUND_AUTHOR_FROZEN.md": {
+      "bytes": 16776,
+      "sha256": "99e25b2e25085077d47b575366e92e9609e83bd8db3584d2d744d9a99ff4c3f1"
+    },
+    "COORDINATOR_CENTRAL_BLOCK_REVIEW.md": {
+      "bytes": 6022,
+      "sha256": "4ec75b386f3155f297c6967faf73b6ddfd96ec7c3bbcda7c84516abc6eb99130"
+    }
+  }
+}

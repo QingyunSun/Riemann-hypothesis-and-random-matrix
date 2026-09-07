@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "odd_phase_first_derivative",
+    "double_phase_second_derivative",
+    "first_derivative_lower_using_pi_less_than_22_over_7",
+    "first_derivative_upper_using_pi_greater_than_3",
+    "second_derivative_lower_factor",
+    "second_derivative_upper_factor",
+    "second_derivative_fixed_ratio",
+    "Gram_characteristic_polynomial",
+    "exact_inverse_projection_form",
+    "target_power",
+    "target_log_power",
+    "X_power_conversion"
+  ],
+  "coordinator_sha256": "f808242fbfddfbff337859eb375e6e22934fe2edba1bec11c7c5d822ba675739",
+  "review_sha256": "79ee2c5d96272492fa80c33f9c96f20f1976712fd1efee9fc33d641fdd50f656",
+  "scope": "Exact derivative, Gram, range and normalization identities only; no finite threshold or asymptotic estimate is proved by these checks.",
+  "status": "PASS",
+  "sympy_version": "1.14.0",
+  "total": 12
+}

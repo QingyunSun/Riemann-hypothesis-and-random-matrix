@@ -1,0 +1,46 @@
+{
+  "author_manuscripts_unchanged_by_closure": true,
+  "main_author": {
+    "bytes": 16995,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/signed-mellin-test/SIGNED_MELLIN_BLOCK_BOUND.md",
+    "sha256": "753f116b8ebc5d6cc7d7a4e148c98e9b8ef9df97d4327efe2fa094507aa13492"
+  },
+  "receipts": [
+    {
+      "bytes": 8799,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-review/REVIEW_RECEIPT.json",
+      "sha256": "8ba3c9b294a083094318c98905e2e7ab7b1fd7e495070362f52422fb5509d023"
+    },
+    {
+      "bytes": 11746,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/signed-mellin-review/REVIEW_RECEIPT.json",
+      "sha256": "c01fa74b17dec077b71303f69debd2c9c5b9471ee98e43336935e3b15eb80764"
+    },
+    {
+      "bytes": 1053,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/historical-before-alias-wording/RECOVERY_RECEIPT.json",
+      "sha256": "1ab4ae12340091b6fd3a34a6581a4d4d4218c914132739501651aa8cca70e2ab"
+    }
+  ],
+  "replay_cases": {
+    "energy": 13,
+    "signed": 147
+  },
+  "scope": "Interrupted R29 review package closure only; no Git, publication, prime scan, PDF build, or additional model session.",
+  "script": {
+    "bytes": 8583,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/close_review_packages.py",
+    "sha256": "b0b12ec7268e1eff3605c27f9c54fcbb68948559ec675ed01774a3af4518322d"
+  },
+  "status": "PASS",
+  "support_author": {
+    "bytes": 13239,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/WEIGHTED_MELLIN_ENERGY.md",
+    "sha256": "5b7378c9e4e18881c829883b199dfded12a103945d7a64b72a908343aad013a7"
+  },
+  "syntax_expressions": {
+    "energy_review": 81,
+    "signed_review": 206
+  },
+  "theorem_status": "Individual balanced central O(1) and low O(1/log X) under RH. The actual signed carrier improvement and strict global AH threshold remain open."
+}

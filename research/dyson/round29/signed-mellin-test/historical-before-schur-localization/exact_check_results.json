@@ -1,0 +1,50 @@
+{
+  "all_passed": true,
+  "author_sha256": "99e25b2e25085077d47b575366e92e9609e83bd8db3584d2d744d9a99ff4c3f1",
+  "groups": [
+    {
+      "cases": 2,
+      "name": "negative_sobolev_derivative_signs",
+      "passed": true,
+      "scope": "Exact kernel derivative and G-prime decomposition; no derivative of E."
+    },
+    {
+      "cases": 3,
+      "name": "fixed_integer_derivative_operator",
+      "passed": true,
+      "scope": "Orders one through three, with actual Pareto factor and arbitrary A,V."
+    },
+    {
+      "cases": 119,
+      "name": "real_endpoint_odd_center",
+      "passed": true,
+      "scope": "Exact floor endpoints, prime powers, odd count, and at most one power of 2."
+    },
+    {
+      "cases": 3,
+      "name": "odd_lattice_frequency_normalization",
+      "passed": true,
+      "scope": "Poisson derivative and exact adjacent increment kept distinct."
+    },
+    {
+      "cases": 2,
+      "name": "mellin_sign_and_factor_two",
+      "passed": true,
+      "scope": "Positive phases in both polynomials; original 2 times inversion 1/(2pi)."
+    },
+    {
+      "cases": 6,
+      "name": "all_band_normalizations",
+      "passed": true,
+      "scope": "Negative-Sobolev mass, power-of-2 support debt, low and high band scales."
+    },
+    {
+      "cases": 12,
+      "name": "infinite_frequency_tail",
+      "passed": true,
+      "scope": "Geometric summability for every fixed derivative order at least two."
+    }
+  ],
+  "scope": "Exact finite checks only; analytic inequalities are proved and source-audited in the manuscript. No prime-height or frequency scan.",
+  "total_cases": 147
+}

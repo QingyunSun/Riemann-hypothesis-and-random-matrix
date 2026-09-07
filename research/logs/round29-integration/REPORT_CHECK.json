@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "New R29 editorial report syntax and local links only; no mathematical proof or visual PDF verification.",
+  "sha256": "57ecf7d4df9ce9c7d2fa0c275900db7bc43e2682f0b5a5f7840b035f79a63cb8",
+  "mathExpressions": 88,
+  "localLinks": [
+    "research/reports/dyson_round26.md",
+    "research/dyson/round29/signed-mellin-test/SIGNED_MELLIN_BLOCK_BOUND.md",
+    "research/dyson/round29/signed-mellin-review/INDEPENDENT_SIGNED_MELLIN_REVIEW.md",
+    "research/dyson/round29/coordinator-central-review/COORDINATOR_CENTRAL_BLOCK_REVIEW.md",
+    "research/dyson/round29/mellin-energy-support/WEIGHTED_MELLIN_ENERGY.md",
+    "research/dyson/round29/mellin-energy-review/INDEPENDENT_MELLIN_ENERGY_REVIEW.md",
+    "research/dyson/round29/input-plane-review/INDEPENDENT_INPUT_PLANE_REVIEW.md",
+    "research/reports/dyson_round28.md",
+    "research/dyson/round29/R29_REVIEW_CLOSURE_RECEIPT.json",
+    "research/dyson/round29/INTAKE_MANIFEST.json",
+    "research/logs/round29-integration/INTEGRATION_RECEIPT.json"
+  ],
+  "errors": [],
+  "controlBytes": 0
+}

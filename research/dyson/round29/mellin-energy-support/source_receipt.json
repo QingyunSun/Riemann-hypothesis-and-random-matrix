@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "bytes": 843595,
+      "label": "CCC primary PDF",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "scope": "Printed page 1, equations (1.1) and (1.3), fixed beta=3",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "bytes": 180918,
+      "label": "CCC primary extracted text",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "scope": "Same retained PDF; full Lambda definition and fixed-beta RH estimate",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "bytes": 3173609,
+      "label": "Montgomery-Vaughan primary author draft",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "scope": "Printed page 6, Theorem 16.5",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+      "url": "https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf"
+    },
+    {
+      "bytes": 1503246,
+      "label": "Montgomery-Vaughan extracted text",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "scope": "Exact monotone phase-increment statement",
+      "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd"
+    },
+    {
+      "bytes": 17690,
+      "label": "R27 exact actual-prime definition",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round27/joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+      "scope": "Sections 1,3-4; inherited F and odd f_T",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942"
+    },
+    {
+      "bytes": 20291,
+      "label": "R16 fixed spectral bump",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "scope": "Fixed smooth omega support",
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+    },
+    {
+      "bytes": 6686,
+      "label": "R28 frozen selected Mellin frequencies",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round28/actual-prime-matrix-test/mellin_results.json",
+      "scope": "Only previously selected t/T values; no new calculation",
+      "sha256": "06624672d6b4739f0575e8125596e9020aeab44ea970b51ada16fbb43d73120e"
+    }
+  ],
+  "status": "retained source/dependency bytes pinned; primary statements read"
+}

@@ -1,12 +1,14 @@
 # Current research state
 
-Updated 2026-09-06. Astra leads the research; Fable contributes through the user's single existing Claude Code session. The current programme spans 72 hours with recoverable checkpoints; no claim of uninterrupted execution or guaranteed conjecture solution is made.
+Updated 2026-09-07. Astra leads the research; Fable contributes through the user's single existing Claude Code session. The current programme spans 72 hours with recoverable checkpoints; no claim of uninterrupted execution or guaranteed conjecture solution is made. Work resumed after a usage-limit interruption, preserving the existing branch. The programme deadline is 2026-09-08 06:15 UTC; at that time finish the current bounded step and save the exact state rather than begin a new round.
 
 ## Main target
 
 The user's latest direction prioritizes Dyson–Montgomery, random matrices and actual zeta zeros. Under RH, seek an arithmetic inequality that refutes the precise AH-Pairs formulation or proves one explicit out-of-band pair-correlation test. Round 7 supplies two concrete targets: a two-scale logarithmic-derivative mean square with sufficient lower limit 1/16, and a compact Fourier bump with sufficient lower limit greater than 7/10. Neither lower bound is established. The normalized gap target below 1/2 remains another route; prime-gap parameter sweeps are paused. RMT results support these decisions and do not supply the missing zeta arithmetic.
 
 ## Current evidence
+
+- Round 29 proves under RH that each complete balanced central fixed Mobius/log block is O(1), its low Mellin contribution O(1/log X), and its high tails summable. A fixed-order Selberg energy estimate and a separate Cramer negative-order estimate retain every centering term. The uniform single-plane theorem bounds the whole projected input contribution, but leaves its complement. These improve local control; the global O(1) bound and unresolved strict threshold are unchanged.
 
 - Round 28 preserves three actual prime matrices and all raw data. Their selected Mellin transpose pairings reach 35–55% of finite operator norms, a stronger structure diagnostic than top-vector plane overlap. A separate ordinary proof identifies the exact prime/carrier/zero test for any uniform operator saving; a Gaussian cyclic model shows an extra logarithm only in that model. Independent full reviews retain floating versus proof scope and the open actual asymptotic bound.
 
@@ -77,7 +79,7 @@ The user's latest direction prioritizes Dyson–Montgomery, random matrices and 
 ## Active responsibilities
 
 - Astra: main proof dependencies, mathematical review and publication. Round 7's two actual-zeta targets are now the priority. The two-scale spectral weight changes sign beyond log(2 cosh 1); the actual ACUE process is a countermodel to deriving the 1/16 bound from known low-band identities plus generic positivity. An additional arithmetic input must be identified.
-- Internal research agents: Rounds 7–28 have frozen packages and independent reviews. R29 tests the exact fixed Mobius/log pairing using Mellin mean values, prime-error energy and sharp odd-cofactor phase estimates; central boundedness and a single-input-plane lemma are under separate ordinary review. No claimed strict global gain, additional numerical height, prime-gap sweep or new Fable/Claude session.
+- Internal research agents: Rounds 7–29 have frozen packages and independent reviews. The next bounded analytic task treats the stationary odd-log cofactor band with sharp endpoint transitions, then attempts its actual signed prime-error/Mobius correlation. A separate read-only audit examines the user's NEW_RESULTS summary. No claimed strict global gain, additional numerical height, prime-gap sweep or new Fable/Claude session.
 - Fable: [one computation packet](tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md), prepared for manual delivery by the user. The earlier FABLE_001 task was acknowledged in the existing Fable session. A new pinned PR11 snapshot at 89393d5 contains 141 files, including recovered proposer reports and F1 refuters. Separate intake finds a wrong Pi4 intermediate coefficient, a mixed-v table, and the refuter's own probe sign error. Further background/boundary objections remain recorded; source claim labels are not accepted wholesale. Receipt of the newer bounded packet remains unconfirmed. The earlier Claude MCP request failed OAuth401; it did not provide a review. No further Claude calls or sessions are authorized beyond the user's existing session.
 
 The single Fable task is independent continuum-certificate and fixed-vector finite-sum verification, including L=97 direct-versus-sparse and cutoffs through L=10^5. It ends after its report, with no automatic next task.

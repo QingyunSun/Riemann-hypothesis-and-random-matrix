@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "fixed_endpoint_pareto": true,
+    "fixed_endpoint_pareto_second": true,
+    "fixed_endpoint_profile": true,
+    "kernel_translation_commutator": true,
+    "mellin_binomial_0": true,
+    "mellin_binomial_1": true,
+    "mellin_binomial_2": true,
+    "mellin_binomial_3": true,
+    "mellin_binomial_4": true,
+    "mellin_binomial_5": true,
+    "mellin_binomial_6": true,
+    "odd_phase_stationary_normalization": true,
+    "short_interval_measure_change": true
+  },
+  "count": 13,
+  "scope": "exact elementary symbolic identities; no analytic source verification",
+  "status": "PASS"
+}
