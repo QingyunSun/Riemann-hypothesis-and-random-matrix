@@ -1,0 +1,55 @@
+{
+  "scope": "Math syntax and local links only. No analytic theorem certification.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "file": "research/reports/dyson_round30_followup.md",
+      "sha256": "ffbe5be3366fbb1eefa5bf4c9eec5a7ab76d5bf3aa172b55a521115932fa02e6",
+      "mathExpressions": 8,
+      "localLinks": 5,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "research/reports/progress_assessment_2026_09_07.md",
+      "sha256": "fb3cb0657e6f98ff823a023608ef7cc7ec30e5db49475bea87e71130fc20f0ec",
+      "mathExpressions": 40,
+      "localLinks": 11,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "research/dyson/round30/central-followup/ROOT_JOINT_ZERO_SAMPLING.md",
+      "sha256": "2e80e363c4c7f728a48f51dac1da0c2726e703696321726aaf3cdf803362da8a",
+      "mathExpressions": 10,
+      "localLinks": 1,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "research/dyson/round30/central-followup/ROOT_HEIGHT_LOCALIZATION.md",
+      "sha256": "ffef11541370cd0c9505dbe70157ebbfe068c00e02f6211aa26272e81201d078",
+      "mathExpressions": 5,
+      "localLinks": 1,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "research/dyson/round30/central-followup/STATIONARY_CHALLENGE_RAMANUJAN_MAIN.md",
+      "sha256": "6b09535747c82cc8d74b6dfe9db39177c1e34914904e0cf52c28b94f60ae1465",
+      "mathExpressions": 100,
+      "localLinks": 0,
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "research/dyson/round30/central-followup/zero-moment-review/ZERO_MOMENT_APPLICABILITY.md",
+      "sha256": "af97c91ae8f8be1c73aa730627a6a3c23e52d7ae9e4ed3d8f51c74890e654e09",
+      "mathExpressions": 110,
+      "localLinks": 1,
+      "errors": [],
+      "status": "PASS"
+    }
+  ],
+  "finiteReplay": "Principal checker complete JSON reproduced byte for byte in a temporary copy; 66 Fourier, 10 parity, 401 Ramanujan, 50 totient and transpose-control checks."
+}

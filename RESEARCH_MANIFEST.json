@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 81794,
-      "sha256": "57b42b538c5994b0cee20ac3fb26868f293d21e1b807cc4eee932be59f7d4a64"
+      "bytes": 83299,
+      "sha256": "e96cfd1d0453e742773afe7c39368d9029162c021685f5df29163fbfc129b7c6"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 57915,
-      "sha256": "48d506fd42b434eb3f1023f04377fc3c7137c3024e232802976483b64a586d24"
+      "bytes": 58866,
+      "sha256": "e858c7dcfa5f944f3800e0a9db07e9a477344fa87b44302047625135332d9020"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -3882,6 +3882,76 @@
       "sha256": "ae4c065b74b61ac524347597fd5caf925fd05ad034edfcc4a4c4d9e78c66e8ae"
     },
     {
+      "path": "research/dyson/round30/central-followup/FOLLOWUP_INTAKE.json",
+      "bytes": 2613,
+      "sha256": "3f8ec39031da80fdb3662763f6d0623dfa0e0a87a9c32a28581232069b7da670"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/ROOT_CLOSEOUT_REVIEW.md",
+      "bytes": 4396,
+      "sha256": "e9d46b88c5952512f8142dc1b0035d143d89ea74517ff9d800fff1986bb276fb"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/ROOT_HEIGHT_LOCALIZATION.md",
+      "bytes": 3982,
+      "sha256": "ffef11541370cd0c9505dbe70157ebbfe068c00e02f6211aa26272e81201d078"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/ROOT_JOINT_ZERO_SAMPLING.md",
+      "bytes": 5303,
+      "sha256": "2e80e363c4c7f728a48f51dac1da0c2726e703696321726aaf3cdf803362da8a"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/ROOT_VERIFICATION.json",
+      "bytes": 1963,
+      "sha256": "a9d10fea3b04580a13df81436634253661ce2193bb8b592bf58a738a5d7a82bb"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/STATIONARY_CHALLENGE_RAMANUJAN_MAIN.md",
+      "bytes": 13573,
+      "sha256": "6b09535747c82cc8d74b6dfe9db39177c1e34914904e0cf52c28b94f60ae1465"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/STATIONARY_CHALLENGE_RAMANUJAN_RECEIPT.json",
+      "bytes": 2420,
+      "sha256": "5a8c06a2e8859eadb7b2e8d87043ae22c74c924d56a27f4b6dacc9dd5d220a06"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/check_stationary_challenge_ramanujan.py",
+      "bytes": 2309,
+      "sha256": "529ed3a1d11ce38144eb1cd02bb9026c66067989114cfb81282a04553e21bde8"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/stationary_challenge_ramanujan_checks.json",
+      "bytes": 369,
+      "sha256": "f7ed84c874f07e77c942c2b6208ee041c1a1311975f0e680e86adc11d37986b6"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/zero-moment-review/SOURCE_REVIEW_RECEIPT.json",
+      "bytes": 7863,
+      "sha256": "0fe239c228baabc7927a2d5e9ac0cde0aaefbe5f09aa1a1904fa2e3602942f66"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/zero-moment-review/ZERO_MOMENT_APPLICABILITY.md",
+      "bytes": 14137,
+      "sha256": "af97c91ae8f8be1c73aa730627a6a3c23e52d7ae9e4ed3d8f51c74890e654e09"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/zero-moment-review/check_note_syntax.cjs",
+      "bytes": 1404,
+      "sha256": "30fb9ee85e475b509602692cfb444dbea40d289c5e102d859eb3e8b525241d5f"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/zero-moment-review/math_syntax_checks.json",
+      "bytes": 301,
+      "sha256": "aaeb53438b35b3161a5ffb3a2020dba53dbd8d445731a7e8c1cce6984f01f5c2"
+    },
+    {
+      "path": "research/dyson/round30/central-followup/zero-moment-review/write_source_receipt.py",
+      "bytes": 3748,
+      "sha256": "d7c7d56969a3abf7d32ba4a2f722c3d4fcb2fdd24a530613d684cdff6501e8a8"
+    },
+    {
       "path": "research/dyson/round30/stationary-challenge/AUTHOR_RECEIPT.json",
       "bytes": 1727,
       "sha256": "6c61cc76d549b304c972852df934e9f980e2154bd3aefec04bda4fb9070556f1"
@@ -6417,6 +6487,11 @@
       "sha256": "18066a53a64520af202cdce330574c5ef3afa958230ce998070d91c3275e1879"
     },
     {
+      "path": "research/reports/dyson_round30_followup.md",
+      "bytes": 7661,
+      "sha256": "ffbe5be3366fbb1eefa5bf4c9eec5a7ab76d5bf3aa172b55a521115932fa02e6"
+    },
+    {
       "path": "research/reports/dyson_round7.md",
       "bytes": 8767,
       "sha256": "30ae0f293454aabdf22dbbc9908f1551c1c5a0488d3e3b9ac0f1105459569b33"
@@ -6493,8 +6568,8 @@
     },
     {
       "path": "research/reports/progress_assessment_2026_09_07.md",
-      "bytes": 8966,
-      "sha256": "59e6aa39e998634c5653eaa9eb2ab153283564667e626ea289872eb99a03a9c1"
+      "bytes": 10857,
+      "sha256": "fb3cb0657e6f98ff823a023608ef7cc7ec30e5db49475bea87e71130fc20f0ec"
     },
     {
       "path": "research/reports/residual_gram_round1.md",
@@ -7088,8 +7163,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 14259,
-      "sha256": "8b49a987aa0bec1cae5652b9ce2ee8d4b87aa7b97926fb985022232f46a9efaa"
+      "bytes": 14579,
+      "sha256": "7ee71f8364e0f0f5ea2f155430a59e6e751bc59239bf5105588a184599bf4fcb"
     },
     {
       "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",

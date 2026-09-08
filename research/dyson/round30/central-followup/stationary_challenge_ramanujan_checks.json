@@ -1,0 +1,10 @@
+{
+  "cancelled_parity_modes": 10,
+  "fourier_cases": 66,
+  "incorrect_same_sign_control_rejected": true,
+  "ramanujan_bound_cases": 401,
+  "scope": "Exact finite Fourier, arithmetic-identity and transpose-sign checks only; no asymptotic proof certification or prime calculation.",
+  "status": "passed",
+  "totient_identity_cases": 50,
+  "transpose_identity_cases": 1
+}

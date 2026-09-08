@@ -2,6 +2,14 @@
 
 This log records problems, mathematical arguments, calculations, corrections, and evidence. It is a public research record, not a transcript of private model deliberation. Detailed proofs and counterexamples live in the linked reports. Timestamps record checkpoints; they do not imply continuous computation between checkpoints.
 
+## 2026-09-08: final bounded central challenge
+
+The [closing follow-up](reports/dyson_round30_followup.md) records a negligible complete periodic principal, the exact finite projected prime discrepancy, a critical-length zero-norm comparison, root's actual joint-zero sampling identity with absolute O(1/loglog T) error, and upper-balanced-tail tightness. All ordinary arguments were independently read and challenged; the complete finite cyclotomic/principal checker replays byte for byte. The tempting deletion of a Mellin projection is replaced by its correct bilinear transpose P_{-J}. The actual signed discrepancy and the equivalent unevaluated weighted-zero expression remain open.
+
+The root and coordinator separately checked the centered derivative norms in the joint sampling proof. Their common carrier is log(DK/X)=O(1); this pays the variation instead of assuming it harmless. It gives a comparison identity, not a strict signed gain. The separate sampling note records the applicable primary theorem's actual error and the different prefix/weight scope of a Möbius mollifier theorem. The reciprocal has poles at zeta zeros, so no automatic vanishing is invoked.
+
+This closes the final bounded mathematical step before the fixed 2026-09-08 06:15 UTC programme cutoff. The major-theorem objective is not achieved. No new research round, model session or prime scan is initiated. All previously missing global inequalities remain explicitly missing in the state, assessment and claim ledger.
+
 ## 2026-09-07: R30 upper-height elimination and candid assessment
 
 The user's NEW_RESULTS summary was independently assessed at immutable source a64b698. The [Chinese assessment](reports/progress_assessment_2026_09_07.md) records the absence of a major-conjecture result, the finite CUE theorem's actual scope, explicit low-bandwidth and sine-tilt counterexamples to overbroad wording, the signed residual obstruction, and the incomplete public repair certificate outputs for the multi-prime claims.
