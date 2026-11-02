@@ -1,0 +1,7 @@
+N=2 r=1 Casimir=1 residual=0
+N=2 r=2 Casimir=3 residual=0
+N=2 r=3 Casimir=6 residual=0
+N=3 r=1 Casimir=1 residual=0
+N=3 r=2 Casimir=8/3 residual=0
+N=3 r=4 Casimir=8 residual=0
+PASS: six exact Laurent-generator eigenfunction checks

@@ -1,0 +1,211 @@
+{
+  "status": "all bounded exact checks passed",
+  "sympy_version": "1.14.0",
+  "check_count": 49,
+  "checks": [
+    {
+      "name": "four complement pair identity",
+      "passed": true
+    },
+    {
+      "name": "four Fourier magnitude 0",
+      "passed": true
+    },
+    {
+      "name": "four Fourier magnitude 1",
+      "passed": true
+    },
+    {
+      "name": "four Fourier magnitude 2",
+      "passed": true
+    },
+    {
+      "name": "four Fourier magnitude 3",
+      "passed": true
+    },
+    {
+      "name": "four Fourier magnitude 4",
+      "passed": true
+    },
+    {
+      "name": "four Fourier magnitude 5",
+      "passed": true
+    },
+    {
+      "name": "four Fourier magnitude 6",
+      "passed": true
+    },
+    {
+      "name": "four Fourier magnitude 7",
+      "passed": true
+    },
+    {
+      "name": "six complement pair identity",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 0",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 1",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 2",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 3",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 4",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 5",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 6",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 7",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 8",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 9",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 10",
+      "passed": true
+    },
+    {
+      "name": "six Fourier magnitude 11",
+      "passed": true
+    },
+    {
+      "name": "four exact traces",
+      "passed": true
+    },
+    {
+      "name": "six exact traces",
+      "passed": true,
+      "p1": "1/2 + sqrt(3)*I/2",
+      "p2": "1/2 + 3*sqrt(3)*I/2"
+    },
+    {
+      "name": "gap histogram control",
+      "passed": true
+    },
+    {
+      "name": "six disjoint free dihedral orbits",
+      "passed": true
+    },
+    {
+      "name": "complement interchanges six orbits",
+      "passed": true
+    },
+    {
+      "name": "entire static summary is identical on both orbits",
+      "passed": true
+    },
+    {
+      "name": "exact ACUE seed probabilities",
+      "passed": true
+    },
+    {
+      "name": "exact orbit mass",
+      "passed": true,
+      "value": "1/72"
+    },
+    {
+      "name": "four exact forward pair difference",
+      "passed": true
+    },
+    {
+      "name": "six exact forward pair difference",
+      "passed": true
+    },
+    {
+      "name": "ACUE tilt forward coefficient",
+      "passed": true
+    },
+    {
+      "name": "ACUE tilt initial derivative",
+      "passed": true
+    },
+    {
+      "name": "p1 paired generator",
+      "passed": true
+    },
+    {
+      "name": "p2 paired generator",
+      "passed": true
+    },
+    {
+      "name": "heat discriminant",
+      "passed": true
+    },
+    {
+      "name": "largest heat root rational bracket",
+      "passed": true
+    },
+    {
+      "name": "positive endpoint global minimum certificate",
+      "passed": true
+    },
+    {
+      "name": "strict depth distinction rational certificate",
+      "passed": true
+    },
+    {
+      "name": "lift pair and minimum gap r=1",
+      "passed": true
+    },
+    {
+      "name": "lift pair and minimum gap r=2",
+      "passed": true
+    },
+    {
+      "name": "lift pair and minimum gap r=3",
+      "passed": true
+    },
+    {
+      "name": "lift pair and minimum gap r=5",
+      "passed": true
+    },
+    {
+      "name": "continuous spectral integer homometry",
+      "passed": true
+    },
+    {
+      "name": "spectral seeds not translate/reflected translate",
+      "passed": true
+    },
+    {
+      "name": "DPP exact cubic witnesses",
+      "passed": true
+    },
+    {
+      "name": "DPP continuous triple separation coefficient",
+      "passed": true
+    },
+    {
+      "name": "six-band non-Montgomery ramp",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "ordinary proof required for DPP analytic statements",
+    "no zeta or prime theorem is certified",
+    "no external novelty claim"
+  ]
+}

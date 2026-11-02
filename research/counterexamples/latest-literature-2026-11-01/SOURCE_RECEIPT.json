@@ -1,0 +1,51 @@
+{
+  "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "retrieved_utc": "2026-11-02",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/README.md",
+      "bytes": 4417,
+      "sha256": "6cb7f0e387b67c051227c6ba27aca87ee82d9dd2530b6452b86b8681a2e2743a"
+    },
+    {
+      "path": "CONTENTS.md",
+      "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/CONTENTS.md",
+      "bytes": 640943,
+      "sha256": "080badcb677fb80be0e695c21a8ec88bcb3a46dd3e3078ca10061e6b289be175"
+    },
+    {
+      "path": "history.md",
+      "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/history.md",
+      "bytes": 4070,
+      "sha256": "f065ee13679f380356359eb09242b93187efe1a864e92780ed5a8b5b23ed4484"
+    },
+    {
+      "path": "lean/docs/007.md",
+      "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/lean/docs/007.md",
+      "bytes": 1331,
+      "sha256": "0ad2938aa412b0521890c05327e30567c815e781a9381b8c5ede9bf0553d3397"
+    },
+    {
+      "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+      "bytes": 14064,
+      "sha256": "05f8ea23cd4d2f423e9a46dfc583813d30907159fb5a667dc2850740b7d32903"
+    },
+    {
+      "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/02-finite-law.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/02-finite-law.tex",
+      "bytes": 10952,
+      "sha256": "473761422e03b4a185af34a2ec8aaf5cececff9d04fcf8d05a95f7e052757952"
+    },
+    {
+      "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/07-spectral.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/07-spectral.tex",
+      "bytes": 12612,
+      "sha256": "2aea35beaa020d382c1f604203d4f53f790f941190acc39b180dfcd2f2a82945"
+    }
+  ],
+  "scope": "Root source reads; agent audits separately record their primary sources. No complete Lean rebuild.",
+  "root_exa_search_candidate_count": 23,
+  "root_exa_search_workstreams": 3
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "079_wave.pdf",
+    "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf",
+    "bytes": 810093,
+    "sha256": "9ca156c552f2d940528f7131716326ef0d67a5829e723e1d294d74560c8636ff"
+  },
+  {
+    "file": "219_goe.pdf",
+    "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/preprints/GOE-bulk-universality-for-fixed-degree-random-regular-graphs-September-23-2026/paper.pdf",
+    "bytes": 610750,
+    "sha256": "d8e092ab0484f8b9f8858176e39ab4c0cba5760450bf0a52890c6561ed2a7ced"
+  },
+  {
+    "file": "219_anderson.pdf",
+    "url": "https://raw.githubusercontent.com/openai/math/4eaee87548250b2682affda7d05d947c05554bae/preprints/Fixed-energy-universality-for-weak-Anderson-disorder-on-random-regular-graphs-October-5-2026/fixed-energy-universality-weak-anderson-disorder-random-regular-graphs.pdf",
+    "bytes": 664775,
+    "sha256": "b90d91abec2e8614ab12bfea2dc37152441e2651ec0482c70fc26665064e58b8"
+  }
+]

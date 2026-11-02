@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "research/RESEARCH_LOG.md",
-      "bytes": 83299,
-      "sha256": "e96cfd1d0453e742773afe7c39368d9029162c021685f5df29163fbfc129b7c6"
+      "bytes": 87117,
+      "sha256": "25ed599963314b66cfc84f7a4680be9995be6a4ac647faef38a9e511e54f5769"
     },
     {
       "path": "research/bridge-audit/attachment_bridge_checks.json",
@@ -28,8 +28,188 @@
     },
     {
       "path": "research/claims/CLAIM_LEDGER.md",
-      "bytes": 58866,
-      "sha256": "e858c7dcfa5f944f3800e0a9db07e9a477344fa87b44302047625135332d9020"
+      "bytes": 61685,
+      "sha256": "1775b797ed93ff76c1fb6c44d2f059558b9a390a7687754ec533bec946540de8"
+    },
+    {
+      "path": "research/counterexamples/MANIFEST_DELTA.json",
+      "bytes": 3270,
+      "sha256": "ac57cdafc9dcb4350737c806ee8869d7940317f8e1f05584f8eb19c12be7222f"
+    },
+    {
+      "path": "research/counterexamples/PACKAGE_CHECKS.json",
+      "bytes": 1293,
+      "sha256": "fc4377c5ffd6911e48d74743caf50a7429a054bd42dcd4059a6435a68b50a50b"
+    },
+    {
+      "path": "research/counterexamples/ROOT_REVIEW_AND_REPRODUCTION.md",
+      "bytes": 7077,
+      "sha256": "9c0bf72b30ea9544f64c6bec14094d0430d8cb45f15d8b9a36869202b4f90e9e"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/CHOWLA_TRANSFER_AND_RESEARCH_DECISIONS.md",
+      "bytes": 16833,
+      "sha256": "1876eb10f0e88d204a77c1bdc39504d9c36d74f07e793d6fbb17e672fdc2f866"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/CLIPPED_GRAM_CHECK.py",
+      "bytes": 2166,
+      "sha256": "de414d75d90aefa88e95ed573f1d59aa4ad80f728098c115742fff790f3b0a53"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/CLIPPED_GRAM_CHECK_OUTPUT.json",
+      "bytes": 1486,
+      "sha256": "1cda8eb1c4f09dae354b8bc281e9bfbd0513364e615e63975982acbc3150ff79"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/CLIPPED_GRAM_REVIEW.md",
+      "bytes": 6589,
+      "sha256": "fccfbfd1344166ccf3b87e9b7f4035e06a5df911a20ac6c49145d4fa5d56f17c"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/CUBIC_TARGET_CHECK.py",
+      "bytes": 2084,
+      "sha256": "dd80601aee7f2aaeb32e065bc84fe3e52abd239687be5df10ca4965aec195438"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/CUBIC_TARGET_CHECK_OUTPUT.json",
+      "bytes": 27799,
+      "sha256": "e4f8b83419666c5ee1d47b1585c886d51db377f75babd87a0196d93db76db945"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/QRH_METHOD_AUDIT.md",
+      "bytes": 21960,
+      "sha256": "6e3397e0d482dc3479fbb1809885f561b6e01ee149a6d35edcf06f41fb22f638"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/REVIEW_ROOT_SYNTHESIS.md",
+      "bytes": 6733,
+      "sha256": "b9ee1862ac08019440d4d6c2638bbe31c3f5f66e1285ab2f0e3b2260f992d661"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/RMT_NEW_TOOLS_SCAN.md",
+      "bytes": 11601,
+      "sha256": "d4f740b08b634b588a16388982d70743b605439d7e435b3392492974608cc12a"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/ROOT_CLIPPED_GRAM_REPLAY.json",
+      "bytes": 1486,
+      "sha256": "1cda8eb1c4f09dae354b8bc281e9bfbd0513364e615e63975982acbc3150ff79"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/ROOT_CUBIC_REPLAY.json",
+      "bytes": 27799,
+      "sha256": "e4f8b83419666c5ee1d47b1585c886d51db377f75babd87a0196d93db76db945"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/SOURCE_RECEIPT.json",
+      "bytes": 2781,
+      "sha256": "b89fb1386e3f45be14dded14786908be11a6a84e9529216bd272eedeec1301bb"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/ZETA_STATISTICS_SCAN.md",
+      "bytes": 13506,
+      "sha256": "8ffcb0af17e0432bcab52b2b29b9fb2bb50f366c37242236661891a47d2a263e"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/rmt_sources/LOCAL_SOURCE_LOCATION.json",
+      "bytes": 1139,
+      "sha256": "b5299fbcf72fc958b534b994ce4d7a131f619e1af2e5868bc81e1e3fd02ab83b"
+    },
+    {
+      "path": "research/counterexamples/latest-literature-2026-11-01/rmt_sources/SOURCE_RECEIPT.json",
+      "bytes": 1087,
+      "sha256": "facb65b8cb3fa60f79627493d94adbf7fa80564e97d7b54c3bb0e74345715d40"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/AGENT_PAIR_CHECK.py",
+      "bytes": 7325,
+      "sha256": "1d4aa33b944b3763ae3cc8eb831261fdd112c216fbd83257c838b820d1a8f73f"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/AGENT_PAIR_CHECK_OUTPUT.json",
+      "bytes": 4254,
+      "sha256": "03e5ba46100e262ab2adc81f71caad59dc38d6a730c42ff5bc9f46cb00bf173c"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/AGENT_PAIR_RECEIPT.json",
+      "bytes": 1151,
+      "sha256": "1ead33a1644510be7196cb50de33618a9700b231d4db3b5ad3843920342c17cb"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/AGENT_PAIR_REVIEW.md",
+      "bytes": 17192,
+      "sha256": "54e1233b31ca01f48c6889543d3eb04624ef65884d71ad7f9b71b0833eb5e4e2"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/CLIPPED_GRAM_BRIDGE.md",
+      "bytes": 6707,
+      "sha256": "db79e661b1d4a8ecc1b6b63aeb56d3f758d5a6361f918ba79f1ccb1ea5e6621a"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/CLIPPED_GRAM_CHECKS.json",
+      "bytes": 1357,
+      "sha256": "5c6f70fa1be9d5feb494ffa27c710e30c7488c46441c0acde4e0098792e213d4"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/LITERATURE_SCOPE.md",
+      "bytes": 10611,
+      "sha256": "55da1576fc7510c1b3afa26cdc5cfd45edef3304975d03c955879c656de29a36"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/PAIR_MATCHED_HEAT_CHECKS.json",
+      "bytes": 2621,
+      "sha256": "faeb508ac63368ae62b2e1f5059aae61f1cbdd4523b80bb546b104b2ead3529e"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/PAIR_MATCHED_HEAT_CHECKS.stdout.txt",
+      "bytes": 2621,
+      "sha256": "faeb508ac63368ae62b2e1f5059aae61f1cbdd4523b80bb546b104b2ead3529e"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/PAIR_MATCHED_HEAT_COUNTEREXAMPLES.md",
+      "bytes": 13337,
+      "sha256": "0a71e55e63537ddf29568d3e31c079071f53da95c3017f889824a07fb595bbfd"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/RARE_DEFECT_LOCAL_UNIVERSALITY.md",
+      "bytes": 9354,
+      "sha256": "ee5edda2101649a5da07e94e275c1176f49e4f2b029e36df9c376ea526044fd3"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/ROOT_PAIR_REPLAY.json",
+      "bytes": 4254,
+      "sha256": "03e5ba46100e262ab2adc81f71caad59dc38d6a730c42ff5bc9f46cb00bf173c"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/check_clipped_gram.py",
+      "bytes": 3694,
+      "sha256": "498a6bbe9b134a747230a4589e2048b49c129b0ef369bfd3532c637a40695279"
+    },
+    {
+      "path": "research/counterexamples/pair-matched-flow/check_pair_matched_heat.py",
+      "bytes": 8060,
+      "sha256": "ee0258b420d6120593c5b9e3a68c9959cc353c6e4906d539fb743c2a90c72b49"
+    },
+    {
+      "path": "research/counterexamples/stochastic-protection/AGENT_STOCHASTIC_PROTECTION.md",
+      "bytes": 22243,
+      "sha256": "90c5d88bc938f8410550d337f5689c30726efb614b29a6bf80f75c94671e14f3"
+    },
+    {
+      "path": "research/counterexamples/stochastic-protection/STOCHASTIC_PROTECTION_REPLAY.txt",
+      "bytes": 231,
+      "sha256": "b66174cd6dd2fd71fa04caa017f9864a0a454ad9891c229ae893e8b609aa82dc"
+    },
+    {
+      "path": "research/counterexamples/stochastic-protection/check_stochastic_protection.py",
+      "bytes": 1068,
+      "sha256": "d11645e0fd1dcd6be3df01c92400c07f7f7503e02d280abd2f83e0b9c3eb99ff"
+    },
+    {
+      "path": "research/counterexamples/verify_package.py",
+      "bytes": 3650,
+      "sha256": "0cfac9c9fc756319435f3bb50cf8fa09c0b4633706fd9eb8970121be0b65404e"
     },
     {
       "path": "research/dynamic-generator/dynamic_generator_independent_review.json",
@@ -7163,8 +7343,8 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 14579,
-      "sha256": "7ee71f8364e0f0f5ea2f155430a59e6e751bc59239bf5105588a184599bf4fcb"
+      "bytes": 15160,
+      "sha256": "efbbd44741122535af37a331e06f94294cf25681cdd90ecc8054ef69d2d164ab"
     },
     {
       "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",

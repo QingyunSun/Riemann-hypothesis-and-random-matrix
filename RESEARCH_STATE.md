@@ -1,5 +1,15 @@
 # Current research state
 
+Updated 2026-11-01 Pacific / 2026-11-02 UTC. The user explicitly renewed research: construct more ACUE/RMT counterexamples, then scan the latest OpenAI and zeta results for usable new structures. This new authorization supersedes the earlier programme's execution cutoff. The historical closeout below remains a record of that earlier programme, not an instruction to stop the renewed work.
+
+The [new synthesis](research/counterexamples/latest-literature-2026-11-01/CHOWLA_TRANSFER_AND_RESEARCH_DECISIONS.md) links exact pair-matched scalar-heat witnesses, a positive ACUE-law perturbation, a genuine DBM multitime theorem, and a rare-defect local-universality counterexample. Complete ordinary arguments and independent checks are retained. These refute explicitly stated model implications; they do not refute a famous conjecture about actual zeta zeros.
+
+The latest source audit is pinned to OpenAI/math commit 4eaee87548250b2682affda7d05d947c05554bae. QRH controls horizontal zero location, not the missing signed ordinate correlation. Fixed-form Chowla/Elliott and finite-residue graph tools require new coefficient, scale and complexity checks before use here. Main next task: a legal small-prime signed-graph transfer or an explicitly unprotected cubic zero statistic; the old global strict threshold is still open. No new external model session is started.
+
+The latest finite bridge shows that a three-mode clipped Gram statistic distinguishes the pair/gap-matched N=6 examples exactly. A separate norm estimate shows that the actual window/threshold in the newly scanned distinct-zero paper does not trigger clipping on distinct half-lattice models. Developing an analytically admissible, active correction is therefore a concrete next candidate. Neither this distinction nor the new GOE graph theorem supplies actual-zeta universality. The higher cubic target is now normalized exactly: for m=3N/5, the CUE and ACUE expectations divided by N are 1/5 and zero.
+
+## Historical September closeout
+
 Updated 2026-09-08 at the closing bounded checkpoint. Astra leads the research; Fable contributes through the user's single existing Claude Code session. The programme spans 72 hours with recoverable checkpoints; no claim of uninterrupted execution or guaranteed conjecture solution is made. Work resumed after usage-limit and transport interruptions, preserving the existing branch. The programme deadline is 2026-09-08 06:15 UTC. The final bounded mathematical step is complete; only its saved checkpoint and coordination remain. No new research round is initiated near or after the cutoff. The major-theorem objective remains unachieved.
 
 ## Main target

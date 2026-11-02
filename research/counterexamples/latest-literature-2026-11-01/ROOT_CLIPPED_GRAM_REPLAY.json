@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "exact_check_count": 19,
+  "checks": [
+    {
+      "name": "A Hermitian",
+      "passed": true
+    },
+    {
+      "name": "A trace",
+      "passed": true
+    },
+    {
+      "name": "A second moment",
+      "passed": true
+    },
+    {
+      "name": "A third moment",
+      "passed": true
+    },
+    {
+      "name": "A determinant",
+      "passed": true
+    },
+    {
+      "name": "A characteristic polynomial",
+      "passed": true
+    },
+    {
+      "name": "B Hermitian",
+      "passed": true
+    },
+    {
+      "name": "B trace",
+      "passed": true
+    },
+    {
+      "name": "B second moment",
+      "passed": true
+    },
+    {
+      "name": "B third moment",
+      "passed": true
+    },
+    {
+      "name": "B determinant",
+      "passed": true
+    },
+    {
+      "name": "B characteristic polynomial",
+      "passed": true
+    },
+    {
+      "name": "spectral reflection",
+      "passed": true
+    },
+    {
+      "name": "negative root brackets",
+      "passed": true
+    },
+    {
+      "name": "positive root bracket",
+      "passed": true
+    },
+    {
+      "name": "common full quadratic trace",
+      "passed": true
+    },
+    {
+      "name": "clipped difference",
+      "passed": true
+    },
+    {
+      "name": "orbit expectation normalization",
+      "passed": true
+    },
+    {
+      "name": "mixed-multiplicity parameter condition",
+      "passed": true
+    }
+  ],
+  "limits": "Finite circular three-mode kernel only; no zeta-window transfer."
+}

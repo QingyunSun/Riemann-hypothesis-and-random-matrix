@@ -10,6 +10,7 @@ Every result must state its assumptions, proof status, primary references, repro
 
 ## Read the research
 
+* [2026-11-01: new counterexamples and the latest QRH/zeta research scan](research/counterexamples/latest-literature-2026-11-01/CHOWLA_TRANSFER_AND_RESEARCH_DECISIONS.md). Exact pair-matched heat counterexamples, genuine DBM multitime protection and a sparse-defect extreme-gap obstruction; primary-source audits of OpenAI's October release, QRH, Lamzouri and related tools. No actual-zeta conjecture is settled.
 * [2026-09-07 candid progress assessment in Chinese](research/reports/progress_assessment_2026_09_07.md): what is proved, what remains conditional, and the scope issues in the user's NEW_RESULTS summary. No major-conjecture result is claimed.
 * [Round 30: a vanishing full balanced block above the central height](research/reports/dyson_round30.md). Under RH and fixed separation above X=T², genuine unmasked Möbius cancellation gives a local power saving. The central alias correlation and strict global bound remain open.
 * [Closing central follow-up](research/reports/dyson_round30_followup.md). Full periodic principal removal, exact finite projected discrepancy, actual joint zero sampling with a vanishing comparison error, and uniform upper-tail localization. The signed correlation remains unestimated; no major theorem is claimed.
