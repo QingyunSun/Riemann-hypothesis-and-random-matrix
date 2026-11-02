@@ -1,0 +1,787 @@
+{
+  "commit": "1c1335d74807dc1588077a9ac94c88f5aa02a54c",
+  "status": "PASS",
+  "report": {
+    "bytes": 15108,
+    "sha256": "65e42a25bd4f97774a9a7ef54a1d2976be50e4974c36b3584772185e0081d971",
+    "complete_text_read": true
+  },
+  "manifest": {
+    "bytes": 15129,
+    "sha256": "33bc118eed76ac14ea3d7c29e795a69d79b7329f2e825ddcf9cbcaef70fa17bd"
+  },
+  "local_original_files": 58,
+  "local_original_bytes": 1559249,
+  "public_original_files": 55,
+  "public_original_bytes": 279258,
+  "local_only_files": [
+    {
+      "path": "singleton-renormalization/sources/dlmf-25.16.html",
+      "bytes": 124980,
+      "sha256": "9d0cf95c66dc1ae5e3cc4f8373be7f2cdb473bd620673b7851fe2bf69157b7fa",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "small-shift-obstruction/sources/tao-2015-sieve-notes.html",
+      "bytes": 1046515,
+      "sha256": "df614dcbd6d8183121114997c8929357b73a9dea707332509f4b8ea0f2658561",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    },
+    {
+      "path": "small-shift-obstruction/sources/tao-2015-sieve-notes.txt",
+      "bytes": 108496,
+      "sha256": "fab1ec40325bfb0d4a99fbb5dc6a0847b962900e024db58a993e177cdd1f2eef",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary-source body or page image retained locally"
+    }
+  ],
+  "public_results": [
+    {
+      "path": "coordinator-intake/COORDINATOR_R21_PUBLICATION_VERIFICATION.json",
+      "bytes": 19962,
+      "sha256": "3687475233a6067bc71c09919aaa4f6e01de4aa5c3bf882cfc2605fbd5684366",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "coordinator-intake/TOOL_MEMO_R21_PUBLICATION_UPDATE_RECEIPT.json",
+      "bytes": 909,
+      "sha256": "3af9829b8e98a7eca25f85d29bdef7b989d494e843e11185a3bd4d23b84abac3",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "coordinator-intake/TRANSFERABLE_MATH_TOOLS_R21_PUBLISHED.md",
+      "bytes": 70434,
+      "sha256": "35e6e88be8744f0224a5b8b7ef833f19fe265a4815c6a15453480e0a1a4179ee",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_R22_PARITY_TARGET_REVIEW.json",
+      "bytes": 3772,
+      "sha256": "44025afe0519635a809919e08f4f176405d9c3539807c0f7b83d9d49ad149fef",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_R22_THREE_PROOFS_REVIEW.json",
+      "bytes": 7256,
+      "sha256": "bd8c8c5d1d179b3668f167e61150b203fdd88745e3c74bb5b1597eccf1fbd01b",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "bytes": 8245,
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "odd-primepower-pairs/AUTHOR_RECEIPT.json",
+      "bytes": 3133,
+      "sha256": "405d4e3d0330caaa190649bf5cf72456ee598958f5b4317ad40504b3df6ff733",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "odd-primepower-pairs/check_math_syntax.cjs",
+      "bytes": 1543,
+      "sha256": "3d3009699ba5d015c3c97c974f831231cc4625ec97e00b5aa73cc801f5391b7e",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "odd-primepower-pairs/check_odd_pair_algebra.py",
+      "bytes": 2467,
+      "sha256": "25d221cbbe9852a50020b6404723b44651b044792dd5d8432d918d7e61658e45",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "odd-primepower-pairs/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "289b425f3bdffd8f9656299e4fddf42abce1badaf88adca9b6e1c603ee4b8936",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "odd-primepower-pairs/odd_pair_algebra_checks.json",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "odd-primepower-pairs/odd_pair_algebra_checks.log",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-review/INDEPENDENT_PARITY_ADJUSTMENT_REVIEW.md",
+      "bytes": 7690,
+      "sha256": "700a7e9c194f685fbcecbcbd6116bc606bd95a77cd8ed7494e4c2957b2533de4",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-review/REVIEW_RECEIPT.json",
+      "bytes": 2570,
+      "sha256": "9c18190455f8b1eb6602175286ccbf757b066ad15e796f84dd3900b618c9e2f2",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-review/check_math_syntax.cjs",
+      "bytes": 1555,
+      "sha256": "c4e60adc15353d0cc01ca0969a451cdc5497d9915a002820a95b28310468fb43",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-review/input_hash_checks.json",
+      "bytes": 1527,
+      "sha256": "21d093061d3baa296d4cd4db7cb87576aef4f6cb0a045eb4d4ebb61d89e2f1f8",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-review/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "a1cb3de77263d66ee511456ca1eedaa69eb07d79a7c2242ecaca2f9518c10ba3",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-review/verify_review_inputs.py",
+      "bytes": 1220,
+      "sha256": "b1ecfa256360ad06d29af9f965de81d19570ff66a73d67a69792403a9d0eeec0",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-target/AUTHOR_RECEIPT.json",
+      "bytes": 1618,
+      "sha256": "9b2e94ada43a15b551b82cd6640b63951d0a44a30d02b0d56afbf0174775c88c",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "parity-adjusted-target/math_syntax_checks.json",
+      "bytes": 464,
+      "sha256": "7985b40dbe5a68b886cb0f0874230c63fe70ad8952750463cf94946e59832cac",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "root-review/ROOT_REVIEW_RECEIPT.json",
+      "bytes": 3220,
+      "sha256": "3a6d09fc2c645c0a081dec466d5d95b67a048b83f464ff2df4c1168930b9e559",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "root-review/ROOT_ROUND22_REVIEW.md",
+      "bytes": 11655,
+      "sha256": "821eefd68c4747420b93a3447f5b219e294c49a4d0a840bbfeca76d891b1ddd8",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "root-review/replay/odd-primepower-pairs/REPLAY_RECEIPT.json",
+      "bytes": 277,
+      "sha256": "d0029ed3a2a16ebe7229b59ce50391f46eccfbd45140c1dc5b180f782e032138",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "root-review/replay/odd-primepower-pairs/odd_pair_algebra_checks.json",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "root-review/replay/odd-primepower-pairs/odd_pair_algebra_checks.log",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "bytes": 9114,
+      "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW_RECEIPT.json",
+      "bytes": 3478,
+      "sha256": "3ac01e87c2adbae1e4f375eae5cfc25111d2b54e0bf2dacda58c759682eb53d8",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/INDEPENDENT_DERIVATION_RECEIPT.json",
+      "bytes": 3008,
+      "sha256": "a8da7982f78bba0495df87b980d1b5820968b58102280d52f71c108d4b7ec51c",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/INDEPENDENT_SINGLETON_DERIVATION.md",
+      "bytes": 11171,
+      "sha256": "33b28a289e504973bd75800099e9758869a550f5f116b29798b2b3ffa2451aea",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/author_source_hash_checks.json",
+      "bytes": 1511,
+      "sha256": "b1ca7d6b282f8144dccb57ed460474d426fe21c4af2c91c7c8f2856978852898",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/check_singleton_renormalization.py",
+      "bytes": 3756,
+      "sha256": "8d12ec1d43b218962cc38fe31a14218fe8cb1831a0552d59c99cbdd076b47779",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/independent_author_replay.json",
+      "bytes": 2101,
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/independent_author_replay.log",
+      "bytes": 2101,
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/singleton_renormalization_checks.json",
+      "bytes": 4235,
+      "sha256": "e7c296ef2e75087a31908d0239ed938362c7a5013fb793c5818a4de20a675ec7",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization-review/singleton_renormalization_checks.log",
+      "bytes": 4235,
+      "sha256": "e7c296ef2e75087a31908d0239ed938362c7a5013fb793c5818a4de20a675ec7",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization/AUTHOR_RECEIPT.json",
+      "bytes": 3289,
+      "sha256": "ae925879524a3396f3cb63ea1ff67078d44007427c67c9d5a3999d60555d4236",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization/check_singleton_renormalization.py",
+      "bytes": 3139,
+      "sha256": "0f14fb615ddf24603e197bf1f4b24367c6f6943691f134aa6b6516b6b83d4f1e",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization/singleton_renormalization_checks.json",
+      "bytes": 2101,
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization/singleton_renormalization_checks.log",
+      "bytes": 2101,
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "singleton-renormalization/source_manifest.json",
+      "bytes": 2528,
+      "sha256": "047a44ad066549ab48529f255e40dfd30c4f200762218554b1978202672fa1f9",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-obstruction/AUTHOR_RECEIPT.json",
+      "bytes": 3335,
+      "sha256": "16cd2dbca66e5ad3c7482344da0f9a3b39653d69c45979798c301ea4cff9f68a",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "bytes": 12215,
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-obstruction/check_math_syntax.cjs",
+      "bytes": 1538,
+      "sha256": "d36f60c8e617a2e0a957f4390b1853a4055edf62558bb3361c5fa71403ac9b4d",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-obstruction/check_small_shift_algebra.py",
+      "bytes": 3449,
+      "sha256": "6051656d8da1c456cb994107d3fbe9099c479bf158829b98d673e3cedd822c38",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-obstruction/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "0ae2d907e7f34b3fb125330e841ed2d51aa8a890ad16217cce625844047c8313",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-obstruction/small_shift_algebra_checks.json",
+      "bytes": 973,
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-obstruction/small_shift_algebra_checks.log",
+      "bytes": 973,
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-obstruction/sources/SOURCE_RECEIPT.json",
+      "bytes": 2105,
+      "sha256": "39f17e6ec74f97f0bcd6d177674a4d1b097748dea266ec19ef1b1282cddd5eb4",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 3291,
+      "sha256": "0cb03ca37f524b8f1506b44917d1e2add67db9afdc2445e240f40d9b8e22d8c8",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-review/INDEPENDENT_SMALL_SHIFT_REVIEW.md",
+      "bytes": 10518,
+      "sha256": "614cd44518df86e4712c6ec38d503a5f3f5706e96dd020075ca1a28648bfd975",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-review/independent_replay.json",
+      "bytes": 973,
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-review/independent_replay.log",
+      "bytes": 973,
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    },
+    {
+      "path": "small-shift-review/replay_and_source_checks.json",
+      "bytes": 5697,
+      "sha256": "7496755c92134faec09dc9249f7f5794eb0e2f58ace52a5752fd62f77b37a213",
+      "public_manifest_match": true,
+      "local_byte_identical": true
+    }
+  ],
+  "local_pin_results": [
+    {
+      "path": "coordinator-intake/COORDINATOR_R21_PUBLICATION_VERIFICATION.json",
+      "bytes": 19962,
+      "sha256": "3687475233a6067bc71c09919aaa4f6e01de4aa5c3bf882cfc2605fbd5684366",
+      "match": true
+    },
+    {
+      "path": "coordinator-intake/TOOL_MEMO_R21_PUBLICATION_UPDATE_RECEIPT.json",
+      "bytes": 909,
+      "sha256": "3af9829b8e98a7eca25f85d29bdef7b989d494e843e11185a3bd4d23b84abac3",
+      "match": true
+    },
+    {
+      "path": "coordinator-intake/TRANSFERABLE_MATH_TOOLS_R21_PUBLISHED.md",
+      "bytes": 70434,
+      "sha256": "35e6e88be8744f0224a5b8b7ef833f19fe265a4815c6a15453480e0a1a4179ee",
+      "match": true
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_R22_PARITY_TARGET_REVIEW.json",
+      "bytes": 3772,
+      "sha256": "44025afe0519635a809919e08f4f176405d9c3539807c0f7b83d9d49ad149fef",
+      "match": true
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_R22_THREE_PROOFS_REVIEW.json",
+      "bytes": 7256,
+      "sha256": "bd8c8c5d1d179b3668f167e61150b203fdd88745e3c74bb5b1597eccf1fbd01b",
+      "match": true
+    },
+    {
+      "path": "odd-primepower-pairs/ALL_ODD_PRIMEPOWER_PAIRS.md",
+      "bytes": 8245,
+      "sha256": "6db0484a4ad3b3fdb63284a23138063971b350d8cc39f8d96bde1c26a2166e30",
+      "match": true
+    },
+    {
+      "path": "odd-primepower-pairs/AUTHOR_RECEIPT.json",
+      "bytes": 3133,
+      "sha256": "405d4e3d0330caaa190649bf5cf72456ee598958f5b4317ad40504b3df6ff733",
+      "match": true
+    },
+    {
+      "path": "odd-primepower-pairs/check_math_syntax.cjs",
+      "bytes": 1543,
+      "sha256": "3d3009699ba5d015c3c97c974f831231cc4625ec97e00b5aa73cc801f5391b7e",
+      "match": true
+    },
+    {
+      "path": "odd-primepower-pairs/check_odd_pair_algebra.py",
+      "bytes": 2467,
+      "sha256": "25d221cbbe9852a50020b6404723b44651b044792dd5d8432d918d7e61658e45",
+      "match": true
+    },
+    {
+      "path": "odd-primepower-pairs/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "289b425f3bdffd8f9656299e4fddf42abce1badaf88adca9b6e1c603ee4b8936",
+      "match": true
+    },
+    {
+      "path": "odd-primepower-pairs/odd_pair_algebra_checks.json",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "match": true
+    },
+    {
+      "path": "odd-primepower-pairs/odd_pair_algebra_checks.log",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-review/INDEPENDENT_PARITY_ADJUSTMENT_REVIEW.md",
+      "bytes": 7690,
+      "sha256": "700a7e9c194f685fbcecbcbd6116bc606bd95a77cd8ed7494e4c2957b2533de4",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-review/REVIEW_RECEIPT.json",
+      "bytes": 2570,
+      "sha256": "9c18190455f8b1eb6602175286ccbf757b066ad15e796f84dd3900b618c9e2f2",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-review/check_math_syntax.cjs",
+      "bytes": 1555,
+      "sha256": "c4e60adc15353d0cc01ca0969a451cdc5497d9915a002820a95b28310468fb43",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-review/input_hash_checks.json",
+      "bytes": 1527,
+      "sha256": "21d093061d3baa296d4cd4db7cb87576aef4f6cb0a045eb4d4ebb61d89e2f1f8",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-review/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "a1cb3de77263d66ee511456ca1eedaa69eb07d79a7c2242ecaca2f9518c10ba3",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-review/verify_review_inputs.py",
+      "bytes": 1220,
+      "sha256": "b1ecfa256360ad06d29af9f965de81d19570ff66a73d67a69792403a9d0eeec0",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-target/AUTHOR_RECEIPT.json",
+      "bytes": 1618,
+      "sha256": "9b2e94ada43a15b551b82cd6640b63951d0a44a30d02b0d56afbf0174775c88c",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+      "match": true
+    },
+    {
+      "path": "parity-adjusted-target/math_syntax_checks.json",
+      "bytes": 464,
+      "sha256": "7985b40dbe5a68b886cb0f0874230c63fe70ad8952750463cf94946e59832cac",
+      "match": true
+    },
+    {
+      "path": "root-review/ROOT_REVIEW_RECEIPT.json",
+      "bytes": 3220,
+      "sha256": "3a6d09fc2c645c0a081dec466d5d95b67a048b83f464ff2df4c1168930b9e559",
+      "match": true
+    },
+    {
+      "path": "root-review/ROOT_ROUND22_REVIEW.md",
+      "bytes": 11655,
+      "sha256": "821eefd68c4747420b93a3447f5b219e294c49a4d0a840bbfeca76d891b1ddd8",
+      "match": true
+    },
+    {
+      "path": "root-review/replay/odd-primepower-pairs/REPLAY_RECEIPT.json",
+      "bytes": 277,
+      "sha256": "d0029ed3a2a16ebe7229b59ce50391f46eccfbd45140c1dc5b180f782e032138",
+      "match": true
+    },
+    {
+      "path": "root-review/replay/odd-primepower-pairs/odd_pair_algebra_checks.json",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "match": true
+    },
+    {
+      "path": "root-review/replay/odd-primepower-pairs/odd_pair_algebra_checks.log",
+      "bytes": 1069,
+      "sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization/AUTHOR_RECEIPT.json",
+      "bytes": 3289,
+      "sha256": "ae925879524a3396f3cb63ea1ff67078d44007427c67c9d5a3999d60555d4236",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "bytes": 13005,
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization/check_singleton_renormalization.py",
+      "bytes": 3139,
+      "sha256": "0f14fb615ddf24603e197bf1f4b24367c6f6943691f134aa6b6516b6b83d4f1e",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization/singleton_renormalization_checks.json",
+      "bytes": 2101,
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization/singleton_renormalization_checks.log",
+      "bytes": 2101,
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization/source_manifest.json",
+      "bytes": 2528,
+      "sha256": "047a44ad066549ab48529f255e40dfd30c4f200762218554b1978202672fa1f9",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization/sources/dlmf-25.16.html",
+      "bytes": 124980,
+      "sha256": "9d0cf95c66dc1ae5e3cc4f8373be7f2cdb473bd620673b7851fe2bf69157b7fa",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "bytes": 9114,
+      "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW_RECEIPT.json",
+      "bytes": 3478,
+      "sha256": "3ac01e87c2adbae1e4f375eae5cfc25111d2b54e0bf2dacda58c759682eb53d8",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/INDEPENDENT_DERIVATION_RECEIPT.json",
+      "bytes": 3008,
+      "sha256": "a8da7982f78bba0495df87b980d1b5820968b58102280d52f71c108d4b7ec51c",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/INDEPENDENT_SINGLETON_DERIVATION.md",
+      "bytes": 11171,
+      "sha256": "33b28a289e504973bd75800099e9758869a550f5f116b29798b2b3ffa2451aea",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/author_source_hash_checks.json",
+      "bytes": 1511,
+      "sha256": "b1ca7d6b282f8144dccb57ed460474d426fe21c4af2c91c7c8f2856978852898",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/check_singleton_renormalization.py",
+      "bytes": 3756,
+      "sha256": "8d12ec1d43b218962cc38fe31a14218fe8cb1831a0552d59c99cbdd076b47779",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/independent_author_replay.json",
+      "bytes": 2101,
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/independent_author_replay.log",
+      "bytes": 2101,
+      "sha256": "85c5cdc46588bde67d0e858e8325c9ae472e8f82b08b60c279a18733291233ce",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/singleton_renormalization_checks.json",
+      "bytes": 4235,
+      "sha256": "e7c296ef2e75087a31908d0239ed938362c7a5013fb793c5818a4de20a675ec7",
+      "match": true
+    },
+    {
+      "path": "singleton-renormalization-review/singleton_renormalization_checks.log",
+      "bytes": 4235,
+      "sha256": "e7c296ef2e75087a31908d0239ed938362c7a5013fb793c5818a4de20a675ec7",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/AUTHOR_RECEIPT.json",
+      "bytes": 3335,
+      "sha256": "16cd2dbca66e5ad3c7482344da0f9a3b39653d69c45979798c301ea4cff9f68a",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "bytes": 12215,
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/check_math_syntax.cjs",
+      "bytes": 1538,
+      "sha256": "d36f60c8e617a2e0a957f4390b1853a4055edf62558bb3361c5fa71403ac9b4d",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/check_small_shift_algebra.py",
+      "bytes": 3449,
+      "sha256": "6051656d8da1c456cb994107d3fbe9099c479bf158829b98d673e3cedd822c38",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "0ae2d907e7f34b3fb125330e841ed2d51aa8a890ad16217cce625844047c8313",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/small_shift_algebra_checks.json",
+      "bytes": 973,
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/small_shift_algebra_checks.log",
+      "bytes": 973,
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/sources/SOURCE_RECEIPT.json",
+      "bytes": 2105,
+      "sha256": "39f17e6ec74f97f0bcd6d177674a4d1b097748dea266ec19ef1b1282cddd5eb4",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/sources/tao-2015-sieve-notes.html",
+      "bytes": 1046515,
+      "sha256": "df614dcbd6d8183121114997c8929357b73a9dea707332509f4b8ea0f2658561",
+      "match": true
+    },
+    {
+      "path": "small-shift-obstruction/sources/tao-2015-sieve-notes.txt",
+      "bytes": 108496,
+      "sha256": "fab1ec40325bfb0d4a99fbb5dc6a0847b962900e024db58a993e177cdd1f2eef",
+      "match": true
+    },
+    {
+      "path": "small-shift-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 3291,
+      "sha256": "0cb03ca37f524b8f1506b44917d1e2add67db9afdc2445e240f40d9b8e22d8c8",
+      "match": true
+    },
+    {
+      "path": "small-shift-review/INDEPENDENT_SMALL_SHIFT_REVIEW.md",
+      "bytes": 10518,
+      "sha256": "614cd44518df86e4712c6ec38d503a5f3f5706e96dd020075ca1a28648bfd975",
+      "match": true
+    },
+    {
+      "path": "small-shift-review/independent_replay.json",
+      "bytes": 973,
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "match": true
+    },
+    {
+      "path": "small-shift-review/independent_replay.log",
+      "bytes": 973,
+      "sha256": "7cbf272e314a80cedcd03b3dc0600c895c460c9dd2f647cecc4d2e44bee22c40",
+      "match": true
+    },
+    {
+      "path": "small-shift-review/replay_and_source_checks.json",
+      "bytes": 5697,
+      "sha256": "7496755c92134faec09dc9249f7f5794eb0e2f58ace52a5752fd62f77b37a213",
+      "match": true
+    }
+  ],
+  "errors": [],
+  "scope": "Pinned public report read fully; all 55 public originals downloaded and checked against manifest and all 58 frozen local originals checked against manifest. Not a new proof of unreviewed papers or a replay of checkers. R22 coordinator-pending freeze history remains unchanged; later coordinator singleton review is separate evidence.",
+  "not_verified_here": [
+    "ZIP and CRC",
+    "1473-file selected global manifest",
+    "branch/PR latest head",
+    "full original checker rerun",
+    "Lean",
+    "strict prime correlation improvement"
+  ]
+}

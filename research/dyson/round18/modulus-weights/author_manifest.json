@@ -1,0 +1,38 @@
+{
+  "status": "Author package frozen after documentation-only RH clarification. Prior exact checks are preserved; no new checker execution is claimed.",
+  "scope": "Same-level support obstruction; enlarged-level point-mass factorization with polylog completed l1 norm; exact AP normalization restoring original coefficients. No aggregate improvement or zeta theorem.",
+  "files": [
+    {
+      "path": "MODULUS_WEIGHT_LEVEL_AND_NORMALIZATION.md",
+      "sha256": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+      "bytes": 16141
+    },
+    {
+      "path": "check_modulus_weights.py",
+      "sha256": "d309bacba4d25c97de72990862e86371944949ab6f1aac4f1b0dd703851d45fd",
+      "bytes": 5275
+    },
+    {
+      "path": "modulus_weight_checks.json",
+      "sha256": "bd614b05b01897ff6b16e2379240bc6e4d450eeaf0d7f96021a091ac65f3ea3c",
+      "bytes": 2316
+    },
+    {
+      "path": "modulus_weight_checks.log",
+      "sha256": "60a7907208f110c56674adb4904b45567af9860d6454c3f7b58857dffb859f56",
+      "bytes": 1601
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "77ce2f6c49dcdaa7efc1b0c04e8c1bc1d091759d1376883a442ca0f4836ce0a1",
+      "bytes": 2692
+    }
+  ],
+  "documentation_only_refresh": {
+    "previous_checked_report_sha256": "b7fab8a8f1321fe5c708f10b79a48e23b1056eb97e239bc312760cbe0bd0c2a0",
+    "current_report_sha256": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+    "change": "Section 7 explicitly labels the inherited O(X^1.023 log^5 X) aggregate as conditional on RH. New support and algebra lemmas remain unconditional.",
+    "checks": "All recorded exact checks are preserved from the prior successful execution; the checker was not rerun for this scope-only documentation correction.",
+    "historical_log": "modulus_weight_checks.log remains the unmodified prior execution output and therefore records the previous report hash."
+  }
+}

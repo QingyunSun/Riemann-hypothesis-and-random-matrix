@@ -1,0 +1,62 @@
+{
+  "checker": {
+    "bytes": 4506,
+    "path": "research-round23/mod3-centering/check_mod6_centering.py",
+    "sha256": "fb15183dff1d7bf8bdda03057901aff25b5b3b8c8fa7a34d42a16f10176d8712"
+  },
+  "claim": "For fixed modulus6, full signed q6\u2212q2 correction is o(1) unconditionally by fixed-AP PNT; forbidden q6 product rows are negligible.",
+  "outputs": [
+    {
+      "bytes": 9592,
+      "path": "research-round23/mod3-centering/mod6_centering_checks.json",
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8"
+    },
+    {
+      "bytes": 9592,
+      "path": "research-round23/mod3-centering/mod6_centering_checks.log",
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8"
+    }
+  ],
+  "presentation_check": [
+    {
+      "bytes": 1539,
+      "path": "research-round23/mod3-centering/check_math_syntax.cjs",
+      "sha256": "f5ad160f0ba7d7048ed37b70cf5d1f576402fe834d9be40d9428b4d2b774b6e5"
+    },
+    {
+      "bytes": 286,
+      "path": "research-round23/mod3-centering/math_syntax_checks.json",
+      "sha256": "8d7544cbc8c89e182cca17dd889c9c1dc9d5189ec016648c56f05bdd36c2010f"
+    }
+  ],
+  "report": {
+    "bytes": 17011,
+    "path": "research-round23/mod3-centering/FIXED_MOD6_CENTERING.md",
+    "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e"
+  },
+  "runtime": {
+    "katex": "0.18.5",
+    "python": "3.14.3",
+    "sympy": "1.14.0"
+  },
+  "source_receipt": {
+    "bytes": 2563,
+    "path": "research-round23/mod3-centering/SOURCE_RECEIPT.json",
+    "sha256": "f48209d01379e1c8e7e4c84f828e1193ad922d894f0702bc7d072de32863c31b"
+  },
+  "status": "Frozen ordinary proof submitted for independent review; no strict pair bound.",
+  "syntax_helper_provenance": "Copied R22 small-shift syntax-only helper, changing only the report basename; optional KaTeX module argument retained.",
+  "validation": {
+    "GRH_assumption": false,
+    "earlier_author_edits": false,
+    "exact_derivative_parameter_cases": 3,
+    "exact_divisor_prefix_cases": 8,
+    "exact_residue_cases": 36,
+    "fixed_modulus": 6,
+    "git_mutation": false,
+    "parameter_scan": false,
+    "prime_height_runs": false,
+    "source_files_pinned": 7,
+    "syntax_math_expressions": 49
+  }
+}

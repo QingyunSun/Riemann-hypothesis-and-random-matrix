@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-05",
+  "scope": "Exact finite-kernel completion, actual canonical support and counts, and previously proved frequency coefficient bounds. No new prime-distribution theorem is imported.",
+  "files": [
+    {
+      "path": "research-round10/shift-average/SMOOTH_SHIFT_COMPLETION_BOUND.md",
+      "sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+      "bytes": 13008
+    },
+    {
+      "path": "research-round11/prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+      "sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29",
+      "bytes": 13797
+    },
+    {
+      "path": "research-round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+      "bytes": 11083
+    },
+    {
+      "path": "research-round12/sampling-geometry/ACTUAL_SUPPORT_SAMPLING_OBSTRUCTION.md",
+      "sha256": "cb52d72f6068c3030968209d8aa028439ea4dc309aa5584d216a1d7d30a1a59d",
+      "bytes": 11979
+    },
+    {
+      "path": "research-round12/sampling-geometry/COUNTING_REVIEW.md",
+      "sha256": "820dfdc6707cdc1c29f7eef61dc884d3f6c96980ffcffab661cd790e3843bbc2",
+      "bytes": 2258
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "author_sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e",
+  "checker_sha256": "51f9178f5035e285005ddd27ec88773f03253ddc1d7dee85a8d5c2114e136129",
+  "checks": {
+    "H_exceeds_old_Q_at_alpha": "1000/477",
+    "beta_exact_moments": [
+      {
+        "T": 4,
+        "log_y_minus_log_m": "-5/6",
+        "mass": "1",
+        "mean_scaled_u": "8/3"
+      },
+      {
+        "T": 5,
+        "log_y_minus_log_m": "-13/12",
+        "mass": "1",
+        "mean_scaled_u": "5/2"
+      },
+      {
+        "T": 7,
+        "log_y_minus_log_m": "-29/20",
+        "mass": "1",
+        "mean_scaled_u": "7/3"
+      },
+      {
+        "T": 11,
+        "log_y_minus_log_m": "-4861/2520",
+        "mass": "1",
+        "mean_scaled_u": "11/5"
+      }
+    ],
+    "exact_exponents": [
+      {
+        "alpha": "7/4",
+        "same_power_T": "-1/8",
+        "square_root_absolute_error_power_X": "-1/14",
+        "theta": "3/7"
+      },
+      {
+        "alpha": "2",
+        "same_power_T": "0",
+        "square_root_absolute_error_power_X": "0",
+        "theta": "1/2"
+      },
+      {
+        "alpha": "9/4",
+        "same_power_T": "1/8",
+        "square_root_absolute_error_power_X": "1/18",
+        "theta": "5/9"
+      }
+    ],
+    "exact_floor_centering_cases": 25,
+    "exact_signed_kernel_cases": [
+      {
+        "T": 4,
+        "diagonal": "154446517/493807104",
+        "norm": "970404685/5925685248",
+        "off_diagonal": "-126136217/846526464",
+        "window": [
+          "3/2",
+          "7/2"
+        ]
+      },
+      {
+        "T": 4,
+        "diagonal": "39581/81648",
+        "norm": "34957915/105815808",
+        "off_diagonal": "-16339061/105815808",
+        "window": [
+          "2",
+          "8"
+        ]
+      },
+      {
+        "T": 4,
+        "diagonal": "8611357/54867456",
+        "norm": "153687421/1975228416",
+        "off_diagonal": "-22331633/282175488",
+        "window": [
+          "1",
+          "5/2"
+        ]
+      },
+      {
+        "T": 5,
+        "diagonal": "5211547655/23702740992",
+        "norm": "77136312355/568865783808",
+        "off_diagonal": "-6848690195/81266540544",
+        "window": [
+          "3/2",
+          "7/2"
+        ]
+      },
+      {
+        "T": 5,
+        "diagonal": "11933315/30862944",
+        "norm": "10484576495/35554111488",
+        "off_diagonal": "-466086055/5079158784",
+        "window": [
+          "2",
+          "8"
+        ]
+      },
+      {
+        "T": 5,
+        "diagonal": "207447965/2257403904",
+        "norm": "1459454159/27088846848",
+        "off_diagonal": "-1029921421/27088846848",
+        "window": [
+          "1",
+          "5/2"
+        ]
+      },
+      {
+        "T": 7,
+        "diagonal": "2885539507735/23039064244224",
+        "norm": "420997813315459/4423500334891008",
+        "off_diagonal": "-19003681738523/631928619270144",
+        "window": [
+          "3/2",
+          "7/2"
+        ]
+      },
+      {
+        "T": 7,
+        "diagonal": "385427261/1428513408",
+        "norm": "2322335673041/9873884676096",
+        "off_diagonal": "-48819650713/1410554953728",
+        "window": [
+          "2",
+          "8"
+        ]
+      },
+      {
+        "T": 7,
+        "diagonal": "241222412335/5851190919168",
+        "norm": "2164150176877/70214291030016",
+        "off_diagonal": "-104359824449/10030613004288",
+        "window": [
+          "1",
+          "5/2"
+        ]
+      },
+      {
+        "T": 11,
+        "diagonal": "23544571321194454861/412765663249349738496",
+        "norm": "10301034536661302867059/198127518359687874478080",
+        "off_diagonal": "-142908528216005066603/28303931194241124925440",
+        "window": [
+          "3/2",
+          "7/2"
+        ]
+      },
+      {
+        "T": 11,
+        "diagonal": "864403049757181/5248586823137280",
+        "norm": "30715023091048684487/193483904648132689920",
+        "off_diagonal": "-164332990742862271/27640557806876098560",
+        "window": [
+          "2",
+          "8"
+        ]
+      },
+      {
+        "T": 11,
+        "diagonal": "2583898297637934937/157244062190228471808",
+        "norm": "144865216315284146231/9434643731413708308480",
+        "off_diagonal": "-10168681542991949989/9434643731413708308480",
+        "window": [
+          "1",
+          "5/2"
+        ]
+      }
+    ],
+    "extra_shift_saving_rho_threshold": "1/10",
+    "floor_norm_comparison_power_T": "-3/8",
+    "floor_squared_norm_power_T": "-3/4",
+    "formal_prime_power_corrections": [
+      {
+        "correction": "0",
+        "k": 1,
+        "p": 2
+      },
+      {
+        "correction": "L2**2",
+        "k": 2,
+        "p": 2
+      },
+      {
+        "correction": "2*L2**2",
+        "k": 3,
+        "p": 2
+      },
+      {
+        "correction": "3*L2**2",
+        "k": 4,
+        "p": 2
+      },
+      {
+        "correction": "0",
+        "k": 1,
+        "p": 3
+      },
+      {
+        "correction": "L3**2",
+        "k": 2,
+        "p": 3
+      },
+      {
+        "correction": "2*L3**2",
+        "k": 3,
+        "p": 3
+      },
+      {
+        "correction": "3*L3**2",
+        "k": 4,
+        "p": 3
+      },
+      {
+        "correction": "0",
+        "k": 1,
+        "p": 5
+      },
+      {
+        "correction": "L5**2",
+        "k": 2,
+        "p": 5
+      },
+      {
+        "correction": "2*L5**2",
+        "k": 3,
+        "p": 5
+      },
+      {
+        "correction": "3*L5**2",
+        "k": 4,
+        "p": 5
+      }
+    ],
+    "inherited_decimal_arithmetic": {
+      "AH_A_minus_M": 0.8254346531489499,
+      "M": 0.1851531432653023,
+      "certification": "exact arithmetic on inherited floating diagnostics, not interval bounds",
+      "exact_decimal_gain": "1058779641425219/100000000000000000",
+      "required_gain_A_minus_1": 0.01058779641425219,
+      "target_1_minus_M": 0.8148468567346977
+    },
+    "uniform_beta_threshold": "4/9"
+  },
+  "scope": "bounded structural/algebra checks, no numerical prime-pair bound",
+  "status": "PASS"
+}

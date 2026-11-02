@@ -1,0 +1,174 @@
+{
+  "status": "exact checks passed; no zeta covariance estimate newly proved",
+  "parameter_certificate": {
+    "omega": "3/250",
+    "delta": "1/1000",
+    "epsilon": "1/1000",
+    "full_prime_condition_lhs": "74/25",
+    "strict_full_prime_margin": "1/25",
+    "modulus_level": "523/1000",
+    "root_size_exponent_interval": [
+      "259/1000",
+      "261/1000"
+    ],
+    "coprime_lcm_exponent_interval": [
+      "259/500",
+      "261/500"
+    ],
+    "owner_predicate_exponent_margin": "51/2000",
+    "passed": true
+  },
+  "mobius_log_convolution_cases": 300,
+  "finite_progression_checks": [
+    {
+      "h": 1,
+      "n_interval": [
+        60,
+        90
+      ],
+      "moduli": [
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        21,
+        22,
+        23,
+        26,
+        29,
+        30
+      ],
+      "direct_formal_log_quadratic_monomials": 6,
+      "nonprimitive_formal_monomials": 0,
+      "nonzero_exceptional_prime_power_pairs": 0,
+      "identity_passed": true,
+      "scope": "exact finite algebra; moduli are a toy family, not an asymptotic certificate"
+    },
+    {
+      "h": 2,
+      "n_interval": [
+        60,
+        90
+      ],
+      "moduli": [
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        21,
+        22,
+        23,
+        26,
+        29,
+        30
+      ],
+      "direct_formal_log_quadratic_monomials": 4,
+      "nonprimitive_formal_monomials": 0,
+      "nonzero_exceptional_prime_power_pairs": 0,
+      "identity_passed": true,
+      "scope": "exact finite algebra; moduli are a toy family, not an asymptotic certificate"
+    },
+    {
+      "h": 4,
+      "n_interval": [
+        60,
+        90
+      ],
+      "moduli": [
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        21,
+        22,
+        23,
+        26,
+        29,
+        30
+      ],
+      "direct_formal_log_quadratic_monomials": 5,
+      "nonprimitive_formal_monomials": 0,
+      "nonzero_exceptional_prime_power_pairs": 0,
+      "identity_passed": true,
+      "scope": "exact finite algebra; moduli are a toy family, not an asymptotic certificate"
+    },
+    {
+      "h": 6,
+      "n_interval": [
+        60,
+        90
+      ],
+      "moduli": [
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        21,
+        22,
+        23,
+        26,
+        29,
+        30
+      ],
+      "direct_formal_log_quadratic_monomials": 3,
+      "nonprimitive_formal_monomials": 1,
+      "nonzero_exceptional_prime_power_pairs": 1,
+      "identity_passed": true,
+      "scope": "exact finite algebra; moduli are a toy family, not an asymptotic certificate"
+    },
+    {
+      "h": 13,
+      "n_interval": [
+        60,
+        90
+      ],
+      "moduli": [
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        21,
+        22,
+        23,
+        26,
+        29,
+        30
+      ],
+      "direct_formal_log_quadratic_monomials": 8,
+      "nonprimitive_formal_monomials": 0,
+      "nonzero_exceptional_prime_power_pairs": 0,
+      "identity_passed": true,
+      "scope": "exact finite algebra; moduli are a toy family, not an asymptotic certificate"
+    }
+  ],
+  "sources": [
+    {
+      "local_file": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+      "source_url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930"
+    },
+    {
+      "local_file": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+      "source_url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84"
+    }
+  ],
+  "report_sha256": "982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a",
+  "script_sha256": "99809877fc50a5ee2634ce0d9e748f4e510533a2611c3c2b8870f390f37634ac",
+  "arithmetic": "Python integers and fractions; formal logarithm monomials"
+}

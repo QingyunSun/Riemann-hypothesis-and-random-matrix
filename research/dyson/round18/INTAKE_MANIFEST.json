@@ -1,0 +1,220 @@
+{
+  "source": "research-round18 staging; all original bytes preserved locally",
+  "original_files": 30,
+  "original_bytes": 626360,
+  "public_verbatim_files": 28,
+  "published_source_edits": [],
+  "historical_review_scope": "Coordinator earlier functional source and diagnostic snapshots preserved alongside original and final-delta reviews; final modulus source has full review.",
+  "files": [
+    {
+      "path": "coordinator-intake/COORDINATOR_R17_REVIEW.json",
+      "bytes": 1843,
+      "sha256": "954069f2011f48b1395ca19fe2a8e7178c9f83ff0196ceb2b9bc2880cb9c4fa7",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-intake/INTAKE_RECEIPT.json",
+      "bytes": 1016,
+      "sha256": "e7603682f96ef60765a116bba5380484a80dfe3de94431113b3e7a135f6516c3",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-intake/TRANSFERABLE_MATH_TOOLS_THROUGH_R17.md",
+      "bytes": 49886,
+      "sha256": "11f74de893f6bac4740e2f9b9f0e74b333358c1e242302156bf0508a2a374c6e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_FUNCTIONAL_DELTA_REVIEW.json",
+      "bytes": 746,
+      "sha256": "8ddc995d33281ab056432f6cf895fc7999ab45778696d68a1126f08b6799213c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_FUNCTIONAL_REVIEW.json",
+      "bytes": 3211,
+      "sha256": "abaa21760ecda0c54c89244d4a8a7e3164c890012e1a231776b226d39a569414",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_MODULUS_REVIEW.json",
+      "bytes": 2716,
+      "sha256": "f62b971a3491942d357e620edccb07947c80ef4e7a591680b146d67b15328e74",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/DIAGNOSTIC.md",
+      "bytes": 10337,
+      "sha256": "4b068609eb5059d50070f5e2f4939eef0e48eee59f52b010b095440f2210845d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/FUNCTIONAL_REFLECTION_IDENTITY.md",
+      "bytes": 18076,
+      "sha256": "cadd5e82070e069f804e9b15d9d3488735963018dc4afb1aa7d7e769767b31fc",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/MODULUS_WEIGHT_LEVEL_AND_NORMALIZATION.md",
+      "bytes": 16141,
+      "sha256": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/ROOT_INFINITE_CONTOUR_TRACE.md",
+      "bytes": 5466,
+      "sha256": "58e103d3a5235138d1017f20577ddfae8f6f465e56298f55fd7be70c4ff79e2b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "functional-reflection/AUTHOR_RECEIPT.json",
+      "bytes": 2098,
+      "sha256": "b225e7c2b6a8989db842cb24eec10b617038a901aaa9821204fedb828535edad",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md",
+      "bytes": 18635,
+      "sha256": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "functional-reflection-review/DIAGNOSTIC.md",
+      "bytes": 10687,
+      "sha256": "cf6296b9c89a24baf21972639aaff8874d59a723bae50ceeeadce3d324cb2bad",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "functional-reflection-review/INDEPENDENT_FUNCTIONAL_REVIEW.md",
+      "bytes": 12436,
+      "sha256": "80b2309328db700458e7fe42a4d1b6cefdb7025a7dae6113b4a01c0c1df6a16e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "functional-reflection-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 3187,
+      "sha256": "d7222dc4a9c6e4b668a749e1d24f50c5d9570a5cf0e29a63b51949f41e6ef2cd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "functional-reflection-review/sources/source_receipt.json",
+      "bytes": 800,
+      "sha256": "9b37d45c732bd396675773e14c556735b0e4c1cde7efd3752d48d3200ffa1ab6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "modulus-weights/MODULUS_WEIGHT_LEVEL_AND_NORMALIZATION.md",
+      "bytes": 16141,
+      "sha256": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "modulus-weights/author_manifest.json",
+      "bytes": 1914,
+      "sha256": "5688d0f81252b5c9bb01316a0549be1701c6c2577bed8fd52a33aaff965ccac8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "modulus-weights/check_modulus_weights.py",
+      "bytes": 5275,
+      "sha256": "d309bacba4d25c97de72990862e86371944949ab6f1aac4f1b0dd703851d45fd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "modulus-weights/modulus_weight_checks.json",
+      "bytes": 2316,
+      "sha256": "bd614b05b01897ff6b16e2379240bc6e4d450eeaf0d7f96021a091ac65f3ea3c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "modulus-weights/modulus_weight_checks.log",
+      "bytes": 1601,
+      "sha256": "60a7907208f110c56674adb4904b45567af9860d6454c3f7b58857dffb859f56",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "modulus-weights/source_manifest.json",
+      "bytes": 2692,
+      "sha256": "77ce2f6c49dcdaa7efc1b0c04e8c1bc1d091759d1376883a442ca0f4836ce0a1",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "modulus-weights/sources/maynard-2006.07088v1.pdf",
+      "bytes": 321319,
+      "sha256": "04516b141dfac689f317d533189eabf9b50cec200706159aaa3d8dbe1e25bfb4",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary reference retained locally; public source manifest gives URL/hash."
+    },
+    {
+      "path": "modulus-weights/sources/maynard-2006.07088v1.txt",
+      "bytes": 96541,
+      "sha256": "4bcb824f57cf391ab86827e1d64d57b6c04cb8689c33502e7a6b6c6d7bf7514b",
+      "public_verbatim": false,
+      "omission_reason": "Full third-party primary reference retained locally; public source manifest gives URL/hash."
+    },
+    {
+      "path": "root-contour-proof/ROOT_INFINITE_CONTOUR_TRACE.md",
+      "bytes": 5466,
+      "sha256": "58e103d3a5235138d1017f20577ddfae8f6f465e56298f55fd7be70c4ff79e2b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_FUNCTIONAL_REVIEW.md",
+      "bytes": 4537,
+      "sha256": "93872c610748db20128d21a53a1ed1f20d0a10d97dc7c9e4c9b207899215d94f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_MODULUS_REPLAY_RECEIPT.json",
+      "bytes": 1732,
+      "sha256": "cfc12f76e7ebf74cfeb9486136709afd1f93e219e5d950acd8ba096cf950a1ee",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_MODULUS_REVIEW.md",
+      "bytes": 6343,
+      "sha256": "31f74c9e2671f8410375aaa894581c62e9f87685b642a15ea1552c4aa5f7c570",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/modulus_weight_replay.json",
+      "bytes": 1601,
+      "sha256": "c6e87a8a4eeaa0801aea1ca032c874c592a4584cf22cd063fc9407d54c5d602c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/modulus_weight_replay.log",
+      "bytes": 1601,
+      "sha256": "c6e87a8a4eeaa0801aea1ca032c874c592a4584cf22cd063fc9407d54c5d602c",
+      "public_verbatim": true,
+      "omission_reason": null
+    }
+  ]
+}

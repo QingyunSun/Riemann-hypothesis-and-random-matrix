@@ -1,0 +1,155 @@
+{
+  "status": "numerical diagnostics, not formal verification",
+  "exact_two_root_time": [
+    {
+      "delta": 0.01,
+      "tau": 0.12500052083680557,
+      "exact_tau": 0.1250005208368308
+    },
+    {
+      "delta": 0.1,
+      "tau": 0.1250521180819286,
+      "exact_tau": 0.12505211808192498
+    },
+    {
+      "delta": 0.5,
+      "tau": 0.12632420498988012,
+      "exact_tau": 0.12632420498987865
+    },
+    {
+      "delta": 1.0,
+      "tau": 0.13058424044372272,
+      "exact_tau": 0.13058424044372266
+    }
+  ],
+  "symmetric_planted_pair": [
+    {
+      "N": 16,
+      "delta": 0.004960628287400625,
+      "delta_A": 0.07072762598617865,
+      "collision_tau": 0.12501628046819596,
+      "eight_tau": 1.0001302437455677,
+      "grid_normal_form_error": 0.006504049480314578
+    },
+    {
+      "N": 32,
+      "delta": 0.00196862664046074,
+      "delta_A": 0.07102808749257139,
+      "collision_tau": 0.1250103158213942,
+      "eight_tau": 1.0000825265711537,
+      "grid_normal_form_error": 0.004121324093385503
+    },
+    {
+      "N": 64,
+      "delta": 0.0007812500000000003,
+      "delta_A": 0.06779903308230154,
+      "collision_tau": 0.12500650778000977,
+      "eight_tau": 1.0000520622400781,
+      "grid_normal_form_error": 0.0026002700835920933
+    },
+    {
+      "N": 128,
+      "delta": 0.0003100392679625391,
+      "delta_A": 0.06272339449892987,
+      "collision_tau": 0.12500410102013898,
+      "eight_tau": 1.0000328081611118,
+      "grid_normal_form_error": 0.0016387813916018956
+    },
+    {
+      "N": 256,
+      "delta": 0.00012303916502879626,
+      "delta_A": 0.05679475962522187,
+      "collision_tau": 0.12500258366716327,
+      "eight_tau": 1.0000206693373062,
+      "grid_normal_form_error": 0.0010325133240201012
+    }
+  ],
+  "global_product_bound_samples": [
+    {
+      "N": 8,
+      "tested_points": 1000
+    },
+    {
+      "N": 24,
+      "tested_points": 1000
+    },
+    {
+      "N": 64,
+      "tested_points": 865
+    }
+  ],
+  "three_point_bound_samples": [
+    {
+      "N": 4,
+      "scaled_span": 0.03,
+      "normalized_rho3": 3.075712498321835e-07
+    },
+    {
+      "N": 4,
+      "scaled_span": 0.1,
+      "normalized_rho3": 3.075210320869403e-07
+    },
+    {
+      "N": 4,
+      "scaled_span": 0.3,
+      "normalized_rho3": 3.070928284384262e-07
+    },
+    {
+      "N": 8,
+      "scaled_span": 0.03,
+      "normalized_rho3": 4.2386794393688054e-07
+    },
+    {
+      "N": 8,
+      "scaled_span": 0.1,
+      "normalized_rho3": 4.237887683415896e-07
+    },
+    {
+      "N": 8,
+      "scaled_span": 0.3,
+      "normalized_rho3": 4.230895615525565e-07
+    },
+    {
+      "N": 16,
+      "scaled_span": 0.03,
+      "normalized_rho3": 4.557216029131569e-07
+    },
+    {
+      "N": 16,
+      "scaled_span": 0.1,
+      "normalized_rho3": 4.556323258430363e-07
+    },
+    {
+      "N": 16,
+      "scaled_span": 0.3,
+      "normalized_rho3": 4.548512542581405e-07
+    }
+  ],
+  "galilean_large_drift_samples": [
+    {
+      "N": 100,
+      "delta_A": 1.0918444395925886,
+      "delta_squared_B": 0.013421779844676315,
+      "moving_frame_double_root_x": 2.2714290117744677e-05,
+      "selected_pair_double_root_tau": 0.12542090512593096,
+      "scope": "local double root, not certified first global collision"
+    },
+    {
+      "N": 1000,
+      "delta_A": 3.052172039150359,
+      "delta_squared_B": 0.019246679444419396,
+      "moving_frame_double_root_x": 2.5576963541339486e-05,
+      "selected_pair_double_root_tau": 0.12560443170137633,
+      "scope": "local double root, not certified first global collision"
+    },
+    {
+      "N": 10000,
+      "delta_A": 5.313089453518513,
+      "delta_squared_B": 0.02010180598127912,
+      "moving_frame_double_root_x": 2.563903056530592e-05,
+      "selected_pair_double_root_tau": 0.1256314192671006,
+      "scope": "local double root, not certified first global collision"
+    }
+  ],
+  "centered_sine_factor_max_log_excess": -4.499666916402254e-06
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "Root-only prepublication serialization repair; no author/data/mathematical change",
+  "old_sha256": "a9e1731b8853babac42b57af461236880a56bf4b7478151f3cc9c4af996fd63c",
+  "new_sha256": "425f589e8851d39df3f824378989e2a476751d7ada41f3d8b0519fb63bff432b",
+  "old_local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Local-Archive/prepublication-formatting/round20-root-review-unescaped.md",
+  "reason": "JavaScript cooked backslashes in the initial shell argument; strict syntax/control check detected form-feed bytes before commit. Final text written using a raw JavaScript string.",
+  "new_bytes": 7228
+}

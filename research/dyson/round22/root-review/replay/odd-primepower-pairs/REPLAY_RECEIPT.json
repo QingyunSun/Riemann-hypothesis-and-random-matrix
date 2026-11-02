@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "scope": "One bounded independent copy replay, seven exact scalar assertions; no prime data or asymptotic inference.",
+  "json_sha256": "bd6a9629c9e495c33456b61eb7f96b3df08584c82a8d9b86cb497e33da966343",
+  "whole_json_and_stdout_byte_identical": true
+}

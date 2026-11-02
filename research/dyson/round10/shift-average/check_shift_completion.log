@@ -1,0 +1,5 @@
+PASS: 9615 exact Ramanujan-ratio cases.
+PASS: conductor regrouping, including formal log(q) coefficients.
+PASS: both endpoint power exponents and prime-power error comparison.
+The smooth-packet bound still exceeds X log X.
+Report SHA256: 7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78

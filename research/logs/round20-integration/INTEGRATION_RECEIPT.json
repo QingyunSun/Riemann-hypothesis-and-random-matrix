@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "original_files": 65,
+  "original_bytes": 17380711,
+  "public_verbatim_files": 64,
+  "source_preservation": "All original author/review/data bytes unchanged; old memo and later publication-status memo preserved separately.",
+  "dependency_records_verified": 88,
+  "existing_independent_replays": [
+    {
+      "author": "length-averaged-variance/length_kernel_checks.json",
+      "independent": "length-average-review/replay/length_kernel_checks.json",
+      "byte_identical": true,
+      "sha256": "7262ab47eb028f0e2453ca2139a16bd0f78b478e57bc7a80e3680e3eb6f2bf8e"
+    },
+    {
+      "author": "length-averaged-variance/length_kernel_checks.log",
+      "independent": "length-average-review/replay/length_kernel_checks.log",
+      "byte_identical": true,
+      "sha256": "7262ab47eb028f0e2453ca2139a16bd0f78b478e57bc7a80e3680e3eb6f2bf8e"
+    },
+    {
+      "author": "height-regularity/height_regularity_checks.json",
+      "independent": "height-regularity-review/replayed_height_checks.json",
+      "byte_identical": true,
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f"
+    },
+    {
+      "author": "height-regularity/height_regularity_checks.log",
+      "independent": "height-regularity-review/replayed_height_checks.log",
+      "byte_identical": true,
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f"
+    }
+  ],
+  "prime_data_validation": "Full 49,152 CSV rows checked and totals reaggregated; exact integer arrays retain all original bytes. See PRIME_DATA_INTAKE_CHECK.json.",
+  "new_mathematical_reruns": 0,
+  "ordinary_proof_scope": "RH all-length variance identity, actual-height regularity, and their combined strict-deficit equivalence.",
+  "computation_scope": "Three finite single-length prime variances, not the new all-length statistic; analytic truncation columns exclude floating rounding.",
+  "new_strict_bragg_bound": false,
+  "new_aggregate_bound": false,
+  "formal_verification": false,
+  "new_pdf_build": false,
+  "historical_relative_links_without_public_target": [
+    {
+      "file": "coordinator-review/TRANSFERABLE_MATH_TOOLS_FOR_ASTRA.md",
+      "target": "W\\lambda"
+    },
+    {
+      "file": "coordinator-review/TRANSFERABLE_MATH_TOOLS_FOR_ASTRA.md",
+      "target": "W\\lambda"
+    },
+    {
+      "file": "coordinator-review/TRANSFERABLE_MATH_TOOLS_R19_PUBLISHED.md",
+      "target": "W\\lambda"
+    },
+    {
+      "file": "coordinator-review/TRANSFERABLE_MATH_TOOLS_R19_PUBLISHED.md",
+      "target": "W\\lambda"
+    },
+    {
+      "file": "coordinator-review/TRANSFERABLE_MATH_TOOLS_THROUGH_R17.md",
+      "target": "W\\lambda"
+    },
+    {
+      "file": "coordinator-review/TRANSFERABLE_MATH_TOOLS_THROUGH_R17.md",
+      "target": "W\\lambda"
+    }
+  ],
+  "source_whitespace": "Original Python CSV outputs retain CRLF, and four source/snapshot files retain EOF blank lines. Scoped Git whitespace attributes preserve the exact bytes; Markdown strict control checks still reject CR/form-feed."
+}

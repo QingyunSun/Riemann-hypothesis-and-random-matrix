@@ -1,0 +1,429 @@
+{
+  "files": [
+    {
+      "bytes": 2252,
+      "omission_reason": null,
+      "path": "R29_REVIEW_CLOSURE_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "553d7d0c81914ce1e503fb53e12e74d1be439a9e8ac01aef822cc81ba9946a38"
+    },
+    {
+      "bytes": 8583,
+      "omission_reason": null,
+      "path": "close_review_packages.py",
+      "public_verbatim": true,
+      "sha256": "b0b12ec7268e1eff3605c27f9c54fcbb68948559ec675ed01774a3af4518322d"
+    },
+    {
+      "bytes": 6022,
+      "omission_reason": null,
+      "path": "coordinator-central-review/COORDINATOR_CENTRAL_BLOCK_REVIEW.md",
+      "public_verbatim": true,
+      "sha256": "4ec75b386f3155f297c6967faf73b6ddfd96ec7c3bbcda7c84516abc6eb99130"
+    },
+    {
+      "bytes": 537,
+      "omission_reason": null,
+      "path": "coordinator-central-review/COORDINATOR_CENTRAL_BLOCK_REVIEW_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "5f8aa56c20c87362b580358b1a9a70c817f6272df9a3b8837ddddc9f3c2ef9f7"
+    },
+    {
+      "bytes": 16776,
+      "omission_reason": null,
+      "path": "coordinator-central-review/SIGNED_MELLIN_BLOCK_BOUND_AUTHOR_FROZEN.md",
+      "public_verbatim": true,
+      "sha256": "99e25b2e25085077d47b575366e92e9609e83bd8db3584d2d744d9a99ff4c3f1"
+    },
+    {
+      "bytes": 6544,
+      "omission_reason": null,
+      "path": "input-plane-review/COORDINATOR_LOG_VECTOR_MELLIN_INPUT_PROJECTION.md",
+      "public_verbatim": true,
+      "sha256": "f808242fbfddfbff337859eb375e6e22934fe2edba1bec11c7c5d822ba675739"
+    },
+    {
+      "bytes": 10930,
+      "omission_reason": null,
+      "path": "input-plane-review/INDEPENDENT_INPUT_PLANE_REVIEW.md",
+      "public_verbatim": true,
+      "sha256": "79ee2c5d96272492fa80c33f9c96f20f1976712fd1efee9fc33d641fdd50f656"
+    },
+    {
+      "bytes": 4299,
+      "omission_reason": null,
+      "path": "input-plane-review/REVIEW_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "c12c2eb06a2d15e730481300c5aacb28286b5d5aa975729aa79558b4ae2f3984"
+    },
+    {
+      "bytes": 1549,
+      "omission_reason": null,
+      "path": "input-plane-review/check_math_syntax.cjs",
+      "public_verbatim": true,
+      "sha256": "1b5f4a297c99eb149313a944a7ebb33ef433f57993496c9f5399a82ebb843eb5"
+    },
+    {
+      "bytes": 2031,
+      "omission_reason": null,
+      "path": "input-plane-review/check_projection_algebra.py",
+      "public_verbatim": true,
+      "sha256": "ff7bda1d510f6cd846b01f45921dc9e4f888283aaf054cb69e95e80d97b7df66"
+    },
+    {
+      "bytes": 856,
+      "omission_reason": null,
+      "path": "input-plane-review/exact_projection_checks.json",
+      "public_verbatim": true,
+      "sha256": "d4032c79712dda825940405d98fd410ee1da6741d85a0877c6b548a7a2fe357e"
+    },
+    {
+      "bytes": 856,
+      "omission_reason": null,
+      "path": "input-plane-review/exact_projection_checks.log",
+      "public_verbatim": true,
+      "sha256": "d4032c79712dda825940405d98fd410ee1da6741d85a0877c6b548a7a2fe357e"
+    },
+    {
+      "bytes": 286,
+      "omission_reason": null,
+      "path": "input-plane-review/math_syntax_checks.json",
+      "public_verbatim": true,
+      "sha256": "a2be2e2676bf4588ac97d51b0633680286f47ac09d3ad9dde3d364287e642da6"
+    },
+    {
+      "bytes": 9836,
+      "omission_reason": null,
+      "path": "mellin-energy-review/INDEPENDENT_MELLIN_ENERGY_REVIEW.md",
+      "public_verbatim": true,
+      "sha256": "241597dc909bcc84368c77674040894b57abd3ad5d582ec8f74af99aed708bfe"
+    },
+    {
+      "bytes": 8799,
+      "omission_reason": null,
+      "path": "mellin-energy-review/REVIEW_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "8ba3c9b294a083094318c98905e2e7ab7b1fd7e495070362f52422fb5509d023"
+    },
+    {
+      "bytes": 1494,
+      "omission_reason": null,
+      "path": "mellin-energy-review/check_math_syntax.cjs",
+      "public_verbatim": true,
+      "sha256": "9acdc382700501fbadffce74b47194fb09bb7b6c6c2f2ca438d944f6b7415f18"
+    },
+    {
+      "bytes": 2023,
+      "omission_reason": null,
+      "path": "mellin-energy-review/check_mellin_energy.py",
+      "public_verbatim": true,
+      "sha256": "cac4a8cc61513988fd8fc49e21f1049f3419635395d3fba461c0b5a1f69411f0"
+    },
+    {
+      "bytes": 286,
+      "omission_reason": null,
+      "path": "mellin-energy-review/math_syntax_checks.json",
+      "public_verbatim": true,
+      "sha256": "5a2f017e560978d508df9c5436c7eb422ab587e50ffef6c380b99e66570ae781"
+    },
+    {
+      "bytes": 604,
+      "omission_reason": null,
+      "path": "mellin-energy-review/mellin_energy_checks.json",
+      "public_verbatim": true,
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 604,
+      "omission_reason": null,
+      "path": "mellin-energy-review/mellin_energy_checks.log",
+      "public_verbatim": true,
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 3280,
+      "omission_reason": null,
+      "path": "mellin-energy-support/AUTHOR_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "c967158ee01e6eac586834d429947f5f12ca5305d1e42993c4e3b099f5f4c4bb"
+    },
+    {
+      "bytes": 13239,
+      "omission_reason": null,
+      "path": "mellin-energy-support/WEIGHTED_MELLIN_ENERGY.md",
+      "public_verbatim": true,
+      "sha256": "5b7378c9e4e18881c829883b199dfded12a103945d7a64b72a908343aad013a7"
+    },
+    {
+      "bytes": 2023,
+      "omission_reason": null,
+      "path": "mellin-energy-support/check_mellin_energy.py",
+      "public_verbatim": true,
+      "sha256": "cac4a8cc61513988fd8fc49e21f1049f3419635395d3fba461c0b5a1f69411f0"
+    },
+    {
+      "bytes": 1126,
+      "omission_reason": null,
+      "path": "mellin-energy-support/check_syntax.cjs",
+      "public_verbatim": true,
+      "sha256": "ded5b1edc8fc919c2fe783a9c958d4489a5fb75a2275586a128d473712af7609"
+    },
+    {
+      "bytes": 1053,
+      "omission_reason": null,
+      "path": "mellin-energy-support/historical-before-alias-wording/RECOVERY_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "1ab4ae12340091b6fd3a34a6581a4d4d4218c914132739501651aa8cca70e2ab"
+    },
+    {
+      "bytes": 13211,
+      "omission_reason": null,
+      "path": "mellin-energy-support/historical-before-alias-wording/WEIGHTED_MELLIN_ENERGY.md",
+      "public_verbatim": true,
+      "sha256": "c8f8c6bfcfc9d605e3d02e9031d56d88cc8ea3402096bcb06b394d0abe81ecff"
+    },
+    {
+      "bytes": 604,
+      "omission_reason": null,
+      "path": "mellin-energy-support/mellin_energy_checks.json",
+      "public_verbatim": true,
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 604,
+      "omission_reason": null,
+      "path": "mellin-energy-support/mellin_energy_checks.log",
+      "public_verbatim": true,
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 3066,
+      "omission_reason": null,
+      "path": "mellin-energy-support/source_receipt.json",
+      "public_verbatim": true,
+      "sha256": "053039168a1d2ace628b3f8b2ab0ecdc3a7c80f27480d7c53ca013d5283e2ea4"
+    },
+    {
+      "bytes": 83,
+      "omission_reason": null,
+      "path": "mellin-energy-support/syntax_checks.json",
+      "public_verbatim": true,
+      "sha256": "9efee991232ca853b50a8372b94e3581a7a5ece03c2b294669bae31bf1f5a992"
+    },
+    {
+      "bytes": 18228,
+      "omission_reason": null,
+      "path": "signed-mellin-review/INDEPENDENT_SIGNED_MELLIN_REVIEW.md",
+      "public_verbatim": true,
+      "sha256": "a41de96d01cca20ea7fcc57e009f26e71e76b2fdf79760e0ed4135c340ed32f0"
+    },
+    {
+      "bytes": 11746,
+      "omission_reason": null,
+      "path": "signed-mellin-review/REVIEW_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "c01fa74b17dec077b71303f69debd2c9c5b9471ee98e43336935e3b15eb80764"
+    },
+    {
+      "bytes": 1551,
+      "omission_reason": null,
+      "path": "signed-mellin-review/check_math_syntax.cjs",
+      "public_verbatim": true,
+      "sha256": "ec464d57f2b74490d88e55d25322457a5be246976b87301506a6d56a1e32112c"
+    },
+    {
+      "bytes": 1611,
+      "omission_reason": null,
+      "path": "signed-mellin-review/independent_exact_check_results.json",
+      "public_verbatim": true,
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "bytes": 1611,
+      "omission_reason": null,
+      "path": "signed-mellin-review/independent_exact_check_stdout.log",
+      "public_verbatim": true,
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "bytes": 287,
+      "omission_reason": null,
+      "path": "signed-mellin-review/math_syntax_checks.json",
+      "public_verbatim": true,
+      "sha256": "0a7cf6024ba98b506159354bc732d4c87bbe059d4145ebf80aaf85ca45f89fc3"
+    },
+    {
+      "bytes": 3195,
+      "omission_reason": null,
+      "path": "signed-mellin-review/replay_review_checks.py",
+      "public_verbatim": true,
+      "sha256": "fbfe160eb5caae5827a9dd35346105b5c542843e42f222d24fb4e820622a16a5"
+    },
+    {
+      "bytes": 5628,
+      "omission_reason": null,
+      "path": "signed-mellin-review/source_and_replay_checks.json",
+      "public_verbatim": true,
+      "sha256": "120d3e9d7116ee373020cd97d096befff7bbdecce8054abb2150901161bcf7c8"
+    },
+    {
+      "bytes": 2274,
+      "omission_reason": null,
+      "path": "signed-mellin-test/AUTHOR_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "b0c59369ba98535d47db0a65aa201dbd218de00824bd53d9e939e2b113e96023"
+    },
+    {
+      "bytes": 16995,
+      "omission_reason": null,
+      "path": "signed-mellin-test/SIGNED_MELLIN_BLOCK_BOUND.md",
+      "public_verbatim": true,
+      "sha256": "753f116b8ebc5d6cc7d7a4e148c98e9b8ef9df97d4327efe2fa094507aa13492"
+    },
+    {
+      "bytes": 4502,
+      "omission_reason": null,
+      "path": "signed-mellin-test/check_signed_mellin.py",
+      "public_verbatim": true,
+      "sha256": "64aef6b9cdd651ab07c5fb26272716ee04e7b99206b98ec7eedce58defb3e83d"
+    },
+    {
+      "bytes": 1611,
+      "omission_reason": null,
+      "path": "signed-mellin-test/exact_check_results.json",
+      "public_verbatim": true,
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "bytes": 1611,
+      "omission_reason": null,
+      "path": "signed-mellin-test/exact_check_stdout.log",
+      "public_verbatim": true,
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "bytes": 1783,
+      "omission_reason": null,
+      "path": "signed-mellin-test/historical-before-schur-localization/AUTHOR_RECEIPT.json",
+      "public_verbatim": true,
+      "sha256": "7256951199dd8300bc1dcd0927896692171eff80fc98bddaf4cd1c4adbb27eb4"
+    },
+    {
+      "bytes": 16776,
+      "omission_reason": null,
+      "path": "signed-mellin-test/historical-before-schur-localization/SIGNED_MELLIN_BLOCK_BOUND.md",
+      "public_verbatim": true,
+      "sha256": "99e25b2e25085077d47b575366e92e9609e83bd8db3584d2d744d9a99ff4c3f1"
+    },
+    {
+      "bytes": 4502,
+      "omission_reason": null,
+      "path": "signed-mellin-test/historical-before-schur-localization/check_signed_mellin.py",
+      "public_verbatim": true,
+      "sha256": "64aef6b9cdd651ab07c5fb26272716ee04e7b99206b98ec7eedce58defb3e83d"
+    },
+    {
+      "bytes": 1611,
+      "omission_reason": null,
+      "path": "signed-mellin-test/historical-before-schur-localization/exact_check_results.json",
+      "public_verbatim": true,
+      "sha256": "096dd9691b6c30cd045de661a508ad8ddf48363f2d95d08727bbcffe0cff7753"
+    },
+    {
+      "bytes": 1611,
+      "omission_reason": null,
+      "path": "signed-mellin-test/historical-before-schur-localization/exact_check_stdout.log",
+      "public_verbatim": true,
+      "sha256": "096dd9691b6c30cd045de661a508ad8ddf48363f2d95d08727bbcffe0cff7753"
+    },
+    {
+      "bytes": 74,
+      "omission_reason": null,
+      "path": "signed-mellin-test/historical-before-schur-localization/math_syntax_check.json",
+      "public_verbatim": true,
+      "sha256": "5a99421d22b48d28c251a258f699883b4142f6ed492994a5233469c9bdc2f5df"
+    },
+    {
+      "bytes": 5686,
+      "omission_reason": null,
+      "path": "signed-mellin-test/historical-before-schur-localization/source_manifest.json",
+      "public_verbatim": true,
+      "sha256": "b1499d0344af32ca17ef89c2d5a8a9a3118644d97d16f073876ac54d5de008f2"
+    },
+    {
+      "bytes": 74,
+      "omission_reason": null,
+      "path": "signed-mellin-test/math_syntax_check.json",
+      "public_verbatim": true,
+      "sha256": "9348b6cedbc616c453155d0db051f33a0ad782810194d1a5f7535aa96018ed28"
+    },
+    {
+      "bytes": 5686,
+      "omission_reason": null,
+      "path": "signed-mellin-test/source_manifest.json",
+      "public_verbatim": true,
+      "sha256": "b1499d0344af32ca17ef89c2d5a8a9a3118644d97d16f073876ac54d5de008f2"
+    },
+    {
+      "bytes": 223282,
+      "omission_reason": "Full primary reference body or page image; retained byte-for-byte in the adjacent local archive.",
+      "path": "signed-mellin-test/sources/bpt-page741.png",
+      "public_verbatim": false,
+      "sha256": "97d03855e65d723a7c038ad1860512ff5b05bc24230578496099aa6a8a07e0c5"
+    },
+    {
+      "bytes": 719168,
+      "omission_reason": "Full primary reference body or page image; retained byte-for-byte in the adjacent local archive.",
+      "path": "signed-mellin-test/sources/brent-platt-trudgian-mean-square.pdf",
+      "public_verbatim": false,
+      "sha256": "4be3667cbe07ab6a24930e8835923362ae12af946b622fa73c89fd654e9fae34"
+    },
+    {
+      "bytes": 67296,
+      "omission_reason": "Full primary reference body or page image; retained byte-for-byte in the adjacent local archive.",
+      "path": "signed-mellin-test/sources/brent-platt-trudgian-mean-square.txt",
+      "public_verbatim": false,
+      "sha256": "097137ff929ceb80766738b33feb81cb18de38873869ecfef520bdc3037c3eb7"
+    },
+    {
+      "bytes": 177771,
+      "omission_reason": "Full primary reference body or page image; retained byte-for-byte in the adjacent local archive.",
+      "path": "signed-mellin-test/sources/hilbert-page75.png",
+      "public_verbatim": false,
+      "sha256": "eb422def8499ab579f267db6e5e6280ef07a9473a940152e949f2616511a19d2"
+    },
+    {
+      "bytes": 538953,
+      "omission_reason": "Full primary reference body or page image; retained byte-for-byte in the adjacent local archive.",
+      "path": "signed-mellin-test/sources/montgomery-vaughan-hilbert-1974.pdf",
+      "public_verbatim": false,
+      "sha256": "0dbcddf24bc41c65d1920c59aafe7fe85f13a7519b0edf9be9164c84d1cc6db4"
+    },
+    {
+      "bytes": 29600,
+      "omission_reason": "Full primary reference body or page image; retained byte-for-byte in the adjacent local archive.",
+      "path": "signed-mellin-test/sources/montgomery-vaughan-hilbert-1974.txt",
+      "public_verbatim": false,
+      "sha256": "e6e22c1dcde3e2af219d081b0f122e457c2580bb062d75a18e798f1073a0f8a8"
+    },
+    {
+      "bytes": 186346,
+      "omission_reason": "Full primary reference body or page image; retained byte-for-byte in the adjacent local archive.",
+      "path": "signed-mellin-test/sources/mv-page7.png",
+      "public_verbatim": false,
+      "sha256": "78b4e9eb8d66f21a7f43d93e7f18bda65c63f85ad3cd6033b9564962213177d0"
+    },
+    {
+      "bytes": 150296,
+      "omission_reason": "Full primary reference body or page image; retained byte-for-byte in the adjacent local archive.",
+      "path": "signed-mellin-test/sources/mv-page8.png",
+      "public_verbatim": false,
+      "sha256": "b9e01a9ae5bea8cb30b31ea4c4c21124ef8dff1273556578a95606f0dcb1c772"
+    }
+  ],
+  "original_bytes": 2324821,
+  "original_files": 60,
+  "public_verbatim_bytes": 232109,
+  "public_verbatim_files": 52,
+  "source_edits": []
+}

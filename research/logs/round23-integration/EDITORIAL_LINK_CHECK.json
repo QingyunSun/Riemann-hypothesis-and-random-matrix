@@ -1,0 +1,285 @@
+{
+  "status": "PASS",
+  "links": [
+    {
+      "file": "README.md",
+      "target": "RESEARCH_STATE.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/RESEARCH_LOG.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/claims/CLAIM_LEDGER.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md"
+    },
+    {
+      "file": "README.md",
+      "target": "output/pdf/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "output/pdf/ASTRA_ROUNDS_6_14_HANDOFF.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/handoff/ASTRA_ROUNDS_6_14_HANDOFF.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/handoff/ROUNDS_6_14_ARCHIVE_INDEX.json"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round23.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round22.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round21.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round20.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round19.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round18.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round17.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round16.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round15.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round14.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round13.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round12.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round11.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round10.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round9.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round8.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dyson_round7.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/handoff/ASTRA_PUBLIC_RESEARCH_HANDOFF.md"
+    },
+    {
+      "file": "README.md",
+      "target": "output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/symmetric_prime_arithmetic_transfer.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/symmetric_prime_transfer_independent_review.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/centered_gaussian_mixed_moments.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/residual_gram_round2.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/yau_flow.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/galilean-proof-audit.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dynamic_generator.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/dynamic_generator_independent_review.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/force_energy.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/force_energy_independent_review.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/new_attachment_bridge_audit.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/prime186.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/prime186_structural_frontier.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/prime186_round4.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/prime186_round5.md"
+    },
+    {
+      "file": "README.md",
+      "target": "research/reports/prime186_round6.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/handoff/ASTRA_ROUNDS_4_5_HANDOFF.md"
+    },
+    {
+      "file": "README.md",
+      "target": "output/pdf/ASTRA_ROUNDS_4_5_HANDOFF.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "fable/reviews/pr11-2073028/INTAKE_REVIEW.md"
+    },
+    {
+      "file": "README.md",
+      "target": "fable/README.md"
+    },
+    {
+      "file": "README.md",
+      "target": "tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/architecture.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "tasks/FABLE_SINGLE_SESSION_COMPUTE_TASK.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "research/reports/prime186_round6.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "research/reports/dyson_round7.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "research/reports/dyson_round8.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "research/reports/dyson_round9.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "research/reports/dyson_round10.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "research/reports/dyson_round11.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "research/reports/dyson_round12.md"
+    },
+    {
+      "file": "RESEARCH_STATE.md",
+      "target": "research/reports/dyson_round23.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/mod3-centering/FIXED_MOD6_CENTERING.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/mod6-root-review/INDEPENDENT_MOD6_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/growing-wheel-centering/GROWING_WHEEL_CENTERING.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/growing-wheel-review/INDEPENDENT_GROWING_WHEEL_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/INTAKE_MANIFEST.json"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/SOURCE_LINK_MAP.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../logs/round23-integration/INTEGRATION_RECEIPT.json"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW.md"
+    },
+    {
+      "file": "research/reports/dyson_round23.md",
+      "target": "../dyson/round23/coordinator-intake/COORDINATOR_R22_PUBLICATION_VERIFICATION.json"
+    }
+  ]
+}

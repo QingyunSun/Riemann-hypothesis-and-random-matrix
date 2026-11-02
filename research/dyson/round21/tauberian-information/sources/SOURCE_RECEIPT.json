@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-05",
+  "scope": "Exact primary versions used for Wiener L1 translation density, gamma algebra, and classical-equivalence scope. No new analytic number-theory asymptotic is imported.",
+  "retained_sources": [
+    {
+      "use": "Van Neerven author-hosted four-page preprint; Theorem 1 on PDF page 2, angular Fourier convention on page 1",
+      "url": "https://fa.ewi.tudelft.nl/~neerven/publications/papers/RIMUT_97.pdf",
+      "files": [
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/sources/van-neerven-wiener-1997.pdf",
+          "bytes": 84901,
+          "sha256": "1a0ece6c3bbe27fa4ccd5bce4366562d9464b077460360099edcab7278aa5ae3"
+        },
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/sources/van-neerven-wiener-1997.txt",
+          "bytes": 10817,
+          "sha256": "13985c3d20245788d05711503c00dcaddc9adf35ac0ce1451320da11d81cc74d"
+        },
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/sources/theorem1-page2.png",
+          "bytes": 351841,
+          "sha256": "6176172988d65c44e26b1573b9d4cb8367de7f42b5c3fdf54b5532b950d7ff9c"
+        }
+      ]
+    },
+    {
+      "use": "CCCC primary paper; introduction (I)-(IV), for scope of the classical RH conjecture equivalences",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf",
+      "files": [
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+          "bytes": 843595,
+          "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac"
+        },
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+          "bytes": 180918,
+          "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+        }
+      ]
+    }
+  ],
+  "web_formulas_read": [
+    {
+      "url": "https://dlmf.nist.gov/5.5.E1",
+      "use": "Gamma recurrence, DLMF 5.5.1"
+    },
+    {
+      "url": "https://dlmf.nist.gov/5.5.E3",
+      "use": "Gamma reflection, DLMF 5.5.3"
+    },
+    {
+      "url": "https://fa.ewi.tudelft.nl/~neerven/publications.htm",
+      "use": "Author identifies downloadable papers as preprints; confirms 1997 publication metadata"
+    }
+  ],
+  "version_caveat": "The cited Wiener statement is Theorem 1 on p.2 of the retained four-page preprint, not an assumed page number in the six-page published journal version."
+}

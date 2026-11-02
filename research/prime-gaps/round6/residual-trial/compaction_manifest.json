@@ -1,0 +1,130 @@
+[
+  {
+    "full_file": "radial_residual_n16384_cut1e-09_tilt20.npz",
+    "full_sha256": "6a43a7d9c183d249f8e4d3146165eef8b7a934829a13534459a53cc469c50715",
+    "full_bytes": 10003394,
+    "compact_file": "radial_residual_n16384_cut1e-09_tilt20_compact.npz",
+    "compact_sha256": "d9a6d1c6ce757953292ba230c6fc0a0e918a55b22b63c14f8d0c36bbab471d9e",
+    "compact_bytes": 484037,
+    "omitted_arrays": [
+      "D"
+    ],
+    "omitted_D_shape": [
+      77,
+      16345
+    ],
+    "omitted_D_dtype": "float64",
+    "omitted_D_sha256_C_bytes": "7816e33ed16ad371dae5c4434a40a2200c3736048c788df720beec473d05f28d",
+    "retained_array_sha256_C_bytes": {
+      "q": "c9510df124244f41e1cbbd62f8e56faaec2a76468f1cabd5e085b3fe48a0f32d",
+      "bf": "73857499775ed8de7cd8d8c1c6b6da85c41d1e6649af98d8f3e587bb9c86e754",
+      "h": "7b7c67a8fb2327b8c5f6d12dff5763285707755b636269f84146415f944f80a6",
+      "projected": "c8b8f5285619076e1629f93786dacd2bcb750f9182c69c3abed58e397a641cff",
+      "mass_cross": "b3b8813ef1bb3fc418718a40f6496482ed33b886758526ff17e757bcf7ab7eaa",
+      "numerator_cross": "f8b2e353f2c49cca8b692f9d6adb113cb12169db6da16946f7bf326bfcc40cd1",
+      "orthogonal_projection": "fac6a21d05dcb0e878d408c443529a576e5ac42049a9596c63dcd884064cc735",
+      "newc": "476ceb8a6bebe3b12d2cd1d8b64547130a6a4a25b94236902cde339ea9547230",
+      "K": "51e0d00b7fbaeb2653a3f2c0702ce49783fb08c1ce9894c6317ec6e25ec91993",
+      "active": "f871a5865acdd7b9268f60f54214707f927bb78f25059494b901e6e98cb9720d",
+      "radial": "21156239111c9cb0f14cad46b321c9f479a517092afc3d7d36d4ff9dff98d268"
+    },
+    "verification": "all retained array shapes, dtypes and raw bytes identical",
+    "rebuild": "run radial_residual.py with the N, tilt and density cutoff of the matching JSON; radial_mass reconstructs D"
+  },
+  {
+    "full_file": "radial_residual_n98304_cut1e-08_tilt20.npz",
+    "full_sha256": "8050a4edb3628c624d2034e1380f3163bbf7f99d0a2aede2b3088de93c98e6b6",
+    "full_bytes": 57692211,
+    "compact_file": "radial_residual_n98304_cut1e-08_tilt20_compact.npz",
+    "compact_sha256": "0a18a97021be26c6b8ef080beafb2495349b9828e6d3b345631a7f9ab274b6b5",
+    "compact_bytes": 2473133,
+    "omitted_arrays": [
+      "D"
+    ],
+    "omitted_D_shape": [
+      77,
+      98265
+    ],
+    "omitted_D_dtype": "float64",
+    "omitted_D_sha256_C_bytes": "066fc72c6a8c5a7e5524fbfd63c0f2dffa55f10a85db0f5c47d42ac7e7411147",
+    "retained_array_sha256_C_bytes": {
+      "q": "0097feff428d74ab22753253dede13a1a2d275ce016b10daac5ded60890e0be6",
+      "bf": "379c95a0897138fc7df39a37eac41cf05c41c0d7c6af20af14e093f8467b8538",
+      "h": "4d5f047c8d26832734b5f5f50da5684b87ccbf4628e2af572a2eeff5799bbc9d",
+      "projected": "81a9fa6e10ae748c4e57896b9fb353537d430d56366097c662cef4cc6dcd821c",
+      "mass_cross": "42c63f603bd8f179fc0aafb7fc96b052e46d8cd7e7e19bcee04bd0b7b9f0ff01",
+      "numerator_cross": "28e6515f4edbcbf0ad6aabfbfdd29cc28a094069f87a8e22f8ccb18144b8e257",
+      "orthogonal_projection": "bdba92c57e50d3552446b8655f1fad30b57ba8f8502363a794f948c678201502",
+      "newc": "97133bd8922a8e37f4c2ece6cc83ff77450bdd5c9b73bb567cb435038fda8a16",
+      "K": "ef2549f5076972f7fc2c3a126c158c9b2ef217067d5f45602d197544178dbaf7",
+      "active": "ce257a0d74e20b01acd717784829f56d09a56c9a9875b4bad8c95bd66241dce5",
+      "radial": "e6b8a899ac3a82255d789abaa57e6d9b7bbd16ac0dcd254dd820c71b3c4e647b"
+    },
+    "verification": "all retained array shapes, dtypes and raw bytes identical",
+    "rebuild": "run radial_residual.py with the N, tilt and density cutoff of the matching JSON; radial_mass reconstructs D"
+  },
+  {
+    "full_file": "radial_residual_n98304_cut1e-09_tilt20.npz",
+    "full_sha256": "206b9da6ecf3e7c2fde932fd76b6496c180b7ac3c322ba268b21d1caa678b80e",
+    "full_bytes": 57714025,
+    "compact_file": "radial_residual_n98304_cut1e-09_tilt20_compact.npz",
+    "compact_sha256": "b283cab182b0b32091f24ac898def31cc263fa6af1a4540b30721e8122b80c77",
+    "compact_bytes": 2494947,
+    "omitted_arrays": [
+      "D"
+    ],
+    "omitted_D_shape": [
+      77,
+      98265
+    ],
+    "omitted_D_dtype": "float64",
+    "omitted_D_sha256_C_bytes": "066fc72c6a8c5a7e5524fbfd63c0f2dffa55f10a85db0f5c47d42ac7e7411147",
+    "retained_array_sha256_C_bytes": {
+      "q": "0097feff428d74ab22753253dede13a1a2d275ce016b10daac5ded60890e0be6",
+      "bf": "379c95a0897138fc7df39a37eac41cf05c41c0d7c6af20af14e093f8467b8538",
+      "h": "750b10ff4774545183723c9d178443316f084c4c3a959ebffe026ed4c35c7c6c",
+      "projected": "81a9fa6e10ae748c4e57896b9fb353537d430d56366097c662cef4cc6dcd821c",
+      "mass_cross": "3b3717e683b05db1544e5b397e42b334630be44b68e2968e72facbd11098dba4",
+      "numerator_cross": "6cfcc7aee83eaf7c3893d7c23665abfd90858afb30e19c623b85466d90209c6f",
+      "orthogonal_projection": "4621eeb896667bf3ea6018795f83711c280fc73189660d4fe495c6b5ce7d15bc",
+      "newc": "5a4cd0725f17420e41a39a03ebda07cade652f3f20d839154b626b2883cb68f8",
+      "K": "5b7da135176e015ec921006c10b544ad108b1cb329318deddfe4ec3dbfc3125a",
+      "active": "6deea0eedc8544abfad66e6e8fe424749be76d8a28ec4c917d8eb7c48f27a96e",
+      "radial": "e6b8a899ac3a82255d789abaa57e6d9b7bbd16ac0dcd254dd820c71b3c4e647b"
+    },
+    "verification": "all retained array shapes, dtypes and raw bytes identical",
+    "rebuild": "run radial_residual.py with the N, tilt and density cutoff of the matching JSON; radial_mass reconstructs D"
+  },
+  {
+    "full_file": "radial_residual_n98304_cut1e-09_tilt25.npz",
+    "full_sha256": "1f9eae8e897dc2d334a5b689d19dfbfd108d1e96304e6fd47ce3cd53a315a57b",
+    "full_bytes": 57636895,
+    "compact_file": "radial_residual_n98304_cut1e-09_tilt25_compact.npz",
+    "compact_sha256": "8002ae3f1dd1751f579161cd9e90d9d187ee5ef171c0a13ee0947dff838accde",
+    "compact_bytes": 2585808,
+    "omitted_arrays": [
+      "D"
+    ],
+    "omitted_D_shape": [
+      77,
+      98265
+    ],
+    "omitted_D_dtype": "float64",
+    "omitted_D_sha256_C_bytes": "6e68b590eb096dcd0bd3269952210f92993e53226d42cd6a96bb801998b37339",
+    "retained_array_sha256_C_bytes": {
+      "q": "9598dad92f13f3aa385a9441d301f28165928b4fe06efb5f27fbed0ed56ea34a",
+      "bf": "d75be50e4368bb20e7e675e248ca1d070cc618629e9cd938cf0133e90bbf552a",
+      "h": "cf49970730a5b9b5bc61c8f77a3c51b9acb84545bb831282a90bcc992764ce36",
+      "projected": "81a9fa6e10ae748c4e57896b9fb353537d430d56366097c662cef4cc6dcd821c",
+      "mass_cross": "22d7fd4fdfca909bed23bd888d84da4db63d75a54c364c3ecfa814d6e08c11bc",
+      "numerator_cross": "e95dd9b62d316dd6634c6d71b1e8eaba8ac05ba9336b1fed88a32e111bfcf29f",
+      "orthogonal_projection": "45f9c30c330595a349e9d6e4f91b064c99a75327aafe3a858e8f502d5d3a9bec",
+      "newc": "e7574cdb4167a1d04e09df392acb7e962705f7d9175f8e7cb4ecb3c8edebf761",
+      "K": "8e614df89e59a056e0d6a3b4bc55a8f4789ed5d484212a92d48d8bccb938d241",
+      "active": "6deea0eedc8544abfad66e6e8fe424749be76d8a28ec4c917d8eb7c48f27a96e",
+      "radial": "e6b8a899ac3a82255d789abaa57e6d9b7bbd16ac0dcd254dd820c71b3c4e647b"
+    },
+    "verification": "all retained array shapes, dtypes and raw bytes identical",
+    "rebuild": "run radial_residual.py with the N, tilt and density cutoff of the matching JSON; radial_mass reconstructs D"
+  }
+]

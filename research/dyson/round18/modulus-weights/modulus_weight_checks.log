@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "Exact support/exponent, formal-log coefficient inversion and primitive Ramanujan checks. Not a finite realization of the 348-prime family or an aggregate estimate.",
+  "report_sha256": "b7fab8a8f1321fe5c708f10b79a48e23b1056eb97e239bc312760cbe0bd0c2a0",
+  "script_sha256": "d309bacba4d25c97de72990862e86371944949ab6f1aac4f1b0dd703851d45fd",
+  "necessary_level_exponent": "45411/86500",
+  "sufficient_level_exponent": "21/40",
+  "exponent_gap": "3/173000",
+  "support_witness": {
+    "integer": 30,
+    "level": "100",
+    "factor_levels": [
+      "19/10",
+      "19/10",
+      "10000/361"
+    ],
+    "admissible_factorizations": 0
+  },
+  "formal_coefficient_inversions": 320,
+  "primitive_principal_checks": 2183,
+  "full_prime_kernel_checks": 4366,
+  "completed_norm_checks": [
+    {
+      "qmax": 42,
+      "completed_l1": "47/35",
+      "divisor_bound": "44/21",
+      "harmonic_square": "151519186269411821577635819730361/8093669544399679145972127360000"
+    },
+    {
+      "qmax": 59,
+      "completed_l1": "172486050078201317111/87398197734282392685",
+      "divisor_bound": "952519884997553699051/137340025011015188505",
+      "harmonic_square": "226901653916046356107175688055281000966955101968401/10434433584506824477018694538166911576928133760000"
+    },
+    {
+      "qmax": 59,
+      "completed_l1": "123548751339940034572/64092011671807087969",
+      "divisor_bound": "347067225556699737935/64092011671807087969",
+      "harmonic_square": "226901653916046356107175688055281000966955101968401/10434433584506824477018694538166911576928133760000"
+    }
+  ]
+}

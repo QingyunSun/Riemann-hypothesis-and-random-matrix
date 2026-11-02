@@ -1,0 +1,55 @@
+{
+  "source_commit": "c74b326afb90b79d16ce480b183111e0d5f7daf6",
+  "reports": [
+    {
+      "path": "research/reports/prime186_round4.md",
+      "sha256": "ef0b060fc8bb1ac91844e08ac540973634ceb6f9ca2d64da3f8ef32f66855565",
+      "bytes": 11258
+    },
+    {
+      "path": "research/prime-gaps/round4/prime-credit/prime_alpha_credit.md",
+      "sha256": "59791f04d6917f447382083612eea4c311f3ec74cb427c37cbac49619ba046ec",
+      "bytes": 15421
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/ALPHA_RECTANGLE_INDEPENDENT_REVIEW.md",
+      "sha256": "22796ab5c24508df097e913595f76519d5fe7002df75de7584653142e2e7c196",
+      "bytes": 13726
+    },
+    {
+      "path": "research/prime-gaps/round4/restoration-proof/RESTORATION_PROOF_AUDIT.md",
+      "sha256": "fbbaa5293ea486e643cecc78d7651487448b54f3dbe0840cce8ac61d4089645f",
+      "bytes": 18274
+    },
+    {
+      "path": "research/prime-gaps/round4/k39-trial/REPORT.md",
+      "sha256": "4c95f1f51767c736a5a48f4d58338ae6c617b9899ff18484fc915789a12a6be4",
+      "bytes": 13612
+    },
+    {
+      "path": "research/prime-gaps/round4/repro-flint/README.md",
+      "sha256": "4612dce4b1824923b559ee988f531c6a65c01f2cf46214a4e72261c1dffb04b8",
+      "bytes": 5856
+    },
+    {
+      "path": "research/reports/prime186_round5.md",
+      "sha256": "7ad8c798736bd40b7125784af7ec69a208075665c8efcfd69d4c33adf68b447e",
+      "bytes": 12738
+    },
+    {
+      "path": "research/prime-gaps/round5/exceptional-radius/EXCEPTIONAL_RADIUS_EXTENSION.md",
+      "sha256": "70326c9bd4430855349a64fc2863e0dcccd80f40e9b0b5b28750925e0c7de54b",
+      "bytes": 16440
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-audit/GEOMETRY_SOURCE_AUDIT.md",
+      "sha256": "c2870e1d539e1be90e82131671ec15b85d74a0a886bad299270a20cb87ecc7c9",
+      "bytes": 14204
+    },
+    {
+      "path": "research/prime-gaps/round5/geometry-trial/REPORT.md",
+      "sha256": "a0d2aa154e278797bd1065d7a5c78fc8d0c650e14c6b43b4d0200f84465f9462",
+      "bytes": 12990
+    }
+  ]
+}

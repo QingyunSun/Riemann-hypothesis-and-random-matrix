@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Exact leading pole algebra, plus a numerical sign diagnostic; not a full arithmetic transfer proof",
+  "successive_derivatives_of_minus_inverse_eps": [
+    {
+      "power": -2,
+      "coefficient": "1"
+    },
+    {
+      "power": -3,
+      "coefficient": "-2"
+    },
+    {
+      "power": -4,
+      "coefficient": "6"
+    }
+  ],
+  "a": "256/225",
+  "Pi4_leading": "512/75",
+  "m4_correct": "411136/50625",
+  "m4_from_incorrect_proposer_Pi4": "458752/50625",
+  "Pi4_formula": "6*a",
+  "m4_formula": "a*a+6*a",
+  "numeric_probes": [
+    {
+      "eps": ".001",
+      "correct_positive_probe": "5.9999999999999116",
+      "original_refuter_probe": "-5.9999999999999116"
+    },
+    {
+      "eps": ".0002",
+      "correct_positive_probe": "5.99999999999999986",
+      "original_refuter_probe": "-5.99999999999999986"
+    },
+    {
+      "eps": ".00005",
+      "correct_positive_probe": "6.0",
+      "original_refuter_probe": "-6.0"
+    }
+  ]
+}

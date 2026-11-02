@@ -1,0 +1,58 @@
+{
+  "frozen_author_receipt": {
+    "bytes": 6585,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/actual-prime-variance/AUTHOR_RECEIPT.json",
+    "sha256": "8283380e92274db4c3595a55979bbc0ed9b238e5029dfdea151f3c60d01adb53"
+  },
+  "new_document": {
+    "bytes": 11005,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/actual-prime-variance/REPRODUCTION.md",
+    "sha256": "7b41a1f50369ba6cdf0a738b690c1457eb8015bbaa5eb12ad79cc6ef1b600b7f"
+  },
+  "referenced_frozen_artifacts": [
+    {
+      "bytes": 16818,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/actual-prime-variance/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+      "sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9"
+    },
+    {
+      "bytes": 15273,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/actual-prime-variance/compute_prime_variance.py",
+      "sha256": "d6d13914220ffb30b059abf7bc4d923cfb20bd240f54fc838741dc7635f6e71f"
+    },
+    {
+      "bytes": 8571,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/actual-prime-variance/check_prime_variance.py",
+      "sha256": "051d7f740e03183919bd65bca9d8a441f0c19ec111820973543d8b12dafd88fb"
+    },
+    {
+      "bytes": 29456,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/actual-prime-variance/actual_prime_variance.json",
+      "sha256": "fc6ebf41bac03d1d5fb76813218c665681223eab7e57d1199c9334c05d98cb93"
+    },
+    {
+      "bytes": 4761,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/actual-prime-variance/prime_variance_checks.json",
+      "sha256": "8399f0f2bdf59646af73bf77ae6f79feec6f94c7d4366de1d9d2776167baea0e"
+    },
+    {
+      "bytes": 1551,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/actual-prime-variance/check_math_syntax.cjs",
+      "sha256": "0709dc567a0a11f90258649727e392cc3bda144b367eafd581d8925f10ad15f4"
+    }
+  ],
+  "scope": "Portable future reproduction instructions, dependency versions, expected artifacts, comparison rules, observed workloads, analytic truncation versus unenclosed floating rounding.",
+  "status": "Documentation-only addition. Frozen author files and original author receipt remain unchanged.",
+  "timing_provenance": "Main timings read from frozen actual_prime_variance.json. The checker process duration was observed during the already completed R20 author run; no new measurement.",
+  "validation": {
+    "all_match": true,
+    "commands": "Reviewed against frozen script arguments and output behavior; not executed while preparing this guide.",
+    "documentation_command_blocks": 2,
+    "documentation_control_bytes": 0,
+    "mathematical_changes": false,
+    "new_computations": false,
+    "new_heights": false,
+    "new_parameter_sweeps": false,
+    "original_owned_and_input_hashes_verified": 17
+  }
+}

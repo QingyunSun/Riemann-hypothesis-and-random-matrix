@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "bytes": 21504,
+      "path": "CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+    },
+    {
+      "bytes": 5212,
+      "path": "check_centered_pair_target.py",
+      "sha256": "51f9178f5035e285005ddd27ec88773f03253ddc1d7dee85a8d5c2114e136129"
+    },
+    {
+      "bytes": 5951,
+      "path": "centered_pair_target_checks.json",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 5951,
+      "path": "centered_pair_target_checks.log",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 3930,
+      "path": "check_h1_correction.py",
+      "sha256": "879c35d3efed14e5c0d2108de3bad078616c0259a4406f9669ffc92944573f4f"
+    },
+    {
+      "bytes": 2637,
+      "path": "h1_correction_checks.json",
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e"
+    },
+    {
+      "bytes": 2637,
+      "path": "h1_correction_checks.log",
+      "sha256": "e868183e0dcc78ea4a6021d7cbd65d5abae5d7150993fc369de3bb5012c6340e"
+    },
+    {
+      "bytes": 5127,
+      "path": "source_manifest.json",
+      "sha256": "46f51c4a3bcdcce50aa380519f537666bc06d5fc5ed11646268e8973457028ac"
+    },
+    {
+      "bytes": 4678,
+      "path": "h1_correction_receipt.json",
+      "sha256": "6390dcf2ff69b0ea04db0fe2181932f88bc819088401b8edc15ff578e6065e67"
+    }
+  ],
+  "old_check_scope": "Original JSON/log pin the preserved superseded manuscript; not rerun for current revision. New correction checker verifies unchanged core blocks and exact new algebra.",
+  "status": "corrected manuscript frozen for delta review; original tests preserved, correction tests pass"
+}

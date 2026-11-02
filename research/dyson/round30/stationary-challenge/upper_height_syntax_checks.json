@@ -1,0 +1,10 @@
+{
+  "status": "UNAVAILABLE",
+  "reason": "The existing Dropbox-hosted KaTeX module returned an empty export object; renderToString was unavailable. This is a runtime availability problem, not a mathematical syntax rejection.",
+  "observedExports": [],
+  "expressionsLocated": 114,
+  "expressionsSuccessfullyRendered": 0,
+  "controlBytes": [],
+  "syntaxAssessed": false,
+  "furtherRuntimeRepairAttempted": false
+}

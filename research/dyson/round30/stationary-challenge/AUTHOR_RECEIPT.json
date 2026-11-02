@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-07",
+  "status": "ordinary proof submitted for independent root review",
+  "scope": "Sharp odd-lattice first stationary band and integrated O(T^-1/2) representation error; no new arithmetic cancellation or conjecture resolution.",
+  "artifacts": [
+    {
+      "path": "SHARP_ODD_STATIONARY_CHALLENGE.md",
+      "bytes": 14259,
+      "sha256": "0d480d4f35ca1ce0c36c31deffd2a8e6bd39f6ddc1420180f9a32f70b829fcf7"
+    },
+    {
+      "path": "check_sharp_odd_stationary.py",
+      "bytes": 3817,
+      "sha256": "e787cd64d97a18774eb53c44a3287b5ce0668fab09d21a3d363c14ecdf9594d0"
+    },
+    {
+      "path": "sharp_odd_stationary_checks.json",
+      "bytes": 689,
+      "sha256": "23b89c4ee96b9197e80e51f1c60536c4a923c0153d0431dbd09608a302f2d798"
+    },
+    {
+      "path": "check_syntax.cjs",
+      "bytes": 1138,
+      "sha256": "834bc9a01677500477045c8ded8cbe598756e7b17f7af018ab957022bbc3a6ef"
+    },
+    {
+      "path": "syntax_checks.json",
+      "bytes": 83,
+      "sha256": "9efee991232ca853b50a8372b94e3581a7a5ece03c2b294669bae31bf1f5a992"
+    }
+  ],
+  "sources": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/signed-mellin-test/SIGNED_MELLIN_BLOCK_BOUND.md",
+      "sha256": "753f116b8ebc5d6cc7d7a4e148c98e9b8ef9df97d4327efe2fa094507aa13492",
+      "use": "Complete corrected manuscript read; exact arithmetic extension and legal two L2 estimates used."
+    }
+  ],
+  "verification": {
+    "algebra_groups": 14,
+    "sharp_endpoint_cases": 5,
+    "parity_cases": 25,
+    "katex_expressions": 150,
+    "syntax_errors": 0,
+    "control_bytes": 0,
+    "new_prime_calculations": 0,
+    "formal_proof_certification": false
+  }
+}

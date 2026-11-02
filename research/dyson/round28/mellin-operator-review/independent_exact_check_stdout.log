@@ -1,0 +1,44 @@
+{
+  "all_passed": true,
+  "author_sha256": "243994064c74e4fda98ae0aadf7364678e49756f5d282cc36a4a56a134373e7a",
+  "groups": [
+    {
+      "cases": 3,
+      "name": "odd_product_mellin_and_diagonal",
+      "passed": true,
+      "scope": "Actual odd finite indices; a nonfactorable product cutoff deletes 25."
+    },
+    {
+      "cases": 4,
+      "name": "prime_center_and_stieltjes_endpoints",
+      "passed": true,
+      "scope": "Exact prime-power logs, odd center, continuous term and compact endpoints."
+    },
+    {
+      "cases": 28,
+      "name": "cyclic_hankel_fourier_identity",
+      "passed": true,
+      "scope": "Odd sizes; exact roots-of-unity polynomial identities and reflection."
+    },
+    {
+      "cases": 12,
+      "name": "maximum_exponential_mean",
+      "passed": true,
+      "scope": "Exact harmonic expectation underlying the Gaussian norm bounds."
+    },
+    {
+      "cases": 6,
+      "name": "fixed_vector_convolution_variance",
+      "passed": true,
+      "scope": "Exact covariance coefficients and finite Young bound; sample-independent vectors."
+    },
+    {
+      "cases": 3,
+      "name": "normalization_exponents",
+      "passed": true,
+      "scope": "Gaussian leading constant and explicit-formula trivial-zero scale."
+    }
+  ],
+  "scope": "Finite exact identities only; no actual-prime norm estimate, RH proof, or model-to-prime transfer.",
+  "total_cases": 56
+}

@@ -1,0 +1,68 @@
+{
+  "dependencies": {
+    "numeric": "None; no floating experiment.",
+    "optional_syntax": "Node.js and KaTeX0.18.5",
+    "symbolic": "Python and SymPy1.14.0"
+  },
+  "git_mutation": false,
+  "mathematical_inputs": [
+    {
+      "bytes": 18644,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "bytes": 21201,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "sha256": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502"
+    }
+  ],
+  "new_model_calls": false,
+  "owned_files": [
+    {
+      "bytes": 17082,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/length-arithmetic-kernel/EXACT_LENGTH_ARITHMETIC_KERNEL.md",
+      "sha256": "bf2e13a5d62f694d638d247fe7d836d0ea57d47f15c8e9360843681ece6b58d9"
+    },
+    {
+      "bytes": 6107,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/length-arithmetic-kernel/check_length_arithmetic.py",
+      "sha256": "c46c6a51f8d3c99e6d1b6d5e5fcdfcfc44528b164c6c8a7a2192e7195130c6bb"
+    },
+    {
+      "bytes": 1549,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/length-arithmetic-kernel/check_math_syntax.cjs",
+      "sha256": "2648d9b79a7ad059f4236a74f4e111a6e62769f2c60ce891365839e9e4b7bd28"
+    },
+    {
+      "bytes": 2694,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/length-arithmetic-kernel/length_arithmetic_checks.json",
+      "sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d"
+    },
+    {
+      "bytes": 2694,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/length-arithmetic-kernel/length_arithmetic_checks.log",
+      "sha256": "34e4fe9ca2ffcb132f908f49b5266183d236898051354084dbaf7a5102b4f18d"
+    },
+    {
+      "bytes": 286,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/length-arithmetic-kernel/math_syntax_checks.json",
+      "sha256": "2fd3afcdd387c7669d7ab1717537777e0af596d63fb9cc3a715349b75c0a358d"
+    }
+  ],
+  "prior_round_edits": false,
+  "reproduction": [
+    "python3 check_length_arithmetic.py --output-dir OUTPUT",
+    "node check_math_syntax.cjs [KATEX_MODULE_PATH]"
+  ],
+  "scope": "Unconditional exact absolutely convergent arithmetic expansion for T>2 and explicit finite truncation; separate RH centered regrouping at T=2. No strict bound, numerical height or asymptotic conjecture result.",
+  "status": "Author proof and small symbolic checks frozen; independent root review is recorded separately.",
+  "validation": {
+    "initial_checker_normalization": "One rational identity required cancel rather than expand to obtain canonical zero; no mathematical formula changed.",
+    "math_syntax": "KaTeX0.18.5;43expressions;zeroerrors/controlbytes.",
+    "ordinary_review": "Root read entire final mathematical text and reported no amendment; final independent receipt remains separate.",
+    "source_hashes_match": true,
+    "symbolic": "PASS: survival/mixed moments, finite continuous kernel, T2 limit, tail antiderivatives, 2048 constant, three exact finite controls, negative endpoint and Laurent constant.",
+    "symbolic_control_scope": "Toy rational intervals and exponents only; no Vbar height evaluation, prime scan, or numerical quadrature."
+  }
+}

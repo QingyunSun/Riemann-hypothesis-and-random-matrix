@@ -1,0 +1,50 @@
+{
+  "status": "PASS: bounded floating checks, not a spectral enclosure",
+  "source_sha256": "ba43f9c6d541558b3fff008bcd25b911ce56470acf031baa6e1c745dc56753d4",
+  "B_g_squared_60dps": "7.63606367483770951389006218044355433144107646309711632514234",
+  "quadrature_formula_difference": "0.0",
+  "small_grids": [
+    {
+      "M": 6,
+      "dimension": 30,
+      "nonzero_creation": 45,
+      "mass_inequality_minimum_eigenvalue": 0.0,
+      "B_M_squared": 7.128387348403265,
+      "K_operator_norm": 4.553667299660169,
+      "K_largest_eigenvalue": 4.553667299660169,
+      "occupation_coefficient_checks": 45
+    },
+    {
+      "M": 8,
+      "dimension": 67,
+      "nonzero_creation": 120,
+      "mass_inequality_minimum_eigenvalue": 0.0,
+      "B_M_squared": 7.258789114190411,
+      "K_operator_norm": 4.572123890682112,
+      "K_largest_eigenvalue": 4.572123890682112,
+      "occupation_coefficient_checks": 120
+    },
+    {
+      "M": 10,
+      "dimension": 139,
+      "nonzero_creation": 284,
+      "mass_inequality_minimum_eigenvalue": -8.326672684688674e-16,
+      "B_M_squared": 7.3359136691038165,
+      "K_operator_norm": 4.584653063722102,
+      "K_largest_eigenvalue": 4.584653063722102,
+      "occupation_coefficient_checks": 284
+    }
+  ],
+  "F1_cutoff_scalars_not_finite_prime_error_certificates": {
+    "0.125": {
+      "epsilon_log_P": "1.81358221731552742669064760619554522671026363326661163879008",
+      "incomplete_gamma_fraction": "0.110900504179707792533909924010374080633117328357109081959083"
+    },
+    "0.0625": {
+      "epsilon_log_P": "0.90679110865776371334532380309777261335513181663330581939504",
+      "incomplete_gamma_fraction": "0.0137968516473080919791925346384163263231577708154398654258641"
+    }
+  },
+  "not_run": "source main, refuter main, grids above M=10, prime scan",
+  "claim_scope": "analytic proofs are in separate reviewed notes"
+}

@@ -1,0 +1,13 @@
+{
+  "exact_assertions": 6,
+  "scope": "Rational scalar normalization and exponents only; no arithmetic enumeration or numerical asymptotic claim.",
+  "status": "PASS",
+  "values": {
+    "H_over_Q_min_exponent": "247/11000",
+    "H_over_X_T_exponent": "-1",
+    "H_over_sqrtX_min_exponent": "1/22",
+    "nonprimitive_decay_exponent": "391/900",
+    "primitive_completion_decay_exponent": "7/440",
+    "support_upper_ratio_at_T4": "5/2"
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "source": "research-round20 staging; all original bytes preserved locally",
+  "original_files": 65,
+  "original_bytes": 17380711,
+  "public_verbatim_files": 64,
+  "published_source_edits": [],
+  "historical_scope": "Author submission headers, original coordinator snapshots and both successive tool memo publication states are preserved verbatim; later reviews and ledger give accepted scope.",
+  "files": [
+    {
+      "path": "actual-prime-variance/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+      "bytes": 16818,
+      "sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/AUTHOR_RECEIPT.json",
+      "bytes": 6585,
+      "sha256": "8283380e92274db4c3595a55979bbc0ed9b238e5029dfdea151f3c60d01adb53",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/DOCUMENTATION_RECEIPT.json",
+      "bytes": 3254,
+      "sha256": "61553cc0dcb0b82d222b3ad4a000fe595b346626e2842267ee8c6525a7792bbf",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/REPRODUCTION.md",
+      "bytes": 11005,
+      "sha256": "7b41a1f50369ba6cdf0a738b690c1457eb8015bbaa5eb12ad79cc6ef1b600b7f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/actual_prime_variance.json",
+      "bytes": 29456,
+      "sha256": "fc6ebf41bac03d1d5fb76813218c665681223eab7e57d1199c9334c05d98cb93",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/actual_prime_variance.log",
+      "bytes": 841,
+      "sha256": "7365d889a6a62929ba3877109610eb02e03e875bc096582db16e5b11dd1029b9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/check_math_syntax.cjs",
+      "bytes": 1551,
+      "sha256": "0709dc567a0a11f90258649727e392cc3bda144b367eafd581d8925f10ad15f4",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/check_prime_variance.py",
+      "bytes": 8571,
+      "sha256": "051d7f740e03183919bd65bca9d8a441f0c19ec111820973543d8b12dafd88fb",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/compute_prime_variance.py",
+      "bytes": 15273,
+      "sha256": "d6d13914220ffb30b059abf7bc4d923cfb20bd240f54fc838741dc7635f6e71f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "3e43da0458076841e85097575a5f98a09c33e80e7dada0e370dc9684b7aac1a2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/prime_powers.npz",
+      "bytes": 1064385,
+      "sha256": "1c82681f2439248aa27ea68e393f2e62413de543b5e67839043b411dd9de5e82",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/prime_variance_checks.json",
+      "bytes": 4761,
+      "sha256": "8399f0f2bdf59646af73bf77ae6f79feec6f94c7d4366de1d9d2776167baea0e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/prime_variance_checks.log",
+      "bytes": 4761,
+      "sha256": "8399f0f2bdf59646af73bf77ae6f79feec6f94c7d4366de1d9d2776167baea0e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/seed_autocorrelation.csv",
+      "bytes": 458383,
+      "sha256": "16540c92575593d74f1c15f67e1bea8c98062e029dcc07b02aff9e138aaa4f48",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/seed_quadrature.json",
+      "bytes": 1400,
+      "sha256": "042106c64b9484849a855aa1142c068cfb175dc5991cc33c00f3aaed46e451aa",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/variance_T1000_bins.csv",
+      "bytes": 5099140,
+      "sha256": "f35408daf3b824724f7d34e64c987221d1be15c801b82b02153ac78d305fba46",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/variance_T100_bins.csv",
+      "bytes": 5123000,
+      "sha256": "637f00dea1c03e7b41aa6f12c31f97bd61161dc167552c72df024b09d59416f9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "actual-prime-variance/variance_T300_bins.csv",
+      "bytes": 5105231,
+      "sha256": "e65875206211b539f8a5fbb958110b51829c1483563dd6c3bb0421be5a169fdf",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+      "bytes": 16818,
+      "sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_ACTUAL_PRIME_REVIEW.json",
+      "bytes": 2717,
+      "sha256": "6ca05ab35edf1c987e17ee214ba068ac9943388fc96de8404135617f944c611e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_HEIGHT_REGULARITY_REVIEW.json",
+      "bytes": 2733,
+      "sha256": "5ff4ed282d961966e63e226d1afd9b4288d54bfaf74315e619da05042bbc8ecd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_LENGTH_AVERAGE_REVIEW.json",
+      "bytes": 3434,
+      "sha256": "761363cea6a41dbdb8690f027fbebdeb8c40940b3ba5f2c5930b77de637c1933",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_PRIME_ARTIFACT_CHECK.json",
+      "bytes": 2340,
+      "sha256": "2023fdb7c4f5859f365255a2cb01b3c59231bdf5bfd53d1a0aaa3b2857edad1b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/COORDINATOR_R19_PUBLICATION_VERIFICATION.json",
+      "bytes": 2721,
+      "sha256": "149d98370fe8c099094847ad0d0d352f346d9299f977a7eb7090770fc0859a46",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "bytes": 10461,
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/R20_TOOL_APPENDIX_DRAFT.md",
+      "bytes": 4395,
+      "sha256": "fc8bb7c1e40bed4e45892195de236a7ec17268ef3893f43ad78e40d92c95ca67",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/TOOL_MEMO_R19_PUBLICATION_UPDATE_RECEIPT.json",
+      "bytes": 425,
+      "sha256": "f9046aebf324aee3d8c39e04a02f6f43d1b7811935f1abf1e18922097206cb68",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/TOOL_MEMO_UPDATE_RECEIPT.json",
+      "bytes": 666,
+      "sha256": "29419c9a259983e183d78996c2a989203f2a386f9affe4fa6275d2cf74928a8d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/TRANSFERABLE_MATH_TOOLS_FOR_ASTRA.md",
+      "bytes": 61894,
+      "sha256": "5692c77e3dfaaea8e86cd1c348ee251886d21dcc57d9a1f51de01e341857da23",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/TRANSFERABLE_MATH_TOOLS_R19_PUBLISHED.md",
+      "bytes": 62278,
+      "sha256": "a9540214e886ea485a61892dcacd645591dc65e101c5945fb3af40a1bb15f5cd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/TRANSFERABLE_MATH_TOOLS_THROUGH_R17.md",
+      "bytes": 49886,
+      "sha256": "11f74de893f6bac4740e2f9b9f0e74b333358c1e242302156bf0508a2a374c6e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/actual_prime_variance.json",
+      "bytes": 29456,
+      "sha256": "fc6ebf41bac03d1d5fb76813218c665681223eab7e57d1199c9334c05d98cb93",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/check_prime_variance.py",
+      "bytes": 8571,
+      "sha256": "051d7f740e03183919bd65bca9d8a441f0c19ec111820973543d8b12dafd88fb",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/compute_prime_variance.py",
+      "bytes": 15273,
+      "sha256": "d6d13914220ffb30b059abf7bc4d923cfb20bd240f54fc838741dc7635f6e71f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-review/prime_variance_checks.json",
+      "bytes": 4761,
+      "sha256": "8399f0f2bdf59646af73bf77ae6f79feec6f94c7d4366de1d9d2776167baea0e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "bytes": 10461,
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity/author_manifest.json",
+      "bytes": 1275,
+      "sha256": "afb1f2424a4abec6f62420204be9c5c2f2442c09d1f4d41790b852b417b01b36",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity/check_height_regularity.py",
+      "bytes": 3053,
+      "sha256": "371b2bfd2365cc1a85225817cfd73695961965b32bf456194df10b9d6528b8d9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity/height_regularity_checks.json",
+      "bytes": 1099,
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity/height_regularity_checks.log",
+      "bytes": 1099,
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity/source_manifest.json",
+      "bytes": 1491,
+      "sha256": "547e99cd636ea5c116d9c9894489c273cd4ee4f7a32699fe5f2896334b902ea5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity-review/INDEPENDENT_HEIGHT_REVIEW.md",
+      "bytes": 8990,
+      "sha256": "674a947633c4544cd8d838c1e5588cb1fe802827dabee4b95b60a0ecf76bdc18",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 3465,
+      "sha256": "16f3867463bcf6fb0f9ccc696cf119479142e598730dec31814543b997d85198",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity-review/check_inputs_and_replay.py",
+      "bytes": 3926,
+      "sha256": "d537203654f667920e725257ac410cceba13b1b79d9b5ad010e2642736055d28",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity-review/height-replay-j0pj6ox1/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "bytes": 10461,
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity-review/height-replay-j0pj6ox1/check_height_regularity.py",
+      "bytes": 3053,
+      "sha256": "371b2bfd2365cc1a85225817cfd73695961965b32bf456194df10b9d6528b8d9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity-review/input_and_replay_checks.json",
+      "bytes": 3795,
+      "sha256": "54d21ad9adfc8d51362afb0df22a14060ee933af066c00c68fde16fb110629e9",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity-review/replayed_height_checks.json",
+      "bytes": 1099,
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "height-regularity-review/replayed_height_checks.log",
+      "bytes": 1099,
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-average-review/INDEPENDENT_EXPONENTIAL_LENGTH_REVIEW.md",
+      "bytes": 11738,
+      "sha256": "951f578b625a3cdc0057ce09fe9d4d91cffef29c487eeac9135d440905142fda",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-average-review/independent_length_review_receipt.json",
+      "bytes": 9733,
+      "sha256": "5acabf8c435a69483f22b4986c64142be0a46866fe4c89c2360945a989091112",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-average-review/replay/length_kernel_checks.json",
+      "bytes": 1075,
+      "sha256": "7262ab47eb028f0e2453ca2139a16bd0f78b478e57bc7a80e3680e3eb6f2bf8e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-average-review/replay/length_kernel_checks.log",
+      "bytes": 1075,
+      "sha256": "7262ab47eb028f0e2453ca2139a16bd0f78b478e57bc7a80e3680e3eb6f2bf8e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/AUTHOR_RECEIPT.json",
+      "bytes": 5288,
+      "sha256": "16c3d3201c1e1f0045d8b7aff1234c0f425342c0ae42e0e2d516572fb11f9ee8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/check_length_kernel.py",
+      "bytes": 3012,
+      "sha256": "181a60da6fcb8577c1f1101deb9d34bb1de8804b3091fd7075c37e609a61b1bd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/check_math_syntax.cjs",
+      "bytes": 1545,
+      "sha256": "28283dbb50e433ad9ca93b72a2e1c0abd7789d39950f0c960b427866939d5507",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/length_kernel_checks.json",
+      "bytes": 1075,
+      "sha256": "7262ab47eb028f0e2453ca2139a16bd0f78b478e57bc7a80e3680e3eb6f2bf8e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/length_kernel_checks.log",
+      "bytes": 1075,
+      "sha256": "7262ab47eb028f0e2453ca2139a16bd0f78b478e57bc7a80e3680e3eb6f2bf8e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "89317adb7fc36fa1d3f03c467c75991a7b9ea0671feab0b987580fa0c4b6986f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/sources/SOURCE_RECEIPT.json",
+      "bytes": 3494,
+      "sha256": "7f1c6dad46c87234a8cbdc564bb1df7a0807f7ac18f053b0ad5549615cdc5271",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "length-averaged-variance/sources/digizeitschriften-shutdown-response.html",
+      "bytes": 7056,
+      "sha256": "17d344c05dd48c0c59246eceeacae075bbf56dc4ce78c0f149b8b3f2eab88554",
+      "public_verbatim": false,
+      "omission_reason": "Third-party source response retained locally; unused failed source retrieval"
+    },
+    {
+      "path": "root-review/ROOT_REVIEW_RECEIPT.json",
+      "bytes": 1846,
+      "sha256": "ef81d5388aa4e221956c4a92c4a827c03f30dcc1e36e11464f01861074bde07a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "root-review/ROOT_ROUND20_REVIEW.md",
+      "bytes": 7228,
+      "sha256": "425f589e8851d39df3f824378989e2a476751d7ada41f3d8b0519fb63bff432b",
+      "public_verbatim": true,
+      "omission_reason": null
+    }
+  ]
+}

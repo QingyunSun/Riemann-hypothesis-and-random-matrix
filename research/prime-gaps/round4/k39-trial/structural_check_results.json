@@ -1,0 +1,148 @@
+{
+  "status": "structural floating checks, not interval certification",
+  "moment_and_fiber_checks": [
+    {
+      "signature": [],
+      "moment_max_error": 2.7755575615628914e-17,
+      "fiber_error": 0.0
+    },
+    {
+      "signature": [
+        2
+      ],
+      "moment_max_error": 1.0408340855860843e-17,
+      "fiber_error": 0.0
+    },
+    {
+      "signature": [
+        3
+      ],
+      "moment_max_error": 1.734723475976807e-18,
+      "fiber_error": 0.0
+    },
+    {
+      "signature": [
+        4
+      ],
+      "moment_max_error": 8.673617379884035e-19,
+      "fiber_error": 0.0
+    },
+    {
+      "signature": [
+        5
+      ],
+      "moment_max_error": 4.336808689942018e-19,
+      "fiber_error": 0.0
+    },
+    {
+      "signature": [
+        6
+      ],
+      "moment_max_error": 1.0842021724855044e-19,
+      "fiber_error": 0.0
+    },
+    {
+      "signature": [
+        2,
+        2
+      ],
+      "moment_max_error": 1.734723475976807e-18,
+      "fiber_error": 3.469446951953614e-18
+    },
+    {
+      "signature": [
+        2,
+        3
+      ],
+      "moment_max_error": 1.734723475976807e-18,
+      "fiber_error": 0.0
+    },
+    {
+      "signature": [
+        2,
+        4
+      ],
+      "moment_max_error": 4.336808689942018e-19,
+      "fiber_error": 1.0842021724855044e-19
+    },
+    {
+      "signature": [
+        3,
+        3
+      ],
+      "moment_max_error": 2.168404344971009e-19,
+      "fiber_error": 0.0
+    },
+    {
+      "signature": [
+        2,
+        2,
+        2
+      ],
+      "moment_max_error": 4.336808689942018e-19,
+      "fiber_error": 4.336808689942018e-19
+    }
+  ],
+  "official_k40_shells_exact": {
+    "outer": [
+      [
+        0,
+        89196,
+        68225
+      ],
+      [
+        89197,
+        95598,
+        49152
+      ],
+      [
+        95599,
+        98263,
+        46580
+      ]
+    ],
+    "base": [
+      [
+        0,
+        84930,
+        68225
+      ],
+      [
+        84931,
+        87194,
+        44781
+      ],
+      [
+        87195,
+        89524,
+        35265
+      ]
+    ],
+    "enlarged": [
+      [
+        0,
+        85161,
+        68225
+      ],
+      [
+        85162,
+        87249,
+        44976
+      ],
+      [
+        87250,
+        89914,
+        35419
+      ]
+    ],
+    "full": [
+      [
+        0,
+        98263,
+        68225
+      ]
+    ]
+  },
+  "dickman_at_3": 0.048608388291131344,
+  "independent_integral_difference": -1.1102230246251565e-16
+}

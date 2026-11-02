@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-05",
+  "inherited_proofs": [
+    {
+      "path": "research-round1/yau_flow.md",
+      "sha256": "0d407ae5cb198960bc3c00ff76f6baeb61e5536e63799eaf89a28af92f460542",
+      "bytes": 30486,
+      "used_scope": "Sections3-4 only: existing qualitative finite CUE depth result and triple-free method; no general-beta assertion used."
+    },
+    {
+      "path": "research-round1/yau_flow_galilean_refinement.md",
+      "sha256": "ffa09e0a4a6a78854fe5bfdb666e812d85bb34169dcb1d8443020eb665db6d3e",
+      "bytes": 7441,
+      "used_scope": "Existing finite-circle initial inverse-square refinement."
+    },
+    {
+      "path": "research-round2/galilean-proof-audit.md",
+      "sha256": "c85684fe873c19c193a81d3d16cde2507f10cf6753324ce31eda99b14672a2da",
+      "bytes": 17021,
+      "used_scope": "Sections1-5 only: deterministic quantified finite-circle heat lemma with K=16384, eta0=1/524288."
+    }
+  ],
+  "primary_source": {
+    "title": "Small gaps of circular beta-ensemble",
+    "authors": [
+      "Renjie Feng",
+      "Dongyi Wei"
+    ],
+    "version": "arXiv:1806.01555v2, 21 September2020",
+    "url": "https://arxiv.org/pdf/1806.01555v2",
+    "pdf_path": "sources/feng-wei-1806.01555v2.pdf",
+    "pdf_sha256": "af6c78625ceb76b422fb89ba0f5d98f18c8749ae922244fe386dbfb0133dbce7",
+    "text_path": "sources/feng-wei-1806.01555v2.txt",
+    "text_sha256": "6b24cd80cede5d71415c4f1cfa527a2c0ef8fd23752549c7455a85945f777ea5",
+    "checked_locations": "Printed4: periodic gap definition(5), Thm1.1, A2=1/(24pi), Cor1.1; printed5: factorial correlation convention and CUE determinant. Only beta=2 used."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "canonical_stationary_phase",
+    "stationary_point",
+    "stationary_curvature",
+    "canonical_coordinate_derivative",
+    "amplitude_error_integration_by_parts",
+    "fresnel_primitive_normalization",
+    "interior_stationary_coefficient",
+    "three_normalization_factors",
+    "integrated_error_scale",
+    "carrier_bound_scale",
+    "dual_phase_stationary_point",
+    "dual_phase_value",
+    "sharp_halfendpoint_convention",
+    "odd_lattice_parity_both_signs"
+  ],
+  "endpoint_cases": 5,
+  "groups": 14,
+  "parity_cases": 25,
+  "scope": "Exact algebra and finite lattice identities only; no prime data or asymptotic proof certification.",
+  "status": "passed"
+}

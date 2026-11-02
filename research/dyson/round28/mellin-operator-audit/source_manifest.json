@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "bytes": 125294,
+      "path": "research-round28/mellin-operator-audit/sources/dlmf-25-2.html",
+      "scope": "Dirichlet series domain, continuation and simple pole at 1",
+      "sha256": "1ecdbd06dfa99932842ebca0fa1eaea11212c16dbe2843f02f083f2daa1edb33",
+      "url": "https://dlmf.nist.gov/25.2"
+    },
+    {
+      "bytes": 55482,
+      "path": "research-round28/mellin-operator-audit/sources/dlmf-25-4.html",
+      "scope": "Eq25.4.2 functional equation",
+      "sha256": "d89d146f9c52f09378fa471472f36ce439fb00a62c9b9940edf79dbd112419c9",
+      "url": "https://dlmf.nist.gov/25.4"
+    },
+    {
+      "bytes": 147650,
+      "path": "research-round28/mellin-operator-audit/sources/dlmf-25-6.html",
+      "scope": "Eq25.6.1 zeta(0)=-1/2",
+      "sha256": "f98d2aa321dcd29d236b287694197074b9762b2153f9d0c844e6b99db35909cd",
+      "url": "https://dlmf.nist.gov/25.6"
+    },
+    {
+      "bytes": 17690,
+      "path": "research-round27/joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+      "scope": "Final corrected actual odd product matrix definitions and unproved uniform target",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942"
+    },
+    {
+      "bytes": 2283,
+      "path": "research-round27/joint-dispersion-test/AUTHOR_RECEIPT.json",
+      "scope": "Pinned author scope and terminology correction",
+      "sha256": "b4edc07a335966503d1696188565d931aade096b464b68968c7019ecd8ed4190"
+    },
+    {
+      "bytes": 10290,
+      "path": "research-round21/log-prime-heat/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+      "scope": "Actual carrier g_T and RH heat multiplier identity, especially equations1-5",
+      "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8"
+    },
+    {
+      "bytes": 20835,
+      "path": "research-round27/joint-dispersion-review/INDEPENDENT_JOINT_DISPERSION_REVIEW.md",
+      "scope": "Independent acceptance of exact R27 matrix definitions and conditional target; source-terminology correction recorded",
+      "sha256": "fd21347c625d394a1a31ce5eb1b5fc0519ae46d68313a8cd8f0607afdbeab603"
+    }
+  ],
+  "scope": "Standard analytic ingredients checked against NIST; new finite identities proved in the note. No model-to-prime comparison is invoked."
+}

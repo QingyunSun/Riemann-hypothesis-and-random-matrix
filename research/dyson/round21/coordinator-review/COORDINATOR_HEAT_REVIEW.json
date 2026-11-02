@@ -1,0 +1,29 @@
+{
+  "reviewer_thread": "01a0702b-e4b0-7020-ae61-b1fe718932c1",
+  "date": "2026-09-05",
+  "review_kind": "Independent originating-coordinator ordinary proof review; not Lean, external peer review, numerical certification or novelty audit",
+  "status": "ACCEPTED at the pinned manuscript scope",
+  "full_manuscript_read": true,
+  "current_source_matches_frozen_snapshot": true,
+  "checker_replayed": false,
+  "strict_arithmetic_estimate_proved": false,
+  "author_file": "log-prime-heat/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+  "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+  "bytes": 10290,
+  "verified_steps": [
+    "Exact centered change x=exp(v), u=lambda/T, F(v)=exp(-v/2)E(exp(v)); dmu=T exp(-Tu)du and outer T/log(T)^2 retained.",
+    "Nonnegative C2 cutoff has derivative-square <=2||omega second derivative||inf*omega; square root is globally Lipschitz and H1, including zeros. Translation estimate valid for all u.",
+    "Actual localization commutator has R_T<=C/L integral T exp(-(T-1)u)u^2(1+bL+u)^4 du=O(L^3/T^2), including control of all large translations and finite T=2.",
+    "B_T=O(L^2/T) is inherited from the independently proved R20 actual arithmetic bound, not inferred from this representation; normalized quadratic-form error O(sqrt(L/T)) follows from 2sqrt(BR)+R.",
+    "Fourier multiplier equals ((2T-1)/(T-1))*(xi^2+1/4)/((T-1/2)^2+xi^2), with angular Plancherel factor 1/(2pi).",
+    "Heat convention H_t=exp(t*d_v^2/2) yields squared Fourier decay exp(-t*xi^2); nonnegative integration gives exact resolvent-weighted energy, finite for every L2 input despite prime-power jumps.",
+    "Replacement of prefactor (2T-1)/(T-1) by 2 in a limiting strict criterion uses the already bounded normalized energy and is O(1/T)."
+  ],
+  "checks_read": "Full 1963-byte symbolic script and its 652-byte output read; eight scalar assertions only. All five owned-file and three dependency byte/hash records checked; no script rerun.",
+  "limits": [
+    "RH and fixed actual weight retained.",
+    "Localization error constant not evaluated.",
+    "Heat is in log-prime coordinate, with exact continuous subtraction; no zero deformation or random-matrix transport.",
+    "No strict energy upper bound, finite-height certificate or famous-conjecture proof."
+  ]
+}

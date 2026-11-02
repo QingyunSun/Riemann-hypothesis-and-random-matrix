@@ -1,0 +1,83 @@
+{
+  "status": "Frozen separate floating follow-up submitted for independent review",
+  "scope": "Exactly zero and the already selected winning frequency in each of three existing arrays. Complex transpose, no conjugation, no grid search, no prime computation, no change to frozen historical artifacts.",
+  "new_files": [
+    {
+      "path": "FOLLOWUP_TRANSPOSE_PAIRING.md",
+      "bytes": 7259,
+      "sha256": "858009c2dd603ad8e6956a51a43263d30dc592fb09331c9d44762475c4734ee0"
+    },
+    {
+      "path": "check_transpose_pairing.py",
+      "bytes": 3951,
+      "sha256": "3ba97303ab624759d9d87d86ec1b887ae1d517ac9e92275bf5a5b0b6c081cb1b"
+    },
+    {
+      "path": "transpose_pairing_results.json",
+      "bytes": 8146,
+      "sha256": "7047fa6786731a0edc3ba40e584bf215ed38b6676d3a6bf2908b6522cb1cfb87"
+    },
+    {
+      "path": "transpose_pairing_run.log",
+      "bytes": 5409,
+      "sha256": "e6a40d8b4883a5313c4b269e31b2b615014e751c19a2cdfc84cde53125734ea3"
+    },
+    {
+      "path": "check_transpose_syntax.cjs",
+      "bytes": 1111,
+      "sha256": "c5bd834ddf4899b4ae1c55dfe714eb329fe5233cebcafd0decea3eb4082f7cb6"
+    },
+    {
+      "path": "transpose_math_syntax_check.json",
+      "bytes": 77,
+      "sha256": "f7dd114e68f2752bef649502598929eee49787b57b63dfeef33e7432f3fdf5a2"
+    },
+    {
+      "path": "arrays/transpose_pairing_1000000.npz",
+      "bytes": 3606,
+      "sha256": "a3cf286529b643f12d48cf045eac3f2d3373d92b2eb732b75ea32ba1a5154722"
+    },
+    {
+      "path": "arrays/transpose_pairing_4000000.npz",
+      "bytes": 6034,
+      "sha256": "81f1dec6f2efd6ac07f4d8fc9cb4c684be428d0a2e428c716f87215cf219aeaf"
+    },
+    {
+      "path": "arrays/transpose_pairing_16000000.npz",
+      "bytes": 10858,
+      "sha256": "0577a6f959fb0556ef477da7d911f7017fc675fd66ccdf693b297f03f6b2771c"
+    }
+  ],
+  "unchanged_source_files": [
+    {
+      "path": "RESULTS.md",
+      "bytes": 16214,
+      "sha256": "acf1ec31909cda5ef788778d10e152d9813eaee97095d9f34adcb2c2b731a722"
+    },
+    {
+      "path": "AUTHOR_RECEIPT.json",
+      "bytes": 3896,
+      "sha256": "c29d6feaeaee0f1f643ee8849c8fef7a77b09d111999c1aa60ecdb6ef3f86121"
+    },
+    {
+      "path": "mellin_results.json",
+      "bytes": 6686,
+      "sha256": "06624672d6b4739f0575e8125596e9020aeab44ea970b51ada16fbb43d73120e"
+    },
+    {
+      "path": "arrays/case_1000000.npz",
+      "bytes": 1023988,
+      "sha256": "1f27e7b8436a6a563898beac94852a72f91dde87d9ebdf75f9369c762212aa8b"
+    },
+    {
+      "path": "arrays/case_4000000.npz",
+      "bytes": 3995914,
+      "sha256": "5cf82296f36abb88f1dc8cb6cc72a56daeca4523da28fcd86bb40897556512af"
+    },
+    {
+      "path": "arrays/case_16000000.npz",
+      "bytes": 15895381,
+      "sha256": "57c883150b2a75f08af05d04a1e0a9951baf7c8bb4b07d4bf76c519023112b7d"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-05",
+  "status": "Accepted finite circular-model ordinary proof; no true-zeta transport",
+  "sources": [
+    {
+      "file": "LOCAL_BRAGG_PRODUCTION.md",
+      "sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "bytes": 18586
+    },
+    {
+      "file": "EXACT_COHERENT_MODE_CURVATURE.md",
+      "sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "bytes": 6029
+    }
+  ],
+  "scope": "Both full proof texts independently read. Algebra, inequalities, probability counting, and limiting qualifications checked. No float enumeration replay or formal proof.",
+  "accepted": [
+    "Polynomial generator and root ODE signs checked; microscopic s=N^2 t/(4pi^2) and dq/ds=(2pi/N)sum cot agree.",
+    "Periodized R16 kernel has Fourier coefficient N^-1 psi(m/(N epsilon)); pair deficit equals C(0)-C(2), with no missing orientation or N factor.",
+    "Lifted cooperative ODE comparison preserves every cyclic minimum gap. Convex chamber and periodic last coordinate justify the comparison; conserved center and compact relative chamber imply global existence.",
+    "Near/far relative velocity estimate and packing give a uniform acceleration <12160<12288, without assuming uniformly bounded individual velocities.",
+    "ACUE adjacent occupation probability >=1/8; 16-site variance <=4 gives good-bond probability >=1/16, with no independence hypothesis.",
+    "Hole cotangent identity gives g'(0)>1/84. Acceleration control yields a fixed time interval s<=1/4128768 independent of N; the gap stays in [1/2,3/4].",
+    "Kernel floor epsilon*m0*cos^2(3pi epsilon/4), phase deficit >=8 beta^2 s^2, expected N/8 unordered good pairs and two orientations give E D>=2 kappa beta^2 s^2 for every N>=8.",
+    "D(0)=0 identically. This falsifies precisely the proposed uniform endpoint transport based only on listed circular heat/hard-core/background/initial low-band hypotheses.",
+    "Separate global coherent-mode curvature follows from the cotangent triple identity and exact ACUE pair probabilities: E B''(0)=-(64pi^4/3)(1-N^-2). Its fixed-N Taylor remainder is not used for the finite-time local theorem."
+  ],
+  "limits": [
+    "No infinite ACUE process construction, convergence of full flow laws, or optimal constants established.",
+    "AH-Pairs permits clusters and does not specify the ACUE point law.",
+    "No actual-zeta positive-time comparison or transfer back to H_0, no AH refutation, and no Montgomery-Dyson theorem.",
+    "True entire-function background statement was treated as cited context, not as a newly proved global zero ODE here."
+  ]
+}

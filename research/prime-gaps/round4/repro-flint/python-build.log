@@ -1,0 +1,7 @@
+error: unexpected argument '--no-binary-package' found
+
+  tip: a similar argument exists: '--no-binary'
+
+Usage: uv pip install --python <PYTHON> --no-binary <NO_BINARY> <PACKAGE|--requirements <REQUIREMENTS>|--editable <EDITABLE>|--group <GROUP>>
+
+For more information, try '--help'.

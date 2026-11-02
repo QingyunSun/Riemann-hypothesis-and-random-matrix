@@ -1,0 +1,30 @@
+{
+  "T_error_exponents": {
+    "centered_mobius_prime_RH": "-17/60",
+    "cofactor_grid": "-19/12",
+    "correction_singleton_RH": "-7/8",
+    "nonprimitive_eta": "-391/400",
+    "upper_length_tail_R32ell": "-27/4"
+  },
+  "author_sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6",
+  "auxiliary_cutoff_scope": "Polynomial r is used only for finite telescoping checks; theorem uses a C-infinity cutoff.",
+  "check_groups": {
+    "compact_polynomial_hinge_integrations_by_parts": 15,
+    "finite_cover_of_exact_lower_endpoint_profile": 256,
+    "finite_dyadic_telescoping_and_nonnegative_weights": 2304,
+    "global_correction_coefficient": 3,
+    "real_atomic_hinge_linear_interpolation": 200,
+    "summed_error_exact_exponents": 10,
+    "symmetric_weight_M1_equals_M0": 5
+  },
+  "ell_error_exponents": {
+    "flat_even_grid_order4": "-1",
+    "primitive_B": "-7/3",
+    "principal_mask_order36": "-2",
+    "singular_remainder_nu_quarter": "-9/8",
+    "small_shift_cutoff": "-1/2"
+  },
+  "scope": "Finite exact algebra, no prime-height sampling or unproved asymptotic claim.",
+  "status": "PASS",
+  "total_scalar_cases": 2793
+}

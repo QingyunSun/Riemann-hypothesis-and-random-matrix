@@ -1,0 +1,205 @@
+{
+  "original_files": 28,
+  "original_bytes": 268118,
+  "public_verbatim_files": 27,
+  "public_verbatim_bytes": 151627,
+  "source_edits": [],
+  "files": [
+    {
+      "path": "coordinator-global-review/AUTHOR_BYTES_READ.json",
+      "bytes": 925,
+      "sha256": "5fa3cba4274835439f7604743ad33f40f34b37b7ab363a6a3c282b1ab8b7b4f8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-global-review/COORDINATOR_GLOBAL_REDUCTION_REVIEW.md",
+      "bytes": 6740,
+      "sha256": "72a075853c4f3e5ca08a587415c7aa18cd2ff96e0d8016a0619b497a70070080",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-global-review/COORDINATOR_GLOBAL_REDUCTION_REVIEW_RECEIPT.json",
+      "bytes": 2208,
+      "sha256": "586e0ba0abf2dba4da9643dbff6b8200610f7f08d85e4793817ad21e74673395",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-global-review/COORDINATOR_RATIONAL_MARGINS.json",
+      "bytes": 386,
+      "sha256": "3e0d564912a371eef15f7295122b4de3c90d0b78395d35dc17e573a84558c3e8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-global-review/FULL_SHIFT_REDUCTION_AUTHOR_FROZEN.md",
+      "bytes": 22834,
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-global-review/REFINED_SINGULAR_CORRECTION_AUTHOR_FROZEN.md",
+      "bytes": 14577,
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "full-shift-reduction/AUTHOR_RECEIPT.json",
+      "bytes": 1803,
+      "sha256": "ee739ec077a190962f89f0990c32b5936fc244fc632ad928aa06c6310698cd73",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "bytes": 22834,
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "full-shift-reduction/check_full_shift.py",
+      "bytes": 4671,
+      "sha256": "44aed4416f64c413a95c8486b5fc1dd15dbf25e8105f8b5f26bb5c7c272ade8c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "full-shift-reduction/exact_check_results.json",
+      "bytes": 1152,
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "full-shift-reduction/exact_check_stdout.log",
+      "bytes": 1152,
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "full-shift-reduction/math_syntax_check.json",
+      "bytes": 74,
+      "sha256": "51af0af69831a767551d1e99765cffdb6e2a90febf0d20f6d2956effd62e5035",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "full-shift-reduction/source_manifest.json",
+      "bytes": 5526,
+      "sha256": "9c837898f2c221505deecc27c69554f0cbacf7b2dd5267f231b10dd35a3172e1",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "full-shift-reduction/sources/ms-page-16.png",
+      "bytes": 116491,
+      "sha256": "d8a758b97bf6c481818ca1160467aa38e79c4d4d199e14e45b1e9058e998dd94",
+      "public_verbatim": false,
+      "omission_reason": "Full primary source retained locally"
+    },
+    {
+      "path": "global-reduction-review/INDEPENDENT_GLOBAL_REDUCTION_REVIEW.md",
+      "bytes": 23124,
+      "sha256": "92d728c2f5d97f1e66b3582647cb2c66ef9c94203c2427ca3f439caca671e729",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "global-reduction-review/REVIEW_RECEIPT.json",
+      "bytes": 5310,
+      "sha256": "6bd09583fdf94ad1c01e1d39f1cc752f9a859d147f57c25826e4b388978386f4",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "global-reduction-review/check_math_syntax.cjs",
+      "bytes": 1554,
+      "sha256": "5a1bda4ec20aeed178d7281d2639c4a29382f5ff9e1b1bd96afa1f26dbc640b6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "global-reduction-review/independent_exact_check_results.json",
+      "bytes": 1152,
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "global-reduction-review/independent_exact_check_stdout.log",
+      "bytes": 1152,
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "global-reduction-review/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "9f68d9192045e75d10a4866b9d8c4e4f02f1e1bcefce02ce75f646317612c39f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "global-reduction-review/source_and_replay_checks.json",
+      "bytes": 11395,
+      "sha256": "917493f027cdf2dafeb03e57ccb034e4ec5db07a3cff5ef1d05698294b35a6ff",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "singular-correction-review/AUTHOR_RECEIPT.json",
+      "bytes": 2280,
+      "sha256": "ad06787e4fe1c8b32d2904266cd15368531aeee0cc5f5059680d3c1281908390",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+      "bytes": 14577,
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "singular-correction-review/check_singular_correction_algebra.py",
+      "bytes": 1639,
+      "sha256": "d8dfa09d5cf5e5944086345f03dad94ade50ab4d3d67fdc10961614382c1eb28",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "singular-correction-review/math_syntax_checks.json",
+      "bytes": 88,
+      "sha256": "90d0c0abe91b9c2c57a6e6ccd757342cc26a6ee59b66a1fcb77667f12f659e4f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "singular-correction-review/singular_correction_checks.json",
+      "bytes": 509,
+      "sha256": "12f25aafa2c2f5e21298df97146de49388f6c90728d705610a215888b0f09479",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "singular-correction-review/singular_correction_checks.log",
+      "bytes": 509,
+      "sha256": "12f25aafa2c2f5e21298df97146de49388f6c90728d705610a215888b0f09479",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "singular-correction-review/source_receipt.json",
+      "bytes": 3169,
+      "sha256": "8ef861c990ade4509cbf228f47e7461631ab7316866bac87cf639ec240d24eba",
+      "public_verbatim": true,
+      "omission_reason": null
+    }
+  ]
+}

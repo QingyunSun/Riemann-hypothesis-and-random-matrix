@@ -1,0 +1,21 @@
+{
+  "base": {
+    "margin": -0.014654938084002839,
+    "quotient": 0.23534506191599716,
+    "retained_dimension": 20,
+    "dimension": 20,
+    "retained_scaled_condition": 51665666.20824036,
+    "pencil_residual_norm": 1.4251925256697708e-16,
+    "norm": 0.9999999999999998
+  },
+  "enlarged": {
+    "margin": -0.014654911437155138,
+    "quotient": 0.23534508856284486,
+    "retained_dimension": 30,
+    "dimension": 30,
+    "retained_scaled_condition": 53573156.528161824,
+    "pencil_residual_norm": 2.519033050568722e-16,
+    "norm": 0.9999999999999998
+  }
+}
+seconds 0.3556492499774322

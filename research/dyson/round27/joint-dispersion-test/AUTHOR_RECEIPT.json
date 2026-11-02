@@ -1,0 +1,54 @@
+{
+  "author": "Euclid",
+  "date": "2026-09-05",
+  "exact_checks": {
+    "all_passed": true,
+    "groups": 6,
+    "json_equals_stdout": true,
+    "no_large_prime_scan": true,
+    "scalar_cases": 26
+  },
+  "files": [
+    {
+      "bytes": 17690,
+      "path": "JOINT_DISPERSION_TEST.md",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942"
+    },
+    {
+      "bytes": 3595,
+      "path": "check_joint_dispersion.py",
+      "sha256": "6ed90f5a81b71bf4729626e2d7281572a66e358ffdd12820dabb5471a20a8ea3"
+    },
+    {
+      "bytes": 869,
+      "path": "exact_check_results.json",
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709"
+    },
+    {
+      "bytes": 869,
+      "path": "exact_check_stdout.log",
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709"
+    },
+    {
+      "bytes": 4950,
+      "path": "source_manifest.json",
+      "sha256": "719bbd0c0250a7764e1203c2dbff4d6a7cbb6332120e66d375d06a6419f265be"
+    },
+    {
+      "bytes": 74,
+      "path": "math_syntax_check.json",
+      "sha256": "774f4d6684294727a6725afde1522ff5a90c3ba5b45ea82a6650ee143c077770"
+    }
+  ],
+  "global_scope": "The inherited global covariance is already O(1); no strict improvement over A-2M is established here. Lowest physical scales and unbalanced cofactor rows remain excluded from this central test.",
+  "math_syntax": {
+    "errors": [],
+    "expressions": 162,
+    "unexpected_control_bytes": 0
+  },
+  "preservation": "Frozen R25/R26 and all public Git untouched.",
+  "review_delta": "Plato corrected Definition 2.5 terminology to Definition 2.6 coefficient sequences allowing logarithmic bounds; Proposition 2.18 applicability and all mathematical estimates are unchanged. Prior author, receipt, checker result and stdout retained in historical-before-coefficient-terminology. Unchanged six-group checker rerun passed.",
+  "scope": "Ordinary RH proves only central medium-band removal Z(X^(1/3))-Z(X^.49)=O(X^(-.01)log^3X). The actual joint matrix sufficient bound remains unproved. The 186 single-convolution distribution application is legal but does not evaluate the shifted-prime pairing.",
+  "source_files_pinned": 15,
+  "status": "author package frozen; separate full independent review pending"
+}

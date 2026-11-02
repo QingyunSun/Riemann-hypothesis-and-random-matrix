@@ -1,0 +1,65 @@
+{
+  "scope": "Independent Python standard-library float64 replay of six saved-array complex transpose pairings. Symmetric triangular summation with math.fsum, compared with ordered-product multiplicity sum. No prime recomputation, grid search, quadrature validation, operator-norm recertification or interval enclosure.",
+  "cases": [
+    {
+      "X": 1000000,
+      "frequency": 0.0,
+      "direct_re": 7.167609881650806,
+      "direct_im": 0.0,
+      "absolute": 7.167609881650806,
+      "ratio_to_author_norm": 0.03288492155783034,
+      "author_abs_difference": 0.0,
+      "grouped_abs_difference": 8.881784197001252e-16
+    },
+    {
+      "X": 1000000,
+      "frequency": 1756.8684989418084,
+      "direct_re": 39.17069984809924,
+      "direct_im": -66.16204375555039,
+      "absolute": 76.88796889306705,
+      "ratio_to_author_norm": 0.3527612227141845,
+      "author_abs_difference": 2.0097183471152322e-14,
+      "grouped_abs_difference": 3.922810948908347e-11
+    },
+    {
+      "X": 4000000,
+      "frequency": 0.0,
+      "direct_re": -40.5467857571061,
+      "direct_im": 0.0,
+      "absolute": 40.5467857571061,
+      "ratio_to_author_norm": 0.08869052778165473,
+      "author_abs_difference": 7.105427357601002e-15,
+      "grouped_abs_difference": 1.4210854715202004e-14
+    },
+    {
+      "X": 4000000,
+      "frequency": 3046.841660405943,
+      "direct_re": 128.96708596552403,
+      "direct_im": 173.81709899020984,
+      "absolute": 216.43681101839232,
+      "ratio_to_author_norm": 0.47342581272882445,
+      "author_abs_difference": 2.842170943040401e-14,
+      "grouped_abs_difference": 4.9810162765820326e-11
+    },
+    {
+      "X": 16000000,
+      "frequency": 0.0,
+      "direct_re": -57.051104002738576,
+      "direct_im": 0.0,
+      "absolute": 57.051104002738576,
+      "ratio_to_author_norm": 0.056079183769989084,
+      "author_abs_difference": 7.105427357601002e-15,
+      "grouped_abs_difference": 1.4210854715202004e-14
+    },
+    {
+      "X": 16000000,
+      "frequency": 4760.911407201188,
+      "direct_re": -253.73578005093282,
+      "direct_im": 496.8073968002319,
+      "absolute": 557.8525213651709,
+      "ratio_to_author_norm": 0.5483489690346305,
+      "author_abs_difference": 5.684341886080802e-14,
+      "grouped_abs_difference": 4.259700560032853e-10
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "author_receipt": {
+    "bytes": 2098,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/functional-reflection/AUTHOR_RECEIPT.json",
+    "sha256": "b225e7c2b6a8989db842cb24eec10b617038a901aaa9821204fedb828535edad"
+  },
+  "author_report": {
+    "bytes": 18635,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/functional-reflection/FUNCTIONAL_REFLECTION_IDENTITY.md",
+    "sha256": "c6d8359bdecb2f0616647920ef7f7efd861ca6d1bf03995f303b4a41a77ec701"
+  },
+  "contributions": "Independent artificial/first-trivial pole diagnostic; fixed-zero multiplicity-square match; separate uniform far-line proof check; complete author gamma and failed-carrier audit.",
+  "files": {
+    "DIAGNOSTIC.md": {
+      "bytes": 10687,
+      "sha256": "cf6296b9c89a24baf21972639aaff8874d59a723bae50ceeeadce3d324cb2bad"
+    },
+    "INDEPENDENT_FUNCTIONAL_REVIEW.md": {
+      "bytes": 12436,
+      "sha256": "80b2309328db700458e7fe42a4d1b6cefdb7025a7dae6113b4a01c0c1df6a16e"
+    },
+    "sources/source_receipt.json": {
+      "bytes": 800,
+      "sha256": "9b37d45c732bd396675773e14c556735b0e4c1cde7efd3752d48d3200ffa1ab6"
+    }
+  },
+  "qa": {
+    "DIAGNOSTIC.md": {
+      "display_math_pairs": 26,
+      "inline_math_pairs": 50,
+      "unexpected_control_characters": 0
+    },
+    "INDEPENDENT_FUNCTIONAL_REVIEW.md": {
+      "display_math_pairs": 11,
+      "inline_math_pairs": 64,
+      "unexpected_control_characters": 0
+    }
+  },
+  "scope": {
+    "author_or_git_files_changed": false,
+    "final_delta_reviewed": true,
+    "full_author_read": true,
+    "full_root_proof_read": true,
+    "functional_equation_and_digamma_primary_pages_checked": true,
+    "numeric_sweep": false,
+    "raw_primary_download_claimed": false,
+    "zeta_data_computation": false
+  },
+  "sources": [
+    {
+      "bytes": 16688,
+      "matches": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round17/quadratic-packet/QUADRATIC_COMPACT_PACKET.md",
+      "sha256": "a7b5290a3d96d2590da42f3fe13a53c1e02499b53d066366824b9f15883a7da3"
+    },
+    {
+      "bytes": 20291,
+      "matches": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120"
+    },
+    {
+      "bytes": 14073,
+      "matches": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round7/poisson-resolvent/TWO_SCALE_ZETA_TARGET.md",
+      "sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51"
+    },
+    {
+      "bytes": 5466,
+      "matches": true,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/root-contour-proof/ROOT_INFINITE_CONTOUR_TRACE.md",
+      "sha256": "58e103d3a5235138d1017f20577ddfae8f6f465e56298f55fd7be70c4ff79e2b"
+    }
+  ],
+  "status": "ACCEPTED ordinary analytic proof review; no strict Bragg result"
+}

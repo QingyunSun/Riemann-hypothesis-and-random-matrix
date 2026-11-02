@@ -1,0 +1,35 @@
+[
+  {
+    "path": "das-ismoilov-ramos-2502.05106v1.html",
+    "url": "https://arxiv.org/html/2502.05106v1",
+    "final_url": "https://arxiv.org/html/2502.05106v1",
+    "bytes": 921080,
+    "sha256": "226884cfea450bd4d2842d572c9a84acf227e1dd569ed46852911ca1035d2301"
+  },
+  {
+    "path": "carneiro-milinovich-ramos-2310.01913.pdf",
+    "url": "https://arxiv.org/pdf/2310.01913",
+    "final_url": "https://arxiv.org/pdf/2310.01913",
+    "bytes": 490086,
+    "sha256": "c2a9874827717c17362acc9c367d93ae3482a62b0722e3bc564ec034c35e6fdc"
+  },
+  {
+    "path": "languasco-perelli-zaccagnini-1311.0597.pdf",
+    "url": "https://arxiv.org/pdf/1311.0597",
+    "final_url": "https://arxiv.org/pdf/1311.0597",
+    "bytes": 208956,
+    "sha256": "0039741a14b1cd921c1315d4a3a92fe4c36f9fde24d349931a4ec1584e4c9bec"
+  },
+  {
+    "path": "rudnick-2605.22059v1.html",
+    "url": "https://arxiv.org/html/2605.22059v1",
+    "bytes": 416097,
+    "sha256": "4b0d3227a1753ef2c21c3d6571b033019601a9058b70fddc271e039a8f544033"
+  },
+  {
+    "path": "languasco-perelli-zaccagnini-1308.3934.pdf",
+    "url": "https://arxiv.org/pdf/1308.3934",
+    "bytes": 195124,
+    "sha256": "5a701152a7ee378ce03a2b5c7e40d19685abbcd4dbd30f2c871d36e9b954686c"
+  }
+]

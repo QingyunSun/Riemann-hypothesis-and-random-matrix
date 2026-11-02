@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checked": 13,
+  "targets": [
+    "research/dyson/round28/actual-prime-matrix-test/EXPERIMENT_PLAN.md",
+    "research/dyson/round28/actual-prime-matrix-test/RESULTS.md",
+    "research/dyson/round28/actual-prime-matrix-test/results.json",
+    "research/dyson/round28/actual-prime-matrix-test/MELLIN_FOLLOWUP_PLAN.md",
+    "research/dyson/round28/actual-prime-matrix-test/mellin_results.json",
+    "research/dyson/round28/actual-prime-matrix-test/FOLLOWUP_TRANSPOSE_PAIRING.md",
+    "research/dyson/round28/actual-prime-matrix-test/transpose_pairing_results.json",
+    "research/dyson/round28/actual-prime-matrix-review/INDEPENDENT_MATRIX_REVIEW.md",
+    "research/dyson/round28/coordinator-transpose/COORDINATOR_TRANSPOSE_REPLAY.json",
+    "research/dyson/round28/mellin-operator-audit/MELLIN_OPERATOR_AUDIT.md",
+    "research/dyson/round28/mellin-operator-review/INDEPENDENT_MELLIN_OPERATOR_REVIEW.md",
+    "research/dyson/round7/dyson-frontier/DYSON_ACTUAL_ZETA_FRONTIER.md",
+    "research/dyson/round28/mellin-operator-audit/MELLIN_OPERATOR_AUDIT.md"
+  ]
+}

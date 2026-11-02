@@ -1,0 +1,211 @@
+{
+  "pdf": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/output/pdf/ASTRA_ROUNDS_6_14_HANDOFF.pdf",
+  "pdf_sha256": "137d90f269dd91df9e6f6d7b96dbcbebf334a6f091465442403a8faba015b987",
+  "page_count": 314,
+  "rendered_pages": 314,
+  "render_dpi": 85,
+  "mechanical_flags": [],
+  "contact_sheets": [
+    {
+      "path": "contact-0001-0008.png",
+      "first_page": 1,
+      "last_page": 8
+    },
+    {
+      "path": "contact-0009-0016.png",
+      "first_page": 9,
+      "last_page": 16
+    },
+    {
+      "path": "contact-0017-0024.png",
+      "first_page": 17,
+      "last_page": 24
+    },
+    {
+      "path": "contact-0025-0032.png",
+      "first_page": 25,
+      "last_page": 32
+    },
+    {
+      "path": "contact-0033-0040.png",
+      "first_page": 33,
+      "last_page": 40
+    },
+    {
+      "path": "contact-0041-0048.png",
+      "first_page": 41,
+      "last_page": 48
+    },
+    {
+      "path": "contact-0049-0056.png",
+      "first_page": 49,
+      "last_page": 56
+    },
+    {
+      "path": "contact-0057-0064.png",
+      "first_page": 57,
+      "last_page": 64
+    },
+    {
+      "path": "contact-0065-0072.png",
+      "first_page": 65,
+      "last_page": 72
+    },
+    {
+      "path": "contact-0073-0080.png",
+      "first_page": 73,
+      "last_page": 80
+    },
+    {
+      "path": "contact-0081-0088.png",
+      "first_page": 81,
+      "last_page": 88
+    },
+    {
+      "path": "contact-0089-0096.png",
+      "first_page": 89,
+      "last_page": 96
+    },
+    {
+      "path": "contact-0097-0104.png",
+      "first_page": 97,
+      "last_page": 104
+    },
+    {
+      "path": "contact-0105-0112.png",
+      "first_page": 105,
+      "last_page": 112
+    },
+    {
+      "path": "contact-0113-0120.png",
+      "first_page": 113,
+      "last_page": 120
+    },
+    {
+      "path": "contact-0121-0128.png",
+      "first_page": 121,
+      "last_page": 128
+    },
+    {
+      "path": "contact-0129-0136.png",
+      "first_page": 129,
+      "last_page": 136
+    },
+    {
+      "path": "contact-0137-0144.png",
+      "first_page": 137,
+      "last_page": 144
+    },
+    {
+      "path": "contact-0145-0152.png",
+      "first_page": 145,
+      "last_page": 152
+    },
+    {
+      "path": "contact-0153-0160.png",
+      "first_page": 153,
+      "last_page": 160
+    },
+    {
+      "path": "contact-0161-0168.png",
+      "first_page": 161,
+      "last_page": 168
+    },
+    {
+      "path": "contact-0169-0176.png",
+      "first_page": 169,
+      "last_page": 176
+    },
+    {
+      "path": "contact-0177-0184.png",
+      "first_page": 177,
+      "last_page": 184
+    },
+    {
+      "path": "contact-0185-0192.png",
+      "first_page": 185,
+      "last_page": 192
+    },
+    {
+      "path": "contact-0193-0200.png",
+      "first_page": 193,
+      "last_page": 200
+    },
+    {
+      "path": "contact-0201-0208.png",
+      "first_page": 201,
+      "last_page": 208
+    },
+    {
+      "path": "contact-0209-0216.png",
+      "first_page": 209,
+      "last_page": 216
+    },
+    {
+      "path": "contact-0217-0224.png",
+      "first_page": 217,
+      "last_page": 224
+    },
+    {
+      "path": "contact-0225-0232.png",
+      "first_page": 225,
+      "last_page": 232
+    },
+    {
+      "path": "contact-0233-0240.png",
+      "first_page": 233,
+      "last_page": 240
+    },
+    {
+      "path": "contact-0241-0248.png",
+      "first_page": 241,
+      "last_page": 248
+    },
+    {
+      "path": "contact-0249-0256.png",
+      "first_page": 249,
+      "last_page": 256
+    },
+    {
+      "path": "contact-0257-0264.png",
+      "first_page": 257,
+      "last_page": 264
+    },
+    {
+      "path": "contact-0265-0272.png",
+      "first_page": 265,
+      "last_page": 272
+    },
+    {
+      "path": "contact-0273-0280.png",
+      "first_page": 273,
+      "last_page": 280
+    },
+    {
+      "path": "contact-0281-0288.png",
+      "first_page": 281,
+      "last_page": 288
+    },
+    {
+      "path": "contact-0289-0296.png",
+      "first_page": 289,
+      "last_page": 296
+    },
+    {
+      "path": "contact-0297-0304.png",
+      "first_page": 297,
+      "last_page": 304
+    },
+    {
+      "path": "contact-0305-0312.png",
+      "first_page": 305,
+      "last_page": 312
+    },
+    {
+      "path": "contact-0313-0314.png",
+      "first_page": 313,
+      "last_page": 314
+    }
+  ],
+  "visual_review_status": "pending; every contact sheet must be inspected"
+}

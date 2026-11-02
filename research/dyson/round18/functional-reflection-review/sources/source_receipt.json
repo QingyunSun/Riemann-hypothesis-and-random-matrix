@@ -1,0 +1,17 @@
+{
+  "digamma_integral": {
+    "scope": "Psi integral for Re z>0; convergence also checked directly from the displayed integrand.",
+    "source": "NIST DLMF5.9.16",
+    "url": "https://dlmf.nist.gov/5.9#E16",
+    "web_primary_content_inspected": true
+  },
+  "inspection_date": "2026-09-05",
+  "raw_tex_download": {
+    "outcome": "HTTP403; no raw source bytes retained",
+    "url": "https://dlmf.nist.gov/25.4.E2.tex"
+  },
+  "scope": "Only the functional equation is sourced here. Subsequent expansions, residues and line estimates were checked independently. The equation in DIAGNOSTIC.md is a transcription, not a raw downloaded file.",
+  "source": "NIST Digital Library of Mathematical Functions, equation25.4.2",
+  "url": "https://dlmf.nist.gov/25.4#E2",
+  "web_primary_content_inspected": true
+}

@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "selberg_scale_after_partial_summation",
+    "negative_sobolev_schur_scale",
+    "low_middle_optimal_split",
+    "split_value",
+    "low_middle_height_exponent",
+    "high_band_scale",
+    "high_band_at_alias",
+    "tail_height_exponent",
+    "uniform_low_exponent",
+    "uniform_tail_exponent",
+    "perron_vertical_exponent",
+    "odd_euler_factor_removal"
+  ],
+  "groups": 12,
+  "scope": "Exact exponent and norm algebra only; no analytic proof certification or prime calculation.",
+  "status": "passed"
+}

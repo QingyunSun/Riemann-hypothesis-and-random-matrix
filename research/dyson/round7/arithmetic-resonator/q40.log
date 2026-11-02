@@ -1,0 +1,31 @@
+{
+  "status": "fixed arithmetic marked-family continuum numerical trial; not interval certified",
+  "ell_exact": "27/25",
+  "mark": "C_L(n)=1 if a distinct prime p|n satisfies p>sqrt(L), else0",
+  "phi": 0.5,
+  "degree": 4,
+  "order": 40,
+  "radial_basis": "Legendre_d(2v-1) unmarked; Legendre_d(4v-3) marked",
+  "seconds": 0.14170137501787394,
+  "program_sha256": "255ad9a2f29e086eca01b3823bd9ece3ecbfa47b431259a6af3fee260c9afa8d"
+}
+{
+  "base": {
+    "margin": -0.014654938084003782,
+    "quotient": 0.23534506191599622,
+    "retained_dimension": 20,
+    "dimension": 20,
+    "retained_scaled_condition": 51665666.2742359,
+    "pencil_residual_norm": 2.2811947890130815e-16,
+    "norm": 1.0000000000000002
+  },
+  "enlarged": {
+    "margin": -0.014654923794209851,
+    "quotient": 0.23534507620579015,
+    "retained_dimension": 30,
+    "dimension": 30,
+    "retained_scaled_condition": 120104211.52165455,
+    "pencil_residual_norm": 1.1084461919422864e-16,
+    "norm": 1.0
+  }
+}

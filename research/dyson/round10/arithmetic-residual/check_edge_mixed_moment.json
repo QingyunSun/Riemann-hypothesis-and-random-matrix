@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "Exact scalar implications and theorem-range checks only; no new arithmetic mixed-moment inequality, covariance estimate or parameter search",
+  "integral_s_minus_2": "1/(2*b)",
+  "integral_s_minus_3": "3/(8*b**2)",
+  "conditional_C_lower_limit": "3*epsilon/8 - 3/4",
+  "hyperbolic_correction_identity": true,
+  "Guth_Maynard_lower_h_exponent": "2/15 + fixed epsilon",
+  "minimum_X_exponent_at_epsilon_zero": "15/13",
+  "edge_range_checks": [
+    {
+      "shell_s": "1",
+      "largest_b_even_at_epsilon_zero": "13/2",
+      "fixed_b": 14,
+      "h_exponent_at_b14": "1/15",
+      "below_Corollary_1_4_range": true
+    },
+    {
+      "shell_s": "2",
+      "largest_b_even_at_epsilon_zero": "13",
+      "fixed_b": 14,
+      "h_exponent_at_b14": "1/8",
+      "below_Corollary_1_4_range": true
+    }
+  ],
+  "script_sha256": "4cd2efe0f55e03371c48792ba7a4e193f0a702f732c5d27f8167dae52a8e3cc0",
+  "sympy_version": "1.14.0"
+}

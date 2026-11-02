@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-05",
+  "status": "accepted as an unconditional ordinary proof of the stated smooth short-divisor component bound",
+  "authored_files": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round14/smooth-long-factor/SMOOTH_LONG_FACTOR_REMOVAL.md",
+      "sha256": "d6143f19ddf006a1acc833ecd2e5265bffb35817930cfeaa4f4e4b973af7c849",
+      "bytes": 13229
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round14/smooth-long-factor/check_smooth_long_factor.py",
+      "sha256": "9d1426f47c0f9e67a2e548db94d195f8505fd298a5b2b46e0fcbe16e905b9d9b",
+      "bytes": 9115
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round14/smooth-long-factor/smooth_long_factor_certificate.json",
+      "sha256": "3e9a946cf3faeccc697590d097d9c49796c2091678199ee231bbafb24d8fbe83",
+      "bytes": 3203
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round14/smooth-long-factor/check_smooth_long_factor.log",
+      "sha256": "1eac3f4d5ad27287fc7f1e2b6d4663cb3cc4a6032797d42bdb536bc2ecac5d60",
+      "bytes": 512
+    }
+  ],
+  "frozen_definition_sources": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round9/factorization-covariance/COMPLEMENTARY_MODULI_TYPE_I_BRIDGE.md",
+      "sha256": "982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a",
+      "bytes": 14048
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+      "sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29",
+      "bytes": 13797
+    }
+  ],
+  "review": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round14/smooth-long-factor/INDEPENDENT_REVIEW.md",
+    "sha256": "3a6bef5c4cddf0973cacd69826aefa3fbea1db3659beb7f856ecaf3f6cee356b",
+    "bytes": 8401
+  },
+  "replay": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round14/smooth-long-factor/INDEPENDENT_REPLAY.json",
+    "sha256": "f54ee51ff7a872e4e02708b5c3966978e3286994956120d6fd0b6e9c647b2b17",
+    "bytes": 965
+  },
+  "mutations": "Only new independent review/replay/receipt files were written. No authored file was edited.",
+  "scope": "Full ordinary proof audit plus bounded script replay; no scan, no full-discrepancy estimate, no famous-conjecture claim."
+}

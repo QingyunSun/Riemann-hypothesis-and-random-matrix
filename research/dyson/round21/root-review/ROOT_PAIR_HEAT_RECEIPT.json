@@ -1,0 +1,37 @@
+{
+  "status": "accepted after substantive feasibility correction",
+  "review": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/root-review/ROOT_CENTERED_PAIR_AND_HEAT_REVIEW.md",
+    "bytes": 9356,
+    "sha256": "388e7bcab1c1e7faa345af6e48be61e15b614baac5af25ce1fe391ea5167a60f"
+  },
+  "inputs": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "bytes": 21504,
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/superseded-before-h1-obstruction/CENTERED_PAIR_ERROR_TARGET.md",
+      "bytes": 17025,
+      "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/check_h1_correction.py",
+      "bytes": 3930,
+      "sha256": "879c35d3efed14e5c0d2108de3bad078616c0259a4406f9669ffc92944573f4f"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/coordinator-review/COORDINATOR_H1_OBSTRUCTION.md",
+      "bytes": 4963,
+      "sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/log-prime-heat-review/INDEPENDENT_LOG_PRIME_HEAT_REVIEW.md",
+      "bytes": 8304,
+      "sha256": "48651b0dee077bf4ac8a576736ef5eabcc21bbeb2eb8c0f644d793c92e4f7093"
+    }
+  ],
+  "new_numerical_reruns": 0,
+  "scope": "Full prior pair-proof reading plus full corrected diff, new checker, coordinator proof and independent heat review. No strict deficit established."
+}

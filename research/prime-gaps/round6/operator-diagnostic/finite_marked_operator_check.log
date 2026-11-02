@@ -1,0 +1,66 @@
+{
+  "status": "PASS: independent rational marked-coordinate model",
+  "scope": "Structural operator/projection check only; no k39 numerical or prime-gap conclusion.",
+  "coordinate_atoms": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "coordinate_masses": [
+    "1/2",
+    "2/9",
+    "1/9",
+    "1/18",
+    "1/9"
+  ],
+  "dimension": 38,
+  "U_dimension": 4,
+  "radial_dimension": 5,
+  "checks": [
+    "mass_self_adjoint",
+    "orthogonal_full_residual",
+    "nonnested_compression_identity",
+    "compressed_norm_chain",
+    "projection_order_counterexample",
+    "product_conjugation",
+    "exact_indefiniteness_witness",
+    "positive_two_dimensional_gain"
+  ],
+  "exact": {
+    "f_norm_squared": "9919084603/33609746016",
+    "r_norm_squared": "5276674243910174687/5530709363487760267200",
+    "h_norm_squared": "54509377010884034724958701211/924946868618194859367915772972800",
+    "w_norm_squared": "180811988466801072480731712101348404621/3314713177718572301708286709851482911645440",
+    "wrong_projection_identity_error": "-625102195463197299064489/2168038070487202024742400",
+    "negative_square_witness": "-1/38880",
+    "two_dimensional_a": "586989583649/595145076180",
+    "two_dimensional_b": "273975059657561498137606646724666211836976286227/2435985809876497968698893951871967904680953081300",
+    "cross_squared": "2971272182114692904326192519375617924717848809539972866521/13772767123727300109742725716451544126259677601570295217623000"
+  },
+  "display_only": {
+    "a": 0.9862966310948132,
+    "b": 0.11246989146929873,
+    "cross": 0.014687930752521299,
+    "two_dimensional_largest": 0.9865434470617425,
+    "gain": 0.0002468159669292147,
+    "compressed_fraction_of_full_residual_energy": 0.06176962792622956
+  },
+  "script_sha256": "c749b20848c6e73a943cba281956e7e589e44890db5365f36d2c9d3fa9dc7f0f"
+}

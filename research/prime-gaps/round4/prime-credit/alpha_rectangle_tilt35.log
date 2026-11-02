@@ -1,0 +1,20 @@
+{"owner": "distinct", "power": 18, "seed": 240905, "samples": 262144, "accepted": 27212, "alpha_normalized_estimate": 1.5320212799697925e-20, "alpha_over_I_upper_estimate": 6.468231868724952e-07, "credit_over_I_upper_estimate": 6.46250529441277e-07, "iid_se_diagnostic_only": 1.1176537691354027e-22, "weighted_total": 1.0318948176063902, "weighted_p": 0.2930444528897784, "weighted_q": 0.36265811693543965, "max_weight": 2.286633669143025e-18}
+{"owner": "distinct", "power": 18, "seed": 240906, "samples": 262144, "accepted": 27185, "alpha_normalized_estimate": 1.5364084684661408e-20, "alpha_over_I_upper_estimate": 6.486754687446336e-07, "credit_over_I_upper_estimate": 6.481011714170724e-07, "iid_se_diagnostic_only": 1.1281190507930058e-22, "weighted_total": 1.0317835295575497, "weighted_p": 0.29301380734320454, "weighted_q": 0.3625165980853279, "max_weight": 3.3190079865981886e-18}
+{"owner": "distinct", "power": 18, "seed": 240907, "samples": 262144, "accepted": 27143, "alpha_normalized_estimate": 1.538338119635298e-20, "alpha_over_I_upper_estimate": 6.494901722576365e-07, "credit_over_I_upper_estimate": 6.48915153641738e-07, "iid_se_diagnostic_only": 1.1288711837401647e-22, "weighted_total": 1.0319667736191636, "weighted_p": 0.29302720833174545, "weighted_q": 0.36265679816010593, "max_weight": 3.08051950936377e-18}
+{"owner": "distinct", "power": 18, "seed": 240908, "samples": 262144, "accepted": 27378, "alpha_normalized_estimate": 1.5404477601631742e-20, "alpha_over_I_upper_estimate": 6.503808677246232e-07, "credit_over_I_upper_estimate": 6.498050605417894e-07, "iid_se_diagnostic_only": 1.119644991513968e-22, "weighted_total": 1.0318345253574255, "weighted_p": 0.29294639844941167, "weighted_q": 0.3627405129059548, "max_weight": 2.2332395731343687e-18}
+{"owner": "same", "power": 18, "seed": 240905, "samples": 262144, "accepted": 29907, "alpha_normalized_estimate": 2.0370671477005948e-20, "alpha_over_I_upper_estimate": 8.600548057497888e-07, "credit_over_I_upper_estimate": 8.592933661697562e-07, "iid_se_diagnostic_only": 1.3653866709369607e-22, "weighted_total": 1.031683057803464, "weighted_p": 0.2932529830600999, "weighted_q": 0.36312976311104245, "max_weight": 3.6629004518113844e-18}
+{"owner": "same", "power": 18, "seed": 240906, "samples": 262144, "accepted": 29657, "alpha_normalized_estimate": 1.9995615538878617e-20, "alpha_over_I_upper_estimate": 8.442198509533543e-07, "credit_over_I_upper_estimate": 8.434724306674986e-07, "iid_se_diagnostic_only": 1.3434667422049467e-22, "weighted_total": 1.0316602567548652, "weighted_p": 0.29339082339917405, "weighted_q": 0.3631934251905114, "max_weight": 2.1550365286585113e-18}
+{"owner": "same", "power": 18, "seed": 240907, "samples": 262144, "accepted": 29733, "alpha_normalized_estimate": 2.019306135911037e-20, "alpha_over_I_upper_estimate": 8.525560624894941e-07, "credit_over_I_upper_estimate": 8.518012618351214e-07, "iid_se_diagnostic_only": 1.3421057537752369e-22, "weighted_total": 1.0316361577547597, "weighted_p": 0.29340352632355504, "weighted_q": 0.3630439939507044, "max_weight": 2.1991893015186365e-18}
+{"owner": "same", "power": 18, "seed": 240908, "samples": 262144, "accepted": 29911, "alpha_normalized_estimate": 2.0280650878315493e-20, "alpha_over_I_upper_estimate": 8.562541137300097e-07, "credit_over_I_upper_estimate": 8.554960390487208e-07, "iid_se_diagnostic_only": 1.3494872053013464e-22, "weighted_total": 1.031665757728414, "weighted_p": 0.2933604275732378, "weighted_q": 0.36313809404443254, "max_weight": 2.3574565675816487e-18}
+{
+  "distinct": {
+    "mean_alpha_over_I_upper": 6.48842423899847e-07,
+    "across_scrambles_se": 7.578247122241813e-10
+  },
+  "same": {
+    "mean_alpha_over_I_upper": 8.532712082306618e-07,
+    "across_scrambles_se": 3.3832112766832794e-09
+  },
+  "combined_alpha_over_I_upper_estimate": 1.5021136321305088e-06
+}
+elapsed 6.088585624995176

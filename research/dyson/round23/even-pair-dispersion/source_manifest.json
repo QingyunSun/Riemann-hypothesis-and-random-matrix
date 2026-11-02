@@ -1,0 +1,45 @@
+{
+  "base_path_convention": "paths relative to ACUE-Astra-Handoff-2026-09-04",
+  "scope": "Own completion proof is unconditional. No new source distribution theorem or strict zeta inequality is claimed.",
+  "sources_and_dependencies": [
+    {
+      "bytes": 369949,
+      "path": "sources/openai-short-gaps.pdf",
+      "scope": "primary PDF; pp.4\u20138 and p.11; retrieved official source also opened live on 2026-09-05",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+    },
+    {
+      "bytes": 112915,
+      "path": "sources/openai-short-gaps.txt",
+      "scope": "retained primary PDF text with page markers",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+    },
+    {
+      "bytes": 11083,
+      "path": "research-round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "scope": "Section 1 fixes the full canonical family; Sections 2\u20133 prove it contains a counted actual-prime subfamily",
+      "sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92"
+    },
+    {
+      "bytes": 13005,
+      "path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "scope": "frozen exact b/Pareto definitions and unconditional singleton reduction",
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "bytes": 9114,
+      "path": "research-round22/singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "scope": "independent review of the frozen singleton proof",
+      "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72"
+    },
+    {
+      "bytes": 7693,
+      "path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "scope": "exact parity-adjusted coefficient q2 and constant two; source version retains its original review-status wording",
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    }
+  ],
+  "status": "pinned; retained original files unchanged"
+}

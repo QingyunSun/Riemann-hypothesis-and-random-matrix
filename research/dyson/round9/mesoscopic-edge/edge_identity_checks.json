@@ -1,0 +1,33 @@
+{
+  "status": "exact algebra passed; two illustrative floating evaluations only",
+  "exact_rational_cases": 4,
+  "exact_checks": [
+    "diagonal subtraction",
+    "sine minus ACUE identity",
+    "coupled sine expression",
+    "coupled signal identity",
+    "finite-height nuisance cancellation"
+  ],
+  "diagnostics": [
+    {
+      "b": 8.0,
+      "edge_scale": 5.241603560976748e-06,
+      "sine_minus_acue_over_edge": 0.9778596891367909,
+      "sine_minus_RH_lower_over_edge": 7.556581877336537,
+      "RH_upper_minus_sine_over_edge": 51.01140775505685,
+      "coupled_sine": -9.002813470974109e-07,
+      "coupled_ACUE": -0.7278677378937224
+    },
+    {
+      "b": 16.0,
+      "edge_scale": 4.395905262471059e-10,
+      "sine_minus_acue_over_edge": 0.9999709657783851,
+      "sine_minus_RH_lower_over_edge": 15.98406038816061,
+      "RH_upper_minus_sine_over_edge": 227.00002183150278,
+      "coupled_sine": -2.0262664878550552e-13,
+      "coupled_ACUE": -0.7499709659283861
+    }
+  ],
+  "limitations": "No arithmetic edge estimate, numerical enclosure, or zeta evaluation.",
+  "script_sha256": "9f109718ab82eab5cf01aa5a8fd255d82ff642c3ff72a5a51ea47c4230de0b31"
+}

@@ -1,0 +1,99 @@
+{
+  "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "actual_longdouble_bits": 64,
+  "thread_environment": "OPENBLAS_NUM_THREADS=1",
+  "files": {
+    "PROVENANCE.md": {
+      "bytes": 2842,
+      "sha256": "4a3a8f57b27e88053b12030487ed84fd939c3e32541ead1ecef047949ace04ea"
+    },
+    "REPORT.md": {
+      "bytes": 15322,
+      "sha256": "11a346f72bc5540864367d52740a9d77b1a7866cf5074e562509b94f921d4b35"
+    },
+    "audit_outputs.py": {
+      "bytes": 2375,
+      "sha256": "2bf9a77346f37cf7e3028ba14743e12afe45c84becec052b78c17a70243f1479"
+    },
+    "cap_trial.py": {
+      "bytes": 15444,
+      "sha256": "62721474dc05b63bbec403f4aedef0dc81601626a61f46ffab472071917da1d9"
+    },
+    "compact_witness.py": {
+      "bytes": 1740,
+      "sha256": "b430432c5425d90e8309ae34dfad81eab40b398f76d0afeaab891f48ec1d76f4"
+    },
+    "compaction_manifest.json": {
+      "bytes": 7182,
+      "sha256": "0045ef6cfce81742eddf40b5c5460e18d8543034e4b42399a16e9940ae710f53"
+    },
+    "projection_audit.json": {
+      "bytes": 4583,
+      "sha256": "3507518b518778b5bf88a027e09a24b7c28b0776393ff24e57c7860bc8211a63"
+    },
+    "radial_residual.py": {
+      "bytes": 11169,
+      "sha256": "0cae6f84a62f8267dce20eed3cd0edbf35d2899f1c04de82daf16535fad3608e"
+    },
+    "radial_residual_n16384_cut1e-09_tilt20.json": {
+      "bytes": 4999,
+      "sha256": "16bd9d5f251cca51efb5faeba3699b3f3aef69491fcc6dc1e6e3f12be9a9e505"
+    },
+    "radial_residual_n16384_cut1e-09_tilt20.npz": {
+      "bytes": 10003394,
+      "sha256": "6a43a7d9c183d249f8e4d3146165eef8b7a934829a13534459a53cc469c50715"
+    },
+    "radial_residual_n16384_cut1e-09_tilt20_compact.npz": {
+      "bytes": 484037,
+      "sha256": "d9a6d1c6ce757953292ba230c6fc0a0e918a55b22b63c14f8d0c36bbab471d9e"
+    },
+    "radial_residual_n98304_cut1e-08_tilt20.json": {
+      "bytes": 5396,
+      "sha256": "6813a13812e6e51233945a05819090b32b285464683fa5a23f9473bdb1c84b01"
+    },
+    "radial_residual_n98304_cut1e-08_tilt20.npz": {
+      "bytes": 57692211,
+      "sha256": "8050a4edb3628c624d2034e1380f3163bbf7f99d0a2aede2b3088de93c98e6b6"
+    },
+    "radial_residual_n98304_cut1e-08_tilt20_compact.npz": {
+      "bytes": 2473133,
+      "sha256": "0a18a97021be26c6b8ef080beafb2495349b9828e6d3b345631a7f9ab274b6b5"
+    },
+    "radial_residual_n98304_cut1e-09_tilt20.json": {
+      "bytes": 5139,
+      "sha256": "75c0c7b61243b9292f8a830ba13379aeb47c048d56b84c7c34734456a893c3d8"
+    },
+    "radial_residual_n98304_cut1e-09_tilt20.npz": {
+      "bytes": 57714025,
+      "sha256": "206b9da6ecf3e7c2fde932fd76b6496c180b7ac3c322ba268b21d1caa678b80e"
+    },
+    "radial_residual_n98304_cut1e-09_tilt20_compact.npz": {
+      "bytes": 2494947,
+      "sha256": "b283cab182b0b32091f24ac898def31cc263fa6af1a4540b30721e8122b80c77"
+    },
+    "radial_residual_n98304_cut1e-09_tilt25.json": {
+      "bytes": 5417,
+      "sha256": "f166bcc6a93ba3aac8de7eeeaafa0985bad3350ac3dc76bc9481bcb71ad86117"
+    },
+    "radial_residual_n98304_cut1e-09_tilt25.npz": {
+      "bytes": 57636895,
+      "sha256": "1f9eae8e897dc2d334a5b689d19dfbfd108d1e96304e6fd47ce3cd53a315a57b"
+    },
+    "radial_residual_n98304_cut1e-09_tilt25_compact.npz": {
+      "bytes": 2585808,
+      "sha256": "8002ae3f1dd1751f579161cd9e90d9d187ee5ef171c0a13ee0947dff838accde"
+    },
+    "validate_outputs.py": {
+      "bytes": 1569,
+      "sha256": "37b7b91686120f2630193d5f507d3651338a1eb0488773a7f9feb90499e96fd4"
+    },
+    "validation.json": {
+      "bytes": 1028,
+      "sha256": "17f689698bd80e7a2bd7d03c1748d3bbccc9cb727cf05a09e5fea9fa3e3b10d9"
+    }
+  },
+  "publication": "Publish compact NPZs and evidence; retain full NPZs locally. See compaction_manifest.json and PROVENANCE.md."
+}

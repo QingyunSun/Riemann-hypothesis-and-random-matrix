@@ -1,0 +1,39 @@
+{
+  "checks": "Six rational scalar assertions and 99 KaTeX expressions pass; no prime, power, or divisor enumeration.",
+  "files": [
+    {
+      "bytes": 9934,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02"
+    },
+    {
+      "bytes": 1490,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/check_nonprimitive_exponents.py",
+      "sha256": "4f6caa17ba6b0eabbd3617c81d9ae3bbb38f663910e3fbacd1d22cd6a8de1f0e"
+    },
+    {
+      "bytes": 441,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/nonprimitive_exponent_checks.json",
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8"
+    },
+    {
+      "bytes": 441,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/nonprimitive_exponent_checks.log",
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8"
+    },
+    {
+      "bytes": 87,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/math_syntax_checks.json",
+      "sha256": "c7ec895ab5ef517a1bf2bc52b070dd4b47fd4879ca01215e61b803027f20cab4"
+    },
+    {
+      "bytes": 1066,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/general-nonprimitive/source_receipt.json",
+      "sha256": "9976c8707f22acbb0ecbf88105a88aac3bd3d6ce296e88ef1118e0e9ee82696b"
+    }
+  ],
+  "json_and_stdout_identical": true,
+  "mathematical_scope": "Unconditional O_eta(X^eta/T) bound on the exact nonprimitive packet for any odd divisor subset d<=Q<X; no strict bound on the surviving arithmetic correlation.",
+  "reproduce": "python3 check_nonprimitive_exponents.py > nonprimitive_exponent_checks.log",
+  "status": "author package frozen; independent review separate"
+}

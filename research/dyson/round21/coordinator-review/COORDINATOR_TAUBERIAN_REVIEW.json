@@ -1,0 +1,33 @@
+{
+  "reviewer_thread": "01a0702b-e4b0-7020-ae61-b1fe718932c1",
+  "date": "2026-09-05",
+  "review_kind": "Independent originating-coordinator ordinary proof review; not Lean, external peer review, numerical certification or novelty audit",
+  "status": "ACCEPTED at the pinned manuscript scope",
+  "full_manuscript_read": true,
+  "current_source_matches_frozen_snapshot": true,
+  "checker_replayed": false,
+  "strict_arithmetic_estimate_proved": false,
+  "author_file": "tauberian-information/FIXED_BUMP_TAUBERIAN_EQUIVALENCE.md",
+  "sha256": "3f3391cb149b69e86d6c758267eec56ae9d86f7523f2dcf078f6f351ff9ee48c",
+  "bytes": 13500,
+  "verified_steps": [
+    "Pointwise representative f(x)=C_exp(x) is bounded/measurable; R20 height control and central limit give asymptotic uniform continuity with modulus 2A*(1-exp(-delta)).",
+    "Positive log kernel q(u)=p(exp(u))*exp(u) and reflection K(u)=q(-u) match standard convolution; reflected angular Fourier multiplier is (1+i*tau)/cosh(pi*tau/2), with no real zero.",
+    "Beta parameters have real parts 3/2 and 1/2; gamma recurrence and reflection give the exact sign and normalization.",
+    "Wiener L1 translation density applies to this integrable kernel. For fixed L1 test, density error is bounded by (||f||inf+|c|)*eta before taking eta to zero.",
+    "At fixed box-average width delta, full translated limits hold; height limit precedes delta to zero. This recovers actual pointwise values using asymptotic uniform continuity despite finite jumps.",
+    "Full real-height convergence Vbar->c iff C->c iff D->A-c, with c in [0,A] if a limit exists. This supplies no existence or arbitrary-subsequence converse.",
+    "Exact wave tests show absence of a uniform linear L-infinity inverse estimate, also in a fixed Lipschitz class after amplitude rescaling; no stronger nonlinear-instability claim is made."
+  ],
+  "sources_checked": [
+    "Van Neerven author-hosted 4-page preprint, Theorem1 on page2: live PDF text and retained page image personally inspected; exact L1 translation-density statement matches use.",
+    "NIST DLMF 5.5.E1 recurrence and 5.5.E3 reflection read live.",
+    "R20 exact average and multiplicative height estimates already fully reviewed at their unchanged pins."
+  ],
+  "limits": [
+    "One fixed scalar observable, not all pair tests or the full Montgomery conjecture.",
+    "AH-Pairs implies saturation; converse from this scalar saturation to AH-Pairs is not claimed.",
+    "No full limit or strict deficit established, no inversion rate, no numerical deconvolution.",
+    "Mellin symbolic checker not replayed."
+  ]
+}

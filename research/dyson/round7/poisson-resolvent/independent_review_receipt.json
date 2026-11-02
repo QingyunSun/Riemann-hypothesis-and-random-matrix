@@ -1,0 +1,55 @@
+{
+  "status": "PASS: independent temp-directory rerun, original files unchanged",
+  "reviewed_hashes": {
+    "TWO_SCALE_ZETA_TARGET.md": "816a72cf4ffec4158d2508fec14be1c433547379ec85d63366c95527978803c2",
+    "poisson_checks.py": "7ba29bda814267bec9e6c696e7d0230a29607c47e1ece99627fffe372814e797",
+    "two_scale_certificate.py": "900d87c7ddb2e52b79b024eb499a977cf28bebb2a422bfa88f6ce61fa5812f8a"
+  },
+  "temp_directory": "/var/folders/6g/2tc8534500vfmlvjj8hjtpx40000gn/T/poisson-resolvent-independent-opey97ps",
+  "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "runs": [
+    {
+      "script": "two_scale_certificate.py",
+      "returncode": 0,
+      "matches_author_json_ignoring_elapsed_seconds": true,
+      "review_json_sha256": "2b741e468f724992933136509241c3cd0744b90bdbdd01ab93613203358abfe7"
+    },
+    {
+      "script": "poisson_checks.py",
+      "returncode": 0,
+      "matches_author_json_ignoring_elapsed_seconds": true,
+      "review_json_sha256": "8d4e66f8a2f115add781df1e828c4b98e3ab0120a86f96e888342917addbec23"
+    }
+  ],
+  "scope": "The scripts certify algebra/constants and calibrate finite models; neither evaluates or bounds an actual-zeta mean square.",
+  "additional_independent_symbolic_checks": {
+    "AH_closed_W_equals_two_variance_combination": true,
+    "GUE_closed_W_equals_two_variance_combination": true,
+    "method": "Exact rational function identities in x=exp(1), checked by SymPy factor; separate from the author constant-enclosure script."
+  },
+  "initial_reviewed_hashes": {
+    "TWO_SCALE_ZETA_TARGET.md": "deeb9543b846250348eb2bb68bc92480fb3b702fd74c4d96dfe4fa33eb5e23ea",
+    "poisson_checks.py": "7ba29bda814267bec9e6c696e7d0230a29607c47e1ece99627fffe372814e797",
+    "two_scale_certificate.py": "dee3c8a97d3534158b8ff6c5ab2666eeac1ec7616683357f459d9940b837c1e0"
+  },
+  "threshold_update_review": {
+    "weaker_threshold": "1/16",
+    "strict_gap_lower_bound": ".00010",
+    "script_returncode": 0,
+    "matches_author_json": true,
+    "temp_directory": "/var/folders/6g/2tc8534500vfmlvjj8hjtpx40000gn/T/poisson-weak-threshold-independent-sar990jf",
+    "final_script_sha256": "900d87c7ddb2e52b79b024eb499a977cf28bebb2a422bfa88f6ce61fa5812f8a"
+  },
+  "final_report_sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+  "review_status_metadata_only_change": {
+    "verified": true,
+    "old_text": "Status: written reduction and exact constant certificates; independent audit pending.",
+    "new_text": "Status: written reduction and exact constant certificates; [independent ordinary-proof review completed](INDEPENDENT_REVIEW.md).",
+    "audited_proof_report_sha256_before_status": "816a72cf4ffec4158d2508fec14be1c433547379ec85d63366c95527978803c2",
+    "final_report_sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+    "mathematical_text_unchanged_by_reviewer": true
+  },
+  "independent_review_sha256": "82db15288f7b6f902a461c296abe30eb1d21253bf14ae4949da4dc12c592a370",
+  "final_status": "PASS: ordinary RH+AH-Pairs reduction accepted; actual zeta inequality remains unproved"
+}

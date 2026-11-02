@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "research/dyson/round28/SOURCE_LINK_MAP.md",
+      "sha256": "0882629f9ac3362c79f9b1b6b0bb7629b2aa84f73c6d37326e42744150300981",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-review/INDEPENDENT_MATRIX_REVIEW.md",
+      "sha256": "73e5380d69c2d3768d088575d202ca5e0ce34fbf5ac4c136addcf999048cf508",
+      "mathExpressions": 61,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/EXPERIMENT_PLAN.md",
+      "sha256": "2050f090401244a6971b7c15c5bf2668b9bebd7b2a3e89d9b13ebed508ac56cd",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/FOLLOWUP_TRANSPOSE_PAIRING.md",
+      "sha256": "858009c2dd603ad8e6956a51a43263d30dc592fb09331c9d44762475c4734ee0",
+      "mathExpressions": 24,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/MELLIN_FOLLOWUP_PLAN.md",
+      "sha256": "192b807c7140001f57b077f2a2d108fe65ee37cd270eebbb21083062dbf4b85d",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round28/actual-prime-matrix-test/RESULTS.md",
+      "sha256": "acf1ec31909cda5ef788778d10e152d9813eaee97095d9f34adcb2c2b731a722",
+      "mathExpressions": 38,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round28/mellin-operator-audit/MELLIN_OPERATOR_AUDIT.md",
+      "sha256": "243994064c74e4fda98ae0aadf7364678e49756f5d282cc36a4a56a134373e7a",
+      "mathExpressions": 141,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round28/mellin-operator-review/INDEPENDENT_MELLIN_OPERATOR_REVIEW.md",
+      "sha256": "e3ee3cff8250b2eff0ba8df97fcfa6272fac9c2c49e58627b309cdfdb504ab84",
+      "mathExpressions": 77,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/reports/dyson_round28.md",
+      "sha256": "ceb5758608749f2cc92822fd541bf7f89a3646a2ee96836aec571a0e424e9cc9",
+      "mathExpressions": 66,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

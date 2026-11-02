@@ -1,0 +1,44 @@
+{
+  "commit": "974a2f15fff1f2754e7f54739b6360ab4d8eb08a",
+  "public_files": [
+    {
+      "path": "research/reports/dyson_round19.md",
+      "bytes": 14012,
+      "sha256": "b258c268f45d7ee96334c23aea30f9649368c7a5ad59d0242cdc107bc4bd6e39",
+      "reviewed_source_match": true,
+      "url": "https://raw.githubusercontent.com/QingyunSun/Riemann-hypothesis-and-random-matrix/974a2f15fff1f2754e7f54739b6360ab4d8eb08a/research/reports/dyson_round19.md"
+    },
+    {
+      "path": "research/dyson/round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md",
+      "bytes": 21201,
+      "sha256": "0c5323ac5a983148a9ec433ea1196fb0fd538f00872ac73e9de3ae105c7a2502",
+      "reviewed_source_match": true,
+      "url": "https://raw.githubusercontent.com/QingyunSun/Riemann-hypothesis-and-random-matrix/974a2f15fff1f2754e7f54739b6360ab4d8eb08a/research/dyson/round19/bragg-variance-literature/BRAGG_WEIGHTED_SELBERG_VARIANCE.md"
+    },
+    {
+      "path": "research/dyson/round19/dynamic-observability/LOCAL_BRAGG_PRODUCTION.md",
+      "bytes": 18586,
+      "sha256": "e87f858bbc39a592e1b2e557f0bcb83e05f685706b14586563b3c317ce651735",
+      "reviewed_source_match": true,
+      "url": "https://raw.githubusercontent.com/QingyunSun/Riemann-hypothesis-and-random-matrix/974a2f15fff1f2754e7f54739b6360ab4d8eb08a/research/dyson/round19/dynamic-observability/LOCAL_BRAGG_PRODUCTION.md"
+    },
+    {
+      "path": "research/dyson/round19/root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md",
+      "bytes": 6029,
+      "sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+      "reviewed_source_match": true,
+      "url": "https://raw.githubusercontent.com/QingyunSun/Riemann-hypothesis-and-random-matrix/974a2f15fff1f2754e7f54739b6360ab4d8eb08a/research/dyson/round19/root-bragg-curvature/EXACT_COHERENT_MODE_CURVATURE.md"
+    },
+    {
+      "path": "research/dyson/round19/shift-dispersion/SHORT_RESIDUE_DISPERSION_TEST.md",
+      "bytes": 15610,
+      "sha256": "9e6696dfb9b6f5f339436fed8a69a1477e5946b767fde79ecac9973edfc91ffa",
+      "reviewed_source_match": true,
+      "url": "https://raw.githubusercontent.com/QingyunSun/Riemann-hypothesis-and-random-matrix/974a2f15fff1f2754e7f54739b6360ab4d8eb08a/research/dyson/round19/shift-dispersion/SHORT_RESIDUE_DISPERSION_TEST.md"
+    }
+  ],
+  "branch_head": "974a2f15fff1f2754e7f54739b6360ab4d8eb08a",
+  "pr_head": "974a2f15fff1f2754e7f54739b6360ab4d8eb08a",
+  "branch_and_pr_match": true,
+  "scope": "Root independently downloaded report and four final ordinary proofs at exact public commit and matched SHA256 to reviewed source pins. Author counts, computation replays, all dependency pins and ZIP not independently repeated by this receipt."
+}

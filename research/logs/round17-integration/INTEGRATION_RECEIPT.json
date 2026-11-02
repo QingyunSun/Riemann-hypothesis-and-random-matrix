@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "source_preservation": "All original bytes unchanged; full third-party bodies local only",
+  "original_files": 19,
+  "original_bytes": 480767,
+  "public_verbatim_files": 17,
+  "root_whole_proof_reviews": "Both full proofs and the full independent quadratic review read; the cap review is independently authored by root",
+  "replays": {
+    "cap": "Complete JSON and stdout byte-identical in root review; reused that existing verification without repeating it",
+    "quadratic": "Complete symbolic JSON and stdout byte-identical in fresh root integration replay"
+  },
+  "excluded_comparison_fields": [],
+  "quadratic_dependency_checks": [
+    {
+      "path": "research-round16/compact-packet/COMPACT_POLE_PACKET.md",
+      "sha256": "8106f3483adb71ab7ca4e5c105bfd6464dfa46954a1e1e77d2c77900392e19dc",
+      "status": "PASS"
+    },
+    {
+      "path": "research-round7/poisson-resolvent/TWO_SCALE_ZETA_TARGET.md",
+      "sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+      "status": "PASS"
+    },
+    {
+      "path": "research-round16/bragg-atom/BRAGG_ATOM_TARGET.md",
+      "sha256": "2228bfd90e7a633683936d3d611f31c1f960107fbdf111a494993f73be16e120",
+      "status": "PASS"
+    }
+  ],
+  "new_strict_bragg_bound": false,
+  "new_large_computation": false
+}

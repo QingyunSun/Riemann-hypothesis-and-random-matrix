@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-05",
+  "status": "author package frozen; coordinator has reviewed the complete proof, independent review recorded separately",
+  "claim_scope": "Finite-N CUE short-pair background moment, selected background tightness, and finite-circle heat approximation rate only. No zeta theorem.",
+  "files": [
+    {
+      "path": "SELECTED_CUE_BACKGROUND.md",
+      "sha256": "fbc67828d13534d8d0b4ac1f742a639b282dd93a3f7cb635291f8cdbb651c0a5",
+      "bytes": 11711
+    },
+    {
+      "path": "README.md",
+      "sha256": "85e811293a6f395fec72993f10a245de14d1a116992c15b57210ef9866243127",
+      "bytes": 1122
+    },
+    {
+      "path": "check_selected_background.py",
+      "sha256": "4ef6808960745265187c9486cca3898f391d5e6c90ad4a0c740c366e3503effc",
+      "bytes": 4123
+    },
+    {
+      "path": "check_selected_background.json",
+      "sha256": "8e715a8d6de5a404e7fa16a0b77ac25940453c89b06f85d4c363b4903080c41c",
+      "bytes": 780
+    },
+    {
+      "path": "source_receipt.json",
+      "sha256": "5351241db629bec810361a7802ce092398e7c0b9aa109b23563935a1f385b3b5",
+      "bytes": 1622
+    }
+  ],
+  "checks": "PASS: exact rational constants/exponents and symbolic N=3 determinant cancellation. No numerical probability test.",
+  "independent_reviews": "Any later reviewer file is not part of this author manifest."
+}

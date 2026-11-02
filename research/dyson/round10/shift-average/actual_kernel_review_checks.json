@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact rational checks only",
+  "eta": "1/100",
+  "max_prime_power_exponent": "557/700",
+  "saving_below_X": "143/700",
+  "modulus_exponent": "523/1000",
+  "prime_support_lower_bound": "m>X>Q for X>1; V and chi supports as stated",
+  "author_report_sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+  "review_sha256": "df6d6602ce9b68ac4759a8cbb8a3caad84d82b4694105a3bb466a9a69fd22732"
+}

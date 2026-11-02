@@ -1,0 +1,78 @@
+{
+  "verified_author_owned_files": [
+    "ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+    "actual_prime_variance.json",
+    "actual_prime_variance.log",
+    "check_math_syntax.cjs",
+    "check_prime_variance.py",
+    "compute_prime_variance.py",
+    "math_syntax_checks.json",
+    "prime_powers.npz",
+    "prime_variance_checks.json",
+    "prime_variance_checks.log",
+    "seed_autocorrelation.csv",
+    "seed_quadrature.json",
+    "variance_T1000_bins.csv",
+    "variance_T100_bins.csv",
+    "variance_T300_bins.csv"
+  ],
+  "csv_checks": [
+    {
+      "T": 100,
+      "rows": 16384,
+      "variance_csv_sum": 0.12040603689230812,
+      "integer_cutoff": 31939,
+      "largest_included_prime_power": 31907,
+      "higher_power_count": 38
+    },
+    {
+      "T": 300,
+      "rows": 16384,
+      "variance_csv_sum": 0.13610580052150242,
+      "integer_cutoff": 375809,
+      "largest_included_prime_power": 375799,
+      "higher_power_count": 103
+    },
+    {
+      "T": 1000,
+      "rows": 16384,
+      "variance_csv_sum": 0.15427941816818927,
+      "integer_cutoff": 5629036,
+      "largest_included_prime_power": 5629009,
+      "higher_power_count": 316
+    }
+  ],
+  "snapshots": [
+    {
+      "name": "EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "name": "ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+      "bytes": 16818,
+      "sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9"
+    },
+    {
+      "name": "compute_prime_variance.py",
+      "bytes": 15273,
+      "sha256": "d6d13914220ffb30b059abf7bc4d923cfb20bd240f54fc838741dc7635f6e71f"
+    },
+    {
+      "name": "check_prime_variance.py",
+      "bytes": 8571,
+      "sha256": "051d7f740e03183919bd65bca9d8a441f0c19ec111820973543d8b12dafd88fb"
+    },
+    {
+      "name": "actual_prime_variance.json",
+      "bytes": 29456,
+      "sha256": "fc6ebf41bac03d1d5fb76813218c665681223eab7e57d1199c9334c05d98cb93"
+    },
+    {
+      "name": "prime_variance_checks.json",
+      "bytes": 4761,
+      "sha256": "8399f0f2bdf59646af73bf77ae6f79feec6f94c7d4366de1d9d2776167baea0e"
+    }
+  ],
+  "scope": "Hash/row completeness and positive CSV aggregation checks only; primary computation and high-precision checker not rerun; no float enclosure or asymptotic inference."
+}

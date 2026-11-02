@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-05",
+  "status": "Accepted ordinary RH proof for the actual all-length averaged statistic.",
+  "author_sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+  "author_bytes": 18644,
+  "snapshot": "EXPONENTIAL_LENGTH_AVERAGE.md",
+  "scope": "Entire frozen proof read, primary CCCC inputs checked in this and prior reviewed turns, Schoenfeld Theorem10/(6.2) read from cached primary text and publisher-indexed page. No symbolic checker replay or novelty claim.",
+  "verified": [
+    "Actual prime interval multiplier exp(lambda/T), exact center (exp(lambda/T)-1)x, all Lambda prime powers and fixed x in [T^(7/4),T^(9/4)] are retained.",
+    "Exact S=1/(exp(lambda/T)-1), r=log S/log T reparameterization gives V_(lambda,T)=(T/S)r² V_lin_(1,S)(omega(r dot)).",
+    "For lambda<=sqrt(T), one fixed Selberg window exponent B=3b+3 contains the original support. Known RH bound yields lambda(1+|log lambda|)^2 near zero and O(lambda) above one, uniformly.",
+    "For lambda>sqrt(T), exact centering permits E(exp(lambda/T)x)-E(x). The RH Chebyshev bound yields (T/log T)exp(lambda/T)(log T+lambda/T+1)^4; exp(-lambda) makes the all-length statistic finite for T>=2 and this tail o(1).",
+    "On fixed compact lambda ranges, varying weights can be replaced by one fixed smooth-square test using a positive Selberg mass bound before using CCCC. This supplies genuine uniformity without assuming uniform Schwartz seminorm errors.",
+    "Smoothed zero measures depend on lambda via S; only their integrated mass is replaced by 2y C_(Ty) on compact y ranges using the source's uniform logarithmic range.",
+    "Both y tails checked. After the height limit at fixed length range, constants for intermediate-range tails come from a common fixed-test spectral mass bound; the integrated lower tail is O(eta), upper tail O(1/R).",
+    "Finite-range integration by parts differentiates only the explicit kernel. Averaging and removing auxiliary cutoffs yields k=1/[2(1+y²)] and probability density p=4y²/[pi(1+y²)²].",
+    "The common compact mass bound justifies the smooth-square approximation with T limit before approximation limit.",
+    "Vbar=integral p(y)C_(Ty)dy+o(1), limsup Vbar<=A, and A-Vbar=integral p(y)D_(Ty)dy+o(1) follow for the exact R16 bump. These statements do not require AH.",
+    "Combining with the independently reviewed height-regularity proof at SHA6048b879 gives 2d²/(25pi A)<=A-liminf Vbar<=d, d=limsup D. The previously conditional dependency is discharged within these two ordinary proofs."
+  ],
+  "limitations": [
+    "This is a different length-averaged statistic, not an improved bound for R19's fixed single length.",
+    "The upper bound equals the AH saturation value; no strict arithmetic deficit is proved.",
+    "No finite-height error rate, optimality, novelty, formal verification, actual RH proof or AH refutation.",
+    "Inaccessible general-interval source formulas are not proof inputs; the argument uses fixed-test reparameterization."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf",
+      "location": "(1.3), (3.8), exact equality before (3.9)"
+    },
+    {
+      "url": "https://www.ams.org/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf",
+      "location": "Theorem10/(6.2), printed p337; cached primary text read after direct journal URL returned403"
+    }
+  ]
+}

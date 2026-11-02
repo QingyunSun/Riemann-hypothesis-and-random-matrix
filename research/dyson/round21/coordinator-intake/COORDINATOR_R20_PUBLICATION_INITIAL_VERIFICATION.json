@@ -1,0 +1,38 @@
+{
+  "commit": "037ba82d9c3f2918b7e23a7598cee5dc996546ee",
+  "files": [
+    {
+      "path": "research/reports/dyson_round20.md",
+      "bytes": 13426,
+      "sha256": "4758742d5bf3fbe36695a96e396f1de6208be7dbf4cfbaee130a958a9f7552bc",
+      "matched_reviewed_pin": true
+    },
+    {
+      "path": "research/dyson/round20/INTAKE_MANIFEST.json",
+      "bytes": 16599,
+      "sha256": "6bfd72ef5d2b84c16fb2d6ff71096aa2b739aaf63f8514cb51f6526aec792630",
+      "matched_reviewed_pin": false
+    },
+    {
+      "path": "research/dyson/round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "bytes": 18644,
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "matched_reviewed_pin": true
+    },
+    {
+      "path": "research/dyson/round20/height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "bytes": 10461,
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "matched_reviewed_pin": true
+    },
+    {
+      "path": "research/dyson/round20/actual-prime-variance/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+      "bytes": 16818,
+      "sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9",
+      "matched_reviewed_pin": true
+    }
+  ],
+  "branch_head": "037ba82d9c3f2918b7e23a7598cee5dc996546ee",
+  "pr_head": "037ba82d9c3f2918b7e23a7598cee5dc996546ee",
+  "heads_match": true
+}

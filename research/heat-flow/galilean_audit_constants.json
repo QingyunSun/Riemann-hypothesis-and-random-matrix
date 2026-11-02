@@ -1,0 +1,13 @@
+{
+  "scope": "exact constants and symbolic identities, not a formal proof of the theorem",
+  "K": 16384,
+  "eta0": "1/524288",
+  "Gaussian_moment_upper": 336,
+  "normal_form_error_coefficient_upper": 12432,
+  "tau_star_upper": "5/32",
+  "moving_boundary_lower": "119/32",
+  "centered_sine_log_second_derivative_numerator": "-c**2 - 1",
+  "canonical_factor_derivative_left": "u*(u - 2)/(u - 1)",
+  "canonical_factor_derivative_right": "u*(u - 2)/(u - 1)",
+  "all_assertions_passed": true
+}

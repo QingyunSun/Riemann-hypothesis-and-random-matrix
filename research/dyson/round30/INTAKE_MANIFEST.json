@@ -1,0 +1,74 @@
+{
+  "sourceFolder": "research-round30/stationary-challenge",
+  "publicationEdits": 0,
+  "files": [
+    {
+      "path": "SHARP_ODD_STATIONARY_CHALLENGE.md",
+      "bytes": 14259,
+      "sha256": "0d480d4f35ca1ce0c36c31deffd2a8e6bd39f6ddc1420180f9a32f70b829fcf7"
+    },
+    {
+      "path": "AUTHOR_RECEIPT.json",
+      "bytes": 1727,
+      "sha256": "6c61cc76d549b304c972852df934e9f980e2154bd3aefec04bda4fb9070556f1"
+    },
+    {
+      "path": "check_sharp_odd_stationary.py",
+      "bytes": 3817,
+      "sha256": "e787cd64d97a18774eb53c44a3287b5ce0668fab09d21a3d363c14ecdf9594d0"
+    },
+    {
+      "path": "sharp_odd_stationary_checks.json",
+      "bytes": 689,
+      "sha256": "23b89c4ee96b9197e80e51f1c60536c4a923c0153d0431dbd09608a302f2d798"
+    },
+    {
+      "path": "UPPER_HEIGHT_BALANCED_CHECK.md",
+      "bytes": 12457,
+      "sha256": "53aa1b19cd28094248efe2ac5d3f88859e27f1751ebb1ffbbaa6c6e38213d5f2"
+    },
+    {
+      "path": "UPPER_HEIGHT_REVIEW_RECEIPT.json",
+      "bytes": 2437,
+      "sha256": "83118d0155497314d2c0a63b10bdf8f2688365b9a6702af5bf51fbe47af70893"
+    },
+    {
+      "path": "check_upper_height_algebra.py",
+      "bytes": 2011,
+      "sha256": "1c6b69e3faebc4e7c437836dc1ce9a3cb2a336fa558dce99a2243e3b78c35547"
+    },
+    {
+      "path": "upper_height_algebra_checks.json",
+      "bytes": 529,
+      "sha256": "8d92f945a165a6ad224312cd7af2083c00488176a5bf8f0d94fcd869bb2f4865"
+    },
+    {
+      "path": "check_upper_height_syntax.cjs",
+      "bytes": 1552,
+      "sha256": "a9d18040ed1bc460c468a10ba6dd6d88c3382a5352f5a6f745ff48ad85ad5786"
+    },
+    {
+      "path": "upper_height_syntax_checks.json",
+      "bytes": 413,
+      "sha256": "e9656c4d89851e53119fbaf5b9f31f89d14965b61cc1d765bab5ee68712f33d7"
+    },
+    {
+      "path": "upper_height_syntax_runtime_error.json",
+      "bytes": 11599,
+      "sha256": "ef0ac1f658934da6ae376b5368ea615dec0192a98c304fc671283f0dad483ef4"
+    },
+    {
+      "path": "check_syntax.cjs",
+      "bytes": 1138,
+      "sha256": "834bc9a01677500477045c8ded8cbe598756e7b17f7af018ab957022bbc3a6ef"
+    },
+    {
+      "path": "syntax_checks.json",
+      "bytes": 83,
+      "sha256": "9efee991232ca853b50a8372b94e3581a7a5ece03c2b294669bae31bf1f5a992"
+    }
+  ],
+  "rootReplay": "12 exact algebra groups; output bytes match author; no prime scan",
+  "syntax": "Upper-height syntax check unavailable due empty KaTeX exports; original error preserved",
+  "scope": "Ordinary RH local balanced block above T^2; no central/global gain or formal verification"
+}

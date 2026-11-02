@@ -1,0 +1,60 @@
+{
+  "bounded_checks": "Existing final 147-case signed replay and 13-assertion energy replay; complete outputs compared unchanged. Existing 12-assertion input-plane JSON/stdout also verified identical. No checker rerun for publication preparation.",
+  "complete_replay_pairs": 2,
+  "dependency_records_verified": 167,
+  "exact_byte_path_substitutes": 12,
+  "existing_bounded_replays": [
+    {
+      "author": "signed-mellin-test/exact_check_results.json",
+      "byte_identical": true,
+      "bytes": 1611,
+      "independent": "signed-mellin-review/independent_exact_check_results.json",
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "author": "signed-mellin-test/exact_check_stdout.log",
+      "byte_identical": true,
+      "bytes": 1611,
+      "independent": "signed-mellin-review/independent_exact_check_stdout.log",
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "author": "mellin-energy-support/mellin_energy_checks.json",
+      "byte_identical": true,
+      "bytes": 604,
+      "independent": "mellin-energy-review/mellin_energy_checks.json",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "author": "mellin-energy-support/mellin_energy_checks.log",
+      "byte_identical": true,
+      "bytes": 604,
+      "independent": "mellin-energy-review/mellin_energy_checks.log",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    }
+  ],
+  "formal_verification": false,
+  "historical_relative_links_without_public_target": [],
+  "input_plane_existing_output": {
+    "assertions": 12,
+    "bytes": 856,
+    "json_equals_stdout": true,
+    "path": "input-plane-review/exact_projection_checks.json",
+    "sha256": "d4032c79712dda825940405d98fd410ee1da6741d85a0877c6b548a7a2fe357e"
+  },
+  "local_only_primary_files": 8,
+  "new_mathematical_reruns_for_integration": 0,
+  "new_pdf_build": false,
+  "new_prime_heights_for_integration": 0,
+  "original_bytes": 2324821,
+  "original_files": 60,
+  "preservation": "Every staged original is archived unchanged; all authored files, historical copies, reviews and check outputs are public verbatim. Only eight full primary reference bodies/page images stay local with public hashes.",
+  "public_verbatim_bytes": 232109,
+  "public_verbatim_files": 52,
+  "publication_status": "Prepared only. No Git add, commit, push, or PR mutation performed.",
+  "source_relative_links_checked": 4,
+  "status": "PASS",
+  "strict_arithmetic_bound_proved": false,
+  "theorem_scope": "Under RH, one complete balanced central fixed mu/log block is O(1), its low Mellin part is O(1/log X), and all high frequencies are summably bounded. The input-plane lemma controls only one plane. No strict global deficit or famous conjecture is proved.",
+  "unresolved_dependencies": []
+}

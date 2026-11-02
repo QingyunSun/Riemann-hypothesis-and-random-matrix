@@ -1,0 +1,115 @@
+{
+  "artifacts": [
+    {
+      "bytes": 14137,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/ZERO_MOMENT_APPLICABILITY.md",
+      "sha256": "af97c91ae8f8be1c73aa730627a6a3c23e52d7ae9e4ed3d8f51c74890e654e09"
+    },
+    {
+      "bytes": 1404,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/check_note_syntax.cjs",
+      "sha256": "30fb9ee85e475b509602692cfb444dbea40d289c5e102d859eb3e8b525241d5f"
+    },
+    {
+      "bytes": 301,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/math_syntax_checks.json",
+      "sha256": "aaeb53438b35b3161a5ffb3a2020dba53dbd8d445731a7e8c1cce6984f01f5c2"
+    },
+    {
+      "bytes": 3748,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/write_source_receipt.py",
+      "sha256": "d7c7d56969a3abf7d32ba4a2f722c3d4fcb2fdd24a530613d684cdff6501e8a8"
+    }
+  ],
+  "author": "r29_close",
+  "formal_verification": false,
+  "height_review": "Uniform bounded proof extends to alpha=2; specified uniformly controlled balanced dyadic families have limsup absolute tail O(2^(-3J/4)). Fixed central blocks and global masked/unbalanced packets remain uncontrolled.",
+  "independent_joint_review": "Complete ROOT_JOINT_ZERO_SAMPLING.md read and independently checked: all three centered derivative norms, common phase log(DK/X), full product variation O(T^2 log^2 T), multiplicity-aware complex Stieltjes integration, coefficient 2/(X log^3 T), and absolute O(1/loglog T) error are correct. Accepted as a comparison, with the signed zero sum unevaluated.",
+  "limits": "Ordinary proof review, not external novelty audit or proof-assistant certification. Sources remain local. No Git mutation, model call, or new numerical computation.",
+  "new_prime_or_zero_scan": false,
+  "ordinary_result": "RH zero-counting plus fixed-width phase removal proves density-normalized separate sampling with an additive O(T^2/loglog T) error. No relative asymptotic for every central carrier window is assumed.",
+  "programme_dependencies": [
+    {
+      "bytes": 16995,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/signed-mellin-test/SIGNED_MELLIN_BLOCK_BOUND.md",
+      "sha256": "753f116b8ebc5d6cc7d7a4e148c98e9b8ef9df97d4327efe2fa094507aa13492"
+    },
+    {
+      "bytes": 538953,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/signed-mellin-test/sources/montgomery-vaughan-hilbert-1974.pdf",
+      "sha256": "0dbcddf24bc41c65d1920c59aafe7fe85f13a7519b0edf9be9164c84d1cc6db4"
+    },
+    {
+      "bytes": 12457,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/stationary-challenge/UPPER_HEIGHT_BALANCED_CHECK.md",
+      "sha256": "53aa1b19cd28094248efe2ac5d3f88859e27f1751ebb1ffbbaa6c6e38213d5f2"
+    },
+    {
+      "bytes": 5303,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/ROOT_JOINT_ZERO_SAMPLING.md",
+      "sha256": "2e80e363c4c7f728a48f51dac1da0c2726e703696321726aaf3cdf803362da8a"
+    }
+  ],
+  "source_findings": "The exact all-length BFM theorem applies but its error is too large at D comparable to T. The explicit prime-power cross term vanishes for the sharp annulus. Milinovich-Ng's fixed-theta weighted prefix theorem is not an endpoint theorem for this annulus.",
+  "sources": [
+    {
+      "bytes": 246866,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/sources/bui-florea-milinovich.pdf",
+      "publication": "Full primary body/extraction stays local; hashes may be public.",
+      "read_scope": "Theorem 3.1 and its complete surrounding proof, printed pages 8-10; journal theorem also read at DOI 10.1112/blms.13092.",
+      "sha256": "4a6b2f30ef78d9e615141abe54e416760e74ab69507deca8c51116972d1ad36d",
+      "url": "https://arxiv.org/pdf/2310.03949"
+    },
+    {
+      "bytes": 82801,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/sources/bui-florea-milinovich.txt",
+      "publication": "Full primary body/extraction stays local; hashes may be public.",
+      "read_scope": "Theorem 3.1 and its complete surrounding proof, printed pages 8-10; journal theorem also read at DOI 10.1112/blms.13092.",
+      "sha256": "577b4812a0833242e44bc3a0342d8114caeefe4f696809405860c44160ef5cc9",
+      "url": "https://arxiv.org/pdf/2310.03949"
+    },
+    {
+      "bytes": 753823,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/sources/carneiro-chandee-milinovich-S.pdf",
+      "publication": "Full primary body/extraction stays local; hashes may be public.",
+      "read_scope": "Printed pages 1-2, zero counting convention, equation (1), and Theorem 2; only the RH order bound for S(t) is used.",
+      "sha256": "6ad94674038e6a619ec1eaebecf83672374d56de8370a970797d7f47a77f8c16",
+      "url": "https://arxiv.org/pdf/1309.1526"
+    },
+    {
+      "bytes": 100985,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/sources/carneiro-chandee-milinovich-S.txt",
+      "publication": "Full primary body/extraction stays local; hashes may be public.",
+      "read_scope": "Printed pages 1-2, zero counting convention, equation (1), and Theorem 2; only the RH order bound for S(t) is used.",
+      "sha256": "c734cfc8cf1f7a9d70eeb99aee9f7d26bbe40afd5162129c4a9c16ec37280c23",
+      "url": "https://arxiv.org/pdf/1309.1526"
+    },
+    {
+      "bytes": 182944,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/sources/milinovich-ng-gonek.pdf",
+      "publication": "Full primary body/extraction stays local; hashes may be public.",
+      "read_scope": "Proposition (2.3), fixed theta and prefix definition, printed pages 3-4; reciprocal residue and horizontal-error passages in sections 3-4.",
+      "sha256": "802dbade5afd2ac7fe56cc3227b32d2a366eabef7908881e179fc08bde96d18a",
+      "url": "https://home.olemiss.edu/~mbmilino/Gonek.pdf"
+    },
+    {
+      "bytes": 29244,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round30/central-followup/zero-moment-review/sources/milinovich-ng-gonek.txt",
+      "publication": "Full primary body/extraction stays local; hashes may be public.",
+      "read_scope": "Proposition (2.3), fixed theta and prefix definition, printed pages 3-4; reciprocal residue and horizontal-error passages in sections 3-4.",
+      "sha256": "056de7b55665827df6a3110b426dbd6f7373bf08ddcf72835688d0b5e1997452",
+      "url": "https://home.olemiss.edu/~mbmilino/Gonek.pdf"
+    }
+  ],
+  "status": "bounded ordinary source/applicability note complete",
+  "strict_joint_gain_proved": false,
+  "syntax": {
+    "controls": [],
+    "errors": [],
+    "katexVersion": "0.18.5",
+    "mathExpressions": 110,
+    "reportSha256": "af97c91ae8f8be1c73aa730627a6a3c23e52d7ae9e4ed3d8f51c74890e654e09",
+    "scope": "Mathematical syntax only; ordinary argument and source applicability reviewed separately.",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "primary_sources": [
+    {
+      "title": "Maynard III v1",
+      "url": "https://arxiv.org/pdf/2006.08250v1",
+      "location": "Theorems 1.1\u20131.3 printed pp.3\u20134; outline p.5",
+      "files": [
+        {
+          "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/sources/maynard-2006.08250v1.pdf",
+          "sha256": "561508e19cd9b56a8cbb68be5c238b213f58aa3973dbec3eb201b7834ad56f4c",
+          "bytes": 800975
+        },
+        {
+          "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round19/shift-dispersion/sources/maynard-2006.08250v1.txt",
+          "sha256": "981033e06ab7699fcba555a6fd09566dc5eaaee7cd6b2a595002a7acf4f43588",
+          "bytes": 344730
+        }
+      ]
+    },
+    {
+      "title": "Maynard II v1",
+      "url": "https://arxiv.org/pdf/2006.07088v1",
+      "location": "Outline printed pp.4\u20136; Proposition 8.2 p.19",
+      "files": [
+        {
+          "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/modulus-weights/sources/maynard-2006.07088v1.pdf",
+          "sha256": "04516b141dfac689f317d533189eabf9b50cec200706159aaa3d8dbe1e25bfb4",
+          "bytes": 321319
+        },
+        {
+          "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/modulus-weights/sources/maynard-2006.07088v1.txt",
+          "sha256": "4bcb824f57cf391ab86827e1d64d57b6c04cb8689c33502e7a6b6c6d7bf7514b",
+          "bytes": 96541
+        }
+      ]
+    },
+    {
+      "title": "Montgomery\u2013Vaughan author draft",
+      "url": "https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf",
+      "location": "Theorem 20.12 equation (20.38), printed pp.214\u2013215",
+      "files": [
+        {
+          "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+          "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+          "bytes": 3173609
+        },
+        {
+          "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+          "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd",
+          "bytes": 1503246
+        }
+      ]
+    },
+    {
+      "title": "Short gaps primary",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+      "location": "Definition 2.1; Proposition 2.3; equation (2.5); Corollary 2.19",
+      "files": [
+        {
+          "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+          "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+          "bytes": 369949
+        },
+        {
+          "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.txt",
+          "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84",
+          "bytes": 112915
+        }
+      ]
+    }
+  ],
+  "inherited_proofs": [
+    {
+      "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+      "bytes": 11083
+    },
+    {
+      "local_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round18/modulus-weights/MODULUS_WEIGHT_LEVEL_AND_NORMALIZATION.md",
+      "sha256": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+      "bytes": 16141
+    }
+  ],
+  "scope": "Pinned inspected versions, not a latest-literature completeness claim. Primary PDFs/text stay local."
+}

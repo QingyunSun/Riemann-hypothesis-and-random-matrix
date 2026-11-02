@@ -1,0 +1,15 @@
+{
+  "intake_files_verified": 61,
+  "exact_json_reruns": [
+    "alpha_rectangle_kernel_checks",
+    "alpha_credit_margin_replay",
+    "restoration_checks",
+    "rectangle_independent_checks",
+    "structural_check_results"
+  ],
+  "separate_outward_rerun": "all53 term intervals and exact endpoints identical",
+  "python_compileall": "passed",
+  "bash_syntax": "passed",
+  "full_binding_suite": "separate Jacobi precondition assertion remains documented",
+  "pdf": "unchanged frozen055a4a0 checkpoint; not rerendered"
+}

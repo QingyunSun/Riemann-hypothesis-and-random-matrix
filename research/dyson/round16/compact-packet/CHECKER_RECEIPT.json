@@ -1,0 +1,24 @@
+{
+  "author_proof_modified": false,
+  "command": "python3 check_compact_packet.py",
+  "files": {
+    "check_compact_packet.py": {
+      "bytes": 8807,
+      "sha256": "1eb1bacd42fdcd3841360e0e1cccef3aa8ae44e6b970f18c51720537e2b31530"
+    },
+    "compact_packet_checks.json": {
+      "bytes": 13139,
+      "sha256": "805797e6ad68fee584d7b5dc873cf0d413bf21dba413e2a6e1abfebb6b8a2175"
+    },
+    "compact_packet_checks.log": {
+      "bytes": 340,
+      "sha256": "fe9fa13feb9838e6c2539ac6390d1dbdcf8a52c0e04dd9ceadfe20e40aafa721"
+    }
+  },
+  "proof": {
+    "filename": "COMPACT_POLE_PACKET.md",
+    "sha256": "8106f3483adb71ab7ca4e5c105bfd6464dfa46954a1e1e77d2c77900392e19dc"
+  },
+  "scope": "Exact piecewise spline/Fourier algebra, 18 high-precision non-certified diagnostics, and two independent enumerations of a finite prime-power packet. Ordinary contour proof review is separate.",
+  "status": "Frozen independent bounded checker"
+}

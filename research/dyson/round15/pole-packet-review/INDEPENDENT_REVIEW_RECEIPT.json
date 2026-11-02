@@ -1,0 +1,57 @@
+{
+  "status": "ACCEPTED within stated scope",
+  "review_sha256": "637e0d94f86d4d114a85d88b5ff5a15512d26e8396313914ea5a719db2bdfdc4",
+  "author_report_sha256": "3213cf34d3a5521260b48ebbeebbf12522afd04c92075c30e6e0434478bb908a",
+  "author_manifest_sha256": "dac30de4579eb2e5bf3f38794347f14c33e8d691029209fde7ac7a51a55edb60",
+  "source_manifest_sha256": "84cd4a5f31145cf596708b93933c1dee600bfa87569896d3d9acc8dcaf362243",
+  "script_sha256": "25a20d5946dd6e973cd18cc52a1031f47cc4b2fe82cca236c32de0332ad40a04",
+  "author_files_all_match": true,
+  "replay_source_copies_exact": true,
+  "independent_replay_json_sha256": "1cf9ae8467e35c1413a7c809ccc2daeb7757c4701a457356ffae25cd6672daf9",
+  "replay_json_byte_identical": true,
+  "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "sources": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "matches": true
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6",
+      "matches": true
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/research/reports/centered_gaussian_mixed_moments.md",
+      "sha256": "5aec8de6c69d3b8d67799a65d0598d49ff1a87a5878ebc548dd3c90d806e1716",
+      "matches": true
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/research/dyson/round7/poisson-resolvent/TWO_SCALE_ZETA_TARGET.md",
+      "sha256": "b275eedbba276097e3729bd0f75dff4108c11ab7c4f038093b5722e0b3fc7f51",
+      "matches": true
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/research/dyson/round8/resolvent-arithmetic/SHORT_PRIME_PROJECTION_AND_CENTERED_TAIL.md",
+      "sha256": "0067a1b0c7bd4f0b80ef89d6ac85eca1ae99e652375c08c41706ec1f1ddbe40e",
+      "matches": true
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/research/dyson/round10/arithmetic-residual/ARITHMETIC_RANGE_AND_MIXED_MOMENT.md",
+      "sha256": "c2d2a278ffe74d8f8d8a7c00980e5e57e6c508790ff96904db4479277d1daa8c",
+      "matches": true
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/research/dyson/round11/log-weighted-tail/ARITHMETIC_DIAGONAL_AND_SOURCE_GAP.md",
+      "sha256": "85c9435bbd656bcf37f21f55fe2d54cb40638c7a56908abe57e54f551a627daa",
+      "matches": true
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Research/research/dyson/round14/cue-selected-background/SELECTED_CUE_BACKGROUND.md",
+      "sha256": "fbc67828d13534d8d0b4ac1f742a639b282dd93a3f7cb635291f8cdbb651c0a5",
+      "matches": true
+    }
+  ],
+  "all_eight_source_files_match": true,
+  "scope": "Linear RH contour identity, full signed kernel/density cancellation, explicit uniform bounds and endpoints, weighted Gram and Plancherel; no old W_T target transfer or signed lower bound"
+}

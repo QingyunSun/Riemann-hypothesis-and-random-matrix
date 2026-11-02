@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checked": 12,
+  "targets": [
+    "research/dyson/round27/joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+    "research/dyson/round27/joint-dispersion-review/INDEPENDENT_JOINT_DISPERSION_REVIEW.md",
+    "research/dyson/round27/mixed-moment-test/MIXED_MOMENT_DIRECTION_TEST.md",
+    "research/dyson/round27/mixed-moment-review/INDEPENDENT_MIXED_MOMENT_REVIEW.md",
+    "research/dyson/round27/coordinator-mixed-review/COORDINATOR_MIXED_MOMENT_REVIEW.md",
+    "research/dyson/round27/coordinator-sieve-intake/GOLDSTON_YILDIRIM_TOOL_INTAKE.md",
+    "research/logs/round27-integration/INTEGRATION_RECEIPT.json",
+    "research/dyson/round27/SOURCE_LINK_MAP.md",
+    "research/dyson/round27/mixed-moment-test/MIXED_MOMENT_DIRECTION_TEST.md",
+    "research/dyson/round27/mixed-moment-review/source_and_replay_checks.json",
+    "research/dyson/round27/mixed-moment-review/independent_mixed_moment_checks.json",
+    "research/dyson/round27/mixed-moment-review/independent_mixed_moment_checks.log"
+  ]
+}

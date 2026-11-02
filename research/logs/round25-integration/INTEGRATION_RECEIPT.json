@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "original_files": 42,
+  "original_bytes": 1758250,
+  "public_verbatim_files": 35,
+  "public_verbatim_bytes": 171178,
+  "dependency_records_verified": 91,
+  "existing_bounded_replays": [
+    {
+      "author": "joint-main-cancellation/exact_check_results.json",
+      "independent": "joint-main-cancellation-review/independent_exact_check_results.json",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e",
+      "byte_identical": true
+    },
+    {
+      "author": "joint-main-cancellation/exact_check_stdout.log",
+      "independent": "joint-main-cancellation-review/independent_exact_check_stdout.log",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e",
+      "byte_identical": true
+    },
+    {
+      "author": "mobius-fourier-audit/fourier_scale_checks.json",
+      "independent": "fourier-root-review/replay/fourier_scale_checks.json",
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec",
+      "byte_identical": true
+    },
+    {
+      "author": "mobius-fourier-audit/fourier_scale_checks.log",
+      "independent": "fourier-root-review/replay/fourier_scale_checks.log",
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec",
+      "byte_identical": true
+    }
+  ],
+  "bounded_checks": "Two existing complete independent replay pairs: joint main eight groups/3809 cases; Fourier nine rational assertions. No integration rerun.",
+  "new_mathematical_reruns_for_integration": 0,
+  "new_prime_heights": 0,
+  "new_pdf_build": false,
+  "formal_verification": false,
+  "strict_arithmetic_bound_proved": false,
+  "preservation": "All original bytes unchanged. Independent/coordinator proofs and reviews remain separate. Full primary-source bodies are local with public hashes.",
+  "historical_relative_links_without_public_target": [],
+  "complete_replay_pairs": 2,
+  "source_eof_exceptions": 1,
+  "editorial_links_checked": 13,
+  "math_expressions_checked": 1214
+}

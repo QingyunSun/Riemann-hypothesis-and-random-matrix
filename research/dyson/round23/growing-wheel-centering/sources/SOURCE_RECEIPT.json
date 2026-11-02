@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-05",
+  "url": "https://dlmf.nist.gov/27.2.E3",
+  "context_url": "https://dlmf.nist.gov/27.2",
+  "formula": "pi(x) asymptotic to x/log x; the official context identifies this as the proved prime number theorem.",
+  "files": [
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/sources/dlmf-27.2.html",
+      "bytes": 159124,
+      "sha256": "7281eb9a14b058f18307408b4a7a0e10471ed667004c82797a83b8a9cfa2d329"
+    },
+    {
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/growing-wheel-centering/sources/dlmf-27.2.E3.tex",
+      "bytes": 41,
+      "sha256": "cd8b27adfc1701fdd7fffb920b45659d78e4c5719a0b4dd6b470d164683042ec"
+    }
+  ],
+  "scope": "Only the primorial feasibility calculation uses this external asymptotic. No Mertens theorem is needed. The official source and formula were inspected; no factorization or prime tables used."
+}

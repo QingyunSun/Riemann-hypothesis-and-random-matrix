@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "../../../Research/ACUE-Astra-Handoff-2026-09-04/research-round25/fourier-root-review/INDEPENDENT_FOURIER_REVIEW.md",
+      "sha256": "5c3bb274376d26d44b94903917c059d93d96ee588508232b3c1d68c979af9fec",
+      "mathExpressions": 66,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

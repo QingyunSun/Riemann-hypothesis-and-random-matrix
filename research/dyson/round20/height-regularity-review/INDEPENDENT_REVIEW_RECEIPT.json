@@ -1,0 +1,60 @@
+{
+  "owned_artifacts": [
+    {
+      "bytes": 8990,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity-review/INDEPENDENT_HEIGHT_REVIEW.md",
+      "sha256": "674a947633c4544cd8d838c1e5588cb1fe802827dabee4b95b60a0ecf76bdc18"
+    },
+    {
+      "bytes": 3926,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity-review/check_inputs_and_replay.py",
+      "sha256": "d537203654f667920e725257ac410cceba13b1b79d9b5ad010e2642736055d28"
+    },
+    {
+      "bytes": 3795,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity-review/input_and_replay_checks.json",
+      "sha256": "54d21ad9adfc8d51362afb0df22a14060ee933af066c00c68fde16fb110629e9"
+    },
+    {
+      "bytes": 1099,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity-review/replayed_height_checks.json",
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f"
+    },
+    {
+      "bytes": 1099,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity-review/replayed_height_checks.log",
+      "sha256": "5565948704e464041aa488cf37f06af4752df1d287fcc728ceeba8472d85fe2f"
+    }
+  ],
+  "pinned_dependencies": [
+    {
+      "bytes": 10461,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe"
+    },
+    {
+      "bytes": 1275,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity/author_manifest.json",
+      "sha256": "afb1f2424a4abec6f62420204be9c5c2f2442c09d1f4d41790b852b417b01b36"
+    },
+    {
+      "bytes": 1491,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity/source_manifest.json",
+      "sha256": "547e99cd636ea5c116d9c9894489c273cd4ee4f7a32699fe5f2896334b902ea5"
+    },
+    {
+      "bytes": 3053,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/height-regularity/check_height_regularity.py",
+      "sha256": "371b2bfd2365cc1a85225817cfd73695961965b32bf456194df10b9d6528b8d9"
+    },
+    {
+      "bytes": 18644,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    }
+  ],
+  "reviewer_independence": "Independent full review of Euclid height theorem and logical combination. Reviewer authored the separately pinned length-average identity; this is not its independent review.",
+  "scope": "No positive deficit is proved; combined equivalence depends on the separately accepted length-average identity.",
+  "validation": "Eight manifest entries verified; unchanged exact checker replayed in a temp copy, JSON/log byte-identical.",
+  "verdict": "ACCEPTED ordinary proof under RH; no amendment requested."
+}

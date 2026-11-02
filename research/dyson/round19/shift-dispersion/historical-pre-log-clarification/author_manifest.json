@@ -1,0 +1,37 @@
+{
+  "status": "AUTHOR FROZEN; independent review pending",
+  "files": [
+    {
+      "path": "SHORT_RESIDUE_DISPERSION_TEST.md",
+      "sha256": "b6bbbba7c60e7675c9e5c98b605700c1886768875f9afa05c555a709fe564742",
+      "bytes": 15488
+    },
+    {
+      "path": "check_shift_dispersion.py",
+      "sha256": "61fc73eff3f574024924cafd77dd9c64e82e1a79b07321fa0b83dae57afd0303",
+      "bytes": 4247
+    },
+    {
+      "path": "shift_dispersion_checks.json",
+      "sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd",
+      "bytes": 1103
+    },
+    {
+      "path": "shift_dispersion_checks.log",
+      "sha256": "914a3f6534acd0ace9f2f3640bfd4d874df965157b2072e45dc4ac7b8a9462cd",
+      "bytes": 1103
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "290a5a68548fa0007ea96b39ad6e254985a932bcc622e36a60d143c79ddd5419",
+      "bytes": 4140
+    },
+    {
+      "path": "source_page_receipt.json",
+      "sha256": "d64b1538a05030f8ceb36d9249010bc03b8838b9b49a419b0cc4055ac11ad265",
+      "bytes": 1094
+    }
+  ],
+  "scope": "Actual canonical residue norm and direct theorem-application audit; no improved prime discrepancy or zeta theorem. RH label belongs to inherited aggregate only.",
+  "publication_policy": "Original source PDFs/text and their page images stay local; authored derivation/checks/provenance may be integrated by parent."
+}

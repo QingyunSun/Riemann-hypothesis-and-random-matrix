@@ -1,0 +1,26 @@
+{
+  "primary_files": [
+    {
+      "file": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/sources/van-neerven-wiener-1997.pdf",
+      "bytes": 84901,
+      "sha256": "1a0ece6c3bbe27fa4ccd5bce4366562d9464b077460360099edcab7278aa5ae3"
+    },
+    {
+      "file": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/sources/van-neerven-wiener-1997.txt",
+      "bytes": 10817,
+      "sha256": "13985c3d20245788d05711503c00dcaddc9adf35ac0ce1451320da11d81cc74d"
+    },
+    {
+      "file": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/tauberian-information/sources/theorem1-page2.png",
+      "bytes": 351841,
+      "sha256": "6176172988d65c44e26b1573b9d4cb8367de7f42b5c3fdf54b5532b950d7ff9c"
+    }
+  ],
+  "live_urls": [
+    "https://fa.ewi.tudelft.nl/~neerven/publications/papers/RIMUT_97.pdf",
+    "https://dlmf.nist.gov/5.5.E1",
+    "https://dlmf.nist.gov/5.5.E3",
+    "https://dlmf.nist.gov/25.2"
+  ],
+  "scope": "Wiener theorem text and retained theorem-page image inspected; NIST gamma and zeta formulas checked. Existing Schoenfeld and R20 pins checked through heat author receipt."
+}

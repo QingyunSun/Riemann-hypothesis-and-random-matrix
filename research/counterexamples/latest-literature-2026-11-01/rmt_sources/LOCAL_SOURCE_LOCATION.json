@@ -1,0 +1,36 @@
+{
+  "local_archive_relative_to_repo_parent": "Astra-Local-Archive/latest-literature-2026-11-01/rmt_sources",
+  "reason": "Full primary sources retained locally; public research keeps citations, excerpts and provenance.",
+  "files": [
+    {
+      "file": "079_wave.pdf",
+      "bytes": 810093,
+      "sha256": "9ca156c552f2d940528f7131716326ef0d67a5829e723e1d294d74560c8636ff"
+    },
+    {
+      "file": "079_wave.txt",
+      "bytes": 234133,
+      "sha256": "42ad0ea7c78ae35d5b6aa4b1214e2282639ad72edc82f6d5dcf0d2f6cd6b0de0"
+    },
+    {
+      "file": "219_anderson.pdf",
+      "bytes": 664775,
+      "sha256": "b90d91abec2e8614ab12bfea2dc37152441e2651ec0482c70fc26665064e58b8"
+    },
+    {
+      "file": "219_anderson.txt",
+      "bytes": 225727,
+      "sha256": "94d88900e9e6623d8e4a35e2cb49c69e8bdf4d9613eacc788dd5af4fbf8dd439"
+    },
+    {
+      "file": "219_goe.pdf",
+      "bytes": 610750,
+      "sha256": "d8e092ab0484f8b9f8858176e39ab4c0cba5760450bf0a52890c6561ed2a7ced"
+    },
+    {
+      "file": "219_goe.txt",
+      "bytes": 164857,
+      "sha256": "d840b7341f7a8f5daf1acf3c6db2a07dcda7c3157c02ff22af2917e19577798f"
+    }
+  ]
+}

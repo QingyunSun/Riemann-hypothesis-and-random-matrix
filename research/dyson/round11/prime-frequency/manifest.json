@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-05",
+  "status": "FROZEN: RH component bound proved in ordinary mathematics and independently audited; no target covariance theorem",
+  "author_report_sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29",
+  "independent_review_sha256": "fdeba2af8e447ed7ec382155496f22e23255267f0d4051afdc3759a1f933daab",
+  "publication_files": [
+    {
+      "path": "README.md",
+      "sha256": "3dcca0cb8cb81168df8cad5b392b50cf8e01b823bd32c1af8ca3210a84c26337",
+      "bytes": 1154
+    },
+    {
+      "path": "CENTERED_SMALL_ARC_BOUND.md",
+      "sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29",
+      "bytes": 13797
+    },
+    {
+      "path": "SMALL_ARC_INDEPENDENT_REVIEW.md",
+      "sha256": "fdeba2af8e447ed7ec382155496f22e23255267f0d4051afdc3759a1f933daab",
+      "bytes": 9325
+    },
+    {
+      "path": "check_small_arc_bound.py",
+      "sha256": "1d028cde17f8042af29315890032add298eba4426a84d141bf8ccc9ca5b1276c",
+      "bytes": 3552
+    },
+    {
+      "path": "check_small_arc_bound.json",
+      "sha256": "dedb17308bca322adbde7b7b52bf646cb2c49f632fdedda66f2b9506ebf785bd",
+      "bytes": 1134
+    },
+    {
+      "path": "source_receipt.json",
+      "sha256": "8e932c58f5908b090b17d357edfd824183dcd6e8633b1ca200f8dcb3735b8c5b",
+      "bytes": 2443
+    }
+  ],
+  "local_sources": "Source bodies under sources/ are local reference copies, not part of this publication file list; hashes and primary URL are in source_receipt.json.",
+  "checks": {
+    "exact_script": "PASS",
+    "author_and_review_pins": "PASS",
+    "control_characters": "PASS",
+    "relative_links": [
+      {
+        "from": "README.md",
+        "to": "CENTERED_SMALL_ARC_BOUND.md",
+        "exists": true
+      },
+      {
+        "from": "README.md",
+        "to": "SMALL_ARC_INDEPENDENT_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "README.md",
+        "to": "source_receipt.json",
+        "exists": true
+      },
+      {
+        "from": "README.md",
+        "to": "check_small_arc_bound.json",
+        "exists": true
+      },
+      {
+        "from": "CENTERED_SMALL_ARC_BOUND.md",
+        "to": "SMALL_ARC_INDEPENDENT_REVIEW.md",
+        "exists": true
+      }
+    ]
+  }
+}

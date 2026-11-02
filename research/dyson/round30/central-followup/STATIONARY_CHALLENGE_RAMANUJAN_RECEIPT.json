@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-08",
+  "status": "Frozen ordinary proof; root read all sections and accepted subject only to the recorded projection-contraction wording correction.",
+  "proved": "The complete d-dependent periodic progression/Ramanujan principal contributes O(1/log T) to the exact central stationary-band pairing, with all harmonics and both aliases retained.",
+  "stillOpen": "The actual finite prime/progression-model discrepancy against the d-dependent projected weights is not bounded by o(X log(T)^2); no actual central signed gain or global conjecture result is claimed.",
+  "artifacts": [
+    {"path": "STATIONARY_CHALLENGE_RAMANUJAN_MAIN.md", "bytes": 13573, "sha256": "6b09535747c82cc8d74b6dfe9db39177c1e34914904e0cf52c28b94f60ae1465"},
+    {"path": "check_stationary_challenge_ramanujan.py", "bytes": 2309, "sha256": "529ed3a1d11ce38144eb1cd02bb9026c66067989114cfb81282a04553e21bde8"},
+    {"path": "stationary_challenge_ramanujan_checks.json", "bytes": 369, "sha256": "f7ed84c874f07e77c942c2b6208ee041c1a1311975f0e680e86adc11d37986b6"}
+  ],
+  "sources": [
+    {"path": "../../research-round29/signed-mellin-test/SIGNED_MELLIN_BLOCK_BOUND.md", "sha256": "753f116b8ebc5d6cc7d7a4e148c98e9b8ef9df97d4327efe2fa094507aa13492", "use": "Exact central arithmetic extension and smooth-kernel bounds."},
+    {"path": "../stationary-challenge/SHARP_ODD_STATIONARY_CHALLENGE.md", "sha256": "0d480d4f35ca1ce0c36c31deffd2a8e6bd39f6ddc1420180f9a32f70b829fcf7", "use": "Exact two-alias central representation with integrated O(T^-1/2) error."}
+  ],
+  "reviewRevision": {
+    "rootReadManuscriptSha256": "d262ad866cd7c660735c57567121ae9f63c0780933a1f67e8ae315d24088898f",
+    "correction": "State contraction for the sharp multiplier 1_J, not an unspecified smooth multiplier.",
+    "otherChanges": "Added a factual verification and review-status paragraph; no mathematical bound or derivation changed."
+  },
+  "verification": {
+    "fourierCases": 66,
+    "cancelledParityModes": 10,
+    "ramanujanBoundCases": 401,
+    "totientIdentityCases": 50,
+    "transposeIdentityCases": 1,
+    "incorrectSameSignControlRejected": true,
+    "formalCertification": false,
+    "newPrimeCalculations": 0,
+    "newExternalModels": 0,
+    "gitWrites": 0,
+    "syntaxRuntimeRepairAttempted": false
+  },
+  "attribution": "The bilinear P_{-J} transpose formulation was supplied by the root investigator and independently checked here."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "mathExpressions": 110,
+  "errors": [],
+  "controls": [],
+  "katexVersion": "0.18.5",
+  "reportSha256": "af97c91ae8f8be1c73aa730627a6a3c23e52d7ae9e4ed3d8f51c74890e654e09",
+  "scope": "Mathematical syntax only; ordinary argument and source applicability reviewed separately."
+}

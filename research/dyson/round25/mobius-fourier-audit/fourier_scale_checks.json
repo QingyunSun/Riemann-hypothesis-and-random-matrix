@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "name": "old_core_decay",
+      "status": "PASS",
+      "value": "3707/18000"
+    },
+    {
+      "name": "new_core_decay",
+      "status": "PASS",
+      "value": "13/90"
+    },
+    {
+      "name": "new_K_over_H_min",
+      "status": "PASS",
+      "value": "2/45"
+    },
+    {
+      "name": "new_K_over_H_max",
+      "status": "PASS",
+      "value": "6/35"
+    },
+    {
+      "name": "old_H_over_K_min",
+      "status": "PASS",
+      "value": "753/11000"
+    },
+    {
+      "name": "new_Selberg_min_power",
+      "status": "PASS",
+      "value": "3/14"
+    },
+    {
+      "name": "new_Selberg_max_power",
+      "status": "PASS",
+      "value": "5/18"
+    },
+    {
+      "name": "tail_power",
+      "status": "PASS",
+      "value": "-101/100"
+    },
+    {
+      "name": "U_over_H_max_power",
+      "status": "PASS",
+      "value": "-293/700"
+    }
+  ],
+  "report_sha256": "00343ddd2edd35410bfd6b1a5cd29baa4024a0e074820881d568e0490730e0b5",
+  "scope": "Nine exact rational scale identities only; the analytic proof requires independent review.",
+  "status": "PASS"
+}

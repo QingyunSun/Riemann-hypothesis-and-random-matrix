@@ -1,0 +1,562 @@
+{
+  "exact": {
+    "C2_matching": [
+      {
+        "knot": -2,
+        "order": 0,
+        "value": "0"
+      },
+      {
+        "knot": -2,
+        "order": 1,
+        "value": "0"
+      },
+      {
+        "knot": -2,
+        "order": 2,
+        "value": "0"
+      },
+      {
+        "knot": -1,
+        "order": 0,
+        "value": "1/6"
+      },
+      {
+        "knot": -1,
+        "order": 1,
+        "value": "1/2"
+      },
+      {
+        "knot": -1,
+        "order": 2,
+        "value": "1"
+      },
+      {
+        "knot": 0,
+        "order": 0,
+        "value": "2/3"
+      },
+      {
+        "knot": 0,
+        "order": 1,
+        "value": "0"
+      },
+      {
+        "knot": 0,
+        "order": 2,
+        "value": "-2"
+      },
+      {
+        "knot": 1,
+        "order": 0,
+        "value": "1/6"
+      },
+      {
+        "knot": 1,
+        "order": 1,
+        "value": "-1/2"
+      },
+      {
+        "knot": 1,
+        "order": 2,
+        "value": "1"
+      },
+      {
+        "knot": 2,
+        "order": 0,
+        "value": "0"
+      },
+      {
+        "knot": 2,
+        "order": 1,
+        "value": "0"
+      },
+      {
+        "knot": 2,
+        "order": 2,
+        "value": "0"
+      }
+    ],
+    "L1_derivative_norms": [
+      "1",
+      "4/3",
+      "8/3",
+      "8"
+    ],
+    "full_b0_negative_mass": "4/3",
+    "full_b0_positive_mass": "4/3",
+    "inverse_transform_q_nonzero": "2*(b**2 + q**2)*(-4*cos(q) + cos(2*q) + 3)/q**4",
+    "inverse_transform_q_zero": "b**2",
+    "normalized_b0_negative_mass": "2/3",
+    "normalized_outer_lower_bound": "47/104",
+    "normalized_outer_mass_derivative_in_b_squared": "-15/(8*(z + 3)**2)",
+    "outer_negative_mass": "1 - b**2/12",
+    "spline_integral": "1",
+    "status": "PASS",
+    "tilted_endpoint_sum": "0",
+    "tilted_primitive_piece_checks": [
+      {
+        "difference": "0",
+        "interval": [
+          "-2",
+          "-1"
+        ]
+      },
+      {
+        "difference": "0",
+        "interval": [
+          "-1",
+          "0"
+        ]
+      },
+      {
+        "difference": "0",
+        "interval": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "difference": "0",
+        "interval": [
+          "1",
+          "2"
+        ]
+      }
+    ]
+  },
+  "finite_prime_packet": {
+    "W": 100,
+    "X": 10000,
+    "absolute_difference": "0.0",
+    "arithmetic_sum_route_a": "-46.748676072271351632175149695933698671992003909927014983214147799",
+    "arithmetic_sum_route_b": "-46.748676072271351632175149695933698671992003909927014983214147799",
+    "b": "1/400",
+    "higher_prime_powers": [
+      {
+        "k": 2,
+        "n": 10201,
+        "p": 101,
+        "weighted_term": "-0.0283790301835028788716139418551681207217798212674847850875072"
+      }
+    ],
+    "integers_in_support": [
+      9802,
+      10202
+    ],
+    "open_support_endpoints": [
+      "9801.9867330675530222081410422530886629971240046914407772520393106",
+      "10202.01340026755810160143920483151435303508991193925577274241056"
+    ],
+    "prime_power_count": 45,
+    "prime_power_factorizations": [
+      {
+        "k": 1,
+        "n": 9803,
+        "p": 9803
+      },
+      {
+        "k": 1,
+        "n": 9811,
+        "p": 9811
+      },
+      {
+        "k": 1,
+        "n": 9817,
+        "p": 9817
+      },
+      {
+        "k": 1,
+        "n": 9829,
+        "p": 9829
+      },
+      {
+        "k": 1,
+        "n": 9833,
+        "p": 9833
+      },
+      {
+        "k": 1,
+        "n": 9839,
+        "p": 9839
+      },
+      {
+        "k": 1,
+        "n": 9851,
+        "p": 9851
+      },
+      {
+        "k": 1,
+        "n": 9857,
+        "p": 9857
+      },
+      {
+        "k": 1,
+        "n": 9859,
+        "p": 9859
+      },
+      {
+        "k": 1,
+        "n": 9871,
+        "p": 9871
+      },
+      {
+        "k": 1,
+        "n": 9883,
+        "p": 9883
+      },
+      {
+        "k": 1,
+        "n": 9887,
+        "p": 9887
+      },
+      {
+        "k": 1,
+        "n": 9901,
+        "p": 9901
+      },
+      {
+        "k": 1,
+        "n": 9907,
+        "p": 9907
+      },
+      {
+        "k": 1,
+        "n": 9923,
+        "p": 9923
+      },
+      {
+        "k": 1,
+        "n": 9929,
+        "p": 9929
+      },
+      {
+        "k": 1,
+        "n": 9931,
+        "p": 9931
+      },
+      {
+        "k": 1,
+        "n": 9941,
+        "p": 9941
+      },
+      {
+        "k": 1,
+        "n": 9949,
+        "p": 9949
+      },
+      {
+        "k": 1,
+        "n": 9967,
+        "p": 9967
+      },
+      {
+        "k": 1,
+        "n": 9973,
+        "p": 9973
+      },
+      {
+        "k": 1,
+        "n": 10007,
+        "p": 10007
+      },
+      {
+        "k": 1,
+        "n": 10009,
+        "p": 10009
+      },
+      {
+        "k": 1,
+        "n": 10037,
+        "p": 10037
+      },
+      {
+        "k": 1,
+        "n": 10039,
+        "p": 10039
+      },
+      {
+        "k": 1,
+        "n": 10061,
+        "p": 10061
+      },
+      {
+        "k": 1,
+        "n": 10067,
+        "p": 10067
+      },
+      {
+        "k": 1,
+        "n": 10069,
+        "p": 10069
+      },
+      {
+        "k": 1,
+        "n": 10079,
+        "p": 10079
+      },
+      {
+        "k": 1,
+        "n": 10091,
+        "p": 10091
+      },
+      {
+        "k": 1,
+        "n": 10093,
+        "p": 10093
+      },
+      {
+        "k": 1,
+        "n": 10099,
+        "p": 10099
+      },
+      {
+        "k": 1,
+        "n": 10103,
+        "p": 10103
+      },
+      {
+        "k": 1,
+        "n": 10111,
+        "p": 10111
+      },
+      {
+        "k": 1,
+        "n": 10133,
+        "p": 10133
+      },
+      {
+        "k": 1,
+        "n": 10139,
+        "p": 10139
+      },
+      {
+        "k": 1,
+        "n": 10141,
+        "p": 10141
+      },
+      {
+        "k": 1,
+        "n": 10151,
+        "p": 10151
+      },
+      {
+        "k": 1,
+        "n": 10159,
+        "p": 10159
+      },
+      {
+        "k": 1,
+        "n": 10163,
+        "p": 10163
+      },
+      {
+        "k": 1,
+        "n": 10169,
+        "p": 10169
+      },
+      {
+        "k": 1,
+        "n": 10177,
+        "p": 10177
+      },
+      {
+        "k": 1,
+        "n": 10181,
+        "p": 10181
+      },
+      {
+        "k": 1,
+        "n": 10193,
+        "p": 10193
+      },
+      {
+        "k": 2,
+        "n": 10201,
+        "p": 101
+      }
+    ],
+    "scope": "Finite signed arithmetic sum only. No numerical zeta integral, asymptotic zeta estimate, or RH test.",
+    "sigma": "3/4",
+    "status": "PASS"
+  },
+  "limitations": [
+    "No numerical diagnostic is an outward enclosure.",
+    "The finite arithmetic evaluation is not a numerical zeta integral.",
+    "These checks do not prove the contour shift or any AH/Montgomery claim."
+  ],
+  "numerical_inverse_fourier": [
+    {
+      "absolute_error": "0.0",
+      "b": "0",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.0",
+      "q": "0",
+      "quadrature": "0.0",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "4.7698432e-78",
+      "b": "0",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.000000000000000099999999999999998333333333333333345833333333333333277116402116402",
+      "q": "1e-8",
+      "quadrature": "0.000000000000000099999999999999998333333333333333345833333333333333277116402121172",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "1.8111358e-71",
+      "b": "0",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "1.6211389382774043431020714113556422224697403947559447815297445103",
+      "q": "pi",
+      "quadrature": "1.6211389382774043431020714113556422224697403947559447815297445103",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "4.6568755e-78",
+      "b": "0",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "1.8001288789730641922427458294938567371594027366853477176919149009e-285",
+      "q": "2pi",
+      "quadrature": "4.6568754802949462639535588739385267052438514259618108108286307126e-78",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "2.2639198e-72",
+      "b": "0",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.13528736356238403590195447304447808590358040341697854020198188646",
+      "q": "10",
+      "quadrature": "0.13528736356238403590195447304447808590358040341697854020198188646",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "4.3180843e-77",
+      "b": "0",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.0000004952993223004215544901876394246551676596494000505112654595807576",
+      "q": "25",
+      "quadrature": "0.0000004952993223004215544901876394246551676596494000505112654595807576",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "0.0",
+      "b": "1/400",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.00000625",
+      "q": "0",
+      "quadrature": "0.00000625",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "2.0726805e-76",
+      "b": "1/400",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.0000062500000000999998958333333316666674479166666791666631531084655522",
+      "q": "1e-8",
+      "quadrature": "0.0000062500000000999998958333333316666674479166666791666631531084655522",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "1.8111358e-71",
+      "b": "1/400",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "1.6211399648756298115355903266339689343391545775361301453560163271",
+      "q": "pi",
+      "quadrature": "1.6211399648756298115355903266339689343391545775361301453560163271",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "3.1339154e-78",
+      "b": "1/400",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "1.8001291639592965770950294612149401819206644647329882451565854117e-285",
+      "q": "2pi",
+      "quadrature": "3.1339154213895674938256843064443397911122792231289381311563200068e-78",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "2.2639198e-72",
+      "b": "1/400",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.13528737201784425855095671691663265118346077239075375376314064908",
+      "q": "10",
+      "quadrature": "0.13528737201784425855095671691663265118346077239075375376314064908",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "4.3180843e-77",
+      "b": "1/400",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.0000004952993272534147774944031843265315619062010766470052659646934122",
+      "q": "25",
+      "quadrature": "0.0000004952993272534147774944031843265315619062010766470052659646934122",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "0.0",
+      "b": "1/2",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.25",
+      "q": "0",
+      "quadrature": "0.25",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "1.3583519e-71",
+      "b": "1/2",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.25000000000000009583333333333333169791666666666667902612433862434",
+      "q": "1e-8",
+      "quadrature": "0.25000000000000009583333333333333169791666666666667902612433862434",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "1.8111358e-71",
+      "b": "1/2",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "1.6622028672961416838586825444241169990370516021704978324024166522",
+      "q": "pi",
+      "quadrature": "1.6622028672961416838586825444241169990370516021704978324024166522",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "1.0005811e-76",
+      "b": "1/2",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "1.8115283282684582835880146728316471876285246423064463045123469962e-285",
+      "q": "2pi",
+      "quadrature": "-1.0005810911878954202693718603541400440597678547233597885929806442e-76",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "2.2639198e-72",
+      "b": "1/2",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.13562558197128999599170935922708928111833935442552098655248684117",
+      "q": "10",
+      "quadrature": "0.13562558197128999599170935922708928111833935442552098655248684117",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": "8.8952536e-76",
+      "b": "1/2",
+      "evidence": "70-digit numerical diagnostic, not an enclosure",
+      "formula": "0.0000004954974420293417231119837144804250297267132598105314699657645899",
+      "q": "25",
+      "quadrature": "0.0000004954974420293417231119837144804250297267132598105314699657645899",
+      "status": "PASS"
+    }
+  ],
+  "proof": {
+    "filename": "COMPACT_POLE_PACKET.md",
+    "sha256": "8106f3483adb71ab7ca4e5c105bfd6464dfa46954a1e1e77d2c77900392e19dc"
+  },
+  "runtime": {
+    "mpmath": "1.3.0",
+    "python": "3.14.3",
+    "sympy": "1.14.0"
+  },
+  "status": "PASS"
+}

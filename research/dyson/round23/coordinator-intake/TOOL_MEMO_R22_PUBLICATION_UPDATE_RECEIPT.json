@@ -1,0 +1,9 @@
+{
+  "artifact": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/outputs/TRANSFERABLE_MATH_TOOLS_FOR_ASTRA.md",
+  "bytes": 72764,
+  "sha256": "ccd2a2c263fe0e75bc4fd6f651891b35b00e7634d51429ee3b28443dc3495c04",
+  "previous_sha256": "35e6e88be8744f0224a5b8b7ef833f19fe265a4815c6a15453480e0a1a4179ee",
+  "public_checkpoint": "1c1335d74807dc1588077a9ac94c88f5aa02a54c",
+  "scope": "Top checkpoint refreshed; R22 actual target and verification scope appended; all prior mathematical sections retained",
+  "display_math_pairs": 78
+}

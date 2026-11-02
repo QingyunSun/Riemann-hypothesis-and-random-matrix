@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-05",
+  "native_suites_passed": [
+    "fmpz_vec",
+    "fmpz_poly",
+    "arb",
+    "arb_poly"
+  ],
+  "binding_selected_tests_passed": 10,
+  "full_binding_suite": "aborted at unsupported Jacobi denominator, recorded separately",
+  "official_regression_unchanged": true,
+  "files": [
+    {
+      "path": "/Users/qingyunsun/.cache/astra-research/flint-3.6.0-patched/prefix/lib/libflint.24.0.dylib",
+      "sha256": "baa95b3482a8e15032cee7c61b986c4d200ec5316c83c9d856b73229407769ba",
+      "bytes": 14558288
+    },
+    {
+      "path": "/Users/qingyunsun/.cache/astra-research/flint-3.6.0-patched/venv/lib/python3.12/site-packages/flint/types/fmpz_poly.cpython-312-darwin.so",
+      "sha256": "468ddcbc14b50b562cc670f50ca50997ba55b47299a496a407daefc4b5fd418a",
+      "bytes": 226400
+    },
+    {
+      "path": "build_runtime.sh",
+      "sha256": "8e1e498b63f8678ddfe1c1a4a08dbc1c92552cacbab4c496cb532fa07fb0e877",
+      "bytes": 1505
+    },
+    {
+      "path": "build_python_binding.sh",
+      "sha256": "113ee5ff8af1dd444079baf0624ec48b55db28b24e655d1d2d6f318fe0321b82",
+      "bytes": 1065
+    },
+    {
+      "path": "signed_convolution_check.py",
+      "sha256": "4bb4eb669827c5298d5ee3cd5acb014c63f28cc7317bf27b72e27eec8be72f0a",
+      "bytes": 4179
+    },
+    {
+      "path": "corrected-runtime-check.json",
+      "sha256": "6ff7ff3aa707955cd623b8759e19ec8dd7735da4c17fa7b99ae7cf9a11668627",
+      "bytes": 917
+    }
+  ]
+}

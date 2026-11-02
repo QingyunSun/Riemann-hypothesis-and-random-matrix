@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact SymPy radicals, rational Sturm root counts and symbolic identities",
+  "gram_matrices": [
+    {
+      "points": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8
+      ],
+      "det_nonzero": "166/27",
+      "charpoly_nonzero": "lambda**3 - 6*lambda**2 + 11*lambda - 166/27"
+    },
+    {
+      "points": [
+        3,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "det_nonzero": "158/27",
+      "charpoly_nonzero": "lambda**3 - 6*lambda**2 + 11*lambda - 158/27"
+    }
+  ],
+  "root_intervals": [
+    [
+      "-1",
+      "-4/5"
+    ],
+    [
+      "-1/5",
+      "0"
+    ],
+    [
+      "1",
+      "11/10"
+    ]
+  ],
+  "positive_root_certified_interval": [
+    "512996725791664/480713251525711",
+    "3237412451448511/3033678360547005"
+  ],
+  "trace": 6,
+  "trace_square": 14,
+  "trace_cube_difference": "8/9",
+  "clipped_trace_difference": "2-2*a^2 < 0, where a>1 solves a^3-a-4/27=0",
+  "acue_tilt_expectation_change": "epsilon*(1-a^2)/36",
+  "inactive_clipping_negative_control": {
+    "tau": 4,
+    "both_traces": 8
+  },
+  "diagnostic_decimals_only": {
+    "a": "1.067157446073080252716967",
+    "clipped_difference": "-0.2776500294184383753806"
+  },
+  "scope": "Finite three-mode circular Gram example; not Knausgard's Euclidean window and not an actual-zeta theorem."
+}

@@ -1,0 +1,92 @@
+{
+  "author_files": [
+    {
+      "bytes": 21089,
+      "path": "research-round27/mixed-moment-test/MIXED_MOMENT_DIRECTION_TEST.md",
+      "sha256": "b338a3210061055f6ad5899fd168175ba2c85d6225f80f71e6cd48098923cdc5"
+    },
+    {
+      "bytes": 1412,
+      "path": "research-round27/mixed-moment-test/AUTHOR_RECEIPT.json",
+      "sha256": "050a9b3beafaecbc4cc474ab7024522329ba540333500781d63fe9c8976be757"
+    },
+    {
+      "bytes": 3786,
+      "path": "research-round27/mixed-moment-test/source_receipt.json",
+      "sha256": "63434fd13e09c53376c805ed3f7712fb5a9ce2ee3f180f54d8f6ba5aa9c68444"
+    },
+    {
+      "bytes": 1808,
+      "path": "research-round27/mixed-moment-test/check_mixed_moment_algebra.py",
+      "sha256": "9b410aa1edec6ce3b46c917fd844dd3def56d38ede634b197e2e31d0caf02f21"
+    },
+    {
+      "bytes": 773,
+      "path": "research-round27/mixed-moment-test/mixed_moment_checks.json",
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584"
+    }
+  ],
+  "author_files_edited_by_reviewer": false,
+  "corrections_before_author_freeze": [
+    "Three derivatives, not two, give the displayed square Poisson error.",
+    "Positive composite generalization needs distinct p,q<=Q<r with pq>Q.",
+    "Crude pure CRT budget superseded by actual smooth completion; independently derived here and included as author Lemma2.",
+    "Author repaired five LaTeX control bytes before freeze."
+  ],
+  "date": "2026-09-05",
+  "decision": "Accepted after corrections; unconditional actual mixed lemma and summably evaluated pure finite-divisor main, plus exact Hilbert direction. No strict covariance bound.",
+  "independent_refinement": "Pure finite-divisor packet error O(YQ^6/X^3)=O(Y^5/X^3); global sum O(log(T)^5 T^(-1/2)); no Mobius cancellation needed.",
+  "review_files": [
+    {
+      "bytes": 20033,
+      "path": "research-round27/mixed-moment-review/INDEPENDENT_MIXED_MOMENT_REVIEW.md",
+      "sha256": "99c844b4fad7117a4c562825e001844e6cf6682d93278a77ed3da6d26528bf02"
+    },
+    {
+      "bytes": 6066,
+      "path": "research-round27/mixed-moment-review/source_and_replay_checks.json",
+      "sha256": "e11ad304087ee9345e1732b438352f27cbf77f72b1694012b44156918885fb08"
+    },
+    {
+      "bytes": 773,
+      "path": "research-round27/mixed-moment-review/independent_mixed_moment_checks.json",
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584"
+    },
+    {
+      "bytes": 773,
+      "path": "research-round27/mixed-moment-review/independent_mixed_moment_checks.log",
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584"
+    },
+    {
+      "bytes": 1550,
+      "path": "research-round27/mixed-moment-review/check_math_syntax.cjs",
+      "sha256": "98aff45c629c232e234d3e25898c1fe45c7eaa8f2a8936a8dec22d3b2df26176"
+    },
+    {
+      "bytes": 287,
+      "path": "research-round27/mixed-moment-review/math_syntax_checks.json",
+      "sha256": "f7a6860a2a73d32358faf83deb177016a180602ae144acc84c6a4b5615e56d63"
+    },
+    {
+      "bytes": 6945,
+      "path": "research-round27/mixed-moment-review/sources/COORDINATOR_GY_TOOL_INTAKE.md",
+      "sha256": "51e8493fd9a08a239881ef138ef1147e44a21e66d47aae778a10ac50393d8b0a"
+    }
+  ],
+  "reviewer": "Plato",
+  "scope_limits": [
+    "GY primary statement and selected proof audit, not entire-paper verification.",
+    "Mixed logarithmic errors do not yield a strict genuine-prime covariance bound.",
+    "Gram projection gives lower variance bounds unless an upper residual norm is additionally proved.",
+    "Global separation-dependent cutoff is not one fixed interval observable.",
+    "Inherited global Z=O(1) remains distinct from growing local error estimates."
+  ],
+  "status": "frozen",
+  "verification": {
+    "all_pass": true,
+    "author_pins": 7,
+    "copied_exact_checks": 15,
+    "json_and_stdout_byte_identical": true,
+    "source_pins": 9
+  }
+}

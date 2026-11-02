@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-05",
+  "scope": "Author sections 1,2,6: exact actual packet, prime-power error, legitimate unit extension, actual weight separation. No author edits.",
+  "decision": "accepted for the specified smooth packet only",
+  "files": [
+    {
+      "path": "research-round10/shift-average/SMOOTH_SHIFT_COMPLETION_BOUND.md",
+      "sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+      "bytes": 13008
+    },
+    {
+      "path": "research-round10/shift-average/ACTUAL_KERNEL_AND_PRIME_POWER_REVIEW.md",
+      "sha256": "df6d6602ce9b68ac4759a8cbb8a3caad84d82b4694105a3bb466a9a69fd22732",
+      "bytes": 6575
+    },
+    {
+      "path": "research-round10/shift-average/actual_kernel_review_checks.json",
+      "sha256": "9d08ac30ae446453b8f1ee76b32c9e95b5322c7825d33c41d2c7b1f8fa3061a6",
+      "bytes": 452
+    },
+    {
+      "path": "research-round9/factorization-covariance/COMPLEMENTARY_MODULI_TYPE_I_BRIDGE.md",
+      "sha256": "982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a",
+      "bytes": 14048
+    }
+  ]
+}

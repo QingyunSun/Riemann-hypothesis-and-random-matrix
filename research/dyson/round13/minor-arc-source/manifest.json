@@ -1,0 +1,7 @@
+{
+  "report": "MINOR_ARC_AND_FIXED_INTERVAL_AUDIT.md",
+  "sha256": "bbdb17478b9e885570b7b49c3ff9b94b0ceb98f12a41743edb1ce492cb50edc4",
+  "status": "completed ordinary mathematical audit; no numerical scan or enclosure",
+  "source_receipt": "sources/receipt.json",
+  "scope": "genuine-prime minor arcs; fixed inner interval period variance; centered unit mask; ordinary-RH q=1 extraction"
+}

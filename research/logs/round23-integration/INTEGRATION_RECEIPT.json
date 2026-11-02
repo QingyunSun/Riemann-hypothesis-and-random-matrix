@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "original_files": 55,
+  "original_bytes": 646019,
+  "public_verbatim_files": 53,
+  "public_verbatim_bytes": 366277,
+  "dependency_records_verified": 238,
+  "existing_bounded_replays": [
+    {
+      "author": "even-pair-dispersion/upper_wing_completion_checks.json",
+      "independent": "even-pair-dispersion-review/independent_author_checks.json",
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "byte_identical": true
+    },
+    {
+      "author": "even-pair-dispersion/upper_wing_completion_checks.log",
+      "independent": "even-pair-dispersion-review/independent_author_checks.log",
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de",
+      "byte_identical": true
+    },
+    {
+      "author": "mod3-centering/mod6_centering_checks.json",
+      "independent": "mod6-root-review/replay/mod6_centering_checks.json",
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "byte_identical": true
+    },
+    {
+      "author": "mod3-centering/mod6_centering_checks.log",
+      "independent": "mod6-root-review/replay/mod6_centering_checks.log",
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8",
+      "byte_identical": true
+    },
+    {
+      "author": "growing-wheel-centering/wheel_norm_algebra_checks.json",
+      "independent": "growing-wheel-review/replayed_wheel_norm_checks.json",
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "byte_identical": true
+    },
+    {
+      "author": "growing-wheel-centering/wheel_norm_algebra_checks.log",
+      "independent": "growing-wheel-review/replayed_wheel_norm_checks.log",
+      "sha256": "31e6e7f1a307adee99b382e01758f2ff94d8b29732f300a07c7e3df494c2475b",
+      "byte_identical": true
+    }
+  ],
+  "new_mathematical_reruns_for_integration": 0,
+  "new_prime_heights": 0,
+  "new_pdf_build": false,
+  "formal_verification": false,
+  "strict_arithmetic_bound_proved": false,
+  "mathematics": "Actual upper-window component removal, unconditional fixed-six normalization, and growing-wheel norm/conditional RH heat comparison. Strict quadratic target open.",
+  "preservation": "All original source bytes unchanged; coordinator late R22 singleton review is newly preserved here and does not rewrite R22 freeze.",
+  "historical_relative_links_without_public_target": [],
+  "preserved_source_eof_blank_lines": [
+    "research/dyson/round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+    "research/dyson/round23/coordinator-r22-review/COORDINATOR_COMPLETE_SINGLETON_REVIEW.md",
+    "research/dyson/round23/coordinator-r22-review/SINGLETON_RENORMALIZATION.md",
+    "research/dyson/round23/coordinator-r22-review/check_singleton_renormalization.py",
+    "research/dyson/round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+    "research/dyson/round23/even-pair-dispersion/check_upper_wing_completion.py"
+  ],
+  "math_expressions_checked": 1375,
+  "editorial_links_checked": 70,
+  "late_coordinator_review": "Complete R22 main singleton review newly preserved in R23; R22 pending-at-freeze unchanged.",
+  "copied_historical_receipt_resolution": "Coordinator R22 publication receipt paths resolved in the R22 source tree, exactly as its snapshot scope requires."
+}

@@ -1,0 +1,49 @@
+{
+  "status": "complete bounded source and ordinary-math audit; missing arithmetic estimate remains open",
+  "python": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "python_version": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "mpmath_version": "1.3.0",
+  "artifacts": [
+    {
+      "name": "DYSON_ACTUAL_ZETA_FRONTIER.md",
+      "bytes": 17526,
+      "sha256": "3b8eb5fb9efc2f53af550db64c1e8eef7233f8be83564e906357b3acf00a0301",
+      "words": 2238,
+      "control_characters": [],
+      "display_delimiters": 52
+    },
+    {
+      "name": "POISSON_TRANSFER_REVIEW.md",
+      "bytes": 3945,
+      "sha256": "fc7959a2f6147380709467776add8e4a59aa255747e46c70cad413d808e64b36",
+      "words": 490,
+      "control_characters": [],
+      "display_delimiters": 6
+    },
+    {
+      "name": "kernel_identity_check.py",
+      "bytes": 3790,
+      "sha256": "d5fb544b4b54804054f6f893cc853c043b7b30a5d4933625cefb87281176e4fd"
+    },
+    {
+      "name": "kernel_identity_check.json",
+      "bytes": 1436,
+      "sha256": "c70fc7b26d340689befa7a4380b0bd4f777acc3d6b3b1e3b3b107326baf5bc96"
+    },
+    {
+      "name": "kernel_identity_check.log",
+      "bytes": 1436,
+      "sha256": "c70fc7b26d340689befa7a4380b0bd4f777acc3d6b3b1e3b3b107326baf5bc96"
+    },
+    {
+      "name": "download_manifest.json",
+      "bytes": 1869,
+      "sha256": "a7bd5c6fb5876864567f87025aeefcd4b29d850f3d8e8c52c6927618eef78920"
+    }
+  ],
+  "primary_pdfs_downloaded": 7,
+  "primary_storage_scope": "local references; do not duplicate primary PDFs or extracted text into public repository",
+  "mathematical_checks": "ordinary Fubini/explicit-formula derivation; independent AH periodicity challenge and root Poisson transfer review",
+  "numerical_checks": "60-digit finite normalization check; not an interval or asymptotic certificate",
+  "proved_new_actual_zeta_bound": false
+}

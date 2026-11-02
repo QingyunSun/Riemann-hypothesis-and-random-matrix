@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Exact normalization, denominator, prefix algebra and probability-kernel checks. No numerical zeros, no positive deficit, no proof of the separately proposed length-average identity.",
+  "author_sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+  "script_sha256": "371b2bfd2365cc1a85225817cfd73695961965b32bf456194df10b9d6528b8d9",
+  "sympy_version": "1.14.0",
+  "envelope_fourier_multiplier": "1+cos(pi*alpha)",
+  "envelope_lower_bound": "1/(2*pi^2*(1+u^2))",
+  "cos_integral": "0",
+  "low_band_pair_mass": "7/3",
+  "uniform_pair_envelope_factor": "6*pi^2 for sufficiently large heights",
+  "normalization_ratio_identities": "PASS: upper and lower y branches",
+  "prefix_algebra_cases": 3159,
+  "probability_kernel_total_mass": 1,
+  "probability_kernel_antiderivative": "2*(-y/(y**2 + 1) + atan(y))/pi",
+  "probability_kernel_lower_bound_on_half_to_two": "16/(25*pi)",
+  "conditional_deficit_lower_coefficient": "2*d^2/(25*pi*A)",
+  "conditional_length_average_dependency": "Not verified by this checker; must be independently proved."
+}

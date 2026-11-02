@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "scope": "Existing CSV row/positive-mass validation, reaggregation and array byte/schema checks only. No sieve, event integration, high-precision replay or new height.",
+  "results": [
+    {
+      "T": 100,
+      "rows": 16384,
+      "integration_cells": 22390,
+      "reaggregated": {
+        "weighted_midpoint": 0.12040603689230812,
+        "weighted_lower_analytic_only": 0.12038446489799257,
+        "weighted_upper_analytic_only": 0.12042761326326347
+      }
+    },
+    {
+      "T": 300,
+      "rows": 16384,
+      "integration_cells": 75568,
+      "reaggregated": {
+        "weighted_midpoint": 0.13610580052150242,
+        "weighted_lower_analytic_only": 0.1360831762934787,
+        "weighted_upper_analytic_only": 0.13612843033194771
+      }
+    },
+    {
+      "T": 1000,
+      "rows": 16384,
+      "integration_cells": 762447,
+      "reaggregated": {
+        "weighted_midpoint": 0.15427941816818927,
+        "weighted_lower_analytic_only": 0.15425379577415585,
+        "weighted_upper_analytic_only": 0.15430504552365013
+      }
+    }
+  ],
+  "arrays": {
+    "n": {
+      "shape": [
+        389500
+      ],
+      "dtype": "int32"
+    },
+    "prime_base": {
+      "shape": [
+        389500
+      ],
+      "dtype": "int32"
+    },
+    "exponent": {
+      "shape": [
+        389500
+      ],
+      "dtype": "uint8"
+    }
+  },
+  "array_semantic_sha256": "492dd4b01e0bedccd60ab4111f53c43dd58f57e30e57f3db307bd65e3e045c47"
+}

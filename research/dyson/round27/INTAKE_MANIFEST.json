@@ -1,0 +1,345 @@
+{
+  "original_files": 48,
+  "original_bytes": 1992602,
+  "public_verbatim_files": 41,
+  "public_verbatim_bytes": 199627,
+  "source_edits": [],
+  "files": [
+    {
+      "path": "coordinator-mixed-review/COORDINATOR_MIXED_MOMENT_REVIEW.md",
+      "bytes": 6643,
+      "sha256": "f2b97b24cfeec7ac4d06f43e58c3d47abc5d9b789ef4797cdc18e37f1de5072f",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-mixed-review/COORDINATOR_MIXED_MOMENT_REVIEW_RECEIPT.json",
+      "bytes": 2003,
+      "sha256": "4ef9d6e191c02c501c2e75bb7c65f4cb71f00def74a1f1fc858f165907a01d8c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-mixed-review/MIXED_MOMENT_DIRECTION_TEST_AUTHOR_FROZEN.md",
+      "bytes": 21089,
+      "sha256": "b338a3210061055f6ad5899fd168175ba2c85d6225f80f71e6cd48098923cdc5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-sieve-intake/GOLDSTON_YILDIRIM_TOOL_INTAKE.md",
+      "bytes": 6945,
+      "sha256": "51e8493fd9a08a239881ef138ef1147e44a21e66d47aae778a10ac50393d8b0a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-sieve-intake/SOURCE_INTAKE_RECEIPT.json",
+      "bytes": 1455,
+      "sha256": "71115814e7d23a18a702a4df46ee43289aea475fa4c0c6270b7a76cde2ff2e2e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/INDEPENDENT_JOINT_DISPERSION_REVIEW.md",
+      "bytes": 20835,
+      "sha256": "fd21347c625d394a1a31ce5eb1b5fc0519ae46d68313a8cd8f0607afdbeab603",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/REVIEW_RECEIPT.json",
+      "bytes": 3979,
+      "sha256": "20b177ac8dee673a3a12f536a51c47521ac8d38e82e5fc83a4a15700411f49e3",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/check_math_syntax.cjs",
+      "bytes": 1554,
+      "sha256": "fc48fd497b44307aaf1456e637a0b4162b2d6466d865b0d4ead207b8b9b8abad",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/independent_exact_check_results.json",
+      "bytes": 869,
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/independent_exact_check_stdout.log",
+      "bytes": 869,
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "ec907dca8bcc1517de00552e0f42c628ff4119f26d9bf592192430a890260ae5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/replay_review_checks.py",
+      "bytes": 3210,
+      "sha256": "a251e68dc507436ded86c9c85d67b60d64f75c77aa60f95d81867c62f86d2cf6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/source_and_replay_checks.json",
+      "bytes": 5328,
+      "sha256": "3eb0583232af1d42918b158b57501455dbe9610c934b62198e9e7d37a6b12f65",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-review/terminology_delta_check.json",
+      "bytes": 1742,
+      "sha256": "912a20f4d0b96bb4d5537d27af6ac972fbd9f2bd3230404831900a599af6d980",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/AUTHOR_RECEIPT.json",
+      "bytes": 2283,
+      "sha256": "b4edc07a335966503d1696188565d931aade096b464b68968c7019ecd8ed4190",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+      "bytes": 17690,
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/check_joint_dispersion.py",
+      "bytes": 3595,
+      "sha256": "6ed90f5a81b71bf4729626e2d7281572a66e358ffdd12820dabb5471a20a8ea3",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/exact_check_results.json",
+      "bytes": 869,
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/exact_check_stdout.log",
+      "bytes": 869,
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/historical-before-coefficient-terminology/AUTHOR_RECEIPT.json",
+      "bytes": 1927,
+      "sha256": "98be34fde7912e573c72266c080806d4871d37c5fb08efde49b05c45c51e53cd",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/historical-before-coefficient-terminology/JOINT_DISPERSION_TEST.md",
+      "bytes": 17672,
+      "sha256": "c7012e375b62263ec472dcb45e362caebca6d8719fe5080c7476a1f4b0d94e5b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/historical-before-coefficient-terminology/exact_check_results.json",
+      "bytes": 869,
+      "sha256": "2fa0db823fe5b555aaa846394bddae9bdc9bc18001c9753cf5e837489e7520fe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/historical-before-coefficient-terminology/exact_check_stdout.log",
+      "bytes": 869,
+      "sha256": "2fa0db823fe5b555aaa846394bddae9bdc9bc18001c9753cf5e837489e7520fe",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/math_syntax_check.json",
+      "bytes": 74,
+      "sha256": "774f4d6684294727a6725afde1522ff5a90c3ba5b45ea82a6650ee143c077770",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/source_manifest.json",
+      "bytes": 4950,
+      "sha256": "719bbd0c0250a7764e1203c2dbff4d6a7cbb6332120e66d375d06a6419f265be",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "joint-dispersion-test/sources/cccc-page-01.png",
+      "bytes": 142264,
+      "sha256": "dbfe7e7ee14706e57830f74dd6b62a15a4a5ea76547381ce97bb3519b967124b",
+      "public_verbatim": false,
+      "omission_reason": "Full primary source retained locally"
+    },
+    {
+      "path": "joint-dispersion-test/sources/mv-page-59.png",
+      "bytes": 114493,
+      "sha256": "dbe2ed19f5ceb0185422858e9f18aabaf04d530fdc68b197a460a4cbbcada12f",
+      "public_verbatim": false,
+      "omission_reason": "Full primary source retained locally"
+    },
+    {
+      "path": "joint-dispersion-test/sources/prime186-page-10.png",
+      "bytes": 203253,
+      "sha256": "531c588cda839a273b801ebe3ab32ad9eef790ea52633f0327101701bebeb28d",
+      "public_verbatim": false,
+      "omission_reason": "Full primary source retained locally"
+    },
+    {
+      "path": "mixed-moment-review/INDEPENDENT_MIXED_MOMENT_REVIEW.md",
+      "bytes": 20033,
+      "sha256": "99c844b4fad7117a4c562825e001844e6cf6682d93278a77ed3da6d26528bf02",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-review/REVIEW_RECEIPT.json",
+      "bytes": 3904,
+      "sha256": "33527e16005d513134e2e34b9e39bf8b51a0e3f4f986892840e7c27cd91cd515",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-review/check_math_syntax.cjs",
+      "bytes": 1550,
+      "sha256": "98aff45c629c232e234d3e25898c1fe45c7eaa8f2a8936a8dec22d3b2df26176",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-review/independent_mixed_moment_checks.json",
+      "bytes": 773,
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-review/independent_mixed_moment_checks.log",
+      "bytes": 773,
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-review/math_syntax_checks.json",
+      "bytes": 287,
+      "sha256": "f7a6860a2a73d32358faf83deb177016a180602ae144acc84c6a4b5615e56d63",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-review/source_and_replay_checks.json",
+      "bytes": 6066,
+      "sha256": "e11ad304087ee9345e1732b438352f27cbf77f72b1694012b44156918885fb08",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-review/sources/COORDINATOR_GY_TOOL_INTAKE.md",
+      "bytes": 6945,
+      "sha256": "51e8493fd9a08a239881ef138ef1147e44a21e66d47aae778a10ac50393d8b0a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/AUTHOR_RECEIPT.json",
+      "bytes": 1412,
+      "sha256": "050a9b3beafaecbc4cc474ab7024522329ba540333500781d63fe9c8976be757",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/MIXED_MOMENT_DIRECTION_TEST.md",
+      "bytes": 21089,
+      "sha256": "b338a3210061055f6ad5899fd168175ba2c85d6225f80f71e6cd48098923cdc5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/check_math_syntax.cjs",
+      "bytes": 1102,
+      "sha256": "04602aba8ef7910453d45a0044da18717c8e1247244955eb4d1a19bfccf2815c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/check_mixed_moment_algebra.py",
+      "bytes": 1808,
+      "sha256": "9b410aa1edec6ce3b46c917fd844dd3def56d38ede634b197e2e31d0caf02f21",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/math_syntax_check.json",
+      "bytes": 78,
+      "sha256": "2eecd9da841a9726d33374957bf1d714b1f14c1b4343a790cf005612b8f6728c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/mixed_moment_checks.json",
+      "bytes": 773,
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/mixed_moment_checks.log",
+      "bytes": 773,
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/source_receipt.json",
+      "bytes": 3786,
+      "sha256": "63434fd13e09c53376c805ed3f7712fb5a9ce2ee3f180f54d8f6ba5aa9c68444",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "mixed-moment-test/sources/goldston-yildirim-I-0111212v1.pdf",
+      "bytes": 485661,
+      "sha256": "a2a867d18cbdfb31ef5765b9fa8900f0c746d70568e332eecb1c3cabd22df5f5",
+      "public_verbatim": false,
+      "omission_reason": "Full primary source retained locally"
+    },
+    {
+      "path": "mixed-moment-test/sources/goldston-yildirim-I-0111212v1.txt",
+      "bytes": 214221,
+      "sha256": "7ec8cafd7c3eb9e7ac4301684808b5cf94f9f7ed1dbd2bf148be429e79b2a5c6",
+      "public_verbatim": false,
+      "omission_reason": "Full primary source retained locally"
+    },
+    {
+      "path": "mixed-moment-test/sources/goldston-yildirim-II-0412366v1.pdf",
+      "bytes": 418416,
+      "sha256": "edbe0a686cab8d386d20781b0aff362edca99c8688aa713e31cf5bcf74c72443",
+      "public_verbatim": false,
+      "omission_reason": "Full primary source retained locally"
+    },
+    {
+      "path": "mixed-moment-test/sources/goldston-yildirim-II-0412366v1.txt",
+      "bytes": 214667,
+      "sha256": "2c74e6f99e456d7f0533dab6140025f1ea3bb2eea453af3bdac01c741d79df00",
+      "public_verbatim": false,
+      "omission_reason": "Full primary source retained locally"
+    }
+  ]
+}

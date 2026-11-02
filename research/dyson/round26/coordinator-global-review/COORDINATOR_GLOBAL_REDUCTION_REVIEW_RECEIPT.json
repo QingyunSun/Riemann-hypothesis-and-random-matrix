@@ -1,0 +1,42 @@
+{
+  "verdict": "Accepted ordinary global RH reduction using explicit inherited R21/R22 inputs; strict signed covariance bound unproved",
+  "author_files": [
+    {
+      "source_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "frozen_path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r26/global-reduction/FULL_SHIFT_REDUCTION_AUTHOR_FROZEN.md",
+      "bytes": 22834,
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    },
+    {
+      "source_path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+      "frozen_path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r26/global-reduction/REFINED_SINGULAR_CORRECTION_AUTHOR_FROZEN.md",
+      "bytes": 14577,
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe"
+    }
+  ],
+  "review": {
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r26/global-reduction/COORDINATOR_GLOBAL_REDUCTION_REVIEW.md",
+    "bytes": 6740,
+    "sha256": "72a075853c4f3e5ca08a587415c7aa18cd2ff96e0d8016a0619b497a70070080"
+  },
+  "independent_exact_checks": {
+    "primitive_Y_exponent": "-14/3",
+    "principal_mask_Y_exponent": "-12",
+    "joint_RH_Y_exponent": "101/150",
+    "cofactor_grid_T_exponent": "-19/12",
+    "joint_RH_T_exponent": "-17/60",
+    "upper_length_tail_T_exponent": "-27/4",
+    "primitive_log_exponent": "-7/3",
+    "principal_mask_log_exponent": "-2",
+    "flat_center_log_exponent": "-1",
+    "singular_remainder_log_exponent": "-9/8"
+  },
+  "not_done": [
+    "No author checker replay",
+    "No new audit of inherited R22 upper sieve proof or R21 variance transfer",
+    "No Lean build",
+    "No numerical covariance scan",
+    "No public-repository or archive integrity review"
+  ],
+  "scope_change": "Actual full height/length partition; additional M1 constant; symmetric variance constant 2M; new Q_j=Y_j^(2/3)"
+}

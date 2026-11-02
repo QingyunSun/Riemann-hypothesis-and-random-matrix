@@ -1,0 +1,6 @@
+PASS: exact exponent ledger and lower constant 1/131072.
+PASS: unit-mask Fourier completion in Q(zeta_35) and exact centered variance.
+PASS: finite residue bounds and integer Dirichlet-cutoff inequalities.
+PASS: three primary-source hashes and the inherited arithmetic support hash.
+Report SHA256: 7f4285cb02241e22bdb29a1ad4952f7ab8249e3ec3bef984455a57ae05e41ebb
+Script SHA256: 4cff005e205f02ea1083be61547a46995e9acbbefdb817812d1a66c6fcdc7650

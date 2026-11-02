@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "name": "small_cofactor_exponent",
+      "status": "PASS",
+      "value": "477/1000"
+    },
+    {
+      "name": "physical_shift_over_cofactor_gap",
+      "status": "PASS",
+      "value": "753/11000"
+    },
+    {
+      "name": "strong_bad_row_power",
+      "status": "PASS",
+      "value": "391/900"
+    },
+    {
+      "name": "coarse_bad_row_power",
+      "status": "PASS",
+      "value": "91/900"
+    },
+    {
+      "name": "RH_norm_lower_power",
+      "status": "PASS",
+      "value": "3/11"
+    },
+    {
+      "name": "RH_norm_upper_power",
+      "status": "PASS",
+      "value": "5/18"
+    },
+    {
+      "name": "relative_RH_lower_power",
+      "status": "PASS",
+      "value": "1/22"
+    },
+    {
+      "name": "relative_RH_upper_power",
+      "status": "PASS",
+      "value": "1/18"
+    }
+  ],
+  "report_sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73",
+  "scope": "Eight exact exponent identities only; ordinary proofs require independent review.",
+  "status": "PASS"
+}

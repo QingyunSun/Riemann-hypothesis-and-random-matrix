@@ -1,0 +1,5 @@
+PASS: exact 186 parameter inequalities and complementary-family exponents.
+PASS: 300 exact Mobius-log convolution identities.
+PASS: five exact progression/discrepancy decompositions, including nonprimitive terms.
+No numerical asymptotic, zeta bound, or prime-gap improvement is asserted.
+Report SHA256: 982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a

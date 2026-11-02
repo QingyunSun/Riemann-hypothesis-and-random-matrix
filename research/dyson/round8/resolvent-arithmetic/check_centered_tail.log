@@ -1,0 +1,6 @@
+PASS: exact rational constants and two finite-step integral checks.
+PASS: actual zeta check at Re(s)=3 lies within its elementary tail bound.
+B = 0.45609397932923172150163281621939135
+1/16 - B = -0.39359397932923172150163281621939135
+Critical-strip rows are diagnostics only; no 1/16 theorem is established.
+Output: /Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round8/resolvent-arithmetic/check_centered_tail.json

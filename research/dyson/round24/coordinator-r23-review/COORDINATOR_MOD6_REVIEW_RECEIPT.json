@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-05",
+  "status": "accepted ordinary proof for fixed modulus six",
+  "review": {
+    "bytes": 7536,
+    "sha256": "3dafd94b7e9fa4ec1e0ff23791a22ee0f5990677706784162823d97576b3fe26",
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r23/mod6/COORDINATOR_MOD6_REVIEW.md"
+  },
+  "author": {
+    "bytes": 17011,
+    "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e"
+  },
+  "owner_review": {
+    "bytes": 9883,
+    "sha256": "9e6850f2da9558c9ae068c49e57fbe8b51d931fe96bc72c4044f38a44421b242"
+  },
+  "seven_source_dependency_pins_verified": true,
+  "dlmf_fixed_ap_pnt_paragraph_read_live": true,
+  "coordinator_checker_execution": false,
+  "checker_code_review": false,
+  "lean_build": false,
+  "new_prime_samples": false,
+  "r23_publication_verified": false,
+  "strict_arithmetic_bound_proved": false
+}

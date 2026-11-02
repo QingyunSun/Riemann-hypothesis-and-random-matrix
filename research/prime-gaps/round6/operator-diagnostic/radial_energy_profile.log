@@ -1,0 +1,25 @@
+{
+  "status": "Exploratory diagnostic of the frozen radial projection only",
+  "input": "radial_residual_n98304_cut1e-09_tilt20_compact.npz",
+  "input_sha256": "b283cab182b0b32091f24ac898def31cc263fa6af1a4540b30721e8122b80c77",
+  "energy_quantiles": {
+    "0.01": 0.6136765055373699,
+    "0.05": 0.825784297496572,
+    "0.1": 0.8946975387149496,
+    "0.25": 0.9457845412285271,
+    "0.5": 0.9540332956918097,
+    "0.75": 0.9713280424853159,
+    "0.9": 0.9822980355344236,
+    "0.95": 0.9905467899977062,
+    "0.99": 1.0201083701038776
+  },
+  "peak_radial": 0.9559891859253715,
+  "energy_above_1_fraction": 0.04394283814276323,
+  "inner_cutoffs": {
+    "T0": 0.952044383043129,
+    "T1": 0.9561944831006911
+  },
+  "outer_radius_S": 1.044955616956871,
+  "rounding_convention": "Negative q values are set to zero for the plot; h is already zero there.",
+  "interpretation_limit": "Concentration near an inner cutoff does not prove causation or bound the uncomputed full residual. Product-weight mass is G^2 mass, not the optimized f^2 mass."
+}

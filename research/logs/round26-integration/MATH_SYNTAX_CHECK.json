@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "research/dyson/round26/SOURCE_LINK_MAP.md",
+      "sha256": "b641d00468e0a2fce7f2c84fb43a1d83a5c8b2238c271f116b30ff80b8c04989",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/COORDINATOR_GLOBAL_REDUCTION_REVIEW.md",
+      "sha256": "72a075853c4f3e5ca08a587415c7aa18cd2ff96e0d8016a0619b497a70070080",
+      "mathExpressions": 3,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/FULL_SHIFT_REDUCTION_AUTHOR_FROZEN.md",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6",
+      "mathExpressions": 305,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round26/coordinator-global-review/REFINED_SINGULAR_CORRECTION_AUTHOR_FROZEN.md",
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe",
+      "mathExpressions": 164,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6",
+      "mathExpressions": 305,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round26/global-reduction-review/INDEPENDENT_GLOBAL_REDUCTION_REVIEW.md",
+      "sha256": "92d728c2f5d97f1e66b3582647cb2c66ef9c94203c2427ca3f439caca671e729",
+      "mathExpressions": 258,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round26/singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe",
+      "mathExpressions": 164,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/reports/dyson_round26.md",
+      "sha256": "a5dda62943722d1d4a90d25bcfb75f8bbe618a116951ff1586d767958e5e10fe",
+      "mathExpressions": 111,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

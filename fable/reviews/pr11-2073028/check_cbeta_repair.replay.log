@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Exact finite algebra only; no Cbeta density theorem or stochastic simulation.",
+  "sympy_version": "1.14.0",
+  "finite_CUE": [
+    {
+      "N": 2,
+      "q2_coefficient": "1/16",
+      "density_at_q_2pi": "1"
+    },
+    {
+      "N": 3,
+      "q2_coefficient": "2/27",
+      "density_at_q_2pi": "1"
+    },
+    {
+      "N": 5,
+      "q2_coefficient": "2/25",
+      "density_at_q_2pi": "1"
+    }
+  ],
+  "triple_integrals": {
+    "1": "eps**3*w**2/6 + eps**2*w**3/6",
+    "2": "eps**5*w**3/15 + eps**4*w**4/8 + eps**3*w**5/15",
+    "4": "eps**9*w**5/45 + eps**8*w**6/12 + 6*eps**7*w**7/49 + eps**6*w**8/12 + eps**5*w**9/45"
+  },
+  "nonuniform_distance_ratio": "(delta + 1/2)/delta",
+  "partition_N2_beta2_actual_over_2pi_squared": 2,
+  "partition_N2_beta2_source_over_2pi_squared": 4
+}

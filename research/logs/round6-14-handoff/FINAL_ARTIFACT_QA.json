@@ -1,0 +1,195 @@
+{
+  "status": "PASS: completed artifact fidelity and visual review",
+  "source_checkpoint": "2a9ec8192ca8aed1cfdd1bad648c3a3a429e31ba",
+  "scope": "Source preservation, mathematical typesetting and layout only; no mathematical claim upgraded by document assembly.",
+  "supplement": {
+    "markdown": "docs/handoff/ASTRA_ROUNDS_6_14_HANDOFF.md",
+    "markdown_sha256": "94feffadb99109d87e14fecc5aaa6e816cfa856a85763cc3dd78f702178cb486",
+    "pdf": "output/pdf/ASTRA_ROUNDS_6_14_HANDOFF.pdf",
+    "pdf_sha256": "1092c6f1e81a9c13bc3106ffe3943f15ff742c7c794729c99233c8ebc805033a",
+    "pages": 313,
+    "complete_source_reports": 69,
+    "source_objects_verified": 297,
+    "rendered_pages": 313,
+    "render_dpi": 85,
+    "katex_errors": 0,
+    "dom_overflow_issues": 0,
+    "blank_body_pages": [],
+    "visual_coverage": {
+      "v1_reviewed_pages": 314,
+      "exact_inherited_v2_page_bodies": 263,
+      "individually_reopened_unmatched_v2_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        200,
+        203,
+        204,
+        208,
+        209,
+        211,
+        215,
+        217,
+        220,
+        226,
+        227,
+        239,
+        242,
+        244,
+        252,
+        257,
+        264,
+        266,
+        267,
+        268,
+        269,
+        271,
+        272,
+        278,
+        282,
+        285,
+        287,
+        289,
+        290,
+        291,
+        292,
+        293,
+        296,
+        299,
+        303,
+        304,
+        306,
+        309,
+        313
+      ],
+      "additional_boundary_pages": [
+        199,
+        201
+      ],
+      "comparison": "v2/page_body_comparison.json",
+      "review": "v2/visual-review-aquinas.md"
+    },
+    "source_table_repair": {
+      "raw_source_rows": [
+        46,
+        47,
+        50
+      ],
+      "equivalent_bar_replacements": 8,
+      "final_pdf_page": 70,
+      "source_mutation": false,
+      "independent_semantic_review": "v2/table-semantic-review-euclid.md"
+    },
+    "blank_page_repair": {
+      "old_blank_page": 200,
+      "final_report_40_start_page": 200,
+      "no_source_text_deleted": true
+    },
+    "accepted_layout": "Sparse report-ending pages retain natural whitespace; all reports and formulas remain complete."
+  },
+  "public_complete": {
+    "pdf_sha256": "720377f333a5bf0cd03810df5186368baa4aeb1d251a3636540a17138699d06e",
+    "markdown_sha256": "c284185491a44d63c77b2274b221c60b7c3ae5065e07c2d1d148a0a46f4599f7",
+    "pages": 705,
+    "volume_offsets": [
+      0,
+      313,
+      646
+    ],
+    "complete_text_preservation": "PASS",
+    "all_pages_raster_compared": 705,
+    "exactly_matching_source_pages": 690,
+    "differing_pages_reviewed": [
+      56,
+      84,
+      116,
+      129,
+      139,
+      169,
+      184,
+      204,
+      244,
+      272,
+      660,
+      666,
+      680,
+      688,
+      695
+    ],
+    "difference_size": "1–3 RGB pixels/page; maximum channel difference20 at55dpi; not labelled pixel-identical.",
+    "boundary_pages_reviewed": [
+      313,
+      314,
+      315,
+      646,
+      647,
+      648,
+      705
+    ],
+    "raster_receipt": "public-merged-raster-qa.json"
+  },
+  "local_complete": {
+    "pdf_sha256": "29ee51439bef7a2d5f6b39ea8c0bb83de69027656f6cf0dc20b072e913de9a15",
+    "markdown_sha256": "477e26ec4ac7cd49a65d9350a164a38e14033c3c350af94ca21ce8c5bd19bf10",
+    "pages": 753,
+    "volume_offsets": [
+      0,
+      313,
+      694
+    ],
+    "complete_text_preservation": "PASS",
+    "all_pages_raster_compared": 753,
+    "exactly_matching_source_pages": 738,
+    "differing_pages": [
+      56,
+      84,
+      116,
+      129,
+      139,
+      169,
+      184,
+      204,
+      244,
+      272,
+      708,
+      714,
+      728,
+      736,
+      743
+    ],
+    "difference_review": "All15 are pixel-identical to their reviewed public counterparts; checked each merged pixel hash.",
+    "additional_private_boundary_pages_reviewed": [
+      694,
+      695,
+      696,
+      753
+    ],
+    "private_body_and_raster_receipt": "retained only in adjacent Astra-Local-Archive"
+  },
+  "source_visual_qa": {
+    "earlier_public": "research/logs/public-pdf-visual-qa.json",
+    "earlier_local": "adjacent Astra-Local-Archive/pdf-visual-text-qa.json",
+    "rounds4_5": "docs/handoff/ROUNDS_4_5_PDF_QA.json"
+  },
+  "final_root_visual_review": "All15 differing public merged pages and11 combined boundary/end pages inspected on7 original-pixel contact sheets. No missing content, clipped formula, overlap or broken boundary observed. Supplement independently covers every final body through exact mapping plus all unmatched-page review.",
+  "qa_limitations": [
+    "PDF text extraction can be lossy for overlaid math glyphs; source Markdown and immutable source files remain the machine-readable mathematics.",
+    "No claim of external peer review or proof-assistant verification."
+  ],
+  "retention": "All source/final page renders, including unsuccessful v1, remain in the local QA archive; public receipts retain their hashes and mappings.",
+  "tools": {
+    "tools/build_round6_14_handoff.py": "c7cbaa3c0ee722f683f946cf82b5624415771ffc5ce838e4c34a3322e23da00f",
+    "tools/build_complete_handoff.py": "8f810620322965b479880973619bd462dcd9cb30bb5b468688126ca76cb96189",
+    "tools/render_handoff.cjs": "053602a1f9e4d71e5c89b4584eacf0e6cd28c76269ef6046cf2e7bef0623d6d3",
+    "tools/inspect_pdf_pages.py": "c3f1840f7cc2e41a66fd5ac5eb82c08b73ceaf31264da873d3f741c1dda5b454",
+    "tools/check_merged_pdf.py": "300cea04b1fa9bcc5db411092c349710a12fd91a1ccc5c409b47ef94eed15a45"
+  }
+}

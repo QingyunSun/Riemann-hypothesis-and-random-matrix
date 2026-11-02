@@ -1,0 +1,89 @@
+{
+  "status": "independent numerical normalization checks pass; not rigorous quadrature enclosures",
+  "base_Gram_max_abs_difference": 1.9173551635276453e-13,
+  "base_numerator_max_abs_difference": 9.073332363218611e-13,
+  "old_source_sha256": "29318c9b0176f7a056d0b1372a00c4f7ccea5228caa53d91882396a3e7556fdb",
+  "marked_moment_checks": [
+    {
+      "a": 1,
+      "v": 0.50001,
+      "mark_error": -3.3881317890172014e-21,
+      "mark_S2_error": -6.205363371585004e-18
+    },
+    {
+      "a": 1,
+      "v": 0.6,
+      "mark_error": 0.0,
+      "mark_S2_error": -6.938893903907228e-18
+    },
+    {
+      "a": 1,
+      "v": 0.9,
+      "mark_error": -1.1102230246251565e-16,
+      "mark_S2_error": -1.1102230246251565e-16
+    },
+    {
+      "a": 1,
+      "v": 1.0,
+      "mark_error": -1.1102230246251565e-16,
+      "mark_S2_error": -1.1102230246251565e-16
+    },
+    {
+      "a": 1.1664,
+      "v": 0.9,
+      "powers": [],
+      "direct_t_integral": 0.5245684811399268,
+      "jacobi_integral": 0.5245684811399258,
+      "difference": -9.992007221626409e-16,
+      "quad_reported_error": 9.547918011776346e-15
+    },
+    {
+      "a": 1.1664,
+      "v": 0.9,
+      "powers": [
+        2
+      ],
+      "direct_t_integral": 0.25547578593491094,
+      "jacobi_integral": 0.25547578593491105,
+      "difference": 1.1102230246251565e-16,
+      "quad_reported_error": 3.0531133177191805e-15
+    },
+    {
+      "a": 1.1664,
+      "v": 0.9,
+      "powers": [
+        3
+      ],
+      "direct_t_integral": 0.17141091836854216,
+      "jacobi_integral": 0.17141091836854147,
+      "difference": -6.938893903907228e-16,
+      "quad_reported_error": 8.104628079763643e-15
+    },
+    {
+      "a": 1.1664,
+      "v": 0.9,
+      "powers": [
+        2,
+        2
+      ],
+      "direct_t_integral": 0.13347916576872773,
+      "jacobi_integral": 0.13347916576872776,
+      "difference": 2.7755575615628914e-17,
+      "quad_reported_error": 1.96787031114809e-14
+    },
+    {
+      "a": 1.1664,
+      "v": 0.9,
+      "powers": [
+        2,
+        2,
+        2
+      ],
+      "direct_t_integral": 0.07457966098609296,
+      "jacobi_integral": 0.07457966098609294,
+      "difference": -2.7755575615628914e-17,
+      "quad_reported_error": 4.8183679268731794e-14
+    }
+  ],
+  "enlarged_margin_order_spread": 1.3600232051658168e-15
+}

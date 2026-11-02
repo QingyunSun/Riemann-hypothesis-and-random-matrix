@@ -1,0 +1,108 @@
+{
+  "source_sha256": "7f71bdefcfe3bb5ca76a143929b3cb3f4156c21dc483253cda3077420f1e5de4",
+  "cutoff": "3223021475/16127932416",
+  "cutoff_cells": 18800,
+  "tilt": 45.0,
+  "large_fragment_cap": "31942200065/64511729664",
+  "p_min": "46553812426148881/211678306563379200",
+  "row": {
+    "ladder": "new",
+    "index": 24,
+    "source_order": 3,
+    "previous": "1099802567363706218283122175337799591/123138916334223719004671382108000000000",
+    "omega": "101724117357800816316223132569097394023/9851113306737897520373710568640000000000",
+    "delta": "457904731345327565332519629582563809/61569458167111859502335691054000000000",
+    "B": "31884531650919635969450967702337799591/16161921199408696007503616565983946000",
+    "upper_B": "111500106262707617235202207596917278001/56215378084899812200012579359944160000",
+    "xi": "457904731345327565332519629582563809/16161921199408696007503616565983946000",
+    "a": "16430591763736936545249922448197799591/16161921199408696007503616565983946000",
+    "b": "14996041312783188570054475858126541591/16161921199408696007503616565983946000",
+    "A": "14400682015049/13781139750220",
+    "C": "13177452424989/13781139750220",
+    "eta_D": "457901652872419209739544512798011109/16161921199408696007503616565983946000",
+    "eta_E": "457901652872419209739544512798011109/16161921199408696007503616565983946000",
+    "owner_model": "capped_outer_linear",
+    "owner_plateau": "13177452424989/23967199565600"
+  },
+  "normalization_hZ_float": 0.021218132541184157,
+  "published_normalized_I_interval": [
+    2.3685317816e-14,
+    2.368531789e-14
+  ],
+  "alpha_credit_coefficient": 0.9991146615600052,
+  "status": "Randomized QMC of an exact lower-bound integral, not a certified numeric lower endpoint.",
+  "runs": [
+    {
+      "owner": "distinct",
+      "power": 16,
+      "seed": 240905,
+      "samples": 65536,
+      "accepted": 4271,
+      "alpha_normalized_estimate": 1.007455163681303e-19,
+      "alpha_over_I_upper_estimate": 4.253500706049856e-06,
+      "credit_over_I_upper_estimate": 4.249734918370246e-06,
+      "iid_se_diagnostic_only": 4.749818467113952e-21,
+      "weighted_total": 1.031927593131924,
+      "weighted_p": 0.2929404942240922,
+      "weighted_q": 0.3614912911712175,
+      "max_weight": 9.084428348389894e-17
+    },
+    {
+      "owner": "distinct",
+      "power": 16,
+      "seed": 240906,
+      "samples": 65536,
+      "accepted": 4150,
+      "alpha_normalized_estimate": 9.269921733837548e-20,
+      "alpha_over_I_upper_estimate": 3.913783963926164e-06,
+      "credit_over_I_upper_estimate": 3.910318940537065e-06,
+      "iid_se_diagnostic_only": 4.520766132510665e-21,
+      "weighted_total": 1.0317917225716957,
+      "weighted_p": 0.29344512845518134,
+      "weighted_q": 0.36254823382927376,
+      "max_weight": 8.763971660833874e-17
+    },
+    {
+      "owner": "same",
+      "power": 16,
+      "seed": 240905,
+      "samples": 65536,
+      "accepted": 4586,
+      "alpha_normalized_estimate": 1.3222027678767502e-19,
+      "alpha_over_I_upper_estimate": 5.582372902983023e-06,
+      "credit_over_I_upper_estimate": 5.577430613665626e-06,
+      "iid_se_diagnostic_only": 6.0273470956007405e-21,
+      "weighted_total": 1.031291037681591,
+      "weighted_p": 0.2935844336225538,
+      "weighted_q": 0.3652363890757983,
+      "max_weight": 1.6905423916129268e-16
+    },
+    {
+      "owner": "same",
+      "power": 16,
+      "seed": 240906,
+      "samples": 65536,
+      "accepted": 4547,
+      "alpha_normalized_estimate": 1.3368551501852165e-19,
+      "alpha_over_I_upper_estimate": 5.6442356247607725e-06,
+      "credit_over_I_upper_estimate": 5.639238565997783e-06,
+      "iid_se_diagnostic_only": 6.083027997042541e-21,
+      "weighted_total": 1.0317682410876423,
+      "weighted_p": 0.29480919420730467,
+      "weighted_q": 0.363513524259075,
+      "max_weight": 1.299070230764748e-16
+    }
+  ],
+  "summary": {
+    "distinct": {
+      "mean_alpha_over_I_upper": 4.0836423349880095e-06,
+      "across_scrambles_se": 1.6985837106184622e-07
+    },
+    "same": {
+      "mean_alpha_over_I_upper": 5.613304263871898e-06,
+      "across_scrambles_se": 3.093136088887493e-08
+    },
+    "combined_alpha_over_I_upper_estimate": 9.696946598859908e-06
+  },
+  "elapsed_seconds": 0.6604644159669988
+}

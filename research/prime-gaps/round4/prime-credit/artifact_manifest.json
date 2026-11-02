@@ -1,0 +1,83 @@
+{
+  "scope": "PrimeGaps186 retained alpha credit, round4; no gap improvement claimed",
+  "updated_utc": "2026-09-05T08:10:58.321844+00:00",
+  "files": [
+    {
+      "name": "alpha_credit.py",
+      "bytes": 9148,
+      "sha256": "2a0a69dcb0f9b7e3b97947005c1dc8c4f4c6a3202bd8009eb9ce62b938d90fea"
+    },
+    {
+      "name": "alpha_credit_margin_replay.json",
+      "bytes": 1093,
+      "sha256": "ea36828b36fb09163db0b967afc3365840895245ab2a93f06e0da080f63ee2c8"
+    },
+    {
+      "name": "alpha_credit_p16.json",
+      "bytes": 4261,
+      "sha256": "6011e05140169f07874c0534ea0db3e26be30e9d57be9d3e3f192120e4be9aa8"
+    },
+    {
+      "name": "alpha_credit_p20.json",
+      "bytes": 10658,
+      "sha256": "15bbff5445106ffeb1f211cdc512371474c185fb05d2c9a18fe1c380a79d23b1"
+    },
+    {
+      "name": "alpha_rectangle_certificate.json",
+      "bytes": 27030,
+      "sha256": "009b6e23a124f8ff815c2f93da101ad7ebfbbf63dc1c2748936bdfb29c257e16"
+    },
+    {
+      "name": "alpha_rectangle_certificate.log",
+      "bytes": 8429,
+      "sha256": "c0a83da2ec2da19d225a576a291e893c211254f73d61820a02966bcf2ca37c86"
+    },
+    {
+      "name": "alpha_rectangle_kernel_checks.json",
+      "bytes": 983,
+      "sha256": "a0300ce44b5b8856915074c7809bd5643ba1f2218660733de463408221743342"
+    },
+    {
+      "name": "alpha_rectangle_p19.json",
+      "bytes": 6427,
+      "sha256": "55b4b934c25a178e4dfb0fc2fcef9fc6bfeffa1e36216cb01d6b35e71915cead"
+    },
+    {
+      "name": "alpha_rectangle_tilt35.json",
+      "bytes": 6432,
+      "sha256": "b843ec07d5f12ff8b475383fb93ac7dd76528865337902173a3180af28110620"
+    },
+    {
+      "name": "alpha_rectangle_tilt35.log",
+      "bytes": 3882,
+      "sha256": "e0d528a238fd5d37620bfd68bb66e594c0871e9a75b155b4855175cce50f93d1"
+    },
+    {
+      "name": "certify_alpha_rectangle.py",
+      "bytes": 6725,
+      "sha256": "28260e465561a22f84599f22f095d592d34bd0cc0737ae2b56950c3052ddfab8"
+    },
+    {
+      "name": "exact_cell_anchor.json",
+      "bytes": 912,
+      "sha256": "f891863db09c5ba66f65cdadec9ab66e6e0c7d13dab30ba8bb8bb08dd52ee572"
+    },
+    {
+      "name": "exact_cell_anchor.py",
+      "bytes": 3076,
+      "sha256": "a645bd173f5fcc8e043ffd2ca64d17fbae41ed474d52913dd8dad7bf4ff6599f"
+    },
+    {
+      "name": "prime_alpha_credit.md",
+      "bytes": 15421,
+      "sha256": "59791f04d6917f447382083612eea4c311f3ec74cb427c37cbac49619ba046ec"
+    },
+    {
+      "name": "replay_credit_margin.py",
+      "bytes": 1549,
+      "sha256": "7ea24cbcde545630ae8a196a780ac870a9f4ef0e4c7f5be4946437781db11747"
+    }
+  ],
+  "certificate_runtime": "/Users/qingyunsun/.cache/astra-research/flint-3.6.0-patched/venv/bin/python",
+  "official_clone_unchanged": true
+}

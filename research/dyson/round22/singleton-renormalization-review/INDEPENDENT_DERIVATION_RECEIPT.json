@@ -1,0 +1,75 @@
+{
+  "checker": {
+    "bytes": 3756,
+    "path": "research-round22/singleton-renormalization-review/check_singleton_renormalization.py",
+    "sha256": "8d12ec1d43b218962cc38fe31a14218fe8cb1831a0552d59c99cbdd076b47779"
+  },
+  "checks": {
+    "author_source_edits": false,
+    "beta_moments": 4,
+    "compact_polynomial_hinge_cases": 12,
+    "json_log_byte_identical": true,
+    "new_prime_heights": false,
+    "parameter_sweep": false,
+    "renormalization_identity": "exact PASS",
+    "report_control_bytes": 0,
+    "report_display_math_pairs": 35
+  },
+  "independent_math_scope": [
+    "Exact forward/backward marginal comparison with signed f second derivative",
+    "Uniform Beta(2,T-2) log moment at n/T and moving support endpoints",
+    "Prime-weighted remainder via Chebyshev rather than pointwise Lambda bound",
+    "Absolute tails, including saturated primitive when m>U",
+    "Unconditional o(1) singleton correction using PNT; RH quantitative corollary",
+    "No strict quadratic pair estimate or AH refutation"
+  ],
+  "live_primary_source": {
+    "access_date": "2026-09-05",
+    "checked_statement": "Ordinary PNT is equivalent to \u03a8(x)=x+o(x). No quantitative PNT rate inferred.",
+    "url": "https://dlmf.nist.gov/25.16.E3"
+  },
+  "outputs": [
+    {
+      "bytes": 4235,
+      "path": "research-round22/singleton-renormalization-review/singleton_renormalization_checks.json",
+      "sha256": "e7c296ef2e75087a31908d0239ed938362c7a5013fb793c5818a4de20a675ec7"
+    },
+    {
+      "bytes": 4235,
+      "path": "research-round22/singleton-renormalization-review/singleton_renormalization_checks.log",
+      "sha256": "e7c296ef2e75087a31908d0239ed938362c7a5013fb793c5818a4de20a675ec7"
+    }
+  ],
+  "report": {
+    "bytes": 11171,
+    "path": "research-round22/singleton-renormalization-review/INDEPENDENT_SINGLETON_DERIVATION.md",
+    "sha256": "33b28a289e504973bd75800099e9758869a550f5f116b29798b2b3ffa2451aea"
+  },
+  "runtime": {
+    "python": "3.14.3",
+    "sympy": "1.14.0"
+  },
+  "sources": [
+    {
+      "bytes": 21504,
+      "path": "research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+    },
+    {
+      "bytes": 18273,
+      "path": "research-round21/strict-arithmetic-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+      "sha256": "459f438da25a2b37e915abe39ad4b624e8cc490cec89642465821c0dde217655"
+    },
+    {
+      "bytes": 275525,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.pdf",
+      "sha256": "4814387da412faf35d86f7e5d84a789cfa6743b08a6dff1e47fbc7632d7a8176"
+    },
+    {
+      "bytes": 104037,
+      "path": "research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.txt",
+      "sha256": "8f00b857564f48f187284592e9feba4c22ddbab4b4e1958bc0c7231029b8c10f"
+    }
+  ],
+  "status": "Frozen independent ordinary derivation submitted for root/peer cross-review; no strict pair bound claimed."
+}

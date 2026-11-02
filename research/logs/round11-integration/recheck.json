@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "public_verbatim_files_verified": 15,
+  "primary_186_source_sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+  "checks": [
+    {
+      "script": "conductor-arithmetic/check_conductor_construction.py",
+      "output": "conductor-arithmetic/conductor_construction_certificate.json",
+      "structured_match": true,
+      "excluded_fields": [
+        "primary_source.path (temporary-copy provenance only)"
+      ]
+    },
+    {
+      "script": "prime-frequency/check_small_arc_bound.py",
+      "output": "prime-frequency/check_small_arc_bound.json",
+      "structured_match": true,
+      "excluded_fields": []
+    }
+  ],
+  "scope": "Exact exponent, counting constant and finite frequency bookkeeping checks. Ordinary written proofs and independent reviews support the RH analytic estimate and asymptotic PNT construction.",
+  "large_computations": "None; no prime realization, zeta sample, coefficient scan or optimizer"
+}

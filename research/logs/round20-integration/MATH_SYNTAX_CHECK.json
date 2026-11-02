@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "research/dyson/round20/SOURCE_LINK_MAP.md",
+      "sha256": "86c4a790dbdfe664335d703cbb171c755d2babca770d06d24a3cd71d21a8d2de",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/height-regularity/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "mathExpressions": 111,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/actual-prime-variance/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+      "sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9",
+      "mathExpressions": 24,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/actual-prime-variance/REPRODUCTION.md",
+      "sha256": "7b41a1f50369ba6cdf0a738b690c1457eb8015bbaa5eb12ad79cc6ef1b600b7f",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/length-average-review/INDEPENDENT_EXPONENTIAL_LENGTH_REVIEW.md",
+      "sha256": "951f578b625a3cdc0057ce09fe9d4d91cffef29c487eeac9135d440905142fda",
+      "mathExpressions": 95,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/root-review/ROOT_ROUND20_REVIEW.md",
+      "sha256": "425f589e8851d39df3f824378989e2a476751d7ada41f3d8b0519fb63bff432b",
+      "mathExpressions": 36,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/coordinator-review/R20_TOOL_APPENDIX_DRAFT.md",
+      "sha256": "fc8bb7c1e40bed4e45892195de236a7ec17268ef3893f43ad78e40d92c95ca67",
+      "mathExpressions": 34,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/coordinator-review/TRANSFERABLE_MATH_TOOLS_FOR_ASTRA.md",
+      "sha256": "5692c77e3dfaaea8e86cd1c348ee251886d21dcc57d9a1f51de01e341857da23",
+      "mathExpressions": 122,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/coordinator-review/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "mathExpressions": 111,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/coordinator-review/ACTUAL_PRIME_VARIANCE_DIAGNOSTIC.md",
+      "sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9",
+      "mathExpressions": 24,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/coordinator-review/TRANSFERABLE_MATH_TOOLS_R19_PUBLISHED.md",
+      "sha256": "a9540214e886ea485a61892dcacd645591dc65e101c5945fb3af40a1bb15f5cd",
+      "mathExpressions": 122,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/coordinator-review/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "mathExpressions": 192,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/coordinator-review/TRANSFERABLE_MATH_TOOLS_THROUGH_R17.md",
+      "sha256": "11f74de893f6bac4740e2f9b9f0e74b333358c1e242302156bf0508a2a374c6e",
+      "mathExpressions": 44,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/height-regularity-review/INDEPENDENT_HEIGHT_REVIEW.md",
+      "sha256": "674a947633c4544cd8d838c1e5588cb1fe802827dabee4b95b60a0ecf76bdc18",
+      "mathExpressions": 76,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe",
+      "mathExpressions": 192,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round20/height-regularity-review/height-replay-j0pj6ox1/MULTIPLICATIVE_HEIGHT_EQUICONTINUITY.md",
+      "sha256": "6048b8792084d1523212ddd5f0c05dcc5b54fb158c3dab37762675e91a1072fe",
+      "mathExpressions": 111,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/reports/dyson_round20.md",
+      "sha256": "4758742d5bf3fbe36695a96e396f1de6208be7dbf4cfbaee130a958a9f7552bc",
+      "mathExpressions": 63,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

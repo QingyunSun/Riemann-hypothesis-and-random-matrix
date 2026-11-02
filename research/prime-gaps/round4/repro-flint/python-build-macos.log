@@ -1,0 +1,226 @@
+Using Python 3.12.9 environment at: /Users/qingyunsun/.cache/astra-research/flint-3.6.0-patched/venv
+Resolved 2 packages in 1ms
+   Building python-flint==0.9.0
+  × Failed to build `python-flint==0.9.0`
+  ├─▶ The build backend returned an error
+  ╰─▶ Call to `mesonpy.build_wheel` failed (exit status: 1)
+
+      [stdout]
+      + meson setup
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/.mesonpy-_q3zyeim
+      -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md
+      --native-file=/Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/.mesonpy-_q3zyeim/meson-python-native-file.ini
+      The Meson build system
+      Version: 1.12.0
+      Source dir:
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src
+      Build dir:
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/.mesonpy-_q3zyeim
+      Build type: native build
+      Project name: python-flint
+      Project version: undefined
+      C compiler for the host machine: cc (clang 17.0.0 "Apple clang version
+      17.0.0 (clang-1700.0.13.5)")
+      C linker for the host machine: cc ld64 1167.5
+      Cython compiler for the host machine: cython (cython 3.2.9)
+      Host machine cpu family: aarch64
+      Host machine cpu: aarch64
+      Program python found: YES
+      (/Users/qingyunsun/.cache/uv/builds-v0/.tmp90RLXL/bin/python)
+      Run-time dependency gmp found: YES 6.3.0
+      Run-time dependency mpfr found: YES 4.2.2
+      Run-time dependency flint found: YES 3.6.0
+      Message: Enabling freethreading
+      Found pkg-config: YES (/opt/homebrew/bin/pkg-config) 2.5.1
+      Run-time dependency python found: YES 3.12
+      Build targets in project: 39
+
+      python-flint undefined
+
+        User defined options
+          Native files:
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/.mesonpy-_q3zyeim/meson-python-native-file.ini
+          b_ndebug    : if-release
+          b_vscrt     : md
+          buildtype   : release
+
+      Found ninja-1.13.2.git.kitware.jobserver-pipe-1 at
+      /Users/qingyunsun/.cache/uv/builds-v0/.tmp90RLXL/bin/ninja
+      + /Users/qingyunsun/.cache/uv/builds-v0/.tmp90RLXL/bin/ninja
+      [1/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/flint_base/flint_context.pyx
+      [2/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpq_vec.pyx
+      [3/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/pyflint.pyx
+      [4/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_vec.pyx
+      [5/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpq.pyx
+      [6/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/nmod.pyx
+      [7/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz.pyx
+      [8/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpq_mat.pyx
+      [9/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/flint_base/flint_base.pyx
+      [10/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/nmod_mpoly.pyx
+      [11/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_mpoly.pyx
+      [12/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_mat.pyx
+      [13/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpq_poly.pyx
+      [14/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/nmod_series.pyx
+      [15/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/nmod_poly.pyx
+      [16/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpq_mpoly.pyx
+      [17/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_series.pyx
+      [18/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpq_series.pyx
+      [19/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_mod.pyx
+      [20/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_poly.pyx
+      [21/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/nmod_mat.pyx
+      [22/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/acb_theta.pyx
+      [23/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_mod_mat.pyx
+      [24/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_mod_poly.pyx
+      [25/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fmpz_mod_mpoly.pyx
+      [26/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/arf.pyx
+      [27/117] Compiling C object
+      src/flint/pyflint.cpython-312-darwin.so.p/meson-generated_pyflint.pyx.c.o
+      [28/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/dirichlet.pyx
+      [29/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fq_default.pyx
+      [30/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/arb_poly.pyx
+      [31/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/arb_mat.pyx
+      [32/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/fq_default_poly.pyx
+      [33/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/functions/showgood.pyx
+      [34/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/acb_poly.pyx
+      [35/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/arb.pyx
+      [36/117] Compiling C object
+      src/flint/flint_base/flint_context.cpython-312-darwin.so.p/meson-generated_flint_context.pyx.c.o
+      [37/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/arb_series.pyx
+      [38/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/acb.pyx
+      [39/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/acb_mat.pyx
+      [40/117] Compiling C object
+      src/flint/types/fmpz_vec.cpython-312-darwin.so.p/meson-generated_fmpz_vec.pyx.c.o
+      [41/117] Compiling C object
+      src/flint/types/fmpz_series.cpython-312-darwin.so.p/meson-generated_fmpz_series.pyx.c.o
+      [42/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/acb_series.pyx
+      [43/117] Compiling C object
+      src/flint/types/fmpz.cpython-312-darwin.so.p/meson-generated_fmpz.pyx.c.o
+      [44/117] Compiling C object
+      src/flint/types/fmpq_vec.cpython-312-darwin.so.p/meson-generated_fmpq_vec.pyx.c.o
+      [45/117] Compiling C object
+      src/flint/types/nmod.cpython-312-darwin.so.p/meson-generated_nmod.pyx.c.o
+      [46/117] Compiling Cython source
+      /Users/qingyunsun/.cache/uv/sdists-v9/pypi/python-flint/0.9.0/rCOZOlQqCwwqQi4N5KIgs/src/src/flint/types/_gr.pyx
+      [47/117] Compiling C object
+      src/flint/types/nmod_series.cpython-312-darwin.so.p/meson-generated_nmod_series.pyx.c.o
+      [48/117] Compiling C object
+      src/flint/types/fmpq.cpython-312-darwin.so.p/meson-generated_fmpq.pyx.c.o
+      [49/117] Compiling C object
+      src/flint/types/fmpq_mat.cpython-312-darwin.so.p/meson-generated_fmpq_mat.pyx.c.o
+      [50/117] Compiling C object
+      src/flint/types/fmpz_poly.cpython-312-darwin.so.p/meson-generated_fmpz_poly.pyx.c.o
+      [51/117] Compiling C object
+      src/flint/types/fmpz_mat.cpython-312-darwin.so.p/meson-generated_fmpz_mat.pyx.c.o
+      [52/117] Compiling C object
+      src/flint/types/fmpq_series.cpython-312-darwin.so.p/meson-generated_fmpq_series.pyx.c.o
+      [53/117] Compiling C object
+      src/flint/types/fmpz_mod.cpython-312-darwin.so.p/meson-generated_fmpz_mod.pyx.c.o
+      [54/117] Compiling C object
+      src/flint/types/nmod_mat.cpython-312-darwin.so.p/meson-generated_nmod_mat.pyx.c.o
+      [55/117] Compiling C object
+      src/flint/types/fmpq_poly.cpython-312-darwin.so.p/meson-generated_fmpq_poly.pyx.c.o
+      [56/117] Compiling C object
+      src/flint/types/acb_theta.cpython-312-darwin.so.p/meson-generated_acb_theta.pyx.c.o
+      [57/117] Compiling C object
+      src/flint/types/fmpz_mpoly.cpython-312-darwin.so.p/meson-generated_fmpz_mpoly.pyx.c.o
+      [58/117] Compiling C object
+      src/flint/types/arf.cpython-312-darwin.so.p/meson-generated_arf.pyx.c.o
+      [59/117] Compiling C object
+      src/flint/types/arb_poly.cpython-312-darwin.so.p/meson-generated_arb_poly.pyx.c.o
+      [60/117] Compiling C object
+      src/flint/types/nmod_poly.cpython-312-darwin.so.p/meson-generated_nmod_poly.pyx.c.o
+      [61/117] Compiling C object
+      src/flint/types/fmpz_mod_mat.cpython-312-darwin.so.p/meson-generated_fmpz_mod_mat.pyx.c.o
+      [62/117] Linking target src/flint/pyflint.cpython-312-darwin.so
+      FAILED: [code=1] src/flint/pyflint.cpython-312-darwin.so
+      cc  -o src/flint/pyflint.cpython-312-darwin.so
+      src/flint/pyflint.cpython-312-darwin.so.p/meson-generated_pyflint.pyx.c.o
+      -Wl,-dead_strip_dylibs -Wl,-headerpad_max_install_names
+      -Wl,-undefined,dynamic_lookup -bundle -Wl,-undefined,dynamic_lookup
+      -Wl,-rpath,/opt/homebrew/Cellar/gmp/6.3.0/lib
+      -Wl,-rpath,/opt/homebrew/Cellar/mpfr/4.2.2/lib
+      -Wl,-rpath,/Users/qingyunsun/.cache/astra-research/flint-3.6.0-patched/prefix/lib
+      /opt/homebrew/Cellar/gmp/6.3.0/lib/libgmp.dylib
+      /opt/homebrew/Cellar/mpfr/4.2.2/lib/libmpfr.dylib
+      -L/opt/homebrew/Cellar/mpfr/4.2.2/lib -lgmp
+      /Users/qingyunsun/.cache/astra-research/flint-3.6.0-patched/prefix/lib/libflint.dylib
+      ld: library 'gmp' not found
+      clang: error: linker command failed with exit code 1 (use -v to see
+      invocation)
+      [63/117] Compiling C object
+      src/flint/types/arb_mat.cpython-312-darwin.so.p/meson-generated_arb_mat.pyx.c.o
+      [64/117] Compiling C object
+      src/flint/types/fq_default.cpython-312-darwin.so.p/meson-generated_fq_default.pyx.c.o
+      [65/117] Compiling C object
+      src/flint/types/dirichlet.cpython-312-darwin.so.p/meson-generated_dirichlet.pyx.c.o
+      [66/117] Compiling C object
+      src/flint/types/fmpq_mpoly.cpython-312-darwin.so.p/meson-generated_fmpq_mpoly.pyx.c.o
+      [67/117] Compiling C object
+      src/flint/types/acb_poly.cpython-312-darwin.so.p/meson-generated_acb_poly.pyx.c.o
+      [68/117] Compiling C object
+      src/flint/flint_base/flint_base.cpython-312-darwin.so.p/meson-generated_flint_base.pyx.c.o
+      [69/117] Compiling C object
+      src/flint/types/nmod_mpoly.cpython-312-darwin.so.p/meson-generated_nmod_mpoly.pyx.c.o
+      [70/117] Compiling C object
+      src/flint/functions/showgood.cpython-312-darwin.so.p/meson-generated_showgood.pyx.c.o
+      [71/117] Compiling C object
+      src/flint/types/acb_mat.cpython-312-darwin.so.p/meson-generated_acb_mat.pyx.c.o
+      [72/117] Compiling C object
+      src/flint/types/fmpz_mod_mpoly.cpython-312-darwin.so.p/meson-generated_fmpz_mod_mpoly.pyx.c.o
+      [73/117] Compiling C object
+      src/flint/types/fmpz_mod_poly.cpython-312-darwin.so.p/meson-generated_fmpz_mod_poly.pyx.c.o
+      [74/117] Compiling C object
+      src/flint/types/arb_series.cpython-312-darwin.so.p/meson-generated_arb_series.pyx.c.o
+      [75/117] Compiling C object
+      src/flint/types/acb_series.cpython-312-darwin.so.p/meson-generated_acb_series.pyx.c.o
+      [76/117] Compiling C object
+      src/flint/types/fq_default_poly.cpython-312-darwin.so.p/meson-generated_fq_default_poly.pyx.c.o
+      [77/117] Compiling C object
+      src/flint/types/arb.cpython-312-darwin.so.p/meson-generated_arb.pyx.c.o
+      [78/117] Compiling C object
+      src/flint/types/acb.cpython-312-darwin.so.p/meson-generated_acb.pyx.c.o
+      [79/117] Compiling C object
+      src/flint/types/_gr.cpython-312-darwin.so.p/meson-generated__gr.pyx.c.o
+      ninja: build stopped: subcommand failed.
+
+      hint: This usually indicates a problem with the package or the build
+      environment.

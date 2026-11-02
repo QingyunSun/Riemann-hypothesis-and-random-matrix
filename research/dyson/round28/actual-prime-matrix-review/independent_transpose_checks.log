@@ -1,0 +1,227 @@
+{
+  "cases": [
+    {
+      "X": 1000000,
+      "evaluations": [
+        {
+          "absolute_over_op": 0.032884921557830335,
+          "all_eigenmodes_unconjugated_expansion_error": 4.440892098500626e-15,
+          "compression_eigenvalues": [
+            7.167609881650813
+          ],
+          "compression_norm_over_op": 0.03288492155783038,
+          "frequency": 0.0,
+          "hermitian_control_real": 7.167609881650806,
+          "independent_pair_imaginary": 0.0,
+          "independent_pair_real": 7.1676098816508045,
+          "plane_compression_pair_error": 2.842170943040401e-14,
+          "scalar_phase_pair_error": 1.7763568394002505e-15,
+          "stored_vector_scalar_phase_max_difference": 0.0,
+          "transpose_minus_Hermitian_absolute": 1.7763568394002505e-15
+        },
+        {
+          "absolute_over_op": 0.3527612227141845,
+          "all_eigenmodes_unconjugated_expansion_error": 4.4938668397781776e-14,
+          "compression_eigenvalues": [
+            -51.627173384518116,
+            95.9559271555359
+          ],
+          "compression_norm_over_op": 0.44024482214033694,
+          "frequency": 1756.8684989418084,
+          "hermitian_control_real": 32.85090602162201,
+          "independent_pair_imaginary": -66.16204375555039,
+          "independent_pair_real": 39.17069984809924,
+          "plane_compression_pair_error": 2.1316282072803006e-14,
+          "scalar_phase_pair_error": 2.0097183471152322e-14,
+          "stored_vector_scalar_phase_max_difference": 1.5515838457795457e-17,
+          "transpose_minus_Hermitian_absolute": 66.46319152674317
+        }
+      ]
+    },
+    {
+      "X": 4000000,
+      "evaluations": [
+        {
+          "absolute_over_op": 0.08869052778165475,
+          "all_eigenmodes_unconjugated_expansion_error": 7.105427357601002e-15,
+          "compression_eigenvalues": [
+            -40.546785757106136
+          ],
+          "compression_norm_over_op": 0.0886905277816548,
+          "frequency": 0.0,
+          "hermitian_control_real": -40.54678575710611,
+          "independent_pair_imaginary": 0.0,
+          "independent_pair_real": -40.54678575710611,
+          "plane_compression_pair_error": 8.526512829121202e-14,
+          "scalar_phase_pair_error": 0.0,
+          "stored_vector_scalar_phase_max_difference": 0.0,
+          "transpose_minus_Hermitian_absolute": 0.0
+        },
+        {
+          "absolute_over_op": 0.47342581272882445,
+          "all_eigenmodes_unconjugated_expansion_error": 6.355287432313019e-14,
+          "compression_eigenvalues": [
+            -212.99360359154497,
+            219.85029461789685
+          ],
+          "compression_norm_over_op": 0.4808923395166111,
+          "frequency": 3046.841660405943,
+          "hermitian_control_real": 4.5682946207564825,
+          "independent_pair_imaginary": 173.81709899020984,
+          "independent_pair_real": 128.96708596552403,
+          "plane_compression_pair_error": 6.355287432313019e-14,
+          "scalar_phase_pair_error": 2.842170943040401e-14,
+          "stored_vector_scalar_phase_max_difference": 9.813077866773595e-18,
+          "transpose_minus_Hermitian_absolute": 213.74621210541116
+        }
+      ]
+    },
+    {
+      "X": 16000000,
+      "evaluations": [
+        {
+          "absolute_over_op": 0.056079183769989056,
+          "all_eigenmodes_unconjugated_expansion_error": 7.105427357601002e-15,
+          "compression_eigenvalues": [
+            -57.05110400273847
+          ],
+          "compression_norm_over_op": 0.05607918376998898,
+          "frequency": 0.0,
+          "hermitian_control_real": -57.05110400273858,
+          "independent_pair_imaginary": 0.0,
+          "independent_pair_real": -57.05110400273855,
+          "plane_compression_pair_error": 1.7763568394002505e-13,
+          "scalar_phase_pair_error": 3.552713678800501e-14,
+          "stored_vector_scalar_phase_max_difference": 0.0,
+          "transpose_minus_Hermitian_absolute": 3.552713678800501e-14
+        },
+        {
+          "absolute_over_op": 0.5483489690346304,
+          "all_eigenmodes_unconjugated_expansion_error": 5.684341886080802e-14,
+          "compression_eigenvalues": [
+            -556.151959837435,
+            559.5521450725308
+          ],
+          "compression_norm_over_op": 0.5500196380232673,
+          "frequency": 4760.911407201188,
+          "hermitian_control_real": 1.9127000414038235,
+          "independent_pair_imaginary": 496.80739680023186,
+          "independent_pair_real": -253.73578005093282,
+          "plane_compression_pair_error": 3.8131724593878115e-13,
+          "scalar_phase_pair_error": 1.1368683772161603e-13,
+          "stored_vector_scalar_phase_max_difference": 7.757919228897728e-18,
+          "transpose_minus_Hermitian_absolute": 558.7250977797086
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "bytes": 7259,
+      "kind": "new_files",
+      "matches": true,
+      "path": "FOLLOWUP_TRANSPOSE_PAIRING.md",
+      "sha256": "858009c2dd603ad8e6956a51a43263d30dc592fb09331c9d44762475c4734ee0"
+    },
+    {
+      "bytes": 3951,
+      "kind": "new_files",
+      "matches": true,
+      "path": "check_transpose_pairing.py",
+      "sha256": "3ba97303ab624759d9d87d86ec1b887ae1d517ac9e92275bf5a5b0b6c081cb1b"
+    },
+    {
+      "bytes": 8146,
+      "kind": "new_files",
+      "matches": true,
+      "path": "transpose_pairing_results.json",
+      "sha256": "7047fa6786731a0edc3ba40e584bf215ed38b6676d3a6bf2908b6522cb1cfb87"
+    },
+    {
+      "bytes": 5409,
+      "kind": "new_files",
+      "matches": true,
+      "path": "transpose_pairing_run.log",
+      "sha256": "e6a40d8b4883a5313c4b269e31b2b615014e751c19a2cdfc84cde53125734ea3"
+    },
+    {
+      "bytes": 1111,
+      "kind": "new_files",
+      "matches": true,
+      "path": "check_transpose_syntax.cjs",
+      "sha256": "c5bd834ddf4899b4ae1c55dfe714eb329fe5233cebcafd0decea3eb4082f7cb6"
+    },
+    {
+      "bytes": 77,
+      "kind": "new_files",
+      "matches": true,
+      "path": "transpose_math_syntax_check.json",
+      "sha256": "f7dd114e68f2752bef649502598929eee49787b57b63dfeef33e7432f3fdf5a2"
+    },
+    {
+      "bytes": 3606,
+      "kind": "new_files",
+      "matches": true,
+      "path": "arrays/transpose_pairing_1000000.npz",
+      "sha256": "a3cf286529b643f12d48cf045eac3f2d3373d92b2eb732b75ea32ba1a5154722"
+    },
+    {
+      "bytes": 6034,
+      "kind": "new_files",
+      "matches": true,
+      "path": "arrays/transpose_pairing_4000000.npz",
+      "sha256": "81f1dec6f2efd6ac07f4d8fc9cb4c684be428d0a2e428c716f87215cf219aeaf"
+    },
+    {
+      "bytes": 10858,
+      "kind": "new_files",
+      "matches": true,
+      "path": "arrays/transpose_pairing_16000000.npz",
+      "sha256": "0577a6f959fb0556ef477da7d911f7017fc675fd66ccdf693b297f03f6b2771c"
+    },
+    {
+      "bytes": 16214,
+      "kind": "unchanged_source_files",
+      "matches": true,
+      "path": "RESULTS.md",
+      "sha256": "acf1ec31909cda5ef788778d10e152d9813eaee97095d9f34adcb2c2b731a722"
+    },
+    {
+      "bytes": 3896,
+      "kind": "unchanged_source_files",
+      "matches": true,
+      "path": "AUTHOR_RECEIPT.json",
+      "sha256": "c29d6feaeaee0f1f643ee8849c8fef7a77b09d111999c1aa60ecdb6ef3f86121"
+    },
+    {
+      "bytes": 6686,
+      "kind": "unchanged_source_files",
+      "matches": true,
+      "path": "mellin_results.json",
+      "sha256": "06624672d6b4739f0575e8125596e9020aeab44ea970b51ada16fbb43d73120e"
+    },
+    {
+      "bytes": 1023988,
+      "kind": "unchanged_source_files",
+      "matches": true,
+      "path": "arrays/case_1000000.npz",
+      "sha256": "1f27e7b8436a6a563898beac94852a72f91dde87d9ebdf75f9369c762212aa8b"
+    },
+    {
+      "bytes": 3995914,
+      "kind": "unchanged_source_files",
+      "matches": true,
+      "path": "arrays/case_4000000.npz",
+      "sha256": "5cf82296f36abb88f1dc8cb6cc72a56daeca4523da28fcd86bb40897556512af"
+    },
+    {
+      "bytes": 15895381,
+      "kind": "unchanged_source_files",
+      "matches": true,
+      "path": "arrays/case_16000000.npz",
+      "sha256": "57c883150b2a75f08af05d04a1e0a9951baf7c8bb4b07d4bf76c519023112b7d"
+    }
+  ],
+  "scope": "Exactly six previously selected frequencies. Floating diagnostics, no interval enclosure or asymptotic estimate. Main input bytes unchanged.",
+  "status": "PASS"
+}

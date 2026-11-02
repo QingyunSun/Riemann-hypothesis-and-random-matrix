@@ -1,0 +1,127 @@
+{
+  "author_files": [
+    {
+      "bytes": 22834,
+      "path": "research-round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    },
+    {
+      "bytes": 1803,
+      "path": "research-round26/full-shift-reduction/AUTHOR_RECEIPT.json",
+      "sha256": "ee739ec077a190962f89f0990c32b5936fc244fc632ad928aa06c6310698cd73"
+    },
+    {
+      "bytes": 5526,
+      "path": "research-round26/full-shift-reduction/source_manifest.json",
+      "sha256": "9c837898f2c221505deecc27c69554f0cbacf7b2dd5267f231b10dd35a3172e1"
+    },
+    {
+      "bytes": 4671,
+      "path": "research-round26/full-shift-reduction/check_full_shift.py",
+      "sha256": "44aed4416f64c413a95c8486b5fc1dd15dbf25e8105f8b5f26bb5c7c272ade8c"
+    },
+    {
+      "bytes": 1152,
+      "path": "research-round26/full-shift-reduction/exact_check_results.json",
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "bytes": 1152,
+      "path": "research-round26/full-shift-reduction/exact_check_stdout.log",
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    }
+  ],
+  "author_files_edited_by_reviewer": false,
+  "date": "2026-09-05",
+  "decision": "Accepted as an ordinary mathematical proof under ordinary RH of the specified full parity-statistic reduction; no strict covariance sign or AH refutation.",
+  "exact_replay": {
+    "companion_checker_replayed": false,
+    "groups": 7,
+    "json_byte_identical": true,
+    "no_prime_heights_or_parameter_scans": true,
+    "scalar_cases": 2793,
+    "stdout_byte_identical": true
+  },
+  "independently_read_companion": [
+    {
+      "bytes": 14577,
+      "path": "research-round26/singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe"
+    },
+    {
+      "bytes": 2280,
+      "path": "research-round26/singular-correction-review/AUTHOR_RECEIPT.json",
+      "sha256": "ad06787e4fe1c8b32d2904266cd15368531aeee0cc5f5059680d3c1281908390"
+    },
+    {
+      "bytes": 3169,
+      "path": "research-round26/singular-correction-review/source_receipt.json",
+      "sha256": "8ef861c990ade4509cbf228f47e7461631ab7316866bac87cf639ec240d24eba"
+    }
+  ],
+  "mathematical_acceptance": [
+    "Uniform mixed derivatives for all actual moving cutoffs and every fixed derivative order.",
+    "Direct q2 small-shift removal, infinite height tail and full Pareto upper-length tail.",
+    "MS Eq47 real-endpoint interpolation and the retained negative one-half f/h transform.",
+    "All nine scale-dependent local errors summed with explicit bounds for Y0=sqrt(logT), Qj=Yj^(2/3).",
+    "Both prime marginals and odd baseline leave the positive single integral correction M1.",
+    "Q2=Z_T+M1+O((logT)^(-1/2)); inherited variance=Z_T+M0+M1+o(1)."
+  ],
+  "mathematical_limits": [
+    "The finite covariance has the specific scale-dependent sharp divisor cutoff and smooth transitions.",
+    "No strict sign or upper bound is proved for Z_T.",
+    "AH and GUE values are only predictions transported through an identity.",
+    "No GRH, phase-twisted SW or two-prime interpretation of the 186 source is assumed."
+  ],
+  "review_delta": "Author added the direct K*2^(-T) small-shift tail proof before freeze after reviewer observation. No displayed formula changed. No author file was modified by the reviewer.",
+  "review_files": [
+    {
+      "bytes": 23124,
+      "path": "research-round26/global-reduction-review/INDEPENDENT_GLOBAL_REDUCTION_REVIEW.md",
+      "sha256": "92d728c2f5d97f1e66b3582647cb2c66ef9c94203c2427ca3f439caca671e729"
+    },
+    {
+      "bytes": 11395,
+      "path": "research-round26/global-reduction-review/source_and_replay_checks.json",
+      "sha256": "917493f027cdf2dafeb03e57ccb034e4ec5db07a3cff5ef1d05698294b35a6ff"
+    },
+    {
+      "bytes": 1152,
+      "path": "research-round26/global-reduction-review/independent_exact_check_results.json",
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "bytes": 1152,
+      "path": "research-round26/global-reduction-review/independent_exact_check_stdout.log",
+      "sha256": "d7d96a46517180436340b9bef8e84dc55d60a675b0ee0470736d3d11ba4ccfa5"
+    },
+    {
+      "bytes": 1554,
+      "path": "research-round26/global-reduction-review/check_math_syntax.cjs",
+      "sha256": "5a1bda4ec20aeed178d7281d2639c4a29382f5ff9e1b1bd96afa1f26dbc640b6"
+    },
+    {
+      "bytes": 287,
+      "path": "research-round26/global-reduction-review/math_syntax_checks.json",
+      "sha256": "9f68d9192045e75d10a4866b9d8c4e4f02f1e1bcefce02ce75f646317612c39f"
+    }
+  ],
+  "reviewer": "Plato",
+  "source_and_author_hash_checks": {
+    "additional_primary_Tao_files": 2,
+    "all_passed": true,
+    "companion_author_receipt_entries": 6,
+    "global_author_receipt_entries": 6,
+    "global_source_manifest_entries": 16
+  },
+  "status": "frozen",
+  "syntax_only_qa": {
+    "controls": [],
+    "errors": [],
+    "katexVersion": "0.18.5",
+    "mathExpressions": 258,
+    "reportSha256": "92d728c2f5d97f1e66b3582647cb2c66ef9c94203c2427ca3f439caca671e729",
+    "scope": "KaTeX syntax and control-byte check only; not mathematical or visual proof.",
+    "status": "PASS"
+  }
+}

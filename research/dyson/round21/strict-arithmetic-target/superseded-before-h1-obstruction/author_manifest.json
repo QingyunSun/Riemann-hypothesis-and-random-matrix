@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "bytes": 17025,
+      "path": "CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e"
+    },
+    {
+      "bytes": 5212,
+      "path": "check_centered_pair_target.py",
+      "sha256": "51f9178f5035e285005ddd27ec88773f03253ddc1d7dee85a8d5c2114e136129"
+    },
+    {
+      "bytes": 5951,
+      "path": "centered_pair_target_checks.json",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 5951,
+      "path": "centered_pair_target_checks.log",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 4051,
+      "path": "source_manifest.json",
+      "sha256": "2deb6bd5b72a12b0812760057873a818526d46f4f9790425dc91ccab4cc1e14a"
+    }
+  ],
+  "status": "ordinary proof submitted for review; exact checker passed"
+}

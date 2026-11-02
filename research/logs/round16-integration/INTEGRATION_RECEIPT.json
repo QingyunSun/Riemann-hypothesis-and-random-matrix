@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "original_files": 25,
+  "original_bytes": 1349620,
+  "public_verbatim_files": 19,
+  "all_original_bytes_preserved": true,
+  "independent_reviews_read_in_full": true,
+  "replay": "Three complete JSON files byte-identical; see REPLAY_RECEIPT.json",
+  "excluded_comparison_fields": [],
+  "new_zeta_inequality": false,
+  "large_pdf_rebuild": false
+}

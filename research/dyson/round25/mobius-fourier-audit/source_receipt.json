@@ -1,0 +1,71 @@
+{
+  "access": "New Tao/Ng author sources opened with web tool and retained locally; existing BSP and CCCC primary statements reread from pinned text.",
+  "files": [
+    {
+      "bytes": 693127,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/sources/tao-notes8.html",
+      "scope": "Theorem8 and author proof: Davenport uniform actual Mobius bound, ineffective constants.",
+      "sha256": "45938cd32927368f4a7ae875474e32c7d44db6ca4d164623823485d5e3d7281d",
+      "url": "https://terrytao.wordpress.com/2015/03/30/254a-notes-8-the-hardy-littlewood-circle-method-and-vinogradovs-theorem/"
+    },
+    {
+      "bytes": 284432,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/sources/ng-mobius-distribution-2004.pdf",
+      "scope": "Introduction printed pp5\u20136: standard RH Mertens and Chebyshev errors only; no Gonek-Hejhal hypothesis or Theorem1.",
+      "sha256": "760cc3f77d657e3ceee8969f479c38c2ffcb9851eda72a220932d179fe4c2bb5",
+      "url": "https://www.cs.uleth.ca/~nathanng/RESEARCH/mobius2b.pdf"
+    },
+    {
+      "bytes": 111721,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/sources/ng-mobius-distribution-2004.txt",
+      "scope": "Retained layout extraction of the pinned Ng PDF.",
+      "sha256": "37fd48f9f5287e921e7a6fcbeb3d4ba58b97952a21a960ba9d1895b6074be47b"
+    },
+    {
+      "bytes": 103776,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/prime-frequency/sources/bhowmik-schlage-puchta-goldbach-2010.pdf",
+      "scope": "Lemma3 printedp3: actual centered prime small-arc mean square under RH.",
+      "sha256": "6cf48524eb9473cca93c1ce0ea97e00fc7dab7c49a3db4e01a490cc165296607",
+      "url": "https://pro.univ-lille.fr/fileadmin/user_upload/pages_pros/gautami_bhowmik/Publications/Goldbach4.2.10.pdf"
+    },
+    {
+      "bytes": 15717,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/prime-frequency/sources/bhowmik-schlage-puchta-goldbach-2010.txt",
+      "scope": "Same primary source, retained text; exact statement reread.",
+      "sha256": "3c9fb7b99176f617e444d188d56b133883042fe39bdd83361fce9cc61b2762ac"
+    },
+    {
+      "bytes": 843595,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "scope": "Printedp1(1.1)/(1.3): fixed-beta RH Selberg bound underlying inherited comparison.",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "bytes": 180918,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "scope": "Same primary source retained text.",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "bytes": 18339,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "scope": "Unchanged exact packet and uniform derivative identity.",
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+    },
+    {
+      "bytes": 20129,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "scope": "Exact Z2 definition, old primitive comparison, RH covariance proof.",
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73"
+    },
+    {
+      "bytes": 9668,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-review/INDEPENDENT_SMALL_COFACTOR_REVIEW.md",
+      "scope": "Previously completed full ordinary source/proof review.",
+      "sha256": "7c424b08cc6ef058e2c40fa0556c048904f260ba52b8f902d0fc66033262514a"
+    }
+  ],
+  "source_body_policy": "Third-party full sources are local references; publish URLs and receipts rather than copying full bodies.",
+  "status": "PASS"
+}

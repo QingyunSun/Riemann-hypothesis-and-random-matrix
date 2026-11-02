@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "../../../Research/ACUE-Astra-Handoff-2026-09-04/research-round21/log-prime-heat/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+      "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+      "mathExpressions": 92,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

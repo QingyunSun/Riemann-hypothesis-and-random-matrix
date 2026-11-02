@@ -1,0 +1,22 @@
+{
+  "status": "primary-source range checks for existing R19 work, not a full literature audit",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2502.05106v1",
+      "paper": "Fourier optimization and pair correlation problems",
+      "finding": "Theorem1 requires sufficiently large frequency interval length ell, with explicit ell0(epsilon) for the upper bound and ell0(b,epsilon) for the lower. No direct narrow fixed bump upper bound follows from its constant."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1311.0597v4",
+      "paper": "An extended pair-correlation conjecture and primes in short intervals",
+      "finding": "Theorem1 conditions TS(X,tau) much larger than X and tau*S much larger than log³T/T are explicit. Tau1 has S~logX, so TS/X tends0 at X=T². The corollary keeps X<=T/logT. Theorem2 assumes RH plus the stated extended pair-correlation Conjecture; it is not an RH-only variance asymptotic."
+    },
+    {
+      "url": "https://arxiv.org/html/2605.22059v1",
+      "paper": "Closed geodesics in short intervals for random hyperbolic surfaces",
+      "finding": "Geometric Theorem1.1 averages over Weil-Petersson surfaces with genus limit first. Automorphic Theorem1.2/5.1 has degree d>1, normalization X=T^(d alpha), and range alpha<1/d, equivalently X<T; it does not reach zeta frequency two.",
+      "coordinatorInference": "In the usual variance correspondence T=X/H and H=X^theta, alpha=1/[d(1-theta)]. For any theta in(0,1), this exceeds1/d. Thus the introductory suggestion that the very-short positive-power interval regime follows from this stated early-time range needs an additional bridge; do not import it. This is a parameter-range audit, not a global refutation or full independent review of that paper."
+    }
+  ],
+  "scope": "No source here is asserted to prove the required strict AH deficit. Their other valid results remain available within their hypotheses."
+}

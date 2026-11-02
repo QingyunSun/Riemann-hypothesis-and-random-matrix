@@ -1,0 +1,335 @@
+{
+  "integer_endpoint_checks": [
+    {
+      "N": 1,
+      "partitions_of_all_weights_up_to_N": 2,
+      "integer_Gram_entries_checked": 4,
+      "boundary_partition": [
+        1
+      ],
+      "boundary_exponents": [
+        1
+      ],
+      "first_outside_partition": [
+        2
+      ],
+      "first_outside_exponents": [
+        2
+      ],
+      "first_outside_ACUE_squared_norm": 1,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 2,
+      "partitions_of_all_weights_up_to_N": 4,
+      "integer_Gram_entries_checked": 16,
+      "boundary_partition": [
+        2
+      ],
+      "boundary_exponents": [
+        3,
+        0
+      ],
+      "first_outside_partition": [
+        3
+      ],
+      "first_outside_exponents": [
+        4,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 3,
+      "partitions_of_all_weights_up_to_N": 7,
+      "integer_Gram_entries_checked": 49,
+      "boundary_partition": [
+        3
+      ],
+      "boundary_exponents": [
+        5,
+        1,
+        0
+      ],
+      "first_outside_partition": [
+        4
+      ],
+      "first_outside_exponents": [
+        6,
+        1,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 4,
+      "partitions_of_all_weights_up_to_N": 12,
+      "integer_Gram_entries_checked": 144,
+      "boundary_partition": [
+        4
+      ],
+      "boundary_exponents": [
+        7,
+        2,
+        1,
+        0
+      ],
+      "first_outside_partition": [
+        5
+      ],
+      "first_outside_exponents": [
+        8,
+        2,
+        1,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 5,
+      "partitions_of_all_weights_up_to_N": 19,
+      "integer_Gram_entries_checked": 361,
+      "boundary_partition": [
+        5
+      ],
+      "boundary_exponents": [
+        9,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_partition": [
+        6
+      ],
+      "first_outside_exponents": [
+        10,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 6,
+      "partitions_of_all_weights_up_to_N": 30,
+      "integer_Gram_entries_checked": 900,
+      "boundary_partition": [
+        6
+      ],
+      "boundary_exponents": [
+        11,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_partition": [
+        7
+      ],
+      "first_outside_exponents": [
+        12,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 7,
+      "partitions_of_all_weights_up_to_N": 45,
+      "integer_Gram_entries_checked": 2025,
+      "boundary_partition": [
+        7
+      ],
+      "boundary_exponents": [
+        13,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_partition": [
+        8
+      ],
+      "first_outside_exponents": [
+        14,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 8,
+      "partitions_of_all_weights_up_to_N": 67,
+      "integer_Gram_entries_checked": 4489,
+      "boundary_partition": [
+        8
+      ],
+      "boundary_exponents": [
+        15,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_partition": [
+        9
+      ],
+      "first_outside_exponents": [
+        16,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 9,
+      "partitions_of_all_weights_up_to_N": 97,
+      "integer_Gram_entries_checked": 9409,
+      "boundary_partition": [
+        9
+      ],
+      "boundary_exponents": [
+        17,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_partition": [
+        10
+      ],
+      "first_outside_exponents": [
+        18,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    },
+    {
+      "N": 10,
+      "partitions_of_all_weights_up_to_N": 139,
+      "integer_Gram_entries_checked": 19321,
+      "boundary_partition": [
+        10
+      ],
+      "boundary_exponents": [
+        19,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_partition": [
+        11
+      ],
+      "first_outside_exponents": [
+        20,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "first_outside_ACUE_squared_norm": 0,
+      "first_outside_CUE_squared_norm": 1
+    }
+  ],
+  "independent_floating_checks": [
+    {
+      "N": 2,
+      "max_L_p_m_error_m_through_N_plus_2": 8.005932084973442e-16,
+      "max_L_e_k_error": 1.1443916996305594e-16,
+      "max_integrated_coefficient_error": 7.731909437590743e-14,
+      "physical_times": [
+        0.03,
+        0.1,
+        0.3
+      ],
+      "arithmetic": "float64 numerical diagnostic, not proof"
+    },
+    {
+      "N": 3,
+      "max_L_p_m_error_m_through_N_plus_2": 3.447059237218225e-15,
+      "max_L_e_k_error": 4.910462595695867e-16,
+      "max_integrated_coefficient_error": 3.732734103403929e-14,
+      "physical_times": [
+        0.03,
+        0.1,
+        0.3
+      ],
+      "arithmetic": "float64 numerical diagnostic, not proof"
+    },
+    {
+      "N": 5,
+      "max_L_p_m_error_m_through_N_plus_2": 1.0959762715111268e-14,
+      "max_L_e_k_error": 1.4812222630807097e-15,
+      "max_integrated_coefficient_error": 2.59240607428289e-13,
+      "physical_times": [
+        0.03,
+        0.1,
+        0.3
+      ],
+      "arithmetic": "float64 numerical diagnostic, not proof"
+    },
+    {
+      "N": 8,
+      "max_L_p_m_error_m_through_N_plus_2": 3.318508435560369e-14,
+      "max_L_e_k_error": 1.5187347797283022e-14,
+      "max_integrated_coefficient_error": 4.097553241546986e-12,
+      "physical_times": [
+        0.03,
+        0.1,
+        0.3
+      ],
+      "arithmetic": "float64 numerical diagnostic, not proof"
+    }
+  ],
+  "all_assertions_passed": true
+}

@@ -1,0 +1,303 @@
+{
+  "original_files": 42,
+  "original_bytes": 188323,
+  "public_verbatim_files": 42,
+  "public_verbatim_bytes": 188323,
+  "source_edits": [],
+  "files": [
+    {
+      "path": "ROOT_PROGRESS_NOTE.md",
+      "bytes": 6275,
+      "sha256": "53a840604a67814a3bdff600fd9c2ec59b508e2485f510b94d9536cc86dc9b13",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-intake/ASTRA_186_FLT_TOOLS_AFTER_REALIZABILITY.md",
+      "bytes": 18965,
+      "sha256": "18aa2431e21026340d4d28b0f38a9b293e1ec58ba8bc4b27592906944d51f280",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-intake/COORDINATOR_R23_PUBLICATION_VERIFICATION.json",
+      "bytes": 26686,
+      "sha256": "393ef1360ef0d76e69700e5c3cf39af87bf8fb2d3f6ece22f1cbdfe3a8dc1a74",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-intake/SECOND_READING_REALIZABILITY_UPDATE_RECEIPT.json",
+      "bytes": 719,
+      "sha256": "4118851ad3e080bf91bac47803669ca41d6267cc243e9e0e1fd4b0a41b5d9fb2",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-r23-review/COORDINATOR_MOD6_REVIEW.md",
+      "bytes": 7536,
+      "sha256": "3dafd94b7e9fa4ec1e0ff23791a22ee0f5990677706784162823d97576b3fe26",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-r23-review/COORDINATOR_MOD6_REVIEW_RECEIPT.json",
+      "bytes": 898,
+      "sha256": "c9a3144cb309f503f7d3c4979316fcbda2498b939b96de1900a4ca3f47271b32",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-r23-review/PIN_CHECKS.json",
+      "bytes": 1496,
+      "sha256": "3a9d717809752ffdac749c241bf474aa96499bb2e1e7ca5e327a5d3ad3ac1948",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-realizability-review/COORDINATOR_REALIZABILITY_REVIEW.md",
+      "bytes": 9056,
+      "sha256": "4808d9b1a571e18c6852d534a10edf91d3314df3d8365cdad35109907950ea14",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-realizability-review/COORDINATOR_REALIZABILITY_REVIEW_RECEIPT.json",
+      "bytes": 1176,
+      "sha256": "6e0bf2c1a53640e99039713ed6e997be89d49c7d876f49e7117b579a4d799ec5",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "coordinator-realizability-review/PIN_CHECKS.json",
+      "bytes": 3663,
+      "sha256": "0eb19dd5d837f49190b5315e9c5e0caacab4184b2eff46f39bb67dc399c47cda",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "finite-window-realizability/AUTHOR_RECEIPT.json",
+      "bytes": 2189,
+      "sha256": "330e1382688b4a828f2b645c9ac3044c0a9b03a0e6758fd283d0edba96882f69",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "finite-window-realizability/FINITE_WINDOW_ZERO_MARGIN_THEOREM.md",
+      "bytes": 11658,
+      "sha256": "c857d22a766099049bcdc95cdb12bf876d87deb6d83f9e9654c154d4dc2a6a7d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "finite-window-realizability/SOURCE_RECEIPT.json",
+      "bytes": 804,
+      "sha256": "988c04e004e1a04b380cc9d13d883d45748a52958740bdc0d617f39a6bc73eb6",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "finite-window-realizability/check_math_syntax.cjs",
+      "bytes": 1552,
+      "sha256": "35b075feaf711732c6c823d4dcf0b103d14c6d697f73bb60ff8e6d2cf2828701",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "finite-window-realizability/math_syntax_checks.json",
+      "bytes": 286,
+      "sha256": "c04c277515e63ee0a060c841e7ff2d1dabdcfed61457c5cec53a32c7ab14785e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive/AUTHOR_RECEIPT.json",
+      "bytes": 2238,
+      "sha256": "1fb960176ef30c03076789d9140010bde23334763c18aa6628a57fc53fc4476d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "bytes": 9934,
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive/check_nonprimitive_exponents.py",
+      "bytes": 1490,
+      "sha256": "4f6caa17ba6b0eabbd3617c81d9ae3bbb38f663910e3fbacd1d22cd6a8de1f0e",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive/math_syntax_checks.json",
+      "bytes": 87,
+      "sha256": "c7ec895ab5ef517a1bf2bc52b070dd4b47fd4879ca01215e61b803027f20cab4",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive/nonprimitive_exponent_checks.json",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive/nonprimitive_exponent_checks.log",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive/source_receipt.json",
+      "bytes": 1066,
+      "sha256": "9976c8707f22acbb0ecbf88105a88aac3bd3d6ce296e88ef1118e0e9ee82696b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive-review/INDEPENDENT_NONPRIMITIVE_REVIEW.md",
+      "bytes": 10087,
+      "sha256": "ec7c6a63845ff54fcbe3ff34f5619c727b298afea0aa5a2ae2242bd40563e8a7",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2337,
+      "sha256": "8fbd2cdec5cb59ac37b95a6f0828a20fda0aebd13a8ef4d9c23da12afd550a18",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive-review/independent_exponent_checks.json",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive-review/independent_exponent_checks.log",
+      "bytes": 441,
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "general-nonprimitive-review/source_and_replay_checks.json",
+      "bytes": 2953,
+      "sha256": "eecfa2aa338e2f8750bf96973a5d84b58597ea7ca2636990422524b0a34b7030",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "kernel-realizability/AUTHOR_RECEIPT.json",
+      "bytes": 1332,
+      "sha256": "c4bb847deb6e9e4be6ce12e838dfb4ddd438ea314f5a2bfed1379e75ad63e86d",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "bytes": 7052,
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "kernel-realizability/math_syntax_checks.json",
+      "bytes": 465,
+      "sha256": "455c5ff51d6a713196f418a7d69d91b045a565e4cc88d8bf52b2468ee18fdf61",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "kernel-realizability-review/INDEPENDENT_REALIZABILITY_REVIEW.md",
+      "bytes": 6993,
+      "sha256": "5b2b0acf98e08b11091e9a342f5b420773443d2ef31f8ebc9f88b001d9b98054",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "kernel-realizability-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "bytes": 2026,
+      "sha256": "9f2767f209ddb1d29fc53164c9f9ca754961871b38466d87dccd31e98fea7a32",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-review/INDEPENDENT_SMALL_COFACTOR_REVIEW.md",
+      "bytes": 9668,
+      "sha256": "7c424b08cc6ef058e2c40fa0556c048904f260ba52b8f902d0fc66033262514a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-review/REVIEW_RECEIPT.json",
+      "bytes": 2818,
+      "sha256": "4b39b41b86b9ad7e89ef3918e7e4584b22638d19697283da633662ea81bbce59",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-review/review_syntax_checks.json",
+      "bytes": 88,
+      "sha256": "7381fd35b392421604ebcd35751001e23e4eedaa0c2db174a785caf1583a1f2a",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-review/verification_checks.json",
+      "bytes": 4385,
+      "sha256": "b2c0b17d631568aa45f516cfc7614926755f180db39807e92d5f50f8a45fd40b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-target/AUTHOR_RECEIPT.json",
+      "bytes": 1718,
+      "sha256": "c91d0c22c22d7de5cc836325bea4ec0797fa1cd22c1b3e154294597d81fba31b",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "bytes": 20129,
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-target/check_exact_constants.py",
+      "bytes": 1354,
+      "sha256": "8b45f1a162c44cdeea5153e13a29c4ac3404667b0fa5b35eee84f2d9c0abf8ab",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-target/exact_constant_checks.json",
+      "bytes": 1033,
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-target/exact_constant_checks.log",
+      "bytes": 1033,
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed",
+      "public_verbatim": true,
+      "omission_reason": null
+    },
+    {
+      "path": "small-cofactor-target/source_manifest.json",
+      "bytes": 3314,
+      "sha256": "a409c9c767d36596784b653607d519ca94026a8ebceab057af22c45fa6a2014e",
+      "public_verbatim": true,
+      "omission_reason": null
+    }
+  ]
+}

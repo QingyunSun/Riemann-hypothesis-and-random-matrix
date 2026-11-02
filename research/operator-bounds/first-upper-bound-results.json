@@ -1,0 +1,10 @@
+{
+  "status": "numerical evaluation of a proposed Cauchy majorant; does not close no-go",
+  "y": 0.09598020986230567,
+  "bound": 5.28075149996859,
+  "max_v": 0.389,
+  "target": 4.934802200544679,
+  "normalized_margin_bound": 0.017525996248934084,
+  "B0": 3.2965552774090154,
+  "C0": 18.636157334260364
+}

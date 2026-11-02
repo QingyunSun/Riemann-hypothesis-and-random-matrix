@@ -1,0 +1,12 @@
+{
+  "status": "PASS: intake, compact data, syntax, links and exact outside-span replay",
+  "verbatim_intake_files": 37,
+  "compact_witness_files": 4,
+  "retained_arrays_checked": 44,
+  "full_local_arrays_checked": 4,
+  "full_local_bytes_checked": 183046525,
+  "python_files_parsed": 11,
+  "relative_report_links_checked": 12,
+  "outside_span_json": "identical exact output from isolated copy",
+  "scope": "Artifact integrity and exact independence; no new numerical integration or Rayleigh enclosure."
+}

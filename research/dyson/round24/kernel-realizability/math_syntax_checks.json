@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "../../../Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+      "mathExpressions": 43,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

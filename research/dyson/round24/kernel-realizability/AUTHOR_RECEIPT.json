@@ -1,0 +1,34 @@
+{
+  "status": "Frozen ordinary proof submitted for independent review",
+  "claim": "No nonzero exact S-weighted zero-margin perturbation in one or two full Pareto-tail families on the specified triangular odd-endpoint domain",
+  "files": [
+    {
+      "path": "research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "bytes": 7052,
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c"
+    },
+    {
+      "path": "research-round24/kernel-realizability/math_syntax_checks.json",
+      "bytes": 465,
+      "sha256": "455c5ff51d6a713196f418a7d69d91b045a565e4cc88d8bf52b2468ee18fdf61"
+    },
+    {
+      "path": "research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "bytes": 17120,
+      "sha256": "331e923f508fe05f88491cb0b0992930323c2b095fe48a4083dd427c02ffa9da"
+    },
+    {
+      "path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "bytes": 7693,
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    }
+  ],
+  "new_arithmetic_estimate": false,
+  "prime_height_runs": 0,
+  "limitations": [
+    "Separate endpoint cutoffs not covered",
+    "Three profiles not covered",
+    "Approximate margin cancellation not covered",
+    "No general no-go for checkerboards or zeta target"
+  ]
+}

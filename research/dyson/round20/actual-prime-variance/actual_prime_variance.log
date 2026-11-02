@@ -1,0 +1,4 @@
+{"T": 100, "analytic_only_lower": 0.12038446489799257, "analytic_only_upper": 0.12042761326326347, "difference_from_AH_limit": -0.8901817595219441, "elapsed_seconds": 0.15740362496580929, "positive_variance_midpoint_diagnostic": 0.12040603689230812}
+{"T": 300, "analytic_only_lower": 0.1360831762934787, "analytic_only_upper": 0.13612843033194771, "difference_from_AH_limit": -0.8744819958927498, "elapsed_seconds": 0.1615936669986695, "positive_variance_midpoint_diagnostic": 0.13610580052150242}
+{"T": 1000, "analytic_only_lower": 0.15425379577415585, "analytic_only_upper": 0.15430504552365013, "difference_from_AH_limit": -0.856308378246063, "elapsed_seconds": 0.3235484999604523, "positive_variance_midpoint_diagnostic": 0.15427941816818927}
+PASS: only the three requested T values; full per-bin CSV data and all prime powers retained.

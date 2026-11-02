@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "bytes": 719168,
+      "path": "research-round29/signed-mellin-test/sources/brent-platt-trudgian-mean-square.pdf",
+      "scope": "JNT238(2022) printed741 Eq1 and Thm1, ordinary RH long-interval Cramer mean square",
+      "sha256": "4be3667cbe07ab6a24930e8835923362ae12af946b622fa73c89fd654e9fae34",
+      "url": "https://maths-people.anu.edu.au/~brent/pd/rpb274-final.pdf"
+    },
+    {
+      "bytes": 67296,
+      "path": "research-round29/signed-mellin-test/sources/brent-platt-trudgian-mean-square.txt",
+      "scope": "Retained extraction: JNT238(2022) printed741 Eq1 and Thm1, ordinary RH long-interval Cramer mean square",
+      "sha256": "097137ff929ceb80766738b33feb81cb18de38873869ecfef520bdc3037c3eb7",
+      "url": "https://maths-people.anu.edu.au/~brent/pd/rpb274-final.pdf"
+    },
+    {
+      "bytes": 538953,
+      "path": "research-round29/signed-mellin-test/sources/montgomery-vaughan-hilbert-1974.pdf",
+      "scope": "1974 printed75 Corollary3 Eq1.11, interval Dirichlet polynomial mean value",
+      "sha256": "0dbcddf24bc41c65d1920c59aafe7fe85f13a7519b0edf9be9164c84d1cc6db4",
+      "url": "https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf"
+    },
+    {
+      "bytes": 29600,
+      "path": "research-round29/signed-mellin-test/sources/montgomery-vaughan-hilbert-1974.txt",
+      "scope": "Retained extraction: 1974 printed75 Corollary3 Eq1.11, interval Dirichlet polynomial mean value",
+      "sha256": "e6e22c1dcde3e2af219d081b0f122e457c2580bb062d75a18e798f1073a0f8a8",
+      "url": "https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf"
+    },
+    {
+      "bytes": 3173609,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.pdf",
+      "scope": "Printed7 Cor16.6 and printed8 Thm16.7, first/second derivative exponential sum bounds",
+      "sha256": "72448ec23158a3aeee534c9cde633d5402f916d0367b4f320212cd7ad179d340",
+      "url": "https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf"
+    },
+    {
+      "bytes": 1503246,
+      "path": "research-round13/minor-arc-source/sources/montgomery-vaughan-II-author-draft.txt",
+      "scope": "Retained extraction: Printed7 Cor16.6 and printed8 Thm16.7, first/second derivative exponential sum bounds",
+      "sha256": "a4be07d3815de0178670e98cb0ba59175c1122766d28bcddbfe07707586306bd",
+      "url": "https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf"
+    },
+    {
+      "bytes": 843595,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "scope": "Printed1 Eq1.1 definition and Eq1.3 fixed beta3 RH Selberg bound",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "bytes": 180918,
+      "path": "research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "scope": "Retained extraction: Printed1 Eq1.1 definition and Eq1.3 fixed beta3 RH Selberg bound",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "bytes": 223282,
+      "path": "research-round29/signed-mellin-test/sources/bpt-page741.png",
+      "scope": "Primary theorem page rendered and independently visually inspected by author",
+      "sha256": "97d03855e65d723a7c038ad1860512ff5b05bc24230578496099aa6a8a07e0c5"
+    },
+    {
+      "bytes": 177771,
+      "path": "research-round29/signed-mellin-test/sources/hilbert-page75.png",
+      "scope": "Primary theorem page rendered and independently visually inspected by author",
+      "sha256": "eb422def8499ab579f267db6e5e6280ef07a9473a940152e949f2616511a19d2"
+    },
+    {
+      "bytes": 186346,
+      "path": "research-round29/signed-mellin-test/sources/mv-page7.png",
+      "scope": "Primary theorem page rendered and independently visually inspected by author",
+      "sha256": "78b4e9eb8d66f21a7f43d93e7f18bda65c63f85ad3cd6033b9564962213177d0"
+    },
+    {
+      "bytes": 150296,
+      "path": "research-round29/signed-mellin-test/sources/mv-page8.png",
+      "scope": "Primary theorem page rendered and independently visually inspected by author",
+      "sha256": "b9e01a9ae5bea8cb30b31ea4c4c21124ef8dff1273556578a95606f0dcb1c772"
+    },
+    {
+      "bytes": 17690,
+      "path": "research-round27/joint-dispersion-test/JOINT_DISPERSION_TEST.md",
+      "scope": "Final exact fixed mu/log block and preceding growing Frobenius estimate",
+      "sha256": "c7ac888dc3da29d770c7b17562a0264371ec65c62f241d3e6b5c0f1b6f107942"
+    },
+    {
+      "bytes": 20835,
+      "path": "research-round27/joint-dispersion-review/INDEPENDENT_JOINT_DISPERSION_REVIEW.md",
+      "scope": "Final full independent R27 source/proof review",
+      "sha256": "fd21347c625d394a1a31ce5eb1b5fc0519ae46d68313a8cd8f0607afdbeab603"
+    },
+    {
+      "bytes": 14373,
+      "path": "research-round28/mellin-operator-audit/MELLIN_OPERATOR_AUDIT.md",
+      "scope": "Prior actual matrix Mellin lower-test scope, not an input improving prime variance",
+      "sha256": "243994064c74e4fda98ae0aadf7364678e49756f5d282cc36a4a56a134373e7a"
+    },
+    {
+      "bytes": 22834,
+      "path": "research-round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "scope": "Distinguish complete global covariance and excluded physical scales",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    }
+  ],
+  "scope": "Only ordinary RH in prime mean-square inputs; Dirichlet mean value and van der Corput unconditional. No GRH or phase-twisted Siegel-Walfisz."
+}

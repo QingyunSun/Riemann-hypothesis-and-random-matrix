@@ -1,0 +1,11 @@
+{
+  "status": "bounded edge audit frozen; no proved arithmetic edge estimate",
+  "files": {
+    "EDGE_RATE_AUDIT.md": "47e69edb32f9e2a083ff8a56ed0a6c19c6b6e69477c63f727eb4713458e05934",
+    "edge_identity_checks.json": "37972112eda71f4950b57b54d7d936eaf217afc08276281de50dd26225e8102f",
+    "edge_identity_checks.py": "9f109718ab82eab5cf01aa5a8fd255d82ff642c3ff72a5a51ea47c4230de0b31",
+    "sources/cccm-three-integrals-2021.pdf": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+    "sources/cccm-three-integrals-2021.txt": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+    "sources/receipt.json": "6c041c3a0fb3d7852ebd8580dafeb6c4e1f253d5aff8be756e944ee53f19e1fd"
+  }
+}

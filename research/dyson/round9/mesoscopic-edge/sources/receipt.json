@@ -1,0 +1,11 @@
+{
+  "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf",
+  "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+  "pdftotext": "/opt/homebrew/bin/pdftotext",
+  "reviewed_parts": [
+    "Theorem 5",
+    "Lemma 16",
+    "Section 4.2"
+  ],
+  "status": "primary author PDF; bounded theorem audit"
+}

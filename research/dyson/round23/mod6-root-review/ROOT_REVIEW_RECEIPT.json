@@ -1,0 +1,89 @@
+{
+  "author": {
+    "bytes": 17011,
+    "path": "research-round23/mod3-centering/FIXED_MOD6_CENTERING.md",
+    "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e"
+  },
+  "author_receipt": {
+    "bytes": 2249,
+    "path": "research-round23/mod3-centering/AUTHOR_RECEIPT.json",
+    "sha256": "84e825e286e533bde223407d5a426f8b6b148e5bcbffeaa1b584b4c0e381191f"
+  },
+  "dependencies_verified": [
+    {
+      "bytes": 13005,
+      "path": "research-round22/singleton-renormalization/SINGLETON_RENORMALIZATION.md",
+      "sha256": "3adcc1e15799a6b9b4a6af4dfeec6854ce8185959c12b41c3cb5703297255f67"
+    },
+    {
+      "bytes": 9114,
+      "path": "research-round22/singleton-renormalization-review/INDEPENDENT_AUTHOR_REVIEW.md",
+      "sha256": "1bba960d5fde26320847349934eab63dc074595ac42d07f79cf879d23c32fd72"
+    },
+    {
+      "bytes": 7693,
+      "path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b"
+    },
+    {
+      "bytes": 12215,
+      "path": "research-round22/small-shift-obstruction/SMALL_SHIFT_REMOVAL.md",
+      "sha256": "290c1ba8e80ab64074cfe0c4ad9d2609d4930b4bf52d789ffa156f9090731a9b"
+    },
+    {
+      "bytes": 21504,
+      "path": "research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+    },
+    {
+      "bytes": 18644,
+      "path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "bytes": 120618,
+      "path": "research-round23/mod3-centering/sources/dlmf-27.11.html",
+      "sha256": "d33816752fa993c118be9943d434f6f5762890b9174da025297fa11078c3d3c4"
+    }
+  ],
+  "limits": [
+    "No strict variance gain",
+    "No GRH",
+    "No growing-modulus claim from fixed-AP PNT",
+    "Not formal verification or novelty certification"
+  ],
+  "primary_live_check": {
+    "scope": "Final paragraph, fixed-modulus PNT in AP; opened and read by root on 2026-09-05.",
+    "url": "https://dlmf.nist.gov/27.11"
+  },
+  "replay": [
+    {
+      "bytes": 17011,
+      "path": "research-round23/mod6-root-review/replay/FIXED_MOD6_CENTERING.md",
+      "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e"
+    },
+    {
+      "bytes": 4506,
+      "path": "research-round23/mod6-root-review/replay/check_mod6_centering.py",
+      "sha256": "fb15183dff1d7bf8bdda03057901aff25b5b3b8c8fa7a34d42a16f10176d8712"
+    },
+    {
+      "bytes": 9592,
+      "path": "research-round23/mod6-root-review/replay/mod6_centering_checks.json",
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8"
+    },
+    {
+      "bytes": 9592,
+      "path": "research-round23/mod6-root-review/replay/mod6_centering_checks.log",
+      "sha256": "3906af32c2110a0f1bd9b0067d2d6d84234674fe73fb526f8dba5956ff4a38b8"
+    }
+  ],
+  "review": {
+    "bytes": 9883,
+    "path": "research-round23/mod6-root-review/INDEPENDENT_MOD6_REVIEW.md",
+    "sha256": "9e6850f2da9558c9ae068c49e57fbe8b51d931fe96bc72c4044f38a44421b242"
+  },
+  "reviewer": "root / Astra; not author",
+  "status": "Accepted ordinary proof within stated fixed-modulus scope",
+  "whole_output_match": true
+}

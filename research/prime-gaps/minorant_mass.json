@@ -1,0 +1,13 @@
+{
+  "method": "exact rational convex simplex bounds, dyadic adaptive bisection",
+  "leaf_simplices": 16384,
+  "lower_numerator": 9333886966775225399315932,
+  "upper_numerator": 9334314528491567966021794,
+  "common_denominator": 1000000000000000000000000000000,
+  "lower": 9.333886966775226e-06,
+  "upper": 9.334314528491569e-06,
+  "width": 4.275617163425667e-10,
+  "seconds": 3.876205625012517,
+  "status": "RIGOROUS_BOUNDS_CONDITIONAL_ON_PUBLISHED_TRIANGULATION_COVERAGE",
+  "coverage_note": "Volumes checked exactly; polytope triangulation covering/no-overlap inherited from cited companion lemma."
+}

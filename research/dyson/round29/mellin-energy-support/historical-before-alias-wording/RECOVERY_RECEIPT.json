@@ -1,0 +1,15 @@
+{
+  "current": {
+    "bytes": 13239,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/WEIGHTED_MELLIN_ENERGY.md",
+    "sha256": "5b7378c9e4e18881c829883b199dfded12a103945d7a64b72a908343aad013a7"
+  },
+  "mathematical_change": "None. Exact adjacent-increment resonance and continuous stationary center are related but not identical.",
+  "method": "Reverse only the one recorded wording substitution in the final author file; the recovered 13211-byte file matches its previously recorded SHA256. This is recovery, not a claim of an original contemporaneous copy.",
+  "old": {
+    "bytes": 13211,
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/historical-before-alias-wording/WEIGHTED_MELLIN_ENERGY.md",
+    "sha256": "c8f8c6bfcfc9d605e3d02e9031d56d88cc8ea3402096bcb06b394d0abe81ecff"
+  },
+  "status": "exact old bytes recovered and verified against the prior recorded hash"
+}

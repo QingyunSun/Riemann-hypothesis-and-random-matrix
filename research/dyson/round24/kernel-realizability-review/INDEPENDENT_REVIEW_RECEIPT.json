@@ -1,0 +1,50 @@
+{
+  "author_receipt": {
+    "bytes": 1332,
+    "path": "research-round24/kernel-realizability/AUTHOR_RECEIPT.json",
+    "sha256": "c4bb847deb6e9e4be6ce12e838dfb4ddd438ea314f5a2bfed1379e75ad63e86d"
+  },
+  "date": "2026-09-05",
+  "review": {
+    "bytes": 6993,
+    "path": "research-round24/kernel-realizability-review/INDEPENDENT_REALIZABILITY_REVIEW.md",
+    "sha256": "5b2b0acf98e08b11091e9a342f5b420773443d2ef31f8ebc9f88b001d9b98054"
+  },
+  "reviewer": "Plato / residual_gram",
+  "scope": "Full triangular odd-endpoint domain, exact S-weighted row and column constraints, one and two distinct untruncated Pareto profiles; not a general arithmetic no-go or a quantitative approximate-margin theorem.",
+  "status": "frozen independent ordinary-proof acceptance",
+  "validation": {
+    "author_files_changed": false,
+    "control_characters": 0,
+    "local_review_links_exist": true,
+    "math_delimiters_balanced": true,
+    "method": "Direct mathematical proof review; no numerical or symbolic scan was required.",
+    "primary_external_sources_needed": false
+  },
+  "verified_author_and_dependency_files": [
+    {
+      "bytes": 7052,
+      "path": "research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+      "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+      "status": "PASS"
+    },
+    {
+      "bytes": 465,
+      "path": "research-round24/kernel-realizability/math_syntax_checks.json",
+      "sha256": "455c5ff51d6a713196f418a7d69d91b045a565e4cc88d8bf52b2468ee18fdf61",
+      "status": "PASS"
+    },
+    {
+      "bytes": 17120,
+      "path": "research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+      "sha256": "331e923f508fe05f88491cb0b0992930323c2b095fe48a4083dd427c02ffa9da",
+      "status": "PASS"
+    },
+    {
+      "bytes": 7693,
+      "path": "research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+      "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+      "status": "PASS"
+    }
+  ]
+}

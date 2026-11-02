@@ -1,0 +1,37 @@
+{
+  "checked_scalar_identities": 8,
+  "files": [
+    {
+      "bytes": 20129,
+      "path": "research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73"
+    },
+    {
+      "bytes": 1354,
+      "path": "research-round24/small-cofactor-target/check_exact_constants.py",
+      "sha256": "8b45f1a162c44cdeea5153e13a29c4ac3404667b0fa5b35eee84f2d9c0abf8ab"
+    },
+    {
+      "bytes": 1033,
+      "path": "research-round24/small-cofactor-target/exact_constant_checks.json",
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed"
+    },
+    {
+      "bytes": 1033,
+      "path": "research-round24/small-cofactor-target/exact_constant_checks.log",
+      "sha256": "08ae7818fa979365d0e601528683054c4399a18f52ce40de614fb5016c07c2ed"
+    },
+    {
+      "bytes": 3314,
+      "path": "research-round24/small-cofactor-target/source_manifest.json",
+      "sha256": "a409c9c767d36596784b653607d519ca94026a8ebceab057af22c45fa6a2014e"
+    }
+  ],
+  "new_prime_height_or_parameter_scan": false,
+  "only_scalar_checks_run": true,
+  "ordinary_proof_scope": "exact small-cofactor switch, true primitive density center with full added-back main, unconditional bad-row and center-completion errors; RH covariance bound still grows at sqrt(H) times logarithms",
+  "separate_N_Q_provenance_status": "pending standalone input pin, explicitly recorded in source_manifest.json",
+  "status": "author body frozen unchanged; independent ordinary review assigned to Aquinas",
+  "strict_arithmetic_result": false,
+  "unresolved": "the signed combination A_Q+L_Q^0+Z_Q\u2212M_S is not bounded at the required fluctuation scale"
+}

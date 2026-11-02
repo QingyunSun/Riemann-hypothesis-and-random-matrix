@@ -1,0 +1,70 @@
+{"event": "signed_regression_passed", "elapsed_seconds": 0.6522698329645209}
+{"event": "signature_completed", "signature": [], "running": "[8.02147037441e-22 +/- 3.93e-34]", "elapsed_seconds": 3.6555052909534425}
+{"event": "signature_completed", "signature": [2], "running": "[-1.719523418341e-20 +/- 8.02e-33]", "elapsed_seconds": 7.338625374948606}
+{"event": "signature_completed", "signature": [3], "running": "[3.5700195472e-21 +/- 3.29e-32]", "elapsed_seconds": 8.308994582970627}
+{"event": "signature_completed", "signature": [2, 2], "running": "[1.594207523376e-19 +/- 7.58e-32]", "elapsed_seconds": 10.318717874994036}
+{"event": "signature_completed", "signature": [4], "running": "[1.221508976641e-19 +/- 7.98e-32]", "elapsed_seconds": 10.561528957972769}
+{"event": "signature_completed", "signature": [2, 3], "running": "[-2.68205787420e-19 +/- 5.31e-31]", "elapsed_seconds": 12.28580787498504}
+{"event": "signature_completed", "signature": [5], "running": "[-1.89373817368e-19 +/- 6.31e-31]", "elapsed_seconds": 12.526717082946561}
+{"event": "signature_completed", "signature": [2, 2, 2], "running": "[-7.23471617439e-19 +/- 6.33e-31]", "elapsed_seconds": 16.142443374963477}
+{"event": "signature_completed", "signature": [2, 4], "running": "[-2.30229277683e-19 +/- 8.29e-31]", "elapsed_seconds": 16.447483790980186}
+{"event": "signature_completed", "signature": [3, 3], "running": "[-3.5241276424e-20 +/- 6.39e-31]", "elapsed_seconds": 17.430484665965196}
+{"event": "signature_completed", "signature": [6], "running": "[-2.9827652515e-20 +/- 6.18e-31]", "elapsed_seconds": 17.66568220796762}
+{"event": "signature_completed", "signature": [2, 2, 3], "running": "[2.45652146482e-18 +/- 1.76e-30]", "elapsed_seconds": 20.963127499970142}
+{"event": "signature_completed", "signature": [2, 5], "running": "[1.20205861843e-18 +/- 3.88e-30]", "elapsed_seconds": 21.26181254099356}
+{"event": "signature_completed", "signature": [3, 4], "running": "[3.6924892239e-19 +/- 4.13e-30]", "elapsed_seconds": 21.557576166000217}
+{"event": "signature_completed", "signature": [2, 2, 2, 2], "running": "[1.0850571887e-19 +/- 3.86e-30]", "elapsed_seconds": 26.05115312495036}
+{"event": "signature_completed", "signature": [2, 2, 4], "running": "[-7.7483366170e-19 +/- 2.53e-30]", "elapsed_seconds": 26.436357915983535}
+{"event": "signature_completed", "signature": [2, 3, 3], "running": "[-3.13915736129e-18 +/- 7.44e-30]", "elapsed_seconds": 28.339686540944967}
+{"event": "signature_completed", "signature": [2, 6], "running": "[-3.21847799478e-18 +/- 3.86e-30]", "elapsed_seconds": 28.637133624986745}
+{"event": "signature_completed", "signature": [3, 5], "running": "[-1.26144235484e-18 +/- 3.79e-30]", "elapsed_seconds": 28.919225082965568}
+{"event": "signature_completed", "signature": [4, 4], "running": "[-3.4508489264e-19 +/- 8.47e-30]", "elapsed_seconds": 29.2006422499544}
+{"event": "signature_completed", "signature": [2, 2, 2, 3], "running": "[-4.06356526856e-18 +/- 9.65e-30]", "elapsed_seconds": 34.8903251249576}
+{"event": "signature_completed", "signature": [2, 2, 5], "running": "[2.830450881e-19 +/- 3.31e-29]", "elapsed_seconds": 35.25513629097259}
+{"event": "signature_completed", "signature": [2, 3, 4], "running": "[4.1437839369e-18 +/- 4.15e-29]", "elapsed_seconds": 35.659586458001286}
+{"event": "signature_completed", "signature": [3, 3, 3], "running": "[4.0622538412e-18 +/- 5.26e-29]", "elapsed_seconds": 36.77972058299929}
+{"event": "signature_completed", "signature": [3, 6], "running": "[4.2170733309e-18 +/- 4.51e-29]", "elapsed_seconds": 37.06504008296179}
+{"event": "signature_completed", "signature": [4, 5], "running": "[-1.989423685e-19 +/- 3.56e-29]", "elapsed_seconds": 37.347274040977936}
+{"event": "signature_completed", "signature": [2, 2, 2, 2, 2], "running": "[3.7958050132e-18 +/- 4.32e-29]", "elapsed_seconds": 45.08790120796766}
+{"event": "signature_completed", "signature": [2, 2, 2, 4], "running": "[-3.1026369858e-18 +/- 1.88e-29]", "elapsed_seconds": 45.53689249994932}
+{"event": "signature_completed", "signature": [2, 2, 3, 3], "running": "[5.2816757495e-18 +/- 2.08e-29]", "elapsed_seconds": 50.266401915985625}
+{"event": "signature_completed", "signature": [2, 2, 6], "running": "[5.4578377359e-18 +/- 2.37e-29]", "elapsed_seconds": 50.63550737500191}
+{"event": "signature_completed", "signature": [2, 3, 5], "running": "[-8.1981769211e-18 +/- 5.90e-29]", "elapsed_seconds": 51.039890499960165}
+{"event": "signature_completed", "signature": [2, 4, 4], "running": "[-4.9671876449e-18 +/- 4.68e-29]", "elapsed_seconds": 51.40758029097924}
+{"event": "signature_completed", "signature": [3, 3, 4], "running": "[-4.7783716106e-18 +/- 3.37e-29]", "elapsed_seconds": 51.777147665969096}
+{"event": "signature_completed", "signature": [4, 6], "running": "[-5.1486806542e-18 +/- 6.96e-29]", "elapsed_seconds": 52.05880570795853}
+{"event": "signature_completed", "signature": [5, 5], "running": "[5.038209513e-19 +/- 6.55e-29]", "elapsed_seconds": 52.34057170798769}
+{"event": "signature_completed", "signature": [2, 2, 2, 2, 3], "running": "[-1.15894277942e-17 +/- 4.84e-29]", "elapsed_seconds": 62.06183262495324}
+{"event": "signature_completed", "signature": [2, 2, 2, 5], "running": "[-1.6859239215e-18 +/- 5.09e-29]", "elapsed_seconds": 62.54493845795514}
+{"event": "signature_completed", "signature": [2, 2, 3, 4], "running": "[7.1508133039e-18 +/- 7.47e-29]", "elapsed_seconds": 63.168543082952965}
+{"event": "signature_completed", "signature": [2, 3, 3, 3], "running": "[7.4874135417e-18 +/- 5.15e-29]", "elapsed_seconds": 65.73995045799529}
+{"event": "signature_completed", "signature": [2, 3, 6], "running": "[7.1860945575e-18 +/- 4.20e-29]", "elapsed_seconds": 66.15883495798334}
+{"event": "signature_completed", "signature": [2, 4, 5], "running": "[-4.777073807e-19 +/- 7.31e-29]", "elapsed_seconds": 66.5876430409844}
+{"event": "signature_completed", "signature": [3, 3, 5], "running": "[-8.277840683e-19 +/- 4.50e-29]", "elapsed_seconds": 66.99147645797348}
+{"event": "signature_completed", "signature": [5, 6], "running": "[-3.270323029e-19 +/- 3.52e-29]", "elapsed_seconds": 67.29876879096264}
+{"event": "signature_completed", "signature": [2, 2, 2, 2, 2, 2], "running": "[4.1218607747e-18 +/- 5.67e-29]", "elapsed_seconds": 77.53670320799574}
+{"event": "signature_completed", "signature": [2, 2, 2, 2, 4], "running": "[-2.7693134681e-18 +/- 8.07e-29]", "elapsed_seconds": 78.16774399997666}
+{"event": "signature_completed", "signature": [2, 2, 2, 3, 3], "running": "[-3.1140227039e-18 +/- 5.93e-29]", "elapsed_seconds": 88.07620583300013}
+{"event": "signature_completed", "signature": [2, 2, 2, 6], "running": "[-2.5546737765e-18 +/- 7.08e-29]", "elapsed_seconds": 88.58350645797327}
+{"event": "signature_completed", "signature": [2, 2, 4, 4], "running": "[4.335300578e-19 +/- 5.55e-29]", "elapsed_seconds": 89.1406020829454}
+{"event": "signature_completed", "signature": [2, 3, 3, 4], "running": "[8.407226907e-19 +/- 4.64e-29]", "elapsed_seconds": 89.81629012495978}
+{"event": "signature_completed", "signature": [2, 4, 6], "running": "[-7.32213300e-20 +/- 4.23e-29]", "elapsed_seconds": 90.24482687498676}
+{"event": "signature_completed", "signature": [3, 3, 3, 3], "running": "[-4.84587312e-20 +/- 7.25e-29]", "elapsed_seconds": 91.87921520799864}
+{"event": "signature_completed", "signature": [3, 3, 6], "running": "[-1.930259378e-19 +/- 5.38e-29]", "elapsed_seconds": 92.27052224997897}
+{"event": "signature_completed", "signature": [6, 6], "running": "[3.56972388e-20 +/- 6.82e-29]", "elapsed_seconds": 92.58182216598652}
+{
+  "status": "certified positive alpha lower endpoint",
+  "signed_regression_passed": true,
+  "fixed_bits": 224,
+  "arb_precision_bits": 160,
+  "threads": 1,
+  "alpha_rectangle_normalized_interval": {
+    "lower": "759196306737621617/21267647932558653966460912964485513216",
+    "upper": "759196308412379643/21267647932558653966460912964485513216"
+  },
+  "alpha_over_published_I_upper_lower": "9050325235576887333393096923828125/6004941487970983985258771441262503395328",
+  "credit_over_published_I_upper_lower": "148149250207766546368962886357892265625/98384961338916601614479711293644855629053952",
+  "alpha_credit_coefficient": "2497786653900013/2500000000000000",
+  "elapsed_seconds": 92.58199358294951,
+  "scope": "New lower-bound rectangle for published k40 trial. Published cap/loss endpoints are source-inherited, not recomputed here."
+}

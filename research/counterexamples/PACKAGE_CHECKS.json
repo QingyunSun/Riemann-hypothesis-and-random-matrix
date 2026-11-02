@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "python": "3.14.3",
+  "python_files_parsed": 7,
+  "markdown_files": 13,
+  "local_markdown_links": 20,
+  "math_syntax": {
+    "version": "0.18.5",
+    "expressions": 441,
+    "errors": []
+  },
+  "math_delimiters_covered": [
+    "\\[...\\]",
+    "\\(...\\)",
+    "$$...$$"
+  ],
+  "replayed_json_pairs": [
+    {
+      "original": "research/counterexamples/pair-matched-flow/AGENT_PAIR_CHECK_OUTPUT.json",
+      "replay": "research/counterexamples/pair-matched-flow/ROOT_PAIR_REPLAY.json",
+      "equal_json": true
+    },
+    {
+      "original": "research/counterexamples/latest-literature-2026-11-01/CUBIC_TARGET_CHECK_OUTPUT.json",
+      "replay": "research/counterexamples/latest-literature-2026-11-01/ROOT_CUBIC_REPLAY.json",
+      "equal_json": true
+    },
+    {
+      "original": "research/counterexamples/latest-literature-2026-11-01/CLIPPED_GRAM_CHECK_OUTPUT.json",
+      "replay": "research/counterexamples/latest-literature-2026-11-01/ROOT_CLIPPED_GRAM_REPLAY.json",
+      "equal_json": true
+    }
+  ],
+  "pair_receipt_hashes_verified": 3,
+  "limitations": [
+    "No formal proof certification",
+    "No external full Lean rebuild",
+    "No remote-link availability assertion",
+    "No performance benchmark claim",
+    "No whole historical archive rescan"
+  ]
+}

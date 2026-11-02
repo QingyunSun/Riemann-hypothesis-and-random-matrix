@@ -1,0 +1,56 @@
+[
+  {
+    "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/ZERO_MARGIN_REALIZABILITY_TEST.md",
+    "bytes": 7052,
+    "sha256": "818f0ac7b2952fd05fde28762079aeb94d23c72fbe8171e3298cedeb935bb60c",
+    "match": true
+  },
+  {
+    "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability-review/INDEPENDENT_REALIZABILITY_REVIEW.md",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/INDEPENDENT_REALIZABILITY_REVIEW.md",
+    "bytes": 6993,
+    "sha256": "5b2b0acf98e08b11091e9a342f5b420773443d2ef31f8ebc9f88b001d9b98054",
+    "match": true
+  },
+  {
+    "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/finite-window-realizability/FINITE_WINDOW_ZERO_MARGIN_THEOREM.md",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/FINITE_WINDOW_ZERO_MARGIN_THEOREM.md",
+    "bytes": 11658,
+    "sha256": "c857d22a766099049bcdc95cdb12bf876d87deb6d83f9e9654c154d4dc2a6a7d",
+    "match": true
+  },
+  {
+    "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/mod3-centering/FIXED_MOD6_CENTERING.md",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/FIXED_MOD6_CENTERING.md",
+    "bytes": 17011,
+    "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e",
+    "match": true
+  },
+  {
+    "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/coordinator-intake/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/ASTRA_186_FLT_SECOND_READING_TOOLS.md",
+    "bytes": 17120,
+    "sha256": "331e923f508fe05f88491cb0b0992930323c2b095fe48a4083dd427c02ffa9da",
+    "match": true
+  },
+  {
+    "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/parity-adjusted-target/PARITY_ADJUSTED_PAIR_TARGET.md",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/PARITY_ADJUSTED_PAIR_TARGET.md",
+    "bytes": 7693,
+    "sha256": "36a995c9852e95d6c29e44f2c5dd5815d27318fbabe0a94770e9f21a59c3bb6b",
+    "match": true
+  },
+  {
+    "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/finite-window-realizability/SOURCE_RECEIPT.json",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/finite-window-realizability_SOURCE_RECEIPT.json",
+    "bytes": 804,
+    "sha256": "988c04e004e1a04b380cc9d13d883d45748a52958740bdc0d617f39a6bc73eb6"
+  },
+  {
+    "source": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/kernel-realizability/AUTHOR_RECEIPT.json",
+    "frozen": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/realizability/kernel-realizability_AUTHOR_RECEIPT.json",
+    "bytes": 1332,
+    "sha256": "c4bb847deb6e9e4be6ce12e838dfb4ddd438ea314f5a2bfed1379e75ad63e86d"
+  }
+]

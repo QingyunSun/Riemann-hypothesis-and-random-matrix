@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Exact rational spline/constant checks plus an independently written ordinary analytic review; no numerical prime experiment.",
+  "author_sha256": "8106f3483adb71ab7ca4e5c105bfd6464dfa46954a1e1e77d2c77900392e19dc",
+  "author_bytes": 8085,
+  "script_sha256": "72d82ba51e0c8595348d8d26354c3283e972191c7b499e2714cbcf1cce135ce3",
+  "spline_L1_norms": {
+    "B": "1",
+    "B_prime": "4/3",
+    "B_second": "8/3",
+    "B_third": "8"
+  },
+  "full_positive_mass_b0": "4/3",
+  "full_negative_mass_b0": "4/3",
+  "outer_negative_mass_lower": "47/48",
+  "normalized_outer_negative_mass_lower": "47/104",
+  "ratio_derivative_numerator": "-5/6",
+  "C2_junctions_and_support_endpoints": "PASS"
+}

@@ -1,0 +1,51 @@
+{
+  "author_receipt": {
+    "bytes": 2238,
+    "path": "research-round24/general-nonprimitive/AUTHOR_RECEIPT.json",
+    "sha256": "1fb960176ef30c03076789d9140010bde23334763c18aa6628a57fc53fc4476d"
+  },
+  "author_report": {
+    "bytes": 9934,
+    "path": "research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+    "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02"
+  },
+  "date": "2026-09-05",
+  "independence": "Reviewer derived the h=2pr count before seeing the draft, communicated it to the author, then independently reviewed the complete written proof and source dependencies.",
+  "provenance": "Initial complete draft and final frozen author text have the same hash. Author confirmed no changes planned.",
+  "review_and_checks": [
+    {
+      "bytes": 10087,
+      "path": "research-round24/general-nonprimitive-review/INDEPENDENT_NONPRIMITIVE_REVIEW.md",
+      "sha256": "ec7c6a63845ff54fcbe3ff34f5619c727b298afea0aa5a2ae2242bd40563e8a7"
+    },
+    {
+      "bytes": 2953,
+      "path": "research-round24/general-nonprimitive-review/source_and_replay_checks.json",
+      "sha256": "eecfa2aa338e2f8750bf96973a5d84b58597ea7ca2636990422524b0a34b7030"
+    },
+    {
+      "bytes": 441,
+      "path": "research-round24/general-nonprimitive-review/independent_exponent_checks.json",
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8"
+    },
+    {
+      "bytes": 441,
+      "path": "research-round24/general-nonprimitive-review/independent_exponent_checks.log",
+      "sha256": "00579811e9716e49e5ea29ed79ff185a633c5ec8e13b28e7d29a05a3cf046ac8"
+    }
+  ],
+  "reviewer": "Plato / residual_gram",
+  "scope": "Unconditional bound on the exact nonprimitive packet for arbitrary distinct odd divisor subsets, and valid reuse of the existing smooth primitive completion at the fixed displayed Q. No estimate for A+C\u2212M_S.",
+  "status": "frozen independent ordinary-proof acceptance; no amendment requested",
+  "verification": {
+    "author_file_hash_entries": 6,
+    "author_files_changed": false,
+    "copied_replay_json_and_stdout_identical": true,
+    "new_prime_height_runs": 0,
+    "rational_assertions": 6,
+    "review_controls": 0,
+    "review_local_links_exist": true,
+    "review_math_delimiters_balanced": true,
+    "source_dependency_hash_entries": 3
+  }
+}

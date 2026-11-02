@@ -1,0 +1,432 @@
+{
+  "source_date": "2026-09-05",
+  "files": [
+    {
+      "staging_path": "prime-credit/alpha_credit.py",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_credit.py",
+      "original_sha256": "2a0a69dcb0f9b7e3b97947005c1dc8c4f4c6a3202bd8009eb9ce62b938d90fea",
+      "published_sha256": "a051c39c47cde4bd27bdf035c558af49cfe17b54bafea0e77a4463e217ba9108",
+      "change": "environment-selectable external source path only"
+    },
+    {
+      "staging_path": "prime-credit/alpha_credit_margin_replay.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_credit_margin_replay.json",
+      "original_sha256": "ea36828b36fb09163db0b967afc3365840895245ab2a93f06e0da080f63ee2c8",
+      "published_sha256": "ea36828b36fb09163db0b967afc3365840895245ab2a93f06e0da080f63ee2c8",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/alpha_credit_p16.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_credit_p16.json",
+      "original_sha256": "6011e05140169f07874c0534ea0db3e26be30e9d57be9d3e3f192120e4be9aa8",
+      "published_sha256": "6011e05140169f07874c0534ea0db3e26be30e9d57be9d3e3f192120e4be9aa8",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/alpha_credit_p20.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_credit_p20.json",
+      "original_sha256": "15bbff5445106ffeb1f211cdc512371474c185fb05d2c9a18fe1c380a79d23b1",
+      "published_sha256": "15bbff5445106ffeb1f211cdc512371474c185fb05d2c9a18fe1c380a79d23b1",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/alpha_rectangle_certificate.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_certificate.json",
+      "original_sha256": "009b6e23a124f8ff815c2f93da101ad7ebfbbf63dc1c2748936bdfb29c257e16",
+      "published_sha256": "009b6e23a124f8ff815c2f93da101ad7ebfbbf63dc1c2748936bdfb29c257e16",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/alpha_rectangle_certificate.log",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_certificate.log",
+      "original_sha256": "c0a83da2ec2da19d225a576a291e893c211254f73d61820a02966bcf2ca37c86",
+      "published_sha256": "c0a83da2ec2da19d225a576a291e893c211254f73d61820a02966bcf2ca37c86",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/alpha_rectangle_kernel_checks.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_kernel_checks.json",
+      "original_sha256": "a0300ce44b5b8856915074c7809bd5643ba1f2218660733de463408221743342",
+      "published_sha256": "a0300ce44b5b8856915074c7809bd5643ba1f2218660733de463408221743342",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/alpha_rectangle_p19.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_p19.json",
+      "original_sha256": "55b4b934c25a178e4dfb0fc2fcef9fc6bfeffa1e36216cb01d6b35e71915cead",
+      "published_sha256": "55b4b934c25a178e4dfb0fc2fcef9fc6bfeffa1e36216cb01d6b35e71915cead",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/alpha_rectangle_tilt35.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_tilt35.json",
+      "original_sha256": "b843ec07d5f12ff8b475383fb93ac7dd76528865337902173a3180af28110620",
+      "published_sha256": "b843ec07d5f12ff8b475383fb93ac7dd76528865337902173a3180af28110620",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/alpha_rectangle_tilt35.log",
+      "published_path": "research/prime-gaps/round4/prime-credit/alpha_rectangle_tilt35.log",
+      "original_sha256": "e0d528a238fd5d37620bfd68bb66e594c0871e9a75b155b4855175cce50f93d1",
+      "published_sha256": "e0d528a238fd5d37620bfd68bb66e594c0871e9a75b155b4855175cce50f93d1",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/artifact_manifest.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/artifact_manifest.json",
+      "original_sha256": "6eca62b4b606debebcfbb593ea921b204e139905c932bfa9c0ca3515e1705d9d",
+      "published_sha256": "6eca62b4b606debebcfbb593ea921b204e139905c932bfa9c0ca3515e1705d9d",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/certify_alpha_rectangle.py",
+      "published_path": "research/prime-gaps/round4/prime-credit/certify_alpha_rectangle.py",
+      "original_sha256": "28260e465561a22f84599f22f095d592d34bd0cc0737ae2b56950c3052ddfab8",
+      "published_sha256": "28260e465561a22f84599f22f095d592d34bd0cc0737ae2b56950c3052ddfab8",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/exact_cell_anchor.json",
+      "published_path": "research/prime-gaps/round4/prime-credit/exact_cell_anchor.json",
+      "original_sha256": "f891863db09c5ba66f65cdadec9ab66e6e0c7d13dab30ba8bb8bb08dd52ee572",
+      "published_sha256": "f891863db09c5ba66f65cdadec9ab66e6e0c7d13dab30ba8bb8bb08dd52ee572",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/exact_cell_anchor.py",
+      "published_path": "research/prime-gaps/round4/prime-credit/exact_cell_anchor.py",
+      "original_sha256": "a645bd173f5fcc8e043ffd2ca64d17fbae41ed474d52913dd8dad7bf4ff6599f",
+      "published_sha256": "a645bd173f5fcc8e043ffd2ca64d17fbae41ed474d52913dd8dad7bf4ff6599f",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/prime_alpha_credit.md",
+      "published_path": "research/prime-gaps/round4/prime-credit/prime_alpha_credit.md",
+      "original_sha256": "59791f04d6917f447382083612eea4c311f3ec74cb427c37cbac49619ba046ec",
+      "published_sha256": "59791f04d6917f447382083612eea4c311f3ec74cb427c37cbac49619ba046ec",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "prime-credit/replay_credit_margin.py",
+      "published_path": "research/prime-gaps/round4/prime-credit/replay_credit_margin.py",
+      "original_sha256": "7ea24cbcde545630ae8a196a780ac870a9f4ef0e4c7f5be4946437781db11747",
+      "published_sha256": "7ea24cbcde545630ae8a196a780ac870a9f4ef0e4c7f5be4946437781db11747",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "restoration-proof/ALPHA_RECTANGLE_INDEPENDENT_REVIEW.md",
+      "published_path": "research/prime-gaps/round4/restoration-proof/ALPHA_RECTANGLE_INDEPENDENT_REVIEW.md",
+      "original_sha256": "22796ab5c24508df097e913595f76519d5fe7002df75de7584653142e2e7c196",
+      "published_sha256": "22796ab5c24508df097e913595f76519d5fe7002df75de7584653142e2e7c196",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "restoration-proof/RESTORATION_PROOF_AUDIT.md",
+      "published_path": "research/prime-gaps/round4/restoration-proof/RESTORATION_PROOF_AUDIT.md",
+      "original_sha256": "fbbaa5293ea486e643cecc78d7651487448b54f3dbe0840cce8ac61d4089645f",
+      "published_sha256": "fbbaa5293ea486e643cecc78d7651487448b54f3dbe0840cce8ac61d4089645f",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "restoration-proof/rectangle_independent_checks.json",
+      "published_path": "research/prime-gaps/round4/restoration-proof/rectangle_independent_checks.json",
+      "original_sha256": "e40fdd6fea0301b5eab534f8a6f446bddba4d1af72b34a08ba5dbf484c2f56ae",
+      "published_sha256": "e40fdd6fea0301b5eab534f8a6f446bddba4d1af72b34a08ba5dbf484c2f56ae",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "restoration-proof/rectangle_independent_checks.py",
+      "published_path": "research/prime-gaps/round4/restoration-proof/rectangle_independent_checks.py",
+      "original_sha256": "7f4884e9d9355bdcce7afaa978432845fe80174c642eba01196fced1995a2fd1",
+      "published_sha256": "7f4884e9d9355bdcce7afaa978432845fe80174c642eba01196fced1995a2fd1",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "restoration-proof/restoration_checks.json",
+      "published_path": "research/prime-gaps/round4/restoration-proof/restoration_checks.json",
+      "original_sha256": "25b71f9d5789a2ed6fd2fc5c82dd8d6d2b028885549c3f866a3a749b2ec481c3",
+      "published_sha256": "25b71f9d5789a2ed6fd2fc5c82dd8d6d2b028885549c3f866a3a749b2ec481c3",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "restoration-proof/restoration_checks.log",
+      "published_path": "research/prime-gaps/round4/restoration-proof/restoration_checks.log",
+      "original_sha256": "25b71f9d5789a2ed6fd2fc5c82dd8d6d2b028885549c3f866a3a749b2ec481c3",
+      "published_sha256": "25b71f9d5789a2ed6fd2fc5c82dd8d6d2b028885549c3f866a3a749b2ec481c3",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "restoration-proof/restoration_checks.py",
+      "published_path": "research/prime-gaps/round4/restoration-proof/restoration_checks.py",
+      "original_sha256": "682fade0d4e9ff653751d48d7156e9f5d8dedabec3500053fd44f0743b2027bf",
+      "published_sha256": "f975b2618dd100e7fdbdc64befb359548a0f81358b7a41799404e12caeb51e79",
+      "change": "environment-selectable external source path only"
+    },
+    {
+      "staging_path": "k39-trial/REPORT.md",
+      "published_path": "research/prime-gaps/round4/k39-trial/REPORT.md",
+      "original_sha256": "4c95f1f51767c736a5a48f4d58338ae6c617b9899ff18484fc915789a12a6be4",
+      "published_sha256": "4c95f1f51767c736a5a48f4d58338ae6c617b9899ff18484fc915789a12a6be4",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/cap_trial.py",
+      "published_path": "research/prime-gaps/round4/k39-trial/cap_trial.py",
+      "original_sha256": "f90611bebc6a108b897deda6fdbd224a44b06aa15425fb803b34f7d669639f89",
+      "published_sha256": "ae402b8953fc6fafb9168acd8d48684f073839c879b395cf8429b4c9231cd1fd",
+      "change": "environment-selectable external source path only"
+    },
+    {
+      "staging_path": "k39-trial/check_structure.py",
+      "published_path": "research/prime-gaps/round4/k39-trial/check_structure.py",
+      "original_sha256": "cd312d6a2052f1ebd49986fdcac241c3cfa4ab7aa9a761a31e45876fd541b6c3",
+      "published_sha256": "cd312d6a2052f1ebd49986fdcac241c3cfa4ab7aa9a761a31e45876fd541b6c3",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/k39_n16384_tilt20_longdouble.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/k39_n16384_tilt20_longdouble.json",
+      "original_sha256": "019a69d5b34f34d883865be86829fa9c4eccff3b0ca249a82e890dbde04ef02f",
+      "published_sha256": "019a69d5b34f34d883865be86829fa9c4eccff3b0ca249a82e890dbde04ef02f",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/k39_n98304_tilt20_longdouble.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/k39_n98304_tilt20_longdouble.json",
+      "original_sha256": "075d44f1a18a71691c23ab36cd00814353b320a3a19025d8e4b581432a12f973",
+      "published_sha256": "075d44f1a18a71691c23ab36cd00814353b320a3a19025d8e4b581432a12f973",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/k39_n98304_tilt25_longdouble.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/k39_n98304_tilt25_longdouble.json",
+      "original_sha256": "00defdf0d16b46fe8fd286880d2d19564cb3c8f02401caa59e972f529de83a09",
+      "published_sha256": "00defdf0d16b46fe8fd286880d2d19564cb3c8f02401caa59e972f529de83a09",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/k40_n16384_tilt20_longdouble.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/k40_n16384_tilt20_longdouble.json",
+      "original_sha256": "bcc3aa64454af611f0932e2495d35cda32151d2b9775331839771c5bea44ed50",
+      "published_sha256": "bcc3aa64454af611f0932e2495d35cda32151d2b9775331839771c5bea44ed50",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/k40_n4096_tilt20_longdouble.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/k40_n4096_tilt20_longdouble.json",
+      "original_sha256": "d12ae3022f5ec58b4c93a293f2a85eff2298d08b2984ed15db8a42bbfff7eebe",
+      "published_sha256": "d12ae3022f5ec58b4c93a293f2a85eff2298d08b2984ed15db8a42bbfff7eebe",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/k40_n98304_tilt20_longdouble.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/k40_n98304_tilt20_longdouble.json",
+      "original_sha256": "03f48e48a8ba2f941389f567b630af35470f21f78102af943a82bef0284d4e6b",
+      "published_sha256": "03f48e48a8ba2f941389f567b630af35470f21f78102af943a82bef0284d4e6b",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/optimize_cap.py",
+      "published_path": "research/prime-gaps/round4/k39-trial/optimize_cap.py",
+      "original_sha256": "8fea79983b292a3e14430cfcfaf497e34bb13cd982f864459ccb209bd6a430fd",
+      "published_sha256": "8fea79983b292a3e14430cfcfaf497e34bb13cd982f864459ccb209bd6a430fd",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/ritz_k39_n16384.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/ritz_k39_n16384.json",
+      "original_sha256": "e96b3ea379a45b3169979a772920b0501aceb9b2479be40fc3b16c74551cc8df",
+      "published_sha256": "e96b3ea379a45b3169979a772920b0501aceb9b2479be40fc3b16c74551cc8df",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/ritz_k39_n16384.npz",
+      "published_path": "research/prime-gaps/round4/k39-trial/ritz_k39_n16384.npz",
+      "original_sha256": "459d76222e16efa2a88be0df657e11ed8b34082bde0ccf461452f4f183666e86",
+      "published_sha256": "459d76222e16efa2a88be0df657e11ed8b34082bde0ccf461452f4f183666e86",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/ritz_k39_n98304.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/ritz_k39_n98304.json",
+      "original_sha256": "c2bcb872fb3826460d86e05a726b1bceae39d2738aff4b94e1315cb9945afac6",
+      "published_sha256": "c2bcb872fb3826460d86e05a726b1bceae39d2738aff4b94e1315cb9945afac6",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/ritz_k39_n98304.npz",
+      "published_path": "research/prime-gaps/round4/k39-trial/ritz_k39_n98304.npz",
+      "original_sha256": "7319f11601dcac75f92ca965aea3f04a1d515ac1e8d8cd971dfddfd399a82607",
+      "published_sha256": "7319f11601dcac75f92ca965aea3f04a1d515ac1e8d8cd971dfddfd399a82607",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/ritz_k40_n98304.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/ritz_k40_n98304.json",
+      "original_sha256": "4c654976018215a6b77a0b6965d9c81c91d7225c67b7617b8ed5200ec7eb8dcd",
+      "published_sha256": "4c654976018215a6b77a0b6965d9c81c91d7225c67b7617b8ed5200ec7eb8dcd",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/ritz_k40_n98304.npz",
+      "published_path": "research/prime-gaps/round4/k39-trial/ritz_k40_n98304.npz",
+      "original_sha256": "dec4cd49ccd78eda4d081f62eea5a7b7c2b85c680ebf3c21e4ce209886a28aba",
+      "published_sha256": "dec4cd49ccd78eda4d081f62eea5a7b7c2b85c680ebf3c21e4ce209886a28aba",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "k39-trial/structural_check_results.json",
+      "published_path": "research/prime-gaps/round4/k39-trial/structural_check_results.json",
+      "original_sha256": "5f7bcc9934ad28da2f5a4f1cd6eff2a52e10f5f43e89300cd5dd687769789ebf",
+      "published_sha256": "5f7bcc9934ad28da2f5a4f1cd6eff2a52e10f5f43e89300cd5dd687769789ebf",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/README.md",
+      "published_path": "research/prime-gaps/round4/repro-flint/README.md",
+      "original_sha256": "4612dce4b1824923b559ee988f531c6a65c01f2cf46214a4e72261c1dffb04b8",
+      "published_sha256": "4612dce4b1824923b559ee988f531c6a65c01f2cf46214a4e72261c1dffb04b8",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/binding-targeted-tests.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/binding-targeted-tests.log",
+      "original_sha256": "03aca4e76bdb250172bdd229b8b512ae3ebd8ca3b426b36e40e018537c988c09",
+      "published_sha256": "03aca4e76bdb250172bdd229b8b512ae3ebd8ca3b426b36e40e018537c988c09",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/build.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/build.log",
+      "original_sha256": "c7cc8302673c2fd719eb43c7929c561385ae2de746aa19563bd944ea606273fa",
+      "published_sha256": "c7cc8302673c2fd719eb43c7929c561385ae2de746aa19563bd944ea606273fa",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/build_python_binding.sh",
+      "published_path": "research/prime-gaps/round4/repro-flint/build_python_binding.sh",
+      "original_sha256": "113ee5ff8af1dd444079baf0624ec48b55db28b24e655d1d2d6f318fe0321b82",
+      "published_sha256": "113ee5ff8af1dd444079baf0624ec48b55db28b24e655d1d2d6f318fe0321b82",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/build_runtime.sh",
+      "published_path": "research/prime-gaps/round4/repro-flint/build_runtime.sh",
+      "original_sha256": "8e1e498b63f8678ddfe1c1a4a08dbc1c92552cacbab4c496cb532fa07fb0e877",
+      "published_sha256": "8e1e498b63f8678ddfe1c1a4a08dbc1c92552cacbab4c496cb532fa07fb0e877",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/corrected-runtime-check.json",
+      "published_path": "research/prime-gaps/round4/repro-flint/corrected-runtime-check.json",
+      "original_sha256": "6ff7ff3aa707955cd623b8759e19ec8dd7735da4c17fa7b99ae7cf9a11668627",
+      "published_sha256": "6ff7ff3aa707955cd623b8759e19ec8dd7735da4c17fa7b99ae7cf9a11668627",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/linked-library.txt",
+      "published_path": "research/prime-gaps/round4/repro-flint/linked-library.txt",
+      "original_sha256": "a94175d9fd4ec0689929eb7dcfa1af5c346e8fd1b7a9e16a8972502f32a11eec",
+      "published_sha256": "a94175d9fd4ec0689929eb7dcfa1af5c346e8fd1b7a9e16a8972502f32a11eec",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/native-arb-tests.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/native-arb-tests.log",
+      "original_sha256": "bff468e03af07f8556b3c482627e54273972ea3ebcd1d7201ff89f5c2edf4001",
+      "published_sha256": "bff468e03af07f8556b3c482627e54273972ea3ebcd1d7201ff89f5c2edf4001",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/negative-wheel-control.json",
+      "published_path": "research/prime-gaps/round4/repro-flint/negative-wheel-control.json",
+      "original_sha256": "b374afda5adc234ff8b4435d1adcf6c44bbc962c911c0f6df412c3e0fe3959da",
+      "published_sha256": "b374afda5adc234ff8b4435d1adcf6c44bbc962c911c0f6df412c3e0fe3959da",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/python-build-gmp-path.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/python-build-gmp-path.log",
+      "original_sha256": "2b6974f985fbb8268c1c2190b01ab51e708746cf71ad90810d2efec8fcacff4a",
+      "published_sha256": "2b6974f985fbb8268c1c2190b01ab51e708746cf71ad90810d2efec8fcacff4a",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/python-build-macos.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/python-build-macos.log",
+      "original_sha256": "1f7525a6bd2848d55cf95259314f6660dd75fed5d10e2d74ccffdebdca19183e",
+      "published_sha256": "1f7525a6bd2848d55cf95259314f6660dd75fed5d10e2d74ccffdebdca19183e",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/python-build-retry.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/python-build-retry.log",
+      "original_sha256": "9de29b25eb598762ea6934014e35f8a18dd4acd18c2d4977a9f781ca15a683e9",
+      "published_sha256": "9de29b25eb598762ea6934014e35f8a18dd4acd18c2d4977a9f781ca15a683e9",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/python-build.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/python-build.log",
+      "original_sha256": "3568f1c0e4afd108ab4253347eedaddbe457987cbb5bb528b58a197286e8f122",
+      "published_sha256": "3568f1c0e4afd108ab4253347eedaddbe457987cbb5bb528b58a197286e8f122",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/python-flint-tests-verbose.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/python-flint-tests-verbose.log",
+      "original_sha256": "b6b3b722c788b66b42e75cf0685de087b363616134537118c13d3a17663dcdb3",
+      "published_sha256": "b6b3b722c788b66b42e75cf0685de087b363616134537118c13d3a17663dcdb3",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/python-flint-tests.log",
+      "published_path": "research/prime-gaps/round4/repro-flint/python-flint-tests.log",
+      "original_sha256": "40de95aa134e2c7724022984a6097336da27a52a4ec8d7e2491a224ade5aae96",
+      "published_sha256": "40de95aa134e2c7724022984a6097336da27a52a4ec8d7e2491a224ade5aae96",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/runtime-provenance.json",
+      "published_path": "research/prime-gaps/round4/repro-flint/runtime-provenance.json",
+      "original_sha256": "8af0ce6426755e59eb3bf2943540a2d2f7b17347e662877eee2949af4691c6ad",
+      "published_sha256": "8af0ce6426755e59eb3bf2943540a2d2f7b17347e662877eee2949af4691c6ad",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "repro-flint/signed_convolution_check.py",
+      "published_path": "research/prime-gaps/round4/repro-flint/signed_convolution_check.py",
+      "original_sha256": "4bb4eb669827c5298d5ee3cd5acb014c63f28cc7317bf27b72e27eec8be72f0a",
+      "published_sha256": "4bb4eb669827c5298d5ee3cd5acb014c63f28cc7317bf27b72e27eec8be72f0a",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "independent-rectangle-recheck/alpha_credit.py",
+      "published_path": "research/prime-gaps/round4/independent-rectangle-recheck/alpha_credit.py",
+      "original_sha256": "2a0a69dcb0f9b7e3b97947005c1dc8c4f4c6a3202bd8009eb9ce62b938d90fea",
+      "published_sha256": "a051c39c47cde4bd27bdf035c558af49cfe17b54bafea0e77a4463e217ba9108",
+      "change": "environment-selectable external source path only"
+    },
+    {
+      "staging_path": "independent-rectangle-recheck/alpha_rectangle_certificate.json",
+      "published_path": "research/prime-gaps/round4/independent-rectangle-recheck/alpha_rectangle_certificate.json",
+      "original_sha256": "8e518917e0853d725edbfba9f7a9b1cc46960a70c4676cd0d827ef9a3b7f8f4f",
+      "published_sha256": "8e518917e0853d725edbfba9f7a9b1cc46960a70c4676cd0d827ef9a3b7f8f4f",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "independent-rectangle-recheck/alpha_rectangle_certificate.log",
+      "published_path": "research/prime-gaps/round4/independent-rectangle-recheck/alpha_rectangle_certificate.log",
+      "original_sha256": "c8f17e3400e25c4e5c1a8c323115ec4f6492c28c0f86c236f6c44113ed8344a3",
+      "published_sha256": "c8f17e3400e25c4e5c1a8c323115ec4f6492c28c0f86c236f6c44113ed8344a3",
+      "change": "verbatim"
+    },
+    {
+      "staging_path": "independent-rectangle-recheck/certify_alpha_rectangle.py",
+      "published_path": "research/prime-gaps/round4/independent-rectangle-recheck/certify_alpha_rectangle.py",
+      "original_sha256": "28260e465561a22f84599f22f095d592d34bd0cc0737ae2b56950c3052ddfab8",
+      "published_sha256": "28260e465561a22f84599f22f095d592d34bd0cc0737ae2b56950c3052ddfab8",
+      "change": "verbatim"
+    }
+  ]
+}

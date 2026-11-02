@@ -1,0 +1,157 @@
+{
+  "all_16_pins_match": true,
+  "author_entries": 7,
+  "checks": [
+    {
+      "bytes": 485661,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/sources/goldston-yildirim-I-0111212v1.pdf",
+      "sha256": "a2a867d18cbdfb31ef5765b9fa8900f0c746d70568e332eecb1c3cabd22df5f5"
+    },
+    {
+      "bytes": 214221,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/sources/goldston-yildirim-I-0111212v1.txt",
+      "sha256": "7ec8cafd7c3eb9e7ac4301684808b5cf94f9f7ed1dbd2bf148be429e79b2a5c6"
+    },
+    {
+      "bytes": 418416,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/sources/goldston-yildirim-II-0412366v1.pdf",
+      "sha256": "edbe0a686cab8d386d20781b0aff362edca99c8688aa713e31cf5bcf74c72443"
+    },
+    {
+      "bytes": 214667,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/sources/goldston-yildirim-II-0412366v1.txt",
+      "sha256": "2c74e6f99e456d7f0533dab6140025f1ea3bb2eea453af3bdac01c741d79df00"
+    },
+    {
+      "bytes": 369949,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "sources/openai-short-gaps.pdf",
+      "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930"
+    },
+    {
+      "bytes": 112915,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "sources/openai-short-gaps.txt",
+      "sha256": "ded13a7c74fcfce64e85769e05b5869803dccdf53b88be2c2f3c0b344f95ee84"
+    },
+    {
+      "bytes": 22834,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "research-round26/full-shift-reduction/FULL_SHIFT_REDUCTION.md",
+      "sha256": "c0d413f2eead98cfc97de09cd5b4f8ffaa0df7a6b81249df576ccff61a0cadd6"
+    },
+    {
+      "bytes": 9934,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "research-round24/general-nonprimitive/GENERAL_NONPRIMITIVE_BOUND.md",
+      "sha256": "fd76f0bb6915dbad962f4e74a9fa31de5e3b9d79f26572fa8b6fea400e9d6a02"
+    },
+    {
+      "bytes": 18644,
+      "manifest": "source_receipt.json",
+      "matches": true,
+      "path": "research-round20/length-averaged-variance/EXPONENTIAL_LENGTH_AVERAGE.md",
+      "sha256": "cd8c2f7dc48530ed02f915dd202c8aedaaaadb1096cafc019beeb595b9beebbe"
+    },
+    {
+      "bytes": 21089,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/MIXED_MOMENT_DIRECTION_TEST.md",
+      "sha256": "b338a3210061055f6ad5899fd168175ba2c85d6225f80f71e6cd48098923cdc5"
+    },
+    {
+      "bytes": 1808,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/check_mixed_moment_algebra.py",
+      "sha256": "9b410aa1edec6ce3b46c917fd844dd3def56d38ede634b197e2e31d0caf02f21"
+    },
+    {
+      "bytes": 773,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/mixed_moment_checks.json",
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584"
+    },
+    {
+      "bytes": 773,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/mixed_moment_checks.log",
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584"
+    },
+    {
+      "bytes": 1102,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/check_math_syntax.cjs",
+      "sha256": "04602aba8ef7910453d45a0044da18717c8e1247244955eb4d1a19bfccf2815c"
+    },
+    {
+      "bytes": 78,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/math_syntax_check.json",
+      "sha256": "2eecd9da841a9726d33374957bf1d714b1f14c1b4343a790cf005612b8f6728c"
+    },
+    {
+      "bytes": 3786,
+      "manifest": "AUTHOR_RECEIPT.json",
+      "matches": true,
+      "path": "research-round27/mixed-moment-test/source_receipt.json",
+      "sha256": "63434fd13e09c53376c805ed3f7712fb5a9ce2ee3f180f54d8f6ba5aa9c68444"
+    }
+  ],
+  "coordinator_copy": {
+    "bytes": 6945,
+    "copied_path": "research-round27/mixed-moment-review/sources/COORDINATOR_GY_TOOL_INTAKE.md",
+    "original_path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r27-sieve-intake/GOLDSTON_YILDIRIM_TOOL_INTAKE.md",
+    "scope": "Context/compatibility intake; mathematics independently checked against primary sources and actual coefficients.",
+    "sha256": "51e8493fd9a08a239881ef138ef1147e44a21e66d47aae778a10ac50393d8b0a"
+  },
+  "python": "3.14.3",
+  "replay": {
+    "bytes": 773,
+    "data": {
+      "checks": {
+        "cutoff_log_identity": true,
+        "natural_mixed_tail_lower_exponent": true,
+        "natural_mixed_tail_upper_exponent": true,
+        "natural_pair_CRT_lower_exponent": true,
+        "natural_pair_CRT_upper_exponent": true,
+        "negative_semiprime_witness": true,
+        "polarization": true,
+        "positive_three_prime_witness": true,
+        "prime_power_remainder": true,
+        "real_cutoff_between_five_and_six": true,
+        "smooth_pure_global_T_exponent": true,
+        "smooth_pure_packet_Y_exponent": true,
+        "triple_mixed_range_misses_natural_packets": true,
+        "uniform_Q_upper_exponent": true,
+        "zero_diagonal_negative_determinant": true
+      },
+      "scope": "Fifteen exact scalar and formal-log checks; no asymptotic correlation certification.",
+      "status": "PASS"
+    },
+    "exit_code": 0,
+    "json_and_stdout_byte_identical": true,
+    "scalar_checks": 15,
+    "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584"
+  },
+  "scope": "Full ordinary review and independent smooth pure-moment refinement; bounded primary statement/selected-proof audit, not an audit of entire GY papers.",
+  "source_entries": 9,
+  "sympy": "1.14.0"
+}

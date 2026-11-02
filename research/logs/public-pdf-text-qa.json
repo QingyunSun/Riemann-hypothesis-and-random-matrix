@@ -1,0 +1,27 @@
+{
+  "pages": 333,
+  "short_pages": [],
+  "replacement_glyph_pages": [],
+  "section_pages": {
+    "Round 3 and incoming": [
+      157
+    ],
+    "Historical source 23": [
+      2,
+      164
+    ],
+    "Fable source": [
+      3,
+      287,
+      289,
+      291
+    ],
+    "Incoming proposal": [
+      3,
+      300,
+      313,
+      324
+    ]
+  },
+  "pdf_sha256": "eccf6660459c65923a5f517df969df2790510491f22777bd757a6596387fe874"
+}

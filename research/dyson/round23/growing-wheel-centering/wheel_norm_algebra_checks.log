@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "Eight exact scalar moment/multiplier/exponent checks only. No wheel or divisor enumeration, factoring, prime-height sample, or verification of PNT or the ordinary proof.",
+  "sympy_version": "1.14.0",
+  "report_sha256": "d65b165547316a9b047db65295a4f1e05c3aa2a66416e287d9860688b3b3f73f",
+  "checks": [
+    {
+      "name": "complete exponential length mass",
+      "status": "PASS"
+    },
+    {
+      "name": "complete exponential length second moment",
+      "status": "PASS"
+    },
+    {
+      "name": "cumulative profile exponential square integral",
+      "status": "PASS"
+    },
+    {
+      "name": "profile Minkowski upper bound difference",
+      "status": "PASS"
+    },
+    {
+      "name": "uniform outer multiplier upper difference",
+      "status": "PASS"
+    },
+    {
+      "name": "resolvent factor upper difference",
+      "status": "PASS"
+    },
+    {
+      "name": "square-root window mass exponent",
+      "exact_value": "-3/8",
+      "status": "PASS"
+    },
+    {
+      "name": "primorial logarithmic scale limit",
+      "status": "PASS"
+    }
+  ],
+  "number_of_checks": 8
+}

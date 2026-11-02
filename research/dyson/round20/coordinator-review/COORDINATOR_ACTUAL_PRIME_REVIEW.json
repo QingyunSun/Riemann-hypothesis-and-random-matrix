@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-05",
+  "status": "Accepted bounded finite diagnostic and analytic error-accounting scope; not a certified enclosure.",
+  "report_sha256": "5fd0ecfa3f31785e84e60be55d661f35fbac456bd8038819a9ffc635599677a9",
+  "report_bytes": 16818,
+  "compute_sha256": "d6d13914220ffb30b059abf7bc4d923cfb20bd240f54fc838741dc7635f6e71f",
+  "checker_sha256": "051d7f740e03183919bd65bca9d8a441f0c19ec111820973543d8b12dafd88fb",
+  "output_sha256": "fc6ebf41bac03d1d5fb76813218c665681223eab7e57d1199c9334c05d98cb93",
+  "scope": "Entire report, compute script and independent checker read. Author's 15 owned-file hashes/bytes verified, every CSV row index and positive mass checked, three CSV weighted totals independently reaggregated. Main sieve/integration and 70-digit checker not rerun.",
+  "mathematics_checked": [
+    "Integer fourth-root support and exact integer-scaled entry/exit geometry preserve all prime powers and (x,(1+1/T)x].",
+    "Both center terms retained; positive cell formula rederived from integrals of 1,z,z² against (1+z)^-2.",
+    "Alternating series signs and conservative u^13 remainder checked; rational common width, cell count and active-sum upper budgets agree.",
+    "Seed derivative recurrence and rational norm bounds, Simpson quotient denominator protection, and moment error propagation checked.",
+    "Even decreasing autocorrelation follows from layer-cake interval overlaps. Positive-bin endpoint bounds are valid in ideal arithmetic.",
+    "The complete ideal analytic error also retains the separately stated tiny event-series allowance (8); floating table columns are not promoted to enclosures.",
+    "High-precision checker compares the same frozen piecewise weight with independent direct antiderivative and high-precision prefix logs; it does not certify original smooth-weight integral or rounding.",
+    "Checker n=p^k identity for all stored entries and independent factorization only through1000 are described at their actual scopes."
+  ],
+  "independently_reaggregated_values": [
+    {
+      "T": 100,
+      "value": 0.12040603689230812,
+      "rows": 16384
+    },
+    {
+      "T": 300,
+      "value": 0.13610580052150242,
+      "rows": 16384
+    },
+    {
+      "T": 1000,
+      "value": 0.15427941816818927,
+      "rows": 16384
+    }
+  ],
+  "artifact_receipt": "COORDINATOR_PRIME_ARTIFACT_CHECK.json",
+  "limitations": [
+    "No directed rounding or full floating-error enclosure.",
+    "No computation of zeta-zero pair statistics and no effective finite-height transfer error.",
+    "Only T=100,300,1000 were requested; no extra heights or extrapolation.",
+    "Finite values do not establish any asymptotic liminf, monotonicity, RH, AH exclusion or GUE."
+  ]
+}

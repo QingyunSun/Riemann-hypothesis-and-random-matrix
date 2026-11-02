@@ -1,0 +1,122 @@
+{
+  "author": "Aquinas / yau_flow",
+  "checks": {
+    "all_eigenpairs_checked": true,
+    "all_pins_match": true,
+    "author_and_primary_receipt_entries": 24,
+    "followup_and_unchanged_receipt_entries": 15,
+    "independently_factored_entry_samples": 9,
+    "independently_factored_shift_terms": 9441,
+    "math_errors": [],
+    "math_expressions": 61,
+    "max_absolute_entry_difference": 1.2434497875801753e-14,
+    "max_eigenpair_relative_frobenius_residual": 3.172893136353663e-15,
+    "max_full_signed_spectral_pair_error": 6.355287432313019e-14,
+    "max_independent_scalar_phase_pair_error": 1.1368683772161603e-13,
+    "max_sampled_lambda_difference": 0.0,
+    "note": "39 receipt entries include overlaps; not 39 distinct files.",
+    "selected_transpose_evaluations": 6,
+    "selected_transpose_over_op": [
+      0.3527612227141845,
+      0.47342581272882445,
+      0.5483489690346304
+    ],
+    "unexpected_control_bytes": []
+  },
+  "date": "2026-09-05",
+  "interpretation": [
+    "Faithful genuine von Mangoldt matrices with prime powers, odd endpoints, flat center two and the actual continuum mass kernel evaluated numerically.",
+    "Finite Mellin transpose pairings of 35.3%, 47.3%, 54.8% of operator norm are stronger coherence evidence than leading-vector plane overlap.",
+    "No new asymptotic bound, strict Bragg deficit, full covariance sign or famous theorem is established.",
+    "Analytic transformed tail bound is rigorous; adaptive quadrature and all roundoff/linear-algebra errors remain unenclosed.",
+    "Source old/new R27 hashes differ only by the independently checked coefficient-sequence terminology correction.",
+    "Memory/RSS guard was not measured; timings are one-run resource observations, not a benchmark."
+  ],
+  "preservation": "Author artifacts, raw arrays, prior rounds and Git unchanged. All added files are in the new review folder.",
+  "reproduction": {
+    "command_matrix": "OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 OMP_NUM_THREADS=1 python3 check_saved_matrix.py",
+    "command_transpose": "OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 OMP_NUM_THREADS=1 python3 check_saved_transpose.py",
+    "environment": {
+      "numpy": "2.4.4",
+      "python": "3.14.3",
+      "scipy": "1.17.1"
+    },
+    "scope": "Run inside this review folder or use absolute script paths. Both read sibling actual-prime-matrix-test artifacts and write only here. No broad sieve, new height or eigensolver."
+  },
+  "review_artifacts": [
+    {
+      "bytes": 19629,
+      "path": "research-round28/actual-prime-matrix-review/INDEPENDENT_MATRIX_REVIEW.md",
+      "sha256": "73e5380d69c2d3768d088575d202ca5e0ce34fbf5ac4c136addcf999048cf508"
+    },
+    {
+      "bytes": 9995,
+      "path": "research-round28/actual-prime-matrix-review/check_saved_matrix.py",
+      "sha256": "f2da16bca4edf28bddfee860bb5c5b03912b18be6b212f33e5c194c74329ed0f"
+    },
+    {
+      "bytes": 18985,
+      "path": "research-round28/actual-prime-matrix-review/independent_matrix_checks.json",
+      "sha256": "23c4b28efa7731e0ea03df663a1255c15fde2739908c64632176f5499b5bbc6e"
+    },
+    {
+      "bytes": 18985,
+      "path": "research-round28/actual-prime-matrix-review/independent_matrix_checks.log",
+      "sha256": "23c4b28efa7731e0ea03df663a1255c15fde2739908c64632176f5499b5bbc6e"
+    },
+    {
+      "bytes": 3440,
+      "path": "research-round28/actual-prime-matrix-review/check_saved_transpose.py",
+      "sha256": "c5e0bf698ae32a95c09f720b067320245940116962a99d846fadac1efdd3097a"
+    },
+    {
+      "bytes": 8250,
+      "path": "research-round28/actual-prime-matrix-review/independent_transpose_checks.json",
+      "sha256": "c176e0e8b8a67056866811c2efd1f06a9e540bb009d3fede7d7c4de82f4c8650"
+    },
+    {
+      "bytes": 8250,
+      "path": "research-round28/actual-prime-matrix-review/independent_transpose_checks.log",
+      "sha256": "c176e0e8b8a67056866811c2efd1f06a9e540bb009d3fede7d7c4de82f4c8650"
+    },
+    {
+      "bytes": 1544,
+      "path": "research-round28/actual-prime-matrix-review/check_math_syntax.cjs",
+      "sha256": "d5a0fbe9bb9fb1a77c49e9c6c1494c255a0033752488cb6bcfad99a91eafa686"
+    },
+    {
+      "bytes": 286,
+      "path": "research-round28/actual-prime-matrix-review/math_syntax_checks.json",
+      "sha256": "732ea60b67476f48211d500bbf73750ff2b5ec1fa1a9640a25afe6eb22ed8ab2"
+    }
+  ],
+  "reviewed_author_inputs": [
+    {
+      "bytes": 16214,
+      "path": "research-round28/actual-prime-matrix-test/RESULTS.md",
+      "sha256": "acf1ec31909cda5ef788778d10e152d9813eaee97095d9f34adcb2c2b731a722"
+    },
+    {
+      "bytes": 3896,
+      "path": "research-round28/actual-prime-matrix-test/AUTHOR_RECEIPT.json",
+      "sha256": "c29d6feaeaee0f1f643ee8849c8fef7a77b09d111999c1aa60ecdb6ef3f86121"
+    },
+    {
+      "bytes": 7259,
+      "path": "research-round28/actual-prime-matrix-test/FOLLOWUP_TRANSPOSE_PAIRING.md",
+      "sha256": "858009c2dd603ad8e6956a51a43263d30dc592fb09331c9d44762475c4734ee0"
+    },
+    {
+      "bytes": 2790,
+      "path": "research-round28/actual-prime-matrix-test/FOLLOWUP_TRANSPOSE_RECEIPT.json",
+      "sha256": "d030c8f423424683515cdf09e0ec08fe2091fc1f8c681d75f65ce284b5697a5b"
+    },
+    {
+      "bytes": 1008,
+      "path": "research-round28/actual-prime-matrix-test/source_receipt.json",
+      "sha256": "0416c2bc9aa31327d3c4fcf2f190a590ee8852b5145114c7f699f8b5f578463f"
+    }
+  ],
+  "reviewer": "Plato / residual_gram",
+  "status": "accepted and frozen independent numerical/proof-definition review"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-09-05T16:57:05.215984+00:00",
+  "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/outputs/TRANSFERABLE_MATH_TOOLS_FOR_ASTRA.md",
+  "bytes": 70434,
+  "sha256": "35e6e88be8744f0224a5b8b7ef833f19fe265a4815c6a15453480e0a1a4179ee",
+  "previous_sha256": "eaa8fd31a6b466aecf7f5b02867ba9a7e41cfcc073fae40d1cd71613b3bb5bcf",
+  "public_through_round": 21,
+  "ordinary_proof_review_through_round": 21,
+  "public_commit": "6c49d118fb398a39b9e6e2a1d362a223150e80fd",
+  "balanced_display_math_pairs": 75,
+  "balanced_inline_math_pairs": 104,
+  "delimiter_check_scope": "Inline delimiters exclude doubled-backslash TeX row breaks; the initial naive count detected a row break followed by (h,q), not a source defect.",
+  "control_characters": "PASS",
+  "r22_results_included": false,
+  "strict_arithmetic_gain_claimed": false,
+  "fable_invoked": false
+}

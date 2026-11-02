@@ -1,0 +1,40 @@
+{
+  "mathErrors": [],
+  "issues": [],
+  "headings": 91,
+  "width": 650,
+  "pages": 59,
+  "all_pages_rendered": 59,
+  "replacement_characters": 0,
+  "minimum_page_characters": 363,
+  "pdf_sha256": "85c504f11f7230aea128e08b2b36e924740f4c8f0d6394b5042ff3fbad8110a7",
+  "source_commit": "c74b326afb90b79d16ce480b183111e0d5f7daf6",
+  "source_reports": 10,
+  "changed_pages_after_visual_repairs": [
+    3,
+    42,
+    44,
+    45,
+    46,
+    57,
+    58,
+    59
+  ],
+  "visual_review": {
+    "status": "passed after repairs",
+    "primary": "Pages1-30 reviewed in contact sheets; pages9,14,30 additionally at1400px; final changedp3 checked.",
+    "independent": "Pages31-59 each inspected as individual images; final changed42,44,45,46,57,58,59 rechecked.",
+    "unchanged_final_pages": "Pixel comparison with the earlier inspected rendering; all other pages identical.",
+    "repairs": [
+      "Split one overlong parameter display across two lines.",
+      "Restored missing Markdown table separator in the assembled copy.",
+      "Rendered bare xi-star and rho-star prose as inline math to prevent accidental emphasis."
+    ],
+    "remaining_layout_defects": []
+  },
+  "render_runtime": {
+    "browser": "Installed Google Chrome via PLAYWRIGHT_CHROMIUM_EXECUTABLE",
+    "playwright": "Codex bundled module",
+    "initial_default_launch": "Bundled browser executable absent; selected installed browser, no browser download."
+  }
+}

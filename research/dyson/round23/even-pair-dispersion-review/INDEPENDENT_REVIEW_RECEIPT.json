@@ -1,0 +1,57 @@
+{
+  "acceptance_scope": "Entire stated unconditional smooth-packet component theorem, exact five-term algebra and attributed source comparison; no strict bound on A_D+C_D\u2212M_S, no AH refutation.",
+  "author_receipt": {
+    "bytes": 1638,
+    "path": "research-round23/even-pair-dispersion/AUTHOR_RECEIPT.json",
+    "sha256": "4af1a6589b091442935c42ff5c4ba9619199b983ae046d4d88013841b504b239"
+  },
+  "author_source_manifest": {
+    "bytes": 2239,
+    "path": "research-round23/even-pair-dispersion/source_manifest.json",
+    "sha256": "fee5d29b87d5bc072fb71a2f2727d98f66d52dafe654adce3dcedb180cf63e27"
+  },
+  "author_version": {
+    "bytes": 18339,
+    "path": "research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+    "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+  },
+  "date": "2026-09-05",
+  "independent_work": "Full ordinary mathematical proof review and primary-source hypothesis comparison, followed by a copied replay of the tiny exact author checker.",
+  "provenance_status": "Initial read and final author hash identical; author confirmed frozen provenance. Author historical review-pending wording retained unchanged.",
+  "review_and_checks": [
+    {
+      "bytes": 13945,
+      "path": "research-round23/even-pair-dispersion-review/INDEPENDENT_UPPER_WING_REVIEW.md",
+      "sha256": "c84270bc355febda26b2b14004029015524de75142aea637e5d23c064308df58"
+    },
+    {
+      "bytes": 3043,
+      "path": "research-round23/even-pair-dispersion-review/source_and_replay_checks.json",
+      "sha256": "18283c43b83eb409d708f67a33aa63277f4708818a97d08df7ebb57815233305"
+    },
+    {
+      "bytes": 1777,
+      "path": "research-round23/even-pair-dispersion-review/independent_author_checks.json",
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de"
+    },
+    {
+      "bytes": 1777,
+      "path": "research-round23/even-pair-dispersion-review/independent_author_checks.log",
+      "sha256": "04915a9ff158211d34bacf7298da6152045e39de779014c233164343f96be2de"
+    }
+  ],
+  "reviewer": "Plato / residual_gram",
+  "source_read_scope": "Retained primary 186 text printed pp.4\u20135, 6\u20138,11 and cited programme definitions; no claim to newly reprove the entire source paper.",
+  "status": "frozen independent ordinary-proof acceptance; no author amendment requested",
+  "verification": {
+    "author_file_hashes": 5,
+    "author_files_changed": false,
+    "author_replay_exact_groups": 5,
+    "control_characters": 0,
+    "json_and_stdout_byte_identical": true,
+    "local_markdown_links_exist": true,
+    "math_delimiters_balanced": true,
+    "new_prime_height_scan": false,
+    "source_dependency_hashes": 6
+  }
+}

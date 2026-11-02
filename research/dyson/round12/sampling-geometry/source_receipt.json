@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-05",
+  "status": "Exact geometric deduction from already proved actual support, with a finite formal completion check",
+  "scope": "The dependency is the complete actual-modulus construction and counting proof in Round 11, not a postulated arbitrary point set. No new prime-distribution theorem is used.",
+  "files": [
+    {
+      "path": "research-round11/conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+      "bytes": 11083
+    },
+    {
+      "path": "research-round11/prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+      "sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29",
+      "bytes": 13797
+    },
+    {
+      "path": "research-round11/prime-frequency/SMALL_ARC_INDEPENDENT_REVIEW.md",
+      "sha256": "fdeba2af8e447ed7ec382155496f22e23255267f0d4051afdc3759a1f933daab",
+      "bytes": 9325
+    },
+    {
+      "path": "research-round10/shift-average/SMOOTH_SHIFT_COMPLETION_BOUND.md",
+      "sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+      "bytes": 13008
+    }
+  ]
+}

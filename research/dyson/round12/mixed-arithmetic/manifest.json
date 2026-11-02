@@ -1,0 +1,11 @@
+{
+  "status": "bounded ordinary analytical calculation; no improved conjecture-level lower bound; independent review pending",
+  "files": {
+    "SELBERG_MIXED_REMAINDER_AUDIT.md": "6223e9a54c44c31d344c2f932fe81ca6ad4672e5f6ef625adfeae07b4ed5a308",
+    "sources/receipt.json": "ba965a15a92c49d7380075462efb4ed0f392b47dcbfcefa9d316097c5b0bbca5",
+    "sources/saffari-vaughan-1977-II.pdf": "26ea860646aea8e0007bed07cc074dcf2abb3f646d173688f3939dbf32439bde",
+    "sources/saffari-vaughan-1977-II.txt": "ede6670b4bcb951a746c7fdbfb272043cfefe6e7e4d5377fa7bd2c6dbd761e17",
+    "sources/lemma5-page20.png": "fe5ece3dc68428c050602965385a02d66c67eb03daf3e83c347b514a95990083"
+  },
+  "computation": "No numerical scan or fitted constant; source page rendered for exact formula verification."
+}

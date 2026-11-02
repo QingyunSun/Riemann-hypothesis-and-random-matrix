@@ -1,0 +1,77 @@
+{
+  "artifacts": [
+    {
+      "bytes": 13239,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/WEIGHTED_MELLIN_ENERGY.md",
+      "sha256": "5b7378c9e4e18881c829883b199dfded12a103945d7a64b72a908343aad013a7"
+    },
+    {
+      "bytes": 2023,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/check_mellin_energy.py",
+      "sha256": "cac4a8cc61513988fd8fc49e21f1049f3419635395d3fba461c0b5a1f69411f0"
+    },
+    {
+      "bytes": 604,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/mellin_energy_checks.json",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 604,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/mellin_energy_checks.log",
+      "sha256": "b9f4b9570927f5706acd9b8e6fa2a0d5179567970e8c3784bbe2662d82800243"
+    },
+    {
+      "bytes": 1126,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/check_syntax.cjs",
+      "sha256": "ded5b1edc8fc919c2fe783a9c958d4489a5fb75a2275586a128d473712af7609"
+    },
+    {
+      "bytes": 83,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/syntax_checks.json",
+      "sha256": "9efee991232ca853b50a8372b94e3581a7a5ece03c2b294669bae31bf1f5a992"
+    },
+    {
+      "bytes": 3066,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round29/mellin-energy-support/source_receipt.json",
+      "sha256": "053039168a1d2ace628b3f8b2ab0ecdc3a7c80f27480d7c53ca013d5283e2ea4"
+    }
+  ],
+  "assumption": "Riemann hypothesis for Mellin energy; odd-log lemma unconditional",
+  "checks": {
+    "symbolic": {
+      "checks": {
+        "fixed_endpoint_pareto": true,
+        "fixed_endpoint_pareto_second": true,
+        "fixed_endpoint_profile": true,
+        "kernel_translation_commutator": true,
+        "mellin_binomial_0": true,
+        "mellin_binomial_1": true,
+        "mellin_binomial_2": true,
+        "mellin_binomial_3": true,
+        "mellin_binomial_4": true,
+        "mellin_binomial_5": true,
+        "mellin_binomial_6": true,
+        "odd_phase_stationary_normalization": true,
+        "short_interval_measure_change": true
+      },
+      "count": 13,
+      "scope": "exact elementary symbolic identities; no analytic source verification",
+      "status": "PASS"
+    },
+    "symbolic_log_equals_json": true,
+    "syntax": {
+      "controlBytes": [],
+      "errors": [],
+      "expressions": 150,
+      "status": "PASS"
+    }
+  },
+  "limits": [
+    "No one-block Y log X bound",
+    "No new prime or matrix calculation",
+    "No strict Bragg estimate or asymptotic signed-pairing saving",
+    "Fixed j only; no uniformity as j grows",
+    "No claim through all odd-cofactor alias bands"
+  ],
+  "status": "author frozen; ordinary proof awaiting independent review"
+}

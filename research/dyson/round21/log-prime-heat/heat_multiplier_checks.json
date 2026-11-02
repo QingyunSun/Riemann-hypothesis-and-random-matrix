@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "cosine_laplace_primitive": "PASS",
+    "fourth_power_moment_expansion": "PASS",
+    "heat_resolvent_primitive": "PASS",
+    "mass_shift_difference": "1/4",
+    "multiplier_difference": "0",
+    "scalar_assertions": 8,
+    "square_root_taylor_bound": "PASS",
+    "two_real_laplace_primitives": "PASS"
+  },
+  "report_sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+  "scope": "Eight exact scalar assertions, not analytic uniformity or a numerical arithmetic bound.",
+  "script_sha256": "a292eec4eb318d5399e584870b6cb1d32bd1f33d224e69cde9e7a61ca3b605e7",
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}

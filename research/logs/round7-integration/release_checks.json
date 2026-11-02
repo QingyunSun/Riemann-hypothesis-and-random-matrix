@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-05",
+  "local_original_files_hash_verified": 57,
+  "local_original_bytes": 3392974,
+  "public_original_files": 43,
+  "local_third_party_reference_files": 14,
+  "publication_edits": 3,
+  "new_markdown_files_link_and_control_character_checked": 10,
+  "broken_relative_links": [],
+  "python_ast_files": 8,
+  "integration_output_comparisons": 9,
+  "saved_matrix_arrays_replayed_identically": [
+    "M",
+    "G"
+  ],
+  "git_diff_check": "passed",
+  "scope": "Archive, syntax, links and evidence replay; not independent proof of any new zeta inequality."
+}

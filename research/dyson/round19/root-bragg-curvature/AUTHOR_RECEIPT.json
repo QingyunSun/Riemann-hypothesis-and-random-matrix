@@ -1,0 +1,24 @@
+{
+  "author": "Astra root",
+  "status": "Ordinary finite-N derivative identity; independently reviewed by Plato in the separate R19 dynamic review",
+  "author_sha256": "d8ae40d3442564644b2fe9e647f8ac6061b13f6b8ae4eedfbb618dd7036d9a76",
+  "bytes": 6029,
+  "dependencies": [
+    {
+      "repository_path": "research/reports/dynamic_generator.md",
+      "bytes": 15810,
+      "sha256": "cedc4fb9eac3df27c1e6872b4e31f6d32eb04dc8726bada103e97389f18ba4c7"
+    },
+    {
+      "repository_path": "research/reports/force_energy.md",
+      "bytes": 14249,
+      "sha256": "0782e73dc430034c54db8173d81803f02aaeec6c326c151d692770635430394b"
+    },
+    {
+      "repository_path": "research/dyson/round7/true-zeta-flow/FORWARD_FLOW_OBSTRUCTION.md",
+      "bytes": 19946,
+      "sha256": "33431c7878caae9fa30af2cd09b993f9040493e447311d67bb0b393b2e8ce7da"
+    }
+  ],
+  "numerical_experiment": false
+}

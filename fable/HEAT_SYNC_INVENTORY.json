@@ -1,0 +1,268 @@
+{
+  "revision": "a408e7050fffc74459b3c83fafa5ac03c8b7dea6",
+  "path_count": 81,
+  "expected_report_present": {
+    "r1_theoremB_repair.md": false,
+    "r1_cue_background.md": false,
+    "r1_cbe_background.md": false,
+    "r1_levelB_barrier.md": false,
+    "r1_small_gaps.md": false,
+    "r1_zeta_numerics.md": false,
+    "r1_structure_review.md": false,
+    "r2_dynamic_universality.md": false,
+    "r2_marked_depth_proof.md": false,
+    "r2_acue_rho_bound.md": false,
+    "r2_lr_hardcore_lp.md": false,
+    "r2_function_field.md": false,
+    "r2_dbm_relaxation.md": false
+  },
+  "files": [
+    {
+      "path": "research/riemann-rmt/overnight/fable/CLAIMS.md",
+      "sha256": "85b8a6c259b7f6abc7eeac59204f3939631eed625455fd8a546db889cd72e2a2",
+      "lines": 12,
+      "matches": [
+        {
+          "line": 8,
+          "text": "| D1.3 | M_15856 >= 8.013326752751306578613695503115 (exact rational; C_BE=0.56, elementary Phibar), outward-rounded (arb 200 bits) and cross-checked with mpmath.iv | C | r1_h2_interval_cert.md \u00a73, data/h2_k15856_interval_cert.json | margin 0.01333; reproduces historical JSON bit-for-bit |"
+        }
+      ]
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/FABLE_COORDINATION.md",
+      "sha256": "b89ea13f87faa95b507ef0c059063c14aeeb2f9981d475ee606db58a4b228df0",
+      "lines": 56,
+      "matches": [
+        {
+          "line": 18,
+          "text": "`r1_theoremB_repair.md`."
+        },
+        {
+          "line": 29,
+          "text": "| A depth-rigor | repair Theorem B; prove the CUE background bound w.h.p. from the determinantal 3-point estimate; C\u03b2E version via the explicit density; state the resulting unconditional depth law | `r1_theoremB_repair.md`, `r1_cue_background.md`, `r1_cbe_background.md` |"
+        }
+      ]
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/ROUND2_PLAN.md",
+      "sha256": "8569c0e0f774608751a9df03c5df80245cfc1d27a299d77d167b3fd3175e27f1",
+      "lines": 40,
+      "matches": [
+        {
+          "line": 8,
+          "text": "Theorem B (S*) + CUE/C\u03b2E background bounds + the external min-gap laws into ONE theorem with a"
+        },
+        {
+          "line": 17,
+          "text": "better background integral). Enumerations for N \u2264 10 exist in `riemann-impostors/data/`."
+        },
+        {
+          "line": 23,
+          "text": "a.e.-continuity of the depth \u27f9 Law(depth(\u0398_C)) \u2192 Law(depth(Haar)); USp/SO hard-edge exponents;"
+        }
+      ]
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r1_cue_background_constants.py",
+      "sha256": "bf1f077fed686b6f6bf5052209cf09cebc50b06fa08b1b0f207db7a9ca5afb8f",
+      "lines": 182,
+      "matches": [
+        {
+          "line": 6,
+          "text": "../data/r1_cue_background_constants.json):"
+        },
+        {
+          "line": 154,
+          "text": "# Regime 2: L > 4 N^{1/3}, eps = 4/N."
+        },
+        {
+          "line": 159,
+          "text": "c_delta_r2 = p_r2_over_N*64                  # since N < (L/4)^3  ->  1/N < 64/L^3"
+        },
+        {
+          "line": 169,
+          "text": "statement=f'P(S* > M N^2) <= {C_total:.1f} M^(-3/8) for all N>=3, M>=1')"
+        },
+        {
+          "line": 176,
+          "text": "statement=f'P(S* > M N^2) <= {C_total2:.1f} M^(-1/2) for all N>=3, M>=1')"
+        },
+        {
+          "line": 177,
+          "text": "# heuristic sharp tail: P(S* > M N^2) ~ P(N d_3 < sqrt(2/M)) ~ (2/M)^{5/2}/(3600 pi)"
+        }
+      ]
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r1_theoremB_check.py",
+      "sha256": "8b66289fabd9dd188d9f084d5a9e4992eb832838e228b41fef9150a7610971a8",
+      "lines": 452,
+      "matches": [
+        {
+          "line": 42,
+          "text": "Output: ../data/r1_theoremB_check.json (summary + per-sample records); tables on stdout."
+        }
+      ]
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r2_ff_depth_core.py",
+      "sha256": "daf40e2687450e92cc0013ca3df4513116dcb452574e3ce4ddbf948f6724bf18",
+      "lines": 409,
+      "matches": [
+        {
+          "line": 31,
+          "text": "GROUPS = (\"U\", \"USp\", \"SO_even\", \"SO_odd\", \"O_minus\")"
+        },
+        {
+          "line": 110,
+          "text": "if group == \"O_minus\":"
+        },
+        {
+          "line": 116,
+          "text": "return {\"U\": N, \"USp\": 2 * N, \"SO_even\": 2 * N, \"SO_odd\": 2 * N + 1, \"O_minus\": 2 * N + 2}[group]"
+        },
+        {
+          "line": 141,
+          "text": "if group == \"O_minus\":"
+        },
+        {
+          "line": 162,
+          "text": "if group == \"O_minus\":"
+        },
+        {
+          "line": 317,
+          "text": "def hard_edge_three_body(theta):"
+        },
+        {
+          "line": 367,
+          "text": "elif group == \"O_minus\":"
+        },
+        {
+          "line": 368,
+          "text": "v *= np.prod(np.cos(th / 2) ** 2)"
+        },
+        {
+          "line": 388,
+          "text": "elif group == \"O_minus\":"
+        },
+        {
+          "line": 389,
+          "text": "v *= np.prod(np.cos(th / 2) ** 2, axis=1)"
+        }
+      ]
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r2_ff_lemma_checks.py",
+      "sha256": "12ebb03d540cd3fb10498df715c1d85e562582bec5bce375982e41cd0ed9f490",
+      "lines": 156,
+      "matches": [
+        {
+          "line": 15,
+          "text": "simultaneous double collision (corner, but continuous) -- U(6) example."
+        },
+        {
+          "line": 17,
+          "text": "Outputs a JSON summary to ../data/r2_ff_lemma_checks.json."
+        },
+        {
+          "line": 37,
+          "text": "for group, N in [(\"USp\", 2), (\"SO_even\", 2), (\"SO_odd\", 2), (\"O_minus\", 2)]:"
+        },
+        {
+          "line": 77,
+          "text": "a_odd = poly_from_angles(th, \"SO_odd\"); a_om = poly_from_angles(th, \"O_minus\"); a_sp = poly_from_angles(th, \"USp\")"
+        },
+        {
+          "line": 93,
+          "text": "ex = hard_edge_three_body(theta)"
+        },
+        {
+          "line": 137,
+          "text": "base = np.array([0.0, 0.30, 2.0, 2.9, 4.0, 4.30])   # gaps (0,0.30) and (4.0,4.30) equal: simultaneous collision at phi = 0.30"
+        },
+        {
+          "line": 156,
+          "text": "print(\"saved ../data/r2_ff_lemma_checks.json\")"
+        }
+      ]
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r2_lr_pair_lp.py",
+      "sha256": "945682c55c6e1f19118743a35a7d9255965f122012320a458a6629adebb9335c",
+      "lines": 107,
+      "matches": [
+        {
+          "line": 12,
+          "text": "tail responsible for the |alpha| kink is carried exactly by g_sine and u is compactly supported."
+        },
+        {
+          "line": 14,
+          "text": "u = -g_sine on [0,c),  u >= -g_sine on [c,X],  u = 0 beyond X.  u piecewise constant on cells of"
+        },
+        {
+          "line": 18,
+          "text": "Outputs a bisection on c and a convergence table; writes data/r2_lr_pair_lp_*.json."
+        },
+        {
+          "line": 54,
+          "text": "gmin = np.min(np.array([gsine(a + t*(b - a)) for t in xs]), axis=0)"
+        },
+        {
+          "line": 107,
+          "text": "open(f\"/home/user/Alpha-devbox/research/riemann-rmt/overnight/fable/data/r2_lr_pair_lp_X{X}_dx{dx}_A{A}_da{dal}.json\", \"w\"), indent=1)"
+        }
+      ]
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r2_lr_triangle_cert.py",
+      "sha256": "bc52460c62ad3d2e8076e9c3deab61984091028517bd4fb57933ae7c9f1f8dec",
+      "lines": 23,
+      "matches": []
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r2_lr_pd_window_eig.py",
+      "sha256": "f2f284fa3e7f86b48db2ca5d4d0fb6068e6035b429c7c69f8e88c2d81962e8ef",
+      "lines": 47,
+      "matches": []
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r2_lr_selberg_eig.py",
+      "sha256": "7752c75db126ee5c60f9cce666e97e9fdefe5e91c8c6df6c0d234a5e534b1c93",
+      "lines": 39,
+      "matches": []
+    },
+    {
+      "path": "research/riemann-rmt/overnight/fable/scripts/r2_lr_bandlimited_lp.py",
+      "sha256": "6a71c9ef05d55608a00eecc56cd938deb5ff1c922e87e9618dee01662068ee7a",
+      "lines": 87,
+      "matches": [
+        {
+          "line": 87,
+          "text": "open(f\"/home/user/Alpha-devbox/research/riemann-rmt/overnight/fable/data/r2_lr_bandlimited_n{n}_X{Xfar}_h{h}_pen{int(pen)}.json\", \"w\"))"
+        }
+      ]
+    }
+  ],
+  "committed_heat_FF_LR_data_paths": [],
+  "journal_event_counts": {
+    "research/riemann-rmt/overnight/fable/harness_logs/wf_7b8483c5-a9b/journal.jsonl": {
+      "started": 3,
+      "result": 1
+    },
+    "research/riemann-rmt/overnight/fable/harness_logs/wf_95931424-36f/journal.jsonl": {
+      "started": 2
+    },
+    "research/riemann-rmt/overnight/fable/harness_logs/wf_b30d24d9-cb1/journal.jsonl": {
+      "started": 2
+    },
+    "research/riemann-rmt/overnight/fable/harness_logs/wf_cfbf27c7-4f2/journal.jsonl": {
+      "started": 2
+    },
+    "research/riemann-rmt/overnight/fable/harness_logs/wf_fd074782-efe/journal.jsonl": {
+      "started": 2
+    },
+    "research/riemann-rmt/overnight/fable/harness_logs/wf_ffc1724f-8e1/journal.jsonl": {
+      "started": 2
+    }
+  }
+}

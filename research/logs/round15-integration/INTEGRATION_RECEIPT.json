@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source_preservation": "all original bytes retained; public omissions are two exact duplicated replay inputs",
+  "original_files": 23,
+  "original_bytes": 152394,
+  "public_verbatim_files": 21,
+  "replays": {
+    "vaughan": "all JSON fields and bytes identical;49152 exact formal-log identities and2signed actual-support witnesses",
+    "pole_packet": "all JSON fields and bytes identical; rational constants and bounded high-precision transform/mass/finite-polynomial checks"
+  },
+  "excluded_comparison_fields": [],
+  "new_large_computation": false,
+  "new_famous_conjecture_result": false,
+  "copied_source_files_unchanged": true
+}

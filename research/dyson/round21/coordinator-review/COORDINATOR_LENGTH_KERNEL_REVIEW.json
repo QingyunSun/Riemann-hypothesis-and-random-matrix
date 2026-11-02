@@ -1,0 +1,33 @@
+{
+  "reviewer_thread": "01a0702b-e4b0-7020-ae61-b1fe718932c1",
+  "date": "2026-09-05",
+  "review_kind": "Independent originating-coordinator ordinary proof review; not Lean, external peer review, numerical certification or novelty audit",
+  "status": "ACCEPTED at the pinned manuscript scope",
+  "full_manuscript_read": true,
+  "current_source_matches_frozen_snapshot": true,
+  "checker_replayed": false,
+  "strict_arithmetic_estimate_proved": false,
+  "author_file": "length-arithmetic-kernel/EXACT_LENGTH_ARITHMETIC_KERNEL.md",
+  "sha256": "bf2e13a5d62f694d638d247fe7d836d0ea57d47f15c8e9360843681ece6b58d9",
+  "bytes": 17082,
+  "verified_steps": [
+    "Pareto law T q^(-T-1)dq, positive centered tail integral, survival pair kernel and exact mixed/mean moments derived with all prime powers.",
+    "Uncentered pair, mixed and continuous terms are separately absolutely integrable only for T>2; total-variation domination justifies signed-measure Fubini and outer x integration.",
+    "All J_T/J_(T+1)/J_2 exponents, asymmetric gap sum, maximum-index regrouping and duplicated-diagonal subtraction in equations (10)-(13) checked.",
+    "Finite endpoint truncates y before expansion; pair and mixed survival subtractions and all finite continuous boundary terms in (16)-(17) retained, including zero-measure endpoint n=N.",
+    "Unconditional tail P2 and J_T bound give real T>=3, N=ceil(2*T^(9/4)), error<=2048*T^(9/4)*2^(-T); intermediate constant 13005/8 verified directly.",
+    "T=2 centered convergence under RH is separated from divergence of all three uncentered positive moments; finite C_(2,N) formula checked.",
+    "Right-continuous Stieltjes jump term is -Lambda(n)^2 and finite endpoint term is -(x/N)^T*G_x(N)^2. Absolute convergence of centered regrouping holds for T>3/2 under RH, without claim for 1<T<=3/2.",
+    "Euler-product/Laurent calculation gives integral_1^infty E(y)y^-2 dy=-gamma-1; finite-prefix subtraction gives equation (25), including x equal to a prime power.",
+    "RH P4 tail and outer powers in (27)-(28) checked separately; large-T finite reduction is unconditional."
+  ],
+  "sources_checked": [
+    "Previously reviewed R20/R19 definitions and RH source bound.",
+    "NIST DLMF 25.2.E4-E5 Laurent coefficients and 25.2.E11 Euler product read live; log-derivative constant derived from them."
+  ],
+  "limits": [
+    "Ordinary formulas and stated tail bounds accepted; arithmetic symbolic checker not rerun in this review.",
+    "The finite centered expression is still unestimated; the exponentially small truncation remainder is not an upper bound on that expression.",
+    "No numerical height, asymptotic prime-pair estimate or strict Bragg deficit computed."
+  ]
+}

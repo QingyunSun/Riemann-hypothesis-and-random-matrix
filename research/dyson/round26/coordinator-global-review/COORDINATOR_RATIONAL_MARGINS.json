@@ -1,0 +1,12 @@
+{
+  "primitive_Y_exponent": "-14/3",
+  "principal_mask_Y_exponent": "-12",
+  "joint_RH_Y_exponent": "101/150",
+  "cofactor_grid_T_exponent": "-19/12",
+  "joint_RH_T_exponent": "-17/60",
+  "upper_length_tail_T_exponent": "-27/4",
+  "primitive_log_exponent": "-7/3",
+  "principal_mask_log_exponent": "-2",
+  "flat_center_log_exponent": "-1",
+  "singular_remainder_log_exponent": "-9/8"
+}

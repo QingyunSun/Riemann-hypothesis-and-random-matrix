@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "KaTeX syntax and control-byte check only; not mathematical or visual proof.",
+  "katexVersion": "0.18.5",
+  "mathExpressions": 206,
+  "errors": [],
+  "controls": [],
+  "reportSha256": "a41de96d01cca20ea7fcc57e009f26e71e76b2fdf79760e0ed4135c340ed32f0"
+}

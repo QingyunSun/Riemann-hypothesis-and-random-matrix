@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-05",
+  "status": "coordinator ordinary derivation submitted for independent review",
+  "manuscript": {
+    "path": "/Users/qingyunsun/Documents/Codex/2026-09-04/realtime-voice-chat/work/source-tools-review/r24/odd-mobius-centering/ODD_MOBIUS_CENTERED_PACKET_LEMMA.md",
+    "bytes": 9602,
+    "sha256": "f1c71299f2b01e19237807baffc2dbdf470de533cb99e43d21ad7c56a5877a1e"
+  },
+  "primary_source": "https://arxiv.org/pdf/0705.0723v2",
+  "primary_pdf_sha256": "9bacaa0c6bbaf687091d8be7b9f0df3e58727339002c9cabcb4de90e33f41fa7",
+  "input": "ordinary RH only; fixed eta in (0,1/2); all odd d<=Q; no d|m condition; Q fixed within each packet",
+  "alpha_range": [
+    "7/4",
+    "9/4"
+  ],
+  "checked_exact_worst_exponents_at_eta_0_01": {
+    "theta_523_over_1000": "-180643/900000",
+    "theta_2_over_5": "-158/1125"
+  },
+  "claimed_scope": "odd Mobius smooth truncation center2 with derivative control; centered actual prime statistic error tends to0 on fixed smooth packets",
+  "not_claimed": [
+    "full joint-main rearrangement",
+    "all arithmetic masks or nonprimitive debts",
+    "constant2 cancellation with singular-series marginals",
+    "remaining Mobius-prime covariance bound",
+    "full-shift partition",
+    "strict variance gain"
+  ],
+  "new_prime_data": false,
+  "lean_build": false
+}

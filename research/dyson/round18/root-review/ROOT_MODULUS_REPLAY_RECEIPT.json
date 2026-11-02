@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "command": "python3 copied/modulus-weights/check_modulus_weights.py",
+  "source_report_sha256": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+  "source_script_sha256": "d309bacba4d25c97de72990862e86371944949ab6f1aac4f1b0dd703851d45fd",
+  "fresh_complete_output_sha256": "c6e87a8a4eeaa0801aea1ca032c874c592a4584cf22cd063fc9407d54c5d602c",
+  "mathematical_field_comparison": "Every mathematical field identical, without exclusions",
+  "author_json_comparison": "Byte-identical after removing only the separately recorded documentation_only_refresh provenance object",
+  "historical_stdout_comparison": "Byte-identical after replacing only the old report hash with the final report hash; historical author stdout preserved verbatim",
+  "provenance_refresh": {
+    "previous_checked_report_sha256": "b7fab8a8f1321fe5c708f10b79a48e23b1056eb97e239bc312760cbe0bd0c2a0",
+    "current_report_sha256": "1e06b012dc5c0964293e5cdce06b2f6b52ae6b275b5c4b50402f7f35a560e551",
+    "change": "Section 7 explicitly labels the inherited O(X^1.023 log^5 X) aggregate as conditional on RH. New support and algebra lemmas remain unconditional.",
+    "checks": "All recorded exact checks are preserved from the prior successful execution; the checker was not rerun for this scope-only documentation correction.",
+    "historical_log": "modulus_weight_checks.log remains the unmodified prior execution output and therefore records the previous report hash."
+  },
+  "stderr": "",
+  "formal_coefficient_inversions": 320,
+  "primitive_principal_checks": 2183,
+  "full_prime_kernel_checks": 4366,
+  "scope": "Bounded exact algebra checks, not the asymptotic prime-family proof or an aggregate arithmetic theorem"
+}

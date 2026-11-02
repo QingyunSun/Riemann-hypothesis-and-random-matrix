@@ -1,0 +1,459 @@
+{
+  "baseline_period_sums": [
+    {
+      "h_mod6": 0,
+      "period_sum": "0"
+    },
+    {
+      "h_mod6": 2,
+      "period_sum": "0"
+    },
+    {
+      "h_mod6": 4,
+      "period_sum": "0"
+    }
+  ],
+  "checker": {
+    "bytes": 4506,
+    "sha256": "fb15183dff1d7bf8bdda03057901aff25b5b3b8c8fa7a34d42a16f10176d8712"
+  },
+  "derivative_cases": [
+    {
+      "T": 4,
+      "backward_combined_derivative_identity": "PASS",
+      "backward_scaled_beta_mean": "4/3",
+      "forward_absolute_mass": "8/5",
+      "forward_derivative_identity": "PASS",
+      "forward_log_majorant": "11/15"
+    },
+    {
+      "T": 5,
+      "backward_combined_derivative_identity": "PASS",
+      "backward_scaled_beta_mean": "5/4",
+      "forward_absolute_mass": "5/3",
+      "forward_derivative_identity": "PASS",
+      "forward_log_majorant": "7/12"
+    },
+    {
+      "T": 8,
+      "backward_combined_derivative_identity": "PASS",
+      "backward_scaled_beta_mean": "8/7",
+      "forward_absolute_mass": "16/9",
+      "forward_derivative_identity": "PASS",
+      "forward_log_majorant": "23/63"
+    }
+  ],
+  "divisor_prefix_cases": [
+    {
+      "D_over_2C2": "0",
+      "Y": "0",
+      "positive_divisor_majorant": "0"
+    },
+    {
+      "D_over_2C2": "0",
+      "Y": "1",
+      "positive_divisor_majorant": "0"
+    },
+    {
+      "D_over_2C2": "0",
+      "Y": "3/2",
+      "positive_divisor_majorant": "0"
+    },
+    {
+      "D_over_2C2": "1",
+      "Y": "2",
+      "positive_divisor_majorant": "1"
+    },
+    {
+      "D_over_2C2": "0",
+      "Y": "5",
+      "positive_divisor_majorant": "1"
+    },
+    {
+      "D_over_2C2": "1",
+      "Y": "19/2",
+      "positive_divisor_majorant": "1"
+    },
+    {
+      "D_over_2C2": "-2/15",
+      "Y": "18",
+      "positive_divisor_majorant": "23/15"
+    },
+    {
+      "D_over_2C2": "4/45",
+      "Y": "25",
+      "positive_divisor_majorant": "74/45"
+    }
+  ],
+  "modulus": 6,
+  "prime_height_runs": false,
+  "report": {
+    "bytes": 17011,
+    "sha256": "ec3c4a258cf1ef2614e0255ee44c7c3a7e04268fe1655f082815f8012133285e"
+  },
+  "residue_cases": [
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 0,
+      "m_mod6": 0,
+      "n_mod6": 0,
+      "nu": 2,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 1,
+      "difference_decomposition": "PASS",
+      "h_mod6": 0,
+      "m_mod6": 1,
+      "n_mod6": 1,
+      "nu": 2,
+      "q6": "Lambda_m*Lambda_n - Lambda_m*S_h - Lambda_n*S_h + 3*S_h",
+      "r6": "3"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 0,
+      "m_mod6": 2,
+      "n_mod6": 2,
+      "nu": 2,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 0,
+      "m_mod6": 3,
+      "n_mod6": 3,
+      "nu": 2,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 0,
+      "m_mod6": 4,
+      "n_mod6": 4,
+      "nu": 2,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 1,
+      "difference_decomposition": "PASS",
+      "h_mod6": 0,
+      "m_mod6": 5,
+      "n_mod6": 5,
+      "nu": 2,
+      "q6": "Lambda_m*Lambda_n - Lambda_m*S_h - Lambda_n*S_h + 3*S_h",
+      "r6": "3"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 1,
+      "m_mod6": 0,
+      "n_mod6": 1,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 1,
+      "m_mod6": 1,
+      "n_mod6": 2,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 1,
+      "m_mod6": 2,
+      "n_mod6": 3,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 1,
+      "m_mod6": 3,
+      "n_mod6": 4,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 1,
+      "m_mod6": 4,
+      "n_mod6": 5,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 1,
+      "m_mod6": 5,
+      "n_mod6": 0,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 2,
+      "m_mod6": 0,
+      "n_mod6": 2,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 2,
+      "m_mod6": 1,
+      "n_mod6": 3,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 2,
+      "m_mod6": 2,
+      "n_mod6": 4,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 2,
+      "m_mod6": 3,
+      "n_mod6": 5,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 2,
+      "m_mod6": 4,
+      "n_mod6": 0,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 1,
+      "difference_decomposition": "PASS",
+      "h_mod6": 2,
+      "m_mod6": 5,
+      "n_mod6": 1,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n - 2*Lambda_m*S_h - 2*Lambda_n*S_h + 6*S_h",
+      "r6": "6"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 3,
+      "m_mod6": 0,
+      "n_mod6": 3,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 3,
+      "m_mod6": 1,
+      "n_mod6": 4,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 3,
+      "m_mod6": 2,
+      "n_mod6": 5,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 3,
+      "m_mod6": 3,
+      "n_mod6": 0,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 3,
+      "m_mod6": 4,
+      "n_mod6": 1,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 3,
+      "m_mod6": 5,
+      "n_mod6": 2,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 4,
+      "m_mod6": 0,
+      "n_mod6": 4,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 1,
+      "difference_decomposition": "PASS",
+      "h_mod6": 4,
+      "m_mod6": 1,
+      "n_mod6": 5,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n - 2*Lambda_m*S_h - 2*Lambda_n*S_h + 6*S_h",
+      "r6": "6"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 4,
+      "m_mod6": 2,
+      "n_mod6": 0,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 4,
+      "m_mod6": 3,
+      "n_mod6": 1,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 4,
+      "m_mod6": 4,
+      "n_mod6": 2,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 4,
+      "m_mod6": 5,
+      "n_mod6": 3,
+      "nu": 1,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 5,
+      "m_mod6": 0,
+      "n_mod6": 5,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 5,
+      "m_mod6": 1,
+      "n_mod6": 0,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 5,
+      "m_mod6": 2,
+      "n_mod6": 1,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 5,
+      "m_mod6": 3,
+      "n_mod6": 2,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 5,
+      "m_mod6": 4,
+      "n_mod6": 3,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    },
+    {
+      "admissible": 0,
+      "difference_decomposition": "PASS",
+      "h_mod6": 5,
+      "m_mod6": 5,
+      "n_mod6": 4,
+      "nu": 0,
+      "q6": "Lambda_m*Lambda_n",
+      "r6": "0"
+    }
+  ],
+  "scope": "36 exact residue identities, fixed finite divisor sums and symbolic kernel derivatives; not prime data or an asymptotic estimate.",
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}

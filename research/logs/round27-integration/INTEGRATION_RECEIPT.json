@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "original_files": 48,
+  "original_bytes": 1992602,
+  "public_verbatim_files": 41,
+  "public_verbatim_bytes": 199627,
+  "dependency_records_verified": 113,
+  "existing_bounded_replays": [
+    {
+      "author": "mixed-moment-test/mixed_moment_checks.json",
+      "independent": "mixed-moment-review/independent_mixed_moment_checks.json",
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584",
+      "byte_identical": true
+    },
+    {
+      "author": "mixed-moment-test/mixed_moment_checks.log",
+      "independent": "mixed-moment-review/independent_mixed_moment_checks.log",
+      "sha256": "eb7a4b73d8e4bf867e299c7517d1fc7242c4c0720dda195557a3f0d6a0920584",
+      "byte_identical": true
+    },
+    {
+      "author": "joint-dispersion-test/exact_check_results.json",
+      "independent": "joint-dispersion-review/independent_exact_check_results.json",
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709",
+      "byte_identical": true
+    },
+    {
+      "author": "joint-dispersion-test/exact_check_stdout.log",
+      "independent": "joint-dispersion-review/independent_exact_check_stdout.log",
+      "sha256": "f34d05dbdb8a5523ac973b3bdd8d08560f2e1b27a4a1e3a8f1439f623dc92709",
+      "byte_identical": true
+    }
+  ],
+  "bounded_checks": "Two existing complete independent replays: 15 mixed-moment assertions and six groups/26 joint-dispersion cases. No mathematical calculation rerun for integration.",
+  "new_mathematical_reruns_for_integration": 0,
+  "new_prime_heights": 0,
+  "new_pdf_build": false,
+  "formal_verification": false,
+  "strict_arithmetic_bound_proved": false,
+  "preservation": "All original bytes unchanged. Independent/coordinator proofs and reviews remain separate. Full primary-source bodies are local with public hashes.",
+  "historical_relative_links_without_public_target": [],
+  "complete_replay_pairs": 2,
+  "source_eof_exceptions": 1,
+  "editorial_links_checked": 12,
+  "math_expressions_checked": 1235
+}

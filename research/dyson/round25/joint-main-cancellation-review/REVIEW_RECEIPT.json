@@ -1,0 +1,100 @@
+{
+  "author_files": [
+    {
+      "bytes": 19377,
+      "path": "research-round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "bytes": 1814,
+      "path": "research-round25/joint-main-cancellation/AUTHOR_RECEIPT.json",
+      "sha256": "2058f6d018663e6b9810c42e1a29b1d7e914eff85433236e60c69187565a9d50"
+    },
+    {
+      "bytes": 4300,
+      "path": "research-round25/joint-main-cancellation/source_manifest.json",
+      "sha256": "857ac555fecc9f933b1b59ae60c1e6c9be7c08cdb9fac80f41a9d1190e7ae03a"
+    },
+    {
+      "bytes": 4947,
+      "path": "research-round25/joint-main-cancellation/check_joint_main.py",
+      "sha256": "f9fbdc3dfbc878c0b340379a6e3556d336aa379470f4afc618f3bd5143c28511"
+    },
+    {
+      "bytes": 962,
+      "path": "research-round25/joint-main-cancellation/exact_check_results.json",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "bytes": 962,
+      "path": "research-round25/joint-main-cancellation/exact_check_stdout.log",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    }
+  ],
+  "author_files_edited_by_reviewer": false,
+  "date": "2026-09-05",
+  "decision": "Accepted as an ordinary proof under ordinary RH with fixed compact-packet scope; no strict covariance bound or AH refutation.",
+  "exact_replay": {
+    "groups": 8,
+    "json_byte_identical": true,
+    "no_prime_heights_or_asymptotic_experiments": true,
+    "scalar_cases": 3809,
+    "stdout_byte_identical": true
+  },
+  "mathematical_limits": [
+    "Fixed smooth compact h/H support separated from zero.",
+    "All parameters and derivative orders have fixed margins and remain independent of T.",
+    "The surviving signed Z_Q^(2) has no proved strict sign.",
+    "No automatic summation to the full all-length variance.",
+    "No 186 distribution theorem or GRH input used."
+  ],
+  "primitive_fourier_clarification": "Normalized coefficients are at most 2/d because the period l1 norm is at most 2; the equivalent unnormalized convention has bound 2. The review supplies the explicit Poisson calculation.",
+  "review_delta": "Author corrected Subtract to Combine before final freeze. No displayed formula or source proof was changed by the reviewer.",
+  "review_files": [
+    {
+      "bytes": 18459,
+      "path": "research-round25/joint-main-cancellation-review/INDEPENDENT_JOINT_MAIN_REVIEW.md",
+      "sha256": "0bca000d65a52c2915765913e5208e7736edc38307df84995136df2e0feff385"
+    },
+    {
+      "bytes": 6521,
+      "path": "research-round25/joint-main-cancellation-review/source_and_replay_checks.json",
+      "sha256": "6e8088ba1ba2062138bcc2b5947ec4e8b2912082173817cb55add0fcb7761ae9"
+    },
+    {
+      "bytes": 962,
+      "path": "research-round25/joint-main-cancellation-review/independent_exact_check_results.json",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "bytes": 962,
+      "path": "research-round25/joint-main-cancellation-review/independent_exact_check_stdout.log",
+      "sha256": "16bae49bb6b405a314186fdf61bd748cd1263f32ed78599e8a5e66f70acdba3e"
+    },
+    {
+      "bytes": 1548,
+      "path": "research-round25/joint-main-cancellation-review/check_math_syntax.cjs",
+      "sha256": "629ec032ff876a4d40350c9549f567e64747c456159cc05063103507364ddb3e"
+    },
+    {
+      "bytes": 287,
+      "path": "research-round25/joint-main-cancellation-review/math_syntax_checks.json",
+      "sha256": "533a99160f484c034b30701e2159d652c60ef77fb6a5678256783153d36c8898"
+    }
+  ],
+  "reviewer": "Plato",
+  "source_and_author_hash_checks": {
+    "all_passed": true,
+    "author": 6,
+    "source": 12
+  },
+  "syntax_only_qa": {
+    "controls": [],
+    "errors": [],
+    "katexVersion": "0.18.5",
+    "mathExpressions": 215,
+    "reportSha256": "0bca000d65a52c2915765913e5208e7736edc38307df84995136df2e0feff385",
+    "scope": "KaTeX syntax and control-byte check only; not mathematical or visual proof.",
+    "status": "PASS"
+  }
+}

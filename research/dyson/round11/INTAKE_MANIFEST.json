@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-05",
+  "source_root": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11",
+  "local_archive": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Code/Riemann zeta RMT/Astra-Local-Archive/round11-originals",
+  "public_root": "research/dyson/round11",
+  "copy_policy": "Verbatim research and independent reviews. Third-party PDF, extracted text and HTML retained locally only.",
+  "files": [
+    {
+      "path": "conductor-arithmetic/CONDUCTOR_MASS_LOWER_BOUND.md",
+      "bytes": 11083,
+      "sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+      "public": true
+    },
+    {
+      "path": "conductor-arithmetic/INDEPENDENT_REVIEW.md",
+      "bytes": 3863,
+      "sha256": "b146b7427417bc3acca5443e167e3a07257830cfeb80e7f02523a6fd1f3e252d",
+      "public": true
+    },
+    {
+      "path": "conductor-arithmetic/check_conductor_construction.log",
+      "bytes": 315,
+      "sha256": "101ba561332dabbfce8596ce96f494c492d98a58250a708c9c769c83ed72629a",
+      "public": true
+    },
+    {
+      "path": "conductor-arithmetic/check_conductor_construction.py",
+      "bytes": 4139,
+      "sha256": "d9e3727d738d212baf0ee97b94fe206e0235f0e37b5d3ecb89ff362f25e7611d",
+      "public": true
+    },
+    {
+      "path": "conductor-arithmetic/conductor_construction_certificate.json",
+      "bytes": 2789,
+      "sha256": "13ecc31977c96ff02af62b3db17af0566a76f7f5db84fc6466c541ec1ad17c13",
+      "public": true
+    },
+    {
+      "path": "log-weighted-tail/ARITHMETIC_DIAGONAL_AND_SOURCE_GAP.md",
+      "bytes": 8660,
+      "sha256": "85c9435bbd656bcf37f21f55fe2d54cb40638c7a56908abe57e54f551a627daa",
+      "public": true
+    },
+    {
+      "path": "log-weighted-tail/INDEPENDENT_REVIEW.md",
+      "bytes": 4187,
+      "sha256": "97a8e45507e0df1cf21e6045ba6d689990401a4eff5f2ba79a00739ab69e08f6",
+      "public": true
+    },
+    {
+      "path": "log-weighted-tail/sources/chirre-2107.13636v2.html",
+      "bytes": 348081,
+      "sha256": "e69ab4f79e280e6963136d6cdf8c9f7a1658e7a5140676b9ff8774a0bab28a0e",
+      "public": false
+    },
+    {
+      "path": "log-weighted-tail/sources/receipt.json",
+      "bytes": 425,
+      "sha256": "25cc2738282cb4d9d5250f7060ff9194456ead5c93da006e38b085aab5ed4a55",
+      "public": true
+    },
+    {
+      "path": "prime-frequency/CENTERED_SMALL_ARC_BOUND.md",
+      "bytes": 13797,
+      "sha256": "9ebf2d8daaac37702302f5a798611e6a6152e352e5b7dd680c319ba76b3f6e29",
+      "public": true
+    },
+    {
+      "path": "prime-frequency/README.md",
+      "bytes": 1154,
+      "sha256": "3dcca0cb8cb81168df8cad5b392b50cf8e01b823bd32c1af8ca3210a84c26337",
+      "public": true
+    },
+    {
+      "path": "prime-frequency/SMALL_ARC_INDEPENDENT_REVIEW.md",
+      "bytes": 9325,
+      "sha256": "fdeba2af8e447ed7ec382155496f22e23255267f0d4051afdc3759a1f933daab",
+      "public": true
+    },
+    {
+      "path": "prime-frequency/check_small_arc_bound.json",
+      "bytes": 1134,
+      "sha256": "dedb17308bca322adbde7b7b52bf646cb2c49f632fdedda66f2b9506ebf785bd",
+      "public": true
+    },
+    {
+      "path": "prime-frequency/check_small_arc_bound.py",
+      "bytes": 3552,
+      "sha256": "1d028cde17f8042af29315890032add298eba4426a84d141bf8ccc9ca5b1276c",
+      "public": true
+    },
+    {
+      "path": "prime-frequency/manifest.json",
+      "bytes": 2230,
+      "sha256": "00f90d3cc96c574672b26c796d5bfc777b477c235eb88faa06331552ab478b72",
+      "public": true
+    },
+    {
+      "path": "prime-frequency/source_receipt.json",
+      "bytes": 2443,
+      "sha256": "8e932c58f5908b090b17d357edfd824183dcd6e8633b1ca200f8dcb3735b8c5b",
+      "public": true
+    },
+    {
+      "path": "prime-frequency/sources/bhowmik-schlage-puchta-goldbach-2010.pdf",
+      "bytes": 103776,
+      "sha256": "6cf48524eb9473cca93c1ce0ea97e00fc7dab7c49a3db4e01a490cc165296607",
+      "public": false
+    },
+    {
+      "path": "prime-frequency/sources/bhowmik-schlage-puchta-goldbach-2010.txt",
+      "bytes": 15717,
+      "sha256": "3c9fb7b99176f617e444d188d56b133883042fe39bdd83361fce9cc61b2762ac",
+      "public": false
+    }
+  ]
+}

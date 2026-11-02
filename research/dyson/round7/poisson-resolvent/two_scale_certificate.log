@@ -1,0 +1,23 @@
+{
+  "status": "PASS: exact rational separation constants",
+  "exp_one_taylor_degree": 40,
+  "decimal_brackets": {
+    "AH": [
+      "0.06239",
+      "0.06240"
+    ],
+    "GUE": [
+      "0.08227",
+      "0.08228"
+    ],
+    "difference": [
+      "0.019879",
+      "0.019880"
+    ]
+  },
+  "sufficient_missing_arithmetic_lower_bound": "liminf W_T >= 7/100",
+  "weaker_sufficient_lower_bound": "liminf W_T >= 1/16",
+  "certified_1_over_16_minus_AH_lower_bound": "greater than 0.00010",
+  "p0_cancellation": "sinh(2)*2*(p0-1)/sinh(2)-sinh(1)*2*(p0-1)/sinh(1)=0",
+  "scope": "Algebra and constant enclosure only. No inequality for actual zeta mean squares has been proved."
+}

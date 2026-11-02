@@ -1,0 +1,54 @@
+{
+  "author": "Euclid",
+  "date": "2026-09-05",
+  "exact_checks": {
+    "all_passed": true,
+    "cases": 147,
+    "groups": 7,
+    "json_equals_stdout": true,
+    "no_prime_height_scan": true,
+    "no_random_sampling": true
+  },
+  "files": [
+    {
+      "bytes": 16995,
+      "path": "SIGNED_MELLIN_BLOCK_BOUND.md",
+      "sha256": "753f116b8ebc5d6cc7d7a4e148c98e9b8ef9df97d4327efe2fa094507aa13492"
+    },
+    {
+      "bytes": 4502,
+      "path": "check_signed_mellin.py",
+      "sha256": "64aef6b9cdd651ab07c5fb26272716ee04e7b99206b98ec7eedce58defb3e83d"
+    },
+    {
+      "bytes": 1611,
+      "path": "exact_check_results.json",
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "bytes": 1611,
+      "path": "exact_check_stdout.log",
+      "sha256": "7484ae49a3ffc29d403a14c30e47e8b06ef83a82e7eb6dd7548fe986b91fb7f7"
+    },
+    {
+      "bytes": 5686,
+      "path": "source_manifest.json",
+      "sha256": "b1499d0344af32ca17ef89c2d5a8a9a3118644d97d16f073876ac54d5de008f2"
+    },
+    {
+      "bytes": 74,
+      "path": "math_syntax_check.json",
+      "sha256": "9348b6cedbc616c453155d0db051f33a0ad782810194d1a5f7535aa96018ed28"
+    }
+  ],
+  "math_syntax": {
+    "errors": [],
+    "expressions": 213,
+    "unexpected_control_bytes": 0
+  },
+  "preservation": "Frozen R28 and all earlier proof files untouched. No Git/publication mutation.",
+  "review_delta": "Plato requested explicit localization of the auxiliary S Schur estimate to x in [X,2X], u in [X,3X]. S itself need not be compact; G and R are compact via A and its derivative. Only that support sentence and integral limits changed. The ordinary proof and O(1) conclusion are unchanged. Seven prior frozen files are preserved byte-for-byte in historical-before-schur-localization. The unchanged 147-case checker was rerun; results differ only in the linked author hash.",
+  "scope": "Under ordinary RH the complete balanced central fixed mu/log block is O(1); low Mellin frequencies contribute O(1/log X), and all higher frequencies are bounded by a summable dyadic series. No o(1), strict constant, global partition gain or famous-conjecture result.",
+  "source_files_pinned": 16,
+  "status": "author package frozen; separate full independent review pending"
+}

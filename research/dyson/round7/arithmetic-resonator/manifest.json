@@ -1,0 +1,66 @@
+{
+  "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "thread_environment": "OPENBLAS_NUM_THREADS=1",
+  "files": {
+    "DERIVATION.md": {
+      "sha256": "62970c91f2ff757eabc5d9a364d189fb7a42494c0f188713b2974003df4833b0",
+      "bytes": 9210
+    },
+    "REPORT.md": {
+      "sha256": "439e08210143acf4adfae7918f8e8ca92e5ce6d66080ce8a8858cc62bbe35d06",
+      "bytes": 11383
+    },
+    "finite_integer_check.py": {
+      "sha256": "2126542d6b75822fb79e0910d43e4e5639be5455e079be3095c534c60a171295",
+      "bytes": 3319
+    },
+    "finite_integer_results.json": {
+      "sha256": "adc2912c6d51961f6a46d35eb76007042582a035dbc728db52972e5ba8e76cbc",
+      "bytes": 832
+    },
+    "fixed_rational_vector.json": {
+      "sha256": "1858e8c2ec1effa0f51e93ff28561057d1e1c5d8c9d9c08b50d099ab71e9943f",
+      "bytes": 2301
+    },
+    "large_prime_sector.py": {
+      "sha256": "255ad9a2f29e086eca01b3823bd9ece3ecbfa47b431259a6af3fee260c9afa8d",
+      "bytes": 9065
+    },
+    "large_prime_sector_d4_q20.json": {
+      "sha256": "daad1c87a3b48105dc5a4d76183fc7cef4022b5b820dd993f9dd4085758ef099",
+      "bytes": 5482
+    },
+    "large_prime_sector_d4_q20.npz": {
+      "sha256": "9f27a6ed7aa408df9d6e82e834984dbfe09f0931245ead076150aa6113b263ab",
+      "bytes": 8163
+    },
+    "large_prime_sector_d4_q28.json": {
+      "sha256": "131eb235395eb37240e2809e6be0ec6716e15b1c22f5b0c840d35592da218e49",
+      "bytes": 5469
+    },
+    "large_prime_sector_d4_q28.npz": {
+      "sha256": "4d7d904f050148b44f8a4f2a5eeef25013fd56774b005ce6d991cf86707c4e95",
+      "bytes": 8161
+    },
+    "large_prime_sector_d4_q40.json": {
+      "sha256": "1d2a639bca17b40f2734fd1f95635bb2faf6e08b643873ab8786f492d43b448e",
+      "bytes": 5474
+    },
+    "large_prime_sector_d4_q40.npz": {
+      "sha256": "24acf558a16697499a7632477439106e267213408127463a14cd2aa0d59013ec",
+      "bytes": 8158
+    },
+    "validate_sector.py": {
+      "sha256": "72a286b477034a3f3aae63aeaba479d5de5640a1e13fe8043f37b3f918b07d26",
+      "bytes": 3476
+    },
+    "validation.json": {
+      "sha256": "cf8970966bcbdb9d65cde8043461466a9633c3ad74de624d2a84b1f7c2e0bc2a",
+      "bytes": 2311
+    }
+  },
+  "scope": "one fixed half-threshold arithmetic family; three quadrature orders and frozen-vector finite checks"
+}

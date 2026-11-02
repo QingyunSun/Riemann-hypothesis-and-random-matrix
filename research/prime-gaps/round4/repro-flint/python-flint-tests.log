@@ -1,0 +1,1 @@
+Assertion failed: (y & 1), function _n_jacobi_unsigned, file jacobi.c, line 21.

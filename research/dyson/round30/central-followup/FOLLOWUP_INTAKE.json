@@ -1,0 +1,65 @@
+{
+  "sourceFolder": "research-round30/central-followup",
+  "publicationEdits": 0,
+  "files": [
+    {
+      "path": "ROOT_HEIGHT_LOCALIZATION.md",
+      "bytes": 3982,
+      "sha256": "ffef11541370cd0c9505dbe70157ebbfe068c00e02f6211aa26272e81201d078"
+    },
+    {
+      "path": "ROOT_JOINT_ZERO_SAMPLING.md",
+      "bytes": 5303,
+      "sha256": "2e80e363c4c7f728a48f51dac1da0c2726e703696321726aaf3cdf803362da8a"
+    },
+    {
+      "path": "STATIONARY_CHALLENGE_RAMANUJAN_MAIN.md",
+      "bytes": 13573,
+      "sha256": "6b09535747c82cc8d74b6dfe9db39177c1e34914904e0cf52c28b94f60ae1465"
+    },
+    {
+      "path": "STATIONARY_CHALLENGE_RAMANUJAN_RECEIPT.json",
+      "bytes": 2420,
+      "sha256": "5a8c06a2e8859eadb7b2e8d87043ae22c74c924d56a27f4b6dacc9dd5d220a06"
+    },
+    {
+      "path": "check_stationary_challenge_ramanujan.py",
+      "bytes": 2309,
+      "sha256": "529ed3a1d11ce38144eb1cd02bb9026c66067989114cfb81282a04553e21bde8"
+    },
+    {
+      "path": "stationary_challenge_ramanujan_checks.json",
+      "bytes": 369,
+      "sha256": "f7ed84c874f07e77c942c2b6208ee041c1a1311975f0e680e86adc11d37986b6"
+    },
+    {
+      "path": "zero-moment-review/SOURCE_REVIEW_RECEIPT.json",
+      "bytes": 7863,
+      "sha256": "0fe239c228baabc7927a2d5e9ac0cde0aaefbe5f09aa1a1904fa2e3602942f66"
+    },
+    {
+      "path": "zero-moment-review/ZERO_MOMENT_APPLICABILITY.md",
+      "bytes": 14137,
+      "sha256": "af97c91ae8f8be1c73aa730627a6a3c23e52d7ae9e4ed3d8f51c74890e654e09"
+    },
+    {
+      "path": "zero-moment-review/check_note_syntax.cjs",
+      "bytes": 1404,
+      "sha256": "30fb9ee85e475b509602692cfb444dbea40d289c5e102d859eb3e8b525241d5f"
+    },
+    {
+      "path": "zero-moment-review/math_syntax_checks.json",
+      "bytes": 301,
+      "sha256": "aaeb53438b35b3161a5ffb3a2020dba53dbd8d445731a7e8c1cce6984f01f5c2"
+    },
+    {
+      "path": "zero-moment-review/write_source_receipt.py",
+      "bytes": 3748,
+      "sha256": "d7c7d56969a3abf7d32ba4a2f722c3d4fcb2fdd24a530613d684cdff6501e8a8"
+    }
+  ],
+  "rootReplay": "Entire principal-check JSON matches author; finite identities only",
+  "primaryBodies": "Retained in local zero-moment-review/sources only; hashes and URLs in SOURCE_REVIEW_RECEIPT.json",
+  "inheritedPaths": "Author receipt paths describe original staging. R29 target is published at research/dyson/round29/signed-mellin-test/SIGNED_MELLIN_BLOCK_BOUND.md; R30 stationary and height sources at research/dyson/round30/stationary-challenge/.",
+  "scope": "Ordinary local proofs and exact comparison identities; central signed residual and global strict inequality remain unproved"
+}

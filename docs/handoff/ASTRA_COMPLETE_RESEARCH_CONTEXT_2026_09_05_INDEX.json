@@ -1,0 +1,52 @@
+{
+  "scope": "public archive",
+  "volumes": [
+    {
+      "volume": 1,
+      "title": "Latest audited programme, Rounds 6--14",
+      "markdown": "docs/handoff/ASTRA_ROUNDS_6_14_HANDOFF.md",
+      "markdown_sha256": "94feffadb99109d87e14fecc5aaa6e816cfa856a85763cc3dd78f702178cb486",
+      "pdf": "output/pdf/ASTRA_ROUNDS_6_14_HANDOFF.pdf",
+      "pdf_sha256": "1092c6f1e81a9c13bc3106ffe3943f15ff742c7c794729c99233c8ebc805033a",
+      "pages": 313,
+      "combined_first_page": 1,
+      "combined_last_page": 313,
+      "zero_based_page_offset": 0
+    },
+    {
+      "volume": 2,
+      "title": "Earlier main archive; historical claims retain their original status",
+      "markdown": "docs/handoff/ASTRA_PUBLIC_RESEARCH_HANDOFF.md",
+      "markdown_sha256": "39557c56dc6cfdf0af431c856a72a9e0d6d82de7b8137801a0ea7396b2d583de",
+      "pdf": "output/pdf/ASTRA_PUBLIC_RESEARCH_HANDOFF.pdf",
+      "pdf_sha256": "eccf6660459c65923a5f517df969df2790510491f22777bd757a6596387fe874",
+      "pages": 333,
+      "combined_first_page": 314,
+      "combined_last_page": 646,
+      "zero_based_page_offset": 313
+    },
+    {
+      "volume": 3,
+      "title": "Detailed Rounds 4--5 proof and experiment supplement",
+      "markdown": "docs/handoff/ASTRA_ROUNDS_4_5_HANDOFF.md",
+      "markdown_sha256": "c25ad7c01ead84ee98122be3cf1fa02668cfd49f1b9be4430f8405ede650d834",
+      "pdf": "output/pdf/ASTRA_ROUNDS_4_5_HANDOFF.pdf",
+      "pdf_sha256": "85c504f11f7230aea128e08b2b36e924740f4c8f0d6394b5042ff3fbad8110a7",
+      "pages": 59,
+      "combined_first_page": 647,
+      "combined_last_page": 705,
+      "zero_based_page_offset": 646
+    }
+  ],
+  "combined_pages": 705,
+  "markdown_file": "ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",
+  "markdown_bytes": 1776575,
+  "markdown_sha256": "c284185491a44d63c77b2274b221c60b7c3ae5065e07c2d1d148a0a46f4599f7",
+  "pdf_file": "ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.pdf",
+  "pdf_bytes": 10244247,
+  "pdf_sha256": "720377f333a5bf0cd03810df5186368baa4aeb1d251a3636540a17138699d06e",
+  "page_sum_check": "PASS",
+  "complete_extracted_text_preservation": "PASS",
+  "pagination": "original page numbering within each complete volume",
+  "new_scientific_claims_from_combination": false
+}

@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "research/dyson/round21/SOURCE_LINK_MAP.md",
+      "sha256": "af2f7343ae1616751ed560659f162e08b9ccd64dc3da6825a82aaa9a9d838713",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/coordinator-intake/TRANSFERABLE_MATH_TOOLS_R20_PUBLISHED.md",
+      "sha256": "eaa8fd31a6b466aecf7f5b02867ba9a7e41cfcc073fae40d1cd71613b3bb5bcf",
+      "mathExpressions": 122,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/coordinator-review/CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e",
+      "mathExpressions": 171,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/coordinator-review/CENTERED_PAIR_ERROR_TARGET_d7e73b83.md",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e",
+      "mathExpressions": 213,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/coordinator-review/COORDINATOR_H1_OBSTRUCTION.md",
+      "sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34",
+      "mathExpressions": 47,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/coordinator-review/EXACT_LENGTH_ARITHMETIC_KERNEL.md",
+      "sha256": "bf2e13a5d62f694d638d247fe7d836d0ea57d47f15c8e9360843681ece6b58d9",
+      "mathExpressions": 43,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/coordinator-review/FIXED_BUMP_TAUBERIAN_EQUIVALENCE.md",
+      "sha256": "3f3391cb149b69e86d6c758267eec56ae9d86f7523f2dcf078f6f351ff9ee48c",
+      "mathExpressions": 109,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/coordinator-review/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+      "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+      "mathExpressions": 92,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/length-arithmetic-kernel/EXACT_LENGTH_ARITHMETIC_KERNEL.md",
+      "sha256": "bf2e13a5d62f694d638d247fe7d836d0ea57d47f15c8e9360843681ece6b58d9",
+      "mathExpressions": 43,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/log-prime-heat/LOCALIZED_MELLIN_HEAT_ENERGY.md",
+      "sha256": "1ee3d147669929f78a31e785d974eb851bf943453715c361e32ac2355407a1a8",
+      "mathExpressions": 92,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/log-prime-heat-review/INDEPENDENT_LOG_PRIME_HEAT_REVIEW.md",
+      "sha256": "48651b0dee077bf4ac8a576736ef5eabcc21bbeb2eb8c0f644d793c92e4f7093",
+      "mathExpressions": 66,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/root-review/ROOT_CENTERED_PAIR_AND_HEAT_REVIEW.md",
+      "sha256": "388e7bcab1c1e7faa345af6e48be61e15b614baac5af25ce1fe391ea5167a60f",
+      "mathExpressions": 51,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/root-review/ROOT_KERNEL_AND_TAUBERIAN_REVIEW.md",
+      "sha256": "5f2846e03a1c30bec56001e6bebecc44a3c02b2a68ced3c2bc49fd238865e621",
+      "mathExpressions": 48,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/strict-arithmetic-review/HISTORICAL_REVIEW_STATUS.md",
+      "sha256": "068701436b1c40d509a3b833f87ad5c5ff31070c600136c7a459d6f7e7fc58f9",
+      "mathExpressions": 0,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/strict-arithmetic-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+      "sha256": "459f438da25a2b37e915abe39ad4b624e8cc490cec89642465821c0dde217655",
+      "mathExpressions": 9,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e",
+      "mathExpressions": 213,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/strict-arithmetic-target/sources/COORDINATOR_H1_OBSTRUCTION.md",
+      "sha256": "5270e51de9df32aecee7fd63e569c5f3cdcd743107fc1c7f7be69cf6df587d34",
+      "mathExpressions": 47,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction/CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e",
+      "mathExpressions": 171,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/strict-arithmetic-target/superseded-before-h1-obstruction/prior-independent-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+      "sha256": "5a0de0ac42401897b4e417be4ce8804867ede2b937ff6ebc85a9711df02728e4",
+      "mathExpressions": 6,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/dyson/round21/tauberian-information/FIXED_BUMP_TAUBERIAN_EQUIVALENCE.md",
+      "sha256": "3f3391cb149b69e86d6c758267eec56ae9d86f7523f2dcf078f6f351ff9ee48c",
+      "mathExpressions": 109,
+      "errors": [],
+      "controls": []
+    },
+    {
+      "path": "research/reports/dyson_round21.md",
+      "sha256": "f5998eea456cc0e95acadfd0fda7217f84c30ddc19f7919cd2c5d6d7caa18a14",
+      "mathExpressions": 130,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

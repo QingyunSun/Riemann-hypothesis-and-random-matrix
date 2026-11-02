@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "fourier_convention": "exp(-2*pi*i*x*alpha)",
+  "b_definition": "4*pi*a, where a is the Poisson width in mean-spacing units",
+  "sine_minus_ACUE_small_b_series": "b/12 - b**2/12 + 11*b**3/360 - b**4/360 + O(b**5)",
+  "small_b_gap_over_b": "1/12",
+  "large_b_gap_times_b_squared_exp_b": "2",
+  "canonical_product_normalization": "exact rational finite paired-product identity verified",
+  "floating_subset_enumeration": [
+    {
+      "N": 2,
+      "subsets": 6,
+      "normalization_error": 0.0,
+      "max_trace_second_moment_error": 1.1102230246251565e-16
+    },
+    {
+      "N": 3,
+      "subsets": 20,
+      "normalization_error": -1.1102230246251565e-16,
+      "max_trace_second_moment_error": 1.7763568394002505e-15
+    },
+    {
+      "N": 4,
+      "subsets": 70,
+      "normalization_error": 0.0,
+      "max_trace_second_moment_error": 3.552713678800501e-15
+    },
+    {
+      "N": 5,
+      "subsets": 252,
+      "normalization_error": 2.220446049250313e-16,
+      "max_trace_second_moment_error": 1.0658141036401503e-14
+    },
+    {
+      "N": 6,
+      "subsets": 924,
+      "normalization_error": -2.7755575615628914e-15,
+      "max_trace_second_moment_error": 4.263256414560601e-14
+    }
+  ],
+  "scope": "Exact analytic identities plus numerical integration/finite ensemble checks. No actual-zeta variance, AH refutation or novelty claim.",
+  "elapsed_seconds": 0.6458386669983156
+}

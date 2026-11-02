@@ -1,0 +1,38 @@
+{
+  "checks": "Eight tiny symbolic identities, 164 KaTeX expressions and control scan pass; no arithmetic or parameter scan.",
+  "files": [
+    {
+      "bytes": 14577,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/singular-correction-review/REFINED_SINGULAR_CORRECTION.md",
+      "sha256": "b6a6211db21df5e5d10031027863eb4764bdab820f60ab4befb63c8dc9caeffe"
+    },
+    {
+      "bytes": 1639,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/singular-correction-review/check_singular_correction_algebra.py",
+      "sha256": "d8dfa09d5cf5e5944086345f03dad94ade50ab4d3d67fdc10961614382c1eb28"
+    },
+    {
+      "bytes": 509,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/singular-correction-review/singular_correction_checks.json",
+      "sha256": "12f25aafa2c2f5e21298df97146de49388f6c90728d705610a215888b0f09479"
+    },
+    {
+      "bytes": 509,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/singular-correction-review/singular_correction_checks.log",
+      "sha256": "12f25aafa2c2f5e21298df97146de49388f6c90728d705610a215888b0f09479"
+    },
+    {
+      "bytes": 88,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/singular-correction-review/math_syntax_checks.json",
+      "sha256": "90d0c0abe91b9c2c57a6e6ccd757342cc26a6ee59b66a1fcb77667f12f659e4f"
+    },
+    {
+      "bytes": 3169,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round26/singular-correction-review/source_receipt.json",
+      "sha256": "8ef861c990ade4509cbf228f47e7461631ab7316866bac87cf639ec240d24eba"
+    }
+  ],
+  "reproduce": "python3 check_singular_correction_algebra.py > singular_correction_checks.log",
+  "scope": "Unconditional refined singular-series transform and continuum constant; RH prime-marginal correction. Does not claim global divisor-error control or a strict covariance estimate.",
+  "status": "independent correction proof frozen; separate full ordinary review pending"
+}

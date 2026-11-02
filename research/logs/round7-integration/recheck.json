@@ -1,0 +1,26 @@
+{
+  "scope": "Bounded replay of exact identities and numerical witnesses; no new zeta bound or interval integration certificate.",
+  "prior_arithmetic_source_sha256": "29318c9b0176f7a056d0b1372a00c4f7ccea5228caa53d91882396a3e7556fdb",
+  "public_intake_hashes_verified": 43,
+  "python_files_parsed": 8,
+  "checks": {
+    "poisson-resolvent/poisson_checks.json": "identical JSON after removing only timing fields",
+    "poisson-resolvent/two_scale_certificate.json": "identical JSON after removing only timing fields",
+    "true-zeta-flow/forward_flow_checks.json": "identical JSON after removing only timing fields",
+    "dyson-frontier/kernel_identity_check.json": "identical JSON after removing only timing fields",
+    "arithmetic-resonator/independent_identity_checks.json": "identical JSON after removing only timing fields",
+    "arithmetic-resonator/validation.json": "identical JSON after removing only timing fields",
+    "arithmetic-resonator/large_prime_sector_d4_q40.json": "identical JSON after removing only timing fields",
+    "arithmetic-resonator/fixed_rational_vector.json": "identical JSON after removing only timing fields",
+    "arithmetic-resonator/finite_integer_results.json": "identical JSON after removing only timing fields"
+  },
+  "matrix_replay": {
+    "order": 40,
+    "identical_arrays": [
+      "M",
+      "G"
+    ]
+  },
+  "original_files_unchanged": 46,
+  "status": "PASS"
+}

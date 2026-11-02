@@ -1,0 +1,61 @@
+{
+  "scope": "Exact scalar/finite identities and fixed symbolic replay; no asymptotic zeta lower bound.",
+  "intake_files_verified": 10,
+  "python_files_parsed": 2,
+  "checks": {
+    "check_centered_tail.py": "identical complete JSON; no fields excluded",
+    "minorant_symbolic_check.py": "identical complete JSON; no fields excluded"
+  },
+  "independent_exact_endpoint_cases": [
+    {
+      "cutoff": 31,
+      "exponent": 2,
+      "exact_difference": "0",
+      "endpoint_atom_error_if_only_endpoint_uses_left_limit": "0"
+    },
+    {
+      "cutoff": 31,
+      "exponent": 3,
+      "exact_difference": "0",
+      "endpoint_atom_error_if_only_endpoint_uses_left_limit": "0"
+    },
+    {
+      "cutoff": 32,
+      "exponent": 2,
+      "exact_difference": "0",
+      "endpoint_atom_error_if_only_endpoint_uses_left_limit": "1/512"
+    },
+    {
+      "cutoff": 32,
+      "exponent": 3,
+      "exact_difference": "0",
+      "endpoint_atom_error_if_only_endpoint_uses_left_limit": "1/16384"
+    },
+    {
+      "cutoff": 37,
+      "exponent": 2,
+      "exact_difference": "0",
+      "endpoint_atom_error_if_only_endpoint_uses_left_limit": "1/37"
+    },
+    {
+      "cutoff": 37,
+      "exponent": 3,
+      "exact_difference": "0",
+      "endpoint_atom_error_if_only_endpoint_uses_left_limit": "1/1369"
+    },
+    {
+      "cutoff": 40,
+      "exponent": 2,
+      "exact_difference": "0",
+      "endpoint_atom_error_if_only_endpoint_uses_left_limit": "0"
+    },
+    {
+      "cutoff": 40,
+      "exponent": 3,
+      "exact_difference": "0",
+      "endpoint_atom_error_if_only_endpoint_uses_left_limit": "0"
+    }
+  ],
+  "original_files_unchanged": true,
+  "status": "PASS"
+}

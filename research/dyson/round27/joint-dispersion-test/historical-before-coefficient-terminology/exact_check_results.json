@@ -1,0 +1,28 @@
+{
+  "Frobenius_to_block_power_at_Y_sqrtX": "1/4",
+  "author_sha256": "c7012e375b62263ec472dcb45e362caebca6d8719fe5080c7476a1f4b0d94e5b",
+  "check_groups": {
+    "actual_signed_convolution_coefficient_examples": 2,
+    "centered_two_prime_product_expansion": 9,
+    "joint_Gram_and_fixed_vector_Cauchy": 2,
+    "medium_band_power_margins": 5,
+    "prime_and_twice_prime_dense_divisor_gap_examples": 4,
+    "source_186_exact_parameter_checks": 4
+  },
+  "medium_band_power_margins": {
+    "B_order60": "11/100",
+    "cofactor_grid": "13/25",
+    "joint_RH": "49/300",
+    "nonprimitive": "49/100",
+    "principal_mask": "1/100"
+  },
+  "scope": "Exact finite algebra only; no large-prime scan or unproved operator-norm test.",
+  "source_186_lhs": [
+    "48/125",
+    "82/125",
+    "27/50"
+  ],
+  "source_level": "509/1000",
+  "status": "PASS",
+  "total_scalar_cases": 26
+}

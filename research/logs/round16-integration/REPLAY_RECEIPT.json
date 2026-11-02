@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "replays": [
+    {
+      "script": "bragg-atom/check_bragg_target.py",
+      "output": "bragg_checks.json",
+      "sha256": "4292d35122c0205c68031a44da8c8ad74ac271a4c8c5297a9131d443d7d45218",
+      "comparison": "all bytes identical",
+      "excluded_fields": []
+    },
+    {
+      "script": "compact-packet/check_compact_packet.py",
+      "output": "compact_packet_checks.json",
+      "sha256": "805797e6ad68fee584d7b5dc873cf0d413bf21dba413e2a6e1abfebb6b8a2175",
+      "comparison": "all bytes identical",
+      "excluded_fields": []
+    },
+    {
+      "script": "compact-packet-review/check_spline_review.py",
+      "output": "spline_review_receipt.json",
+      "sha256": "552126e05a6b69dbf056df534b5f8e7b00bf63c5080375675706ce97473e2895",
+      "comparison": "all bytes identical",
+      "excluded_fields": []
+    }
+  ],
+  "large_computation": false,
+  "new_zeta_bound": false
+}

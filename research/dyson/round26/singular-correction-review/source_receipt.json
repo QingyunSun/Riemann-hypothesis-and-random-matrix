@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "bytes": 275525,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.pdf",
+      "scope": "Eq47 printedp16, zero-based PDFp15: unconditional integer hinge asymptotic.",
+      "sha256": "4814387da412faf35d86f7e5d84a789cfa6743b08a6dff1e47fbc7632d7a8176",
+      "url": "https://arxiv.org/pdf/math/0409258v1"
+    },
+    {
+      "bytes": 104037,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/sources/montgomery-soundararajan-0409258v1.txt",
+      "scope": "Retained layout extraction, Eq47 and exact page locator reread.",
+      "sha256": "8f00b857564f48f187284592e9feba4c22ddbab4b4e1958bc0c7231029b8c10f"
+    },
+    {
+      "bytes": 1795864,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+      "scope": "Theorem10(6.2), printedp337: RH Psi error including prime powers.",
+      "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897",
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf"
+    },
+    {
+      "bytes": 64608,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+      "scope": "Retained primary layout text.",
+      "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6"
+    },
+    {
+      "bytes": 21504,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round21/strict-arithmetic-target/CENTERED_PAIR_ERROR_TARGET.md",
+      "scope": "Exact b_T and prior diagonal constant M0.",
+      "sha256": "d7e73b8379e1adadd1fba79e3dc6141252c796502ba793030a500a8c5a6fc15e"
+    },
+    {
+      "bytes": 19377,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/joint-main-cancellation/JOINT_MAIN_CANCELLATION.md",
+      "scope": "Fixed-packet joint-main structure and sign of the refined correction; no global little-oh summation inferred.",
+      "sha256": "6995e95c0bf3bd0ba606385f1ee50d23f23d238fccf655f96c93230a7d856d03"
+    },
+    {
+      "bytes": 1814,
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/joint-main-cancellation/AUTHOR_RECEIPT.json",
+      "scope": "Frozen author receipt for the preceding fixed-packet proof.",
+      "sha256": "2058f6d018663e6b9810c42e1a29b1d7e914eff85433236e60c69187565a9d50"
+    }
+  ],
+  "partition_scope": "The communicated global smooth partition is fully defined in this manuscript; no unpublished global covariance theorem is an input.",
+  "primary_check": "MS Eq47 checked in retained text and live primary PDF; page corrected to16. Schoenfeld retained source reused from independent prior proof audits.",
+  "status": "PASS"
+}

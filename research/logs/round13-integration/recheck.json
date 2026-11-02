@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "public_verbatim_files_verified": 15,
+  "checks": [
+    {
+      "script": "phase-resonance/check_phase_resonance.py",
+      "structured_match": true,
+      "excluded_temporary_paths": [
+        "source_receipts[0].path",
+        "source_receipts[1].path",
+        "source_receipts[2].path"
+      ]
+    },
+    {
+      "script": "signed-kernel/check_signed_kernel_norm.py",
+      "structured_match": true,
+      "excluded_temporary_paths": []
+    }
+  ],
+  "scope": "Exact CRT and unit-mask completion, centered variance, constants, residue counts and source hashes. No numerical proof of the analytic asymptotics.",
+  "new_actual_zeta_lower_bound": false,
+  "large_scan": false
+}

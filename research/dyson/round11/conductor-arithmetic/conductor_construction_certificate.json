@@ -1,0 +1,54 @@
+{
+  "status": "exact arithmetic passed; ordinary PNT proof supplies the prime counts",
+  "exponents": {
+    "large_prime": "9/100",
+    "small_prime": "343/346000",
+    "density_budget": "1/1000",
+    "root_radius": "523/2000",
+    "owner_budget": "501/2000",
+    "total_modulus": "523/1000"
+  },
+  "factor_counts": {
+    "large": 2,
+    "small": 346,
+    "per_root_small": 173,
+    "total": 348
+  },
+  "lambda": "2^(-1/348), hence lambda^348=1/2 exactly",
+  "positive_margins": {
+    "small_prime_below_density_budget": "3/346000",
+    "owner_predicate": "51/2000",
+    "opposite_root_guard": "231/2000",
+    "modulus_above_square_root": "23/1000",
+    "low_numerator_count_uniform_growth": "1661/7000"
+  },
+  "permutation_factor": {
+    "formula": "2! * 346!",
+    "exact_integer": "16757221946348303818620437154854212054523424779858987692509130020791653510363399926476919421156223019149307799861115324451964055281341010963030359135059995499426141663266422403170717592207109652197003664956228469348202514268476288680648875084785169049341023314275064419484838081492217411764014623039046042847863073644273391305561510175468702848095339426215609753140364534767077920643480967807806432359857689047208912754529547970241425752807020651193508523720080929504898693287916267318273457407734199451372398242631738420302396477599833260443155638290396334995151284481850613108873772882825090871629475850468034698120653227756607851431486885462016000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "counting_constant": "(1-lambda)^348 / (2! * 346! * u^2 * kappa^346)",
+  "lower_bound_factors_after_c0_mV_squared": {
+    "plain": "1/512",
+    "log_weight": "1/2048"
+  },
+  "norm_log_denominator_exponents": {
+    "plain": 348,
+    "log_weight": 346
+  },
+  "report_sha256": "46347799005bb0f53af25c2a7e8ffb2b2217d92688c7651327dde3562f114b92",
+  "script_sha256": "d9e3727d738d212baf0ee97b94fe206e0235f0e37b5d3ecb89ff362f25e7611d",
+  "primary_source": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+    "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+    "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+    "locations": "divisor inheritance p4; Proposition 2.3 pp4-5"
+  },
+  "scope": [
+    "full canonical Round9 balanced complementary family with coefficient mu(q)",
+    "fixed nonnegative nonzero smooth V supported in (1,2)",
+    "all sufficiently large real X, uniformly X^(1/6)<=H<=X^(2/7)",
+    "not a lower bound for the joint prime pairing",
+    "not a lower bound for every pruned family or modified sieve weights",
+    "no numerical prime realization or effective asymptotic threshold claimed"
+  ]
+}

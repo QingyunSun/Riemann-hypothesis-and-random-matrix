@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "exact_integer_cutoff": 120,
+  "ell_exact": "27/25",
+  "unique_unordered_double_large_prime_decompositions": 12,
+  "coprime_ordered_insertion_triples": 132,
+  "Newton_exact_state_checks": 108,
+  "exact_marked_Fraction_identity": true,
+  "adaptive_moment_checks": [
+    {
+      "powers": [],
+      "independent_adaptive": 0.07816578713855686,
+      "gauss": 0.07816578713855675,
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "powers": [
+        2
+      ],
+      "independent_adaptive": 0.026720020232500724,
+      "gauss": 0.02672002023250067,
+      "absolute_difference": 5.551115123125783e-17
+    }
+  ],
+  "finite_integer_evaluation": {
+    "L": 100000,
+    "theta": 1,
+    "norm": 20.46127352665352,
+    "AstarA": 3.021458701051692,
+    "A2": 1.1749103148677662,
+    "margin": -0.03740946215350416,
+    "number_with_D_equal_one": 11109,
+    "prime_power_nnz": 343614,
+    "seconds": 0.17928120796568692,
+    "scope": "fixed rational coefficients on actual integers; not an asymptotic theorem or zero sample"
+  },
+  "prior_source_sha256": "255ad9a2f29e086eca01b3823bd9ece3ecbfa47b431259a6af3fee260c9afa8d",
+  "script_sha256": "61c4c5c92b5d502670fbf469fe61d422f69778369125ff569a28418aa3dab9ff"
+}

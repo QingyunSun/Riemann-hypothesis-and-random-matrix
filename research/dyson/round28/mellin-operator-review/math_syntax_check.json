@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Syntax and forbidden-control bytes only, not proof validation or PDF layout.",
+  "katexVersion": "0.18.5",
+  "results": [
+    {
+      "path": "../../../Research/ACUE-Astra-Handoff-2026-09-04/research-round28/mellin-operator-review/INDEPENDENT_MELLIN_OPERATOR_REVIEW.md",
+      "sha256": "e3ee3cff8250b2eff0ba8df97fcfa6272fac9c2c49e58627b309cdfdb504ab84",
+      "mathExpressions": 77,
+      "errors": [],
+      "controls": []
+    }
+  ]
+}

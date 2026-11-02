@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-05",
+  "status": "Primary-source range and precision audit; no actual mixed-moment lower bound proved",
+  "path_base": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04",
+  "publication_note": "Third-party source bodies are local references only; publish receipts/pointers, not these bodies.",
+  "sources": [
+    {
+      "path": "research-round10/arithmetic-residual/sources/guth-maynard-2405.20552v2.html",
+      "sha256": "bef63f09d561f24013e8d0c010f25179197c84ce8415d38c27fe6ec14e5dd811",
+      "bytes": 1388004,
+      "reviewed_scope": "Primary v2 dated 7 April 2026: Corollary 1.4, the final Remark after its proof, and stated Theorem 1.1 range. Local reference body only.",
+      "url": "https://arxiv.org/html/2405.20552v2"
+    },
+    {
+      "path": "research-round9/mesoscopic-edge/sources/cccm-three-integrals-2021.pdf",
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac",
+      "bytes": 843595,
+      "reviewed_scope": "Primary author PDF/text: J definition, Theorem 3/Corollary 4, Theorem 14/Corollary 15. Local reference body only.",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "path": "research-round9/mesoscopic-edge/sources/cccm-three-integrals-2021.txt",
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6",
+      "bytes": 180918,
+      "reviewed_scope": "Primary author PDF/text: J definition, Theorem 3/Corollary 4, Theorem 14/Corollary 15. Local reference body only.",
+      "url": "https://www.math.ksu.edu/~chandee/20210207_PSI_Arxiv.pdf"
+    },
+    {
+      "path": "research-round9/mesoscopic-edge/EDGE_RATE_AUDIT.md",
+      "sha256": "47e69edb32f9e2a083ff8a56ed0a6c19c6b6e69477c63f727eb4713458e05934",
+      "bytes": 11044,
+      "reviewed_scope": "Previously reviewed residual definitions, RH upper estimates, uniform prime-only replacement, and slow-diagonal obligations; not a new source theorem."
+    },
+    {
+      "path": "research-round9/mesoscopic-edge/INDEPENDENT_EDGE_REVIEW.md",
+      "sha256": "715ca92465ab81f1e2b3c0c4198fa4f861cb9394168ad749ae2f602d5ff67dd6",
+      "bytes": 3656,
+      "reviewed_scope": "Previously reviewed residual definitions, RH upper estimates, uniform prime-only replacement, and slow-diagonal obligations; not a new source theorem."
+    },
+    {
+      "path": "research-round9/prime-power-removal/PRIME_POWER_TAIL_ESTIMATE.md",
+      "sha256": "e7fff21fa21285a20968c218e99b17b3bc634bf28b88268c002f406a0fdd6cd0",
+      "bytes": 8037,
+      "reviewed_scope": "Previously reviewed residual definitions, RH upper estimates, uniform prime-only replacement, and slow-diagonal obligations; not a new source theorem."
+    }
+  ]
+}

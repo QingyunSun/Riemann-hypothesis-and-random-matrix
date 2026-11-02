@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "bytes": 17025,
+      "path": "CENTERED_PAIR_ERROR_TARGET.md",
+      "sha256": "81a676d68836bff15a50ba6190bf2c1eab7cd54f0d3ae85d604a48fc36a7e54e"
+    },
+    {
+      "bytes": 910,
+      "path": "author_manifest.json",
+      "sha256": "829cff96994fbb3debb6d08d9fa2253dde967e4ea30ad4d7b5ccfb975db3b9f2"
+    },
+    {
+      "bytes": 4051,
+      "path": "source_manifest.json",
+      "sha256": "2deb6bd5b72a12b0812760057873a818526d46f4f9790425dc91ccab4cc1e14a"
+    },
+    {
+      "bytes": 5212,
+      "path": "check_centered_pair_target.py",
+      "sha256": "51f9178f5035e285005ddd27ec88773f03253ddc1d7dee85a8d5c2114e136129"
+    },
+    {
+      "bytes": 5951,
+      "path": "centered_pair_target_checks.json",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 5951,
+      "path": "centered_pair_target_checks.log",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 12186,
+      "path": "prior-independent-review/INDEPENDENT_CENTERED_PAIR_REVIEW.md",
+      "sha256": "5a0de0ac42401897b4e417be4ce8804867ede2b937ff6ebc85a9711df02728e4"
+    },
+    {
+      "bytes": 3302,
+      "path": "prior-independent-review/INDEPENDENT_REVIEW_RECEIPT.json",
+      "sha256": "83b8044d04eabfcfb95fb37a92334db9b7ee362983c46de93f22ac6c3ab9d70e"
+    },
+    {
+      "bytes": 5951,
+      "path": "prior-independent-review/independent_pair_replay.json",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 5951,
+      "path": "prior-independent-review/independent_pair_replay.log",
+      "sha256": "52a481cad73b2c26de39ce2607097ba0f99fe590c510fd35fd10a74d553dfdc2"
+    },
+    {
+      "bytes": 2637,
+      "path": "prior-independent-review/source_hash_checks.json",
+      "sha256": "6990f0597e5d63f1ea16b77f2238c390b8d855254b4c105f3a7eb66cee231606"
+    }
+  ],
+  "reason": "uniform sub-square-root h=1 obstruction found by coordinator after prior acceptance",
+  "status": "superseded section5 feasibility assessment; central identities preserved"
+}

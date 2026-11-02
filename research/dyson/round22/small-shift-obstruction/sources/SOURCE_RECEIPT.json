@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-05",
+  "retained_primary_sources": [
+    {
+      "url": "https://terrytao.wordpress.com/2015/01/21/254a-notes-4-some-sieve-theory/",
+      "locations": "Equation (22), Lemma 17 and Corollary 19; direct uniform dimension-two upper consequence. Fixed-pattern Theorem 32 is not extrapolated.",
+      "files": [
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/sources/tao-2015-sieve-notes.html",
+          "bytes": 1046515,
+          "sha256": "df614dcbd6d8183121114997c8929357b73a9dea707332509f4b8ea0f2658561"
+        },
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round22/small-shift-obstruction/sources/tao-2015-sieve-notes.txt",
+          "bytes": 108496,
+          "sha256": "fab1ec40325bfb0d4a99fbb5dc6a0847b962900e024db58a993e177cdd1f2eef"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ams.org/journals/mcom/1976-30-134/S0025-5718-1976-0457374-X/S0025-5718-1976-0457374-X.pdf",
+      "locations": "Theorem 10, equation (6.2), printed p.337; RH bound, x>73.2, with bounded initial interval absorbed in unspecified constant.",
+      "files": [
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.pdf",
+          "bytes": 1795864,
+          "sha256": "8c3cac1ee52eb05af05ec410adc587a18505a46aacdde41ae097038b0e7c3897"
+        },
+        {
+          "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round13/minor-arc-source/sources/schoenfeld-1976-II.txt",
+          "bytes": 64608,
+          "sha256": "c1ce60172f6a25b94f3c095d75c3a2a1f984c089c523e7994edc5219060d0ad6"
+        }
+      ]
+    }
+  ],
+  "scope": "One upper-sieve primary-source check, exact elementary product and weight calculations, and the previously retained primary RH Chebyshev estimate. No new correlation theorem or numerical scan."
+}

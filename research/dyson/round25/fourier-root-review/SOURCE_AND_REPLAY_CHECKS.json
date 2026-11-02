@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "checked_records": 16,
+  "checks": [
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/ACTUAL_MOBIUS_FOURIER_TEST.md",
+      "bytes": 15958,
+      "sha256": "00343ddd2edd35410bfd6b1a5cd29baa4024a0e074820881d568e0490730e0b5"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/check_fourier_scales.py",
+      "bytes": 1373,
+      "sha256": "2cea1093d80bb4cb53fa2eeef691d03a76f4fe96cdd7b0a0face65dad38297d2"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/fourier_scale_checks.json",
+      "bytes": 1092,
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/fourier_scale_checks.log",
+      "bytes": 1092,
+      "sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/math_syntax_checks.json",
+      "bytes": 88,
+      "sha256": "6e8390f488010b5a45de2bceb999969d95cbeb407e1b56fd7306b7a844e057a8"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/AUTHOR_RECEIPT.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "bytes": 4537,
+      "sha256": "12f94dfe0d51d25d99c8be0930c8ff8cb0aefd829f68933e8b86880ebdaf502c"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/sources/tao-notes8.html",
+      "bytes": 693127,
+      "sha256": "45938cd32927368f4a7ae875474e32c7d44db6ca4d164623823485d5e3d7281d"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/sources/ng-mobius-distribution-2004.pdf",
+      "bytes": 284432,
+      "sha256": "760cc3f77d657e3ceee8969f479c38c2ffcb9851eda72a220932d179fe4c2bb5"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/sources/ng-mobius-distribution-2004.txt",
+      "bytes": 111721,
+      "sha256": "37fd48f9f5287e921e7a6fcbeb3d4ba58b97952a21a960ba9d1895b6074be47b"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/prime-frequency/sources/bhowmik-schlage-puchta-goldbach-2010.pdf",
+      "bytes": 103776,
+      "sha256": "6cf48524eb9473cca93c1ce0ea97e00fc7dab7c49a3db4e01a490cc165296607"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round11/prime-frequency/sources/bhowmik-schlage-puchta-goldbach-2010.txt",
+      "bytes": 15717,
+      "sha256": "3c9fb7b99176f617e444d188d56b133883042fe39bdd83361fce9cc61b2762ac"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.pdf",
+      "bytes": 843595,
+      "sha256": "38dfbdd9f11dd435fde98b0e70466c53bb281f584cbb7debceb6521c8a4c58ac"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round16/bragg-atom/sources/cccc-tale-three-integrals.txt",
+      "bytes": 180918,
+      "sha256": "f7d65431204805f3517160bec38c330fed279ca1190240174a1596511ddbcff6"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round23/even-pair-dispersion/UPPER_WING_SHIFT_COMPLETION.md",
+      "bytes": 18339,
+      "sha256": "2ff5ea968ea2adc76d40fc81a65c23cba5b143593e61c71bbc5c5f30ffc0a1a5"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-target/SMALL_COFACTOR_CENTERED_TARGET.md",
+      "bytes": 20129,
+      "sha256": "c16cc2a52328ca673bcd97db2221235a7a61b7e40a6dff19caa85c4cb3bd4c73"
+    },
+    {
+      "source_receipt": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round25/mobius-fourier-audit/source_receipt.json",
+      "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round24/small-cofactor-review/INDEPENDENT_SMALL_COFACTOR_REVIEW.md",
+      "bytes": 9668,
+      "sha256": "7c424b08cc6ef058e2c40fa0556c048904f260ba52b8f902d0fc66033262514a"
+    }
+  ],
+  "exact_checks": 9,
+  "json_and_stdout_identical": true,
+  "output_sha256": "a449e885768d69c5382e69d51738a04cae132a0e6b61630c1e3f2df0ec8fc9ec",
+  "setup_correction": "First copied replay omitted the manuscript required for its report hash and stopped with FileNotFoundError before producing results. Copied the exact author manuscript and reran successfully; no checker source edits."
+}

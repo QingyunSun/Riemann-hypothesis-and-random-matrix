@@ -1,0 +1,60 @@
+{
+  "status": "exact checks passed; smooth-packet bound is above the target covariance scale",
+  "ramanujan_ratios": {
+    "cases": 9615,
+    "zero_modes_cancelled": 108,
+    "passed": true
+  },
+  "conductor_regrouping": {
+    "toy_squarefree_moduli": [
+      6,
+      10,
+      14,
+      15,
+      21,
+      22,
+      30
+    ],
+    "unreduced_nonzero_modes": 111,
+    "distinct_reduced_frequencies": 73,
+    "plain_and_formal_log_weight_regrouping": "passed",
+    "scope": "exact algebra; no claim of an asymptotic distribution test"
+  },
+  "power_exponents": [
+    {
+      "theta": "1/6",
+      "completion_exponent": "3319/3000",
+      "triangle_exponent": "7/6",
+      "power_improvement_before_logs": "181/3000",
+      "normalized_error_exponent": "319/3000",
+      "prime_power_error_exponent_eta_1_100": "203/300"
+    },
+    {
+      "theta": "2/7",
+      "completion_exponent": "8161/7000",
+      "triangle_exponent": "9/7",
+      "power_improvement_before_logs": "839/7000",
+      "normalized_error_exponent": "1161/7000",
+      "prime_power_error_exponent_eta_1_100": "557/700"
+    }
+  ],
+  "report_sha256": "7b52e4d82dc40bf90183331d548b7fffe5545d1928d7cb93223223b5b71c1d78",
+  "script_sha256": "34c8ddb694a5334a09d7d5fd0c09b0c370ca125086c41fd27b1a9da8b09a9f6d",
+  "frozen_round9": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/research-round9/factorization-covariance/COMPLEMENTARY_MODULI_TYPE_I_BRIDGE.md",
+    "sha256": "982039f0e163b84c1c5b8f2b52f215eb40e7b89863085f2840c039853606f39a"
+  },
+  "primary_source": {
+    "path": "/Users/qingyunsun/Library/CloudStorage/Dropbox/Research/ACUE-Astra-Handoff-2026-09-04/sources/openai-short-gaps.pdf",
+    "sha256": "456f05e0a3ef589ebb0e9abcfd31f140f3c945adbf6950e00ef371a3c88b0930",
+    "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
+    "locations": "Proposition 2.3 pp4-5; equation 2.5 p7; Corollary 2.19 p11"
+  },
+  "arithmetic": "exact Python integers, fractions, and formal prime-log vectors",
+  "scope": [
+    "actual smooth packet of the progression discrepancy",
+    "no bound of order o(X log X)",
+    "no theorem for the whole unsmoothed range or the complementary divisor remainder",
+    "no proof of AH refutation or Montgomery's conjecture"
+  ]
+}
