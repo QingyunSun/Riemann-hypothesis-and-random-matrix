@@ -1,0 +1,41 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.76in]{geometry}
+\usepackage{amsmath,amssymb,lmodern,microtype,enumitem,hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue!55!black}
+\usepackage{xcolor}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\begin{document}
+{\LARGE\bfseries What pair correlations forget about moving zeros}\par
+{\small Discussion note for Terence Tao \hfill 5 November 2026}
+
+In your 2019 ACUE construction, the gaps are multiples of half the mean spacing, yet a whole range of low moments agree exactly with Haar unitary eigenvalues. This gave a finite model for asking how much the known statistics of zeta zeros can tell us about their spacing. We asked a related inverse question. Suppose one knows \emph{every} pair distance in a configuration. Can one tell how long its zeros survive under heat flow before two meet?
+
+\textbf{Four points suffice.} Number eight equally spaced sites around a circle. Occupy
+\[
+ S=\{0,1,3,4\}\qquad\text{or its complement}\qquad C=\{2,5,6,7\}.
+\]
+Both have the same six shorter-arc distances, $1,1,2,3,3,4$. In fact, at every displacement $r$, the number of occupied pairs equals the number of vacant pairs. Expanding $(1-1_S(x))(1-1_S(x+r))$ and summing proves this for any half-filled circle.
+
+Rotate both configurations by $-\pi/2$. Their points are the zeros of
+\[
+ F(x)=\cos 2x-\sqrt2\cos x+1,\qquad G(x)=\sin 2x+\sqrt2\sin x .
+\]
+Run ordinary scalar heat for time $s$, so mode $k$ decays by $e^{-k^2s}$. For $G$, the two moving roots satisfy $\cos x=-e^{3s}/\sqrt2$ and meet the fixed root at $\pi$ when $s=(\log 2)/6\approx0.11552$. For $F$, the quadratic in $\cos x$ first acquires a double root when $y=e^{-2s}$ reaches the largest root of $4y^3-4y+1=0$, at $s\approx0.08863$. Pair distances lose track of which neighbors pull on the same zero. Replacing $x$ by $rx$ gives the same distinction for $4r$ points, with both times divided by $r^2$.
+
+\textbf{What extra information matters?} On twelve sites take $A=\{0,1,2,4,7,8\}$ and its complement. Even their sorted consecutive gaps agree, $(1,1,1,2,3,4)$. Write $p_k=\sum_j e^{ik\theta_j}$. The cubic $\mathrm{Re}(p_1^2\overline{p_2})$ takes values $2$ and $-2$, giving different initial slopes of $|p_2|^2$ under heat. Moving a little ACUE probability from one symmetry orbit to the other therefore preserves the \emph{joint law} of the full pair data and gap histogram while changing the mean heat response.
+
+\textbf{Where the distinction reaches.} The first collision for Haar points occurs on the $N^{-8/3}$ scale, while ACUE's lattice gives a lower bound $\pi^2/(8N^2)$. Local convergence alone cannot give the Haar result. Moving one uniformly chosen point next to another can force an arbitrarily small gap while changing the law in a fixed unfolded window of length $L$ by at most $2L/N$ in total variation. Under circular Dyson Brownian motion, multitime trace moments agree for ACUE and CUE up to total weight $N$ in each sign, and an explicit witness separates them at $N+1$. Our six-point perturbation already changes a cubic inside that protected range. For zeta, the open step is an arithmetic estimate beyond it.
+
+\textbf{Five questions for discussion}
+\begin{enumerate}[leftmargin=*,nosep]
+\item Which three-zero statistic would you try first beyond the protected range, after subtracting all contributions already determined by pairs?
+\item Can we perturb the ACUE weights while preserving the protected mixed moments as well as the pair data, and still change the first collision time?
+\item What is the weakest estimate on the neighbors of one close pair that would let us predict its collision time for zeta?
+\item Under RH, our frequency-two test reduces to a centered variance of short prime sums. Which signed term near $X=T^2$ offers the best chance of a strict saving?
+\item Which family of function-field $L$-functions would let us compute a first unprotected statistic directly from primes and compare it with both ensembles?
+\end{enumerate}
+{\small \href{https://terrytao.wordpress.com/2019/05/08/the-alternative-hypothesis-for-unitary-matrices/}{Tao's ACUE note (2019)}\quad
+\href{https://github.com/QingyunSun/Riemann-hypothesis-and-random-matrix/tree/4b96cd9/research/counterexamples}{Constructions, proofs and exact checks}}
+\end{document}
