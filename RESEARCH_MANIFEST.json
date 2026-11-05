@@ -7408,13 +7408,18 @@
     },
     {
       "path": "docs/handoff/meetings/Tao-ACUE-brief.md",
-      "bytes": 3986,
-      "sha256": "a92ec2c84f787915b1ecb152e5ad718b4b65947ebbce597ee0657a31cca69f26"
+      "bytes": 2770,
+      "sha256": "50e05a18e269fcb6bbd1de058989a316bc84eea0a27cd5a43224d44b92d5d2d8"
+    },
+    {
+      "path": "docs/handoff/meetings/Tao-ACUE-pairs.svg",
+      "bytes": 2230,
+      "sha256": "cbd1c063db893bb5c81b0b3605a4778153bcf3713930784ce251e3a27cec7884"
     },
     {
       "path": "docs/handoff/meetings/Tao-cubic-calculation.md",
-      "bytes": 2366,
-      "sha256": "2403442ee26b7b5ddf8bf28cdff6bdbc6729c6d154912f2d5c74062aeea0af7b"
+      "bytes": 2379,
+      "sha256": "e1f03003906bba5bbc03a711f027bb034995881fa8e9c3677036b49622b62212"
     },
     {
       "path": "tasks/FABLE_001_SYMMETRIC_PRIME_TRANSFER.md",
@@ -7448,8 +7453,8 @@
     },
     {
       "path": "output/pdf/Tao-ACUE-brief.pdf",
-      "bytes": 197335,
-      "sha256": "51d0f9a1d7c0eb68269401b14bd3b4124c4cd6be24cabe737aad65dd6fb4d673"
+      "bytes": 146149,
+      "sha256": "844f1c27993a0a78f6fa2767f421962043fb672c268699f062f892a958e3796b"
     },
     {
       "path": "fable/HEAT_SYNC_INVENTORY.json",

@@ -1,6 +1,6 @@
 # Removing the pair diagonals from the cubic trace
 
-This is the short projection-kernel calculation behind the two numerical examples in the [discussion handout](Tao-ACUE-brief.md). Both are consequences of the finite determinantal formulas in [Tao’s 2019 note, Remarks 5–6](https://terrytao.wordpress.com/2019/05/08/the-alternative-hypothesis-for-unitary-matrices/).
+This companion calculation examines a static three-point test alongside the heat-flow question in the [discussion handout](Tao-ACUE-brief.md). Both are consequences of the finite determinantal formulas in [Tao’s 2019 note, Remarks 5–6](https://terrytao.wordpress.com/2019/05/08/the-alternative-hypothesis-for-unitary-matrices/).
 
 Set $p_k=\sum_j e^{ik\theta_j}$ and let $a,b>0$ with $a+b<2N$. Denote by $D(a,b)$ the ordered sum of $e^{i(a\theta_i+b\theta_j-(a+b)\theta_k)}$ over pairwise distinct $i,j,k$. Inclusion–exclusion gives
 $$

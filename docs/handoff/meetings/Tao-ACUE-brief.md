@@ -1,23 +1,23 @@
-# Testing the half-lattice model for zeta zeros
+# How long before two zeros collide?
 
-Discussion with Terence Tao · 5 November 2026
+A question for Terence Tao · 5 November 2026
 
-The Alternative Hypothesis allows normalized zeta gaps to concentrate near half-integers. Tao’s 2019 alternative circular unitary ensemble (ACUE) realizes this geometry with $N$ eigenangles on $2N$ equally spaced sites. Its low trace moments agree exactly with those of a Haar unitary matrix (CUE). We seek a statistic that separates the models and can also be estimated for zeta zeros.
+Your 2019 ACUE construction showed how a half-lattice of points can pass the same low-frequency tests as the eigenvalues of a random unitary matrix. We asked what happens if we let the points move. Treat them as roots of a polynomial, apply the same deterministic heat flow, and record the first time two roots meet.
 
-**One test on actual zeros.** Assume RH. Let $F_T$ be Montgomery’s form factor and let $\phi$ be a smooth probability density on $[6/5,7/5]$, symmetric about $13/10$. Under AH-Pairs, half-lattice support makes the limiting form factor 2-periodic, giving $\int\phi F_T\to 7/10$. Montgomery’s conjecture predicts $1$. The prime diagonal contributes $13/10+o(1)$. A subsequential lower bound strictly above $-3/5$ for the signed, centered remainder would therefore rule out AH-Pairs. This estimate is open. In a separate frequency-two calculation under RH, one family of balanced sums is $o(1)$ for $T^{2+\varepsilon}\le X\le T^{9/4}$. A signed Möbius–prime correlation remains at $X=T^2$.
+**Four points already show what a list of distances forgets.** The filled dots below are two ways to occupy four of eight equally spaced sites. On either circle, the six distances between pairs, in lattice steps along the shorter arc, are **1, 1, 2, 3, 3, 4**. Yet the first collisions occur at different times. The list of distances loses track of which neighbors act on the same root.
 
-**Three-point tests.** Take $10\mid N$ and write $p_m=\operatorname{tr}(U^m)$. At $m=3N/5$, the mean of $p_m^2\overline{p_{2m}}/N$ is $1/5$ in CUE and zero in ACUE. Removing repeated indices gives zero in both ensembles. For the ordered sum over three distinct indices at frequencies $(11,1,-12)N/10$, the normalized means are instead zero and $1/5$, respectively. Even this difference can be expressed through the known pair form factor.
+![Two four-point configurations with identical pair distances. Their first collision times are approximately 0.08863 and 0.11552.](Tao-ACUE-pairs.svg)
 
-**What heat flow detects.** For scalar flow of the characteristic polynomial, $a_j(s)=a_j(0)e^{sj(N-j)}$, let $D$ be the first collision time and $\delta$ the smallest angular gap. For Haar CUE, $8D/\delta^2\to1$ in probability. Nonclock ACUE configurations satisfy $N^2D\ge\pi^2/8$. Two six-point configurations on the twelfth roots have identical pair differences and gap histograms, yet differ in their heat response and in a clipped Gram trace. For one window used in zeta zero counting, the half-lattice Gram norm is below 2.217, short of its clipping threshold of 3.4. Under circular Dyson Brownian motion, ACUE and CUE still match at several times if the total positive and negative trace weights are each at most $N$ across all observations.
+**The same measurement separates the two ensembles as they grow.** For $N$ Haar unitary eigenvalues, the first collision typically occurs on the scale $N^{-8/3}$. On the ACUE half-lattice, every configuration stays collision-free up to at least $\pi^2/(8N^2)$. A time between those scales separates them. With probability tending to one a CUE polynomial has already had a collision, while every ACUE polynomial is still collision-free.
 
-**Other results.** Among intensity-one processes with a Hermitian convolution determinantal kernel, the full sine pair density determines the sine process. In general, planting one close pair preserves every fixed local sine limit while forcing an arbitrarily small minimum gap. Separately, we verified an admissible 39-tuple of diameter 182. A sieve estimate forcing two primes in infinitely many translates remains open.
+**The question for zeta is whether primes can detect an early collision.** Your work with Brad Rodgers gives a heat flow for zeta itself. To use the finite-model comparison there, we would need to control the pull of the surrounding zeros on a close pair. An estimate from primes for that local interaction is the step we are looking for.
 
-## Five questions for discussion
+## Five questions we would like to ask
 
-1. For the $7/10$ test, which average over prime shifts $h\asymp x/T$ offers the best chance of retaining the sign lost in a mean-square bound?
-2. Which combination of three- or four-point tests would cancel the known pair contributions and leave one arithmetic term we could estimate, perhaps first over a function field?
-3. Can a positive perturbation of finite ACUE preserve both its pair-data law and *all* its mixed trace moments through weight $N$ on each side, while changing a specified higher moment?
-4. Which bandlimited window could make spectral clipping active on a half-lattice and still yield a usable inequality for counting zeros?
-5. What estimate on the zeros surrounding a close pair would be accessible from the explicit formula and strong enough to control its first heat collision?
+1. Which feature of a close pair and its neighbors would you try to estimate first?
+2. Could the explicit formula detect that feature using a short sum over primes?
+3. How much of the surrounding zero configuration must a local heat-flow argument control?
+4. Which family of function-field $L$-functions would give the cleanest first test?
+5. Is there a simpler statistic of the zeros at time zero that retains the same distinction?
 
-[Tao’s original ACUE note (2019)](https://terrytao.wordpress.com/2019/05/08/the-alternative-hypothesis-for-unitary-matrices/) · [Precise AH-Pairs formulation](https://arxiv.org/abs/2507.06823) · [Gram window](https://arxiv.org/abs/2609.33043) · [Research archive, PR 1](https://github.com/QingyunSun/Riemann-hypothesis-and-random-matrix/pull/1)
+[Tao’s ACUE note](https://terrytao.wordpress.com/2019/05/08/the-alternative-hypothesis-for-unitary-matrices/) · [Rodgers–Tao heat flow](https://arxiv.org/abs/1801.05914) · [Exact four-point example](https://github.com/QingyunSun/Riemann-hypothesis-and-random-matrix/blob/4b96cd9d7324bf4c72f880182fcc7bba848227cd/research/counterexamples/pair-matched-flow/PAIR_MATCHED_HEAT_COUNTEREXAMPLES.md) · [Finite heat-flow calculation](https://github.com/QingyunSun/Riemann-hypothesis-and-random-matrix/blob/4b96cd9d7324bf4c72f880182fcc7bba848227cd/research/reports/yau_flow.md)

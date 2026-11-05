@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 120" role="img" aria-label="Two four-point subsets of eight sites with the same six distances but different collision times">
+<circle cx="90" cy="55" r="38" fill="none" stroke="#768e91" stroke-width="1.4"/>
+<circle cx="90.000" cy="17.000" r="5.8" fill="#183d42" stroke="#183d42" stroke-width="1.2"/>
+<circle cx="116.870" cy="28.130" r="5.8" fill="#183d42" stroke="#183d42" stroke-width="1.2"/>
+<circle cx="128.000" cy="55.000" r="3" fill="white" stroke="#94a5a7" stroke-width="1.2"/>
+<circle cx="116.870" cy="81.870" r="5.8" fill="#183d42" stroke="#183d42" stroke-width="1.2"/>
+<circle cx="90.000" cy="93.000" r="5.8" fill="#183d42" stroke="#183d42" stroke-width="1.2"/>
+<circle cx="63.130" cy="81.870" r="3" fill="white" stroke="#94a5a7" stroke-width="1.2"/>
+<circle cx="52.000" cy="55.000" r="3" fill="white" stroke="#94a5a7" stroke-width="1.2"/>
+<circle cx="63.130" cy="28.130" r="3" fill="white" stroke="#94a5a7" stroke-width="1.2"/>
+<text x="148" y="48" fill="#475d60" font-family="Arial,sans-serif" font-size="13">First collision</text>
+<text x="148" y="73" fill="#183d42" font-family="Georgia,serif" font-size="22">t ≈ 0.08863</text>
+<circle cx="359" cy="55" r="38" fill="none" stroke="#768e91" stroke-width="1.4"/>
+<circle cx="359.000" cy="17.000" r="3" fill="white" stroke="#94a5a7" stroke-width="1.2"/>
+<circle cx="385.870" cy="28.130" r="3" fill="white" stroke="#94a5a7" stroke-width="1.2"/>
+<circle cx="397.000" cy="55.000" r="5.8" fill="#183d42" stroke="#183d42" stroke-width="1.2"/>
+<circle cx="385.870" cy="81.870" r="3" fill="white" stroke="#94a5a7" stroke-width="1.2"/>
+<circle cx="359.000" cy="93.000" r="3" fill="white" stroke="#94a5a7" stroke-width="1.2"/>
+<circle cx="332.130" cy="81.870" r="5.8" fill="#183d42" stroke="#183d42" stroke-width="1.2"/>
+<circle cx="321.000" cy="55.000" r="5.8" fill="#183d42" stroke="#183d42" stroke-width="1.2"/>
+<circle cx="332.130" cy="28.130" r="5.8" fill="#183d42" stroke="#183d42" stroke-width="1.2"/>
+<text x="417" y="48" fill="#475d60" font-family="Arial,sans-serif" font-size="13">First collision</text>
+<text x="417" y="73" fill="#183d42" font-family="Georgia,serif" font-size="22">t ≈ 0.11552</text>
+</svg>
