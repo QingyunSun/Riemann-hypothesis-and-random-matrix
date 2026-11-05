@@ -7407,6 +7407,16 @@
       "sha256": "30e1418456ef56c308cc27df8169420938a46746e51f9278f91845530b1963d5"
     },
     {
+      "path": "docs/handoff/meetings/Tao-ACUE-brief.md",
+      "bytes": 3986,
+      "sha256": "a92ec2c84f787915b1ecb152e5ad718b4b65947ebbce597ee0657a31cca69f26"
+    },
+    {
+      "path": "docs/handoff/meetings/Tao-cubic-calculation.md",
+      "bytes": 2366,
+      "sha256": "2403442ee26b7b5ddf8bf28cdff6bdbc6729c6d154912f2d5c74062aeea0af7b"
+    },
+    {
       "path": "tasks/FABLE_001_SYMMETRIC_PRIME_TRANSFER.md",
       "bytes": 752,
       "sha256": "ffc48479ca4a4fe301ddfa3873e815e3ba581ac818617cc5a22918ed4f187f29"
@@ -7435,6 +7445,11 @@
       "path": "output/pdf/ASTRA_ROUNDS_6_14_HANDOFF.pdf",
       "bytes": 5044734,
       "sha256": "1092c6f1e81a9c13bc3106ffe3943f15ff742c7c794729c99233c8ebc805033a"
+    },
+    {
+      "path": "output/pdf/Tao-ACUE-brief.pdf",
+      "bytes": 197335,
+      "sha256": "51d0f9a1d7c0eb68269401b14bd3b4124c4cd6be24cabe737aad65dd6fb4d673"
     },
     {
       "path": "fable/HEAT_SYNC_INVENTORY.json",
