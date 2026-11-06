@@ -1,0 +1,60 @@
+{
+  "input_pdf": {
+    "name": "Tao-ACUE-meeting.pdf",
+    "sha256": "ad32936b90209fb1d1dbfdf66fe9dbd687171c748f7ac052dd255f927e988ede",
+    "pages": 1
+  },
+  "local_source_repository_head": "b1276a6d334850d29d60f498d6cfa7287fb6de07",
+  "generation_tool": "built-in image_gen",
+  "output_pages": 2,
+  "image_sizes": {
+    "01-pair-data.png": [
+      1086,
+      1448
+    ],
+    "02-two-flows.png": [
+      1086,
+      1448
+    ]
+  },
+  "checks": {
+    "example_tests": 5,
+    "half_filled_configurations_exhaustively_checked": 348,
+    "example_tests_passed": true,
+    "root_velocity_slope_check": "Independent direct cotangent root velocities agree with 120 and 104.",
+    "pdf_structure": "2 pages, one embedded image per page, image bounds inside page",
+    "visual_review": "Both final PDF pages rendered and inspected. Exact eight-site occupancy, 7-vs-7 ensemble schematic, times, cubic conjugation, shared DBM budgets, formulas and margins checked.",
+    "mathematical_source_review": "Separate agent checked scalar heat vs DBM, shared weight budget and project CUE scale proof scope.",
+    "limitations": "Numerical example checks and internal source review are not formal verification or external peer review."
+  },
+  "files": {
+    "01-pair-data.png": {
+      "bytes": 2101811,
+      "sha256": "ed7959a0bce88738310bd8ff98c1566ce5f8c56cc24fab58db2e1ba4435b76c1"
+    },
+    "02-two-flows.png": {
+      "bytes": 2195191,
+      "sha256": "5b0740a9a531d3352a223cabf1fd32ae19801258d82c2fc9241daf1a2f9cb11c"
+    },
+    "README.md": {
+      "bytes": 6353,
+      "sha256": "6fb5796a489db8307c71c80e144e5259897871ff52e74e476ce1e38e073464b8"
+    },
+    "Tao-ACUE-two-flows-cartoon.pdf": {
+      "bytes": 5849622,
+      "sha256": "585fcf05ac0a7dd1a5c9ebe35bc741aa8ae087ad6a3f4b3738fdaffa5db260ce"
+    },
+    "build_pdf.py": {
+      "bytes": 1337,
+      "sha256": "ca8f2ab5f9920e8620410c9d769bf86d9f3ce22755111b592eaad6626e44d81e"
+    },
+    "generation-prompts.md": {
+      "bytes": 8383,
+      "sha256": "b3f895d2ab2c14c3f5822f7ec0e1012db628b074240e47be990594ee7964cab1"
+    },
+    "verify_examples.py": {
+      "bytes": 3302,
+      "sha256": "c7e5cf060e2d834261aca47de52cd78e2d5688e14b921dce71f7df6fc336bb10"
+    }
+  }
+}

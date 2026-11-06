@@ -1,5 +1,7 @@
 # What pair correlations forget
 
+For the expanded eight-panel explanation, including the difference between scalar heat and Dyson Brownian motion, see [Two flows and the missing arithmetic bridge](two-flows/README.md) and its [two-page PDF](two-flows/Tao-ACUE-two-flows-cartoon.pdf).
+
 A six-panel English cartoon for mathematics PhD readers, based on the 5 November 2026 Tao meeting note. This is an explanation of the finite-model results in that note, not an announcement of a new zeta theorem.
 
 - [Full cartoon](Tao-ACUE-PhD-cartoon.png)
