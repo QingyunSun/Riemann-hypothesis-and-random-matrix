@@ -23,6 +23,7 @@
     "n10_cycles_independent.json": "9169852fd1b7b1b24a62dbc6c021e6ca1f24cc00358d786cb31dee8787cf1a68",
     "MIDPOINT_ISOLATION.md": "05355a30cea33ff235536d2e3f9afdd6f6f8e3611ff4ae45a3b59d00961e0f8d",
     "ELEVEN_POINT_PROTECTED_SURVIVAL.md": "50dfb32911d4bcd27e47519e02bfa0958144edba14c941ab631d489a36dd3edc",
+    "CONCURRENT_PR5.md": "facb51e8c67d0e0ce46e5aa25861a406211c5f50bc0ea1205fe90cf0a2ce6823",
     "n11_symmetry_replay.py": "8ad02d2648f46a3b6afb5d22138147c317f5eccbd0a9ce70935d6044f481febd",
     "n10_cycles_independent.py": "7f8fb63c9cb32645610938ae5031bbdc7c695356cb2edcf99868ad2d1e5ef20f",
     "STURM_RECEIPT.json": "82290de95d09462566723763730f9acbfab9d20b97733a9b656045d4c2458d32",
@@ -40,7 +41,7 @@
     "midpoint-review.md": "a1d44d1e445f977a4d7fc2bd1e4ecf9ac37236b3eee551bef14c483dc91aa439",
     "HANDOFF_PDF_QA.json": "9fe1f1b24c0a79030c77586f1cdd26781b9d53c56ec02bff5a773e71123ee13b",
     "n10_small_minimality.py": "b1f2447b1855f1c1b48c29ec1fc79f936f0692f6675b2af8d767d23b07851a12",
-    "README.md": "f309197546050cbc56f912d559d2fcb11a8c3982a917eec220748633d284ba58",
+    "README.md": "eb4126fb006a2fe0e1be9eb63b18ad2b7a37f9cc4c9fc522991e80da7bf9b9f1",
     "n11-flow-review.md": "b6ec67fa4e300d2cf611f0a5243102df5b11e9a6af1b4bff0c9d8f5c19c84fb5",
     "n10_symmetry_replay.json": "ed496802ce81f007d5b79b47443b16e32f315a018ef0c168a060a8d840f5a5c7",
     "prime_tuple_cores.py": "7829a8d86989f56aceb7e4757302e5b02523fc9d9d0f0a4a4b1ace705732afcf",
@@ -58,5 +59,6 @@
     "SIX_POINT_RIGIDITY.md": "971dc62d8095e5498df17c832ce1c6685665956d6f45cbf2b5f98f31a0b8e579",
     "HANDOFF_SOURCES.json": "291495aae187008344a81273aa0a645a53311af981a622090b2b629301a3d542",
     "trace_rank_replay.py": "d28e3abe0b1cfdf5da9e2f29a730e678e089651bae23e684c94c9e93a544902c"
-  }
+  },
+  "concurrent_pr5_audit": "five existing tests passed; full data and Monte Carlo not replayed"
 }
