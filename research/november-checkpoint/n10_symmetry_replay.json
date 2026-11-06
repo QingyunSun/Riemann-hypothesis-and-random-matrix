@@ -1,0 +1,14 @@
+{
+  "n": 10,
+  "all_subsets": 184756,
+  "traces": [
+    1957,
+    87,
+    19,
+    129
+  ],
+  "even_R_odd_C": 474,
+  "field": 101,
+  "primitive_root": 32,
+  "individual_minor_equalities": 375
+}

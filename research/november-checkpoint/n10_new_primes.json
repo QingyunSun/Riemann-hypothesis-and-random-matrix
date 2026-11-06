@@ -1,0 +1,32 @@
+[
+  {
+    "prime": 101,
+    "root": 32,
+    "rank": 473,
+    "individual": [
+      474,
+      474
+    ],
+    "both": 475
+  },
+  {
+    "prime": 241,
+    "root": 6,
+    "rank": 473,
+    "individual": [
+      474,
+      474
+    ],
+    "both": 475
+  },
+  {
+    "prime": 401,
+    "root": 22,
+    "rank": 473,
+    "individual": [
+      474,
+      474
+    ],
+    "both": 475
+  }
+]

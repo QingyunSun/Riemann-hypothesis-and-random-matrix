@@ -1,0 +1,44 @@
+[
+  {
+    "python_flint": "0.8.0",
+    "bits": 256,
+    "n": 10,
+    "exp_time": [
+      73,
+      72
+    ],
+    "pairs": 2234,
+    "survivors": [
+      1545,
+      1816
+    ],
+    "differences": {
+      "-1": 233,
+      "0": 1497,
+      "1": 504
+    },
+    "digest_format": "sorted pairs, compact ASCII JSON [A,B,survives_A,survives_B] plus LF per pair",
+    "sha256": "deab15f81bfdf13dfc3884f94cb5de1cbb07621bce462420146cc94f5215c703"
+  },
+  {
+    "python_flint": "0.8.0",
+    "bits": 256,
+    "n": 10,
+    "exp_time": [
+      71,
+      70
+    ],
+    "pairs": 2234,
+    "survivors": [
+      1031,
+      1042
+    ],
+    "differences": {
+      "-1": 477,
+      "0": 1269,
+      "1": 488
+    },
+    "digest_format": "sorted pairs, compact ASCII JSON [A,B,survives_A,survives_B] plus LF per pair",
+    "sha256": "f076950abf55723e8c690c74b294f7aeed2817ff08b97e9516fbc97f951cd269"
+  }
+]

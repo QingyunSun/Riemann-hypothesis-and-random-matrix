@@ -1,0 +1,71 @@
+{
+  "1": {
+    "summary_degrees_of_freedom": 0,
+    "rank": 0,
+    "prime": 3
+  },
+  "2": {
+    "summary_degrees_of_freedom": 0,
+    "rank": 0,
+    "prime": 5
+  },
+  "3": {
+    "summary_degrees_of_freedom": 0,
+    "rank": 0,
+    "prime": 7
+  },
+  "4": {
+    "summary_degrees_of_freedom": 0,
+    "rank": 0,
+    "prime": 17
+  },
+  "5": {
+    "summary_degrees_of_freedom": 0,
+    "rank": 0,
+    "prime": 11
+  },
+  "6": {
+    "summary_degrees_of_freedom": 3,
+    "rank": 3,
+    "prime": 109
+  },
+  "7": {
+    "summary_degrees_of_freedom": 10,
+    "rank": 10,
+    "prime": 113
+  },
+  "8": {
+    "summary_degrees_of_freedom": 44,
+    "rank": 44,
+    "prime": 113
+  },
+  "9": {
+    "summary_degrees_of_freedom": 208,
+    "rank": 208,
+    "prime": 109
+  },
+  "10": {
+    "edges": 2234,
+    "cycles": 496,
+    "selfloops": 462,
+    "edges_used": 530,
+    "involution_traces": [
+      1957,
+      87,
+      19,
+      129
+    ],
+    "odd_upper_bound": 474,
+    "rank_mod_101": 473,
+    "two_events": {
+      "73/72": {
+        "combined_augmented_rank": 474,
+        "sha256_signed_cycle_events": "d97578c54f39c8d0a94ebb7a04952eca047066eba9cb53601834f926f7104658"
+      },
+      "71/70": {
+        "combined_augmented_rank": 475,
+        "sha256_signed_cycle_events": "1dec37a0083dd5722efda5fda0322ed95f8cd693cc0a0863606ed9750fa9f631"
+      }
+    }
+  }
+}

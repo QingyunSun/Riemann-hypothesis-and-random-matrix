@@ -1,0 +1,98 @@
+[
+  {
+    "n": 2,
+    "prime": 97,
+    "root": 22,
+    "orbits": 2,
+    "tests": 6,
+    "modular_rank": 2,
+    "admissible_highest_weights": 3,
+    "vanishing_alternants": 0,
+    "distinct_weyl_residues": 2,
+    "affine_tilt_dimension": 0
+  },
+  {
+    "n": 3,
+    "prime": 97,
+    "root": 36,
+    "orbits": 4,
+    "tests": 15,
+    "modular_rank": 4,
+    "admissible_highest_weights": 8,
+    "vanishing_alternants": 1,
+    "distinct_weyl_residues": 4,
+    "affine_tilt_dimension": 0
+  },
+  {
+    "n": 4,
+    "prime": 97,
+    "root": 33,
+    "orbits": 10,
+    "tests": 40,
+    "modular_rank": 10,
+    "admissible_highest_weights": 23,
+    "vanishing_alternants": 6,
+    "distinct_weyl_residues": 10,
+    "affine_tilt_dimension": 0
+  },
+  {
+    "n": 5,
+    "prime": 211,
+    "root": 23,
+    "orbits": 26,
+    "tests": 89,
+    "modular_rank": 24,
+    "admissible_highest_weights": 54,
+    "vanishing_alternants": 15,
+    "distinct_weyl_residues": 24,
+    "affine_tilt_dimension": 2
+  },
+  {
+    "n": 6,
+    "prime": 97,
+    "root": 6,
+    "orbits": 80,
+    "tests": 210,
+    "modular_rank": 70,
+    "admissible_highest_weights": 137,
+    "vanishing_alternants": 34,
+    "distinct_weyl_residues": 70,
+    "affine_tilt_dimension": 10
+  },
+  {
+    "n": 7,
+    "prime": 113,
+    "root": 4,
+    "orbits": 246,
+    "tests": 435,
+    "modular_rank": 166,
+    "admissible_highest_weights": 297,
+    "vanishing_alternants": 66,
+    "distinct_weyl_residues": 166,
+    "affine_tilt_dimension": 80
+  },
+  {
+    "n": 8,
+    "prime": 97,
+    "root": 8,
+    "orbits": 810,
+    "tests": 919,
+    "modular_rank": 407,
+    "admissible_highest_weights": 659,
+    "vanishing_alternants": 124,
+    "distinct_weyl_residues": 407,
+    "affine_tilt_dimension": 403
+  },
+  {
+    "n": 8,
+    "prime": 257,
+    "root": 2,
+    "orbits": 810,
+    "tests": 919,
+    "modular_rank": 407,
+    "admissible_highest_weights": 659,
+    "vanishing_alternants": 124,
+    "distinct_weyl_residues": 407,
+    "affine_tilt_dimension": 403
+  }
+]

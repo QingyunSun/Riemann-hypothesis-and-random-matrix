@@ -1,0 +1,73 @@
+[
+  {
+    "n": 1,
+    "orbits": 1,
+    "fibres": 1,
+    "free_parameters": 0,
+    "rank": 0
+  },
+  {
+    "n": 2,
+    "orbits": 2,
+    "fibres": 2,
+    "free_parameters": 0,
+    "rank": 0
+  },
+  {
+    "n": 3,
+    "orbits": 3,
+    "fibres": 3,
+    "free_parameters": 0,
+    "rank": 0
+  },
+  {
+    "n": 4,
+    "orbits": 8,
+    "fibres": 8,
+    "free_parameters": 0,
+    "rank": 0
+  },
+  {
+    "n": 5,
+    "orbits": 16,
+    "fibres": 16,
+    "free_parameters": 0,
+    "rank": 0
+  },
+  {
+    "n": 6,
+    "orbits": 50,
+    "fibres": 47,
+    "free_parameters": 3,
+    "rank": 3,
+    "prime": 13,
+    "primitive_root": 2
+  },
+  {
+    "n": 7,
+    "orbits": 133,
+    "fibres": 123,
+    "free_parameters": 10,
+    "rank": 10,
+    "prime": 29,
+    "primitive_root": 4
+  },
+  {
+    "n": 8,
+    "orbits": 440,
+    "fibres": 396,
+    "free_parameters": 44,
+    "rank": 44,
+    "prime": 17,
+    "primitive_root": 3
+  },
+  {
+    "n": 9,
+    "orbits": 1387,
+    "fibres": 1179,
+    "free_parameters": 208,
+    "rank": 208,
+    "prime": 19,
+    "primitive_root": 2
+  }
+]
