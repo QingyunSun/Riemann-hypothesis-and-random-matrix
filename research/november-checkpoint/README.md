@@ -37,3 +37,7 @@ The expected receipts are in this folder. Provider version labels may differ bet
 Mathematical proof, independent computation and formal proof are separate verification stages. This checkpoint supplies the first two. Its priority relative to the full literature remains subject to an external review.
 
 The submitted changes are a research packet on a separate branch. Removing the packet and the two handoff files reverts this checkpoint. The earlier archive is retained unchanged.
+
+## Concurrent work received after the archive snapshot
+
+[PR #5 read-only audit](CONCURRENT_PR5.md) examines the separately authored windowed triple experiment at its pinned commit. Its five tests were rerun and the checked-in empirical table was read. The full raw-data and Monte Carlo run remains outside this audit. This supplement postdates the 881-page e317d1b handoff snapshot.
