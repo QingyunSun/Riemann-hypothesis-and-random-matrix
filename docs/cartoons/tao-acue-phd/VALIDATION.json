@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-06",
+  "scope": "Expository cartoon based on the Tao meeting note of 5 November 2026",
+  "image_mode": "built-in image_gen, including targeted corrections",
+  "image_pixels": [
+    1024,
+    1536
+  ],
+  "pdf_pages": 4,
+  "checks": [
+    "Independent mathematical review of the finite configurations, collision times, cubic and time-sign conventions",
+    "Visual review of the final poster and all enlarged reading pages",
+    "One embedded image per PDF page; four pages total",
+    "Byte-identical PDF rebuild",
+    "No claim of a new zeta theorem"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 7097,
+      "sha256": "2fd13f0288d6b0a9dfa3759ae03cd3569376a8afeda450f11063e83bf8314101"
+    },
+    "Tao-ACUE-PhD-cartoon.pdf": {
+      "bytes": 2920775,
+      "sha256": "b359a17cf63a413436c258a12d8b01f3e7eebe6d1441e4c734bd1f3a69764b44"
+    },
+    "Tao-ACUE-PhD-cartoon.png": {
+      "bytes": 2206697,
+      "sha256": "3e9c17f32e87ed1ff90594916e88c35eebefc0db2a7c54b8a939005f66c5fa06"
+    },
+    "build_pdf.py": {
+      "bytes": 3493,
+      "sha256": "1dd00018e19d38c77ddd01676b6f93af407209f4a742411e2d4600bc03c74c97"
+    },
+    "generation-prompts.md": {
+      "bytes": 8127,
+      "sha256": "22fca9c666ee94a62c5899a08adf74618851829ea3d39935d4bbe4d4817e44ab"
+    }
+  }
+}
