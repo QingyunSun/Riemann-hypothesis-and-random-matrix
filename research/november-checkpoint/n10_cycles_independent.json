@@ -1,0 +1,9 @@
+{
+  "dihedral_orbits": 4752,
+  "static_fibres": 4155,
+  "complement_edges": 2234,
+  "self_loops": 462,
+  "incident_vertices": 3876,
+  "components": 2138,
+  "circulation_dimension": 496
+}

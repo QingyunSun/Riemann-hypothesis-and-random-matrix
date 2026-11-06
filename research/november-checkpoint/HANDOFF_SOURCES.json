@@ -1,0 +1,198 @@
+[
+  {
+    "path": "research/november-checkpoint/FIRST_SIZE.md",
+    "bytes": 4091,
+    "sha256": "a2f7eacd2a77f27de99b7aedbfc119a213ccb7bdf890a5b8c0506e2a62cc2f87"
+  },
+  {
+    "path": "research/november-checkpoint/ELEVEN_POINT_PROTECTED_SURVIVAL.md",
+    "bytes": 9560,
+    "sha256": "50dfb32911d4bcd27e47519e02bfa0958144edba14c941ab631d489a36dd3edc"
+  },
+  {
+    "path": "research/november-checkpoint/SIX_POINT_RIGIDITY.md",
+    "bytes": 4867,
+    "sha256": "971dc62d8095e5498df17c832ce1c6685665956d6f45cbf2b5f98f31a0b8e579"
+  },
+  {
+    "path": "research/november-checkpoint/n11-rank-review.md",
+    "bytes": 5010,
+    "sha256": "a2a93666d77277efc441a6226f9fb8a5e0acf1caff3c01348615b3e160dab8ac"
+  },
+  {
+    "path": "research/november-checkpoint/n10-review.md",
+    "bytes": 5200,
+    "sha256": "4403875ae1f19ac0560ceba8ed45c8ef3982e511c6ac481d5150229c6d3e21fe"
+  },
+  {
+    "path": "research/november-checkpoint/n11-flow-review.md",
+    "bytes": 5249,
+    "sha256": "b6ec67fa4e300d2cf611f0a5243102df5b11e9a6af1b4bff0c9d8f5c19c84fb5"
+  },
+  {
+    "path": "research/november-checkpoint/MIDPOINT_ISOLATION.md",
+    "bytes": 6906,
+    "sha256": "05355a30cea33ff235536d2e3f9afdd6f6f8e3611ff4ae45a3b59d00961e0f8d"
+  },
+  {
+    "path": "research/november-checkpoint/midpoint-review.md",
+    "bytes": 2392,
+    "sha256": "a1d44d1e445f977a4d7fc2bd1e4ecf9ac37236b3eee551bef14c483dc91aa439"
+  },
+  {
+    "path": "research/november-checkpoint/fable-review.md",
+    "bytes": 8980,
+    "sha256": "d0118111a81f39651c6aa43be8c409152a8b0192050eaf9880212225253f5f81"
+  },
+  {
+    "path": "research/november-checkpoint/prime-review.md",
+    "bytes": 7533,
+    "sha256": "53caf047220b1a97635057aa9f628afdf711412cac87fdde4fb536ee772c1d6f"
+  },
+  {
+    "path": "research/reports/dyson_round15.md",
+    "bytes": 7531,
+    "sha256": "c678052798584442b2647d06697b9f0861c689e535a378059f64cae0b256962e"
+  },
+  {
+    "path": "research/reports/dyson_round16.md",
+    "bytes": 9510,
+    "sha256": "97dc94682856c9a7e0f5dd97b247d276010607e41b7fd3860f2edc87c29b831b"
+  },
+  {
+    "path": "research/reports/dyson_round17.md",
+    "bytes": 7005,
+    "sha256": "665e73c495101d12a872b50b5e9a3121775800696fd16652c799332105ac08a2"
+  },
+  {
+    "path": "research/reports/dyson_round18.md",
+    "bytes": 12288,
+    "sha256": "b235d07edc590b83fc6edcb4d81abfa8bbccdb867ad8747910ba8cd102c2f5df"
+  },
+  {
+    "path": "research/reports/dyson_round19.md",
+    "bytes": 14012,
+    "sha256": "b258c268f45d7ee96334c23aea30f9649368c7a5ad59d0242cdc107bc4bd6e39"
+  },
+  {
+    "path": "research/reports/dyson_round20.md",
+    "bytes": 13426,
+    "sha256": "4758742d5bf3fbe36695a96e396f1de6208be7dbf4cfbaee130a958a9f7552bc"
+  },
+  {
+    "path": "research/reports/dyson_round21.md",
+    "bytes": 20892,
+    "sha256": "f5998eea456cc0e95acadfd0fda7217f84c30ddc19f7919cd2c5d6d7caa18a14"
+  },
+  {
+    "path": "research/reports/dyson_round22.md",
+    "bytes": 15108,
+    "sha256": "65e42a25bd4f97774a9a7ef54a1d2976be50e4974c36b3584772185e0081d971"
+  },
+  {
+    "path": "research/reports/dyson_round23.md",
+    "bytes": 18050,
+    "sha256": "f7a2d23095f5f3c73ae5668427095b354e8c207e03bfeb36ab7850bad29c0780"
+  },
+  {
+    "path": "research/reports/dyson_round24.md",
+    "bytes": 13097,
+    "sha256": "19551631a99470ed19b52eef50d6162de8a12334464e487c4589c39f4632d870"
+  },
+  {
+    "path": "research/reports/dyson_round25.md",
+    "bytes": 12398,
+    "sha256": "fae61ab55a611f5f5522724bdb98eb92204443ff5bf26c470607198a62c27984"
+  },
+  {
+    "path": "research/reports/dyson_round26.md",
+    "bytes": 12518,
+    "sha256": "a5dda62943722d1d4a90d25bcfb75f8bbe618a116951ff1586d767958e5e10fe"
+  },
+  {
+    "path": "research/reports/dyson_round27.md",
+    "bytes": 14041,
+    "sha256": "d4fb6c48f16decab359d8f90f8ba0b76c67c42e96d64916347d233bd208ea9f0"
+  },
+  {
+    "path": "research/reports/dyson_round28.md",
+    "bytes": 13691,
+    "sha256": "ceb5758608749f2cc92822fd541bf7f89a3646a2ee96836aec571a0e424e9cc9"
+  },
+  {
+    "path": "research/reports/dyson_round29.md",
+    "bytes": 11291,
+    "sha256": "57ecf7d4df9ce9c7d2fa0c275900db7bc43e2682f0b5a5f7840b035f79a63cb8"
+  },
+  {
+    "path": "research/reports/dyson_round30.md",
+    "bytes": 3669,
+    "sha256": "18066a53a64520af202cdce330574c5ef3afa958230ce998070d91c3275e1879"
+  },
+  {
+    "path": "research/reports/dyson_round30_followup.md",
+    "bytes": 7661,
+    "sha256": "ffbe5be3366fbb1eefa5bf4c9eec5a7ab76d5bf3aa172b55a521115932fa02e6"
+  },
+  {
+    "path": "research/reports/progress_assessment_2026_09_07.md",
+    "bytes": 10857,
+    "sha256": "fb3cb0657e6f98ff823a023608ef7cc7ec30e5db49475bea87e71130fc20f0ec"
+  },
+  {
+    "path": "research/counterexamples/latest-literature-2026-11-01/QRH_METHOD_AUDIT.md",
+    "bytes": 21960,
+    "sha256": "6e3397e0d482dc3479fbb1809885f561b6e01ee149a6d35edcf06f41fb22f638"
+  },
+  {
+    "path": "research/counterexamples/latest-literature-2026-11-01/ZETA_STATISTICS_SCAN.md",
+    "bytes": 13506,
+    "sha256": "8ffcb0af17e0432bcab52b2b29b9fb2bb50f366c37242236661891a47d2a263e"
+  },
+  {
+    "path": "research/counterexamples/latest-literature-2026-11-01/RMT_NEW_TOOLS_SCAN.md",
+    "bytes": 11601,
+    "sha256": "d4f740b08b634b588a16388982d70743b605439d7e435b3392492974608cc12a"
+  },
+  {
+    "path": "research/counterexamples/latest-literature-2026-11-01/CHOWLA_TRANSFER_AND_RESEARCH_DECISIONS.md",
+    "bytes": 16833,
+    "sha256": "1876eb10f0e88d204a77c1bdc39504d9c36d74f07e793d6fbb17e672fdc2f866"
+  },
+  {
+    "path": "research/counterexamples/latest-literature-2026-11-01/CLIPPED_GRAM_REVIEW.md",
+    "bytes": 6589,
+    "sha256": "fccfbfd1344166ccf3b87e9b7f4035e06a5df911a20ac6c49145d4fa5d56f17c"
+  },
+  {
+    "path": "research/counterexamples/latest-literature-2026-11-01/REVIEW_ROOT_SYNTHESIS.md",
+    "bytes": 6733,
+    "sha256": "b9ee1862ac08019440d4d6c2638bbe31c3f5f66e1285ab2f0e3b2260f992d661"
+  },
+  {
+    "path": "research/counterexamples/ROOT_REVIEW_AND_REPRODUCTION.md",
+    "bytes": 7077,
+    "sha256": "9c0bf72b30ea9544f64c6bec14094d0430d8cb45f15d8b9a36869202b4f90e9e"
+  },
+  {
+    "path": "research/counterexamples/pair-matched-flow/PAIR_MATCHED_HEAT_COUNTEREXAMPLES.md",
+    "bytes": 13337,
+    "sha256": "0a71e55e63537ddf29568d3e31c079071f53da95c3017f889824a07fb595bbfd"
+  },
+  {
+    "path": "research/counterexamples/pair-matched-flow/RARE_DEFECT_LOCAL_UNIVERSALITY.md",
+    "bytes": 9354,
+    "sha256": "ee5edda2101649a5da07e94e275c1176f49e4f2b029e36df9c376ea526044fd3"
+  },
+  {
+    "path": "research/counterexamples/stochastic-protection/AGENT_STOCHASTIC_PROTECTION.md",
+    "bytes": 22243,
+    "sha256": "90c5d88bc938f8410550d337f5689c30726efb614b29a6bf80f75c94671e14f3"
+  },
+  {
+    "path": "docs/handoff/ASTRA_COMPLETE_RESEARCH_CONTEXT_2026_09_05.md",
+    "bytes": 1776575,
+    "sha256": "c284185491a44d63c77b2274b221c60b7c3ae5065e07c2d1d148a0a46f4599f7",
+    "role": "literal historical suffix"
+  }
+]
