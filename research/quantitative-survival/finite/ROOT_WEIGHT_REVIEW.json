@@ -1,0 +1,7 @@
+{
+  "precision_bits": 192,
+  "matched_pairs_checked": 1489,
+  "method": "independent Fourier-projection Gram determinants versus sine-product weights",
+  "total_paired_mass": "[0.4326384603063366178639435758829203511134888146965659 +/- 7.80e-53]",
+  "positive_atom_and_equal_complement_weights": true
+}

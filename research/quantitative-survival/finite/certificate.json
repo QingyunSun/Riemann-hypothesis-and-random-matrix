@@ -1,0 +1,28 @@
+{
+  "certificate": "strict positive probability law with exact moment preservation",
+  "precision_bits": 160,
+  "constraint_rank": 964,
+  "protected_involution_traces": [
+    3956,
+    106,
+    22,
+    184
+  ],
+  "pair_count": 1489,
+  "rho_upper": "[4.9888644261742992732418147862524275058342680744e-6 +/- 3.54e-53]",
+  "preconditioned_residual_upper": "[3.9193994652459108478668377756486630555763827610e-9 +/- 1.77e-56]",
+  "dependent_correction_linf_upper": "[3.9194190186960244914442172553094405728041946976e-9 +/- 3.28e-56]",
+  "relative_density_change_linf_upper": "[0.50000000677788659244799052023863068778834529693 +/- 3.74e-48]",
+  "survival_probability_shift_lower": "[0.0088510707393131353664915208070179916160534369264 +/- 4.69e-50]",
+  "survival_probability_shift_upper": "[0.0088510710019083917772292666359248452766326140308 +/- 2.24e-50]",
+  "simple_certified_lower_bound": "0.0088",
+  "magnification": "99/50",
+  "magnified_lower_bound": "[0.017525120063840008025653211197895623399785805114 +/- 1.30e-49]",
+  "magnified_upper_bound": "[0.017525120583778615718913947939131193647732575781 +/- 4.23e-50]",
+  "magnified_relative_change_bound": "[0.99000001342021545304702123007248876182092368791 +/- 3.42e-48]",
+  "magnified_simple_lower_bound": "0.0175",
+  "selected_orbit_mass": "[0.432638460306336617863943575882920351113488815 +/- 6.67e-46]",
+  "sample_approximation_sha256": "879a342d7c9a79aed72dae2bf72bd79c1fc7ad670a8f25124429237eb5edd76c",
+  "elapsed_seconds": 3.425374984741211,
+  "exact_definition": "Keep the free coordinates equal to stored dyadic h; solve selected 964 protected equations for dependent coordinates. Add q_i h_i to B_i and subtract from A_i."
+}
