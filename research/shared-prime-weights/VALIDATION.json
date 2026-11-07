@@ -1,0 +1,27 @@
+{
+  "research_date": "2026-11-07",
+  "source_base": "f28ca3e9376f45336100295fa130cb75e6a5b415",
+  "clean_replay": "The standard-library checker emitted byte-identical receipt.json after an independent replay and after readability edits.",
+  "period_checks": 120,
+  "floor_example_signed_determinant": -18,
+  "pre_floor_example_cross_ratio": "144/121",
+  "proof_review": "Two independent internal derivations of the Fourier-period cancellation and the lower bound on the shift-two discrepancy increment.",
+  "scope": "Single shared weight at each T, on disjoint frequency bands. The model violates the strong uniform cumulative-error hypothesis. The two rectangle witnesses use separately assigned rows at c=0.",
+  "pdf_pages": 4,
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rendered_formulas": 109,
+  "detected_formula_overflow": [],
+  "files_sha256": {
+    "HANDOFF.md": "f2d13bdb313ae0c0fc2911b90a29ec3b63072499800f8be8e7690e92c278c126",
+    "HANDOFF.pdf": "1a990178cac6b756287c74294ae2bf61057ab7f4ab4fc8597d5256e0debb8066",
+    "README.md": "b0b4c97393d66160afa86b97adc4701e9ebe368fac614054bc6596a7b6591176",
+    "check_common.py": "89d878fd60e4c077ac84c28725f87baf823b0c940d5190c669d30b42c9874b5b",
+    "receipt.json": "8dd865d374b5db8a0ff3e22b026305b50fd6a4ecb8cde506096e844d8eadbf0a",
+    "render.cjs": "621238a4433a745e129f0de4a1289420a59bb71258a8df7fdcdd716454390ad2"
+  }
+}
