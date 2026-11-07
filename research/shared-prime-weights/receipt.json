@@ -1,0 +1,176 @@
+{
+  "c2_enclosure": [
+    "66016120042798017483592917561614769/100000000000000000000000000000000000",
+    "660161860589840764676693930801/1000000000000000000000000000000"
+  ],
+  "scope": "Atomic rank-one witnesses and finite exact wheel-density checks. The packet limit uses the analytic argument.",
+  "pre_floor_example": {
+    "twist": 11,
+    "height": 161051,
+    "left": [
+      1771387,
+      1771397
+    ],
+    "right": [
+      19485283,
+      19485341
+    ],
+    "cells": [
+      [
+        {
+          "h": 26,
+          "primitive_multiplier": "1120/33",
+          "count": 126529,
+          "floor_ranges": [
+            [
+              2834919,
+              2834922
+            ],
+            [
+              2834941,
+              2834944
+            ]
+          ],
+          "certified_atom": null
+        },
+        {
+          "h": 84,
+          "primitive_multiplier": "280/9",
+          "count": 303666,
+          "floor_ranges": [
+            [
+              6236777,
+              6236783
+            ],
+            [
+              6236798,
+              6236804
+            ]
+          ],
+          "certified_atom": null
+        }
+      ],
+      [
+        {
+          "h": -84,
+          "primitive_multiplier": "280/9",
+          "count": 303669,
+          "floor_ranges": [
+            [
+              6236839,
+              6236845
+            ],
+            [
+              6236859,
+              6236865
+            ]
+          ],
+          "certified_atom": null
+        },
+        {
+          "h": -26,
+          "primitive_multiplier": "1120/33",
+          "count": 126528,
+          "floor_ranges": [
+            [
+              2834897,
+              2834899
+            ],
+            [
+              2834919,
+              2834922
+            ]
+          ],
+          "certified_atom": null
+        }
+      ]
+    ],
+    "pre_floor_cross_ratio": "144/121",
+    "floor_determinant": null
+  },
+  "floor_example": {
+    "twist": 5,
+    "height": 3125,
+    "left": [
+      15329,
+      15331
+    ],
+    "right": [
+      76631,
+      76649
+    ],
+    "cells": [
+      [
+        {
+          "h": -14,
+          "primitive_multiplier": "28",
+          "count": 1752,
+          "floor_ranges": [
+            [
+              32366,
+              32366
+            ],
+            [
+              32384,
+              32384
+            ]
+          ],
+          "certified_atom": 18
+        },
+        {
+          "h": 4,
+          "primitive_multiplier": "28",
+          "count": 1460,
+          "floor_ranges": [
+            [
+              26968,
+              26968
+            ],
+            [
+              26987,
+              26987
+            ]
+          ],
+          "certified_atom": 19
+        }
+      ],
+      [
+        {
+          "h": -24,
+          "primitive_multiplier": "28",
+          "count": 2920,
+          "floor_ranges": [
+            [
+              53956,
+              53956
+            ],
+            [
+              53974,
+              53974
+            ]
+          ],
+          "certified_atom": 18
+        },
+        {
+          "h": -6,
+          "primitive_multiplier": "28",
+          "count": 2920,
+          "floor_ranges": [
+            [
+              53956,
+              53956
+            ],
+            [
+              53974,
+              53974
+            ]
+          ],
+          "certified_atom": 18
+        }
+      ]
+    ],
+    "pre_floor_cross_ratio": "1",
+    "floor_determinant": -18
+  },
+  "local_product_checks": 120
+}
