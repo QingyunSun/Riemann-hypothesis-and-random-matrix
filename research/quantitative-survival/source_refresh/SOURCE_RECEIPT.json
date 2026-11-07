@@ -1,0 +1,149 @@
+{
+  "audit_date": "2026-11-06",
+  "scope": "Primary-source and selected certificate-source audit; not independent proof verification or an exhaustive literature scan.",
+  "repository_pins": {
+    "galpha-ai/Alpha-devbox PR11": "0edc027d25b604c97588f7432ee5bac51452b912",
+    "openai/PrimeGaps186": "61340d0b74163003b32756bb16e91d9209a5e330",
+    "romyar1/prime-gaps-lean": "b77bf175bdedc5123027b3fcf0abc38427975770",
+    "kristianmk/839": "b280d51bef5ab32b3280b0955d040085ed522d59"
+  },
+  "primary_pdf_downloads": [
+    {
+      "filename": "lsy_v4.pdf",
+      "url": "https://arxiv.org/pdf/1609.09011v4",
+      "bytes": 942704,
+      "sha256": "b39835b9d5b37e0337f718aea430be6a6f299105cce2b76446b538e57192fb1c"
+    },
+    {
+      "filename": "lsy_v3.pdf",
+      "url": "https://arxiv.org/pdf/1609.09011v3",
+      "bytes": 1375391,
+      "sha256": "8f5848e54df9253efc8a8bdf093c2b38d69b2a0ca3acd03dc4039383c9b8a9d1"
+    },
+    {
+      "filename": "knausgaard_new.pdf",
+      "url": "https://arxiv.org/pdf/2610.08965v1",
+      "bytes": 575514,
+      "sha256": "aedf2891fbe0e55cde9ad85d4ecd8714a75dca1a258abd290d6b4aaf8a08200f"
+    },
+    {
+      "filename": "sharifi182.pdf",
+      "url": "https://www.math.ucla.edu/~sharifi/AI/prime_gaps_182_expository_bundle.pdf",
+      "bytes": 17271479,
+      "sha256": "5362e977880af92a73a79b411a9c66daf0b93af4ec0ed6bec320090386f4b881"
+    }
+  ],
+  "selected_knausgaard_source_files": [
+    {
+      "path": "CHECKSUMS.sha256",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/CHECKSUMS.sha256",
+      "bytes": 34107,
+      "sha256": "5be5143c25afa65a2f9c43fcfd53bdabf264fdde76ebd6961098e3cbc6cd9868"
+    },
+    {
+      "path": "lean/axioms.txt",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/lean/axioms.txt",
+      "bytes": 12844,
+      "sha256": "73544ee6b53ac69df3eb874eed55370b02854d4afe1646e1164785d9a63ccee7",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "lean/Challenge673.lean",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/lean/Challenge673.lean",
+      "bytes": 2572,
+      "sha256": "d3b2e00c0cf99f65704cf7c6b9f677c1e6d6ec015d26a60be11947172f18a616",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "lean/Solution673.lean",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/lean/Solution673.lean",
+      "bytes": 962,
+      "sha256": "7ad04b241093fc010ea977fd106cf170a974c79fd55f2821040c02c35e48e615",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "lean/Simple673/Local/RunAll.lean",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/lean/Simple673/Local/RunAll.lean",
+      "bytes": 1149,
+      "sha256": "7e601474d6730736426c72b89d396a0ccda7b3810e7a097c102437e67b9edd76",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "lean/Distinct839/Local/RunAll.lean",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/lean/Distinct839/Local/RunAll.lean",
+      "bytes": 865,
+      "sha256": "16f2c70a3de82c1340a24422a35764dd76772291b61aa2d8e574e0b58be83e10",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "lean/Line889/Local/RunAll.lean",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/lean/Line889/Local/RunAll.lean",
+      "bytes": 900,
+      "sha256": "b0b6f9865e2bdbbc98f8e982167e1fa551ac8aaca378e03b8e544ff8c02891b3",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "certificate_line/inputs.json",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/certificate_line/inputs.json",
+      "bytes": 6221,
+      "sha256": "9f480bd9849cb083325a0ee64deda33faef421fb986a402c0d2206faf4a24ed9",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "certificate_line/cpp_verification.json",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/certificate_line/cpp_verification.json",
+      "bytes": 120,
+      "sha256": "42047c269b832f3e9dfffd790d415b0739b5426ec3c11c1897ec952aad750294",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "certificate_line/kernel_build.json",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/certificate_line/kernel_build.json",
+      "bytes": 426,
+      "sha256": "25121e4d860aa10f34df4d9ae1934af8f60fd1e017b7cf3039b0d0050358b151",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "certificate_line/majorant_result.json",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/certificate_line/majorant_result.json",
+      "bytes": 4818,
+      "sha256": "f0a8d4be667fdf310688737b3aebfa0634687b3e0b5fa1bc2b5d456f3bc651e8",
+      "matches_published_manifest": true
+    },
+    {
+      "path": "lean/README.md",
+      "url": "https://raw.githubusercontent.com/kristianmk/839/b280d51bef5ab32b3280b0955d040085ed522d59/lean/README.md",
+      "bytes": 20260,
+      "sha256": "6a7e20802b5e4706b35f70ab950cb73217d91792a0a0b605872df465c879918d",
+      "matches_published_manifest": true
+    }
+  ],
+  "checks_performed": [
+    "arXiv landing/PDF/repository statement cross-check for 2610.08965v1",
+    "Visual inspection of PDF theorem and computational-trust pages",
+    "Pinned selected-source checksum match against published manifest (11 of 11 listed downloaded files; manifest separately hashed)",
+    "Read exact native_decide declaration and reported axiom dependencies",
+    "LSY v3/v4 comparison of Definition 2.1, Theorem 2.2 and Appendix F premises",
+    "Exact rational arithmetic for simple-critical-line constant",
+    "Hash equality of 182 exposition against prior checkpoint",
+    "Analytic derivation of clock resolvent regularity and positive microscopic DBM comparison difference"
+  ],
+  "checks_not_performed": [
+    "Complete Lean compilation",
+    "535332163-box Simple673 search replay",
+    "Kernel-table regeneration or kernel-only complete certificate replay",
+    "Independent end-to-end proof verification of Knausgaard or prime-gap claims",
+    "Full line-by-line comparison of every LSY revision",
+    "Actual zeta arithmetic backward-comparison estimate"
+  ],
+  "own_arithmetic_checks": {
+    "critical_line_ratio_exact": "1669159/2478195",
+    "critical_line_ratio_decimal": 0.6735382001819873,
+    "distinct_ratio_decimal": 0.8390045967502969,
+    "clock_lower_bound": 0.1894305308612978,
+    "clock_g_sigma_exponent": "-17/20",
+    "clock_time_exponent": "-4/5",
+    "clock_upper_time_exponent": "-1/4"
+  },
+  "external_full_sources_in_publish_directory": false
+}

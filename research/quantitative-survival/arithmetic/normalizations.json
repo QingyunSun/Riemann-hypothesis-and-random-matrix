@@ -1,0 +1,62 @@
+{
+  "status": "numerical diagnostics, not interval-certified",
+  "euler_product_limit": 2000000,
+  "twin_prime_product": 0.6601618372035142,
+  "height_weight": "normalized exp(-1/((t-1)*(2-t))) on (1,2)",
+  "kernel": "K(u)=integral Phi(t)*cos(t*u) dt",
+  "tail_stabilization": "sum over nonzero h of K(h/H) is exactly -1 by Poisson; compute -1+2*sum(S_p(h)-1)*K(h/H)",
+  "singular_series_checks": [
+    {
+      "p": 11,
+      "H": 110,
+      "predicted": -2.3978952727983707,
+      "sum_q128_cut40": -2.9503459652123976,
+      "sum_q128_cut80": -2.9492991354923,
+      "sum_q256_cut40": -2.9503459652123634,
+      "sum_q256_cut80": -2.9492991354922187
+    },
+    {
+      "p": 11,
+      "H": 1100,
+      "predicted": -2.3978952727983707,
+      "sum_q128_cut40": -2.4730583384845897,
+      "sum_q128_cut80": -2.4722407631820005,
+      "sum_q256_cut40": -2.4730583384845835,
+      "sum_q256_cut80": -2.4722407631818175
+    },
+    {
+      "p": 101,
+      "H": 1010,
+      "predicted": -4.61512051684126,
+      "sum_q128_cut40": -5.0032952842314256,
+      "sum_q128_cut80": -5.002481561409515,
+      "sum_q256_cut40": -5.003295284231363,
+      "sum_q256_cut80": -5.002481561409588
+    },
+    {
+      "p": 101,
+      "H": 10100,
+      "predicted": -4.61512051684126,
+      "sum_q128_cut40": -4.740034100943213,
+      "sum_q128_cut80": -4.7401011681581435,
+      "sum_q256_cut40": -4.740034100943657,
+      "sum_q256_cut80": -4.740101168159216
+    }
+  ],
+  "packet_identity": [
+    {
+      "order": 128,
+      "c_psi": 7.79608577869208e-05,
+      "odd_integral": 0.0,
+      "negative_prime_main_over_c": -0.19999999999999998,
+      "positive_zero_mean": 0.19999999999999998
+    },
+    {
+      "order": 256,
+      "c_psi": 7.796085775104741e-05,
+      "odd_integral": 0.0,
+      "negative_prime_main_over_c": -0.20000000000000004,
+      "positive_zero_mean": 0.20000000000000004
+    }
+  ]
+}

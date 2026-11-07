@@ -1,0 +1,16 @@
+{
+  "checks": 1356,
+  "seed": 46198662,
+  "short_window_length": 0.25,
+  "short_window_quadratic_coefficient": 8.653580846366753,
+  "claimed_weaker_coefficient": 4.934802200544679,
+  "cutoff_tail_example": {
+    "L": 40,
+    "M": 100,
+    "r": 40,
+    "exact_numerator": 1547425049106725343623905280000000000000000000000000000000000000000000,
+    "exact_denominator": 4010484782261896036473212082556964929331197847209708841688801214464000000000,
+    "bound": 3.8584488736894904e-07
+  },
+  "status": "supplementary checks passed; proofs in REPORT.md"
+}

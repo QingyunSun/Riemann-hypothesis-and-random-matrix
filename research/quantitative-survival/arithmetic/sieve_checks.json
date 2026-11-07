@@ -1,0 +1,31 @@
+{
+  "scope": "Supplementary finite invariant checks with exact rational arithmetic. The packet limit requires the analytic proof.",
+  "moduli": [
+    2,
+    6,
+    30,
+    210
+  ],
+  "prime_power_twists": [
+    2,
+    3,
+    4,
+    5,
+    9,
+    11
+  ],
+  "shifts": "all nonzero integers from -12 to 12",
+  "weight": "positive rational row scale times a piecewise-linear multiplier of height 1 to 5/4 on the m=x/n coordinate",
+  "checks": {
+    "admissible_rows": 248,
+    "cumulative_endpoint_checks": 142848,
+    "grid_jump_checks": 71424,
+    "period_density_rows": 576,
+    "positive_integer_atoms": 4005,
+    "prefix_endpoint_checks": 61632,
+    "zero_rows": 328
+  },
+  "largest_prefix_error_divided_by_Q": "5/6",
+  "largest_rounded_primitive_error_divided_by_1_plus_3sQ": "113/325",
+  "status": "passed"
+}

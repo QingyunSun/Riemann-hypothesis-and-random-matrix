@@ -1,0 +1,69 @@
+{
+  "scope": "Internal research checkpoint. Numerical replay, ordinary mathematical derivations, source attribution and unresolved conjectural inputs are distinguished. No external peer review or formal proof claimed.",
+  "branch_base": "b7e68548e809b6be8626ea7019357f7dc07311fd",
+  "candidate_sha256": "879a342d7c9a79aed72dae2bf72bd79c1fc7ad670a8f25124429237eb5edd76c",
+  "computation": {
+    "finite_root_replay_bits": 160,
+    "independent_replay_bits": 224,
+    "clean_copy_replay": "Six original documented commands passed; six receipts matched excluding elapsed-time fields. The independent 224-bit run used a different numerical inverse call.",
+    "dihedral_orbits": 16159,
+    "surviving_orbits": 5627,
+    "selected_orbit_pairs": 1489,
+    "certified_constraint_rank": 964,
+    "magnification": "99/50",
+    "magnified_gain_strictly_greater_than": "0.0175",
+    "lift_atom_checks": 2548,
+    "lift_fibre_checks": 1924,
+    "bounded_probe_supplementary_checks": 1356,
+    "supplementary_sieve_checker": {
+      "admissible_rows": 248,
+      "cumulative_endpoint_checks": 142848,
+      "grid_jump_checks": 71424,
+      "period_density_rows": 576,
+      "positive_integer_atoms": 4005,
+      "prefix_endpoint_checks": 61632,
+      "zero_rows": 328
+    },
+    "sieve_receipt_replayed_byte_for_byte": true
+  },
+  "arithmetic": {
+    "main_term": "Real signed singular-series contribution tends to -beta*cpsi. The raw zero-side identity assumes RH, fixed stated packet supports and the known singular-series average.",
+    "open": "No threshold-beating bound for the actual prime-pair discrepancy; no AH refutation or zeta universality theorem.",
+    "surrogate": "Artificial row-wise nonnegative integer weights with admissibility and primitive-size control can attain any fixed c*beta*cpsi. Not a joint von Mangoldt realization.",
+    "checks": "Independent sign, endpoint, smoothing, convolution, multiplicity and surrogate-measure reviews. General low-packet length wording corrected. The float normalization script is diagnostic only."
+  },
+  "sources": {
+    "pins": {
+      "galpha-ai/Alpha-devbox PR11": "0edc027d25b604c97588f7432ee5bac51452b912",
+      "openai/PrimeGaps186": "61340d0b74163003b32756bb16e91d9209a5e330",
+      "romyar1/prime-gaps-lean": "b77bf175bdedc5123027b3fcf0abc38427975770",
+      "kristianmk/839": "b280d51bef5ab32b3280b0955d040085ed522d59"
+    },
+    "limits": "186/182 and the reported 0.67353820 critical-line proportion were not independently replayed as full external proofs."
+  },
+  "documents": {
+    "markdown_words_whitespace_delimited": 19258,
+    "pdf_pages": 65,
+    "pdf_sha256": "3c9467cb3b079926f95c6b1acf6c1028bf46ce58f199ef1eca3635e8c6197170",
+    "pages_without_body_text": [],
+    "katex_errors": [],
+    "detected_horizontal_overflow": [],
+    "visually_inspected_final_pages": [
+      1,
+      37,
+      53,
+      54,
+      55,
+      56,
+      59,
+      65
+    ],
+    "visual_scope": "Sampled final pages and their display equations; structural checks were applied to all pages."
+  },
+  "package_checks": {
+    "python_sources_parsed": 12,
+    "upstream_json_receipts_parsed": 11,
+    "markdown_files_checked": 16,
+    "local_markdown_link_occurrences_resolved": 38
+  }
+}

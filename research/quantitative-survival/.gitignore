@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+finite/floating.npz
+finite/pivots.npz
+finite/floating.json
+finite/candidate.reconstructed.json
